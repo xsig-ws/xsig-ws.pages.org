@@ -1,338 +1,338 @@
 
-                              JSPP'98  $B%W%m%0%i%`(B
+                              JSPP'98  プログラム
 
-                        ---$BBh(B1$BF|(B   6$B7n(B3$BF|!J?e(B)---  
+                        ---第1日   6月3日（水)---  
 
-$B"!3+2q$N<-!&<B9T0Q0wD90';"(B(13:00-13:10, A$B2q>l(B)                $B@P0f(B $B8wM:(B($BIY;NDL(B)
-
-
-$B"!:GM%=(O@J8>^I=>4<0(B(13:10-13:15, A$B2q>l(B)                        $BBm(B $BOBCK(B($B?@8MBg(B)
+◆開会の辞・実行委員長挨拶(13:00-13:10, A会場)                石井 光雄(富士通)
 
 
-$B"!4pD49V1i(B(13:15-14:45, A$B2q>l(B)                            $B:BD9!'Bm(B $BOBCK(B($B?@8MBg(B)
-  $B!&G>$rAO$k(B                                              $B>>K\(B $B85(B($BM}2=3X8&5f=j(B)
+◆最優秀論文賞表彰式(13:10-13:15, A会場)                        瀧 和男(神戸大)
 
 
-$B"!J,4tM=B,$HEj5!E*<B9T(B(15:15-16:45, B$B2q>l(B)               $B:BD9!'CfED(B $BEP;VG7(B(NEC)
-
-  $B!&J,N%7?%Q%?!<%sMzNrI=$K$h$kJ,4tM=B,5!9=$N6%9gBQ@-$N2~A1(B
-              $BLn8}(B $BNIB@(B($BF|N)(B), $B?9(B $BFX;J(B, $B>.NS(B $BNIB@O:(B, $B0BF#(B $B=(<y(B, $BEgED(B $B=SIW(B($BL>Bg(B)
-
-  $B!&%"%I%l%9L>A0BX$($K$h$k%m!<%IL?Na$NEj5!E*<B9T(B                $B:4F#(B $B<wNQ(B($BEl<G(B)
-
-  $B!&%9!<%Q%9%+%i!&%"!<%-%F%/%A%c$N$?$a$NJ#?t%Q%9<B9T5!9=$NDs0F(B
-                    $B0BEg(B $BM:0lO:(B, $BCfB<(B $BM'MN(B, $B5H@%(B $B8,Fs(B, $BDT(B $B=(E5(B, $BEDCf(B $B1QI'(B($BElBg(B)
+◆基調講演(13:15-14:45, A会場)                            座長：瀧 和男(神戸大)
+  ・脳を創る                                              松本 元(理化学研究所)
 
 
-$B"!%9%1%8%e!<%j%s%0%"%k%4%j%:%`$H%0%i%U$NKd$a9~$_(B(15:15-16:45, C$B2q>l(B)
-                                                        $B:BD9!'OBED(B $B9,0l(B($BL>9)Bg(B)
+◆分岐予測と投機的実行(15:15-16:45, B会場)               座長：中田 登志之(NEC)
 
-  $B!&<BMQE*JBNs:GE,2=%^%k%A%W%m%;%C%5%9%1%8%e!<%j%s%0%"%k%4%j%:%`(BPDF/IHS$B$N(B
-    $BBg5,LOLdBj$X$NE,MQ$H@-G=I>2A(B  
-                                                     $BHtED(B $B9bM:(B, $B3^86(B $BGnFA(B($BAaBg(B)
+  ・分離型パターン履歴表による分岐予測機構の競合耐性の改善
+              野口 良太(日立), 森 敦司, 小林 良太郎, 安藤 秀樹, 島田 俊夫(名大)
 
-  $B!&%N!<%I$N;RB9?t$r9MN8$7$?%j%9%H%9%1%8%e!<%j%s%0K!$NDs0F(B                
-                                    $BCf@n(B $BCi5*(B, $BF#ED(B $BAo(B($B9-EgBg(B), $B;32<(B $B2m;K(B($B6eBg(B)
+  ・アドレス名前替えによるロード命令の投機的実行                佐藤 寿倫(東芝)
 
-  $B!&40A4(B2$BJ,LZ$N%H!<%i%9$X$NJUIi2Y:G>.Kd$a9~$_(B        $B9bAc(B $BN<(B, $B>>NS(B $B><(B($B1'ET5\Bg(B)
+  ・スーパスカラ・アーキテクチャのための複数パス実行機構の提案
+                    安島 雄一郎, 中村 友洋, 吉瀬 謙二, 辻 秀典, 田中 英彦(東大)
 
 
-$B"!JBNs=hM}%7%9%F%`@-G=I>2A(B(15:15-16:45, D$B2q>l(B)          $B:BD9!'4X8}(B $BCR;L(B($BEEAm8&(B)
+◆スケジューリングアルゴリズムとグラフの埋め込み(15:15-16:45, C会場)
+                                                        座長：和田 幸一(名工大)
 
-  $B!&E,1~%k!<%?$N%3%9%H!?%Q%U%)!<%^%s%9(B     $B5H1J(B $BEX(B($B1'ET5\Bg(B), $B;38}(B $B4n65(B($BEEAm8&(B)
+  ・実用的並列最適化マルチプロセッサスケジューリングアルゴリズムPDF/IHSの
+    大規模問題への適用と性能評価  
+                                                     飛田 高雄, 笠原 博徳(早大)
 
-  $B!&HFMQAj8_7k9gLV%7%_%e%l!<%?@8@.7O$K$h$kJBNs7W;;5!$N@-G=I>2A<jK!(B
-                     $BHDAR(B $B7{0l(B, $BKQ(B $BBYM4(B($BC^GHBg(B), $B5WJ]ED(B $BOB?M(B, $B:4F#(B $B;05W(B($B?7>pJs(B)
+  ・ノードの子孫数を考慮したリストスケジューリング法の提案                
+                                    中川 忠紀, 藤田 聡(広島大), 山下 雅史(九大)
 
-  $B!&Bg5,LO%G!<%?JBNs%W%m%0%i%`$N@-G=M=B,<jK!$H(BNPB2.3$B$N@-G=I>2A(B
-     $B5WJ]ED(B $BOB?M(B($B?7>pJs(B), $BHDAR(B $B7{0l(B($BC^GHBg(B), $B:4F#(B $B;05W(B($B?7>pJs(B), $BKQ(B $BBYM4(B($BC^GHBg(B)
-
-
-$B"!%W%m%;%C%5%"!<%-%F%/%A%c(B(17:00-18:30, B$B2q>l(B)          $B:BD9!'>.CS(B $BHFJ?(B($BEEAm8&(B)
-
-  $B!&D6JBNsMWAG%W%m%;%C%5(BRICA-1$B$N9bB.%a%C%;!<%8%O%s%I%j%s%05!9=(B
-                            $B>>2,(B $B9@;J(B, $B2,K\(B $B0l98(B, $BW"Ln(B $B1QM:(B, $B:4F#(B $B;05W(B($B?7>pJs(B),
-                                         $B2#ED(B $BN4;K(B($B;0I)EE5!(B), $B:d0f(B $B=$0l(B($BC^GHBg(B)
-
-  $B!&Hs?tCM7W;;%W%m%0%i%`$N%9%l%C%I4VL?Na%l%Y%kJBNs$rMxMQ$9$k%W%m%;%C%5!&(B
-    $B%"!<%-%F%/%A%c(BSKY
-           $B>.NS(B $BNIB@O:(B($BL>Bg(B), $B4dED(B $B=<98(B($B;0I)=E9)6H(B), $B0BF#(B $B=(<y(B, $BEgED(B $B=SIW(B($BL>Bg(B)
-
-  $B!&%8%*%a%H%j%W%m%;%5(BProcyon$B$NL?Na05=LJ}<0$NI>2A(B
-                                    $B0BN$(B $B>4(B, $B4dED(B $BLw(B, $BLZB<(B $B9/B'(B($B?7>pJsIY;NDL8&(B)
+  ・完全2分木のトーラスへの辺負荷最小埋め込み        高巣 亮, 松林 昭(宇都宮大)
 
 
-$B"!JBNs%*%V%8%'%/%H%7%9%F%`$H1~MQ(B(17:00-18:30, C$B2q>l(B)    $B:BD9!'ED1:(B $B7r<!O/(B($BElBg(B)
+◆並列処理システム性能評価(15:15-16:45, D会場)          座長：関口 智嗣(電総研)
 
-  $B!&JBNsJ,;66(D47?%&%)!<%2!<%`%7%_%e%l!<%7%g%s9=C[4D6-$N<B8=$HI>2A(B
-                             $B8E;T(B $B>;0l(B, $BHx:j(B $BFXIW(B, $B9b66(B $B>!8J(B, $B>>@n(B $B?N(B($B;0I)EE5!(B)
+  ・適応ルータのコスト／パフォーマンス     吉永 努(宇都宮大), 山口 喜教(電総研)
 
-  $B!&E,1~E*%*%V%8%'%/%H$K$h$kJBNs=hM}$N%\%H%k%M%C%/2r>C(B
-       $B9>8}(B $B=E9T(B($B?@8MBg(B), $B2D;y(B $B0!M4H~(B($BIY;NDL(B), $BH,?y(B $B>;9((B($B5~Bg(B), $BBm(B $BOBCK(B($B?@8MBg(B)
+  ・汎用相互結合網シミュレータ生成系による並列計算機の性能評価手法
+                     板倉 憲一, 朴 泰祐(筑波大), 久保田 和人, 佐藤 三久(新情報)
 
-  $B!&JBNs%*%V%8%'%/%H%b%G%k$rMQ$$$?<B;~4V;0<!85%"%K%a!<%7%g%s@8@.%7%9%F%`$N<BAu(B
-                               $B5H@n(B $BOB9((B, $B@5(B $B7rB@O/(B, $B>>Eh(B $B>MJ8(B, $BBm(B $BOBCK(B($B?@8MBg(B)
-
-
-$B"!%0%m!<%P%k%3%s%T%e!<%F%#%s%0(B(17:00-18:00, D$B2q>l(B)  $B:BD9!'90Cf(B $BE/IW(B($B9-Eg;TN)Bg(B)
-
-  $B!&9-0h7W;;%7%9%F%`$N%7%_%e%l!<%7%g%s$K$h$kI>2A(B
-    -Ninf$B%7%9%F%`$N9-0hJ,;64D6-$G$N%8%g%V%9%1%8%e!<%j%s%0<B8=$K8~$1$F(B-
-         $BC]K<(B $B$"$D;R(B($B$*CcBg(B), $B9gED(B $B7{?M(B, $B>.@n(B $B9(9b(B($BEl9)Bg(B), $BCfED(B $B=(4p(B($BEEAm8&(B), 
-                        $B>>2,(B $BAo(B($BEl9)Bg(B), $B:4F#(B $B;05W(B($B?7>pJs(B), $B4X8}(B $BCR;L(B($BEEAm8&(B),
-                                             $BD9Eh(B $B1@J<(B($BJ*<A9)3X9)6H5;=Q8&5f=j(B)
-
-  $B!&(BJava $B$K$h$kBg0hE*JBNs7W;;4D6-(B Ninflet                    
-             $B9bLZ(B $B9@8w(B($BEEAm8&(B), $B>>2,(B $BAo(B($BEl9)Bg(B), $BCfED(B $B=(4p(B, $B4X8}(B $BCR;L(B($BEEAm8&(B), 
-                          $B:4F#(B $B;05W(B($B?7>pJs(B), $BD9Eh(B $B1@J<(B($BJ*<A9)3X9)6H5;=Q8&5f=j(B)
+  ・大規模データ並列プログラムの性能予測手法とNPB2.3の性能評価
+     久保田 和人(新情報), 板倉 憲一(筑波大), 佐藤 三久(新情報), 朴 泰祐(筑波大)
 
 
+◆プロセッサアーキテクチャ(17:00-18:30, B会場)          座長：小池 汎平(電総研)
 
-                            ---$BBh(B2$BF|(B  6$B7n(B4$BF|(B($BLZ(B)---
+  ・超並列要素プロセッサRICA-1の高速メッセージハンドリング機構
+                            松岡 浩司, 岡本 一晃, 廣野 英雄, 佐藤 三久(新情報),
+                                         横田 隆史(三菱電機), 坂井 修一(筑波大)
 
-$B"!%A%e!<%H%j%"%k(B(1)(9:30-11:00, B$B2q>l(B)                    $B9V;U!'E7Ln(B $B9@J8(B($B6eBg(B)
-  $B!&JBNs%G!<%?%Y!<%95;=Q(B
+  ・非数値計算プログラムのスレッド間命令レベル並列を利用するプロセッサ・
+    アーキテクチャSKY
+           小林 良太郎(名大), 岩田 充晃(三菱重工業), 安藤 秀樹, 島田 俊夫(名大)
+
+  ・ジオメトリプロセサProcyonの命令圧縮方式の評価
+                                    安里 彰, 岩田 靖, 木村 康則(新情報富士通研)
 
 
-$B"!%A%e!<%H%j%"%k(B(2)(9:30-11:00, C$B2q>l(B)                    $B9V;U!'0BF#(B $B=(<y(B($BL>Bg(B)
-  $B!&L?Na%l%Y%kJBNs=hM}5;=Q(B
+◆並列オブジェクトシステムと応用(17:00-18:30, C会場)    座長：田浦 健次朗(東大)
+
+  ・並列分散協調型ウォーゲームシミュレーション構築環境の実現と評価
+                             古市 昌一, 尾崎 敦夫, 高橋 勝己, 松川 仁(三菱電機)
+
+  ・適応的オブジェクトによる並列処理のボトルネック解消
+       江口 重行(神戸大), 可児 亜祐美(富士通), 八杉 昌宏(京大), 瀧 和男(神戸大)
+
+  ・並列オブジェクトモデルを用いた実時間三次元アニメーション生成システムの実装
+                               吉川 和宏, 正 健太朗, 松嶋 祥文, 瀧 和男(神戸大)
 
 
-$B"!%]%9%?!<%;%C%7%g%s(B(1)(9:30-11:00, E$B2q>l(B)
+◆グローバルコンピューティング(17:00-18:00, D会場)  座長：弘中 哲夫(広島市立大)
 
-  $B!&(BEnhanced Optimization Scheme for Parallel PDE Solver of NSL
+  ・広域計算システムのシミュレーションによる評価
+    -Ninfシステムの広域分散環境でのジョブスケジューリング実現に向けて-
+         竹房 あつ子(お茶大), 合田 憲人, 小川 宏高(東工大), 中田 秀基(電総研), 
+                        松岡 聡(東工大), 佐藤 三久(新情報), 関口 智嗣(電総研),
+                                             長嶋 雲兵(物質工学工業技術研究所)
+
+  ・Java による大域的並列計算環境 Ninflet                    
+             高木 浩光(電総研), 松岡 聡(東工大), 中田 秀基, 関口 智嗣(電総研), 
+                          佐藤 三久(新情報), 長嶋 雲兵(物質工学工業技術研究所)
+
+
+
+                            ---第2日  6月4日(木)---
+
+◆チュートリアル(1)(9:30-11:00, B会場)                    講師：天野 浩文(九大)
+  ・並列データベース技術
+
+
+◆チュートリアル(2)(9:30-11:00, C会場)                    講師：安藤 秀樹(名大)
+  ・命令レベル並列処理技術
+
+
+◆ポスターセッション(1)(9:30-11:00, E会場)
+
+  ・Enhanced Optimization Scheme for Parallel PDE Solver of NSL
                                     Shuichi Ichikawa(Toyohashi Univ. of Tech.),
                                    TakamitsuKawai, Toshio Shimada (NagoyaUniv.)
 
-  $B!&Ej5!E*@)8f!&%G!<%?0MB8%0%i%U$H(BJava Jog-time Analyzer
-    -Java Virtual Accelerator$B$N<B8=$K8~$1$F(B-              
-                                        $B>.CS(B $BHFJ?(B, $B;3L>(B $BAa?M(B, $B;38}(B $B4n65(B($BEEAm8&(B)
+  ・投機的制御・データ依存グラフとJava Jog-time Analyzer
+    -Java Virtual Acceleratorの実現に向けて-              
+                                        小池 汎平, 山名 早人, 山口 喜教(電総研)
 
-  $B!&L?Na$N:FH/9T$r2DG=$K$9$kL?Na%&%$%s%I%&$N=i4|I>2A(B            $B:4F#(B $B<wNQ(B($BEl<G(B)
+  ・命令の再発行を可能にする命令ウインドウの初期評価            佐藤 寿倫(東芝)
 
-  $B!&(BSMP$B7?7W;;5!$r3hMQ$9$k7ZNL%W%m%;%9!&%i%$%V%i%j$N@_7W$H<B8=(B
-         $B>.7'(B $B<w(B, $B3$9>ED(B $B>OM5(B, $B?9K\(B $B9@DL(B, $BEDB<(B $BM'I'(B, $BNkLZ(B $B9W(B, $BCf;3(B $BBY0l(B($BEEDLBg(B)
+  ・SMP型計算機を活用する軽量プロセス・ライブラリの設計と実現
+         小熊 寿, 海江田 章裕, 森本 浩通, 田村 友彦, 鈴木 貢, 中山 泰一(電通大)
 
-  $B!&G[Ns%G!<%?J,3d$K$h$kA2?JE*JBNs=hM}<jK!$NE,MQ(B                
-                                          $B;0ED(B $B>!;K(B, $BD+AR(B $B9(0l(B, $BEOn5(B $BK-1Q(B($BL>Bg(B)
+  ・配列データ分割による漸進的並列処理手法の適用                
+                                          三田 勝史, 朝倉 宏一, 渡邉 豊英(名大)
 
-  $B!&%W%m%;%94VF14|%*!<%P%X%C%I:o8:$N$?$a$NA2?JE*JBNs=hM}<jK!$NDs0F(B          
-                                                     $BD+AR(B $B9(0l(B, $BEOn5(B $BK-1Q(B($BL>Bg(B)
+  ・プロセス間同期オーバヘッド削減のための漸進的並列処理手法の提案          
+                                                     朝倉 宏一, 渡邉 豊英(名大)
 
-  $B!&(BAP1000 $B$rMQ$$$?3XIt3X@8$KBP$9$kJBNs=hM}650i(B                            
-                                                     $BD+AR(B $B9(0l(B, $BEOn5(B $BK-1Q(B($BL>Bg(B)
+  ・AP1000 を用いた学部学生に対する並列処理教育                            
+                                                     朝倉 宏一, 渡邉 豊英(名大)
 
-  $B!&(BMIMD$BJBNs7W;;5!$K$*$1$k2>A[;~4V$rMQ$$$?@-G=I>2AK!(B
-                  $B4dK\(B $BA19T(B, $B0$It(B $BBg51(B, $BBgDE(B $B6b8w(B, $B5H1J(B $BEX(B, $BGO>l(B $B7I?.(B($B1'ET5\Bg(B)
+  ・MIMD並列計算機における仮想時間を用いた性能評価法
+                  岩本 善行, 阿部 大輝, 大津 金光, 吉永 努, 馬場 敬信(宇都宮大)
 
-  $B!&C1J}8~(B2$B<!85%H!<%i%9%M%C%H%o!<%/$N9=@.$HI>2A(B                      
-                                               $B9>Ap(B $B=SJ8(B, $B>.H*(B $B@55.(B($B2,;3M}2JBg(B)
+  ・単方向2次元トーラスネットワークの構成と評価                      
+                                               江草 俊文, 小畑 正貴(岡山理科大)
 
-  $B!&(BJava$B>e$N%9%l%C%I0\Aw%7%9%F%`$H0\F0%(!<%8%'%s%H$X$N1~MQ(B                
-                                                     $B<sF#(B $B0l9,(B, $BB<2,(B $BMN0l(B($BAaBg(B)
+  ・Java上のスレッド移送システムと移動エージェントへの応用                
+                                                     首藤 一幸, 村岡 洋一(早大)
 
-  $B!&0[5!<oJ,;64D6->e$GF0:n$9$k(BML$B=hM}7O$N<BAu(B                    
-                                          $B@uLn(B $B5.;K(B, $BOFED(B $B7z(B, $B:4!9(B $B@/9'(B($BEl9)Bg(B)
+  ・異機種分散環境上で動作するML処理系の実装                    
+                                          浅野 貴史, 脇田 建, 佐々 政孝(東工大)
 
-  $B!&2>A[JBNs7W;;5!$K$h$kLVKl;k:YK&%M%C%H%o!<%/%b%G%k$N%7%_%e%l!<%7%g%s(B
-                         $BF#0f(B $BE/;V(B, $B_@ED(B $BCNLi(B, $B?@;3(B $B@F8J(B, $B110f(B $B;YO/(B($BK-665;2JBg(B)
+  ・仮想並列計算機による網膜視細胞ネットワークモデルのシミュレーション
+                         藤井 哲志, 濱田 知也, 神山 斉己, 臼井 支朗(豊橋技科大)
 
-  $B!&?7$7$$%"!<%-%F%/%A%c(B Very Large Data Path
-                 $B5H@%(B $B8,Fs(B, $BCfB<(B $BM'MN(B, Antonio Magnaghi, $BDT(B $B=(E5(B, $B0BEg(B $BM:0lO:(B, 
-                                            $B9bJv(B $B?.(B, $B:d0f(B $B=$0l(B, $BEDCf(B $B1QI'(B($BElBg(B)
+  ・新しいアーキテクチャ Very Large Data Path
+                 吉瀬 謙二, 中村 友洋, Antonio Magnaghi, 辻 秀典, 安島 雄一郎, 
+                                            高峰 信, 坂井 修一, 田中 英彦(東大)
 
-  $B!&J,;66&M-%a%b%j4IM}%W%m%;%C%5(BMBP-light$B$N<BAu(B
-                              $BEDJU(B $B=_(B, $B0f>e(B $B9@L@(B, $B0B@8(B $B7r0lO/(B, $BE7Ln(B $B1Q@2(B($B7DBg(B),
-                                                 $B:4F#(B $B=<(B($BIY;NDL(B), $BJ?LZ(B $B7I(B($BElBg(B)
+  ・分散共有メモリ管理プロセッサMBP-lightの実装
+                              田辺 淳, 井上 浩明, 安生 健一朗, 天野 英晴(慶大),
+                                                 佐藤 充(富士通), 平木 敬(東大)
 
-  $B!&%?%$%`%o!<%WJ}<0$NDL?.CY1d$K4X$9$k@-<A8!F$(B          
-                                             $B1|B<(B $B>!(B($BJ!2,Bg(B), $BKv5H(B $BIRB'(B($B7'K\Bg(B)
+  ・タイムワープ方式の通信遅延に関する性質検討          
+                                             奥村 勝(福岡大), 末吉 敏則(熊本大)
 
-  $B!&(BIEEE1394$B%P%9$N7W;;5!%M%C%H%o!<%/$X$NE,MQ(B                          
-                                             $B8E2l(B $B5W;V(B, $B?X:j(B $BL@(B($B?7>pJsIY;NDL8&(B)
+  ・IEEE1394バスの計算機ネットワークへの適用                          
+                                             古賀 久志, 陣崎 明(新情報富士通研)
 
-  $B!&%W%m%;%C%5!&%a%b%j:.:\7?(BLSI$B$*$h$S%*%s%A%C%W%^%k%A%W%m%;%C%5(BLSI$B$K4X$9$k8!F$(B
-                 $B6aF#(B $B@5>O(B, $BAa@n(B $B=(Mx(B($BC^GHBg(B), $B:d0f(B $B=$0l(B($BElBg(B), $BKQ(B $BBYM4(B($BC^GHBg(B)
+  ・プロセッサ・メモリ混載型LSIおよびオンチップマルチプロセッサLSIに関する検討
+                 近藤 正章, 早川 秀利(筑波大), 坂井 修一(東大), 朴 泰祐(筑波大)
 
-  $B!&O@M}@Q%k!<%k$r5a$a$kJBNs%G!<%?%^%$%K%s%0$N(BStarFire/Origin2000$B>e$G$N@-G=I>2A(B
-                                                     $BCfC+(B $BL@90(B, $B?92<(B $B??0l(B($BElBg(B)
+  ・論理積ルールを求める並列データマイニングのStarFire/Origin2000上での性能評価
+                                                     中谷 明弘, 森下 真一(東大)
 
-  $B!&1'Ch%W%i%:%^N3;R%7%_%e%l!<%?(BKEMPO1$B$NBg5,LOJBNs2=(B
-                                  $B=);3(B $BBY(B($B?7>pJs(B), $B;0==Hx(B $B7i9b(B($B>pJs?tM}8&5f=j(B),
-                         $BBgB<(B $BA1<#(B, $B>>K\(B $B9I(B($B5~Bg(B), $BLn8}(B $BJ](B, $B54DM(B $B7rB@O:(B($B?7>pJs(B)
+  ・宇宙プラズマ粒子シミュレータKEMPO1の大規模並列化
+                                  秋山 泰(新情報), 三十尾 潔高(情報数理研究所),
+                         大村 善治, 松本 紘(京大), 野口 保, 鬼塚 健太郎(新情報)
 
-  $B!&9bB.%M%C%H%o!<%/$rMQ$$$?(BLAN$B%(%j%"$G$NJBNsJ,;6=hM}%7%9%F%`(B              
-                                                   $B;3K\(B $B=_Fs(B, $B9)F#(B $BCN9((B($B?7>pJs(B)
+  ・高速ネットワークを用いたLANエリアでの並列分散処理システム              
+                                                   山本 淳二, 工藤 知宏(新情報)
 
-  $B!&J,;6%$%s%W%j%5%$%97W;;$N$?$a$NAP<gF3%9%1%8%e!<%j%s%0J}<0$NM=HwI>2A(B
-                      Amien Rusdiutomo, $B:4F#(B $BD>?M(B, $BK\ED(B $B90<y(B, $B5]>l(B $BIR;L(B($BEEDLBg(B)
+  ・分散インプリサイス計算のための双主導スケジューリング方式の予備評価
+                      Amien Rusdiutomo, 佐藤 直人, 本田 弘樹, 弓場 敏嗣(電通大)
 
-  $B!&E4F;M"Aw4V3VJ,;6%(%s%8%K%"%j%s%0%7%9%F%`$N@_7W(B                          
-                                                       $BBGED(B $BBg2p(B, $BM-_7(B $B@?(B($B7DBg(B)
+  ・鉄道輸送間隔分散エンジニアリングシステムの設計                          
+                                                       打田 大介, 有澤 誠(慶大)
 
-  $B!&%G!<%?%U%m!<2>A[%^%7%s%3!<%I(BDVMC$B$N%$%s%?%W%j%?(B        
-                                 $BF|2<It(B $BLP(B, $BBg@>(B $BEP5*(B, $B8eF#(B $BG&(B, $B1+5\(B $B???M(B($B6eBg(B)
+  ・データフロー仮想マシンコードDVMCのインタプリタ        
+                                 日下部 茂, 大西 登紀, 後藤 忍, 雨宮 真人(九大)
 
-$B"!%0%i%U%#%C%/=hM}(B(11:15-12:45, B$B2q>l(B)                    $B:BD9!'?9(B $BbC0lO:(B($B5~Bg(B)
+◆グラフィック処理(11:15-12:45, B会場)                    座長：森 眞一郎(京大)
 
-  $B!&(BAP1000+$B>e$G$N%i%8%*%7%F%#K!$NJBNs2=(B
-    -$B@EE*Ii2YJ,;6$NI>2A$HDL?.$N2~NI$K$h$k@-G=2~A1(B-
-                                                   $B>eEh(B $BL@(B, $B;3:j(B $B>!90(B($BN)L?4[Bg(B)
+  ・AP1000+上でのラジオシティ法の並列化
+    -静的負荷分散の評価と通信の改良による性能改善-
+                                                   上嶋 明, 山崎 勝弘(立命館大)
 
-  $B!&(BPerformance Evaluation of a Parallel Multi-Pass Rendering Algorithm
+  ・Performance Evaluation of a Parallel Multi-Pass Rendering Algorithm
     Based on the Object-space Parallel Processing Model              
-                                            $B;3Fb(B $B@F(B($BEEDLBg(B), $BA0ED(B $BN4G7(B($BElKLBg(B),
-                                   $B>.NS(B $B9-L@(B, $BCfB<(B $B0]CK(B($BElKLBg!?(BStanford Univ.)
+                                            山内 斉(電通大), 前田 隆之(東北大),
+                                   小林 広明, 中村 維男(東北大／Stanford Univ.)
 
-  $B!&%^%k%A%a%G%#%"%"%W%j%1!<%7%g%s$KBP1~$9$k(BHeterogeneous$B9=@.$N%^%k%A%W%m%;%C%5(B
-    $B%"!<%-%F%/%A%c(B
-                         $B5H2,(B $B9/2p(B, $BLZB<(B $B9@;0(B, $BJ?0f(B $B@?(B, $B@686(B $BFD;0(B($B>>2<EE4o;:6H(B)
+  ・マルチメディアアプリケーションに対応するHeterogeneous構成のマルチプロセッサ
+    アーキテクチャ
+                         吉岡 康介, 木村 浩三, 平井 誠, 清原 督三(松下電器産業)
 
-$B"!%i%s%?%$%`;Y1g%7%9%F%`(B(11:15-12:45, C$B2q>l(B)          $B:BD9!'J!ED(B $B98(B($BF`NI@hC<Bg(B)
+◆ランタイム支援システム(11:15-12:45, C会場)          座長：福田 晃(奈良先端大)
 
-  $B!&%a%b%j%Y!<%9DL?.$rMQ$$$?9bB.(B MPI$B$N<BAuJ}<0(B
-                                              $B?9K\(B $B7r;J(B, $B>>K\(B $B>0(B, $BJ?LZ(B $B7I(B($BElBg(B)
+  ・メモリベース通信を用いた高速 MPIの実装方式
+                                              森本 健司, 松本 尚, 平木 敬(東大)
 
-  $B!&%j%b!<%H%a%b%j=q$-9~$_$rMQ$$$?(B MPI$B$N8zN(E*<BAu(B
-                             $B7zIt(B $B=$8+(B, $B;y6L(B $BM41Y(B, $B4X8}(B $BCR;L(B, $B;38}(B $B4n65(B($BEEAm8&(B)
+  ・リモートメモリ書き込みを用いた MPIの効率的実装
+                             建部 修見, 児玉 祐悦, 関口 智嗣, 山口 喜教(電総研)
 
-  $B!&%.%c%s%0%9%1%8%e!<%j%s%0$N9bB.2=5;K!$NDs0F(B
-                                            $BKY(B $BFX;K(B, $B<jDM(B $B9(;K(B, $B@P@n(B $BM5(B($B?7>pJs(B)
-
-
-$B"!?tCM%"%W%j%1!<%7%g%s(B(11:15-12:45, D$B2q>l(B)          $B:BD9!'>>_7(B $B>HCK(B($BKLN&@hC<Bg(B)
-
-  $B!&D6JBNs7W;;5!(BCP-PACS$B$K$*$1$kBg5,LOJ,;RF0NO3XK!%7%_%e%l!<%7%g%s(B
-                                          $B>>86(B $B@5=c(B, $BHDAR(B $B7{0l(B, $BKQ(B $BBYM4(B($BC^GHBg(B)
-
-  $B!&JBNs8GM-CM%=%k%P!<$N<B8=$H$=$NJBNs@-$N2~NI(B                              
-                                                     $BJR6M(B $B9'MN(B, $B6bED(B $B9/@5(B($BElBg(B)
-
-  $B!&J,;RF0NO3XK!%W%m%0%i%`(BAMBER$B$H(BBarnes-Hut tree code$B$NJBNs2=$K$h$k9bB.2=(B
-                           $B:XF#(B $BL-(B($B?7>pJs(B), $B;0==Hx(B $B7i9b(B, $B;V_7(B $BM35W(B($B>pJs?tM}8&(B),
-                       $B4]@n(B $B0l;V(B($B%"%m!<(B), $B=);3(B $BBY(B, $BLn8}(B $BJ](B, $B54DM(B $B7rB@O:(B($B?7>pJs(B)
+  ・ギャングスケジューリングの高速化技法の提案
+                                            堀 敦史, 手塚 宏史, 石川 裕(新情報)
 
 
-$B"!JBNs%=%U%H%&%'%"%3%s%F%9%H(BPSC'98$B7k2LH/I=!&I=>4<0(B(14:00-14:20, A$B2q>l(B)        
-                                                               PSC'98$B<B9T0Q0w2q(B
+◆数値アプリケーション(11:15-12:45, D会場)          座長：松澤 照男(北陸先端大)
 
-$B"!>7BT9V1i(B(14:20-15:45, A$B2q>l(B)                            $B:BD9!'KQ(B $BBYM4(B($BC^GHBg(B)
+  ・超並列計算機CP-PACSにおける大規模分子動力学法シミュレーション
+                                          松原 正純, 板倉 憲一, 朴 泰祐(筑波大)
 
-  $B!&(BPerformance Analysis of Parallel Systems: Approaches and Open Problems
+  ・並列固有値ソルバーの実現とその並列性の改良                              
+                                                     片桐 孝洋, 金田 康正(東大)
+
+  ・分子動力学法プログラムAMBERとBarnes-Hut tree codeの並列化による高速化
+                           斎藤 稔(新情報), 三十尾 潔高, 志澤 由久(情報数理研),
+                       丸川 一志(アロー), 秋山 泰, 野口 保, 鬼塚 健太郎(新情報)
+
+
+◆並列ソフトウェアコンテストPSC'98結果発表・表彰式(14:00-14:20, A会場)        
+                                                               PSC'98実行委員会
+
+◆招待講演(14:20-15:45, A会場)                            座長：朴 泰祐(筑波大)
+
+  ・Performance Analysis of Parallel Systems: Approaches and Open Problems
                     Daniel A. Reed, Ruth A. Aydt, Luiz DeRose, Celso L. Mendes,
              Randy L. Ribler, Eric Shaffer, Huseyin Simitci, Jeffrey S. Vetter,
                Daniel R. Wells, Shannon Whitmore, Ying Zhang(Univ. of Illinois)
 
 
-$B"!JBNs%=%U%H%&%'%"%3%s%F%9%H(BPSC'98 $B9VI>!&F~A*<T$NH/I=(B(16:15-17:45, B$B2q>l(B)    
-                                                               PSC'98$B<B9T0Q0w2q(B
+◆並列ソフトウェアコンテストPSC'98 講評・入選者の発表(16:15-17:45, B会場)    
+                                                               PSC'98実行委員会
 
 
-$B"!%]%9%?!<%;%C%7%g%s(B(2) (16:15-17:45, E$B2q>l(B)
-  ($BH/I=FbMF$O%]%9%?!<%;%C%7%g%s(B(1)$B$HF10l(B)
+◆ポスターセッション(2) (16:15-17:45, E会場)
+  (発表内容はポスターセッション(1)と同一)
 
 
 
-                        ---$BBh(B3$BF|(B  6$B7n(B5$BF|(B($B6b(B)---
+                        ---第3日  6月5日(金)---
 
-$B"!JBNs!&J,;6%"%k%4%j%:%`(B(9:30-10:30, B$B2q>l(B)             $B:BD9!'CfLn(B $B9@;L(B($BL>9)Bg(B)
+◆並列・分散アルゴリズム(9:30-10:30, B会場)             座長：中野 浩嗣(名工大)
 
-  $B!&JBNsJ,;6:GE,2=$N$?$a$N%"%k%4%j%:%`(B -$B;q8;$NDI2C$H:o8:$K4p$E$/J}K!(B-        
-                                                            $B;0LZ(B $B8wHO(B($BF1;V<RBg(B)
+  ・並列分散最適化のためのアルゴリズム -資源の追加と削減に基づく方法-        
+                                                            三木 光範(同志社大)
 
-  $B!&J,3d7?B?AX9uHD%b%G%k$rMQ$$$?;T39COCO?^G'<1$NJBNs=hM}(B
-                                                       $B2!C+(B $BE0(B, $BEOn5(B $BK-1Q(B($BL>Bg(B)
+  ・分割型多層黒板モデルを用いた市街地地図認識の並列処理
+                                                       押谷 徹, 渡邉 豊英(名大)
 
-$B"!%,!<%Y!<%8%3%l%/%7%g%s(B(9:30-10:30, C$B2q>l(B)               $B:BD9!'H,?y(B $B>;9((B($B5~Bg(B)
+◆ガーベージコレクション(9:30-10:30, C会場)               座長：八杉 昌宏(京大)
 
-  $B!&J,;6%a%b%jJBNs7W;;5!>e$G$N;2>H%+%&%s%H$HBg0h%^!<%/!u%9%$!<%W$N(B
-    $B<BAu5Z$S@-G=Hf3S(B
-                                        $B;3K\(B $BBY1'(B, $BED1:(B $B7r<!O/(B, $BJF_7(B $BL@7{(B($BElBg(B)
+  ・分散メモリ並列計算機上での参照カウントと大域マーク＆スイープの
+    実装及び性能比較
+                                        山本 泰宇, 田浦 健次朗, 米澤 明憲(東大)
 
-  $B!&J,;6%j%U%!%l%s%9%+%&%s%HK!$K4p$E$$$?(BGC$B%"%k%4%j%:%`$N:GE,2=5;K!(B      
-                                                     $BA0ED(B $B=!B'(B, $B@P@n(B $BM5(B($B?7>pJs(B)
-
-
-$B"!(B10$B<~G/5-G0%o!<%/%7%g%C%W(B
- $B!V6aL$Mh$NJBNs!&J,;6=hM}$N%3%"%F%/%N%m%8!<(B(1)$B!W(B(9:30-10:30, D$B2q>l(B)
-  $B!&D6JBNs7W;;5!$N%7%9%F%`5;=Q(B                                    $BJ?LZ(B $B7I(B($BElBg(B)
+  ・分散リファレンスカウント法に基づいたGCアルゴリズムの最適化技法      
+                                                     前田 宗則, 石川 裕(新情報)
 
 
-$B"!(BFPGA$B1~MQ(B(10:45-12:15, B$B2q>l(B)                          $B:BD9!'Kv5H(B $BIRB'(B($B7'K\Bg(B)
-
-  $B!&2DJQ9=B$$r;}$D(B, $BJBNs%7%9%F%`2r@OMQ3NN(%b%G%k%7%_%e%l!<%7%g%s%7%9%F%`(B
-                              $B;3K\(B $B2$(B($BEl5~EE5!Bg(B), $B<FED(B $BM50lO:(B, $BE7Ln(B $B1Q@2(B($B7DBg(B)
-
-  $B!&(BDRAM$B:.:\7?2>A[%O!<%I%&%'%"(BHOSMII$B$N9=@.$H@-G=(B
-                                       $B<FED(B $BM50lO:(B, $B5\:j(B $B1QNQ(B, $B9b;3(B $BFF;K(B($B7DBg(B),
-                                         $BN?(B $B6GhL(B($B?@F`@n9)2JBg(B), $BE7Ln(B $B1Q@2(B($B7DBg(B)
-
-  $B!&(BField-Programmable Gate-Array $B$K$h$k?J2=E*7W;;$N9bB.2=(B
-                                            $B4];3(B $BJY(B, $BA%DE(B $B51@k(B, $B@1Ln(B $BNO(B($BC^GHBg(B)
+◆10周年記念ワークショップ
+ 「近未来の並列・分散処理のコアテクノロジー(1)」(9:30-10:30, D会場)
+  ・超並列計算機のシステム技術                                    平木 敬(東大)
 
 
-$B"!%G!<%?%Y!<%9(B(10:45-12:15, C$B2q>l(B)                        $B:BD9!'E7Ln(B $B9@J8(B($B6eBg(B)
+◆FPGA応用(10:45-12:15, B会場)                          座長：末吉 敏則(熊本大)
 
-  $B!&JBNs%*%V%8%'%/%H;X8~%G!<%?%Y!<%9$K$*$1$k(BThakore$B$N%"%k%4%j%:%`$N(B
-    $B%^%k%A%H%i%s%6%/%7%g%s4D6-2<$G$NE,MQ(B           
-                                  $B:4!9LZ(B $B7IBY(B($B9-Eg;TN)Bg(B), $B9b;3(B $B5#(B($B4d<j8)N)Bg(B),
-                                               $B90Cf(B $BE/IW(B, $BF#Ln(B $B@6<!(B($B9-Eg;TN)Bg(B)
+  ・可変構造を持つ, 並列システム解析用確率モデルシミュレーションシステム
+                              山本 欧(東京電機大), 柴田 裕一郎, 天野 英晴(慶大)
 
-  $B!&%9%1!<%i%V%k%G!<%?%^%$%K%s%0$KE,$7$?9bJBNsJ,;6=hM}4D6-(B      
-                                     $BJ?;3(B $B=(><(B($BEl<G!?EEDLBg(B), $B5]>l(B $BIR;L(B($BEEDLBg(B)
+  ・DRAM混載型仮想ハードウェアHOSMIIの構成と性能
+                                       柴田 裕一郎, 宮崎 英倫, 高山 篤史(慶大),
+                                         凌 暁萍(神奈川工科大), 天野 英晴(慶大)
 
-  $B!&(BDistributed Shared Disk: Transparent and Efficient Disk Sharing in
+  ・Field-Programmable Gate-Array による進化的計算の高速化
+                                            丸山 勉, 船津 輝宣, 星野 力(筑波大)
+
+
+◆データベース(10:45-12:15, C会場)                        座長：天野 浩文(九大)
+
+  ・並列オブジェクト指向データベースにおけるThakoreのアルゴリズムの
+    マルチトランザクション環境下での適用           
+                                  佐々木 敬泰(広島市立大), 高山 毅(岩手県立大),
+                                               弘中 哲夫, 藤野 清次(広島市立大)
+
+  ・スケーラブルデータマイニングに適した高並列分散処理環境      
+                                     平山 秀昭(東芝／電通大), 弓場 敏嗣(電通大)
+
+  ・Distributed Shared Disk: Transparent and Efficient Disk Sharing in
     Cluster Systems
-               Andreas SAVVA, $BL@@P(B $B9'M4(B($BIY;NDL(B), $B@6?e(B $B=S9,(B, $B4_K\(B $B8w90(B($BIY;NDL8&(B)
+               Andreas SAVVA, 明石 孝祐(富士通), 清水 俊幸, 岸本 光弘(富士通研)
 
 
-$B"!(B10$B<~G/5-G0%o!<%/%7%g%C%W(B
-  $B!V6aL$Mh$NJBNs!&J,;6=hM}$N%3%"%F%/%N%m%8!<(B(2)$B!W(B(10:45-12:15, D$B2q>l(B)
-  $B!&Dc>CHqEENO!&9bB.(BLSI$B5;=Q(B                                       $B2VNX(B $B@?(B($BF|N)(B)
-  $B!&%*%s%A%C%W%^%k%A%W%m%;%C%5$N8&5fF08~(B                           $B@>(B $BD><y(B(NEC)
+◆10周年記念ワークショップ
+  「近未来の並列・分散処理のコアテクノロジー(2)」(10:45-12:15, D会場)
+  ・低消費電力・高速LSI技術                                       花輪 誠(日立)
+  ・オンチップマルチプロセッサの研究動向                           西 直樹(NEC)
 
 
-$B"!6&M-%a%b%j(B(13:30-15:00, B$B2q>l(B)                      $B:BD9!'CfEg(B $B9@(B($BK-665;2JBg(B)
+◆共有メモリ(13:30-15:00, B会場)                      座長：中島 浩(豊橋技科大)
 
-  $B!&(BCOMPaS: Pentium Pro$B$rMQ$$$?(BSMP$B%/%i%9%?$H$=$NI>2A(B
-                  $BEDCf(B $BNIIW(B, $B>>ED(B $B85I'(B, $B0BF#(B $B@?(B, $B5WJ]ED(B $BOB?M(B, $B:4F#(B $B;05W(B($B?7>pJs(B)
+  ・COMPaS: Pentium Proを用いたSMPクラスタとその評価
+                  田中 良夫, 松田 元彦, 安藤 誠, 久保田 和人, 佐藤 三久(新情報)
 
-  $B!&(BHome Proxy: WS $B%/%i%9%?$K$*$1$k9b@-G=(B DSM $B$N<B8=(B
-        $B>.Ln(B $B9R(B($B7DBg(B), $B;T@n(B $BL@90(B($B?@8MBg(B), $B0B@8(B $B7r0lO/(B($B7DBg(B), $B;3K\(B $B=_Fs(B($B?7>pJs(B),
-                          $BCf[j(B $BBsGl(B($B?@8MBg(B), $B9)F#(B $BCN9((B($B?7>pJs(B), $BE7Ln(B $B1Q@2(B($B7DBg(B)
+  ・Home Proxy: WS クラスタにおける高性能 DSM の実現
+        小野 航(慶大), 市川 明弘(神戸大), 安生 健一朗(慶大), 山本 淳二(新情報),
+                          中條 拓伯(神戸大), 工藤 知宏(新情報), 天野 英晴(慶大)
 
-  $B!&(BLocal Protocols for Enhancing Spatial Locality of the Coherence
+  ・Local Protocols for Enhancing Spatial Locality of the Coherence
     Actions in Regular Computation
                                                     Masaru Takesue(Hosei Univ.)
 
 
-$B"!%3%s%Q%$%i(B(13:30-15:00, C$B2q>l(B)                        $B:BD9!':4F#(B $B;05W(B($B?7>pJs(B)
+◆コンパイラ(13:30-15:00, C会場)                        座長：佐藤 三久(新情報)
 
-  $B!&(BDoacross$B%k!<%W$NJBNs2=<jK!$H$=$NI>2A(B            
-                             $B9bH+(B $B;VBY(B, $BK\B?(B $B90<y(B, $BBg_7(B $BHO9b(B, $B5]>l(B $BIR;L(B($BEEDLBg(B)
+  ・Doacrossループの並列化手法とその評価            
+                             高畠 志泰, 本多 弘樹, 大澤 範高, 弓場 敏嗣(電通大)
 
-  $B!&3,AX7?%^%/%m%G!<%?%U%m!<=hM}$K$*$1$kF10l3,AXFb%k!<%W4V(B
-    $B%G!<%?%m!<%+%i%$%<!<%7%g%s<jK!(B
-                            $B5HED(B $BL@@5(B($BElK.Bg(B), $B1[DM(B $B7r0l(B(NTT), $B2,K\(B $B2mL&(B($BEl<G(B),
-                                                     $B>.H((B $B85<y(B, $B3^86(B $BGnFA(B($BAaBg(B)
+  ・階層型マクロデータフロー処理における同一階層内ループ間
+    データローカライゼーション手法
+                            吉田 明正(東邦大), 越塚 健一(NTT), 岡本 雅巳(東芝),
+                                                     小幡 元樹, 笠原 博徳(早大)
 
-  $B!&@)8fJBNs%"!<%-%F%/%A%c8~$1<+F0JBNs2=%3%s%Q%$%k<jK!(B
-      $B<r0f(B $B=_;L(B, $BD;5o(B $B=_(B(NEC), $B6aF#??8J(B, $B;T@n@.9@(B, $B>.Ks?NH~(B(NEC$B>pJs%7%9%F%`%:(B),
-                                                        $B@>(B $BD><y(B, $B;^W"(B $B@5?M(B(NEC)
-
-
-$B"!(B10$B<~G/5-G0%o!<%/%7%g%C%W(B
-  $B!V6aL$Mh$NJBNs!&J,;6=hM}$N%3%"%F%/%N%m%8!<(B(3)$B!W(B(13:30-15:00, D$B2q>l(B)
-  $B!&%$%s%?%3%M%/%7%g%s5;=Q(B                                    $B9)F#(B $BCN9((B($B?7>pJs(B)
-  $B!&(B21$B@$5*$NJ,;6=hM}$K8~$1$F(B -$B4v$D$+$NAGKQ$J5?Ld(B-                $B8eF#(B $B8|9((B(NTT)
+  ・制御並列アーキテクチャ向け自動並列化コンパイル手法
+      酒井 淳嗣, 鳥居 淳(NEC), 近藤真己, 市川成浩, 小俣仁美(NEC情報システムズ),
+                                                        西 直樹, 枝廣 正人(NEC)
 
 
-$B"!(B10$B<~G/5-G0%Q%M%kF$O@!VJBNs=hM}$3$N(B10$BG/!&<!$N(B10$BG/!W(B(15:30-17:30, A$B2q>l(B)
-                                                    $B%b%G%l!<%?!':d0f(B $B=$0l(B($BElBg(B)
-
-                              $B%Q%M%j%9%H!'E7Ln(B $B1Q@2(B($B7DBg(B), $B2CF#(B $BEX(B($B%=%U%F%C%/(B),
-                                     $B>.D9C+(B $BL@I'(B($BKLN&@hC<Bg(B), $BCfED(B $BEP;VG7(B(NEC),
-                                             $BJ!ED(B $B@5Bg(B($B9R5;8&(B), $B>>2,(B $BAo(B($BEl9)Bg(B)
+◆10周年記念ワークショップ
+  「近未来の並列・分散処理のコアテクノロジー(3)」(13:30-15:00, D会場)
+  ・インタコネクション技術                                    工藤 知宏(新情報)
+  ・21世紀の分散処理に向けて -幾つかの素朴な疑問-                後藤 厚宏(NTT)
 
 
-$B"!JD2q$N<-!&%W%m%0%i%`0Q0wD90';"(B(17:30-17:40, A$B2q>l(B)            $BBm(B $BOBCK(B($B?@8MBg(B)
+◆10周年記念パネル討論「並列処理この10年・次の10年」(15:30-17:30, A会場)
+                                                    モデレータ：坂井 修一(東大)
+
+                              パネリスト：天野 英晴(慶大), 加藤 努(ソフテック),
+                                     小長谷 明彦(北陸先端大), 中田 登志之(NEC),
+                                             福田 正大(航技研), 松岡 聡(東工大)
+
+
+◆閉会の辞・プログラム委員長挨拶(17:30-17:40, A会場)            瀧 和男(神戸大)
