@@ -1,0 +1,4 @@
+本論文では，強NP完全な最適化問題である実行時間最小マルチプロセッサスケジュー
+リング問題に対する実用的な並列最適化アルゴリズムPDF/IHS（Parallelized
+Depth First / Impricit Heuristic Search）をタスク数1100までの大規模問題
+に適用して性能評価を行った結果について述べる．

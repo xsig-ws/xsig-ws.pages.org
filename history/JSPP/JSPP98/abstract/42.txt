@@ -1,0 +1,24 @@
+ Cluster systems are increasingly gaining market acceptance as
+cost-effective, high performance, server systems. Cluster systems,
+however, do not yet provide useful abstractions, like a Single System
+Image (SSI), that simplify system management, and aid the construction
+of higher level software.
+  
+ We present DSD, an approach offering transparent, and high-performance
+remote disk access on cluster systems. DSD can be used as a building
+block for providing a SSI.  We describe the DSD structure, and its
+internal mechanisms, such as the communication protocol used for remote
+disk access. We present experimental results comparing the latency of
+local to remote disk access as well as the performance of striped remote
+disk access over the network against striped access on a dedicated disk
+array.
+
+クラスタシステムは、低コストで高性能なサーバシステムとして市場に受け入
+れられ始めているが、システム管理や高度なソフトウエア構築を容易とする
+Single System Image(SSI)は十分に整備されていない。本稿では、SSI実現の
+ためのBuilding blockとして利用可能なDistributed Shared Disk(DSD)につい
+て述べる。DSDは、リモートDiskに対するトランスペアレントで、かつ高速な
+Diskアクセスを提供する。まず、DSDの構成、およびリモートDiskアクセスの
+通信プロトコルについて述べる。Local diskアクセスと、DSDによるリモート
+Diskアクセス性能、およびLocal接続されたDisk arrayと、複数のDSDを組み合
+わせてストライピングアクセスをした場合の性能を比較する。

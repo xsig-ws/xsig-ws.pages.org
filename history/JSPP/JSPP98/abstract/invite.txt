@@ -1,0 +1,11 @@
+Parallel computing is rapidly evolving to include heterogeneous
+collections of distributed and parallel systems.  Concurrently,
+applications are becoming increasingly multidisciplinary with code
+libraries implemented using diverse programming models.  To optimize
+the behavior of complex applications on heterogeneous systems,
+performance analysis software must also evolve, replacing post-mortem
+analysis with real-time, adaptive optimization, tightly
+integrating compile-time analysis with performance measurement and
+prediction, and supporting high-modality visualization and software
+manipulation.  In this paper, we briefly survey the state of the art in
+each of these areas and sketch a series of open research problems.

@@ -1,0 +1,23 @@
+大規模データから知識を獲得する技術として、データマイニングが脚光を浴びて
+いる。本論文では、小規模データの分析から、大規模データの分析まで、高い拡
+張性(スケーラビリティ)を持ったプログラムの開発を容易にすることを目的とし
+た、高並列分散処理環境VISIONA (VIrtual Shared memory envIrOnment for
+scalable data miNing Applications)について説明する。この処理環境は、スケー
+ラブルデータマイニングに適したソフトウェア分散共有メモリを中心に構成され、
+クラスタ型分散システム上でも、SMP型並列計算機上と同じプログラムが動作し、
+高い拡張性を提供する。また、データマイニングに適した分散共有メモリ方式の
+提案により、従来のソフトウェア分散共有メモリのオーバヘッドを大幅に低減し、
+大規模データマイニングの高速化を図っている。
+
+Data mining, a technology to discover knowledge from massive amounts of
+data is receiving much attention.  In this paper, we explain highly
+parallel and distributed processing environment VISIONA (VIrtual Shared
+memory envIrOnment for scalable data miNing Applications) which aims to
+provide easiness to develop scalable programs from small scale to large
+scale of mining.  This processing environment is constructed with
+software distributed shared memory for scalable data mining, therefore
+same data mining programs run both in SMP-type parallel computers and
+cluster-type distributed systems.  Proposed distributed shared memory
+for data mining largely decreases the overhead of software distributed
+shared memory and achieves higher performance to process large scale
+data mining.
