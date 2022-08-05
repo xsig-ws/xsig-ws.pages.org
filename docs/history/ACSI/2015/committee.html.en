@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+      <h4 id="sc">SACSIS Steering Committee</h4>
+      <?php include("include/committee-sc-en.html");?>
+<p>
+</p>
+
+      <h4 id="oc">ACSI2015 Organizing Committee</h4>
+
+      <?php include("include/committee-oc-en.html");?>
+
+      <h4 id="pc">ACSI2015 Program Committee</h4>
+
+      <?php include("include/committee-pc-en.html");?>
+
+      <br />
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

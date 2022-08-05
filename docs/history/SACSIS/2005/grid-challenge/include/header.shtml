@@ -1,0 +1,22 @@
+<!--#include file="xml_header.shtml" -->
+
+<head>
+<link rel="STYLESHEET" href="include/grichal.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<title>Grid Challenge in SACSIS 2005</title>
+</head>
+
+<body>
+<table class="main" >
+<tr>
+<td colspan="2" class="title">
+
+<center>
+<img src="include/title.png" />
+</center>
+<h1>Grid Challenge in SACSIS 2005</h1>
+</td>
+</tr>
+
+<tr>
+<td class="main">

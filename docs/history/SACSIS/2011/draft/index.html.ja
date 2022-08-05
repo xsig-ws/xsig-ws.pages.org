@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <div class="main">
+      <?php include("include/navbar-ja.html");?>
+      <?php include("include/twitter.html");?>
+      <!-- <h4>SACSIS 2011 は無事終了致しました．</h4> -->
+      <!-- <p style="text-align: center;"> -->
+      <!-- ご参加・ご協力頂いた皆様に感謝致します．<br /> -->
+      <!-- SACSIS 2012 （2012年5月24〜26日，？場所？）で，またお会いしましょう．<br /> -->
+      <!-- (<a href="http://sacsis.hpcc.jp/2012/">SACSIS 2012のページへ</a>)<br /> -->
+      <!-- </p> -->
+      <p>
+      SACSIS2011は盛況のうちに終了しました．震災でスケジュールの変更等の影響はありましたが，皆様のお陰で無事に終えることができました．ありがとうございます．<br />
+      <strong>次回SACSIS2012は，2012年5月16日&sim;18日に神戸で開催予定です．</strong>
+      </p>
+      <p>
+	<strong>【お知らせ（7/1更新）】</strong>
+	<ul>
+	  <li><strong>講演者の方々のご厚意により，チュートリアル資料を<a href="program.html.ja#tutorial">一般公開</a>（およびupdate）しました．</strong></li>
+	  <li><a href="notice-online.html.ja">オンライン論文集について</a>：SACSIS 2011 では，従来の冊子体の論文集を廃し，情報処理学会電子図書館（情報学広場）によるオンライン論文集に移行しました．</li>
+	  <li>ダウンロードした論文PDFのindex用HTMLファイルを上記リンク先に公開しています．</li>
+<!-- 	  <li>震災の影響で，今後 <a href="http://sacsis.hpcc.jp/2011/">http://sacsis.hpcc.jp/2011/</a> の稼動が困難となる可能性があるため，ミラーサイト <a href="http://www.ais.sys.i.kyoto-u.ac.jp/~task/sacsis/2011/">http://tinyurl.com/SACSIS2011</a> を設置しております．</li> -->
+	</ul>
+      </p>
+
+      <!-- 	地震の影響により，SACSISのWebページの本サーバが停止しており，復旧の見通しも不透明なため，当面はこちらの仮ページでアナウンスを行います． -->
+      <!-- 	<br></br> -->
+      <!-- 	地震の影響について，以下の通り連絡いたします（2011/4/1更新）． -->
+      <!-- 	<ul> -->
+      <!-- 	  <li>ポスターの募集期間を 4/4（月）&sim;4/15（金）17:00 に変更しました．詳細は，<a href="cfposters.html.ja">ポスター募集のページ</a>をご覧ください．</li> -->
+      <!-- 	</ul> -->
+      
+      <h4>SACSIS2011 概要</h4>
+
+      <p style="text-align:center">
+	<acronym title="Symposium on Advanced Computing Systems and Infrastructures">SACSIS</acronym>2011 - 先進的計算基盤システムシンポジウム<br />
+	<?php include("include/date-place-ja.html");?>
+      </p>
+      <p>
+	　SACSIS (Symposium on Advanced Computing Systems and Infrastructures) は，先進的な計算システムや基盤技術，それらの要素技術を広く様々な角度から議論することを目的としたシンポジウムです．性能などの有効性が重視される「システム」に関する技術だけではなく，幅広い利用を目指して実用性を重視した「基盤」に関する技術も対象とします．9回目を迎える本シンポジウムを，秋葉原にて2011年5月25日(水)〜27日(金)に開催いたします．
+      </p>
+      <!-- INSERTED LINES END () -->
+
+
+      <h4>更新情報</h4>
+      <p>
+	<span class="notice">
+	  <b>2011.07.01</b> 講演者のご厚意により，チュートリアル資料を<a href="program.html.ja#tutorial">一般公開</a>（およびupdate）しました．<br />
+	  <b>2011.06.01</b> 優秀ポスター賞，学生優秀ポスター賞の情報を<a href="program.html.ja#AWARDP">追加</a>しました．<br />
+	  <b>2011.05.25</b> <a href="program.html.ja">プログラム</a>に最優秀論文賞，優秀若手研究賞の情報を<a href="program.html.ja#AWARD">追加</a>しました．(6/1)「受賞理由」を追加しました．<br />
+	  <b>2011.05.25</b> <a href="program.html.ja">プログラム</a>にチュートリアル資料を<a href="program.html.ja#tutorial">公開</a>しました．<br />
+	  <b>2011.05.18</b> <a href="exhibit.html.ja">企業・団体展示</a>のページを公開しました．<br />
+	  <b>2011.04.07</b> <a href="cfpart.html.ja">参加受付</a>を開始しました．事前登録の締切は5/6（金）です．<br />
+	  <b>2011.04.05</b> <a href="program.html.ja">プログラム</a>（暫定版）を公開しました（最終更新 <?php include("include/program-last-update");?>）．(4/24) 全プログラムが決定しました．<br />
+	  <b>2011.04.04</b> <a href="cfposters.html.ja#submit">ポスター論文投稿の受付を開始</a>しました．<br />
+	  <b>2011.03.13</b> トップページに「地震の影響について」のお知らせを掲示しました．（4/1）ポスター投稿の新スケジュールを公開しました．<br />
+	  <b>2010.12.24</b> <a href="cfcompany.html.ja#pc">企業・団体展示</a>のPDF版のご案内，申し込みフォームを公開しました．<br />
+	  <b>2010.12.23</b> Twitter widgetを設置しました．ハッシュタグ #SACSIS をつけたツイートが表示されます．<br />
+	  <b>2010.12.10</b> <a href="cfp.html.ja#submit">論文投稿窓口</a>を公開しました．<br />
+	  <b>2010.10.22</b> 本ページを公開しました．論文募集要項，ポスター募集要項，企業・団体展示募集を公開しました．<br />
+	</span>
+      </p>
+
+      <h4>重要日程 </h4>
+      <?php include("include/schedule-ja.html");?>
+      
+      <h4>主催（順不同）</h4>
+      <?php include("include/host-ja.html");?>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

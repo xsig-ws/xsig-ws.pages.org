@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      
+
+      <h4>お問い合わせ</h4>
+      <dl>
+	<dt>シンポジウム問合わせ先:</dt>
+	<dd>総務担当&nbsp;&nbsp;大嶋 裕子&nbsp;(y.oshima <span> "at" </span> aist "dot" go "dot" jp)
+	</dd>
+	<dt>投稿関連問合わせ先:</dt>
+	<dd>
+	プログラム委員長&nbsp;&nbsp;田浦 健次朗&nbsp;(tau <span> "at" </span> eidos "dot" ic "dot" i "dot" u-tokyo "dot" ac "dot" jp)<br/>
+	プログラム副委員長(論文)&nbsp;&nbsp;竹房 あつ子&nbsp;(atsuko.takefusa <span> "at" </span> aist "dot" go "dot" jp )<br/>
+	プログラム副委員長(ポスター)&nbsp;&nbsp;大山 恵弘&nbsp;(oyama <span> "at" </span> inf "dot" uec "dot" ac "dot" jp)
+	</dd>
+	<dt>企画展示問合わせ先:</dt>
+	<dd>企画展示担当&nbsp;&nbsp;塩沢 賢輔&nbsp;(shiozawa.kennsu <span> "at" </span> jp "dot" fujitsu "dot" com)
+	</dd>
+	<dt>本Webページに関する問合わせ先:</dt>
+	<dd>広報担当&nbsp;&nbsp;江川隆輔&nbsp; (egawa <span> "at" </span> isc "dot" tohoku "dot" ac "dot" jp)
+	</dd>
+      </dl>
+
+      <p>
+	SACSIS2013 の組織委員会は<a href="committee.html.ja">こちら</a>
+      </p>
+
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

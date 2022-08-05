@@ -1,0 +1,74 @@
+------------------------------------------------------------------------
+                            Call For Posters
+      Symposium on Advanced Computing Systems and Infrastructures
+                    http://www.hpcc.jp/sacsis/2009/
+                   Date: May 28(Thr) - 29(Fri), 2009,
+       International Conference Center Hiroshima, Hiroshima, Japan
+
+About SACSIS
+
+SACSIS, the Annual Symposium on Advanced Computing Systems and Infrastructures,
+ is a symposium for discussing advanced computing systems, infrastructures, 
+and technologies for enabling them from wide and various viewpoints.  It 
+covers both technologies on "systems" and technologies on "infrastructures."  
+The 7th symposium will be held in Hiroshima from May 28th, 2009 through 
+May 29th, 2009.
+
+
+Important Dates
+
+Mar.31 (Tue), 2009 17:00 (UTC +9hr)	Poster papers upload due (no extension)
+Apr.07 (Tue), 2009 	Notification of acceptance to authors of poster papers
+May 28-29 (Thr-Fri), 2009	SACSIS 2009
+
+
+Areas of interest
+
+We solicit poster papers (abstracts) for the SACSIS 2009 on a wide range of 
+topics related to:
+
+  * Advanced Computing Systems
+    Grid computing, cluster computing, peer-to-peer computing, 
+    high-performance computing, mobile computing, ubiquitous systems, 
+    embedded systems, dependable computing, application-specific systems, 
+    overlay networks, and so on.
+  * Infrastructural Technologies
+    processor architecture, system architecture, communication system, 
+    large-scale storage systems, energy-saving/space-saving technology, 
+    operating systems, middleware, compilers, programming languages, 
+    parallel algorithms, online algorithms, performance evaluation/tuning technology, 
+    reconfigurable system, broadband networks, and so on.
+  * Practical Infrastructures
+    database, Web service, search engine, data mining, transaction systems, 
+    distributed computing environment, server system development technology, 
+    network security, E-Science, and so on.
+
+
+Poster papers
+
+    * Work-in-progress papers.
+    * Page limit: No longer than 2 pages.
+    * Format: should be uploaded as a single PDF file.
+    * Language: English or Japanese.
+    * Style files:
+          o LaTeX http://www.hpcc.jp/acs/latexform.html
+          o MS-Word http://www.hpcc.jp/sacsis/2009/sacsis-form.doc
+
+
+Awards
+
+    * Most Interesting Poster Award
+          o Each symposium attendee votes for the poster presentation that is 
+            considered to be the most interesting.
+          o One poster presentation is selected according to the votes.
+
+Poster preparation
+
+    * Poster Dimensions: Width = 2.95 ft (0.90 m) x Height = 6.89 ft (2.1 m)
+    * At least one of the authors must be present beside the poster during the poster session.
+
+
+Submission (from March 13 to 31, 2009)
+
+    March 31, 2009 17:00(UTC +9hr) (No Extensions)
+    Poster papers can be submitted via: http://www.hpcc.jp/acs/27/submit/

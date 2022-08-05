@@ -1,0 +1,5 @@
+TOPDIR=..
+TITLE="SACSIS 2005"
+NAVI=2005_NAVIGATION
+
+include ../Makefile.rules

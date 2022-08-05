@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="SACSIS09,SACSIS2009,SACSIS" />
+ <link href="css/2009.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2009</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 28-29, 2009<br />Hiroshima, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+
+<div class="main">
+
+<!-- INSERTED LINES BEGIN (2009_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.ja" title="SACSIS 2009">SACSIS2009&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2009_LINKS) --><a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+<!-- <a href="program.html.ja">プログラム</a> <span class="hideme">|</span> -->
+<!-- <a href="exhibit.html.ja">企画展示</a> <span class="hideme">|</span> -->
+<a href="http://www.hpcc.jp/sacsis/2009/cell/">Cellチャレンジ2009</a> <span class="hideme">|</span>
+<!-- <a href="cfpart.html.ja">参加募集</a> -->
+<!-- <span class="hideme">|</span><a href="http://www.ipsj.or.jp/09sig/kaikoku/2009/SACSIS2009.html">参加申込</a><span class="hideme">|</span>  -->
+ <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+<!-- <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span> -->
+<a href="cfcompany.html.ja">企業・団体展示募集</a> <span class="hideme">|</span>
+<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+<!-- <a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span> -->
+ <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+ <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+
+<h4>SACSIS 2009 企業・団体展示プログラムのご案内</h4>
+
+<div class="body">
+
+<!--
+<ul>
+<li><a href="cfcompany.pdf">ご案内 (pdf 形式)</a></li>
+<li><a href="cfcompany_entry.doc">申し込みフォーム(Word形式)</a></li>
+</ul>
+-->
+
+<p>
+SACSIS (Symposium on Advanced Computing Systems and Infrastructures) は，先進的な計算システムや基盤技術，それらの要素技術を広く様々な角度から議論することを目的としたシンポジウムです。性能などの有効性が重視される「システム」に関する技術だけではなく，幅広い利用を目指して実用性を重視した「基盤」に関する技術も対象とします。
+</p>
+
+<p>
+本会議は企業の皆様のご協力を得て，JSPPからSACSISに名前を改めてから今年で７年目の節目を迎えることができました． <a href="http://www.hpcc.jp/sacsis/2009/">SACSIS2009</a>は<a href="http://www.pcf.city.hiroshima.jp/icch">広島国際会議場</a>にて2009年5月28日(木)〜29日(金)に開催いたします。情報処理分野の研究者に多数ご参加いただき、稔り多い議論が展開されることを期待しています。第一線で活躍する企業，大学の研究者が一堂に集まり，新しい技術，情報交換をする場として定着しているこの会議に、是非とも貴社・貴所の企業・団体展示へのご協力を賜りたく、ご検討をお願いする次第です。
+</p>
+
+<p>
+ご不明な点ありましたら企画展示担当(市川 ichikawa.toshikazu at lab.ntt.co.jp)までお気軽にお問い合わせください。
+</p>
+
+
+
+<h4>企業・団体展示プログラム内容</h4>
+
+<p>
+企業・団体展示プログラムは下記の種類がございます．複数展示（複数ブース）を申し込むことも可能です。
+</p>
+
+<ol>
+  <li>通常展示　　<span style="text-decoration:underline">1口価格：100,000円（税込）</span>
+
+  <p>
+  貴社・貴所の商品，関連プロジェクトのご紹介をしていただきます。以下の特典がございます。
+  </p>
+  
+  <ul>
+  <li>展示会場にて展示スペースの提供（日時など詳細は未定）
+  </li>
+  <li>SACSIS HP上に出展社名掲載</li>
+  <li>会場配布資料に展示紹介掲載</li>
+  <li>本会議参加費1名分無料</li>
+  <li>懇親会参加費3名分無料　（追加参加者は1名5000円（予定））</li>
+  </ul><br />
+  </li>
+
+  <li>ドリンクスポンサ　　　<span style="text-decoration:underline">1口価格：150,000円〜（税込）</span>
+
+  <p>
+  ポスター、企業・団体展示会場での休憩時にドリンクを提供して頂きます。以下の特典がございます。
+  </p>
+  <ul>
+    <li>会期中のドリンクコーナーでの社名掲載</li>
+    <li>通常展示と同じ特典</li>
+  </ul>
+  <p>※ドリンク手配は担当委員が行います。ドリンクの内容とご予算は応相談。</p>
+  </li>
+
+  <li>ランチスポンサ　　　<span style="text-decoration:underline">1口価格：300,000円〜（税込）</span>
+
+  <p>
+  スポンサード・ランチ・セッションにお弁当を提供して頂きます。以下の特典がございます。
+  </p>
+  <ul>
+    <li>スポンサード・ランチ・セッションでのご講演（日時など詳細は未定）</li>
+    <li>通常展示と同じ特典</li>
+  </ul>
+  <p>※お弁当手配は担当委員が行います。お弁当の内容とご予算は応相談。</p>
+  </li>
+
+  <li>レセプションスポンサ　　　<span style="text-decoration:underline">1口価格：300,000円〜（税込）</span>
+
+  <p>ポスター・企業・団体展示会場で開催するレセプションを支援して頂きます。以下の特典がございます。</p>
+  <ul>
+    <li>レセプション会場でのご挨拶</li>
+    <li>レセプション会場での社名掲載</li>
+    <li>会場受付でのノベルティの配布</li>
+    <li>通常展示と同じ特典</li>
+  </ul>
+  <p>※レセプションでの出し物の内容とご予算は応相談。</p>
+  </li>
+</ol>
+
+<p>
+◆他のスポンサ形態もご相談に応じます
+</p>
+
+<h4>お申込方法</h4>
+
+<p>
+決まり次第、本ページにてアナウンスさせていただきます。
+</p>
+
+<!--
+<p>
+<a href="cfcompany_entry.doc">申し込みフォーム</a>をメール添付またはFAXにて下記へご送付ください。
+</p>
+<ul>
+<li><span class="notice">2009年x月x日まで</span></li>
+<li>SACSIS2009企画展示担当　市川俊一宛<br />
+（FAX 0422-59-5658　　　E-MAIL　ichikawa.toshikazu at lab.ntt.co.jp）<br />
+確認後確認メールを返信します
+</li>
+<li>会場キャパ調整のため早めのお申込にご協力ください</li>
+</ul>
+
+
+<p>
+請求書の送付
+</p>
+<ul>
+<li>上記お申込をもとに<strong>2009年4/1-5/1</strong>の間に，情報処理学会より請求書を送付いたします。　</li>
+<li>費用振込みは　<strong>6/30まで</strong>にお願いいたします。</li>
+</ul>
+
+
+<p>
+※展示詳細はお申込受付後ご送付します。
+</p>
+-->
+
+</div>
+
+</div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2009, SACSIS 2009 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11-blue"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

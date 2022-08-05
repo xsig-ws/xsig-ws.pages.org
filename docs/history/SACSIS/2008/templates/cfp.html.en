@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2008.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2008 Call for Papers </title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<div class="main">
+<!--@@2008_NAVIGATION@@-->
+
+
+<p style="margin-top:15pt">
+<a href="include/cfp.txt">Call for Papers (in Japanese)</a><br />
+<!--##LAST_MODIFIED:include/cfp.txt##-->
+</p>
+
+<h4>
+Call For Papers 
+</h4>
+
+<!--@@SACSIS2008@@-->
+
+<h5>About SACSIS:</h5>
+<!--@@SACSIS@@-->
+
+<h5>Areas of interest:</h5>
+<p>
+We solicit full papers and poster papers (abstracts) for the SACSIS 2008
+on a wide range of topics related to:
+</p>
+<!--@@TOPICS@@-->
+
+<h5>Paper Types: </h5>
+
+<ol>
+<li> <b>Full Papers</b>
+  <ul>
+  <li> Full-length papers.
+       All papers will be refereed by the program committee.
+       Papers must be unpublished in refereed journals or refereed
+       conferences.
+       Papers can be submitted simultaneously to the
+       <a href="http://www.hpcc.jp/acs/">ACS Journal</a>.</li>
+  <li> Page limit: No longer than 8 pages (2 extra pages can be purchased
+       for camera-ready).</li>
+  <li> Format: should be uploaded as a single PDF file.</li>
+  <li> Language: English or Japanese.</li>
+  </ul>
+</li>
+<li> <b>Poster Papers (abstracts)</b>
+  <ul>
+  <li> Work-in-progress papers.</li>
+  <li> Page limit: No longer than 2 pages.</li>
+  <li> Format: should be uploaded as a single PDF file.</li>
+  <li> Language: English or Japanese.</li>
+<!--  <li> Submitted papers are used as camera-ready if accepted.</li>-->
+  </ul>
+</li>
+</ol>
+
+<h5>Awards</h5>
+
+<ul>
+<li><b>Best Young Researcher Award</b>: up to three papers are selected
+    out of papers the first author of which is younger than about thirty.</li>
+<li><b>Best Paper Award</b>: one paper is selected out of all full papers.</li>
+<!--<li><b>Most Creative Research Idea Award (Poster Presentation)</b>:
+    one poster presentation is selected.
+    Works with high originality are highly evaluated.</li>-->
+</ul>
+
+<h5>Style Files</h5>
+
+<ul>
+<li><b>LaTeX</b>    <a href="http://www.hpcc.jp/acs/latexform.html">http://www.hpcc.jp/acs/latexform.html</a> </li>
+<li><b>MS-Word</b>  <a href="http://www.hpcc.jp/sacsis/2008/sacsis-form.doc">http://www.hpcc.jp/sacsis/2008/sacsis-form.doc</a> </li>
+</ul>
+
+<h5>
+Important Dates 
+</h5>
+
+<!--@@DATES@@-->
+
+<!--
+<h5>Submission:</h5>
+
+<div class="noticelink">
+Papers will be able to be submitted via: 
+<a href="http://www.hpcc.jp/acs/">http://www.hpcc.jp/acs/</a>
+</div>
+-->
+
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

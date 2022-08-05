@@ -1,0 +1,492 @@
+#include "grid_challenge_api.h"
+#include "grichalle_api_imple.h"
+
+#include <sys/types.h>
+#include <dirent.h>
+#include <sys/time.h>
+#include <time.h>
+#include <openssl/md5.h>
+#include <openssl/blowfish.h>
+#include <stdio.h>
+#include <stdarg.h>
+#include <string.h>
+#include <stdlib.h>
+
+struct Challenge_data challenge_data;
+
+
+void
+set_part_ans(struct part_ans *pa, int t, int l, int u)
+{
+  pa->total = t; pa->left = l; pa->upper = u;
+}
+
+inline int coord_a(int x, int y, int width)
+{
+  return y * width + x;
+}
+
+BOOL
+problem_number_check(const int pnum)
+{
+  //XXX todo: otameshi, yosen, honsen...
+  if (pnum > 0 && pnum <= 6) return TRUE;
+  return FALSE;
+}
+    
+int
+get_problem(const int problem_number,
+	    const char* config_dir,
+	    const char** key_string,
+	    int* width, int* height)
+{
+  prepare_global_data();
+  
+  if (!problem_number_check(problem_number)) {
+    grch_out("problem_number is wrong"); return 1;
+  }
+
+  //XXX todo: check otameshi, yosen, kessyou
+
+  char config_str[GRCH_FNAME_MAX_LEN];
+  if (!answer_fname(config_dir, problem_number, config_str)) {
+    grch_out("config_dir is wrong"); return 1;
+  }
+  struct Answer_file ans_f;
+  if (!af_open(&ans_f, config_str)) {
+    grch_out("cannot find config file in %s", config_dir); return 1;
+  }
+  if (!af_read_header(&ans_f)) {
+    grch_out("cannot read config file in %s", config_dir); return 1;
+  }
+  *width = ans_f.w; *height = ans_f.h;
+  challenge_data.prob_num = ans_f.prob_num;
+  challenge_data.w = ans_f.w;
+  challenge_data.h = ans_f.h;
+  af_close(&ans_f);
+
+
+  /*
+  BF_KEY bf_key;
+  unsigned char key_str[] = "otameshiOTAMESHI";
+  BF_set_key(&bf_key, 16, key_str);
+  unsigned char enc_buf[8];
+  BF_ecb_encrypt((unsigned char *)("enctest0"), enc_buf, &bf_key, BF_ENCRYPT);
+  char enc_readable_buf[17];
+  readable_enc(enc_buf, 8, enc_readable_buf);
+  */
+
+  
+  if (gettimeofday(&(challenge_data.start_time), NULL) != 0) {
+    grch_out("gettimeofday error"); return 1;
+  }
+
+  char prob_key_str[PROBLEM_KEY_LEN + 1];
+  make_problem_key(problem_number, prob_key_str);
+  
+  static char key_buf[100];
+  snprintf(key_buf, 100, "%s-%s",
+	   file_encoding_key(problem_number), prob_key_str);
+  *key_string = key_buf;
+  
+  grch_out("Problem %02d: Started", problem_number);
+  return 0;
+}
+
+int
+get_problem_files(const int problem_number, const char* key_string,
+		  const char* problem_dir,
+		  const char** problem_files)
+{
+  if (!problem_number_check(problem_number)) {
+    grch_out("problem_number is wrong"); return 1;
+  }
+  //XXX todo: check otameshi, yosen, kessyou
+
+  // check key_string
+  if (!check_problem_key(key_string)) {
+    grch_out("key_string is wrong"); return 1;
+  }
+  if (problem_dir == NULL || problem_dir[0] == '\0') {
+    grch_out("problem_dir is wrong"); return 1;
+  }
+  char prob_dir[GRCH_FNAME_MAX_LEN];
+  strncpy(prob_dir, problem_dir, GRCH_FNAME_MAX_LEN - 1);
+  prob_dir[GRCH_FNAME_MAX_LEN - 1] = '\0';
+
+  int prob_dir_size = strlen(prob_dir);
+  if (prob_dir[prob_dir_size - 1] != '/') {
+    if (prob_dir_size >= GRCH_FNAME_MAX_LEN - 1) {
+      grch_out("problem_dir is too long"); return 1;
+    }
+    strcat(prob_dir, "/");
+    prob_dir_size++;
+  }
+
+  DIR *dp;
+  struct dirent *dir;
+  if ((dp = opendir(problem_dir)) == NULL) {
+    grch_out("cannot open problem_dir :%s", problem_dir); return 1;
+  }
+
+  static char rbuf[GRCH_FNAME_MAX_LEN * GRCH_LOCAL_FILE_MAX_N];
+  char *p = rbuf;
+  *p = '\0';
+  while ((dir = readdir(dp)) != NULL) {
+    if (dir->d_name[0] == '.') continue; // "."や".."を避ける
+    char fname[GRCH_FNAME_MAX_LEN];
+    strncpy(fname, dir->d_name, GRCH_FNAME_MAX_LEN - 1);
+    fname[GRCH_FNAME_MAX_LEN - 1] = '\0';
+    char *extp = strrchr(fname, '.');
+    if (extp == NULL) continue;
+    extp++;
+    if (!((strncmp(extp, "mdt", 3) == 0) || (strncmp(extp, "rdt", 3) == 0)))
+      continue;
+    strcat(p, prob_dir);
+    strcat(p, fname);
+    strcat(p, ":");
+    p += prob_dir_size + strlen(fname) + 1;
+  }
+  *problem_files = rbuf;
+
+  return 0;
+}
+
+int
+answer_problem(const int problem_number, const char* key_string,
+		const int result,
+		const char* file_coordinates,
+		const char* config_dir)
+{
+  struct timeval end_time;
+  
+  if (gettimeofday(&end_time, NULL) != 0) {
+    grch_out("gettimeofday error"); return GRCH_NG;
+  }
+
+  if (!problem_number_check(problem_number)) {
+    grch_out("problem_number is wrong"); return GRCH_NG;
+  }
+  if (challenge_data.prob_num != problem_number) {
+    grch_out("problem_number changed"); return GRCH_NG;
+  }
+
+  int w_x = challenge_data.w;
+  int w_y = challenge_data.h;
+  // file_coordinatesがそろっているかチェック
+  int i;
+  for (i = 0; i < w_x * w_y; i++) {
+    if (!(file_coordinates[i] == '0' || file_coordinates[i] == '1')) {
+      grch_out("file_coordinates is wrong"); return GRCH_NG;
+    }
+  }
+
+  // key のチェック
+  char prob_key_str[PROBLEM_KEY_LEN + 1];
+  make_problem_key(problem_number, prob_key_str);
+  char correct_key_buf[100];
+  snprintf(correct_key_buf, 100, "%s-%s",
+	   file_encoding_key(problem_number), prob_key_str);
+  if (strcmp(correct_key_buf, key_string) != 0) {
+    grch_out("key_string changed"); return GRCH_NG;
+  }
+  
+  char config_str[GRCH_FNAME_MAX_LEN];
+  if (!answer_fname(config_dir, problem_number, config_str)) {
+    grch_out("problem_number changed"); return GRCH_NG;
+  }
+  struct Answer_file ans_f;
+  if (!af_open(&ans_f, config_str)) {
+    grch_out("cannot find config file in %s", config_dir); return GRCH_NG;
+  }
+  if (!af_read_header(&ans_f)) {
+    grch_out("cannot read config file in %s", config_dir); return GRCH_NG;
+  }
+  if (problem_number != ans_f.prob_num ||
+      w_x != ans_f.w || w_y != ans_f.h) {
+    grch_out("cannot read config file in %s", config_dir); return GRCH_NG;
+  }
+  struct part_ans *ans = calloc(w_x * w_y, sizeof(struct part_ans));
+  if (!af_read_body(&ans_f, ans)) {
+    grch_out("cannot read config file in %s", config_dir); return GRCH_NG;
+  }
+  af_close(&ans_f);
+
+  int correct_ans = 0;
+  BOOL lack = FALSE;
+  int x, y;
+  for (x = 0; x < w_x; x++) {
+    for (y = 0; y < w_y; y++) {
+      int ca = coord_a(x, y, w_x);
+      if (file_coordinates[ca] == '0') {
+	lack = TRUE; continue;
+      }
+      correct_ans += ans[ca].total;
+      if (x != 0 && file_coordinates[coord_a(x - 1, y, w_x)] != '0')
+	correct_ans -= ans[ca].left;
+      if (y != 0 && file_coordinates[coord_a(x, y - 1, w_x)] != '0')
+	correct_ans -= ans[ca].upper;
+    }
+  }
+
+  free(ans);
+  
+  int msec = (end_time.tv_sec - challenge_data.start_time.tv_sec) * 1000 +
+    ((int)(end_time.tv_usec - challenge_data.start_time.tv_usec) / 1000);
+  grch_out("Problem %d: Finished", problem_number);
+  grch_out("Elapsed time is %d.%dsec", msec / 1000, (msec / 10) % 100);
+  int retval;
+  static char *retstr[] = {"correct", "partly correct", "wrong"};
+  if (correct_ans == result) {
+    if (lack) {
+      retval = GRCH_OK;
+    } else {
+      retval = GRCH_CORRECT;
+    }
+  } else {
+    retval = GRCH_WRONG;
+  }
+  grch_out("Your answer is %s", retstr[retval]);
+  if (retval == GRCH_CORRECT) {
+  //  if (1) {
+    char buf[256];
+    char datebuf[100];
+    strftime(datebuf, 100,
+	     "%a %b %d %H:%M:%S %Y",
+	     localtime(&(challenge_data.start_time.tv_sec)));
+    snprintf(buf, 256, "Correct, prob %02d, %d.%dsec, at %s.",
+	     problem_number, msec / 1000, (msec / 10) % 100,
+	     datebuf);
+    unsigned char md5_str[MD5_DIGEST_LENGTH + 1];
+    make_secret_md5(buf, strlen(buf), md5_str);
+    char md5_readable_buf[MD5_DIGEST_LENGTH * 2 + 1];
+    readable_enc(md5_str, MD5_DIGEST_LENGTH, md5_readable_buf);
+    grch_out("<<%s / key = %s>>", buf, md5_readable_buf);
+  }
+
+  /*
+  string key_s(key_string);
+  int p = key_s.find('-');
+  string enc_s(key_s.substr(p + 1));
+  BF_KEY bf_key;
+  unsigned char key_str[] = "otameshiOTAMESHI";
+  BF_set_key(&bf_key, 16, key_str);
+  unsigned char enc_buf[8];
+  readable_dec(enc_s.c_str(), enc_buf);
+  unsigned char org_buf[9];
+  BF_ecb_encrypt(enc_buf, org_buf, &bf_key, BF_DECRYPT);
+  org_buf[8] = '\0';
+  cout << org_buf << endl;
+  */
+  return retval;
+}
+
+BOOL
+af_open(struct Answer_file *af, const char *fname)
+{
+  af->fp = fopen(fname, "r");
+  if (af->fp == NULL) return FALSE;
+  return TRUE;
+}
+
+void
+af_close(struct Answer_file *af)
+{
+  if (af->fp) fclose(af->fp);
+}
+
+BOOL
+af_read_header(struct Answer_file *af)
+{
+  int e;
+  if (fscanf(af->fp, "%d %d %d %d",
+	       &(af->prob_num), &(af->w), &(af->h), &e) != 4)
+    return FALSE;
+  af->is_encripted = (e == 0 ? FALSE : TRUE);
+  return TRUE;
+}
+
+BOOL
+af_read_body(struct Answer_file *af, struct part_ans ans[])
+{
+  //XXX todo: encrypted
+  int i;
+  for (i = 0; i < af->w * af->h; i++) {
+    char coord_str[9];
+    int inner, left, upper;
+    if (fscanf(af->fp, "%s %d %d %d", coord_str, &inner, &left, &upper) != 4)
+      return FALSE;
+    if (af->prob_num != cut_and_atoi(&coord_str[0], 2)) return FALSE;
+    int x = cut_and_atoi(&coord_str[2], 3);
+    int y = cut_and_atoi(&coord_str[5], 3);
+    set_part_ans(&(ans[coord_a(x, y, af->w)]), inner, left, upper);
+  }
+  return TRUE;
+}
+
+void
+grch_out(char* format, ...)
+{
+  va_list argp;
+  printf("[Grid Challenge] ");
+  va_start(argp, format);
+  vprintf(format, argp);
+  va_end(argp);
+  printf("\n");
+}
+
+int
+cut_and_atoi(const char* str, int len)
+{
+  char copy_str[len + 1];
+  memcpy(copy_str, str, len);
+  copy_str[len] = '\0';
+  return atoi(copy_str);
+}
+
+BOOL
+answer_fname(const char* config_dir, const int pnum,
+	     char *ans_fname)
+{
+  if (config_dir == NULL || config_dir[0] == '\0') return FALSE;
+
+  strcpy(ans_fname, config_dir);
+  if (ans_fname[strlen(ans_fname) - 1] != '/')
+    strcat(ans_fname, "/");
+  char pnum_buf[100];
+  snprintf(pnum_buf, 100, "%02d.ans", pnum);
+  strcat(ans_fname, pnum_buf);
+  return TRUE;
+}
+
+static void
+hexout(const unsigned char* str, int len, char* retbuf)
+{
+  static const char xdc[] = {
+    '0', '1', '2', '3', '4', '5', '6', '7',
+    '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'
+  };
+
+  int i;
+  for (i = 0; i < len; i++) {
+    retbuf[i * 2    ] = xdc[(str[i] >> 4) & 0x0f];
+    retbuf[i * 2 + 1] = xdc[ str[i]       & 0x0f];
+  }  retbuf[len * 2] = '\0';
+}
+
+void
+readable_enc(const unsigned char* str, int len, char* retbuf)
+{
+  int i;
+  for (i = 0; i < len; i++) {
+    retbuf[i * 2    ] = ((str[i] >> 4) & 0x0f) + 'A';
+    retbuf[i * 2 + 1] = ( str[i]       & 0x0f) + 'A';
+  }
+  retbuf[len * 2] = '\0';
+}
+void
+readable_dec(const char* str, unsigned char* retbuf)
+{
+  int i = 0;
+  while (str[i] != '\0') {
+    retbuf[i / 2] = ((str[i] - 'A') << 4) + (str[i + 1] - 'A');
+    i += 2;
+  }
+}
+
+void prepare_global_data()
+{
+  struct tm base_time; // 2004/12/01 00:00:00
+  base_time.tm_sec = 0;
+  base_time.tm_min = 0;
+  base_time.tm_hour = 0;
+  base_time.tm_mday = 1;
+  base_time.tm_mon = 11;
+  base_time.tm_year = 104;
+  base_time.tm_isdst = 0;
+  challenge_data.base_time = mktime(&base_time);
+}
+
+void
+make_problem_key(int prob_num, char *retbuf)
+{
+  char time_str_buf[9];
+  snprintf(time_str_buf, 9, "%02d%06X",
+	   prob_num,
+	   (int)(challenge_data.start_time.tv_sec - challenge_data.base_time));
+  // cf. 3600*24*100 = 0x83d600, 3600*24*365 = 0x1e13380, 6桁だとギリギリ?
+  unsigned char md5_str[MD5_DIGEST_LENGTH + 1];
+  make_secret_md5(time_str_buf, 8, md5_str);
+  char md5_readable_buf[9]; // md5の頭4バイトを使用
+  readable_enc(md5_str, 4, md5_readable_buf);
+  snprintf(retbuf, PROBLEM_KEY_LEN + 1, "%s%s",
+	   time_str_buf, md5_readable_buf);
+}
+
+BOOL
+check_problem_key(const char* problem_key)
+{
+  // XXX todo?: '-'以前のチェック
+  
+  // '-'以降のチェック
+  const char *mp = strchr(problem_key, '-');
+  if (mp == NULL) return FALSE;
+  mp++;
+  unsigned char md5_str[MD5_DIGEST_LENGTH + 1];
+  make_secret_md5(mp, 8, md5_str);
+  char md5_readable_buf[9]; // md5の頭4バイトを使用
+  readable_enc(md5_str, 4, md5_readable_buf);
+  if (strncmp(md5_readable_buf, mp + 8, 8) == 0) {
+    return TRUE;
+  } else {
+    return FALSE;
+  }
+}
+
+void
+make_secret_md5(const char *data, int data_len, unsigned char *md5_str)
+{
+  MD5_CTX md5_ctx;
+  MD5_Init(&md5_ctx);
+  MD5_Update(&md5_ctx, data, data_len);
+  char secret_key[] = "hogehoge";
+  MD5_Update(&md5_ctx, secret_key, sizeof(secret_key));
+  MD5_Final(md5_str, &md5_ctx);
+}
+
+const char *
+file_encoding_key(int prob_num)
+{
+  const char *str;
+  switch (prob_num) {
+  case 1:
+    str = 
+      "c9988f6c2fcb4d492baece7fe9e52a3796e5e6fa";
+    break;
+  case 2:
+    str =
+      "267aeade4ada4933fa7bbf106885e963e03d46d9";
+    break;
+  case 3:
+    str = 
+      "07acb0527fc8341f727b6ac77b56815ae25cef46";
+    break;
+  case 4:
+    str = 
+      "b41283d2d4ca5e6e3259b7c01088e57b2e80f77a";
+    break;
+  case 5:
+    str = 
+      "fdea1c3b65a51f307d7f465ad06e5a3ea1085f92";
+    break;
+  case 6:
+    str = 
+      "e02750f448b185705a23996389418df770f24024";
+    break;
+  default:
+    grch_out("Unknown problem no");
+    str = "";
+    break;
+  }
+  return str;
+}

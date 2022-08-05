@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+<div>
+      <h3>SACSIS 2012 企業・団体展示</h3>
+      <p class="url">(2012年5月16日(水)13:00-18:00, 3F ラウンジ)<br />(2012年5月17日(木)09:00-17:30, 3F ラウンジ)<br />(2012年5月18日(金)09:00-15:30, 3F ラウンジ)</p>
+
+      <h4>株式会社ＨＰＣテック </h4>
+      <p class="url">
+	<a href="http://www.hpctech.co.jp/archives/2605">http://www.hpctech.co.jp/archives/2605</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/hpctech.pdf">次世代ハードウェアによる計算環境のご紹介</a></p>
+      <p class="abs">
+計算機を構成するハードウェア・ソフトウェアは日々進歩しています。弊社では今年発表・発売されたCPU・GPUを使った最新の計算環境を展示致します。<br />
+デスクトップ計算機 CPUでもGPUでも、どちらでも高速計算が出来る計算機です。CPUは3月に発売を開始したSandyBridgeアーキテクチャXeon。これに大容量16GBメモリと、発売されたばかりのKeplerコアを採用したGeForce GTX 680を搭載したDual CPU デスクトップ計算機を展示致します。<br />
+ポータブル計算機日本で一番高速なポータブルGPU計算機を展示致します。もちろんCPUはSandyBridge Core i7に6月発売予定のKeplerコアを採用したGPUを搭載しております。メモリも最大32GB搭載可能なので、普通の“ノートブック”とは一線を画します。
+      </p>
+
+<br /><br />
+
+      <h4>富士通株式会社</h4>
+      <p class="url">
+	<a href="http://jp.fujitsu.com/solutions/hpc/products/primehpc/">http://jp.fujitsu.com/solutions/hpc/products/primehpc/</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/fujitsu.pdf">スーパーコンピュータ PRIMEHPC FX10</a></p>
+      <p class="abs">
+スーパーコンピュータ PRIMEHPC FX10 は、最大 23PFLOPS 超の世界最高クラスのペタスケールコンピューティングを実現すると共に、スーパーコンピュータ「京」(*)と高い親和性があり、昨年11月の発表以来、研究機関、大学のお客様に納入を開始しています。当社ブースでは、その CPU ウェーハーとパッケージ、システムボード、マルチラックモデル構成の模型を展示します。<br />
+(*) スーパーコンピュータ「京」は、文部科学省が推進する「革新的ハイパフォーマンス・コンピューティング・インフラ (HPCI) の構築」計画のもと、理化学研究所と富士通が共同で開発を進めています。「京」は理化学研究所が 2010年7月 に決定した「次世代スーパーコンピュータ」の愛称です。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/ddn.png" />
+      <h4>DataDirect Networks Japan</h4>
+      <p class="url">
+	<a href="http://www.ddn.com">http://www.ddn.com</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/ddn.pdf">DDN 2012 Innovation</a></p>
+      <p class="abs">
+        SC2011 で発表した DDN SFA12K のパネル展示および、WOS(Web Object Scaler)のパネル展示を行います。ブースでは SFA12K, WOS を利用したStorage Solutionについてご説明致します。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/roguewave.png" />
+      <h4>ローグウェーブ ソフトウェア ジャパン株式会社</h4>
+      <p class="url">
+	<a href="http://www.roguewave.jp/products/index.html">http://www.roguewave.jp/products/index.html</a><br />
+	<a href="http://www.roguewave.jp/solutions/index.html">http://www.roguewave.jp/solutions/index.html</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/roguewave.pdf">ローグウェーブ ソフトウェア製品を活用したハイパフォーマンスアプリケーション開発</a></p>
+      <p class="abs">
+ローグウェーブ ソフトウェアは、大規模並列アプリケーション開発に最適なツールとコンポーネントを提供しています。ハイパフォーマンスコンピューティング環境を最大限に活用し、開発効率を飛躍的に向上できるよう設計・開発された製品群を活用することで、お客様の課題をいかに解決できるかをご紹介するカタログを展示します。
+      </p>
+
+<br /><br />
+
+      <h4>NVIDIA ELSA G-DEP</h4>
+      <p class="url">
+	<a href="http://www.nvidia.co.jp/page/home.html">http://www.nvidia.co.jp/page/home.html</a><br />
+	<a href="http://www.elsa-jp.co.jp/index.html">http://www.elsa-jp.co.jp/index.html</a><br />
+	<a href="http://www.gdep.jp/">http://www.gdep.jp/</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/elsa-jp.pdf">NVIDIA,ELSA,GDEPによるGPUソリューション</a></p>
+      <p class="abs">
+最新のNVIDIA TESLA C2075を搭載したGDEP社製GPUコンピューティングマシンによる実機によるデモを行います。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/titech.png" />
+      <h4>東京工業大学 学術国際情報センター</h4>
+      <p class="url">
+	<a href="http://www.gsic.titech.ac.jp/kyoyo">http://www.gsic.titech.ac.jp/kyoyo</a><br />
+	<a href="http://www.gsic.titech.ac.jp/kyodou">http://www.gsic.titech.ac.jp/kyodou</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/titech.pdf">「みんなのスパコン」TSUBAMEによるペタスケールへの飛翔</a></p>
+      <p class="abs">
+世界トップレベルの性能を持つスーパーコンピュータ TSUBAMEを学外の皆さまにご利用頂くサービスをご案内します。無償で使える制度もあり、ブースではこれまでの利用実績を紹介します。お気軽にご相談ください。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/tilera.png" />
+      <h4>タイレラ・コーポレーション</h4>
+      <p class="url">
+	<a href="http://www.tilera.com">http://www.tilera.com</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/tilera.pdf">タイレラ　メニーコアCPU</a></p>
+      <p class="abs">
+Tilera社は、ネットワーキング、ディジタルマルチメディア、クラウドコンピューティングなど、幅広いアプリケーションに使用可能な、世界最高レベルの性能のマルチコアプロセサーを開発しています。 Tilera社のプロセッサーは、インテリジェントのメッシュ(iMesh)アーキテクチャー上に構築され、市場にある他のどのプロセサーよりも拡張性と受難性の点で優れています。
+      </p>
+
+<br /><br />
+
+      <h4>Appro International, Inc.</h4>
+      <p class="url">
+	<a href="http://www.appro.com/">http://www.appro.com/</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/appro.pdf">Appro Supercomputer Solutions</a></p>
+      <p class="abs">
+Appro is a leading developer of supercomputing solutions. Appro is positioned to support small to large-scale HPC deployments where the lowest total cost of ownership is essential. For almost 2 years,Appro supercomputing solutions has enabled scientists and engineers in academia, government and industry to use data-intensive computing for their scientific research discovery, data modeling, engineering simulations, and seismic visualization. Appro innovative solutions continue to accelerate technical applications and business results through optimized architecture coupled with latest technologies and HPC expertise. Appro headquarters is in Milpitas, CA with offices in Houston, TX, Korea and Japan with global reach via strategic International channel partners. To learn more go to 
+<a href="http://www.appro.com/">http://www.appro.com/</a>.
+      </p>
+
+<br /><br />
+
+      <h4>東京エレクトロン デバイス</h4>
+      <p class="url">
+	<a href="http://ac-solution.teldevice.co.jp/">http://ac-solution.teldevice.co.jp/</a><br />
+	<a href="http://ppg.teldevice.co.jp/m_board/index.htm">http://ppg.teldevice.co.jp/m_board/index.htm</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/teldevice.pdf">XILINX社最新FPGAを活用したアカデミックソリューション</a></p>
+      <p class="abs">
+　　XILINX社最大規模FPGA（Virtex-7：XC7V2000T-68億個のトランジスタ）を搭載したLSIエミュレーションボードや、Kintex-7評価ボード、 ARMコア内蔵のFPGA：Zynqシリーズ搭載の評価ボードをいち早くリリース致します。これらの情報をご紹介します。また、University Program（XUP)を活用することにより、教育のための初期導入に必要な開発ツール・評価ボードはDonation（寄贈）を行い授業への幅が広がっております。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/riken.png" />
+      <h4>理化学研究所</h4>
+      <p class="url">
+	<a href="http://www.aics.riken.jp/">http://www.aics.riken.jp/</a><br />
+	<a href="http://www.nsc.riken.jp/index_j.html">http://www.nsc.riken.jp/index_j.html</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/riken.pdf">「京」と計算科学研究機構</a></p>
+      <p class="abs">
+理化学研究所計算科学研究機構は、間もなく完成を迎える「京」の運用を行い、ユーザに対してより使いやすい計算環境を提供する役目を担うとともに、計算科学分野と計算機科学分野の連携による「京」を用いた先進の研究成果創出のための高度化研究を推進します。展示ブースでは、計算科学研究機構の取り組みを紹介するとともに、「京」のメイキング映像や「京」の1/10サイズのミニチュア模型をご覧いただきます。また、初日の5/16には「京」の見学会を開催致します。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/nec.png" />
+      <h4>NEC (グリーンプラットフォーム研究所)</h4>
+      <p class="url">
+	<a href=""></a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/nec_gpf.pdf">PCクラスタ向けメニコアエミュレーションシステム</a></p>
+      <p class="abs">
+HPC・サーバ領域では、プロセッサの単体性能の向上は限界に達しており、コア数を増やすことにより性能強化が図られている。今後は、多数のコアを内蔵したプロセッサをPCノード間で共有して膨大なコア数を持つPCクラスタの実現が予想されている。本システムはネットワーク接続されたメニコアPCクラスタのエミュレータであり、互いにバス接続されたホストCPUとメニコアプロセッサを1ノードとするPCクラスタにおいて、ノード内バスとノード間ネットワークを流れるパケットの内容を観測可能な構成となっている。この観測機能により、ノード間接続されたメニコアPCクラスタ上のシステムソフト開発における検証とデバッグが効率的に実行可能である。本展示では、Infinibandで接続された2台のPC(ホストCPUとPCIeバスにプロセッサを持つ)におけるシステムソフト開発向けデバッグ環境を実演する。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/nec.png" />
+      <h4>NEC (HPC事業部)</h4>
+      <p class="url">
+	<a href="http://www.nec.co.jp/solution/hpc/index.html">http://www.nec.co.jp/solution/hpc/index.html</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/nec_hpc.pdf">ＨＰＣクラスタソリューション「ＬＸシリーズ」</a></p>
+      <p class="abs">
+LXシリーズは、大規模から小規模までのシミュレーションでコストパフォーマンスや拡張性を重視するお客様へ提供するソリューションです。NECが永年、ＨＰＣ分野で培ったシステム構築に関する幅広い経験やアプリケーションノウハウを基に、HPCクラスタシステムで必要とされる様々なコンポーネントを組み合わせて、お客様の利用環境やアプリケーションに合わせた最適なシステム/ソリューションをご提供いたします。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/scsk.png" />
+      <h4>SCSK株式会社</h4>
+      <p class="url">
+	<a href="http://www.scsk.jp/news/2012/press/product/20120224.html">http://www.scsk.jp/news/2012/press/product/20120224.html</a><br />
+	<a href="http://www.scs.co.jp/product/gaiyo/virident.html">http://www.scs.co.jp/product/gaiyo/virident.html</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/scsk.pdf">HPC分野に最適な高速ストレージソリューション</a></p>
+      <p class="abs">
+超高速ディスクIO、低レイテンシーを実現するViolin　Memory社製フラッシュアレイ V-6000シリーズ、PCI-Express接続のサーバー内蔵型ソリッドストレージシステム　Virident　Systems 社製 FlashMAXの 2点を出展します。
+      </p>
+
+<br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/j-focus.png" />
+      <h4>財団法人計算科学振興財団</h4>
+      <p class="url">
+	<a href="http://www.j-focus.or.jp/">http://www.j-focus.or.jp/</a><br />
+	<a href="http://www.j-focus.jp/">http://www.j-focus.jp/</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/j-focus.pdf">財団法人計算科学振興財団</a></p>
+      <p class="abs">
+京速コンピュータ「京」の産業利用推進活動を行っている財団法人計算科学振興財団（FOCUS）とFOCUS主催・共催・後援のイベントを紹介する。
+      </p>
+
+
+</div>
+
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

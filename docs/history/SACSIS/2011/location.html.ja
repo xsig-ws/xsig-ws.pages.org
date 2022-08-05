@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <div class="main">
+      <?php include("include/navbar-ja.html");?>
+      <h4>
+	シンポジウムの会場案内
+      </h4>
+
+      <ul>
+	<li><a href="http://www.akibahall.jp/">秋葉原コンベンションホール（秋葉原クロスフィールド ダイビル）</a>
+	  <p>
+	    〒101-0021 東京都千代田区外神田1-18-13<br />
+	    TEL：03-5297-0230 / FAX：03-5297-5955
+	  </p>
+	</li>
+	<li> 交通アクセス
+	  <ul>
+	    <li>JR秋葉原駅（山手線，京浜東北線，総武線）より徒歩1分</li>
+	    <li>東京メトロ銀座線秋葉原駅より徒歩3分</li>
+	    <li>東京メトロ日比谷線秋葉原駅より徒歩4分</li>
+	    <li>つくばエクスプレス秋葉原駅より徒歩3分</li>
+	  </ul>
+	</li>
+	<li>
+	  参考：<a href="http://www.akibahall.jp/data/access.html">会場Webページの交通案内</a>
+	</li>
+	<li>地図
+	  <p>
+	    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E7%A7%8B%E8%91%89%E5%8E%9F%E3%82%B3%E3%83%B3%E3%83%99%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%BC%E3%83%AB&amp;sll=35.699908,139.772041&amp;sspn=0.002827,0.005681&amp;brcurrent=3,0x60188c1df342faa9:0xe7a148adda776812,0&amp;ie=UTF8&amp;hq=%E7%A7%8B%E8%91%89%E5%8E%9F%E3%82%B3%E3%83%B3%E3%83%99%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%BC%E3%83%AB&amp;hnear=&amp;cid=16577767462996991028&amp;ll=35.699216,139.772111&amp;spn=0.003049,0.00456&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=%E7%A7%8B%E8%91%89%E5%8E%9F%E3%82%B3%E3%83%B3%E3%83%99%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%BC%E3%83%AB&amp;sll=35.699908,139.772041&amp;sspn=0.002827,0.005681&amp;brcurrent=3,0x60188c1df342faa9:0xe7a148adda776812,0&amp;ie=UTF8&amp;hq=%E7%A7%8B%E8%91%89%E5%8E%9F%E3%82%B3%E3%83%B3%E3%83%99%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%BC%E3%83%AB&amp;hnear=&amp;cid=16577767462996991028&amp;ll=35.699216,139.772111&amp;spn=0.003049,0.00456&amp;z=17&amp;iwloc=A" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>
+	  </p>
+	</li>
+	<!-- 	<li>宿泊施設のご案内<br /> -->
+	<!-- 	  TBA -->
+	<!-- 	</li> -->
+      </ul>
+      <h4>
+	  秋葉原観光案内
+      </h4>
+      <ul>
+	<li><a href="http://www.akiba.or.jp/">秋葉原電気街振興会</a></li>
+	<li><a href="http://wikitravel.org/ja/%E7%A7%8B%E8%91%89%E5%8E%9F">ウィキトラベル：秋葉原</a></li>
+      </ul>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>
+  

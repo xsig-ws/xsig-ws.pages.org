@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+      
+
+      <h4>Contact</h4>
+<!--
+      <dl>
+	<dt>About Meeting:</dt>
+	<dd>TADANO Hiroto (General Chair)&nbsp;&nbsp;(tadano <span> "at" </span> cs "dot" tsukuba "dot" ac "dot" jp)
+	</dd>
+	<dt>About Papers:</dt>
+	<dd>IWASHITA Takeshi (Program Chair)&nbsp;&nbsp;(iwashita <span> "at" </span> iic "dot" hokudai "dot" ac "dot" jp)<br/>
+	SHIMADA Hajime (Program Vice-Chair)&nbsp;&nbsp;(shimada <span> "at" </span> itc "dot" nagoya-u "dot" ac "dot" jp )
+	</dd>
+	<dt>About Posters:</dt>
+	<dd>IKEGAMI Tsutomu (Program Vice-Chair)&nbsp;&nbsp;(t-ikegami <span> "at" </span> aist "dot" go "dot" jp)
+	</dd>
+	<dt>About Exhibitors:</dt>
+	<dd>IKEGAMI Tsutomu (Industry Liaison Chair)&nbsp;&nbsp;(t-ikegami <span> "at" </span> aist "dot" go "dot" jp)
+	</dd>
+	<dt>About Web pages:</dt>
+	<dd>KODAMA Yuetsu (Publicity Chair)&nbsp;&nbsp;(kodama <span> "at" </span> cs "dot" tsukuba "dot" ac "dot" jp)
+	</dd>
+
+	<dt>Others:</dt>
+	<dd>acsi2015 <span> "at" </span> ccs "dot" tsukuba "dot" ac "dot" jp
+	</dd>
+      </dl>
+-->   acsi2015 <span> "at" </span> ccs "dot" tsukuba "dot" ac "dot" jp
+
+<!--
+      <p>
+	ACSI2015 及賺縞參夠莘反<a href="committee.html.ja">仇切日</a>
+      </p>
+-->
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

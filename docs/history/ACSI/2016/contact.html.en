@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+      
+
+      <h4>Contact</h4>
+   acsi2016 <span> "at" </span> acsi "dot" hpcc "dot" jp
+
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

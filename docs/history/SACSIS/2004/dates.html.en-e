@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2004 Important Dates</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+May 26-28, 2004<br />
+Sapporo, Hokkaido, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (2004_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.en" title="SACSIS 2004">SACSIS2004&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="dates.html.ja" title="Japanese Page"> <img src="images/en2jp.gif" alt="japanese" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2004_LINKS) -->  <a href="topics.html.en">Topics</a> <span class="hideme">|</span>
+  <a href="cfp.html.en">Call&nbsp;for&nbsp;Paper</a> <span class="hideme">|</span>
+  <a href="poster_cfp.html.en">Call&nbsp;for&nbsp;Paper&nbsp;(Poster)</a> <span class="hideme">|</span>
+  <a href="program.html.en">Program</a> <span class="hideme">|</span>
+  <a href="registration.html.en">Registration</a> <span class="hideme">|</span>
+  <a href="location.html.en">Location</a> <span class="hideme">|</span>
+  <a href="committee.html.en">Committee</a> <span class="hideme">|</span>
+  <a href="contact.html.en">Contact</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/wiki/wiki.cgi?SACSIS2004%B0%D1%B0%F7%C0%EC%CD%D1%A5%DA%A1%BC%A5%B8" title="PC/OC Members Only">Members&nbsp;Only</a> <span class="hideme">|</span>
+  
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> 
+ <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS&nbsp;Journal</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">IPSJ</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () --><div class="main">
+
+<h4>Important Dates</h4>
+
+<br />
+<!-- INSERTED LINES BEGIN (cfp.txt) --><pre>
+
+  2004/1/26(Mon)		Paper registration <span style="font-weight:bold">deadline</span>  (No Extension) 
+  2004/1/30(Fri)		Paper upload <span style="font-weight:bold">deadline</span>  (No Extension) 
+  2004/3/16(Tue) around   	Paper acceptance notification 
+  2004/3/19(Fri)		Poster paper submission start 
+  2004/4/02(Fri)		Poster paper <span style="font-weight:bold">deadline</span> 
+  2004/4/16(Fri) around   	Poster paper acceptance notification, and paper camera ready<span style="font-weight:bold">deadline</span> 
+  2004/5/26(Wed)-5/28(Fri) SACSIS2004
+</pre>
+<!-- INSERTED LINES END () -->
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

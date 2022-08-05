@@ -1,0 +1,100 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>Cell Speed Challenge 2008 : Outputs</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/cell.css">
+<!-- meta name="author"      content="" -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rev="made" href="mailto:tsumura@nitech.ac.jp">
+<meta name="date" content="2008-07-29T09:57:47+09:00">
+</head>
+
+<body class="contents">
+
+<h1>’À®’²Ì’¸ø’³«</h1>
+
+<h2>’µ¬’Äê’²Ý’Âê’Éô’Ìç</h2>
+
+<p>’Ãí’°Õ) Cell Open Cafe ’¤Î Cell Reference Set ’¤Ï version.3 ’¤Ë’°Ü’¹Ô’¤·’¤¿’¤¿’¤á’¡¤
+’¥Ä’¡¼’¥ë’¥­’¥Ã’¥È’¤Î’ÊÑ’¹¹’¤¬’É¬’Í×’¤Ç’¤¹’¡£<a href="download/toolkit1.3.tar.gz">toolkit.1.3</a> ’¤ò’¤´’Íø’ÍÑ’¤¯’¤À’¤µ’¤¤’¡£</p>
+
+<table class="outputs">
+ <tr>
+  <th class="prize">’½ç’°Ì</th>
+  <th class="team">’¥Á’¡¼’¥à’Ì¾</th>
+  <th class="document">’¥É’¥­’¥å’¥á’¥ó’¥È</th>
+  <th class="source">’¥½’¡¼’¥¹’¥³’¡¼’¥É</th>
+ </tr>
+ <tr>
+  <td>1’°Ì</td>
+  <td>’Åì’µþ’¹©’¶È’Âç’³Ø’¾®’Ä¹’Ã«’¸¦’µæ’¼¼</td>
+  <td class="document"><a class="pdf" href="outputs/doc/kitei_1.pdf">’¥ª’¥ó’¥Á’¥Ã’¥×’ÊÂ’Îó’½è’Íý’¤ò’Íø’ÍÑ’¤·’¤¿’Ì©’¹Ô’ÎóLU’Ê¬’²ò’¤Î’¼Â’Áõ</a></td>
+  <td><a href="outputs/kitei_1.tar.gz">tar.gz</a></td>
+ </tr>
+ <tr>
+  <td>2’°Ì</td>
+  <td>TenForks</td>
+  <td class="document"><a class="pdf" href="outputs/doc/kitei_2.pdf">Cell’¥¹’¥Ô’¡¼’¥É’¥Á’¥ã’¥ì’¥ó’¥¸2008’¤Ç’ÍÑ’¤¤’¤¿’¹â’Â®’²½’¼ê’Ë¡</a></td>
+  <td><a href="outputs/kitei_2.tar.gz">tar.gz</a></td>
+ </tr>
+ <tr>
+  <td>3’°Ì</td>
+  <td>redb</td>
+  <td class="document"><a class="pdf" href="outputs/doc/kitei_3.pdf">Cell/B.E. ’¤Ç’¤Î’Ï¢’Î©’°ì’¼¡’Êý’Äø’¼°’¤Î’µá’²ò’¤Î’¹â’Â®’²½</a></td>
+  <td><a href="outputs/kitei_3.tar.gz">tar.gz</a></td>
+ </tr>
+ <tr>
+  <td>’¤Ò’¤Ó’¤­’¤Î’¾Þ</td>
+  <td>Qubit</td>
+  <td class="document"><a class="pdf" href="outputs/doc/kitei_h.pdf">Cell BE’¸þ’¤±’Ï¢’Î©’°ì’¼¡’Êý’Äø’¼°’¤Î’µá’²ò’¥×’¥í’¥°’¥é’¥à’¤Î’³«’È¯</a></td>
+  <td><a href="outputs/kitei_h.tar.gz">tar.gz</a></td>
+ </tr>
+</table>   
+
+<h2>’¼«’Í³’²Ý’Âê’Éô’Ìç</h2>
+
+<table class="outputs">
+ <tr>
+  <th class="prize">’½ç’°Ì</th>
+  <th class="team">’¥Á’¡¼’¥à’Ì¾</th>
+  <th class="document">’¥É’¥­’¥å’¥á’¥ó’¥È</th>
+  <th class="source">’¥½’¡¼’¥¹’¥³’¡¼’¥É</th>
+ </tr>
+ <tr>
+  <td>1’°Ì</td>
+  <td>Mitochondria</td>
+  <td class="document"><a class="pdf" href="outputs/doc/jiyu_1.pdf">Cell Broadband Engine ’¤Ë’ÂÐ’¤¹’¤ë’½Å’ÎÏ’Â¿’ÂÎ’Ìä’Âê’·×’»»’¤Î’ºÇ’Å¬’²½</a></td>
+  <td><!-- a href="outputs/jiyu_1.tar.gz">tar.gz</a -->’Ä´’À°’Ãæ</td>
+ </tr>
+ <tr>
+  <td>2’°Ì</td>
+  <td>’Åì’µþ’¹©’¶È’Âç’³Ø’¾®’Ä¹’Ã«’¸¦’µæ’¼¼</td>
+  <td class="document"><a class="pdf" href="outputs/doc/jiyu_2.pdf">Cell BE ’¥×’¥í’¥°’¥é’¥à’¤Î’ºÇ’Å¬’²½’¼ê’Ë¡’¤Î’Äó’°Æ</a></td>
+  <td><a href="outputs/jiyu_2.tar.gz">tar.gz</a></td>
+ </tr>
+ <tr>
+  <td>3’°Ì</td>
+  <td>itotlabo</td>
+  <td class="document"><a class="pdf" href="outputs/doc/jiyu_3.pdf">Cell’¤ò’ÍÑ’¤¤’¤¿’¥¯’¥é’¥¹’¥¿’¥·’¥¹’¥Æ’¥à’¤Ë’¤è’¤ë’·×’»»’µ¡’¹ç’À®’¥Û’¥í’¥°’¥é’¥à’¤Î’¹â’Â®’²½</a></td>
+  <td><a href="outputs/jiyu_3.tar.gz">tar.gz</a></td>
+ </tr>
+ <tr>
+  <td>’¤Ò’¤Ó’¤­’¤Î’¾Þ</td>
+  <td>’¤Ò’¤Ó’¤­’¤Î’¿À’·Ð’ºÙ’Ë¦</td>
+  <td class="document"><a class="pdf" href="outputs/doc/jiyu_h.pdf">Cell B.E. ’¤Ë’¤è’¤ëSIMD-oriented Fast Mersenne Twister ’¤ò’ÍÑ’¤¤’¤¿ Particle Swarm Optimization</a></td>
+  <td>’¸ø’³«</td>
+ </tr>
+</table>   
+
+  
+
+
+<hr class="footer">
+
+</body>
+
+</html>
+

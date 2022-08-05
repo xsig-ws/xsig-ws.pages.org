@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+<link rel="STYLESHEET" href="misc/grichal.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<title>Grid Challenge in SACSIS 2005</title>
+</head>
+
+<body>
+<table class="main" >
+<tr>
+<td colspan="2" class="title">
+
+<center>
+<img src="misc/title.png" />
+</center>
+<h1>Grid Challenge in SACSIS 2005</h1>
+</td>
+</tr>
+
+<tr>
+<td class="main">
+
+<h2>規定課題出題API(C言語用)</h2>
+
+<div>
+<p>
+参加プログラムは、出題APIを用いて問題の取得と解答の正解判定をする必要がある。
+出題APIを用いるためには、<br>
+#include "grid_challenge_api.h"<br>
+によってヘッダファイルをインクルードし、またリンク時にはlibgrch.a
+をリンクすること。参加者の環境で以下のAPIを使ってプログラムを開発するための
+パッケージ<a href=reg_trial.html>お試しパック</a>が用意されている。
+</p>
+</div>
+
+
+<div>
+<b>
+int get_problem(const int problem_number, const char* config_dir, 
+		const char** key_string,
+		int* width, int* height);
+</b><br>
+プログラムは開始時にget_problem()を呼ぶことにより、データ復号化鍵などを
+取得する必要がある。全ノードを通して<b>一つのプロセスのみがget_problem()を
+呼ぶこと</b>。<br>
+<br>
+problem_number: 問題番号を指定する。 <br>
+config_dir: お試しパックにおいては、正答ファイル
+(例えば01.ansという名前のファイル)の置いてあるディレクトリ
+(例えば/some/where/data01)を
+指定する。予選・決勝においてはNULLとすること。<br>
+key_string:  鍵文字列が返されるアドレスである。鍵文字列は、
+データ復号化鍵を含む、0で終る文字列である(詳細は後述)。
+鍵文字列は出題API内部でstaticに確保されているので、freeしないこと。<br>
+width: 元画像の、X方向の分割数が返されるアドレスである。<br>
+height: 元画像の、Y方向の分割数が返されるアドレスである。<br>
+<br>
+return value: 正常の場合は0、異常の場合は0以外が返される。<br>
+<br>
+鍵文字列は"XXXX-YYYYYY"という形式の文字列である。`-'(ハイフン)
+以前のXXXXという部分は、16進ASCII表現による復号化鍵である。
+復号化鍵の長さは固定ではないため、`-'の位置によって判断すること。
+また、復号化鍵の長さをL bytesとすると、Lは4以上256以下で4の倍数であることが
+保証される。
+復号化鍵の各byteは左にゼロ詰めされた2桁16進で表される。そのため、
+XXXXの部分の長さは2*L文字である。
+プログラムはYYYYYYの部分について気にする必要はないが、
+文字列全体をそのままget_problem_files()とanswer_problem()に渡す必要がある。
+</div>
+
+<div>
+<b>
+int get_problem_files(const int problem_number, const char* key_string,
+                const char* problem_dir,
+		const char** problem_file_list);
+</b><br>
+プログラムは、各クラスタ内の少なくとも1つのプロセスで、
+get_problem_files()を呼ぶことにより入力ファイル名を取得する必要がある。
+get_problem()から得られた
+鍵文字列が必要なので、前もって通信などを行なっておくこと。<br>
+<br>
+problem_number: 問題番号を指定する。 <br>
+key_string: get_problem()から得られた、鍵文字列を指定する。<br>
+problem_dir: お試しパックにおいては、問題ファイルの置いてあるディレクトリ
+(例えば/some/where/data01)を
+指定する。予選・決勝においてはNULLとすること。<br>
+problem_file_list: 呼び出したノードの属するクラスタにおいてアクセス可能な
+全画像ファイル(マスター、レプリカすべて)のフルパス名を
+連結した文字列が返されるアドレスである。
+各ファイル名の直後には全て : (コロン)が置かれている。<br>
+<br>
+return value: 正常の場合は0、異常の場合は0以外が返される。
+<br>
+このAPIを呼び出したマシンによって、problem_file_listに
+返されるファイルの集合は一般には異なっている。具体的には、
+マシンA, Bでの呼出しで返される二つの集合は、
+(1) 全く同一であるか、(2) それらのファイル集合中に含まれるマスターファ
+イルに全く重なりがない、のどちらかが満たされている。
+<br>
+二つのマシンが同一クラスタ内のマシンである場合、それらは同一
+の共有ディレクトリ(ファイルサーバ)をアクセスしており、この場合は(1)に
+なり、そうでない場合は(2) になる。プログラム作成にあたっては、
+この事実を用いても良いし用いなくても良い。
+</div>
+
+<div>
+<b>
+int answer_problem(const int problem_number, const char* key_string,
+                   const int result,
+		   const char* file_coordinates,
+		   const char* config_dir);
+</b><br>
+プログラムは計算が終了したら、その解答をanswer_problem()を用いて
+報告する必要がある。解答に対する判定が返される。
+<b>get_problem()を呼び出したプロセスのみが、answer_problem()を
+呼ばなければならない。</b><br>
+<br>
+problem_number: 問題番号を指定する。 <br>
+key_string: get_problem()から得られた、鍵文字列を指定する。<br>
+result: 解答である、物体の総数を指定する。<br>
+file_coordinates: 解答に使った画像ファイル群を示す文字列を
+指定する(詳細は後述)。
+<br>
+config_dir: お試しパックにおいては、正答ファイルの置いてあるディレクトリ
+(例えば/some/where/data01. get_problemに渡したのと同じディレクトリ名)を
+指定する。予選・決勝においてはNULLとすること。<br>
+<br>
+return value: Resultに対する判定が返される。返される値は以下のうちの
+どれかである。<br>
+<ul>
+<li> GRCH_CORRECT: 正解であり、全ての画像ファイルを使用した。
+<li> GRCH_OK: 一部の画像ファイルが使われていないが、
+使用されたファイル群については正解である。
+<li> GRCH_WRONG: 不正解である。
+<li> GRCH_NG: 不正な呼び出しである。引数が不正である、
+get_problemを呼んでいないプロセスが呼んでいるなど。
+</ul>
+
+標準エラー出力に解答時間を可読形式にしたものと、正解証明の鍵が出力される。
+正解証明の鍵はGRCH_CORRECTの場合にのみ付加される。
+<br>
+File_coordinatesは、
+WとHをそれぞれ元画像のX方向の分割数とY方向の分割数とすると、
+W*H個の'0'または'1'が並んだ文字列である
+((char)0や(char)1ではなく、(char)'0'と(char)'1'であることに注意)。
+各文字は1つの画像ファイルに対応し、'1'は対応する画像ファイルが
+解答のために使用されていることを、'0'は使用されていないことを表す。
+画像ファイルは左上の画像ファイルを起点として行優先で並べる。
+つまり、i行j列の画像ファイルが使われていれば、
+上記文字列の(i + W * j)文字目を'1'に、使われていなければ'0'にする
+(行、列、文字のいずれも0を起点として数える)。
+なお、決勝において有効な判定(後述のGRCH_CORRECT)を得るためには、
+全ての画像ファイルを使用したことを示すために、W*H個の文字の全てが'1'で
+ある文字列を与える必要がある。
+
+
+
+</td>
+
+
+<td class="menu" valign="top">
+
+<h3 class="menu">menu</h3>
+<div class="menu">
+<ul class="menu">
+<li><a href="index.html" class="menu_d">Top</a></li>
+<li><a href="regulation.html" class="menu_d">規定課題</a></li>
+<li><a href="reg_detail.html" class="menu_d_sub">規定課題詳細</a></li>
+<li><span class="menu_h_sub">出題API(C言語用)</span></li>
+<li><a href="reg_api_java.html" class="menu_d_sub">出題API(Java用)</a></li>
+<li><a href="reg_trial.html" class="menu_d_sub">お試しパック</a></li>
+<li><a href="reg_elimination.html" class="menu_d_sub">予選詳細</a></li>
+<li><a href="reg_el_result.html" class="menu_d_sub">予選結果</a></li>
+<li><a href="reg_final.html" class="menu_d_sub">本選詳細</a></li>
+<li><a href="reg_fin_result.html" class="menu_d_sub">本選結果</a></li>
+<li><a href="reg_fin_data.html" class="menu_d_sub">本選出題内容</a></li>
+<li><a href="free_regulation.html" class="menu_d">自由課題</a></li>
+<hr />
+<li><a href="http://www.hpcc.jp/sacsis/2005/" class="menu_d">SACSIS 2005</a></li>
+</ul>
+</div>
+<h3 class="menu">what's new</h3>
+<div class="menu">
+
+<ul class="small">
+<li>2005/3/22 決勝終了。集計結果は<a href=reg_fin_result.html>こちら</a>。出題データに関する資料は<a href=reg_fin_data.html>こちら。</a>
+<li>2005/3/11 決勝で用いたプログラムソースの提出方法について<a href=reg_final.html>追加</a>しました。
+<li>2005/3/10 決勝の実行を収めた動画キャプチャの提出方法について<a href=reg_final.html>更新</a>しました。
+<li>2005/3/02 予選中間結果を<a href=reg_el_result.html>更新</a>しました。
+<li>2005/2/09 予選中間結果を<a href=reg_el_result.html>公開</a>しました。
+<li>2005/2/02 予選問題に関する詳細情報を<a href=reg_elimination.html>公開</a>しました。
+<li>2005/1/30 ホスト情報の最終版を参加者へ通知しました。
+<li>2005/1/30 参加チーム情報を<a href=grch_meibo.html>公開</a>しました。
+
+<li>
+<font color=red>2005/1/27 
+予選スケジュールを延期しました。詳しくは<a href=regulation.html#schedule>こちら</a>
+</font>
+<li>2005/1/27 
+<a href=awards.html>賞に関する情報</a>を掲載するページを作成しました。
+<li>
+2005/1/19 参加チームにホスト情報の提供を開始しました
+<li><a href=http://www.atmarkit.co.jp/index.html>
+2005/1/7 @IT</a>に掲載されました
+(<a href=http://www.atmarkit.co.jp/news/200501/08/grid.html>
+1000CPUでグリッドを体感、「Grid Challenge」開催へ</a>)</li>
+<li> 2005/1/7 Grid協議会「グリッドショーケース」にて講演を行ないました
+<li> 2005/1/1 規定問題詳細とお試しパック公開!</li>
+<li> 2004/12/15 <a href=http://nikkeibp.jp/wcs/leaf/CID/onair/jp/sangaku/349589>nikkeibp.jp</a>に掲載されました</li>
+<li> 2004/12/7 サイト開設</li>
+<li> 2004/12/7 参加者募集開始! </li>
+</ul>
+</div>
+</td>
+
+</tr>
+
+
+
+<tr>
+<td colspan="2" class="footer">
+<hr />
+Grid Challenge in SACSIS 2005
+</td>
+</table>
+
+</body>
+</html>

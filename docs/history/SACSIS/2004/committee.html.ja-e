@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2004 Committee</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+May 26-28, 2004<br />
+Sapporo, Hokkaido, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (2004_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.ja" title="SACSIS 2004">SACSIS2004&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="committee.html.en" title="English Page"> <img src="images/jp2en.gif" alt="English" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2004_LINKS) -->  <a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+  <a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+  <a href="poster_cfp.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+  <a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+  <a href="registration.html.ja">参加申込</a> <span class="hideme">|</span>
+  <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+  <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+  <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/wiki/wiki.cgi?SACSIS2004%B0%D1%B0%F7%C0%EC%CD%D1%A5%DA%A1%BC%A5%B8" title="PC/OC Members Only">委員専用ページ</a> <span class="hideme">|</span>
+  
+
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> 
+ <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () --><div class="main">
+
+<h4 id="sc">SACSIS 運営委員</h4>
+
+<dl  style="font-size:14px">
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.hpcc.jp/acs/">論文誌：コンピューティングシステム 編集委員会</a>, 
+運営委員長
+</dt>
+
+<dd>
+中島 浩 （豊橋技術科学大学）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.hpcc.jp/sigarc/">アーキテクチャ研究会</a>
+</dt>
+
+<dd>
+笠原  博徳 （早稲田大学）
+
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.ipsj.or.jp/sig/os/">システムソフトウェアとオペレーティング・システム研究会</a>
+</dt>
+<dd>
+加藤  和彦 （筑波大学）<br />
+石川  裕 （東京大学）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.hpcc.jp/sighpc/">ハイパフォーマンスコンピューティング研究会</a>
+</dt>
+<dd>
+関口  智嗣 （産業技術総合研究所）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.ipsj.or.jp/sig/pro/">プログラミング研究会</a>
+</dt>
+<dd>
+柴山  悦哉 （東京工業大学）
+</dd>
+
+<dt>
+<a href="http://www.ieice.org/">(社)電子情報通信学会</a>
+<a href="http://www.ieice.org/iss/cpsy/jpn/">コンピュータシステム研究専門委員会</a>
+</dt>
+<dd>
+木村  康則  （富士通研究所）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.hpcc.jp/acs/">論文誌：コンピューティングシステム 編集委員会</a>
+</dt>
+<dd>
+佐藤  三久 （筑波大学）<br />
+中村  宏 （東京大学）
+</dd>
+
+</dl>
+
+<!--
+<table>
+<colgroup>
+ <col span="1" style="font-weight:bold" />
+ <col span="1" />
+</colgroup>
+<tr>
+  <td colspan="2">
+  <a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+	<a href="http://www.hpcc.jp/acs/">論文誌：コンピューティングシステム 編集委員会</a></td>
+  </tr><tr>
+  <td align="right">運営委員長</td>
+  <td>中島 浩 （豊橋技術科学大学）</td>
+  </tr>
+<tr>
+  <td colspan="2">
+  <a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+	<a href="http://www.hpcc.jp/sigarc/">アーキテクチャ研究会</a> </td>
+  </tr><tr><td></td>
+  <td>笠原  博徳 （早稲田大学）</td>
+  </tr>
+<tr>
+  <td colspan="2">
+  <a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+	<a href="http://www.ipsj.or.jp/sig/os/">システムソフトウェアとオペレーティング・システム研究会</a></td>
+  </tr><tr><td></td>
+  <td>石川  裕 （東京大学） </td>
+  </tr>
+<tr>
+  <td colspan="2">
+  <a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+	<a href="http://www.hpcc.jp/sighpc/">ハイパフォーマンスコンピューティング研究会</a></td>
+  </tr><tr><td></td>
+  <td>関口  智嗣 （産業技術総合研究所）</td>
+  </tr>
+<tr>
+  <td colspan="2">
+  <a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+	<a href="http://www.ipsj.or.jp/sig/pro/">プログラミング研究会</a> </td>
+  </tr><tr><td></td>
+  <td>柴山  悦哉 （東京工業大学）</td>
+  </tr>
+<tr>
+  <td colspan="2">
+  <a href="http://www.ieice.org/">(社)電子情報通信学会</a>
+	<a href="http://www.ieice.org/iss/cpsy/jpn/">コンピュータシステム研究専門委員会</a> </td>
+  </tr><tr><td></td>
+  <td>木村  康則  （富士通研究所） </td>
+  </tr>
+<tr>
+  <td colspan="2">
+  <a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+	<a href="http://www.hpcc.jp/acs/">論文誌：コンピューティングシステム 編集委員会</a> </td>
+  </tr><tr>
+  <td></td><td> 佐藤  三久 （筑波大学） </td>
+  </tr><tr>
+  <td></td><td> 中村  宏 （東京大学） </td>
+  </tr>
+</table>
+-->
+
+<h4 id="oc">SACSIS 2004 組織委員</h4>
+
+<table style="margin-top: 5pt; margin-bottom: 15pt">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+<tr><td>組織委員長 </td><td> 木村康則 （富士通研）
+     </td></tr>
+<tr><td>組織副委員長 </td><td> 佐藤三久 （筑波大学）
+     </td></tr>
+<tr><td>総務委員長 </td><td> 松原正純 （富士通研）
+     </td></tr>
+<tr><td>プログラム委員長 </td><td> 中村 宏 （東京大学）
+     </td></tr>
+<tr><td>プログラム副委員長（論文査読） </td><td> 合田憲人 （東京工業大学）
+     </td></tr>
+<tr><td>プログラム副委員長（ポスター） </td><td> 濱中直樹 （日立中研）
+</td></tr>
+<tr><td>ローカルアレンジメント委員長 </td><td> 米田友洋 （国立情報学研究所）
+     </td></tr>
+<tr><td>ローカルアレンジメント委員長 </td><td> 中條拓伯 （東京農工大学）
+     </td></tr>
+<tr><td>ローカルアレンジメント副委員長 </td><td> 棟朝雅晴 （北海道大学）
+     </td></tr>
+<tr><td>広報委員長（WEB管理） </td><td> 安田絹子 （慶應義塾SFC研究所）
+     </td></tr>
+<tr><td>チュートリアル委員長 </td><td> 林 憲一 （サンマイクロシステムズ）
+</td></tr>
+<tr><td>会計委員長 </td><td> 木村啓二 （早稲田大学）
+     </td></tr>
+</table>
+
+<h4 id="pc">SACSIS 2004 プログラム委員</h4>
+
+<ul style="font-size: 14px">
+<li>合田 憲人 (東工大)</li>
+<li>天海 良治 (NTT)</li>
+<li>天野 英晴 (慶大)</li>
+<li>安崎 篤郎 (日立)</li>
+<li>板倉 憲一	  (海洋科学技術センター) </li>
+<li>太田 高志 (IBM)</li>
+<li>小野寺 民也 (IBM)</li>
+<li>片桐 孝洋 (電通大)</li>
+<li>加藤 和彦 (筑波大)</li>
+<li>門林 雄基 (奈良先端)</li>
+<li>木村 啓二 (早大)</li>
+<li>工藤 知宏 (産総研)</li>
+<li>久保田 和人 (東芝)</li>
+<li>河野 健二 (電通大)</li>
+<li>古賀 久志 (電通大)</li>
+<li>五島 正裕 (京大)</li>
+<li>佐藤 寿倫 (九工大)</li>
+<li>佐藤 真琴 (日立)</li>
+<li>新城 靖 (筑波大)</li>
+<li>鈴木 貢 (電通大)</li>
+<li>須田 礼仁	  (東京大学) </li>
+<li>住元 真司 (富士通研)</li>
+<li>田浦 健次朗 (東大)</li>
+<li>高橋 大介	  (筑波大学)</li>
+<li>田中 良夫 (産総研)</li>
+<li>田中 義一 (日立)</li>
+<li>千葉 滋 (東工大)</li>
+<li>寺岡 文男 (慶大)</li>
+<li>中西 泰人 (農工大)</li>
+<li>中村 宏 (東大)</li>
+<li>西尾 信彦 (立命館大)</li>
+<li>西澤 格 (日立)</li>
+<li>濱中 直樹 (日立)</li>
+<li>平木 敬 (東大)</li>
+<li>廣津 登志夫 (NTT)</li>
+<li>藤井 啓明(日立)</li>
+<li>本多 弘樹 (電通大)</li>
+<li>増澤 利光 (阪大)</li>
+<li>森 眞一郎 (京大)</li>
+<li>山本 有作 (名大)</li>
+<li>横川 三津夫 (産総研)</li>
+<li>米田 友洋 (NII)</li>
+<li>渡邊 誠也 (岡山大)</li>
+</ul>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

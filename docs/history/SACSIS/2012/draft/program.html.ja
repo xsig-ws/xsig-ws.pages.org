@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <div class="main">
+      <?php include("include/navbar-ja.html");?>
+      <h3>SACSIS 2011 プログラム</h3>
+      <p><strong>最終更新日：<?php include("include/program-last-update");?>（更新履歴は<a href="program-history.html.ja">こちら</a>）</strong></p>
+      <p>
+      <p>
+      <p>
+	<strong>【お知らせ（7/1更新）】</strong>
+	<ul>
+	  <li><strong>講演者の方々のご厚意により，チュートリアル資料を<a href="program.html.ja#tutorial">一般公開</a>（およびupdate）しました．</strong></li>
+	  <li><a href="notice-online.html.ja">オンライン論文集について</a>：SACSIS 2011 では，従来の冊子体の論文集を廃し，情報処理学会電子図書館（情報学広場）によるオンライン論文集に移行しました．</li>
+	  <li>ダウンロードした論文PDFのindex用HTMLファイルを上記リンク先に公開しています．</li>
+<!-- 	  <li>震災の影響で，今後 <a href="http://sacsis.hpcc.jp/2011/">http://sacsis.hpcc.jp/2011/</a> の稼動が困難となる可能性があるため，ミラーサイト <a href="http://www.ais.sys.i.kyoto-u.ac.jp/~task/sacsis/2011/">http://tinyurl.com/SACSIS2011</a> を設置しております．</li> -->
+	</ul>
+      </p>
+
+      <h4>基調講演・招待講演・チュートリアル情報</h4>
+      <ul>
+	<li> <a id="F1">基調講演</a>
+	  <ul>
+	    <li>5/25(水) 10:45-11:45：<br />
+	      <table>
+		<tr><td><img src="images/photo-yonezawa.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>計算科学研究機構／理化学研究所<br />
+		    米澤 明憲 氏 <br />
+		    「計算機科学と計算科学の協業によるポストペタスケールHPCに向けて」<br />
+		    <p>
+		      ペタあるいはポストペタスケールのhigh performance computingを実効性のあるものにするためには、計算機科学と計算科学の協業が不可欠であろう。本講演では、まず米国での一例を紹介し我が国での協業の在り方を探りつつ、exa-scale computingの実現への課題を述べる。あわせて、講演者が総括するＪＳＴ　ＣＲＥＳＴ領域の実施状況や理化学研究所計算科学研究機構での研究を紹介する．
+		    </p>
+		  </td>
+		</tr>
+		<!-- tr><td colspan="2">(<a href="DSCF4633.JPG">基調講演の様子1</a>, <a href="DSCF4628.JPG">基調講演の様子2</a>)</td></tr -->
+	      </table>
+	    </li>
+	  </ul>
+	</li>
+
+	<li> <a id="F5">招待講演</a>
+	  <p><strong>
+	      震災の影響により，講演者を変更いたしました．
+	  </strong></p>
+	  <ul>
+	    <li>5/26(木) 11:00-12:30：<br />
+	      <table>
+		<tr><td><img src="images/photo-komura.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>東京大学大学院情報学環総合防災情報研究センター／地震研究所<br />
+		    古村 孝志 氏 <br />
+		    「地震津波シミュレーションの現状と課題：東北地方太平洋沖地震発生を受けて」<br />
+		    <p>
+		      2011年3月11日に発生した東北地方太平洋沖地震では、三陸沖から茨城県沖にかけて広い範囲が震度６強〜７の強震動に見舞われ、そして十数メートルを超える大津波による未曾有の災害が東北関東地方を襲った。宮城県沖では、これまで40年の間隔でM7.5規模の地震が繰り返し起きてきたが、今回発生した地震は三陸沖から茨城県沖の地震が連動発生してM9.0の超巨大地震に成長した。このことは、数百年の経験に基づき明日を予測することの限界を意味しており、地震津波防災に大きな転換を求めている。地球シミュレータ上でこれまで進めてきた地震動と津波発生伝播シミュレーションの現在到達点と課題、そしてリアルタイム観測データ同化による地震津波発生予測・リアルタイム警報の可能性を議論する。そして観測データとシミュレーションから再現された、東北地方太平洋沖地震の地震破壊過程と大津波の発生メカニズムを解説する。
+		    </p>
+		  </td>
+		</tr>
+		<!-- tr><td colspan="2">(<a href="DSCF4633.JPG">招待講演の様子1</a>, <a href="DSCF4628.JPG">招待講演の様子2</a>)</td></tr -->
+	      </table>
+	    </li>
+	  </ul>
+	</li>
+	<!-- "nowprinting.gif" 画像の入手先： http://www.sugar-spice.net/?eid=25 -->
+	<li id="tutorial"> チュートリアル（資料ダウンロード）:
+	  <p>
+	    <s>SACSIS開催中，チュートリアル資料のダウンロードには以下の認証が必要です．</s><br />
+	    <strong>7/1（金）に資料の一般公開を開始しました．一部の資料はupdateしていただいています．</strong>
+	  </p>
+	  <ul>
+	    <li><a id="F6">チュートリアル1</a><br />
+	      5/26(木) 14:00-15:30：<br />
+	      <table>
+		<tr><td><img src="images/photo-kuroda.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>慶應大学<br />
+		    黒田 忠広 氏<br />
+		    「近接ワイヤレス接続が創る３次元集積計算システム」<br />
+		    <a href="files/SACSIS2011-Tutorial-1-pub.pdf">資料ダウンロード</a>
+		</td></tr>
+	      </table>
+	    </li>
+	  </ul>
+	  <ul>
+	    <li><a id="B8">チュートリアル2</a><br />
+	      5/27(金) 10:50-12:20：<br />
+	      <table>
+		<tr><td><img src="images/photo-taura.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>東京大学<br />
+		    田浦 健次朗 氏<br />
+		    「HPC用の高生産並列プログラミング言語」<br />
+		    <a href="files/SACSIS2011-Tutorial-2-pub.pdf">資料ダウンロード</a>
+		</td></tr>
+	      </table>
+	    </li>
+	  </ul>
+	  <ul>
+	    <li><a id="B9">チュートリアル3</a><br />
+	      5/27(金) 13:30-15:00：<br />
+	      <table>
+		<tr><td><img src="images/photo-sugawara" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>NECシステムプラットフォーム研究所<br />
+		    菅原 智義 氏<br />
+		    「新ネットワーク制御技術 OpenFlow とその利用方法」<br />
+		    <a href="files/SACSIS2011-Tutorial-3-pub.pdf">資料ダウンロード</a>
+		</td></tr>
+		  </table>
+	    </li>
+	  </ul>
+	</li>
+      </ul>
+
+      <h4><a id="EXHIBIT">企業・団体展示</a></h4>
+      <p>5/25（水）11:45&sim;17:30 と 5/26(木) 9:30&sim;20:00（18:00&sim;20:00の懇親会の時間を含む） の間，常時展示．</p>
+      <?php include("include/exhibit-list.html");?>
+      
+      <h4><a id="AWARD">SACSIS2011 最優秀論文賞，最優秀若手研究賞</a></h4>
+      <ul>
+	<li>最優秀論文賞
+	  <ul>
+	    <li>
+<!-- 	      <a href="#A9">5/27（金）13:30&sim;14:00 [5A会場]</a><br /> -->
+	      対称一般固有値問題のフィルタ作用素を用いた不変部分空間の近似構成<br />
+	      村上 弘（首都大学東京）
+	      <p class="abs">
+		<strong>[受賞理由]</strong> これまで著者が提案してきた、対称一般固有値問題における指定区間の固有値、固有ベクトルの解法に対し、最大の問題となっていた不変部分空間の新しい構成法の提案を行っている。この構成法により極めて良い不変部分空間を構成することに成功しており、本解法は実用的な新しい解法として今後大変期待されることから、最優秀論文賞にふさわしいと判断した。
+	      </p>
+	    </li>
+	  </ul>
+	</li>
+	<li>優秀若手研究賞（50音順）
+	  <ul>
+	    <li>
+<!-- 	      <a href="#B10">5/27（金）15:20&sim;15:50 [5B会場]</a><br /> -->
+	      優先度付きオンチップネットワークのためのVIXルータとその評価<br />
+	      向後 卓磨（慶大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong> 受賞者らが提案した VIX オンチップ・ルータは、クロスバ割り当ての後に、仮想チャネル割り当てを 1ステージで行うことで、パケットの優先度逆転問題の軽減、優先度処理に伴う面積の削減を実現するという着眼点の面白さ、有用性から、優秀若手研究賞にふさわしいと判断した。
+	      </p>
+	    </li>
+	    <li>
+<!-- 	      <a href="#A3">5/25（水）16:30&sim;17:00 [5A会場]</a><br /> -->
+	      柔軟な経路表：経路表空間上の順序関係を利用したオーバレイネットワークルーティング方式<br />
+	      長尾 洋也（東工大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong> 経路表に取りこむノードIDの制限をなくした柔軟な経路表(FRT)を提案している。また、その提案をChordに適用し、エミュレーションによる評価を実施している。提案方式の証明や評価などの確かな内容を含む優れた論文である。その高い独創性と有用性から、優秀若手研究賞にふさわしいと判断した。
+	      </p>
+	    </li>
+	    <li>
+<!-- 	      <a href="#A6">5/26(木) 14:00&sim;14:30 [5A会場]</a><br /> -->
+	      読み出し性能と書き込み性能を両立させるクラウドストレージ<br />
+	      中村 俊介（東工大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong> 本研究は、既存のクラウドストレージであるCassandraのストレージエンジンを差し替え可能にし、性質の異なる複数のストレージエンジンを組み合わせて、read /writeの性能を両立したクラウドストレージを実現している。独創性、実用性ともに高いことから、優秀若手研究賞にふさわしいと判断した。
+	      </p>
+	    </li>
+	  </ul>
+	</li>
+      </ul>
+
+      <h4><a id="AWARDP">SACSIS2011 ポスター賞</a></h4>
+      <ul>
+	<li>優秀ポスター賞（1件）
+	  <ul>
+	    <li>
+	      FPGAによる省電力計算機の開発評価環境の試作<br />
+	      高橋昭宏，小林弘明，坂本龍一，並木美太郎，佐藤未来子（農工大），中村宏（東大），天野英晴（慶應大），宇佐美公良（芝浦工大），近藤正章（電通大），佐々木広（東大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong> 特定の独自開発コア：Geyserを対象とした下位レベルの省電力制御ではなく、ＯＳによるPowerGatingによる省電力制御方式の評価を目指した試作という点で重要性があり、また、CPU, OS, アプリまでをすべて作り上げた力量と努力を評価した。
+	      </p>
+	    </li>
+	  </ul>
+	</li>
+	<li>学生優秀ポスター賞（3件，投稿順）
+	  <ul>
+	    <li>
+	      IaaS型クラウドにおけるキーボード入力情報漏洩の防止<br />
+	      江川友寿（九工大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong> アイデアがおもしろいだけでなく、かなり複雑に思われるシステムを既に実装している点を評価した。
+	      </p>
+	    </li>
+	    <li>
+	      単一スクリプトによる分散ファイルシステム<br />
+	      荒川淳平（東大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong> PHPスクリプトによるConsistent Hashingを用いて分散ファイルシステムの実装を行った点も興味深く、小さいながらもきちんと動くシステムが作ってある点を評価した。
+	      </p>
+	    </li>
+	    <li>
+	      分岐予測器におけるローカル履歴テーブルの最適な構成の探索<br />
+	      畔柳圭佑，澤田武男（東大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong>  比較的単純な評価だが、ローカル履歴の重要性を発見したという点で、結果が興味深い。また，発表におけるわかりやすい説明や受け答えも評価した。
+	      </p>
+	    </li>
+	  </ul>
+	</li>
+      </ul>
+      
+      <h4>セッション構成</h4>
+
+      <table border="1" cellpadding="3">
+
+	<!-- *************  DAY1  ****************  -->
+
+	<tr><th class="daycolum" align="center" colspan="6"><a href="#DAY1">2011年5月25日(水)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:22%">2F-A会場</th>
+	  <th style="width:15%">2F-B会場</th>
+	  <th style="width:22%">5A会場</th>
+	  <th style="width:22%">5B会場</th>
+	  <th style="width:13%">2F ホワイエ</th>
+	</tr>
+
+	<tr>
+	  <th>10:30-10:45</th>
+	  <td colspan="2"><a href="#OPENING">開会の辞</a><br />
+	    <a href="#AWARD">最優秀論文賞、優秀若手研究賞表彰</a></td>
+	  <td class="ready" rowspan="2" colspan="3"></td>
+	</tr>
+
+	<tr>
+	  <th>10:45-11:45</th>
+	  <td colspan="2"><a href="#F1">基調講演:</a><br />
+	    米澤 明憲 (AICS／理研) <br />
+	    「計算機科学と計算科学の協業によるポストペタスケールHPCに向けて」<br />
+	    <span style="font-size: 80%">(座長: 並木 美太郎 (東京農工大))</span></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">11:45-13:10</th>
+	  <td class="rest" align="center" colspan="4">昼食休憩</td>
+	  <td align="center" colspan="1" rowspan="4"><a href="#EXHIBIT">企業・団体展示</a></td>
+	</tr>
+
+	<tr>
+	  <th>13:10-15:10</th>
+	  <td colspan="2"><a href="#F2">データ処理</a><br />[F2] 一般論文(4件)</td>
+	  <td><a href="#A2">メニーコア・パラレリズム</a><br />[A2] 一般論文(3件)</td>
+	  <td class="ready"></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">15:10-15:30</th>
+	  <td class="rest" align="center" colspan="4">休憩</td>
+	</tr>
+
+	<tr>
+	  <th>15:30-17:30</th>
+	  <td colspan="2"><a href="#F3">マイクロアーキテクチャ</a><br />[F3] 一般論文(4件)</td>
+	  <td><a href="#A3">基盤システム</a><br />[A3] 一般論文(4件)</td>
+	  <td class="ready"></td>
+	</tr>
+
+	<!-- *************  DAY2  ****************  -->
+
+	<tr><th class="daycolum" align="center" colspan="6"><a href="#DAY2">2011年5月26日(木)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:22%">2F-A会場</th>
+	  <th style="width:15%">2F-B会場</th>
+	  <th style="width:22%">5A会場</th>
+	  <th style="width:22%">5B会場</th>
+	  <th style="width:13%">2F ホワイエ</th>
+	</tr>
+
+	<tr>
+	  <th>09:30-10:30</th>
+	  <td colspan="2"><a href="#F4">アクセラレータ</a><br />[F4] 一般論文(2件)</td>
+	  <td><a href="#A4">プログラミング言語</a><br />[A4] 一般論文(2件)</td>
+	  <td class="ready"></td>
+	  <td align="center" colspan="1" rowspan="9"><a href="#EXHIBIT">企業・団体展示</a></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">10:30-11:00</th>
+	  <td class="rest" align="center" colspan="4">休憩</td>
+	</tr>
+
+	<tr>
+	  <th>11:00-12:30</th>
+	  <td colspan="2"><a href="#F5">招待講演:</a><br />
+	    古村 孝志 (東京大学大学院情報学環総合防災情報研究センター／地震研究所) <br />
+	    「地震津波シミュレーションの現状と課題：東北地方太平洋沖地震発生を受けて」<br />
+	    <span style="font-size: 80%">(座長: 横川 三津夫 (理研))</span></td>
+	  <td class="ready" colspan="2"></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">12:30-14:00</th>
+	  <td class="rest" align="center" colspan="4">昼食休憩</td>
+	</tr>
+
+<!-- 	<tr> -->
+<!-- 	  <th class="rest">13:00-14:00</th> -->
+<!-- 	  <td class="rest" align="center" colspan="3">&nbsp;</td> -->
+<!-- 	  <td class="rest" rowspan="3">ポスター展示</td> -->
+<!-- 	  <td class="rest" align="center">&nbsp;</td> -->
+<!-- 	  <td class="ready" rowspan="5"></td> -->
+<!-- 	</tr> -->
+
+	<tr>
+	  <th>14:00-15:30</th>
+	  <td><a href="#F6">チュートリアル 1:</a><br />
+	    黒田 忠広 (慶應大) <br />
+	    「近接ワイヤレス接続が創る３次元集積計算システム」<br />
+	    <span style="font-size: 80%">(座長: 吉瀬 謙二 (東工大))</span></td>
+	  <td class="rest" rowspan="2">ポスター展示（<a href="cfposters.html.ja#schedule">注：ポスター発表のスケジュール</a>）</td>
+	  <td rowspan="2"><a href="#A6">クラウド</a><br />[A6] 一般論文(4件)</td>
+	  <td class="ready" rowspan="4"></td>
+	</tr>
+
+	<tr>
+	  <th>15:30-16:00</th>
+	  <td rowspan="2" class="ready">懇親会準備</td>
+	</tr>
+
+	<tr>
+	  <th>16:00-18:00</th>
+	  <td><a href="#POSTER">ポスターセッション</a></td>
+	  <td class="ready" rowspan="2"></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">18:00-</th>
+	  <td class="rest" colspan="2">
+	    <a href="#BANQUET">懇親会</a>（隣接会場で企業・団体展示）
+	  </td>
+	</tr>
+
+	<!-- *************  DAY3  ****************  -->
+
+	<tr><th class="daycolum" align="center" colspan="6"><a href="#DAY3">2011年5月27日(金)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:22%">2F-A会場</th>
+	  <th style="width:15%">2F-B会場</th>
+	  <th style="width:22%">5A会場</th>
+	  <th style="width:22%">5B会場</th>
+	  <th style="width:13%">2F ホワイエ</th>
+	</tr>
+
+	<tr>
+	  <th>09:30-10:30</th>
+	  <td class="ready" colspan="2"></td>
+	  <td><a href="#A7">性能評価</a><br />[A7] 一般論文(2件)</td>
+	  <td><a href="#B7">プログラミングフレームワーク</a><br />[B7] 一般論文(2件)</td>
+	  <td class="ready" rowspan="1"></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">10:30-10:50</th>
+	  <td class="rest" align="center" colspan="5">休憩</td>
+	</tr>
+
+	<tr>
+	  <th>10:50-12:20</th>
+	  <td class="ready" colspan="2"></td>
+	  <td><a href="#A8">メモリアーキテクチャ</a><br />[A8] 一般論文(3件)</td>
+	  <td><a href="#B8">チュートリアル 2:</a><br />
+	    田浦 健次朗 (東大) <br />
+	    「HPC用の高生産並列プログラミング言語」<br />
+	    <span style="font-size: 80%">(座長: 平石 拓 (京大))</span></td>
+	  <td class="ready" rowspan="1"></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">12:20-13:30</th>
+	  <td class="rest" align="center" colspan="5">昼食休憩</td>
+	</tr>
+
+	<tr>
+	  <th>13:30-15:00</th>
+	  <td class="ready" colspan="2"></td>
+	  <td><a href="#A9">並列アルゴリズム</a><br />[A9] 一般論文(3件)</td>
+	  <td><a href="#B9">チュートリアル 3:</a><br />
+	    菅原 智義 (NECシステムプラットフォーム研究所) <br />
+	    「新ネットワーク制御技術 OpenFlow とその利用方法」<br />
+	    <span style="font-size: 80%">(座長: 高野 了成 (産総研))</span></td>
+	  <td class="ready" rowspan="1"></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">15:00-15:20</th>
+	  <td class="rest" align="center" colspan="5">休憩</td>
+	</tr>
+
+	<tr>
+	  <th>15:20-16:50</th>
+	  <td class="ready" colspan="2" rowspan="2"></td>
+	  <td><a href="#A10">GPU</a><br />[A10] 一般論文(3件)</td>
+	  <td><a href="#B10">ネットワークオンチップ</a><br />[B10] 一般論文(3件)</td>
+	  <td class="ready" rowspan="2"></td>
+	</tr>
+
+	<tr>
+	  <th>16:50-17:00</th>
+	  <td class="ready"></td>
+	  <td><a href="#CLOSING">閉会の辞</a><br />優秀ポスター賞表彰</td>
+	</tr>
+      </table>
+
+      <!-- program -->
+
+      <h4>プログラム</h4>
+
+      <?php include("include/program.html");?>
+
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

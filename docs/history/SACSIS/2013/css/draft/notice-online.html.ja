@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <div class="main">
+      <?php include("include/navbar-ja.html");?>
+      <h4>SACSIS 2011 オンライン論文集について</h4>
+      <p>
+	SACSIS 2011 では、従来の冊子体の論文集を廃し、情報処理学会電子図書館（情報学広場）によるオンライン論文集に移行します。当日、PC 等の電子的に論文を閲覧するものをお持ち下さい。
+      </p>
+      <p>
+	また、事前に参加申し込みを頂いた方には電子図書館に掲載された段階でオンライン論文集へアクセスするための情報がメールで送られます。例年、会場のネットワークは輻輳等により十分な性能が得られないことも多いですから、事前にダウンロードしておくなどの準備をして頂けますようにお願いします。
+      </p>
+      <p>
+	なお、チュートリアル・企業展示などの論文集以外の資料は、電子図書館ではなく当 Web ページからの提供を予定しております。<strong>(5/25)企業・団体展示資料は<a href="exhibit.html.ja">こちら</a>，チュートリアル資料は<a href="program.html.ja#tutorial">こちら</a>からダウンロードできます．</strong>
+      </p>
+      <p>
+	<strong/>（5/24追記, 5/25チュートリアル資料にも対応）</strong><br />
+	情報処理学会電子図書館（情報学広場）のオンライン論文集、およびチュートリアル資料をすべてダウンロードして同一フォルダに置き、そのフォルダに<a href="files/IPSJ-SACSIS2011.htm">このHTMLファイル</a>を置けば、論文一覧からのインデックスとなります。ご活用下さい。
+      </p>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

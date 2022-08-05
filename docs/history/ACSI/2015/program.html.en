@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbarp-en.html");?>
+    <div class="main">
+
+<h3>ACSI 2015 Advance Program</h3>
+
+<h4>Overview</h4>
+<table border="1" cellpadding="3">
+
+<!-- *************  DAY1  ****************  -->
+<tr><th class="daycolum" align="center" colspan="4"><a href="#DAY1">2015/1/26(Mon.)</a></th></tr>
+<tr>	  <th style="width:10%">Time</th>
+	  <th style="width:30%">Convention Hall 300</th>
+	  <th style="width:30%">Conference Room 101</th>
+	  <th style="width:30%">Multi-Purpose Hall</th>
+	  </tr>
+
+<tr>	  <th>13:05-13:20</th>
+	  <td><a href="#OPENING">Opening</a></td>
+	  <td class="ready" rowspan="2"></td>
+	  <td align="center" rowspan="2"><a href="http://acsi.hpcc.jp/2015/exhibit.html.ja">Exhibition</a></td>
+	  </tr>
+
+<tr>	  <th>13:20-14:50</th>
+	  <td><a href="#F1">Keynote Address</a><br> Where Is The Information Technology Taking Our Civilization?<br>
+Takashi Chikayama (Professor Emeritus, The University of Tokyo)</td>
+	  </tr>
+
+<tr>	  <th>14:50-15:20</th>
+	  <td class="ready" colspan="2"></td>
+	  <td align="center">Coffee Break / <a href="http://acsi.hpcc.jp/2015/exhibit.html.ja">Exhibition</a></td></tr>
+
+<tr>	  <th>15:20-16:50</th>
+	  <td><a href="#1-A">[1-A] Optimization</a></td>
+	  <td><a href="#1-B">[1-B] Distributed Computing</a></td>
+	  <td align="center"><a href="http://acsi.hpcc.jp/2015/exhibit.html.ja">Exhibition</a></td>
+	  </tr>
+
+<!-- *************  DAY2  ****************  -->
+
+<tr><th class="daycolum" align="center" colspan="4"><a href="#DAY2">2015/1/27(Tue.)</a></th></tr>
+
+<tr>	  <th>9:15-10:45</th>
+	  <td><a href="#2-A"> [2-A] Numerical Algorithms</a></td>
+	  <td><a href="program_photonics.html.en"> [Invited Session] Special session on challenges and opportunities of integrated photonics in future datacenters</a></td>
+	  <td align="center" colspan="1" rowspan="1"><a href="#EXHIBIT">Exhibition</a></td>
+	  </tr>
+	
+<tr>	  <th>10:45-11:00</th>
+	  <td class="ready" colspan="2"></td>
+	  <td align="center">Coffee Break / <a href="http://acsi.hpcc.jp/2015/exhibit.html.ja">Exbition</a></td></tr>
+
+<tr>	  <th>11:00-12:30</th>
+	  <td><a href="#T1">Tutorial 1</a><br>
+Low Power Techniques in the Extreme Computing Era</td>
+	  <td class="ready" rowspan="2"></td>
+	  <td align="center" rowspan="2"><a href="#EXHIBIT">Exhibition</a></td>
+	  </tr>
+	
+<tr>	  <th>13:30-15:00</th>
+	  <td><a href="#I1">Invited Talk </a><br>
+Writing robust applications in Resilient X10<br>
+Vijay Saraswat (IBM Research)</td> 
+	  </tr>
+
+<tr>	  <th>15:00-15:30</th>
+	  <td class="ready" colspan="2"></td>
+	  <td align="center">Coffee Break / <a href="http://acsi.hpcc.jp/2015/exhibit.html.ja">Exbition</a></td></tr>
+
+<tr>	  <th>15:30-16:00</th>
+	  <td>Indexing of Poster and Exhibition</td>
+	  <td class="ready" rowspan="3"></td>
+	  <td align="center" colspan="1" rowspan="1"><a href="#EXHIBIT">Exhibition</a></td>
+	  </tr>
+	
+<tr>	  <th>16:30-18:00</th>
+	  <td class="ready" rowspan="2"></td>
+	  <td align="center"><a href="#poster">Poster</a> and <a href="http://acsi.hpcc.jp/2015/exhibit.html.ja">Exhibition</a></td>		
+	  </tr>
+
+<tr>	  <th>18:00-20:00</th>
+	  <td align="center" >Reception<br />(Poster and <a href="http://acsi.hpcc.jp/2015/exhibit.html.ja">Exhibition</a>)<br />
+	  </tr>
+
+<!-- *************  DAY3  ****************  -->
+
+<tr><th class="daycolum" align="center" colspan="6"><a href="#DAY3">2015/1/28(Wed.)</a></th></tr>
+<tr>	  <th style="width:10%">Time</th>
+	  <th style="width:30%">Convention Hall 300</th>
+	  <th style="width:30%">Conference Room 101</th>
+	  <th style="width:30%">Foyer in front of Convention Hall 300</th>
+	  </tr>
+
+<tr>	  <th>9:15-10:45</th>
+	  <td><a href="#3-A">[3-A] Task Parallel Programming</a></td> 
+	  <td><a href="#3-B">[3-B] Applications</a></td>
+	  <td class="ready" rowspan="1"></td>
+	  </tr>
+
+<tr>	  <th>10:45-11:00</th>
+	  <td class="ready" colspan="2"></td>
+	  <td align="center">Coffee Break</td></tr>
+
+<tr>	  <th>11:00-12:30</th>
+	  <td><a href="#T2">Tutorial 2</a><br>
+The latest trend of storage technology
+- Storage Networking, SSD, OSD, Green Storage and more - </td>
+	  <td class="ready" rowspan="1"></td>
+	  <td class="ready" rowspan="4"></td>
+	  </tr>
+	  
+<tr>	  <th>13:30-15:00</th>
+	  <td><a href="#4-A">[4-A] System Architecture</a></td>
+	  <td><a href="program_JHPCN.html.en#O1">[Organized Session-1] JHPCN Special Session</a></td>
+	  </tr>
+	  
+<tr>	  <th>15:15-16:15</th>
+	  <td><a href="#5-A">[5-A] High Performance communications</a></td>
+	  <td><a href="program_JHPCN.html.en#O2">[Organized Session-2] JHPCN Special Session</a></td>
+	  </tr>
+	  
+<tr>	  <th>16:20-16:45</th>
+	  <td><a href="#CLOSING">Closing</a></td>
+	  <td class="ready" rowspan="1"></td>
+	  </tr>
+
+</table>
+	  
+<p></p>
+
+<h4>Program</h4>
+<!--
+<?php include("include/program.html");?>
+-->
+
+<p class="date"><a id="DAY1">--- Monday, January 26th ---</a></p>
+
+<p class="time">13:05&sim;13:20</p>
+<ul>
+  <li><a id="OPENING">Opening</a>
+</ul>
+
+<p class="time">13:20&sim;14:50</p>
+<ul>
+  <li><a id="F1">Keynote Address</a> (Chair: Boku Taisuke (Univ. of Tsukuba))
+    <ul>
+      <li> Where Is The Information Technology Taking Our Civilization? <br>
+Takashi Chikayama (Professor Emeritus, The University of Tokyo)
+    </ul>
+</ul>
+
+<p class="time">15:20&sim;16:50</p>
+<ul>
+  <li><a id="1-A">[1-A]:</a> Optimization (Chair: Takahiro Katagiri (Univ. of Tokyo))
+    <ul> 
+    <li> <font color="red">Outstanding Research Award</font><br>
+	SIMD- and Cache-Friendly Algorithm for Sorting an Array of Structures<br>
+	Hiroshi Inoue (IBM)<br>
+	<br>
+
+
+    <li> A fill-in strategy for fast ICCG solver with SIMD vectorization<br>
+	Takeshi Iwashita (Hokkaido Univ.), Naokazu Takemura and Hiroshi Nakashima (Kyoto Univ.)<br>
+	<br>
+
+
+
+    <li> AMGS: Algebraic Multigrid Solver with Coarse Grid Aggregation<br>
+	Akihiro Fujii, Takuya Nomura, Teruo Tanaka (Kogakuin Univ.) and Osni Marques (Lawrence Berkeley National Lab.)<br>
+	<br>
+
+    </ul>
+  <li><a id="1-B">[1-B]:</a> Distributed Computing (Chair: Yusuke Tanimura (AIST))
+    <ul>
+    <li> A Switch-based Approach for TCP Incast on Datacenter Networks<br>
+	Chunghan Lee, Yukihiro Nakagawa, Kazuki Hyoudou, Shinji Kobayashi, Osamu Shiraki and Takeshi Shimizu (Fujitsu Lab.)<br>
+	<br>
+
+
+    <li> Performance of Hadoop Application on Hybrid Cloud<br>
+	Hayata Ohnaga (Tokyo Tech), Kento Aida and Omar Abdul-Rahman (NII)<br>
+	<br>
+
+
+    <li> A method of generating traces of Hadoop YARN by lightweight profile data<br>
+	Yosuke Nakagawa, Kouhei Sakurai and Satoshi Yamane (Kanazawa Univ.)
+
+    </ul>
+</ul>
+
+<p class="date"><a id="DAY2">--- Tuesday, January 27th ---</a></p>
+
+<p class="time">09:15&sim;10:45</p>
+<ul>
+  <li><a id="2-A">[2-A]</a> Numerical Algorithms (Chair: Akihiro Fujii (Kogakuin University))
+    <ul>
+    <li> Multiplicity Analysis of Eigenvalues of a Symmetric Matrix by using Rational Number Arithmetic<br>
+	Hikaru Samukawa (Waseda Univ.)<br>
+	<br>
+
+
+    <li> Performance evaluation of the EigenExa eigensolver on the Oakleaf-FX supercomputer system<br>
+	Takeshi Fukaya and Toshiyuki Imamura (RIKEN AICS)<br>
+	<br>
+
+
+    <li> Error resilience strategy of a complex moment-based eigensolver<br>
+	Akira Imakura, Yasunori Futamura and Tetsuya Sakurai (Univ. of Tsukuba)<br>
+	<br>
+
+    </ul>
+  <li><a href="program_photonics.html.en"> [Invited session]</a> Special session on challenges and opportunities of integrated photonics in future datacenters (Chair: Shu Namiki (AIST))
+    <ul>
+    <li> Expectations for optical network from the viewpoint of system software research</a><br>
+Ryousei Takano (AIST)<br>
+	<br>
+
+    <li> Optical fiber network system for next generation data center</a><br>
+	Haruhiko Kuwatsuka (AIST)<br>
+	<br>
+
+
+    <li> Photonic and Electronic Convergence Technologies for 1-chip Data Center</a><br>
+	Jun Inasaka (NEC/PETRA)
+
+    </ul>
+</ul>
+
+<p class="time">11:00&sim;12:30</p>
+<ul>
+  <li><a id="T1">Tutorial 1</a> (Chair: Toshihiro HANAWA (Univ. of Tokyo))
+  <ul>
+  <li> Low Power Techniques in the Extreme Computing Era
+  <li> Masaaki Kondo (Univ. of Tokyo)
+  </ul>
+</ul>
+
+<p class="time">13:30&sim;15:00</p>
+<ul>
+  <li><a id="I1">Invited Talk</a> (Chair: Yasugi Masahiro (Kyushu Institute of Technology))
+    <ul>
+      <li> Writing Robust Applications in Resilient X10<br>
+Vijay Saraswat (IBM TJ Watson Research Center)
+    </ul>
+</ul>
+
+<p class="time">15:30&sim;16:00</p>
+<ul>
+  <li>Poster/Exhibition Indexing
+</ul>
+
+<p class="time">16:30&sim;18:00</p>
+<ul>
+  <li><a id="poster">Poser</a>
+  <ul>
+  <li> P01: GHOST-MP: A Massively Parallel Biological Sequence Similarity Search for Metagenomics using OpenMP and MPI<br>
+Masanori Kakuta, Shuji Suzuki, Takashi Ishida, and Yutaka Akiyama (Tokyo Tech)
+  <li> P02: OpenMP Parallelization of Tsunami Simulation by MOST<br>
+Fumiya Kono, Naohito Nakasato, Kensaku Hayashi, Alexander Vazhenin, and Stanislav Sedukhin (Univ. of Aizu)
+  <li> P03: Adaptive Cross Approximation-based Preconditioner of Klyrov Subspace Methods for Hierarchical Matrices<br>
+Akihiro Ida (Kyoto Univ.), Takeshi Iwashita (Hokkaido Univ), Takeshi Mifune (Kyoto Univ.), and Yasuhito Takahashi (Doshisha Univ.)
+  <li> P04: (This poster is written in Japanese. Please refer to the japanese program from <a href="program.html.ja#P04">here</a>)
+  <li> P05: Towards Locality-aware Large-scale Data Processing<br>
+Shinichiro Takizawa, Motohiko Matsuda, and Naoya Maruyama (RIKEN)
+  <li> P06: (This poster is written in Japanese. Please refer to the japanese program from <a href="program.html.ja#P06">here</a>)
+  <li> P07: (This poster is written in Japanese. Please refer to the japanese program from <a href="program.html.ja#P07">here</a>)
+  <li> P08: SIMD-Aware Static Task Cutoff System<br>
+Shintaro Iwasaki and Kenjiro Taura (Univ. of Tokyo)
+  <li> P09: A Framework of Context-Oriented Programing to Overcome Three Problems<br>
+Ikuta Tanigawa (Tokai Univ.), Nobuhiko Ogura (Tokyo City Univ.), Midori Sugaya (Shibaura Tech), and Harumi Watanabe(Tokai Univ.)
+  <li> P10: (This poster is written in Japanese. Please refer to the japanese program from <a href="program.html.ja#P10">here</a>)
+  <li> P11: (This poster is written in Japanese. Please refer to the japanese program from <a href="program.html.ja#P10">here</a>)
+  <li> P12: Improving Personalized Virtual Cluster Deployment Across Clouds<br>
+Yusuke Tanimura, Ryousei Takano, Takahiro Hamanishi, and Hiroki Ohashi (AIST)
+  <li> P13: (This poster is written in Japanese. Please refer to the japanese program from <a href="program.html.ja#P13">here</a>)
+  <li> P14: (This poster is written in Japanese. Please refer to the japanese program from <a href="program.html.ja#P14">here</a>)
+  <li> P15: Towards a User-Oriented Syntactic Workload Generator for Cloud<br>
+Omar Abdul-Rahman and Kento Aida (NII)
+  <li> P16: (This poster is written in Japanese. Please refer to the japanese program from <a href="program.html.ja#P16">here</a>)
+  </ul>
+  <li>Poser/Exhibition
+</ul>
+
+<p class="time">18:00&sim;20:00</p>
+<ul>
+  <li>Reception (Poster/Exbhibition)
+</ul>
+
+
+<p class="date"><a id="DAY3">--- Wednesday, January 28th ---</a></p>
+
+<p class="time">9:15&sim;10:45</p>
+<ul>
+  <li><a id="3-A">[3-A]:</a> Task Parallel Programming (Chair: Hirotake Abe (Univ. of Tsukuba))
+
+    <ul>
+    <li> <font color="red">Outstanding Research Award and Outstanding Student Research Award</font><br>
+	Reducing Redundant Search using Exception Handling in a Task-Parallel Language<br>
+	Shingo Okuno, Tasuku Hiraishi, Hiroshi Nakashima (Kyoto Univ.), Masahiro Yasugi (Kyutech) and Jun Sese (Tokyo Tech)<br>
+	<br>
+
+    <li> Towards a New Parallel Execution Model Based on Hierarchical Omission<br>
+	Masahiro Yasugi (Kyutech), Tasuku Hiraishi and Seiji Umatani (Kyoto Univ.)<br>
+	<br>
+
+    <li> DAG Recorder: A Task-Centric Tracing Algorithm for Task Parallel Applications<br>
+	Kenjiro Taura, Yuhei Kikuchi, Jun Nakashima (Univ. of Tokyo) and Miquel Pericas (Chalmers Univ. of Technology)<br>
+
+	<br>
+
+</ul>
+  <li><a id="3-B">[3-B]:</a> Applications (Chair: Toshio Endo (Tokyo Tech))
+    <ul>
+
+    <li> Scalable Task-Parallel SGD on Matrix Factorization in Multicore Architectures<br>
+	Yusuke Nishioka and Kenjiro Taura (Univ. of Tokyo)<br>
+	<br>
+
+    <li> Towards Auto-tuning for the Finite Difference Method in Era of 200+ Thread Parallelisms<br>
+	Takahiro Katagiri, Satoshi Ohshima and Masaharu Matsumoto (Univ. of Tokyo)<br>
+	<br>
+
+    <li> A GPU Direct-MPI Hybrid Parallel and its application to Large-scale Global MHD Simulation and In-Situ Visualization on Distributed Multi-GPU Systems<br>
+	Un-Hong Wong, Takayuki Aoki (Tokyo Tech) and Hon-Cheng Wong (Macau Univ. of Science and Technology)
+
+    </ul>
+</ul>
+
+<p class="time">11:00&sim;12:30</p>
+<ul>
+  <li><a id="T2">Tutorial 2</a> (Chair: Osamu Tatebe (Univ. of Tsukuba))
+  <ul>
+  <li> The latest trend of storage technology
+- Storage Networking, SSD, OSD, Green Storage and more - 
+  <li> Hajime Oyadomari (Storage Networking Industry Association Japan Forum, 
+Education Committee)
+  </ul>
+</ul>
+
+<p class="time">13:30&sim;15:00</p>
+<ul>
+  <li><a id="4-A">[4-A]:</a> System Architecture (Chair: Kenji Kise (Tokyo Tech))
+    <ul>
+    <li> An adaptive energy-efficient task scheduling with energy model<br>
+	Takashi Nakada, Tomoki Hatanaka (Univ. of Tokyo), Hiroshi Ueki, Masanori Hayashikoshi, Toru Shimizu (Renesas) and Hiroshi Nakamura  (Univ. of Tokyo)<br>
+	<br>
+
+    <li> Relaxing Heavy Congestion by State Propagation -Preliminary Discussion-<br>
+	Takashi Yokota, Kanemitsu Ootsu and Takeshi Ohkawa (Utsunomiya Univ.)<br>
+	<br>
+
+    <li> Highly Efficient and Compact FPGA Implementation of Image-based Human Detection<br>
+	Masahito Oishi, Yuichiro Shibata and Kiyoshi Oguri (Nagasaki Univ.)<br>
+	<br>
+
+
+    </ul>
+  <li><a href="program_JHPCN.html.en#O1">[Organized Session-1]:</a> JHPCN special session (Chair: Takeshi Nanri (Kyushu University))
+    <ul>
+    <li> Development of Scalable Plasma Particle Simulator with OhHelp Dynamic
+Load Balancer<br>
+Yohei Miyake (Kobe University)<br>
+	<br>
+
+    <li> Application of GPGPU to Seismic Hazard Assessment<br>
+Shin Aoi (National Research Institute for Earth Science and Disaster Prevention)<br>
+	<br>
+
+    <li> Study of Efficient Data Compression by JHPCN-DF<br>
+Katsumi Hagita (National Defense Academy of Japan)
+    </ul>
+
+</ul>
+
+<p class="time">15:15&sim;16:15</p>
+<ul>
+  <li><a id="5-A">[5-A]:</a> High performance communications (Chair: Ryousei Takano (AIST))
+    <ul>
+    <li> Implementing CG Method on GPU Cluster with Proprietary Interconnect TCA for GPU Direct Communication<br>
+	Kazuya Matsumoto (Univ. of Tsukuba), Toshihiro Hanawa (Univ. of Tokyo), Yuetsu Kodama, Hisafumi Fujii and Taisuke Boku (Univ. of Tsukuba)<br>
+	<br>
+
+    <li> Design and Implementation of Channel Interface as a Memory Efficient Communication Model<br>
+	Takeshi Nanri (Kyushu Univ.), Takeshi Soga (ISIT Kyushu), Yuichiro Ajima (Fujitsu), Yoshiyuki Morie, Hiroaki Honda, Taizo Kobayashi, Toshiya Takami (Kyushu Univ.) and Shinji Sumimoto (Fujitsu)<br>
+	<br>
+
+    </ul>
+  <li><a href="program_JHPCN.html.en#O2">[Organized Session-2]:</a> JHPCN special session (Chair: Yoshiki Sato (Univ. of Tokyo))
+    <ul>
+    <li> Building Large-Scale Distributed Design Exploration Framework by Collaborating Supercomputers and Inter-Cloud Systems<br>
+Masaharu Munetomo (Hokkaido University)<br>
+	<br>
+
+    <li> Toward Lightweight Virtual Machine Environments for Next-generation
+Super Computers<br>
+Takahiro Shinagawa(The University of Tokyo)
+    </ul>
+</ul>
+
+<p class="time">16:20&sim;16:45</p>
+<ul>
+  <li><a id="CLOSING">Closing</a>
+</ul>
+
+------------
+<h4> NOTICE:</h4>
+<p>
+ACSI2015 does not publish any proceedings. ACSI2015 gives researchers
+an opportunity to get feedback from the attendees of ACSI2015 without
+precluding publication of their work elsewhere.
+</p>
+------------
+
+
+</div>
+</body>
+</html>

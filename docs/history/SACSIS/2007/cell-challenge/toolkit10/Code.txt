@@ -1,0 +1,309 @@
+
+file name: define.h
+   1  /*----------------------------------------------------------------------*/
+   2  /* Cell Speed Challenge 2007, ToolKit Version 2007-02-09                */
+   3  /*----------------------------------------------------------------------*/
+   4  #define NUMBER_OF_SPES 7
+   5  #define INPUT_DATA (50 * 1024 * 1024)       // input data size
+   6  #define USER_MEM   (INPUT_DATA * 2)         // user working memory
+   7  #define CTRL_MEM   (16 * 1024)              // 16KB user memory
+   8  /*----------------------------------------------------------------------*/
+   9  #define DMA_TAG 0
+  10  #define SPE_STDIO_BUF_SIZE 512
+  11  #define SPE_DMA_ALIGN (128)
+  12  #define KEYTYPE_NORM 1 // 
+  13  #define KEYTYPE_MAXV 2 // 
+  14  /*----------------------------------------------------------------------*/
+  15  struct argument{
+  16      int id;               //
+  17      unsigned int sc_addr; //
+  18      float padding[30];    // just for padding
+  19  };
+  20  /*----------------------------------------------------------------------*/
+  21  struct spe_ctrl{
+  22      unsigned int flag;        //
+  23      unsigned int id;          //
+  24      unsigned int spe_num;     //
+  25      unsigned int buf_addr;    //
+  26      unsigned int buf_ctrl;    // 
+  27      unsigned int n;           // the number of element N
+  28      unsigned int listnum;     // list size M
+  29      unsigned int keytype;     //
+  30      unsigned int dec_cnt;     //
+  31      unsigned int sync_addr;   //
+  32      unsigned int ls_addr[NUMBER_OF_SPES];    // 7 * 4 = 28 Byte
+  33      unsigned int padding[22-NUMBER_OF_SPES]; // just for padding
+  34  };
+  35  /*----------------------------------------------------------------------*/
+  36  struct spe_sync_block{
+  37      unsigned int data[32];
+  38  };
+  39  /*----------------------------------------------------------------------*/
+
+file name: main_ppe.c
+   1  /*----------------------------------------------------------------------*/
+   2  /* Cell Speed Challenge 2007, ToolKit Version 2007-02-09                */
+   3  /*----------------------------------------------------------------------*/
+   4  #include <stdio.h>
+   5  #include <stdlib.h>
+   6  #include <float.h>
+   7  #include <fenv.h>
+   8  #include <spe/sys/spelib_types.h>
+   9  #include <spe_stdio_srv.h>
+  10  #include <spere_cbea.h>
+  11  #include "spe_wrap.h"
+  12  #include "ppe_util.h"
+  13  #include "define.h"
+  14  #include "spe.h"
+  15  
+  16  /*----------------------------------------------------------------------*/
+  17  double my_clock();
+  18  void generate_list(float*, int, int*, int*, int*);
+  19  void check_list(float*, int, int, int, int);
+  20  
+  21  volatile static char  buf_ctrl[CTRL_MEM]   _ALIGN;
+  22  volatile static float buf_data[USER_MEM/4] _ALIGN;
+  23  
+  24  volatile static struct argument sarg[NUMBER_OF_SPES] _ALIGN;
+  25  volatile static struct spe_ctrl ctrl[NUMBER_OF_SPES] _ALIGN;
+  26  volatile static struct spe_sync_block sync_addr[NUMBER_OF_SPES] _ALIGN;
+  27  double t1,t2; // start and end time stamp
+  28  
+  29  /*----------------------------------------------------------------------*/
+  30  void ppe_sort(volatile float* buf_data, int n, int listnum, int keytype){
+  31      int i,j;
+  32      swt_handle *h[NUMBER_OF_SPES];
+  33      spere_object_id hint[NUMBER_OF_SPES][5];
+  34      spere_addr ls_addr[NUMBER_OF_SPES];
+  35      char *spe_obj[7] = {EXE_SPE1, EXE_SPE2, EXE_SPE3, EXE_SPE4, 
+  36                          EXE_SPE5, EXE_SPE6, EXE_SPE7};
+  37      
+  38      _spe_stdio_init(SPE_STDIO_BUF_SIZE);
+  39      _spe_stdio_start();
+  40  
+  41      for(i=0; i<NUMBER_OF_SPES; i++){
+  42          h[i] = spe_wrap_create_dedicated_thread(
+  43              spe_obj[i], (void*)&sarg[i], SIGNOTIFY_INIT_MODE);
+  44          sarg[i].id      = i;
+  45          sarg[i].sc_addr = (unsigned int)&ctrl[i];
+  46          spere_spe_thread_map_ls(h[i]->id, &ls_addr[i]);
+  47      }
+  48      
+  49      for(i=0; i<NUMBER_OF_SPES; i++){
+  50          ctrl[i].flag     = 0;
+  51          ctrl[i].id       = i;
+  52          ctrl[i].buf_addr = (unsigned int)buf_data;
+  53  
+  54          ctrl[i].buf_ctrl = (unsigned int)buf_ctrl;
+  55  
+  56          ctrl[i].n        = n;
+  57          ctrl[i].listnum  = listnum;
+  58          ctrl[i].spe_num  = NUMBER_OF_SPES;
+  59          ctrl[i].keytype  = keytype;
+  60          ctrl[i].dec_cnt  = 0;
+  61          ctrl[i].sync_addr = (unsigned int)sync_addr;
+  62          for(j=0;j<NUMBER_OF_SPES;j++){
+  63              ctrl[i].ls_addr[j] = ls_addr[j];
+  64         }
+  65      }
+  66      
+  67      for(i=0; i<NUMBER_OF_SPES; i++){
+  68          hint[i][0] = spe_wrap_add_access_hint(
+  69              h[i]->id, (void*)&sarg[i], SPE_DMA_ALIGN);
+  70          hint[i][1] = spe_wrap_add_access_hint(
+  71              h[i]->id, (void*)&ctrl[i], SPE_DMA_ALIGN);
+  72          hint[i][2] = spe_wrap_add_access_hint(
+  73              h[i]->id, (void*)buf_data, USER_MEM);
+  74  
+  75          hint[i][3] = spe_wrap_add_access_hint(
+  76              h[i]->id, (void*)buf_ctrl, 16*1024);
+  77  
+  78          hint[i][4] = spe_wrap_add_access_hint(
+  79              h[i]->id, (void*)&sync_addr[0], 
+  80              sizeof(struct spe_sync_block)*NUMBER_OF_SPES);
+  81      }
+  82      
+  83      for(i=0; i<NUMBER_OF_SPES; i++) spe_wrap_resume_thread(h[i]->id);
+  84      
+  85      /**** start the sorting *****/
+  86      t1 = my_clock();
+  87      for(i=0; i<NUMBER_OF_SPES; i++) ctrl[i].flag = 1;
+  88      for(i=0; i<NUMBER_OF_SPES; i++) spe_wrap_wait_thread(h[i]->id);
+  89      t2 = my_clock();
+  90      /**** end   the sorting *****/
+  91      
+  92      for(i=0; i<NUMBER_OF_SPES; i++){
+  93          spe_wrap_remove_access_hint(h[i]->id, hint[i][0]);
+  94          spe_wrap_remove_access_hint(h[i]->id, hint[i][1]);
+  95          spe_wrap_remove_access_hint(h[i]->id, hint[i][2]);
+  96          spe_wrap_remove_access_hint(h[i]->id, hint[i][3]);
+  97  
+  98          spe_wrap_remove_access_hint(h[i]->id, hint[i][4]);
+  99  
+ 100          spere_spe_thread_unmap_ls(h[i]->id);
+ 101          spe_wrap_release_thread(h[i]);
+ 102      }
+ 103      _spe_stdio_end();
+ 104  };
+ 105  
+ 106  /*----------------------------------------------------------------------*/
+ 107  /* PPE main program                                                     */
+ 108  /*----------------------------------------------------------------------*/
+ 109  int main(int argc, char *argv[])
+ 110  {
+ 111      int i;
+ 112      int problem=1; /* problem identification, from 1 to 10  */
+ 113      int n;         /* the number of elements                */
+ 114      int m;         /* list length                           */
+ 115      int keytype;   /* keytype, KEYTYPE_NORM or KEYTYPE_MAXV */
+ 116      float *bufp = (float *)buf_data;
+ 117      
+ 118      if(argc >= 2){
+ 119          problem = atoi(argv[1]);
+ 120          if(problem<0 || problem>10) problem=1;
+ 121      }
+ 122      
+ 123      generate_list(bufp, problem, &n, &m, &keytype);
+ 124      for(i=0; i<CTRL_MEM; i++) buf_ctrl[i]=0;
+ 125      
+ 126      ppe_sort(bufp, n, m, keytype);
+ 127      
+ 128      check_list(bufp, problem, n, m, keytype);
+ 129      
+ 130      printf("[ppe_] problem=%d\n", problem);
+ 131      printf("[ppe_] n=%d, m=%d, input_data=%d [MByte]\n",
+ 132             n, m, sizeof(float)*n*(m+1)/1024/1024);
+ 133      printf("[ppe_] elapsed time by SPE(sec) %8.6f\n", 
+ 134             ctrl[0].dec_cnt / (100.0 * 1000.0 * 1000.0));
+ 135      printf("[ppe_] elapsed time by PPE(sec) %8.6f\n", t2-t1);
+ 136      
+ 137      return 0;
+ 138  }
+ 139  /*----------------------------------------------------------------------*/
+
+file name: spe.h
+   1  /*----------------------------------------------------------------------*/
+   2  /* Cell Speed Challenge 2007, ToolKit Version 2007-02-09                */
+   3  /*----------------------------------------------------------------------*/
+   4  #define EXE_SPE1 "speed/spe1"
+   5  #define EXE_SPE2 "speed/spe1"
+   6  #define EXE_SPE3 "speed/spe1"
+   7  #define EXE_SPE4 "speed/spe1"
+   8  #define EXE_SPE5 "speed/spe1"
+   9  #define EXE_SPE6 "speed/spe1"
+  10  #define EXE_SPE7 "speed/spe1"
+  11  /*----------------------------------------------------------------------*/
+
+file name: main_spe.c
+   1  /*----------------------------------------------------------------------*/
+   2  /* Cell Speed Challenge 2007, ToolKit Version 2007-02-09                */
+   3  /*----------------------------------------------------------------------*/
+   4  #include <spu_intrinsics.h>
+   5  #include <spelib.h>
+   6  #include <spe_stdio.h>
+   7  #include <stdlib.h>
+   8  #include <spu_mfcio.h>
+   9  #include <float.h>
+  10  #include "spe_util.h"
+  11  #include "define.h"
+  12  
+  13  #define DEC_INIT_VAL 0xFFFFFFFF
+  14  #define TIME_SYNC 100
+  15  
+  16  extern void spe_sort(struct spe_ctrl* sc);
+  17  /*----------------------------------------------------------------------*/
+  18  volatile static struct spe_ctrl sc  _GALIGN;
+  19  volatile static struct argument arg _GALIGN;
+  20  volatile static struct spe_sync_block spe_sync[NUMBER_OF_SPES] _GALIGN;
+  21  volatile static struct spe_sync_block sync_addr _GALIGN;
+  22  unsigned int dec_cnt;
+  23  
+  24  /*----------------------------------------------------------------------*/
+  25  void dmaget_s(void* d, unsigned long long addr, unsigned int size){
+  26      mfc_get(d, addr, size, DMA_TAG, 0, 0);
+  27      mfc_write_tag_mask(DMA_TAG_MASK(DMA_TAG));
+  28      mfc_write_tag_update_all();
+  29      mfc_read_tag_status();
+  30  }
+  31  
+  32  /*----------------------------------------------------------------------*/
+  33  void dmaput_s(void* d, unsigned long long addr, unsigned int size){
+  34      mfc_put(d, addr, size, DMA_TAG, 0, 0);
+  35      mfc_write_tag_mask(DMA_TAG_MASK(DMA_TAG));
+  36      mfc_write_tag_update_all();
+  37      mfc_read_tag_status();
+  38  }
+  39  
+  40  /*----------------------------------------------------------------------*/
+  41  void spe_time_start(struct spe_ctrl* sc, unsigned long long argv){
+  42      int i;
+  43      
+  44      dmaget_s((void*)&arg, argv, SPE_DMA_ALIGN);
+  45      
+  46      sc->flag = 0;
+  47      while(sc->flag==0){
+  48          dmaget_s((void*)sc, arg.sc_addr, SPE_DMA_ALIGN);
+  49      }
+  50      
+  51      sync_addr.data[0] = (unsigned int)&spe_sync[0];
+  52      dmaput_s((void*)&sync_addr, 
+  53               sc->sync_addr + sc->id * SPE_DMA_ALIGN, SPE_DMA_ALIGN);
+  54      
+  55      if(sc->id == 0){
+  56          spe_sync[0].data[0] = 1;
+  57          
+  58          spu_write_decrementer(DEC_INIT_VAL);
+  59          dec_cnt = spu_read_decrementer();
+  60          
+  61          for(i=1; i<NUMBER_OF_SPES; i++){
+  62              dmaget_s((void*)&sync_addr, 
+  63                       sc->sync_addr + i * SPE_DMA_ALIGN, SPE_DMA_ALIGN);
+  64              sync_addr.data[1] = sync_addr.data[0] + sc->ls_addr[i];
+  65              
+  66              dmaput_s((void*)&spe_sync[0], sync_addr.data[1], 
+  67                       SPE_DMA_ALIGN);
+  68          }
+  69      }
+  70      else{
+  71          while(spe_sync[0].data[0]!=1);
+  72      }
+  73  };
+  74  
+  75  /*----------------------------------------------------------------------*/
+  76  void spe_time_end(struct spe_ctrl* sc){
+  77      int i;
+  78      int ret = 1;
+  79      
+  80      if(sc->id == 0){
+  81          while(ret){
+  82              ret = 0;
+  83              for(i=1; i<NUMBER_OF_SPES; i++){
+  84                  if(spe_sync[i].data[0] != TIME_SYNC) ret = 1;
+  85              }
+  86          }
+  87          sc->dec_cnt = dec_cnt - spu_read_decrementer();
+  88          dmaput_s((void*)sc, arg.sc_addr, SPE_DMA_ALIGN);
+  89      }
+  90      else{
+  91          spe_sync[0].data[0] = TIME_SYNC;
+  92          dmaget_s((void*)&sync_addr, sc->sync_addr, SPE_DMA_ALIGN);
+  93          sync_addr.data[1] = sync_addr.data[0] + 
+  94              sc->ls_addr[0] + sc->id * SPE_DMA_ALIGN;
+  95          dmaput_s((void*)&spe_sync[0], sync_addr.data[1], SPE_DMA_ALIGN);
+  96      }
+  97  };
+  98  
+  99  /*----------------------------------------------------------------------*/
+ 100  /* SPE main program                                                     */
+ 101  /*----------------------------------------------------------------------*/
+ 102  int main(int speid, unsigned long long argv)
+ 103  {
+ 104      struct spe_ctrl *ctrl = (struct spe_ctrl *)&sc;
+ 105  
+ 106      spe_time_start(ctrl, argv);
+ 107      spe_sort(ctrl);
+ 108      spe_time_end(ctrl);
+ 109      
+ 110      return 0;
+ 111  }
+ 112  /*----------------------------------------------------------------------*/

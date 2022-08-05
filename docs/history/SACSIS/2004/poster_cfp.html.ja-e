@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2004 Call for Paper</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+May 26-28, 2004<br />
+Sapporo, Hokkaido, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (2004_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.ja" title="SACSIS 2004">SACSIS2004&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="poster_cfp.html.en" title="English Page"> <img src="images/jp2en.gif" alt="English" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2004_LINKS) -->  <a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+  <a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+  <a href="poster_cfp.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+  <a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+  <a href="registration.html.ja">参加申込</a> <span class="hideme">|</span>
+  <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+  <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+  <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/wiki/wiki.cgi?SACSIS2004%B0%D1%B0%F7%C0%EC%CD%D1%A5%DA%A1%BC%A5%B8" title="PC/OC Members Only">委員専用ページ</a> <span class="hideme">|</span>
+  
+
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> 
+ <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () --><div class="main">
+
+<p style="margin-top:15pt">
+<a href="include/poster_cfp.txt">テキスト版CFP</a><br />
+Last Modified: Mon Mar 29 14:18:53 2004</p>
+
+<p class="notice">
+ポスター論文の受付は締め切りました。
+</p>
+
+<h4>
+<s>Call For Papers (Poster)</s>
+</h4>
+
+<div class="noticelink">
+<!-- INSERTED LINES BEGIN (poster_cfp.txt) --><pre>
+<span class="notice"> ポスター論文の受付開始が遅れたため、申し込み締切日を</span><br /><span class="notice"> 4月6日に変更しました。</span><br />
+
+     先進的計算基盤システムシンポジウム SACSIS 2004: ポスター論文募集
+        Symposium on Advanced Computing Systems and Infrastructures 
+                        <a href="http://www.hpcc.jp/sacsis/2004/">http://www.hpcc.jp/sacsis/2004/</a>
+　　　　★申込締切: 　2004年4月6日(火) 17:00 (延長無し)
+
+        ★会議開催日: 2004年5月26日（水）〜28日（金） 
+        ★場所: <a href="http://www.plaza-sapporo.or.jp/scc/">札幌コンベンションセンター</a>（札幌市白石区東札幌６−１）
+
+
+　SACSIS (Symposium on Advanced Computing Systems and Infrastructures) 
+は，2003年に誕生したシンポジウムですがその第２回を，今年は舞台を北の大
+地，北海道に移して，2004年5月26日(水)〜28日(金)に開催いたします．スコー
+プはSACSIS2003と同じく，以下のように考えています．
+
+Advanced Computing .. 
+　SACSIS は今後の計算技術の発展を，さまざまな角度から議論することを目的と
+しています．そこで並列分散に限らず，広い意味で先進的な計算のためのシステ
+ムや基盤とそれらの要素技術を対象とします．
+
+... Systems and Infrastructures 
+　性能などの「有効性」が重視される「システム」に関する技術だけではなく，
+幅広い利用を目指して「実用性」を重視した「基盤」に関する技術も対象としま
+す． 
+
+下記テーマに関連したWork-in-progress的発表をポスター論文として募集します．
+
+１．先進的計算システム
+　グリッド技術，クラスタ技術，組み込みシステム，ユビキタスシステム，
+　Peer-to-Peer，モバイル技術，ディペンダブルコンピューティング，
+　アプリケーション専用システムなど．
+
+２．先進的計算システムを支える基盤技術
+　プロセッサアーキテクチャ，システムアーキテクチャ，大規模ストレージシス
+　テム，省電力・省スペース技術，ネットワークセキュリティ，OS／ミドルウェ
+　ア，コンパイラ，プログラム言語処理系，並列アルゴリズム，
+　性能評価／性能チューニング技術など
+
+３．実用的基盤システム
+　データベース，Webサービス，検索エンジン，トランザクションシステム，
+　オンラインアルゴリズム，分散計算環境，サーバシステム構築技術，
+　検索エンジン，データマイニングなど
+
+</pre><h4>募集論文</h4><pre>
+
+(1) 2頁以内のポスター論文を募集いたします．
+
+(2) 伝統的な並列処理(並列アーキテクチャや科学技術応用)にとどまらず，広
+    域分散処理，大規模ストレージシステム，バイオインフォマティクスやな
+    ど，これからの大規模システムやその応用，それを支えるセキュリティ技
+    術など，幅広い分野の研究を積極的に採用いたします．
+
+(3) ポスター論文では査読を行いますが，構想段階の研究，問題提起などを含
+    めた様々な研究を積極的に採用し，参加者間の議論の場を提供いたします．
+　　査読の結果，採択されたポスター論文は，<span class="notice">会議2日目の午後</span>に開催予定
+    のポスターセッションにてポスター発表をしていただきます．
+
+(4) 査読にあたっては，以下の点に配慮します．
+ - SACSIS 2004の主旨ならびに扱う技術分野に適合するか
+ - 文章としての一定レベルの品質があるか(誤字等が多い場合は不採択)
+
+　　また，幅広い技術分野についての議論を可能にするため，ポスター発表が
+　　特定の技術分野へ極端に偏らないように配慮します．
+
+●ポスター論文のスタイル
+ - A4 2ページ以内，日本語または英語でお願いします．
+ - スタイルはlong paperに準拠します．
+ - long paperのスタイルは，以下のURLを参照ください．
+ - 規定スタイル(long paper)： 
+　　　　　　　　　LaTeX用 <a href="http://www.hpcc.jp/acs/latexform.html">http://www.hpcc.jp/acs/latexform.html</a>
+                  Word用  <a href="http://www.hpcc.jp/sacsis/2004/sacsis-form.doc">http://www.hpcc.jp/sacsis/2004/sacsis-form.doc</a>
+　 (注意)上記のWord用スタイルは8ページのlong paper用であり，スタイル内部に
+　　　　 ページ数は8ページ以内との記載がありますが，ポスター論文は2ページ
+　　　　 以内が制限事項になっています．ご注意願います．
+ - 投稿ファイル形式：PDFフォーマット
+ - 採択された場合には，投稿論文がそのままカメラレディ原稿となります．
+
+●ポスター発表のスタイル
+ - 1件あたり，A0版用紙にして2枚分の展示スペース
+ - 希望により，机(幅1,800mm×奥行600mm)を用意 (1件あたり1個迄)
+ - 机の要否につきましては，poster論文採否通知後に，個別にお聞きします．
+
+
+</pre><h4>重要日程</h4><pre>
+
+　2004/3/19(金)		poster論文受付開始
+  2004/4/06(火)17:00	poster論文締切 (延長無し)
+  2004/4/16(金)頃  	poster論文採否通知
+  2004/5/26(水)〜5/28(金) SACSIS2004開催
+
+
+</pre><h4>投稿のしかた</h4><pre>
+
+(1) 投稿は，Webからのuploadにてお願いします．
+　　URLは，<a href="http://www.hpcc.jp/acs/7/submit/">http://www.hpcc.jp/acs/7/submit/</a>です．
+(2) 所定のスタイルにて作成されたポスター論文のuploadと，投稿ページへの
+　　記入をお願いします．
+(3) この際，ノートパソコンによるデモご希望の方は，「デモ希望」のチェック
+　　欄に，その旨チェックください．デモに利用するノートパソコンは，1台迄を
+　　目安とし，発表者の責任にてご用意ください。
+　　なお，会場設備の都合により，必ずしもデモのご希望に添えない場合もあり
+　　えますので，あらかじめご了承ください．
+(4) 著作権については，シンポジウム論文集は情報処理学会からの出版になるため，
+    情報処理学会著作権規程を御了承の上の投稿をお願いします．
+
+　　<a href="http://www.ipsj.or.jp/gaiyo/copyright.html">http://www.ipsj.or.jp/gaiyo/copyright.html</a>
+
+
+</pre><h4>問合せ先</h4><pre>
+
+日立製作所中央研究所　プラットフォームシステム研究部
+　　濱中　直樹
+　　e-mail: hamanaka@crl.hitachi.co.jp
+</pre>
+<!-- INSERTED LINES END () --></div>
+
+</div>
+
+<!--
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+-->
+
+</body>
+</html>

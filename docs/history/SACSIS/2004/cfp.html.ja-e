@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2004 Call for Paper</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+May 26-28, 2004<br />
+Sapporo, Hokkaido, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (2004_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.ja" title="SACSIS 2004">SACSIS2004&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="cfp.html.en" title="English Page"> <img src="images/jp2en.gif" alt="English" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2004_LINKS) -->  <a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+  <a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+  <a href="poster_cfp.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+  <a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+  <a href="registration.html.ja">参加申込</a> <span class="hideme">|</span>
+  <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+  <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+  <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/wiki/wiki.cgi?SACSIS2004%B0%D1%B0%F7%C0%EC%CD%D1%A5%DA%A1%BC%A5%B8" title="PC/OC Members Only">委員専用ページ</a> <span class="hideme">|</span>
+  
+
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> 
+ <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () --><div class="main">
+
+<p style="margin-top:15pt">
+<a href="include/cfp.txt">テキスト版CFP</a><br />
+Last Modified: Tue Dec 16 21:47:29 2003</p>
+
+<h4>
+<strike>Call For Papers</strike>
+</h4>
+
+<p>
+<span class="notice">
+論文投稿登録および論文アップロードは既に締め切りました。
+(2004/01/30)
+</span>
+</p>
+
+<div class="noticelink">
+<!-- INSERTED LINES BEGIN (cfp.txt) --><pre>
+
+              先進的計算基盤システムシンポジウム SACSIS 2004
+        Symposium on Advanced Computing Systems and Infrastructures 
+                        <a href="http://www.hpcc.jp/sacsis/2004/">http://www.hpcc.jp/sacsis/2004/</a>
+
+                  ２００４年５月２６日（水）〜２８日（金） 
+              <a href="http://www.plaza-sapporo.or.jp/scc/">札幌コンベンションセンター</a>（札幌市白石区東札幌６−１）
+
+<div class="doublebar">&nbsp;</div>　　SACSIS2004の論文投稿の受付を開始しました．
+　　<a href="http://www.hpcc.jp/acs/7/submit/">http://www.hpcc.jp/acs/7/submit/</a>
+<div class="doublebar">&nbsp;</div>
+
+　SACSIS (Symposium on Advanced Computing Systems and Infrastructures) 
+は，2003年に誕生したシンポジウムですがその第２回を，来年は舞台を北の大
+地，北海道に移して，2004年5月26日(水)〜28日(金)に開催いたします．スコー
+プはSACSIS2003と同じく，以下のように考えています．
+
+Advanced Computing .. 
+　SACSIS は今後の計算技術の発展を，さまざまな角度から議論することを目的と
+しています．そこで並列分散に限らず，広い意味で先進的な計算のためのシステ
+ムや基盤とそれらの要素技術を対象とします．
+
+... Systems and Infrastructures 
+　性能などの「有効性」が重視される「システム」に関する技術だけではなく，
+幅広い利用を目指して「実用性」を重視した「基盤」に関する技術も対象としま
+す． 
+
+下記テーマに関連したオリジナリティ溢れる論文，実装・開発事例等も含め有
+用性の高い論文，実用性を重視した基盤に関する論文を広く募集致します．
+
+１．先進的計算システム
+　グリッド技術，クラスタ技術，組み込みシステム，ユビキタスシステム，
+　Peer-to-Peer，モバイル技術，ディペンダブルコンピューティング，
+　アプリケーション専用システムなど．
+
+２．先進的計算システムを支える基盤技術
+　プロセッサアーキテクチャ，システムアーキテクチャ，大規模ストレージシス
+　テム，省電力・省スペース技術，ネットワークセキュリティ，OS／ミドルウェ
+　ア，コンパイラ，プログラム言語処理系，並列アルゴリズム，
+　性能評価／性能チューニング技術など
+
+３．実用的基盤システム
+　データベース，Webサービス，検索エンジン，トランザクションシステム，
+　オンラインアルゴリズム，分散計算環境，サーバシステム構築技術，
+　検索エンジン，データマイニングなど
+
+<b>※SACSIS2004は，SACSIS2003とは以下の点で異なりますので，投稿時にはご注意下さい． </b>
+
+・新しい試みとして，若手研究者からの投稿をencourageする意味で，
+	優秀若手研究賞を新たに設けます．
+
+・口頭発表論文はlong paper（8頁以内）のみとします．
+    	従来あったshort paperのカテゴリーは，work-in-progress的発表である
+	poster論文としての投稿をお願いいたします．
+
+<b>※また，SACSIS2004は，以下の点でSACSIS2003を踏襲します．</b>
+
+・Work-in-progress的発表はposter論文として募集します．
+    −2頁以内の論文掲載を予定しています．
+・<a href="http://www.hpcc.jp/acs/">ACS論文誌</a>と連携します．long paperをACS論文誌にも同時投稿可能とし，査読
+　　を並行して行われるようにします．
+
+</pre><h4>募集論文</h4><pre>
+
+(1) 8頁以内のlong paperの論文を募集いたします．募集対象は，国内外の査
+    読付き雑誌あるいは査読付き会議でまだ発表されていない研究論文としま
+    す．この他にポスター発表も募集いたします．
+
+(2) long paperでは，有用な結果や考え方を伴った，完成度の高い論文を募集
+    いたします．long paperに投稿された論文は，論文誌コンピューティング
+    システム(ACS)への同時投稿が可能で，これにより質の高い論文を短い査
+    読期間で論文誌上に掲載することを可能にします．
+
+(3) long paperでは，若手研究者の論文から優れた論文を数件選び，優秀若手
+    研究賞として表彰し，受賞論文だけから構成される特別セッションで発表
+    して頂きます．応募資格は，登壇発表者である筆頭著者の年齢が，３０歳
+    前後以下であることです．また，その中から登壇発表時の審査も含めた上
+    最優秀若手研究賞を１件選ぶ予定です．本賞の趣旨は有望な若手を表彰す
+    ることにあり，論文としての完成度だけでなく，着眼点の面白さや今後の
+    展開が期待される研究を高く評価します．
+
+(4) (3)とは別に，long paperでは全論文を対象に，最優秀論文賞を１件選び
+    表彰いたします．本章は，研究論文として完成度も重視して総合的に評価
+    します．なお，優秀若手研究賞を受賞しても，本最優秀論文賞の選考対象
+    となります．
+
+(5) ポスター発表でも査読を行いますが，構想段階の研究，問題提起などを含
+    めた様々な研究を積極的に採用し，参加者間の議論の場を提供いたします．
+
+(6) 伝統的な並列処理(並列アーキテクチャや科学技術応用)にとどまらず，広
+    域分散処理，大規模ストレージシステム，バイオインフォマティクスやな
+    ど，これからの大規模システムやその応用，それを支えるセキュリティ技
+    術など，幅広い分野の研究を積極的に採用いたします．
+
+
+●long paper (A4 8ページ以内)
+ - A4 8ページ以内
+ - 規定スタイル： LaTeX用 <a href="http://www.hpcc.jp/acs/latexform.html">http://www.hpcc.jp/acs/latexform.html</a>
+                  Word用  <a href="http://www.hpcc.jp/sacsis/2004/sacsis-form.doc">http://www.hpcc.jp/sacsis/2004/sacsis-form.doc</a>
+- ファイル形式：PDFフォーマット
+
+[投稿に関する注意]：
+
+SACSIS2004は<a href="http://www.hpcc.jp/acs/">ACS論文誌</a>第7号と連携して論文募集を行いますので，一つの論文
+を双方に同時投稿し，並行して査読を受けることができます．またどちらか一
+方にのみ投稿することも，もちろん可能です． 具体的には以下の投稿方法が
+ありますので，適切なものを選択してください．
+
+1. SACSIS2004単独投稿 
+   SACSIS2004のみを対象とする８ページ以内の論文投稿です．投稿時点での
+   枚数超過は認められません．なお，論文採録後のSACSIS2004カメラレディ
+   原稿にも，標準８ページ（超過料金を支払えば１０ページまで可）の枚数
+   制限があります．
+
+2. SACSIS2004／ACS同時投稿 
+ * 投稿された論文は，<a href="http://www.hpcc.jp/acs/">ACS論文誌</a>編集委員会とSACSIS2004プログラム委員会
+   の双方で査読されます．投稿時点での論文ページ数は8ページ以内に制限
+   されます．投稿時点での枚数超過は認められません．
+
+ * SACSIS2004とACSとの査読は独立して行われ，採否も独立です．したがって
+   一方で採録／採択され，他方で不採録／不採択となることもあります．ま
+   たACSの第１回査読では条件付採録となる可能性もあります．
+
+ * ACSの第１回査読結果通知とSACSIS2004の採否通知は，ほぼ同時期に行われ
+   る予定ですが，若干前後する可能性がありますので，あらかじめご承知お
+   き下さい．
+
+ * SACSIS2004で採択され，ACSで条件付採録となった場合，ACSへの修正稿投
+   稿締切はSACSIS2004のカメラレディ締切とほぼ同時期になる予定です．し
+   たがってACS修正稿とSACSIS2004カメラレディ原稿を同一のものとしても構
+   いませんが，同一でなくても構いません．SACSIS2004カメラレディ原稿に
+   は標準８ページ（超過料金を支払えば１０ページまで可）の枚数制限があ
+   るのに対し，ACS修正稿にはページ数制限はありません
+
+ * <a href="http://www.hpcc.jp/acs/">ACS論文誌</a>に採録された場合，ACS論文誌への投稿はLaTeXによるスタイルの
+   みの受付となりますのでご注意下さい．
+
+3.  ACS単独投稿
+   <a href="http://www.hpcc.jp/acs/">ACS論文誌</a>のみを対象とする投稿で，査読手続きなどは通常のACS論文誌へ
+   の投稿と同様です．
+
+●poster paper (A4 2ページ以内)
+- スタイルはlong paperに準拠します．
+- 採択された場合には，投稿論文がそのままカメラレディ原稿となります．
+
+</pre><h4>重要日程</h4><pre>
+
+  2004/1/26(月)		投稿論文登録締切（延長なし）
+  2004/1/30(金)		論文アップロード締切（延長なし）
+  2004/3/16(火)頃  	論文 採否通知
+　2004/3/19(金)		poster論文受付開始
+  2004/4/02(金)		poster論文 締切
+  2004/4/16(金)頃  	poster論文採否通知，および採択論文camera ready締切
+  2004/5/26(水)〜5/28(金) SACSIS2004開催
+</pre>
+<!-- INSERTED LINES END () --></div>
+
+</div>
+
+<!--
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+-->
+
+</body>
+</html>

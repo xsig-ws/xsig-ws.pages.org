@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+      <h4 id="sc">SACSIS ±¿±Ä°Ñ°÷²ñ</h4>
+      <?php include("include/committee-mg.html");?>
+
+      <h4 id="oc">SACSIS2013 ÁÈ¿¥°Ñ°÷²ñ</h4>
+      <?php include("include/committee-oc.html");?>
+
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

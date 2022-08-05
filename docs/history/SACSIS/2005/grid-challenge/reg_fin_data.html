@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+<link rel="STYLESHEET" href="misc/grichal.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<title>Grid Challenge in SACSIS 2005</title>
+</head>
+
+<body>
+<table class="main" >
+<tr>
+<td colspan="2" class="title">
+
+<center>
+<img src="misc/title.png" />
+</center>
+<h1>Grid Challenge in SACSIS 2005</h1>
+</td>
+</tr>
+
+<tr>
+<td class="main">
+<h2>本選の出題内容</h2>
+
+<h3>概要</h3>
+
+<div>
+
+問題番号21--23が初級問題、24--26が上級専用問題である。
+
+<table border>
+
+<tr>
+<td></td>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+</tr>
+
+<tr>
+<td>ファイルあたり<br>画素数</td>
+<td>8192x8192</td>
+<td>8192x8192</td>
+<td>8192x8192</td>
+<td>8192x8192</td>
+<td>8192x8192</td>
+<td>8192x8192</td>
+</tr>
+
+<tr>
+<td>ファイル分割数</td>
+<td>150x150</td>
+<td>100x100</td>
+<td>120x120</td>
+<td>150x150</td>
+<td>100x100</td>
+<td>120x120</td>
+</tr>
+
+</table>
+
+</div>
+
+<h3>クラスタ毎のファイル数</h3>
+
+<div>
+
+各クラスタにおける画像ファイル数を示す。二つの数値はそれぞれ
+マスターファイル数とレプリカファイル数を示す。
+
+<table border>
+
+<tr>
+<td></td>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+</tr>
+
+<tr>
+<td>Presto III</td>
+<td>3113/0</td>
+<td>830/1383</td>
+<td>1595/0</td>
+<td>3113/0</td>
+<td>830/1383</td>
+<td>1595/0</td>
+</tr>
+
+<tr>
+<td>Alab</td>
+<td>1132/0</td>
+<td>302/503</td>
+<td>580/0</td>
+<td>1132/0</td>
+<td>302/503</td>
+<td>580/0</td>
+</tr>
+
+<tr>
+<td>Tok</td>
+<td>2123/0</td>
+<td>566/944</td>
+<td>1087/0</td>
+<td>2123/0</td>
+<td>566/944</td>
+<td>1087/0</td>
+</tr>
+
+<tr>
+<td>X Cluster</td>
+<td>2830/0</td>
+<td>754/1258</td>
+<td>4322/0</td>
+<td>2830/0</td>
+<td>754/1258</td>
+<td>4322/0</td>
+</tr>
+
+<tr>
+<td>HPCS</td>
+<td>849/0</td>
+<td>227/377</td>
+<td>435/0</td>
+<td>849/0</td>
+<td>227/377</td>
+<td>435/0</td>
+</tr>
+
+<tr>
+<td>YubaHonda</td>
+<td>1981/0</td>
+<td>528/880</td>
+<td>1015/0</td>
+<td>1981/0</td>
+<td>528/880</td>
+<td>1015/0</td>
+</tr>
+
+<tr>
+<td>Hirakken</td>
+<td>1416/0</td>
+<td>377/629</td>
+<td>725/0</td>
+<td>1416/0</td>
+<td>377/629</td>
+<td>725/0</td>
+</tr>
+
+<tr>
+<td>Chikayama</td>
+<td>3396/0</td>
+<td>906/1510</td>
+<td>1741/0</td>
+<td>3396/0</td>
+<td>906/1510</td>
+<td>1741/0</td>
+</tr>
+
+<tr>
+<td>Tau</td>
+<td>5660/0</td>
+<td>5510/2516</td>
+<td>2900/0</td>
+<td>5660/0</td>
+<td>5510/2516</td>
+<td>2900/0</td>
+</tr>
+
+<tr>
+<td>合計</td>
+<td>22500/0</td>
+<td>10000/10000</td>
+<td>14400/0</td>
+<td>22500/0</td>
+<td>10000/10000</td>
+<td>14400/0</td>
+</tr>
+
+</table>
+
+<ul>
+<li> 問題21, 24: マスターファイルの個数を、ほぼ各クラスタの性能に
+比例するように
+配置した。ここにおける性能比率は、試行的な問題を解答し、その実行時間を参考に
+して決定した。レプリカファイルは配置しない。
+<li> 問題22, 25: マスターファイルを、Tauクラスタに集中的に配置した。
+その他のクラスタ間では、ほぼ性能に比例した個数となっている。
+各マスターファイルに対して1つレプリカを用意した。レプリカファイル
+の個数を、ほぼクラスタの性能に比例するように配置した。
+<li> 問題23, 26: マスターファイルを、X Clusterに集中的に配置した。
+その他のクラスタ間では、ほぼ性能に比例した個数となっている。
+レプリカファイルは配置しない。
+</ul>
+
+</div>
+</td>
+
+
+<td class="menu" valign="top">
+
+<h3 class="menu">menu</h3>
+<div class="menu">
+<ul class="menu">
+<li><a href="index.html" class="menu_d">Top</a></li>
+<li><a href="regulation.html" class="menu_d">規定課題</a></li>
+<li><a href="reg_detail.html" class="menu_d_sub">規定課題詳細</a></li>
+<li><a href="reg_api_c.html" class="menu_d_sub">出題API(C言語用)</a></li>
+<li><a href="reg_api_java.html" class="menu_d_sub">出題API(Java用)</a></li>
+<li><a href="reg_trial.html" class="menu_d_sub">お試しパック</a></li>
+<li><a href="reg_elimination.html" class="menu_d_sub">予選詳細</a></li>
+<li><a href="reg_el_result.html" class="menu_d_sub">予選結果</a></li>
+<li><a href="reg_final.html" class="menu_d_sub">本選詳細</a></li>
+<li><a href="reg_fin_result.html" class="menu_d_sub">本選結果</a></li>
+<li><span class="menu_h_sub">本選出題内容</span></li>
+<li><a href="free_regulation.html" class="menu_d">自由課題</a></li>
+<hr />
+<li><a href="http://www.hpcc.jp/sacsis/2005/" class="menu_d">SACSIS 2005</a></li>
+</ul>
+</div>
+<h3 class="menu">what's new</h3>
+<div class="menu">
+
+<ul class="small">
+<li>2005/3/22 決勝終了。集計結果は<a href=reg_fin_result.html>こちら</a>。出題データに関する資料は<a href=reg_fin_data.html>こちら。</a>
+<li>2005/3/11 決勝で用いたプログラムソースの提出方法について<a href=reg_final.html>追加</a>しました。
+<li>2005/3/10 決勝の実行を収めた動画キャプチャの提出方法について<a href=reg_final.html>更新</a>しました。
+<li>2005/3/02 予選中間結果を<a href=reg_el_result.html>更新</a>しました。
+<li>2005/2/09 予選中間結果を<a href=reg_el_result.html>公開</a>しました。
+<li>2005/2/02 予選問題に関する詳細情報を<a href=reg_elimination.html>公開</a>しました。
+<li>2005/1/30 ホスト情報の最終版を参加者へ通知しました。
+<li>2005/1/30 参加チーム情報を<a href=grch_meibo.html>公開</a>しました。
+
+<li>
+<font color=red>2005/1/27 
+予選スケジュールを延期しました。詳しくは<a href=regulation.html#schedule>こちら</a>
+</font>
+<li>2005/1/27 
+<a href=awards.html>賞に関する情報</a>を掲載するページを作成しました。
+<li>
+2005/1/19 参加チームにホスト情報の提供を開始しました
+<li><a href=http://www.atmarkit.co.jp/index.html>
+2005/1/7 @IT</a>に掲載されました
+(<a href=http://www.atmarkit.co.jp/news/200501/08/grid.html>
+1000CPUでグリッドを体感、「Grid Challenge」開催へ</a>)</li>
+<li> 2005/1/7 Grid協議会「グリッドショーケース」にて講演を行ないました
+<li> 2005/1/1 規定問題詳細とお試しパック公開!</li>
+<li> 2004/12/15 <a href=http://nikkeibp.jp/wcs/leaf/CID/onair/jp/sangaku/349589>nikkeibp.jp</a>に掲載されました</li>
+<li> 2004/12/7 サイト開設</li>
+<li> 2004/12/7 参加者募集開始! </li>
+</ul>
+</div>
+</td>
+
+</tr>
+
+
+
+<tr>
+<td colspan="2" class="footer">
+<hr />
+Grid Challenge in SACSIS 2005
+</td>
+</table>
+
+</body>
+</html>

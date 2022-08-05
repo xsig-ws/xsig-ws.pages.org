@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+<h4> Call for Papers </h4> 
+
+Annual Meeting on Advanced Computing System and Infrastructure: 
+<a href="http://acsi.hpcc.jp/">ACSI2015</a>
+<p></p>
+
+<h4> [Important Dates] </h4>
+<?php include("include/important-dates-en.html");?>
+
+<h4> [Overview] </h4>
+
+<?php include("include/aboutacsi-en.html");?>
+
+<h4> [Publications] </h4>
+
+<p>
+The ACSI does not publish any proceedings. The papers accepted for
+ACSI are not opened to the public. The copy of the accepted paper is
+distributed only to attendees of the ACSI2015, which means that the
+ACSI is a closed meeting for the attendees.
+</p>
+
+<h4> [Regular papers] </h4> 
+
+<ul> 
+
+<li> High quality papers that establish significant results and ideas
+are solicited in this category. Papers must be written in English, and
+be within ten pages. A PDF file based on the IEEE conference style
+should be used for the submission. It must be an original work, which
+has not appeared in and has not been accepted for other peer-reviewed
+conferences or journals, domestic or international, of all categories
+including regular papers, letters, and technical notes. Papers
+included in or accepted for journals or conferences whose publications
+(e.g. proceedings) do not have either ISBN or ISSN number can be
+submitted.
+
+<li> The template of the IEEE conference style is available in
+http://www.ieee.org/conferences_events/conferences/publishing/templates.html.
+
+<li> Please strictly follow the manuscript format: language (English),
+page limit (10 pages), style (IEEE conference style).
+</ul>
+
+<h4> [Award for regular papers] </h4> 
+
+<p> ACSI2015 program committee selects at most one "Outstanding
+Research Award" in each track (ACSI2015 has three tracks). Moreover,
+ACSI2015 gives "Outstanding Student Research Award" for the best paper
+written by a student. To be qualified the student award, the first
+author should be a student and she/he must present the work in the
+meeting. </p>
+
+<p> Above two awards are mainly selected from the view point of
+quality of the research, its practicality and potential. Additionally,
+the presentation quality is taken into account for the evaluation of
+the paper.
+</p>
+
+<h4> [IPSJ Transactions on ACS: Special issue on ACSI] </h4>
+
+<p>
+There is a special issue on ACSI in the ACS transactions, which will
+be announced about three weeks after the notification of ACSI review
+results. ACSI program committee cooperates with ACS editors to aim
+quicker review response than the regular issue of ACS. Please note,
+however, that the special issue is judged according to the criterion
+of ACS transactions, which is not identical to that for ACSI.
+</p>
+
+<h4> [Poster papers] </h4>
+
+<p>
+There will be a call for posters after the notification of regular
+papers. Submissions will be opened in December. Poster paper must be a
+one or two page paper written in English. IEEE conference style should
+be used. ACSI solicits especially the early-stage or problem-raising
+works for the poster presentation and provides a place to discuss them
+with attendees.
+</p>
+
+<p>
+ACSI program committee gives an award for excellent poster presentations.
+</p>
+
+<h4> [Submissions] </h4>
+
+<p> The paper should be submitted through EasyChair. The opening of
+the submission site will be announced in ACSI2015 web page
+(http://acsi.hpcc.jp/2015/index.html) in September.
+<p>
+
+<p>
+When the authors submit the paper to ACSI2015, they should choose one
+of the following three tracks that most closely match your work.
+</p>
+
+<dl>
+<li> Track A: Applications and algorithms (chair: Daisuke Takahashi)<br>
+
+Computational science, simulations, high performance computing, numerical algorithm and libraries, auto tuning, large-scale data processing algorithms, power-saving algorithms, algorithmic fault tolerance
+
+<li> Track B: Programming and systems software (chair: Kento Aida)<br>
+
+Operating systems, programming language design and implementation, virtualization technology, data intensive computing systems (MapReduce, KVS), file systems, databases, cloud computing, cyber-physical systems, grid computing, security, communication libraries, wide area networking, large scale system management and evaluation
+
+<li> Track C: System architecture (chair: Kenji Kise)<br>
+
+Processor architecture, memory architecture, network architecture, heterogeneous architecture (GPU, many cores), reconfigurable systems, embedded systems, application-specific architecture, dependable systems, low power design
+</dl>
+
+<h4> [Organization] </h4>
+
+     <?php include("include/committee-oc-en.html");?>
+
+<h4> [Contact] </h4>
+
+ACSI2015 organizing committee: acsi2015 .at. ccs.tsukuba.ac.jp
+
+</div>
+
+    <?php include("include/footer.html");?>
+<div>
+  <p class="validation">
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://www.w3.org/Icons/valid-xhtml11-blue"
+	   alt="Valid XHTML 1.1" /></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+	   alt="Valid CSS" /></a>
+  </p>
+</div>
+</body>
+</html>

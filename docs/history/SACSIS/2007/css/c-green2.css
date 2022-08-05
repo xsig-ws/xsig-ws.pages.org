@@ -1,0 +1,48 @@
+/*
+ * green & orange
+ */
+a:link    { color: #550; }
+a:visited { color: #552; }
+a:hover   { color: #black; background-color: #dda; }
+a:active  { color: #f00; }
+
+b  { color: #550; font-weight: bold; }
+em { color: #fb0; font-weight: bold; font-style: normal; }
+tt { color: #5a5; font-weight: bold; font-style: normal; }
+address { border-color: #aaf; color: #33c; }
+#title {
+  /*color: #282;*/
+  background-color: #663;
+  color: white;
+  background-image: url(../images/grass4.jpg);
+}
+h1 { border-color: black; }
+h2, h3, h4 { color: #663; border-color: #ca4; }
+div.main { background-color: white; }
+body { background-color: #eec; }
+
+/* overwrite */
+div.navbar {
+  line-height:140%;
+  background-color: #b93;
+  border-left: 2.5px solid white;
+  padding: 0px;
+}
+div.navbar p { color: white; border-color: white; border-width: 2px; }
+div.navbar p.title { color: white; }
+div.navbar p a:link    { color: white; }
+div.navbar p a:visited { color: #eee; }
+div.navbar p a:hover   { color: #363; background-color: white; }
+/*
+div.navbar {
+  line-height:140%;
+  background-color: #efc;
+  border-left: 2.5px solid white;
+  padding: 0px;
+}
+div.navbar p { color: #666; border-color: white; border-width: 2px; }
+div.navbar p.title { color: #666; }
+div.navbar p a:link    { color: #666; }
+div.navbar p a:visited { color: #999; }
+div.navbar p a:hover   { background-color: white; }
+*/

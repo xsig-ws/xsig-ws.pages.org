@@ -1,0 +1,8 @@
+# AddType text/x-server-parsed-html .shtml
+# Options Includes
+# Options +ExecCGI 
+# AddType application/x-httpd-php .php .html .html.ja .html.en
+AuthType	Basic
+AuthName	"This is a draft of the SACSIS 2011 web page"
+AuthUserFile	/home/sacsis/html/sac11.dat
+require valid-user

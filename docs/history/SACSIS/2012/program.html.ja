@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      <h3>SACSIS 2012 プログラム</h3>
+      <p><strong>最終更新日：<?php include("include/program-last-update");?>（更新履歴は<a href="program-history.html.ja">こちら</a>）</strong></p>
+<!--
+      <p>
+	<strong>【お知らせ（7/1更新）】</strong>
+	<ul>
+	  <li><strong>講演者の方々のご厚意により，チュートリアル資料を<a href="program.html.ja#tutorial">一般公開</a>（およびupdate）しました．</strong></li>
+	  <li><a href="notice-online.html.ja">オンライン論文集について</a>：SACSIS 2011 では，従来の冊子体の論文集を廃し，情報処理学会電子図書館（情報学広場）によるオンライン論文集に移行しました．</li>
+	  <li>ダウンロードした論文PDFのindex用HTMLファイルを上記リンク先に公開しています．</li>
+	</ul>
+      </p>
+-->
+      <h4>基調講演・招待講演・チュートリアル情報</h4>
+      <ul>
+	<li> <a id="F1">基調講演</a>
+	  <ul>
+	    <li>5/16(水) 11:15-12:45：<br />
+	      <table>
+		<tr><td><img src="images/photo-seo.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>NECシステムプラットフォーム研究所 技術主幹<br />
+		    妹尾 義樹 氏 <br />
+		    「サイバーフィジカルシステムとこれからのコンピューティングについて」<br />
+		    <a href="files/SACSIS2012-keynote-pub.pdf">資料ダウンロード</a>
+		    <p>
+		      スマートフォンやセンサ技術の進展により、実世界および、そこでの人々の活動についての大量の情報をデジタル化し、活用することが可能になって きている。サイバーフィジカルシステム（CPS）は、これらの大量実世界データとサイバー世界の強力な情報処理機能を組み合わせて、人々の暮らし に役立つ知識を生成するとともに、これを用いて、日々の生活をリアルタイムに支援するシステムである。コンピュータシステムは、単体システムとし ては、技術が成熟し、コモディティー化の進行が激しいが、CPSを考えると、リアルタイム処理、分散処理、大量データ処理、セキュリティーなど 種々の課題が山積している。さらには、これら種々の処理を統合して、効率よく扱うための全体アーキテクチャも欠如している。また、CPSを考える とき、汎用の効率化には限界があり、個々のサービスの進展に合わせ、それぞれの特性を活かした最適化が重要となる。本講演では、CPSの現状と今 後、そして、これを支えるコンピューティングの今後の方向性について述べる。
+		    </p>
+		  </td>
+		</tr>
+		<!-- tr><td colspan="2">(<a href="DSCF4633.JPG">基調講演の様子1</a>, <a href="DSCF4628.JPG">基調講演の様子2</a>)</td></tr -->
+	      </table>
+	    </li>
+	  </ul>
+	</li>
+
+	<li> <a id="F5">招待講演</a>
+	  <ul>
+	    <li>5/17(木) 11:00-12:30：<br />
+	      <table>
+		<tr><td><img src="images/photo-harza.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>General Manager of Technical Computing Group, Intel Corporation<br />
+		    Rajeeb Harza 氏 <br />
+		    「Intel and Evolution of Exascale」<br />
+		    <p>
+		      Intel is emerged as a driving force in the path to Exascale.  Intel’s efforts range from collaborating with leading business and technical centers, to researching emerging Exascale workloads, to generating new architectures to make those workloads perform to real world expectations.  This presentation looks at Intel’s role in the business and technology of Exascale, now and into the future.  Dr. Hazra will review the architectural paths to achieving Exascale, the business challenges of Exascale and the key technical hurdles that must be surmounted to breakthrough.  The technical discussion will include a summary of key elements of software and hardware research done by Intel Labs and our Exascale Research Partners, and a glimpse ahead to the tools and technologies that will play a part in the transformation in the next several years.
+		    </p>
+		  </td>
+		</tr>
+		<!-- tr><td colspan="2">(<a href="DSCF4633.JPG">招待講演の様子1</a>, <a href="DSCF4628.JPG">招待講演の様子2</a>)</td></tr -->
+	      </table>
+	    </li>
+	  </ul>
+	</li>
+	<li id="tutorial"> チュートリアル:
+	  <ul>
+	    <li><a id="F6">チュートリアル1</a><br />
+	      5/16(水) 14:00-15:30：<br />
+	      <table>
+		<tr><td><img src="images/photo-minami.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>理化学研究所 次世代スーパコンピュータ開発実施本部 開発グループ アプリケーション開発チーム<br />
+		    南 一生 氏<br />
+		    「スーパーコンピュータ「京」におけるアプリケーションの高並列化と高性能化」<br />
+		    <a href="files/SACSIS2012-tutorial1-pub.pdf">資料ダウンロード</a>
+		    <p>
+		       理化学研究所において、2012年の完成を目指し次世代スーパーコンピュータ「京」の開発プロジェクトが進行しており、2011年にその目標であるLINPACK10ペタフロップスの達成と共にLINPACK TOP500における一位を獲得した。「京」は、日本のスーパーコンピューティング技術を発展させ、わが国の幅広い計算科学分野の利用に供する事はもちろん、大規模システムでは最も重要である低い消費電力、しかもシステム全体での高信頼性を確保できるＣＰＵ開発とそのシステム開発に寄与した。「京」をはじめ世界中でスーパーコンピュータの利用が拡大している中、スーパーコンピュータの性能を十分生かしきるためには、使い方に特有の留意点が存在し、それを解決するスーパーコンピューティング技術が重要である。このため、理化学研究所では「京」開発プロジェクトの一翼として、多様な分野のアプリケーションについてスーパーコンピュータの性能を十分生かしきるために、共通化した手順・手法を用いて、アプリケーションプログラムを高性能化する研究開発を展開している。本チュートリアルでは、「京」の性能向上に寄与するハードウェアの特徴を概説すると共に、「京」開発プロジェクトにおいて得られた、「京」の特徴的なハードウェアを生かしたアプリケーションプログラムの高並列化及び単体CPU上の高性能化のためのノウハウについてチュートリアルする。
+		    </p>
+		</td></tr>
+	      </table>
+	    </li>
+	  </ul>
+	  <ul>
+	    <li><a id="B8">チュートリアル2</a><br />
+	      5/17(木) 16:00-17:30：<br />
+	      <table>
+		<tr><td><img src="images/photo-ando.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>産業技術総合研究所 フェロー<br />
+		    安藤 功兒 氏<br />
+		    「次世代不揮発性メモリ　−ノーマリーオフコンピュータはできるか？−」<br />
+		    <a href="files/SACSIS2012-tutorial2-pub.pdf">資料ダウンロード</a>
+		    <p>
+		      高速で動作する大容量の不揮発性メモリが実現できれば、ワーキングメモリや論理回路が不揮発化され、計算能力が必要な瞬間以外は常に電源が切れている新構造のコンピュータ（ノーマリーオフコンピュータ）ができるのではないかとの”妄想“に魅せられた講演者は、この10年間ほど、磁性メモリMRAMの開発を通じて、その実現を目指してきた。その間、論理演算素子に求められる驚異的な動作速度や、パワーゲーティング技術の出現などに驚かされ続きではあったものの、最近の不揮発性メモリ技術の進展は、ノーマリーオフコンピュータの実現可能性を大きく高めつつあると感じている。講演では、MRAMを中心とする不揮発性メモリ開発の現状を紹介するとともに、そのコンピュータアーキテクチャへの応用可能性に関する素人的な期待を述べ、コンピュータの専門家の皆さんとの議論の糸口としたい。
+		    </p>
+		</td></tr>
+	      </table>
+	    </li>
+	  </ul>
+	</li>
+      </ul>
+
+      <h4><a id="EXHIBIT">企業・団体展示</a></h4>
+      <p>5/16（水）13:00&sim;18:00，5/17(木) 9:00&sim;17:30，5/18(金) 9:00&sim;15:00 の間，常時展示．</p>
+      <p>展示紹介のためのライトニングトークを初日午後に予定しております．</p>
+      <p>参加組織および協賛企業一覧（順不同，敬称略）</p>
+      <?php include("include/exhibit-list.html");?>
+      <p>
+      <a href="exhibit.html.ja">企業・団体展示内容紹介ページ</a>
+      </p>
+
+      <h4><a id="TOWNHALL">タウンホールミーティング </a></h4>
+      <p>5/17（木）12:30&sim;14:00</p>
+      <p>
+      SACSIS運営委員会主催で，2日目のランチタイムにSACSISタウンホールミーティングを開催します．すでにメーリングリスト等でご案内しているSACSIS国際化の問題を中心に，SACSIS運営に関する事柄を参加者全員で議論する場となりますので，是非ご参加ください．
+      </p>
+
+      <h4><a id="AWARD">SACSIS2012 最優秀論文賞，最優秀若手研究賞</a></h4>
+      <ul>
+	<li>最優秀論文賞
+	  <ul>
+	    <li>
+	      コンテキストメモリの排除による動的リコンフィギャラブルプロセッサの低電力、省面積化<br />
+	      木村 優之, 天野 英晴（慶大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong>><br/>
+本論文では、マルチコンテキスト型の粗粒度動的再構成プロセッサにおいて、ダブルバッファを用いたコンテキストメモリ削減機構を提案するとともに、提案機構を効率的に利用するための手法も合わせて提案し、評価している。結果として、性能低下分に見合う、面積削減と低消費電力化を実現していることから、最優秀論文賞にふさわしいと判断した。
+
+	      </p>
+	    </li>
+	  </ul>
+	</li>
+	<li>優秀若手研究賞（50音順）
+	  <ul>
+	    <li>
+	      競合の再発抑制による LogTM の高速化手法<br />
+	      江藤 正通（名工大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong>><br/>
+本研究では、ハードウェア・トランザクショナルメモリの１つであるLogTMにおいて、デットロック防止のためにアボートを行う場合にstarving writerと呼ぶトランザクションが発生することによって性能が大幅に低下していることに着目し、それを抑制する手法を提案している。トランザクショナルメモリは今後の重要な技術と考えられる。その競合発生の原因を分析して、簡単かつ効果的に抑える方法を提案したことの意義は大きく、優秀若手研究賞にふさわしいと判断した。
+	      </p>
+	    </li>
+	    <li>
+	      GPU による多倍長整数乗算の高速化手法の提案とその評価<br />
+	      北野 晃司（大阪府大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong>><br/>
+多倍長整数の乗算について、筆算に基づくアルゴリズムを並列実行する新しいアルゴリズムを提案している。 GPU アーキテクチャに合せた最適化を施すことで、暗号計算などに必要とされる桁数の整数乗算に対しては高速な実装が得られたことが高く評価され、優秀若手研究賞にふさわしいと判断した。
+	      </p>
+	    </li>
+	    <li>
+	      広域分散ファイルシステムのための適応的な先読み手法<br />
+	      堀内 美希（東大）
+	      <p class="abs">
+		<strong>[受賞理由]</strong>><br/>
+高遅延環境でのファイルアクセス・スループットの大幅低下を防ぐために，アクセスパターンの分類・検出と帯域遅延積の推定による適応的先読み手法を提案している．シンプルながら独創的な組み合わせにより実環境での性能向上が実現されており，今後の発展も期待されることから，優秀若手研究賞にふさわしいと判断した．
+	      </p>
+	    </li>
+	  </ul>
+	</li>
+      </ul>
+
+      <h4><a id="AWARDP">SACSIS2012 ポスター賞</a></h4>
+      <ul>
+	<li>優秀ポスター賞（2件，50音順）
+	  <ul>
+	    <li>
+	      FPGA によるメニーコア・プロセッサSMYLEref の評価環境の構築<br />
+	      グェンチュオン　ソン，レイジャオ，近藤正章（電気通信大学），平尾智也，曽我武史，井上弘士（九州大学）
+	      <p class="abs">
+		<strong>[受賞理由]</strong><br/>
+		* メニーコアプロセッサ研究のツールとして、SMYLErefとFPGAを用いた評価環境を構築し、その初期評価結果をまとめている。<br/>
+		* ボードをまたいだ共有メモリの実現、OpenCLコンパイラなど、プロジェクトとしての努力量が評価できる。
+	      </p>
+	    </li>
+	    <li>
+	      I/O Performance Isolation on A Shared Storage System for MPI-IO Applications<br />
+	      Tanimura Yusuke（AIST），Filgueira Rosa，Atkinson Malcolm（University of Edinburgh），Kojima Isao(AIST)
+	      <p class="abs">
+		<strong>[受賞理由]</strong><br/>
+		* I/O資源を予約しI/O性能を保証するという研究で, ファイルシステムの実装, PSpacerを用いたネットワーク帯域の共有, I/Oスケジューラの実装など, 技術的に高度なシステムを実装している.<br/>
+		* 実用性の高いシステム作りを着実に進めていることがよく伝わってくる。
+	      </p>
+	    </li>
+	  </ul>
+	</li>
+	<li>学生優秀ポスター賞（1件）
+	  <ul>
+	    <li>
+	      メニーコアアクセラレータに対するファイルI/O 機構<br />
+	      松尾勇気，下沢拓　(東京大学)
+	      <p class="abs">
+		<strong>[受賞理由]</strong><br/>
+		* Intel MICなどの今後重要となるアクセラレータから、ファイルI/Oを可能とする複数の方式を提案・評価している。<br/>
+		* 新しいコンピュータ構成に関する課題に取り組んでおり、議論のための結果も出ている。<br/>
+		* 説明がとても分かりやすく、重要な仕事だと思う．
+	      </p>
+	    </li>
+	  </ul>
+	</li>
+      </ul>
+
+      
+      <h4>セッション構成</h4>
+
+      <table border="1" cellpadding="3">
+
+	<!-- *************  DAY1  ****************  -->
+
+	<tr><th class="daycolum" align="center" colspan="4"><a href="#DAY1">2012年5月16日(水)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:44%">3F会場 (国際会議場301)</th>
+	  <th style="width:30%">4F会場（会議室401+402）</th>
+	  <th style="width:20%">3Fラウンジ</th>
+	</tr>
+
+	<tr>
+	  <th>11:00-11:15</th>
+	  <td><a href="#OPENING">開会の辞</a><br />
+	    <a href="#AWARD">最優秀論文賞、優秀若手研究賞表彰</a></td>
+	  <td class="ready" rowspan="2" colspan="2"></td>
+	</tr>
+
+	<tr>
+	  <th>11:15-12:45</th>
+	  <td><a href="#S3-1">基調講演:</a><br />
+	    [3-1]<br />
+	    妹尾 義樹（NEC システムプラットフォーム研究所）<br />
+	    「サイバーフィジカルシステムとこれからのコンピューティングについて」<br />
+	    <span style="font-size: 80%">(座長: 横川 三津夫（理研）)</span></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">12:45-14:00</th>
+	  <td class="rest" align="center" colspan="2">昼食休憩</td>
+	  <td align="center" colspan="1" rowspan="3">13:00-18:00<br /><br /><a href="#EXHIBIT">企業・団体展示</a></td>
+	</tr>
+
+	<tr>
+	  <th>14:00-15:30</th>
+	  <td><a href="#S3-2">チュートリアル 1:</a><br />
+	    [3-2]<br />
+	    南 一生（理化学研究所 次世代スーパコンピュータ開発実施本部）<br />
+	    「スーパーコンピュータ「京」におけるアプリケーションの高並列化と高性能化」<br />
+	    <span style="font-size: 80%">(座長: 櫻井 隆雄（日立）)</span>
+	  </td>
+	  <td class="ready"></td>
+	</tr>
+
+	<tr>
+	  <th>15:30-16:30</th>
+	  <td><a href="#S3-3">ポスター展示インデキシング</a><br />
+	    [3-3]<br />
+            ポスター発表(41件)<br />
+            企業展示発表(14件)
+	  </td>
+	  <td class="ready"></td>
+	</tr>
+
+	<tr>
+	  <th>16:30-18:00</th>
+	  <td class="ready"></td>
+	  <td class="ready"></td>
+	  <td align="center">
+	    <br />
+	    <a href="#POSTER">ポスターセッション</a><br />
+	    <a href="#EXHIBIT">企業・団体展示</a><br />
+	    <br />
+	  </td>
+	</tr>
+
+	<tr>
+	  <th>18:00-19:00</th>
+	  <td align="center" colspan="3">
+	  <br />
+	  京コンピュータ見学会<br />
+	  <br />
+	  </td>
+	</tr>
+
+
+	<!-- *************  DAY2  ****************  -->
+
+	<tr><th class="daycolum" align="center" colspan="6"><a href="#DAY2">2012年5月17日(木)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:44%">3F会場 (国際会議場301)</th>
+	  <th style="width:30%">4F会場（会議室401+402）</th>
+	  <th style="width:20%">3Fラウンジ</th>
+	</tr>
+
+	<tr>
+	  <th>09:00-10:30</th>
+	  <td><a href="#S3-4">ストレージ</a><br />[3-4]<br />一般論文(3件)</td>
+	  <td><a href="#S4-4">メモリアーキテクチャ</a><br />[4-4]<br />一般論文(3件)</td>
+	  <td align="center" rowspan="7"><a href="#EXHIBIT">企業・団体展示</a></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">10:30-11:00</th>
+	  <td class="rest" align="center" colspan="2">休憩</td>
+	</tr>
+
+	<tr>
+	  <th>11:00-12:30</th>
+	  <td><a href="#S3-5">招待講演:</a><br />
+	    [3-5]<br />
+	    Rajeeb Harza（Technical Computing Group, Intel Corporation）<br />
+	    「Intel and Evolution of Exascale」<br />
+	    <span style="font-size: 80%">(座長: 工藤 知宏（産総研）)</span></td>
+	  <td class="ready"></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">12:30-14:00</th>
+	  <td class="rest" align="center" colspan="2">昼食休憩<br /><a href="#TOWNHALL">タウンホールミーティング</a></td>
+	</tr>
+
+	<tr>
+	  <th>14:00-15:30</th>
+	  <td><a href="#S3-6">リコンフィギャラブルシステム </a><br />[3-6]<br />一般論文(3件)</td>
+	  <td><a href="#S4-6">ミドルウェア</a><br />[4-6]<br />一般論文(3件)</td>
+	</tr>
+
+	<tr>
+	  <th class="rest">15:30-16:00</th>
+	  <td class="rest" align="center" colspan="2">休憩</td>
+	</tr>
+
+	<tr>
+	  <th>16:00-17:30</th>
+	  <td><a href="#S3-7">チュートリアル 2:</a><br />
+	    [3-7]<br />
+	    安藤 功兒（産業技術総合研究所）<br />
+	    「次世代不揮発性メモリ　−ノーマリーオフコンピュータはできるか？−」<br />
+	    <span style="font-size: 80%">(座長:  嶋田 創（奈良先端）)</span></td>
+	  <td><a href="#S4-7">GPGPU</a><br />[4-7]<br />一般論文(3件)</td>
+	</tr>
+
+	<tr>
+	  <th>17:30-17:45</th>
+	  <td align="center" colspan="3" class="ready">懇親会準備</td>
+	</tr>
+
+	<tr>
+	  <th class="rest">17:45-</th>
+	  <td align="center" class="rest" colspan="3">
+	    <br />
+	    <a href="#BANQUET">懇親会</a><br />
+	    <br />
+	  </td>
+	</tr>
+
+	<!-- *************  DAY3  ****************  -->
+
+	<tr><th class="daycolum" align="center" colspan="6"><a href="#DAY3">2012年5月18日(金)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:44%">3F会場 (国際会議場301)</th>
+	  <th style="width:30%">4F会場（会議室401+402）</th>
+	  <th style="width:20%">3Fラウンジ</th>
+	</tr>
+
+	<tr>
+	  <th>09:00-10:30</th>
+	  <td><a href="#S3-8">分散P2P</a><br />[3-8]<br />一般論文(3件)</td>
+	  <td><a href="#S4-8">HPCシステム</a><br />[4-8]<br />一般論文(3件)</td>
+	  <td align="center" rowspan="7"><a href="#EXHIBIT">企業・団体展示</a></td>
+	</tr>
+
+	<tr>
+	  <th class="rest">10:30-11:00</th>
+	  <td class="rest" align="center" colspan="2">休憩</td>
+	</tr>
+
+	<tr>
+	  <th>11:00-12:30</th>
+	  <td><a href="#S3-9">プロセッサアーキテクチャ</a><br />[3-9]一般論文(3件)</td>
+	  <td><a href="#S4-9">プログラミング言語</a><br />[4-9]一般論文(3件)</td>
+	</tr>
+
+	<tr>
+	  <th class="rest">12:30-13:45</th>
+	  <td class="rest" align="center" colspan="2">昼食休憩<br />(SACSIS運営・組織・PC委員会)</td>
+	</tr>
+
+	<tr>
+	  <th>13:45-14:15</th>
+	  <td class="ready" rowspan="1"></td>
+	  <td rowspan="2"><a href="#S4-10">省電力システム</a><br />[4-10]<br />一般論文(3件)</td>
+	</tr>
+
+	<tr>
+	  <th>14:15-15:15</th>
+	  <td><a href="#S3-10">グラフ</a><br />[3-10]<br />一般論文(2件)</td>
+	</tr>
+
+
+	<tr>
+	  <th class="rest">15:15-15:30</th>
+	  <td class="rest" align="center" colspan="2">休憩</td>
+	</tr>
+
+	<tr>
+	  <th>15:30-16:30</th>
+	  <td><a href="#S3-11">低消費電力アーキテクチャ</a><br />[3-11]<br />一般論文(2件)</td>
+	  <td><a href="#S4-11">設計手法</a><br />[4-11]<br /> 一般論文(2件)</td>
+	  <td class="ready" rowspan="2"></td>
+	</tr>
+
+	<tr>
+	  <th>16:30-16:45</th>
+	  <td><a href="#CLOSING">閉会の辞</a><br />優秀ポスター賞表彰</td>
+	  <td class="ready"></td>
+	</tr>
+      </table>
+
+      <!-- program -->
+
+      <h4>プログラム</h4>
+
+      <?php include("include/program.html");?>
+
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>GPU Challenge 2010</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/gpu.css">
+<!-- meta name="author"      content="" -->
+</head>
+
+<body>
+
+<h2>規定課題競技形式</h2>
+
+<p>
+各チームは，ツールキットをベースにプログラムを作成し，
+練習問題を正しく実行できることを確認してください．
+</p>
+
+<p>
+提出するプログラムは，<strong>2009年3月17日23時59分</strong>
+までに，ホームディレクトリ<font color="red">直下</font>
+の<strong>submit</strong>という
+名前のディレクトリに保存してください．
+submitディレクトリには，以下を含めてください
+(ツールキットの内容を踏襲すれば大丈夫ですが，ディレクトリ名が
+"toolkit"のままではなく，"submit"となっていることをご確認ください)．
+<ul>
+<li>main.ccを含むすべてのソースファイルおよびヘッダ</li>
+<li>Makefile</li>
+<li>ツールキットのlibgpuapi.a, gpucapi.h</li>
+</ul>
+※ submitディレクトリ内で"make"コマンドを実行することにより，
+提出プログラム"main"が生成されるようにしてください.
+審査の際には，委員会が審査用のlibgpucapi.aに置き換えて
+makeし，実行します．コンパイルに失敗する場合には失格と
+なりますのでご注意ください．
+<br>
+※ (原則として)元のサンプルプログラム同様に、./main [問題番号]で
+実行が可能としてください．
+<br>
+※ 詳細は規定課題マニュアル「規定課題部門のプログラミングルール」
+の章もご参照ください．
+
+</p>
+
+<a name="#shinsa">
+<h3>審査について</h3>
+<p>
+審査のために準備する複数の問題を用いて，
+それぞれの参加チームのプログラムを評価します．
+なお審査に用いる問題は事前に公開いたしませんが，
+各問題のサイズは規定課題マニュアル
+「規定課題部門のプログラミングルール」の章の"tk_init"
+の説明に従います．
+</p>
+<p>
+審査用問題のそれぞれについて，実行時間の速いチームから順に
+以下の点数を与えます．
+<ul>
+<li>1位 10点</li>
+<li>2位 7点</li>
+<li>3位 5点</li>
+<li>4位 4点</li>
+<li>5位 3点</li>
+<li>6位 2点</li>
+<li>7位 1点</li>
+</ul>
+</p>
+<p>各問題の評価において，打ち切り時間を設けます．
+以下の場合には，当該問題については失敗と見なし，当該問題の
+点数を-25点とします．
+<ul>
+<li>tk_answerの出力が表示されない場合</li>
+<li>回答が間違っており，審査用tk_answerの回答チェックに失敗する場合</li>
+<li>委員会側が設定した打ち切り時間内に結果が得られない場合</li>
+<li>指定計算方法(Cubicセミ・ラグランジュ法)と数学的に異なる
+計算方法を使用していると認められる場合</li>
+</ul>
+※ 委員会は各チーム各問題ごとに5回プログラムを実行し，
+最速の実行時間を採用します
+<br>
+※ 上記の5回の実行の中で1回でも誤答・異常終了・時間打ち切り
+があった場合には，失敗と見なします．
+</p>
+<p>
+全問題の得点の合計が多いチームが優勝となります．
+</p>
+
+<h3>競技形式まとめ</h3>
+GPU Challenge 2010規定課題部門の進め方をまとめると以下のように
+なります．
+<table border=1><tr><td>
+<ul>
+<li>2010年3月17日23時59分 プログラム提出</li>
+<li>審査用問題の実行速度により点数を獲得</li>
+<li>合計得点により入賞者を決定</li>
+</ul>
+</td></tr></table>
+
+<p>
+質問やバグ情報は<a href="mailto:gpu2010@matsulab.is.titech.ac.jp">
+gpu2010@matsulab.is.titech.ac.jp</a>
+までお願いします．
+</p>
+</body>
+</html>
+

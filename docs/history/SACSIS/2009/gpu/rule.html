@@ -1,0 +1,120 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>GPU Challenge 2009</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/gpu.css">
+<!--
+<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.hpcc.jp/sacsis/2009/cell/cgi-bin/rss.cgi">
+-->
+<!-- meta name="author"      content="" -->
+</head>
+
+<body>
+
+<h2>規定課題競技形式</h2>
+
+<p>
+ツールキットには，異なる特徴をもつ5種類の入力データが含まれています．
+ツールキットに含まれるこれらの問題を「<strong>練習問題</strong>」と
+呼ぶことにします．
+</p>
+<font color="blue">※ Cell Challenge 2009と異なり，予選と決勝に
+分かれていません．プログラムの提出は一回です．
+</font>
+<p>
+提出するプログラムは，これら5種類の全ての練習問題について正しい出力を
+得るプログラムでなくてはなりません． 
+1つでも，間違った結果を生成する場合には，残念ながら，失格と
+なります．
+</p>
+
+<p>
+提出するプログラムは，<strong>2009年3月25日午後5時</strong>
+までに，ホームディレクトリ下の<strong>submit</strong>という
+名前のディレクトリに保存してください．
+submitディレクトリには，以下を含めてください
+(ツールキットの内容を踏襲すれば大丈夫です)．
+<ul>
+<li>main_host.cppを含むすべてのソースファイル</li>
+<li>Makefile</li>
+<li>練習問題のファイル</li>
+</ul>
+また，"make"コマンドで提出プログラムがコンパイルされるように
+してください
+(前もってコンパイルしたプログラムをsubmitディレクトリに
+置いても問題ありませんが，委員会側で再度makeする場合があります)．
+</p>
+
+<a name="#shinsa">
+<h3>審査について</h3>
+<p><font color="blue">
+審査方法の詳細について記述を追加しました．
+<a href="http://www.hpcc.jp/sacsis/2009/cell/rule.html">
+Cellチャレンジ2009決勝ラウンドのルール</a>に準拠します．
+</font></p>
+<p>
+審査のために準備する10種類の問題を用いて，
+それぞれの参加チームのプログラムを評価します．
+なお審査に用いる問題は事前に公開いたしませんが，
+Cellチャレンジ決勝と同じ問題を用います．
+</p>
+<p>
+審査用問題のそれぞれについて，実行時間の速いチームから順に
+以下の点数を与えます．
+<ul>
+<li>1位 10点</li>
+<li>2位 7点</li>
+<li>3位 5点</li>
+<li>4位 4点</li>
+<li>5位 3点</li>
+<li>6位 2点</li>
+<li>7位 1点</li>
+</ul>
+</p>
+<p>各問題の評価において，打ち切り時間を設けます．
+以下の場合には，当該問題については失敗と見なし，当該問題の
+点数を-25点とします．
+<ul>
+<li>間違った結果を出力する場合</li>
+<li>device_user関数が結果を返さずに終了する場合</li>
+<li>委員会側が設定した打ち切り時間内に結果が得られない場合</li>
+</ul>
+※ 委員会は各チーム各問題ごとに5回プログラムを実行し，
+最速の実行時間を採用します
+<br>
+※ 上記の5回の実行の中で1回でも誤答・異常終了・時間打ち切り
+があった場合には，失敗と見なします．
+</p>
+<p>
+全問題の得点の合計が多いチームが優勝となります．
+</p>
+
+<h3>競技形式まとめ</h3>
+GPU Challenge 2009規定課題部門の進め方をまとめると以下のように
+なります．
+<table border=1><tr><td>
+<ul>
+<li>2009年3月25日午後5時 プログラム提出</li>
+<li>練習問題(ツールキット同梱)をすべてクリア？
+  <ul>
+  <li> No: 失格，コンテスト終了</li>
+  <li> Yes: 審査用問題で評価される権利を獲得</li>
+  </ul>
+</li>
+<li>審査用問題の実行速度により点数を獲得</li>
+<li>合計得点で優勝者を決定</li>
+</ul>
+</td></tr></table>
+
+<p>
+質問やバグ情報は<a href="mailto:gpu2009@matsulab.is.titech.ac.jp">
+gpu2009@matsulab.is.titech.ac.jp</a>
+までお願いします．
+</p>
+</body>
+</html>
+

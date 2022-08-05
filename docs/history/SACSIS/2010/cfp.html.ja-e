@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="SACSIS10,SACSIS2010,SACSIS" />
+ <link href="css/2010.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2010</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 27-28, 2010<br />Nara, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+
+<div class="main">
+
+<!-- INSERTED LINES BEGIN (2010_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.ja" title="SACSIS 2010">SACSIS2010&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2010_LINKS) -->
+<a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+<a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+<a href="cfcompany.html.ja">企業・団体展示募集</a> <span class="hideme">|</span>
+<a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+<a href="cfpart.html.ja">参加募集</a><span class="hideme">|</span>
+<!-- <a href="http://www.ipsj.or.jp/02moshikomi/event/event-sacsis2010.html">参加申込</a><span class="hideme">|</span> -->
+<a href="http://www.ipsj.or.jp/09sig/kaikoku/2010/SACSIS2010.html">参加申込</a><span class="hideme">|</span>
+<!-- <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span> -->
+<a href="http://www.hpcc.jp/sacsis/2010/gpu/">GPUチャレンジ2010</a> <span class="hideme">|</span>
+<!-- <a href="">Clusterコンテスト</a> <span class="hideme">|</span> -->
+<a href="exhibit.html.ja">企業・団体展示</a> <span class="hideme">|</span>
+<a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+<a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+<a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2009_LINK) --> <a href="http://www.hpcc.jp/sacsis/2009/" title="SACSIS 2009">SACSIS&nbsp;2009</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2008_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+
+<!-- <p style="margin-top:15pt"> -->
+<!-- <a href="include/cfp.txt">テキスト版CFP</a><br /> -->
+<!-- </p> -->
+
+<h4>
+論文募集 第８回先進的計算基盤システムシンポジウムSACSIS2010
+</h4>
+
+<!-- INSERTED LINES BEGIN (CFP) -->
+<table>
+<tr><td>日時: </td><td>2010年5月27日(木) - 28日(金)</td></tr>
+<tr><td>会場: </td><td><a href="http://www.shinkokaido.jp/">奈良県新公会堂</a> (奈良市春日野町101)</td></tr>
+</table>
+
+<dl>
+<dt>主催 (順不同)</dt>
+<dd>(社) 情報処理学会・計算機アーキテクチャ研究会 (ARC)</dd>
+<dd>同・システムソフトウェアとオペレーティングシステム研究会 (OS)</dd>
+<dd>同・ハイパフォーマンスコンピューティング研究会 (HPC)</dd>
+<dd>同・プログラミング研究会 (PRO)</dd>
+<dd>(社) 電子情報通信学会・コンピュータシステム研究専門委員会 (CPSY)</dd>
+<dd>同・ディペンダブルコンピューティング研究専門委員会 (DC)</dd>
+<dd>同・リコンフィギャラブルシステム研究専門委員会 (RECONF)</dd>
+<dd>IEEE Computer Society Japan Chapter</dd>
+</dl>
+
+<h4>重要日程</h4>
+<!-- INSERTED LINES BEGIN (DATES) -->
+<table>
+<colgroup><col width="200" /></colgroup>
+<tr><td><span class="del"><b>2010/1/19(火) 17:00</b></span></td><td><span class="del">一般論文 登録〆切 (延長なし)</span></td></tr>
+<tr><td><span class="del"><b>2010/1/26(火) 17:00</b></span></td><td><span class="del">一般論文 アップロード〆切 (延長なし)</span></td></tr>
+<tr><td><span class="del"><b>2010/3/16(火)〜3/19(金)</b></span></td><td><span class="del">一般論文採否通知</span></td></tr>
+<tr><td><span class="del"><b>2010/3/30(火) 17:00</b></span></td><td><span class="del">ポスター論文 〆切</span></td></tr>
+<tr><td><span class="del"><b>2010/4/6(火)</b></span></td><td><span class="del">ポスター論文採否通知</span></td></tr>
+<tr><td><b>2010/5/27(木) 〜 28(金)</b></td><td>SACSIS2010</td></tr>
+</table>
+<!-- INSERTED LINES END () -->
+
+<h4>概要</h4>
+SACSIS (Symposium on Advanced Computing Systems and Infrastructures) は2003年に誕生したシンポジウムです．その第8回は，奈良にて2010年5月27日(木)〜28日(金)に開催いたします．スコープはSACSIS2003からの流れを引き続き，以下のように考えています．
+<dl>
+<dt>Advanced Computing ...</dt>
+<dd>SACSIS は今後の計算技術の発展を，さまざまな角度から議論することを目的としています．そこで並列分散に限らず，広い意味で先進的な計算のためのシステムや基盤とそれらの要素技術を対象とします．
+</dd>
+<dt>... Systems and Infrastructures</dt>
+<dd>性能などの「有効性」が重視される「システム」に関する技術だけではなく，幅広い利用を目指して「実用性」を重視した「基盤」に関する技術も対象とします．
+</dd>
+</dl>
+
+<p>
+下記テーマに関連したオリジナリティ溢れる論文，実装・開発事例等も含め有用性の高い論文，実用性を重視した基盤に関する論文を広く募集致します．
+</p>
+<!-- INSERTED LINES BEGIN (TOPICS) --><ol>
+<li>先進的計算システム<br />
+グリッド，クラウド，クラスタ，Peer-to-Peer，オーバーレイネットワーク，高性能計算，HPC向けコンパイラ，モバイル計算，ユビキタスシステム，組み込みシステム，ディペンダブルシステム，アプリケーション専用システムなど
+</li>
+<li>先進的計算システムを支える基盤技術<br />
+プロセッサアーキテクチャ，リコンフィギャラブルシステム，システムアーキテクチャ，ネットワークオンチップ，通信機構，通信ライブラリ，広帯域ネットワーク，入出力機構，ストレージシステム，資源管理技術，仮想化技術，省電力技術，認可・認証・課金技術，省スペース技術，OS/ミドルウェア，コンパイラ，プログラミング言語処理系，並列アルゴリズム，マルチコア最適化，GPGPU，オンラインアルゴリズム，性能評価／性能チューニング技術，数値シミュレーション，ペタフロップスコンピューティング適用など
+</li>
+<li>実用的基盤システム<br />
+データベース，Webサービス，検索エンジン，データマイニング，トランザクションシステム，分散計算環境，サーバシステム構築技術，ネットワークセキュリティ，E-サイエンスなど
+</li>
+</ol>
+<!-- INSERTED LINES END () -->
+
+<h4>募集内容</h4>
+
+<p>[一般論文]</p>
+<ol>
+<li>A4用紙8ページ以内の日本語または英語の論文を募集します．募集対象は，国内外の査読付き雑誌あるいは査読付き会議に未発表の研究論文とします．ただし，これらの雑誌・会議で未発表のものであっても，これらの雑誌・会議に投稿中のものは募集対象外といたします．なお，これらの雑誌・会議で既発表であっても予稿集等がISBN番号あるいはISSN番号を有しない配布物の場合には未発表とみなします．
+</li>
+<li>有用な結果や考え方を伴った，完成度の高い論文を募集します．一般論文は，情報処理学会論文誌：コンピューティングシステム(ACS 論文誌)への同時投稿が可能で，これにより質の高い論文を短い査読期間で論文誌上に掲載することを可能にします．
+</li>
+<li>一般論文全てを対象に最優秀論文賞を１件選び表彰します．本賞は，研究内容の質の高さ・研究論文としての完成度を重視して総合的に評価し選出します．
+</li>
+<li>若手研究者の論文から優秀若手研究賞を 3 件程度選びます．応募資格は，筆頭著者の年齢が30歳前後以下であることです．本賞の趣旨は有望な若手を表彰することにあり，着眼点の面白さや今後の展開が期待される研究を高く評価します．
+</li>
+</ol>
+
+<p>[ポスター論文]</p>
+<ol>
+<li>一般論文とは別にWork-in-progress的発表をポスター論文として募集します．投稿受付開始は2010年3月上旬を予定しています．詳細は追ってご連絡いたします．
+</li>
+<li>ポスター論文でも査読を行いますが，構想段階の研究，問題提起などを含めた様々な研究を積極的に採用し，ポスター発表として参加者間の議論の場を提供します．
+</li>
+<li>ポスター論文を対象に優秀ポスター賞を 3 件程度選び表彰します．本賞は独創的なアイデアに基づく研究を高く評価します．プログラム正副委員長とトラックチェアによる審査で選出されます．
+</li>
+</ol>
+
+<p>●一般論文</p>
+<ul>
+<li>A4 8ページ以内<br />
+一般論文原稿は以下の規定スタイルに従ってください．SACSIS2010への投稿はACSとの同時投稿の場合もA4縦フォーマットです．ACSの推奨フォーマットと異なりますので，くれぐれもご注意ください．
+</li>
+<li>規定スタイル:
+  <ul>
+    <li>LaTeX用 <a href="http://www.hpcc.jp/sacsis/2010/latexform.html">http://www.hpcc.jp/sacsis/2010/latexform.html</a></li>
+    <li>Word用 <a href="http://www.hpcc.jp/sacsis/2010/sacsis-form.doc">http://www.hpcc.jp/sacsis/2010/sacsis-form.doc</a></li>
+  </ul>
+</li>
+<li>ファイル形式: PDFフォーマット</li>
+</ul>
+
+<p>[投稿に関する注意]：</p>
+SACSIS2010はACS論文誌第31号と連携して論文募集を行います．このため，１件の論文を双方に同時投稿し，並行して査読を受けることができます．またどちらか一方にのみ投稿することも，もちろん可能です．具体的には以下の投稿方法がありますので，適切なものを選択してください．<br />
+<b>※ACS 論文誌: <a href="http://www.hpcc.jp/acs/">http://www.hpcc.jp/acs/</a></b><br />
+
+<ol>
+<li>SACSIS2010 単独投稿<br />
+SACSIS2010のみを対象とする2カラム(2段組)で8ページ以内の論文投稿です．投稿時点での枚数超過は認められません．8ページを超える論文は9ページ目以降を削除して査読します．ご注意ください．なお，論文採録後のSACSIS2010カメラレディ原稿にも，標準8ページ(超過料金を支払えば10ページまで可)の枚数制限があります．論文の様式は，本シンポジウムのこれまでの論文集に準拠して下さい．これに著しく逸脱する論文は不採録となることがあります．
+</li>
+<li>SACSIS2010/ACS 同時投稿<br />
+投稿された論文は，ACS論文誌編集委員会とSACSIS2010プログラム委員会の双方で査読されます．投稿時点での論文ページ数は2カラム(2段組)で8ページ以内に制限されます．投稿時点での枚数超過は認められません．8ページを超える論文は9ページ目以降を削除して査読します．ご注意ください．論文の様式は，本シンポジウムのこれまでの論文集に準拠して下さい．これに著しく逸脱する論文は不採録となることがあります． <br />
+　SACSIS2010とACSとの査読は独立して行われ，採否も独立です．したがって一方で採録／採択され，他方で不採録／不採択となることもあります．またACSの第１回査読では条件付採録となる可能性もあります． <br />
+　ACSの第１回査読結果通知とSACSIS2010の採否通知は，ほぼ同時期に行われる予定ですが，若干前後する可能性がありますので，あらかじめご承知おき下さい． <br />
+　SACSIS2010で採択され，ACSで条件付採録となった場合，ACSへの修正稿投稿締切はSACSIS2010のカメラレディ締切とほぼ同時期になる予定です．したがってACS修正稿とSACSIS2010カメラレディ原稿を同一のものとしても構いませんが，同一でなくても構いません．SACSIS2010カメラレディ原稿には標準8ページ(超過料金を支払えば10ページまで可)の枚数制限があるのに対し，ACS修正稿にはページ数制限はありません． <br />
+　ACS論文誌に採録された場合，ACS論文誌への投稿はLaTeXによるスタイルのみの受付となりますのでご注意下さい．
+</li>
+<li>ACS 単独投稿<br />
+ACS論文誌のみを対象とする投稿で，査読手続きなどは通常のACS論文誌への投稿と同様です．
+</li>
+</ol>
+
+<p>
+なお，SACSIS2010への投稿論文については，投稿時に著者の方に論文の研究分野に応じて次の5つの査読トラックのうちの1つを選択していただきます．ただし，列挙されていないテーマの論文など，トラックの選択が難しい場合にはプログラム委員会にて適切なトラックを選択しますので，必ずしも投稿時にトラックを指定する必要はありません．原則として選択された査読トラックのプログラム委員で論文査読をおこないます．
+</p>
+
+<dl>
+<dt>トラックA: トラックチェア 建部修見(筑波大学)</dt>
+<dd>高性能計算（高速／大規模／並列数値計算，大規模データ処理，数値計算ライブラリなど），性能評価／性能チューニング技術，HPC向けコンパイラ技術，通信ライブラリ（MPI等），数値シミュレーション，ペタフロップスコンピューティング適用
+</dd>
+<dt>トラックB: トラックチェア  中田秀基(産業技術総合研究所)</dt>
+<dd>グリッド，クラウド，クラスタ，資源管理技術、仮想化技術、Peer-to-Peer，モバイル計算，ユビキタスシステム，オーバーレイネットワーク，分散計算環境，Webサービス，E-サイエンス
+</dd>
+<dt>トラックC: トラックチェア 廣津登志夫(法政大学)</dt>
+<dd>OS／ミドルウェア，コンパイラ，プログラミング言語処理系，並列アルゴリズム，オンラインアルゴリズム，データベース，データマイニング，トランザクションシステム，認可・認証・課金技術，<br />
+主としてソフトウェアに関連した以下の技術: <br /> 
+通信機構，入出力機構，検索エンジン，ストレージシステム，セキュリティ技術，ディペンダブルシステム
+</dd>
+<dt>トラックD: トラックチェア 中條拓伯(東京農工大学)</dt>
+<dd>システムアーキテクチャ，ネットワークオンチップ，広帯域ネットワーク，リコンフィギャラブルシステム，サーバシステム構築技術，省スペース技術，省電力技術，アプリケーション専用システム，組み込みシステム，<br />
+主としてハードウェアに関連した以下の技術: <br />
+通信機構，入出力機構，検索エンジン，ストレージシステム，セキュリティ技術，ディペンダブルシステム
+</dd>
+<dt>トラックE: トラックチェア 五島正裕(東京大学)</dt>
+<dd>プロセッサアーキテクチャ(プロセッサアーキテクチャ，省電力アーキテクチャ，アプリケーション専用プロセッサ，マルチコア，コア間同期通信機構，キャッシュ，メモリ，プロセッサ関連セキュリティ技術など)
+</dd>
+</dl>
+
+<p>[投稿窓口]：</p>
+
+<dl>
+<dd><a href="http://www.hpcc.jp/acs/31/submit/" target="_blank">http://www.hpcc.jp/acs/31/submit/</a>
+</dl>
+
+<p>●ポスター論文</p>
+<ul>
+<li>A4 2ページ </li>
+<li>ポスター論文のスタイルは一般論文に準拠します． </li>
+<li>採択されたポスター論文は，そのままカメラレディ原稿となります． </li>
+</ul>
+
+<h4>委員会</h4>
+<p>●SACSIS 運営委員会</p>
+<table>
+<colgroup><col width="250" /> <col width="90" /></colgroup>
+<tr><td>運営委員長</td><td>関口 智嗣</td><td>(産業技術総合研究所)</td></tr>
+<tr><td>運営副委員長</td><td>中村 宏</td><td>(東京大学)</td></tr>
+<tr><td>運営委員</td><td>天野 英晴</td><td>(慶應義塾大学)</td></tr>
+<tr><td></td><td>並木 美太郎</td><td>(東京農工大学)</td></tr>
+<tr><td></td><td>馬場 敬信</td><td>(宇都宮大学)</td></tr>
+<tr><td></td><td>朴 泰祐</td><td>(筑波大学)</td></tr>
+<tr><td></td><td>八杉 昌宏</td><td>(京都大学)</td></tr>
+</table>
+
+<p>●SACSIS2010 組織委員会</p>
+<table>
+<colgroup><col width="250" /> <col width="90" /></colgroup>
+<tr><td>組織委員長</td><td>佐藤 真琴</td><td>((株)日立製作所)</td></tr>
+<tr><td>組織副委員長</td><td>並木 美太郎</td><td>(東京農工大学)</td></tr>
+<tr><td>プログラム委員長</td><td>佐藤 寿倫</td><td>(福岡大学)</td></tr>
+<tr><td>プログラム副委員長(論文査読)</td><td>片桐 孝洋</td><td>(東京大学)</td></tr>
+<tr><td>プログラム副委員長(ポスター)</td><td>鯉渕 道紘</td><td>(国立情報学研究所)</td></tr>
+<tr><td>チュートリアル委員長</td><td>土屋 達弘</td><td>(大阪大学)</td></tr>
+<tr><td>ローカルアレンジメント委員長</td><td>中田 尚</td><td>(奈良先端科学技術大学院大学)</td></tr>
+<tr><td>ローカルアレンジメント副委員長</td><td>窪田 昌史</td><td>(広島市立大学)</td></tr>
+<tr><td>会計委員長</td><td>光来 健一</td><td>(九州工業大学)</td></tr>
+<tr><td>会計副委員長</td><td>松崎 公紀</td><td>(高知工科大学)</td></tr>
+<tr><td>広報委員長(WEB管理)</td><td>藤川 和利</td><td>(奈良先端科学技術大学院大学)</td></tr>
+<tr><td>企画展示委員長</td><td>住元 真司</td><td>((株)富士通研究所)</td></tr>
+<tr><td>企画展示副委員長</td><td>市川 俊一</td><td>(日本電信電話(株))</td></tr>
+<tr><td>総務委員長</td><td>千葉 雄司</td><td>((株)日立製作所)</td></tr>
+</table>
+
+<p>●SACSIS2010 プログラム委員会</p>
+<table>
+<colgroup><col width="250" /> <col width="90" /></colgroup>
+<tr><td>プログラム委員長</td><td>佐藤 寿倫</td><td>(福岡大学)</td></tr>
+<tr><td>プログラム副委員長</td><td>片桐 孝洋</td><td>(東京大学)</td></tr>
+<tr><td>プログラム副委員長</td><td>鯉渕 道紘</td><td>(国立情報学研究所)</td></tr>
+<tr><td>プログラム委員</td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;トラックA: トラックチェア</td><td>建部 修見</td><td>(筑波大学)</td></tr>
+<tr><td></td><td>今村 俊幸</td><td>(電気通信大学)</td></tr>
+<tr><td></td><td>遠藤 敏夫</td><td>(東京工業大学)</td></tr>
+<tr><td></td><td>小野 謙二</td><td>(理化学研究所)</td></tr>
+<tr><td></td><td>木村 欣司</td><td>(京都大学)</td></tr>
+<tr><td></td><td>須田 礼仁</td><td>(東京大学)</td></tr>
+<tr><td></td><td>住元 真司</td><td>((株)富士通研究所)</td></tr>
+<tr><td></td><td>高橋 大介</td><td>(筑波大学)</td></tr>
+<tr><td></td><td>中島 研吾</td><td>(東京大学)</td></tr>
+<tr><td></td><td>林 亮子</td><td>(金沢工業大学)</td></tr>
+<tr><td></td><td>村井 均</td><td>(理化学研究所)</td></tr>
+<tr><td></td><td>山本 有作</td><td>(神戸大学)</td></tr>
+<tr><td>&nbsp;&nbsp;トラックB: トラックチェア</td><td>中田 秀基</td><td>(産業技術総合研究所)</td></tr>
+<tr><td></td><td>田浦 健次朗</td><td>(東京大学)</td></tr>
+<tr><td></td><td>首藤 一幸</td><td>(東京工業大学)</td></tr>
+<tr><td></td><td>鈴村 豊太郎</td><td>(日本アイ・ビー・エム(株)／東京工業大学)</td></tr>
+<tr><td></td><td>合田 憲人</td><td>(国立情報学研究所)</td></tr>
+<tr><td></td><td>竹房 あつ子</td><td>(産業技術総合研究所)</td></tr>
+<tr><td></td><td>伊達 進</td><td>(大阪大学)</td></tr>
+<tr><td></td><td>鴨志田 良和</td><td>(東京大学)</td></tr>
+<tr><td></td><td>佐藤 仁</td><td>(東京工業大学)</td></tr>
+<tr><td></td><td>市川 俊一</td><td>(日本電信電話(株))</td></tr>
+<tr><td>&nbsp;&nbsp;トラックC: トラックチェア</td><td>廣津 登志夫</td><td>(法政大学)</td></tr>
+<tr><td></td><td>光来 健一</td><td>(九州工業大学)</td></tr>
+<tr><td></td><td>大山 恵弘</td><td>(電気通信大学)</td></tr>
+<tr><td></td><td>品川 高廣</td><td>(筑波大学)</td></tr>
+<tr><td></td><td>柳澤 佳里</td><td>(日本電信電話(株))</td></tr>
+<tr><td></td><td>清水 正明</td><td>((株)日立製作所)</td></tr>
+<tr><td></td><td>河合 栄治</td><td>(情報通信研究機構)</td></tr>
+<tr><td></td><td>阿部 洋丈</td><td>(豊橋技術科学大学)</td></tr>
+<tr><td></td><td>小口 正人</td><td>(お茶の水大学)</td></tr>
+<tr><td></td><td>笹田 耕一</td><td>(東京大学)</td></tr>
+<tr><td></td><td>追川 修一</td><td>(筑波大学)</td></tr>
+<tr><td></td><td>藤波 香織</td><td>(東京農工大学)</td></tr>
+<tr><td>&nbsp;&nbsp;トラックD: トラックチェア</td><td>中條 拓伯</td><td>(東京農工大学)</td></tr>
+<tr><td></td><td>市川 周一</td><td>(豊橋技術科学大学)</td></tr>
+<tr><td></td><td>枝廣 正人</td><td>(日本電気(株))</td></tr>
+<tr><td></td><td>奥野 道貴</td><td>((株)日立製作所)</td></tr>
+<tr><td></td><td>久我 守弘</td><td>(熊本大学)</td></tr>
+<tr><td></td><td>鯉渕 道紘</td><td>(国立情報学研究所)</td></tr>
+<tr><td></td><td>児玉 祐悦</td><td>(産業技術総合研究所)</td></tr>
+<tr><td></td><td>柴田 裕一郎</td><td>(長崎大学)</td></tr>
+<tr><td></td><td>田中 清史</td><td>(北陸先端科学技術大学院大学)</td></tr>
+<tr><td></td><td>西 宏章</td><td>(慶応義塾大学)</td></tr>
+<tr><td></td><td>緑川 博子</td><td>(成蹊大学)</td></tr>
+<tr><td></td><td>横田 隆史</td><td>(宇都宮大学)</td></tr>
+<tr><td>&nbsp;&nbsp;トラックE: トラックチェア</td><td>五島 正裕</td><td>(東京大学)</td></tr>
+<tr><td></td><td>入江 英嗣</td><td>(東京大学)</td></tr>
+<tr><td></td><td>佐々木 広</td><td>(東京大学)</td></tr>
+<tr><td></td><td>吉瀬 謙二</td><td>(東京工業大学)</td></tr>
+<tr><td></td><td>木村 啓二</td><td>(早稲田大学)</td></tr>
+<tr><td></td><td>京 昭倫</td><td>(日本電気(株))</td></tr>
+<tr><td></td><td>小林 良太郎</td><td>(豊橋技術科学大学)</td></tr>
+<tr><td></td><td>近藤 正章</td><td>(電気通信大学)</td></tr>
+<tr><td></td><td>嶋田 創</td><td>(奈良先端科学技術大学院大学)</td></tr>
+<tr><td></td><td>津邑 公暁</td><td>(名古屋工業大学)</td></tr>
+<tr><td></td><td>豊島 隆志</td><td>(富士通(株))</td></tr>
+<tr><td></td><td>三輪 忍</td><td>(東京農工大学)</td></tr>
+<tr><td></td><td>森 敦司</td><td>(富士通(株))</td></tr>
+</table>
+
+<h4>問い合わせ先</h4>
+<table>
+<colgroup><col width="250" /> <col width="90" /></colgroup>
+<tr><td>シンポジウム関係: </td><td>総務委員長</td><td>千葉 雄司</td></tr>
+<tr><td>広報関係: </td><td>広報委員長</td><td>藤川 和利</td></tr>
+<tr><td colspan="3"><a href="http://www.hpcc.jp/sacsis/2010/contact.html">http://www.hpcc.jp/sacsis/2010/contact.html</a></td></tr>
+</table>
+
+<!-- INSERTED LINES END () --></div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2010, SACSIS 2010 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11-blue"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

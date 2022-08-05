@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2005.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2005 Contact</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2005_NAVIGATION@@-->
+<div class="main">
+<h4>Contact Addresses</h4>
+
+<dl>
+<dt> About Symposium: </dt>
+<dd>
+  Daisuke TAKAHASHI (SACSIS2005 General Chair) <br />
+ E-mail: &lt;<a href="mailto&#58;daisuke&#64;is.tsukuba.ac.jp">daisuke<span>&#64;</span>is.tsukuba.ac.jp</a>&gt;
+ </dd>
+
+<dt> About Posters: </dt>
+<dd>
+  Hidemoto NAKADA (SACSIS2005 Program Vice-Chair) <br />
+ E-mail: &lt;<a href="mailto&#58;hide-nakada&#64;aist.go.jp">hide-nakada<span>&#64;</span>aist.go.jp</a>&gt;
+ </dd>
+
+<dt> About Web pages: </dt>
+<dd>
+  Yoshihiro OYAMA (SACSIS2005 Publicity Chair) <br />
+ E-mail: &lt;<a href="mailto&#58;oyama&#64;yl.is.s.u-tokyo.ac.jp">oyama<span>&#64;</span>yl.is.s.u-tokyo.ac.jp</a>&gt;
+ </dd>
+</dl>
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

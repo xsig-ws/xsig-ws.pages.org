@@ -1,0 +1,139 @@
+body {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "£Í£Ó £Ð¥´¥·¥Ã¥¯", arial, helvetica, sans-serif;
+  margin: 1pt 20pt 1pt 20pt;    /* top right bottom left */
+  line-height: 120%;
+  color: black;
+}
+
+.doublebar, .singlebar {
+  margin: 7pt; padding-top: 7pt; line-height: 0;
+}
+
+p,li { font-size: 100%; }
+table tr td { vertical-align: top; }
+table tr td { font-size: 14px; }
+dl dt { font-weight: bold; }
+
+pre { font-size: 14px;
+      margin-top: 5px;
+      font-family: "£Í£Ó ¥´¥·¥Ã¥¯", arial, helvetica, sans-serif; }
+
+abbrev:hover, acronym:hover { cursor: help }
+/* abbrev, acronym { border-bottom: 1px solid black; } */
+
+img { border-style: none; }
+div.main {
+  padding: 5pt 0pt;
+  min-height: 90%;
+  margin-right: 11em;
+}
+div.navbar {
+  margin-left: 0pt;
+  width: 10em;
+}
+div.navbar p.title { border-style: none; font-weight: bold; }
+
+/*
+ * Header-styles
+ */
+#title {
+  font-weight: bold;
+  padding: 5px 5px 2px 5px;
+  margin: 5pt 0pt;
+  font-family: "Lucida Sans Unicode", arial, helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 24pt;
+  text-align: center;
+  margin: 10pt 0pt;
+  padding: 15pt;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+}
+h3, h4 { 
+  margin: 4pt 2pt;
+  border-width: 0 0 2.5px 0;
+  /*border-style: solid;*/
+  font-family: "Lucida Sans Unicode", arial, helvetica, sans-serif;
+  line-height: 130%;
+}
+
+h4 { font-size: 120%; }
+h5 { font-size: 100%; }
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  /*text-align: right;*/
+}
+
+ul ul li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.new {
+  font-size: 12px;
+  font-weight: bold;
+  color: #0F848F;
+}
+
+.notice {
+  font-weight: bold;
+  color: #000000;
+}
+
+.award {
+  font-weight: bold;
+  color: #ee0000;
+}
+
+.del {
+  text-decoration: line-through;
+}
+
+.nop {
+  background-color: #666666;
+}
+
+.ready{
+  background-color: #999999;
+}
+
+.rest{
+  background-color: #CCFFFF;
+}
+
+.daycolum {
+  background-color: #FFCCFF;
+}
+
+img.logo {
+  max-height: 100px;
+  float:right;
+  padding-left:30px;
+  padding-right:20px;
+  padding-top:10px;
+  background-color: #FFFFFF;
+}
+
+.lang { text-align: left; }
+p.leftimage  { float: left; }
+p.rightimage { float: right; }
+p.clearimage { clear: both; }
+p.url { text-align: right; margin-bottom: 0em; margin-top: 0em; }
+p.title { font-family: sans-serif; font-weight: bold; font-size: 120%; margin-top: 0em; margin-left: 1em;}
+p.abs { border: solid 1px; padding: 0.5em; margin-left: 2em;}
+
+
+address { 
+  clear: both;
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 2pt;
+  margin-top: 15pt;
+}
+

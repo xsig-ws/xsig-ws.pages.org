@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access Password"
+AuthUserFile /usr/local/PHASE/WWW/data/sacsis/2004/inner/.htpasswd
+require valid-user

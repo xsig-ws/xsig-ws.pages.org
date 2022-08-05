@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2004</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2004_NAVIGATION@@-->
+<div class="main">
+
+<p>
+<span class="noticelink">
+<b>2004.05.19</b> 
+<a href="location.html">Venue info</a> is opened.
+<span class="new">New!</span>
+<br />
+<b>2004.04.21</b> The site will be off-line for server maintenance
+on 6-7 May and 23 May. 
+<span class="new">New!</span>
+<br />
+</span>
+<b>2004.04.08</b> <a href="registration.html">Registration</a> is now open!
+<br />
+<!--
+<b>2004.04.07</b> Poster paper upload is closed.
+<br />
+<b>2004.03.26</b> Poster paper deadline is changed to Apr 6, 2004(Tue) 17:00.
+<br />
+<b>2004.03.10</b> <a href="poster_cfp.html">Call for Poster Papers</a> is updated. 
+<br />
+<b>2004.01.26</b> Paper upload is closed. <br />
+<b>2004.01.26</b> Paper submission page is closed. (Paper upload deadline is 30 Jan!) <br />
+<b>2003.12.16</b> <a href="cfp.html">CFP</a> is updated. <br />
+<b>2003.12.16</b> <a href="http://www.hpcc.jp/acs/7/submit/">Paper submission page</a> is opened. <br />
+<b>2003.10.31</b> <a href="cfp.html">Preliminary CFP</a> was published. <br />
+<b>2003.09.13</b> Created the SACSIS 2004 top page.<br />
+-->
+</p>
+
+<p style="text-align:center">
+<span class="notice">
+</span>
+</p>
+
+
+<h4>SACSIS 2004</h4>
+<!--@@SACSIS2004@@-->
+<!--@@SACSIS@@-->
+
+<h4>Important Dates</h4>
+<!-- commented out <!--@@cfp.txt:¡Ú½ÅÍ×ÆüÄø¡Û-END@@-->-->
+
+<p>
+<span class="del"><b>Jan 26, 2004(Mon)</b>	Paper registration <b>deadline</b> </span><br />
+<span class="del"><b>Jan 30, 2004(Fri)</b>	Paper upload <b>deadline</b> </span><br />
+<span class="del"><b>Mar 16, 2004(Tue) around</b>  Paper acceptance notification </span><br />
+<span class="del"><b>Mar 19, 2004(Fri)</b>	Poster paper submission start </span><br />
+<span class="del"><b>Apr 02, 2004(Fri) 17:00</b>	Poster paper <b>deadline</b> </span><br />
+<span class="notice">
+<span class="del"><b class="notice">Apr 06, 2004(Tue) 17:00</b>	Poster paper deadline (changed) </span><br />
+</span>
+<span class="del"><b>Apr 16, 2004(Fri) around</b>  Poster paper acceptance notification,
+and camera ready (paper) <b>deadline</b> 
+</span>
+<br />
+<span class="del"><b>May 26-28, 2004</b>        <em>SACSIS2004</em></span>
+</p>
+
+
+<h4>Sponsors and Supporter</h4>
+<ul>
+<li> Sponsors
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hpcc.jp/sigarc/">SIGARC</a> (Architecture) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a> (Operating Systems) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hpcc.jp/sighpc/">SIGHPC</a> (High Performance Computing) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/pro/">SIGPRO</a> (Programming) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.org/">IPSJ</a> <a href="http://research.nii.ac.jp/~uno/sigal/">SIGAL</a> (Algorithm) </li>
+ <li> <a href="http://www.ieice.org/">IEICE</a> 
+ <a href="http://www.ieice.org/iss/cpsy/jpn/">CPSY</a> (Computer System) </li>
+<li> <a href="http://homepage1.nifty.com/ieeetokyo/"> IEEE Computer Society Japan Chapter</a> <!--(requesting)--> </li>
+ </ul>
+</li>
+<li> Supporter
+ <ul>
+ <li> <a href="http://www.ieice.org/">IEICE</a> 
+     <a href="http://www.ieice.org/iss/dc/jpn/">DC</a> (Dependable Computing) </li>
+ </ul>
+</li>
+</ul>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

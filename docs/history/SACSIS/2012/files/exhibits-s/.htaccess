@@ -1,0 +1,6 @@
+AuthType	Basic
+AuthName	"SACSIS 2012 exhibition slices."
+AuthUserFile	/home/sacsis/html/sac12-exhibit.dat
+require valid-user
+
+

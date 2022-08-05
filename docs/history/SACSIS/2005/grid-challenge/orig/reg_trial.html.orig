@@ -1,0 +1,20 @@
+<h2>規定課題用お試しパック</h2>
+<p>
+本パッケージ(お試しパック)は、参加者各自の環境でプログラムが開発で
+きるようにするためのものである。
+お試しパックには、 サンプルデータ作成ツールや、出題APIなどが含まれている。
+対応プラットフォームはx86 Linuxとx86 FreeBSDであり、C言語用とJava用APIが含まれている。
+</p>
+
+<p>
+<a href="release/grch-trial-1.0-x86-linux.tgz">お試しパック(x86 Linux)</a>
+</p>
+<p>
+<a href="release/grch-trial-1.0-x86-freebsd.tgz">お試しパック(x86 FreeBSD)</a>
+</p>
+
+<p>
+他のプラットフォーム(Solarisなど)についても、要望があれば検討する。
+</p>
+
+

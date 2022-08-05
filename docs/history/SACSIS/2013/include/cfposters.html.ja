@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+
+      <h4>
+	ポスター発表募集 第11回先進的計算基盤システムシンポジウムSACSIS2013
+      </h4>
+
+      <?php include("include/date-place-ja.html");?>
+
+      <h4>重要日程</h4>
+      <?php include("include/schedule-poster-ja.html");?>
+
+      <h4>概要</h4>
+      <p>
+	SACSIS (Symposium on Advanced Computing Systems and Infrastructures)は，先進的な計算システムや基盤技術，それらの要素技術を広く様々な角度から議論することを目的としたシンポジウムです．性能などの有効性が重視される「システム」に関する技術だけではなく，幅広い利用を目指して実用性を重視した「基盤」に関する技術も対象とします．   
+      </p>
+      <p>
+	下記テーマに関連した  現在進行中の研究を含む発表をポスター発表として募集します．
+      </p>
+      <?php include("include/theme-poster-ja.html");?>
+
+      <h4>募集内容</h4>
+      <ol>
+	<li>
+	 ポスター発表の一環として，A4 用紙 1 ページ（ただし 2 ページまで可）の日本語または英語のポスター論文を募集します．他の場所で既発表の研究についての発表も受け入れます．投稿された論文原稿はそのままカメラレディ原稿となります．
+	</li>
+	<li>
+	 SACSIS関連分野における構想段階の研究，問題提起などを含めた様々な研究を積極的に採用し，参加者間の議論の場を提供しますSACSIS 2013では，大学学生さんの発表だけでなく，一般企業，研究・教育機関の研究者の積極的なご参加を期待しております．発表者と参加者が相互に，自由かつ直接的に議論できる機会は，パブリックな一般講演発表時にはなかなか得難い，貴重な情報交換を可能にします．ポスター発表者にとっては，率直な意見と情報を多くの参加者からもらえ，参加者にとっても他の聴講者に遠慮することなしに，時間をかけて自分の疑問や意見を直接ぶつけることのできる貴重な機会となりますので，ぜひ，ご活用ください．
+	</li>
+	<li>
+	  投稿されたポスター論文の査読によりポスター発表の採否を決定します．査読にあたっては，以下の点に配慮します．
+	  <ul>
+	    <li>SACSIS 2013の主旨ならびに扱う技術分野に適合するか</li>
+	    <li>文章，内容ともに一定レベルの品質があるか</li>
+	  </ul>
+	</li>
+
+	<li>
+	  SACSIS 2013のポスター発表では，優秀ポスター賞および学生優秀ポスター賞を表彰します．優秀ポスター賞については，年齢や学生かどうかを問わず最も優秀なポスターを，学生優秀ポスター賞については，学生の発表の中で最も優秀なポスターをそれぞれ表彰します．本賞の主旨は構想段階の研究，問題提起などを含めた様々な優れた研究を積極的に表彰することで，ポスター発表者を奨励し，ポスター発表の質の向上を目指すことにあり，独創的なアイデアに基づく研究を高く評価します．プログラム正副委員長および，審査を担当するプログラム委員による，ポスター論文とポスター発表時の審査で選出されます．
+	</li>
+	<li>
+	 ポスター発表の発表者は必ずSACSIS 2013への参加申込をお願いします．できる限り早期参加申し込みにご協力ください．
+	</li>
+      </ol>
+
+      <p>●学生ポスター</p>
+      <p>以下の要件をみたす場合に，ポスター論文を「学生ポスター」として投稿することができます．</p>
+      <ol>
+	<li>筆頭著者が学生であること．
+	  <ul>
+	    <li>社会人学生の扱い：学生籍以外の勤務先の所属のあるものは，除外する．現在，勤務していないものは，個人の履歴，年齢によらず学生とみなす．</li>
+	    <li>3月卒業の新社会人：学生とみなす．ただし，研究内容が教育機関でおこなわれたものであること．また，ポスター著者の所属を研究が行われた教育機関にすること．<i>例：「××大学（現　○○会社）」</i></li>
+	    </ul>
+	</li>
+	<li>ポスターの説明を学生の著者が行うこと．学生であれば共著者が説明を行ってもよい．（単独，交代，共同でも可）</li>
+      </ol>
+      <p>●ポスター賞の選考・受賞対象</p>
+      <ul>
+	<li>優秀ポスター賞：全てのポスター（学生ポスターを含む）から1&sim;2件程度選出予定．受賞者は著者全員．</li>
+	<li>学生優秀ポスター賞：学生ポスターから1&sim;2件程度選出予定．受賞者は学生の著者全員．</li>
+      </ul>
+      <p>●ポスター論文のスタイル</p>
+      <ul>
+	<li>A4 1ページ（2ページまで可），日本語または英語で記述．</li>
+	<li>スタイルは一般論文に準拠．ただし，概要は必要なし．タイトルと著者名は本文の使用言語と同じものだけを記述．</li>
+	
+	<li>規定スタイル：
+	  <ul>
+	    <li>LaTeX用 <a href="latexform.html">http://sacsis.hpcc.jp/2013/latexform.html</a></li>
+	    <li>Word用 <a href="sacsis-form11.doc">http://sacsis.hpcc.jp/2013/sacsis-poster-form13.doc</a></li>
+	  </ul>
+	  （注意）一般論文のスタイルを使用すると，英文タイトル等を抜いた場合に余分な空白が生じます．LaTeXでは上記の一般論文用のスタイルファイルに，下記のスタイルファイルを追加してご使用ください．<br />
+	  <ul>
+	    <li><a href="sacsis-poster.sty">http://sacsis.hpcc.jp/2012/sacsis-poster.sty</a></li>
+	  </ul>
+	  LaTeX 2εでは <br />
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\documentclass{ipsjpapers} <br />
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\usepackage{sacsis-poster} <br />
+	  LaTeX（2.09互換モード）では <br />
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\documentstyle[sacsis-poster]{ipsjpapers} <br />
+	  として使用します．
+	</li>
+	<li>投稿ファイル形式：PDFフォーマット</li>
+      </ul>
+
+      <h4 id="submit">投稿窓口</h4>
+      <ul>
+      	<li>投稿は，以下のURLよりWebからのuploadにてお願いします．
+      	  <ul>
+	    <li>
+	      <a href="http://sacsis.hpcc.jp/2013/cfp.html.ja" onclick="window.open(this.href,'new',''); return false">http://acs.hpcc.jp/40/poster/</a>
+	    </li>
+      	  </ul>
+      	</li>
+
+
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

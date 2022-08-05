@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+<h4>About ACSI</h4>
+
+<?php include("include/aboutacsi-en.html");?>
+
+<p></p>
+
+<h4>Overview ACSI2015</h4>
+
+<h2><p style="text-align:center">
+Annual Meeting on Advanced Computing System and Infrastructure (ACSI) 2015</p><h2>
+
+<p></p>
+
+<table>
+  <tr><td>Date: </td><td>January 26-28, 2015</td></tr>
+  <tr><td>Venue: </td><td><a href="http://www.epochal.or.jp/eng/index.html">International Congress Center EPOCHAL TSUKUABA</a></td></tr>
+</table>
+
+
+<p></p>
+<h4>What's New</h4>
+<p> <span class="notice">
+<table>
+<tr><td>2014.5.20</td><td>  Open this page.</td></tr>
+<tr><td>2014.6.19</td><td>  Update Important Dates.</td></tr>
+<tr><td>2014.8.7</td><td>  Add Call for Papers.</td></tr>
+<tr><td>2014.8.29</td><td>  Add Paper Submission.</td></tr>
+<tr><td>2014.12.15</td><td>  Add Advance Program.</td></tr>
+</table>
+</span></p>
+
+
+<p></p>
+<h4>Important Dates</h4>
+<?php include("include/important-dates-en.html");?>
+
+<p></p>
+<h4>Sponsors</h4>
+<ul>
+<li> <a href="http://www.ipsj.or.jp/english/index.html"> IPSJ</a> <a href="http://sigarc.ipsj.or.jp/">SIGARC</a></li>
+<li> IPSJ <a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a></li>
+<li> IPSJ <a href="http://www.hpcc.jp/sighpc/">SIGHPC</a></li>
+<li> IPSJ <a href="http://www.ipsj.or.jp/sig/pro/">SIGPRO</a></li>
+</ul>
+
+<h4>Co-Sponsor</h4>
+<ul>
+<li> <a href="http://www.jhpcn-kyoten.itc.u-tokyo.ac.jp/en/">JHPCN</a> Joint Usage/Research Center for Interdisciplinary Large-scale Information Infrastructures
+</ul>
+
+</div>
+
+    <?php include("include/footer.html");?>
+<div>
+  <p class="validation">
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://www.w3.org/Icons/valid-xhtml11-blue"
+	   alt="Valid XHTML 1.1" /></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+	   alt="Valid CSS" /></a>
+  </p>
+</div>
+</body>
+</html>

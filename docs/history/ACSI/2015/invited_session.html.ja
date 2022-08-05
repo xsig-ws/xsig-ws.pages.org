@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+<h4>Special session on challenges and opportunities of integrated photonics in future datacenters</h4>
+
+<p class="date">1/27(Ва) 09:15&sim;10:45</p>
+Chair: Shu Namiki (AIST)
+
+<ul>
+    <li> <a id="S1-1">Expectations for optical network from the viewpoint of system software research</a><br>
+Ryousei Takano (AIST)<br>
+<br>
+Recently, some innovative data center architectures have been proposed
+from both academia and industry, for instance, Open Compute Project,
+UCB ASPIRE FireBox, Intel Rack scale architecture, and HP the
+machine. "Disaggregation" is a keyword of such architectures.
+Computers are divided into their component parts and a rack-scale or
+data center-scale computer is re-aggregated from the resource pool to
+meet users' requirements. Optical network is a promising technology to
+connect components with huge bandwidth and low power consumption. To
+utilize such advantages from applications, there are research
+opportunities for system software.  This talk presents expectations or
+optical network in future data center and HPC from the viewpoint of
+system software research through the survey of such a trend.
+<br>
+<br>
+
+    <li> <a id="S1-2">Optical fiber network system for next generation data center</a><br>
+Haruhiko Kuwatsuka (AIST)<br>
+<br>
+New optical fiber network systems will provide ultra wide band,
+flexible, and low power-consumption inter connections between
+computing nodes in data centers of big data era. A lot of advanced
+technologies developed for optical communication systems, such as
+optical coherent technology, DWDM (Dense Wavelength Division
+Multiplexing) technology, light source technologies including comb
+light sources, ROADM (Re-configurable Optical Add Drop Multiplexing)
+and various optical switching technologies, will be used in
+combination for the new optical fiber network systems of the data
+centers. OXC (Optical CROSS connect) switches developed in VICTOREIS
+(Vertically Integrated Center for Technologies of Optical Routing
+toward Ideal Energy Savings) will be useful for the optical network
+systems. A new concept of wavelength bank and distributing systems
+will be discussed, in which DWDM CW's (Continuous Waves) generated
+from a central-controlled comb light sources, which is called
+wavelength bank, are distributed to each computing node and each
+computing node selects some of CW's and generates signal waves by
+them. The signal waves from each node are sent to a target node by OXC
+switching systems. The development of low cost, low power-consumption
+and highly integrated optical devices by using new technologies such
+as Si photonics is indispensable for the systems.
+<br>
+<br>
+
+    <li> <a id="S1-3">Photonic and Electronic Convergence Technologies for 1-chip Data Center</a><br>
+Jun Inasaka (NEC/PETRA)<br>
+<br>
+High-end Servers and High-performance Computers are facing the three
+huge walls such as memory wall, power wall and high speed electrical
+transmission wall. These walls have slowed down the sustained
+performance and the power efficient especially in the large scale
+system. But these walls might be broken by integrating photonics and
+Through Silicon Via (TSV) technology to the LSI, server board and rack
+in the near future. We have developed 5 mm square Si-photonics-based
+chip-scale optical transmitters/receivers called "optical I/O
+cores". The power consumption of their hybrid-integrated ICs is 5
+mW/Gbps. We demonstrated 25-Gbps/ch error-free operation in the O
+band. There is great demand for optical interconnections in
+high-performance computers because they can cover the long
+transmission distances that electrical interconnections cannot as the
+data rate increases. We will integrate this optical IO cores to CPU
+module as a high speed optical interface beside CPU, in order to solve
+the I/O bottleneck. And we also have developed TSV process to
+integrate into Si-photonics chip for Silicon Optical Interposers and
+the high-performance 1-chip Data Center.
+</ul>
+
+</div>
+</body>
+</html>

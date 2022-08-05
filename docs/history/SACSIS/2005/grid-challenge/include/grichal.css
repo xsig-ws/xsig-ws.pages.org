@@ -1,0 +1,284 @@
+body{
+  font-size        :12pt;
+  background-color :#fff;
+  margin           :10pt;
+}
+
+a:link          {color: #0ac;}
+a:hover         {color: #0ff;}
+a:visited       {color: #0ac;}
+a:visited:hover {color: #0ff;}
+a:active        {color: #0ac;}
+
+h1{
+  display          :none;
+  border-width     :0px;
+  margin           :0px;
+  padding          :0px;
+}
+
+
+h2{
+  color            :#006;
+  font-size        :16pt;
+  font-family      :sans-serif;
+  font-weight      :800;
+
+  background-color :#fee;
+  border-style     :solid;
+  border-color     :#fc0;
+  border-width     :1px 2px 2px 1px;
+  margin           :5px;
+  padding          :0pt 30pt;
+}
+
+
+h2.top{
+  color            :#006;
+  font-size        :20pt;
+  font-family      :sans-serif;
+  font-weight      :800;
+
+  background-color :#fee;
+  border-style     :solid;
+  border-color     :#fc0;
+  border-width     :0px 0px 2px 0px;
+  margin           :5px;
+  padding          :0pt 30pt;
+}
+
+
+h3{
+  color            :#006;
+  font-size        :11pt;
+  font-family      :sans-serif;
+  font-weight      :800;
+
+  background-color :#fff;
+  border-style     :solid;
+  border-color     :#fc0;
+  border-width     :0px 0px 2px 0px;
+  margin           :5px 10px;
+  padding          :0pt 40pt;
+}
+
+h3.menu{
+  color            :#fff;
+  font-size        :12pt;
+  font-weight      :400;
+  text-align       :center;
+
+  background-color :#66a;
+  border-style     :solid;
+  border-color     :#aaa;
+  border-width     :0px 2px 2px 0px;
+  margin           :5px;
+  padding          :0px;
+}
+
+
+h4{
+  color            :#006;
+  font-size        :11pt;
+  font-family      :sans-serif;
+  font-weight      :600;
+
+  background-color :#fee;
+  border-style     :solid;
+  border-color     :#fc0;
+  border-width     :0px 0px;
+  margin           :5px 0px;
+  padding          :0pt 0pt;
+}
+
+p{
+  margin           :2pt 2px 5px 2pt;
+
+}
+
+ul{
+  border-style     :none;
+  border-width     :0px;
+  padding          :10px;
+  margin           :0pt;
+  list-style-type  :square;
+  color            :#036;
+}
+
+ul.small{
+  font-size:9pt;
+}
+
+
+li{
+  margin:3pt 0pt;
+  padding:0pt;
+}
+
+div{
+  background-color :#fff;
+  border-style     :solid;
+  border-color     :#ccc;
+  border-width     :1pt;
+  font-size        :12pt;
+
+  padding          :10px 30px;
+  margin           :5px;
+  color            :#036;
+}
+
+
+
+hr{
+  border-style     :solid;
+  border-color     :#fc0;
+  margin           :2pt 5pt;
+}
+
+pre{
+  font-size :10pt;
+  color:#000;
+  background-color:#eee;
+  border-style:solid;
+  border-width:1pt;
+  border-color:#ccc;
+  margin:3pt 10pt;
+  padding:0pt 20pt;  
+}
+
+span.attention{
+  color:#f00;
+  font-weight:600;
+}
+
+
+.menu_h{
+  background-color:#fff;
+  color:#036;
+  font-weight:600;
+  border-color:#fc0;
+  border-width:0px 0px 0px 10px ;
+  border-style:solid;
+  padding:0px 0px 0px 5px ;
+}
+
+.menu_d{
+  font-weight:600;
+  border-color:#fff;
+  border-width:0px 0px 0px 10px ;
+  border-style:solid;
+  padding:0px 0px 0px 5px ;
+}
+
+a.menu_d{
+  color:#666;
+  text-decoration:none;
+}
+
+a:visited.menu_d{
+  color:#666;
+  text-decoration:none;
+}
+
+.menu_d:hover{
+  color:#c00;
+  font-weight:600;
+  border-color:#fc0;
+  border-width:0px 0px 0px 10px ;
+  border-style:solid;
+}
+
+a.menu_d:hover{
+  color:#00c;
+}
+a.visited:menu_d:hover{
+  color:#00c;
+}
+
+
+
+span.new{
+  color:red;
+}
+
+span.small{
+  font-size:9pt;
+  margin:10pt;
+}
+
+table{
+/*  width:100%;*/
+  align:center;
+}
+
+
+td{
+  border-style:none;
+  border-color:#000;
+  border-width:1px;
+  padding : 1px;
+
+  margin : 0px;
+}
+
+td.host{
+  border-style:solid;
+  border-color:#ccc;
+  border-width:1px;
+  padding : 1px;
+  margin : 0px;
+}
+
+
+
+/* for phoenix */
+table.main{
+
+}
+
+td.title{
+/*  background-color:#eef; */
+
+}
+
+td.menu {
+  width: 150px;
+  margin :0px;
+  padding:10px 0px 0px;
+  vertical-align:baseline;
+  font-size:11pt;
+}
+
+
+div.menu{
+  border-color     :#aaa;
+  background-color :#eee;
+  padding          :10px;
+  margin           :5px;
+}
+
+ul.menu{
+  border-style     :none;
+  border-width     :0px;
+  vertical-align   :top;
+  padding          :0px;
+  margin           :0px;
+  list-style-type  :none;
+}
+
+td.main {
+  width: 650px;
+  margin :0px;
+  padding:0px;
+  vertical-align:baseline;
+  font-size:10pt;
+}
+
+td.footer {
+  margin :0px;
+  padding:10px 0px 0px;
+  vertical-align:baseline;
+  font-size:10pt;
+  text-align:right;
+  color:#036;
+}

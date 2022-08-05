@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      <h4>SACSIS 2012 プログラム更新履歴</h4>
+      <ul>
+        <li>2012.05.22 ポスター賞受賞理由を掲載しました．</li>
+        <li>2012.05.18 優秀ポスター賞．優秀ポスター賞を掲載しました．</li>
+        <li>2012.05.16 最優秀論文賞，最優秀若手研究賞を掲載しました．</li>
+        <li>2012.05.16 タウンホールミーティングの説明を掲載しました．</li>
+	<li>2012.05.14 チュートリアル資料を掲載しました．</li>
+	<li>2012.05.10 ポスター論文の著者に一件誤りがありましたので修正しました．</li>
+	<li>2012.05.08 ポスター論文の著者に一件誤りがありましたので修正しました．</li>
+	<li>2012.04.23 詳細プログラム更新</li>
+	<li>2012.04.18 招待講演の情報更新</li>
+	<li>2012.04.09 公開</li>
+      </ul>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

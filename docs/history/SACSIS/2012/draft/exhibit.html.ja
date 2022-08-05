@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <div class="main">
+      <?php include("include/navbar-ja.html");?>
+      <h3>SACSIS 2011 企業・団体展示</h3>
+      <p class="url">(2011年5月25日(水)11:45-17:30, 2F ホワイエ)<br />(2011年5月26日(木)09:30-20:00, 2F ホワイエ)</p>
+      <h4>国立大学法人 東京工業大学</h4>
+      <p class="url">
+	<a href="http://www.gsic.titech.ac.jp/kyoyo">http://www.gsic.titech.ac.jp/kyoyo</a><br />
+	<a href="http://www.gsic.titech.ac.jp/kyodou">http://www.gsic.titech.ac.jp/kyodou</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/titech.pptx">「みんなのスパコン」TSUBAMEによるペタスケールへの飛翔</a></p>
+      <p class="abs">
+	世界トップレベルの性能を持つスーパーコンピュータTSUBAMEを皆さまにご利用頂くサービスをご案内します。<br />
+	無償で使える制度もあり、ブースではこれまでの利用実績を紹介します。<br />
+	お気軽にご相談ください。
+      </p>
+      
+      <h4>理化学研究所</h4>
+      <p class="url">
+	<a href="http://www.aics.riken.jp/index.html">理化学研究所計算科学研究機構</a><br />
+	<a href="http://aics-research.riken.jp/">理化学研究所計算科学研究機構研究部門</a><br />
+	<a href="http://www.nsc.riken.jp/index_j.html">理化学研究所次世代スーパーコンピュータ開発実施本部</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/riken.pdf">計算科学研究機構の共通基盤研究と京速コンピュータ「京(けい)」</a></p>
+      <p class="abs">
+	理化学研究所 計算科学研究機構は、現在開発中の京速コンピュータ「京(けい)」の運用を担うとともに、自らも「京(けい)」を活用しつつ幅広い分野を支えるスーパーコンピュータに欠かせない共通基盤の研究や新しい分野融合研究を行っています。<br />
+	今回は、「京(けい)」のシステム構成について詳しくご説明するとともに、我々の研究部門が取り組んでいるエクサスケールのためのシステムソフトウェア研究や、大規模な並列プログラムに対応する高性能プログラミング環境に関する研究をご紹介します。
+      </p>
+      
+      <h4>富士通株式会社</h4>
+      <p class="url">
+	<a href="http://jp.fujitsu.com/about/tech/k/">「次世代スーパーコンピュータ」</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/fujitsu.pdf">次世代スーパーコンピュータにおける開発支援ツールのご紹介</a></p>
+      <p class="abs">
+	文部科学省が推進し、理化学研究所と富士通株式会社が開発を進めている京速コンピュータ「京(注)」向けの開発支援ツールのご紹介とデモを行います。<br />
+	「京」では、アプリケーションレベルで世界最高の性能を引き出すための様々な仕組みが採用されています。<br />
+	今回は、その中で、アプリケーション開発における支援を行う、開発支援ツールのご紹介を行います。<br />
+	開発支援ツールには、アプリケーションのプログラミング開発支援を行う“IDE”、性能解析・チューニング支援を行う“プロファイラ”、アプリケーションのデバッグをサポートする“会話型デバッガ”などのツール群で構成されています。<br />
+	これまで未知とされていた数万並列でのアプリケーション開発をサポートするために新しい技術を採用しています。<br />
+	また、実現のために、理化学研究所の研究者の皆様には、技術支援・アドバイスを頂いており、この場を借りて感謝いたします。<br />
+	<br />
+	注：「京」は、理化学研究所が2010年7月から使用している「次世代スーパーコンピュータ」の愛称です。
+      </p>
+      
+      <h4>株式会社エルザジャパン</h4>
+      <p class="url">
+	<a href="http://www.elsa-jp.co.jp/products/hpc/index.html">http://www.elsa-jp.co.jp/products/hpc/index.html</a><br />
+	<a href="http://www.elsa-jp.co.jp/products/network/index.html">http://www.elsa-jp.co.jp/products/network/index.html</a><br />
+	<a href="http://www.elsa-jp.co.jp/products/storage/index.html">http://www.elsa-jp.co.jp/products/storage/index.html</a>
+      </p>
+      <br />
+      <p class="title">NVIDIA GPUとInfinibandによるELSA JAPAN GPUコンピューティングソリューション</p>
+      <p class="abs">
+	最新のNVIDIA TESLA GPUを搭載したNEXTIO Vcoreシリーズの実機展示と4月より取扱を開始したInfinibandソリューションから高速大容量フラッシュストレージ製品などこれらを活用した最新のGPUコンピューティングソリューションをご紹介いたします。
+      </p>
+      
+      <h4>Appro International, Inc.</h4>
+      <p class="url">
+	<a href="http://www.appro.com/">http://www.appro.com/</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/appro.pdf">Appro Supercomputer Solutions</a></p>
+      <p class="abs">
+	Approは低TCOで小規模から大規模なスーパーコンピュータソリューションの提供が可能なリーディングプロバイダーです。<br />
+	約20年におよび、Approのスーパーコンピュータソリューションは学術機関、官公庁、民間企業の科学者や技術者に対し、科学研究、データモデリング、エンジニアリングシミュレーション等に最適な計算環境を提供してきました。<br />
+	Approの革新的なソリューションは、最新技術とHPCに関する専門知識によって最適化されたアーキテクチャをベースに今後もテクニカルアプリケーションやビジネスを加速することに貢献します。<br />
+	Approは米国のカリフォルニア州Milpitasに本社を構え、Houston、韓国、日本に拠点があります。
+      </p>
+
+      <h4>（株）日立製作所</h4>
+      <p class="url">
+	<a href="http://www.hitachi.co.jp/Prod/comp/hpc/index-j.html">技術計算向けサーバ</a><br />
+	<a href="http://www.hitachi.co.jp/Prod/comp/soft1/cosminexus/sdp/index.html">SOA プラットフォーム Cosminexus：uCosminexus Stream Data Platform</a><br />
+	<a href="http://hitachiblog.typepad.jp/stream/">ストリーム・ノート</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/hitachi.pdf">日立のＨＰＣソリューション</a></p>
+      <p class="abs">
+	日立の最新ＨＰＣソリューションを紹介します。<br />
+	最新Power7プロセッサを採用したSR16000シリーズ、並びに最新x86系クラスタであるHA8000です。<br />
+	また、ストリームデータ処理基盤を適用したリアルタイムログ分析による大規模PCクラスタシステムの稼動状況の見える化のデモンストレーションを行います。
+      </p>
+
+      <h4>エヌビディア ジャパン</h4>
+      <p class="url">
+	<a href="http://www.nvidia.co.jp/tesla">http://www.nvidia.co.jp/tesla</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/nvidia.pdf">エヌビディア GPU コンピューティング</a></p>
+      <p class="abs">
+	大学・研究機関でのスーパーコンピューティングから、自動車、電子、精密、医療機器などの製造業、金融、通信など多くの業種でGPU コンピューティングが革新を起こしています。<br />
+	2010年11月に発表されたTop500では上位5つのうち３つをエヌビディアのGPUを搭載したシステムが占め、GPUコンピューティングのパワーが証明されました。<br />
+	本展示ではエヌビディアGPUコンピューティングの詳細、ロードマップなどをご紹介致します。
+      </p>
+
+      <h4>東京エレクトロン デバイス</h4>
+      <p class="url">
+	<a href="http://ac-solution.teldevice.co.jp/">http://ac-solution.teldevice.co.jp/</a><br />
+	<a href="http://ppg.teldevice.co.jp/">http://ppg.teldevice.co.jp/</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/teldevice.pdf">XILINX社最新FPGAを活用したアカデミックソリューション</a></p>
+      <p class="abs">
+	XILINX社大規模FPGA（Virtex-6：XC6VLX760）を搭載したLSIエミュレーションボード、PCI Express Gen2対応評価ボード、インテルATOM CPU＋FPGAマルチコアボードを展示致します。<br />
+	またリリースされたばかりの７シリーズ、ARMコア内蔵のFPGA：Zynqシリーズのご紹介も致します。<br />
+	XILINX社ではUniversity Program（XUP)があり、教育のための初期導入に必要な開発ツール・評価ボードはDonationを行っております。
+      </p>
+
+      <h4>株式会社HPCテック</h4>
+      <p class="url">
+	<a href="http://www.hpctech.co.jp/">株式会社HPCテック</a><br />
+	<a href="http://www.hpctech.co.jp/archives/2123">ポータブルWS導入事例</a><br />
+	<a href="http://www.hpctech.co.jp/archives/2071">Cluster Managerサイト</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/hpctech.pdf">省電力ポータブルGPUワークステーションファミリーと手軽なクラスタ管理システム登場！</a></p>
+      <p class="abs">
+	弊社はGPUが利用出来るポータブルワークステーション3機種をラインナップしました。 <br />
+	<br />
+	上位はTesla c1060相当のGPU2基とデスクトップ版Core i7を搭載した300wタイプ<br />
+	下位はSandy Bridge採用により120wという低消費電力と重量3kのタイプ。<br />
+	真ん中が倍精度演算対応でありながら消費電力180wのタイプです。<br />
+	<br />
+	現在、強力な計算環境としてクラスタサーバを導入する方が多いですが、通常の構築・運用には膨大な手間がかかります。<br />
+	弊社のCluster Managerでは構築・運用の手間を大幅に削減させる事が可能です。<br />
+	今回は1Uタイプ2ノードマシンを展示しております。皆様のご来場をお待ちしております。
+      </p>
+
+      <h4>住商情報システム株式会社</h4>
+      <p class="url">
+	<a href="http://www.clubscs.com/product/storage/DDN_Storage/index.html">http://www.clubscs.com/product/storage/DDN_Storage/index.html</a><br />
+	<a href="http://www.scs.co.jp/product/gaiyo/v-memory.html">http://www.scs.co.jp/product/gaiyo/v-memory.html</a><br />
+	<a href="http://www.scs.co.jp/virident/">http://www.scs.co.jp/virident/</a>
+      </p>
+      <br />
+      <p class="title">HPC分野に最適なストレージソリューション</p>
+      <p class="abs">
+	HPCからエンタープライズまで大容量、高性能、低価格な　DataDirect Networks社製ストレージシステム、<br />
+	超高速ディスクI/Oを実現するViolinMemory社製フラッシュアレイ　V-3200シリーズ、<br />
+	PCI-Express接続のサーバー内蔵型ソリッドストレージシステム　Virident Systems社製　tachIOn<br />
+	の3点を出展します。
+      </p>
+
+      <h4>シーティーシー・エスピー株式会社</h4>
+      <p class="url">
+	<a href="http://www.ctc-g.co.jp/~ctcsp/products/panasas/index.html">http://www.ctc-g.co.jp/~ctcsp/products/panasas/index.html</a>
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/ctcsp.pdf">ハイパフォーマンス・パラレルNAS -Panasas ActiveStor-</a></p>
+      <p class="abs">
+	最先端の研究開発環境で多く実績を持つ米国Panasas社の超高速パラレルNASをご紹介いたします。<br />
+	業界最高水準のパフォーマンスとリニアな拡張性により、HPC環境におけるストレージの課題を解決いたします。<br />
+	また、アプライアンスならではの容易な運用管理が可能ですので、ストレージの煩雑な運用業務から開放され、本来の研究開発プロジェクトに専念できるシステム環境構築を可能にいたします。
+      </p>
+
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

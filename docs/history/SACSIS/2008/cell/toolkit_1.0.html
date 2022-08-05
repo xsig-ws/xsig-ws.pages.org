@@ -1,0 +1,157 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>Cell Speed Challenge 2008 : Toolkit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/cell.css">
+<!-- meta name="author"      content="" -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rev="made" href="mailto:tsumura@nitech.ac.jp">
+<meta name="date" content="2008-07-28T14:10:05+09:00">
+</head>
+
+<body class="contents">
+
+<h1>ツールキット</h1>
+
+<dl class="attention">
+<dt>ご注意</dt>
+<dd>Cell Open Cafe で cellexec 実行中に Ctrl-c で停止させてしまうと，
+  cellexec 実行状態を示す lock がかかったままとなり，以後 当該ユーザが
+  cellexec を実行できなくなることがあります。お手数ですが，
+  そのような場合は
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#56;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;">&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#56;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;</a>
+  までご連絡ください。
+</dd>
+</dl>
+
+<ul>
+ <li><a href="#update"   >更新情報</a></li>
+ <li><a href="#document" >ドキュメント</a></li>
+ <li><a href="#howto"    >使用方法</a></li>
+ <li><a href="#manifest" >ファイル構成</a></li>
+</ul>
+
+<h2><a name="update">更新情報</a></h2>
+
+<dl class="date">
+<dt>2008/07/25</dt>
+<dd>Cell Reference Set V3 に対応させるため，<strong>libspe2 準拠</strong>に変更した
+  Version 1.3 を公開しました。Cell Open Cafe は CRS V3 に移行していますので，
+  こちらをお使いください。<a class="download" href="download/toolkit1.3.tar.gz">ダウンロード</a></dd>
+<dt>2008/02/05</dt>
+<dd>ファイル構成を変更した，正式版 Version 1.0.10 を公開しました。<a class="download" href="download/toolkit1.0.tar.gz">ダウンロード</a><br>Cell Online 上にもあります。下記使用方法をご覧ください。<br>なお，新たに main_spe.c の変更も禁止させていただきます。main_spe.c/main_ppe.c 以外の部分は自由に変更いただけます。</dd>
+<dt>2008/01/23</dt>
+<dd>バグ修正をした，正式版 Version 1.0.9 を公開しました。</dd>
+<dt>2008/01/21</dt>
+<dd>バグ修正をした，正式版 Version 1.0.8 を公開しました。</dd>
+<dt>2008/01/11</dt>
+<dd>正式版 Version 1.0.7 を公開しました。</dd>
+<dt>2007/12/07</dt>
+<dd>試用版 Version 0.1 を公開しました。<!-- a class="download" href="download/toolkit01.tar.gz">ダウンロード</a><br>Cell Online 上にもあります。下記使用方法をご覧ください。--></dd>
+</dl>
+
+<h2><a name="document">ドキュメント</a></h2>
+
+<p>以下のドキュメントはツールキットにも同梱されています。</p>
+<ul>
+ <!-- li><a href="download/toolkit01.txt">toolkit01.txt</a></li -->
+ <!-- li><a href="download/toolkit01.ppt">toolkit01.ppt</a></li -->
+ <li><a href="download/toolkit10.ppt">toolkit10.ppt</a></li>
+ <li><a href="download/toolkit10.pdf">toolkit10.pdf</a> (PDF 版)</li>
+</ul>
+
+<h2><a name="howto">使用方法</a></h2>
+
+<p>まず実行してみましょう。
+ツールキットをホームディレクトリに展開します。</p>
+
+<pre class="command">
+[foobar@dev ~]$ <span class="command">cd</span>
+[foobar@dev ~]$ <span class="command">gtar xvzf ../contest_toolkit/toolkit1.0.tar.gz</span>
+</pre>
+
+<p>展開してできたディレクトリ toolkit1.0 に移動し，
+Makefile 内の USERNAME を Cell Open Cafe の
+ログイン名に書き換え，makeします。</p>
+
+<pre class="command">
+[foobar@dev ~]$ <span class="command">cd toolkit1.0</span>
+<span style="color: #ff0;">★ここで Makefile の書き換えが必要</span>
+[foobar@dev toolkit01]$ <span class="command">make</span>
+</pre>
+
+<p>問題は5問あり，それぞれ run1, run2, run3, run4, run5 を
+make のターゲットとして指定することで実行できます。
+全てを実行する場合は runall を指定します。</p>
+
+<pre class="command">
+[foobar@dev toolkit01]$ <span class="command">make run1</span>
+cellexec -t 60 /export/home/ttsumura/toolkit1.0/main   1792    1 1
+execute command: /export/home/ttsumura/toolkit1.0/main 1792 1 1 timeout 60
+[ppe_] N 1792  M    1 Mem 12558.00[KByte].
+[spe_] 5.651184 (sec) <span class="info">check 1.00  &lt; 3.0</span> (current error:1.54e-03 / error:1.54e-03)
+<span class="info">SUCCESSFUL.</span>  : 680.854868 [MFlops]
+
+execute time:     10392916 usec 
+</pre>
+
+<p>実行すると，この例のようにメモリ使用量，実行時間，解の精度，
+MFlops などが表示されます。コンテストにおける
+解精度の許容範囲は配布ツールキットの 3倍 までとします。
+解精度が許容範囲内の場合は「SUCCESSFUL.」，そうでない場合は
+「***** FAILED ! *****」と表示されます。</p>
+
+<dl class="attention">
+<dt>ご注意</dt>
+<dd>予選用ツールキットの解精度検証ルーチンは練習問題 1〜5 に
+特化されており，任意の N，M の値を設定した場合には対応しておりません。</dd>
+</dl>
+
+<h2><a name="manifest">ファイル構成</a></h2>
+<dl class="manifest">
+<dt>define.h</dt>
+<dd>利用する SPE の数 (1〜7)を指定します。デフォルトでは
+  7 が設定されています。</dd>
+<dt>main_spe.c</dt>
+<dd>時間計測，データ転送用の関数が記述されたファイルです。
+<strong>コンテストでの変更は禁止とし，
+変更されている場合は失格となります。</strong></dd>
+<dt>main_ppe.c</dt>
+<dd>PPE が実行するプログラムです。SPEプログラムの 起動〜終了 までを担います。
+<strong>コンテストでは PPE プログラムの変更は禁止とし，
+変更されている場合は失格となります。</strong></dd>
+<dt>spe.h</dt>
+<dd>それぞれの SPE が実行するプログラムのファイル名を指定します。ファイル名は
+ユーザのディレクトリからのパスを指定します。
+ここでは，すべての SPE が spe1 という名前のプログラムを利用する設定と
+なっています。それぞれの SPE が異なるプログラムを実行してもかまいません。</dd>
+<dt>spe1.c</dt>
+<dd>SPE が実行するプログラムです。
+<strong>コンテスト参加者はこのファイル中の
+spe_soleqs 関数を中心に書き換える</strong>ことになります。</dd>
+<dt>lib.c</dt>
+<dd>通常は，lib.c の内容を変更する必要はありません。
+lib.c では問題行列の生成や解答のチェックを行います。</dd>
+<dt>Makefile</dt>
+<dd>ソースコードから実行ファイルを生成するための規則を記述した
+ファイルです。make コマンドが参照します。
+ファイル構成やコンパイルの最適化オプションなどを変更しない場合には，
+この Makefile を変更する必要はありません。</dd>
+</dl>
+
+<p>詳細はツールキット中の <a href="./download/toolkit10.ppt">doc/toolkit10.ppt</a> を参照してください。
+質問やバグ情報などは
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#56;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;">&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#56;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;</a>
+までお願いします。なお頂いた質問等は，お名前を伏せた上で
+コミュニティボード等で公開・共有させていただくことがあります。
+予めご了承ください。</p>
+
+<hr class="footer">
+
+</body>
+
+</html>
+

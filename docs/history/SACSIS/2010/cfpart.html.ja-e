@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="SACSIS10,SACSIS2010,SACSIS" />
+ <link href="css/2010.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2010</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 27-28, 2010<br />Nara, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+
+<div class="main">
+
+<!-- INSERTED LINES BEGIN (2010_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.ja" title="SACSIS 2010">SACSIS2010&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2010_LINKS) -->
+<a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+<a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+<a href="cfcompany.html.ja">企業・団体展示募集</a> <span class="hideme">|</span>
+<a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+<a href="cfpart.html.ja">参加募集</a><span class="hideme">|</span>
+<!-- <a href="http://www.ipsj.or.jp/02moshikomi/event/event-sacsis2010.html">参加申込</a><span class="hideme">|</span> -->
+<a href="http://www.ipsj.or.jp/09sig/kaikoku/2010/SACSIS2010.html">参加申込</a><span class="hideme">|</span>
+<!-- <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span> -->
+<a href="http://www.hpcc.jp/sacsis/2010/gpu/">GPUチャレンジ2010</a> <span class="hideme">|</span>
+<!-- <a href="">Clusterコンテスト</a> <span class="hideme">|</span> -->
+<a href="exhibit.html.ja">企業・団体展示</a> <span class="hideme">|</span>
+<a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+<a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+<a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2009_LINK) --> <a href="http://www.hpcc.jp/sacsis/2009/" title="SACSIS 2009">SACSIS&nbsp;2009</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2008_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+
+<h4>参加募集 第８回先進的計算基盤システムシンポジウムSACSIS2010</h4>
+
+<!-- INSERTED LINES BEGIN (CFPart) -->
+<table>
+<tr><td>日時: </td><td>2010年5月27日(木) - 28日(金)</td></tr>
+<tr><td>会場: </td><td><a href="http://www.shinkokaido.jp/">奈良県新公会堂</a> (奈良市春日野町101)</td></tr>
+</table>
+
+<h4>概要</h4>
+SACSIS(Symposium on Advanced Computing Systems and Infrastructures)は2003年に誕生したシンポジウムです。その第8回は、奈良にて2010年5月27日(木)〜28日(金)に開催いたします。スコープは SACSIS2003 からの流れを引き継ぎ、以下のように考えています。
+
+<dl>
+<dt>Advanced Computing: </dt>
+<dd>SACSIS は今後の計算技術の発展を、さまざまな角度から議論することを目的としています。そこで並列分散に限らず、広い意味で先進的な計算のためのシステムや基盤とそれらの要素技術を対象とします。
+</dd>
+<dt>Systems and Infrastructures: </dt>
+<dd>性能などの「有効性」が重視される「システム」に関する技術だけではなく、幅広い利用を目指して「実用性」を重視した「基盤」に関する技術も対象とします。
+</dd>
+</dl>
+
+<p>
+SACSIS2010では、「先進的計算システム」「先進的計算システムを支える基盤技術」「実用的基盤システム」に関連するオリジナリティ溢れる発表や、実装・開発事例等を含め有用性の高い発表、実用性を重視した基盤に関する発表が行われます。
+</p>
+
+<p>
+招待講演3件、一般講演34件およびポスター発表29件の他、以下の企画を設けております。
+</p>
+<ul>
+<li>1日目に、以下の招待講演を企画しました。<br>
+    5月27日(木) 13:00-14:30<br>
+    Jun Nakajima 氏 (System Software Division, Intel Corporation)<br>
+    「Hardware Technology Trends and Cloud Operating Systems: Toward the Next Generation of Distributed Systems」<br>&nbsp;
+</li>
+<li>1日目および2日目に、以下のチュートリアルを企画しました。
+  <ul>
+    <li>チュートリアル1<br>
+    5月27日(木) 15:00-16:00<br>
+    青木 尊之 氏 (東京工業大学 学術国際情報センター 副センター長・教授)<br>
+    「GPU スパコンにおける大規模 HPC アプリケーションのスケーラビリティ - 格子系流体計算 -」<br>
+    </li>
+    <li>チュートリアル2<br>
+    5月28日(金) 13:00-14:00<br>
+    中田 秀基 氏 (産業技術総合研究所 情報技術研究部門 インフラウェア研究グループ 主任研究員)<br>
+    「クラウドの現状と展望」
+    </li>
+  </ul>
+&nbsp;</li>
+<li>SACSISに関連する技術を持つ11の組織・企業の方々による、技術や商品の展示を企画しました。<br>
+「団体　企業展示」
+  <ul>
+    <li>東京大学</li>
+    <li>東京工業大学</li>
+    <li>KDDI研究所、産業技術総合研究所、九州工業大学</li>
+    <li>独立行政法人理化学研究所<br>&nbsp;</li>
+    <li>マイクロソフト株式会社</li>
+    <li>株式会社アックス</li>
+    <li>富士通株式会社</li>
+    <li>日本AMD株式会社/株式会社エーキューブ</li>
+    <li>株式会社エルザジャパン</li>
+    <li>株式会社日立製作所</li>
+  </ul>
+「カタログ展示」
+  <ul>
+   <li>日本ビジュアルニューメリックス株式会社</li>
+  </ul>
+&nbsp;</li>
+<li>1日目16:30からSACSIS 2010併設企画であるGPUチャレンジ2010のセッションを企画しました。
+<br>&nbsp;</li>
+<li>1日目に最優秀論文賞1件、優秀若手研究賞3件の表彰をおこないます。
+<br>&nbsp;</li>
+<li>1日目にGPUチャレンジ2010の受賞者表彰をおこないます。
+<br>&nbsp;</li>
+<li>2日目10:00から国際セッションを企画し、国際会議で既に発表された興味深い論文3件の発表を行います。
+<br>&nbsp;</li>
+<li>恒例のランチセッションは2日目、マイクロソフト株式会社様によるWindows HPC Server 2008後継製品紹介と、マイクロソフトのクラウド戦略などについてご講演いただく予定です。
+<br>&nbsp;</li>
+<li>ポスター発表を対象に、優秀ポスター賞を3件程度選び、2日目に表彰をおこないます。
+<br>&nbsp;</li>
+<li>奈良ならではの企画として2日目朝に「鹿寄せ」を企画しました。会議の前にささやかな癒しを提供します。<br>
+(提供　株式会社アックス様)
+<br>&nbsp;</li>
+</ul>
+
+<h4>申込方法</h4>
+
+<ul>
+<li>情報処理学会Webページの参加申込書よりお申込みください。<br>
+<a href="http://www.ipsj.or.jp/02moshikomi/event/event-sacsis2010.html">http://www.ipsj.or.jp/02moshikomi/event/event-sacsis2010.html</a>
+</li>
+<li>お支払方法で郵便振替を選択された場合は郵便振替用紙を、請求書を希望された場合は請求書をお送りします。お手元に届きましたらお手続きください(振込期限6月末)。
+</li>
+<li>参加費の当日現金払いも受け付けますが、なるべく振込でのお支払いにご協力ください。
+</li>
+<li>当日受付もいたしますが、論文集が不足した場合は事前申し込み優先とさせていただきますのでご了承ください。
+</li>
+<li>参加申込後、やむを得ず参加を取り消される場合は、5月6日(木)までにご連絡ください。取り消しの連絡のない場合は、準備の都合上、参加費を徴収させていただきます。
+</li>
+<li>ポスター発表の方も参加登録が必要です。
+</li>
+</ul>
+
+<dl>
+  <dt>早期Web申込締切</dt>
+  <dd>2010年5月6日(木)まで<br>&nbsp;</dd>
+  <dt>申込/照会先</dt>
+  <dd>社団法人 情報処理学会 調査研究 研究部門<br>
+      E-mail: sig "at" ipsj.or.jp, TEL：(03)3518-8372 / FAX:(03)3518-8375<br>
+      〒101-0062  東京都千代田区神田駿河台1-5  化学会館4F<br>&nbsp;
+  </dd>
+  <dt>参加費(税込／論文集代込み、懇親会へは無料でご参加いただけます)</dt>
+  <dd>
+    <table>
+    <tr><td width="150"></td><td width="150">5月6日(金)までに申込</td><td width="150">当日受付にて申込</td></tr>
+    <tr><td>主催研究会会員</td><td>30,000 円</td><td>40,000 円</td></tr>
+    <tr><td>一般会員</td><td>40,000 円</td><td>50,000 円</td></tr>
+    <tr><td>学生会員</td><td>10,000 円</td><td>20,000 円</td></tr>
+    <tr><td>非会員</td><td>50,000 円</td><td>60,000 円</td></tr>
+    </table>
+    &nbsp;<br>論文集のみ：5,000円(消費税／送料込)<br>&nbsp;<br>
+    ※非会員の学生の方は、非会員として参加いただくことになります。<br>
+    ※WEB申込時に情報処理学会入会手続き中の場合は、会員番号欄に「入会手続き中」とご記入ください。各学会への入会手続きは、以下のURLから参照可能です。
+  </dd>
+</dl>
+
+<p style="padding-left:1.5em">
+情報処理学会: <a href="http://www.ipsj.or.jp/06mem/nyukai/nyukai.html">http://www.ipsj.or.jp/06mem/nyukai/nyukai.html<a><br>
+電子情報通信学会: <a href="http://www.ieice.org/jpn/nyukai/">http://www.ieice.org/jpn/nyukai/</a><br>
+IEEE CS: <a href="http://www.computer.org/portal/web/membership/join">http://www.computer.org/portal/web/membership/join</a>
+</p>
+<p>
+また、SACSISの当日参加受付においても、情報処理学会への同時入会手続きが可能となっています。
+</p>
+
+<h4>SACSIS2010 プログラム</h4>
+
+<ul>
+<li>一般講演は1件30分(質疑応答含む)です。<br>&nbsp;
+</li>
+<li>企業・団体展示およびポスター展示は、SACSIS2010 開催期間において常時展示されております。また、ポスター発表者は、(i) 懇親会の時間、(ii) 27日(木) 14:30-15:00、(iii) 27日(木) 16:00-16:30 (他の時間も可)にはポスターの前にて発表して頂きますようよろしくお願い申し上げます。
+</li>
+</ul>
+
+<table border="1" cellpadding="3">
+<caption><b>セッション構成</b></caption>
+<tr><td align="center" colspan="4">2010年5月27日(木)</td></tr>
+<tr><td align="center">時間</td><td align="center" width="300">A会場</td><td align="center" width="300">B会場</td><td align="center" width="300">C会場</td></tr>
+<tr><td align="left">11:30 〜 </td><td colspan="3">受付開始</td></tr>
+<tr><td align="center">12:45 〜 13:00</td><td>開会の辞、最優秀論文賞、優秀若手研究賞表彰</td><td></td><td></td></tr>
+<tr><td align="center">13:00 〜 14:30</td><td>招待講演: Jun Nakajima (Intel Corporation) <br>"Hardware Technology Trends and Cloud Operating System: Toward the Next Generation of Distributed Systems"</td><td></td><td></td></tr>
+<tr><td align="center" colspan="4">休憩</td></tr>
+<tr><td align="center">15:00 〜 16:00</td><td>NoC<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>[A2] 一般論文(2件)</td><td>仮想マシン<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>[B2] 一般論文(2件)</td><td>「GPUスパコンにおける大規模HPCアプリケーションのスケーラビリティ - 格子系流体計算 -」<br>青木尊之(東京工業大学)<br>&nbsp;<br>[C2] チュートリアル1</td></tr>
+<tr><td align="center" colspan="4">休憩</td></tr>
+<tr><td align="center">16:30 〜 18:00</td><td>プロセッサアーキテクチャI<br>&nbsp;<br>[A3] 一般論文(3件)</td><td>分散環境スケジューリング<br>&nbsp;<br>[B3] 一般論文(3件)</td><td>GPUチャレンジ2010<br>&nbsp;<br>[C3] 企画</td></tr>
+<tr><td></td><td align="center" colspan="3">展示会場</td></tr>
+<tr><td align="center">18:15 〜 20:30</td><td colspan="3">懇親会: 企業・団体展示、ポスター発表、GPUチャレンジ2010表彰</td></tr>
+</table>
+<br>
+<table border="1" cellpadding="3">
+<tr><td align="center" colspan="4">2010年5月28日(金)</td></tr>
+<tr><td align="center">時間</td><td align="center" width="300">A会場</td><td align="center" width="300">B会場</td><td align="center" width="300">C会場</td></tr>
+<tr><td align="center"> 9:00 〜  9:30</td><td align="center" colspan="3">鹿寄せ[飛火野]</td></tr>
+<tr><td align="center" colspan="4">休憩</td></tr>
+<tr><td align="center">10:00 〜 11:30</td><td>国際セッション<br>&nbsp;<br>[A4] 招待論文(3件)</td><td>マルチコア/マルチスレッド<br>&nbsp;<br>[B4] 一般論文(3件)</td><td>並列分散処理系<br>&nbsp;<br>[C3] 一般講演(3件)</td></tr>
+<tr><td align="center">11:30 〜 13:00</td><td align="center" colspan="3">ランチセッション[B会場]</td></tr>
+<tr><td align="center">13:00 〜 14:00</td><td>高速化手法アーキテクチャ<br>&nbsp;<br>&nbsp;<br>[A5] 一般論文(2件)</td><td>性能モニタリング<br>&nbsp;<br>&nbsp;<br>[B5] 一般論文(2件)</td><td>「クラウドの現状と展望」<br>中田秀基(産業技術総合研究所)<br>&nbsp;<br>[C5] チュートリアル2</td></tr>
+<tr><td align="center" colspan="4">休憩</td></tr>
+<tr><td align="center">14:30 〜 16:00</td><td>数値計算手法<br>&nbsp;<br>[A6] 一般論文(3件)</td><td>キャッシュ最適化<br>&nbsp;<br>[B5] 一般論文(3件)</td><td>FPGA応用<br>&nbsp;<br>[C3] 一般講演(3件)</td></tr>
+<tr><td align="center" colspan="4">休憩</td></tr>
+<tr><td align="center">16:30 〜 18:00</td><td>MPI技術<br>&nbsp;<br>[A7] 一般論文(3件)</td><td>プロセッサアーキテクチャII<br>&nbsp;<br>[B7] 一般論文(3件)</td><td></td></tr>
+<tr><td align="center">18:00 〜 18:30</td><td>閉会の辞、優秀ポスター賞表彰</td><td></td><td></td></tr>
+</table>
+
+<ul>
+<li>企業・団体展示<br>
+    企業・団体展示日程
+    <ul>
+      <li>5月27日（木） 15:00-18:00 / 18:15-20:30（懇親会）</li>
+      <li>5月28日（金） 09:30-16:30</li>
+    </ul><br>
+</li>
+<li>ポスターセッション<br>
+    ポスター発表日程
+    <ul>
+      <li>5月27日（木） 18:15-20:30 （懇親会）</li>
+    </ul>
+    ポスター展示日程
+    <ul>
+      <li>5月27日（木） 14:30-20:30</li>
+      <li>5月28日（金） 09:30-16:30</li>
+    </ul>
+</ul>
+
+<!-- INSERTED LINES END () -->
+
+<!-- INSERTED LINES END () --></div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2010, SACSIS 2010 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11-blue"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

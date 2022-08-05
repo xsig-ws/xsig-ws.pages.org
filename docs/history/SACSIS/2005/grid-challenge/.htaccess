@@ -1,0 +1,9 @@
+AuthUserFile /export/home/sacsis/sacsis/2005/grid-challenge/.htpasswd
+#AuthUserFile /home/tau/homepage/priv/grid-challenge-05/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Authentification required"
+AuthType Basic
+
+<Files info.html>
+require valid-user
+</Files>

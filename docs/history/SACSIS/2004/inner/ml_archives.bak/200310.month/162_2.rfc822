@@ -1,0 +1,133 @@
+<PRE>Received: from mx1.aist.go.jp (mx1.aist.go.jp [150.29.246.133])
+</PRE><PRE>	by earth.hal.rcast.u-tokyo.ac.jp (8.9.3p2/3.7W) with ESMTP id UAA02313
+</PRE><PRE>	for &lt;nakamura@hal.rcast.u-tokyo.ac.jp&gt;; Tue, 7 Oct 2003 20:30:04 +0900 (JST)
+</PRE><PRE>Received: from rpsmtp1.aist.go.jp
+</PRE><PRE>	by mx1.aist.go.jp  with ESMTP id h97BTs8W017008;
+</PRE><PRE>	Tue, 7 Oct 2003 20:29:55 +0900 (JST)
+</PRE><PRE>	env-from (ipsj-acs-editors-admin@m.aist.go.jp)
+</PRE><PRE>Received: from ml2.aist.go.jp
+</PRE><PRE>	by rpsmtp1.aist.go.jp  with ESMTP id h97BTrod023496;
+</PRE><PRE>	Tue, 7 Oct 2003 20:29:53 +0900 (JST)
+</PRE><PRE>	env-from (ipsj-acs-editors-admin@m.aist.go.jp)
+</PRE><PRE>Received: from m.aist.go.jp by ml2.aist.go.jp with ESMTP id h97BTqIY007029; Tue, 7 Oct 2003 20:29:52 +0900 (JST) env-from (ipsj-acs-editors-admin@m.aist.go.jp)
+</PRE><PRE>Received: from rpsmtp2.aist.go.jp by ml2.aist.go.jp with ESMTP id h97BTpIY007022 for &lt;ipsj-acs-editors@m.aist.go.jp&gt;; Tue, 7 Oct 2003 20:29:51 +0900 (JST) env-from (nakasima@vegeta.para.tutics.tut.ac.jp)
+</PRE><PRE>Received: from mx2.aist.go.jp
+</PRE><PRE>	by rpsmtp2.aist.go.jp  with ESMTP id h97BToPe015330
+</PRE><PRE>	for &lt;ipsj-acs-editors@m.aist.go.jp&gt;; Tue, 7 Oct 2003 20:29:51 +0900 (JST)
+</PRE><PRE>	env-from (nakasima@vegeta.para.tutics.tut.ac.jp)
+</PRE><PRE>Received: from nappa.para.tutics.tut.ac.jp
+</PRE><PRE>	by mx2.aist.go.jp  with ESMTP id h97BToR9013641
+</PRE><PRE>	for &lt;ipsj-acs-editors@m.aist.go.jp&gt;; Tue, 7 Oct 2003 20:29:50 +0900 (JST)
+</PRE><PRE>	env-from (nakasima@vegeta.para.tutics.tut.ac.jp)
+</PRE><PRE>Received: from vegeta.para.tutics.tut.ac.jp (vegeta [133.15.134.18])
+</PRE><PRE>	by nappa.para.tutics.tut.ac.jp (8.12.9/3.7W-00051300) with ESMTP id h97BToo7017333
+</PRE><PRE>	for &lt;ipsj-acs-editors@m.aist.go.jp&gt;; Tue, 7 Oct 2003 20:29:50 +0900 (JST)
+</PRE><PRE>Received: from vegeta (localhost [127.0.0.1])
+</PRE><PRE>	by vegeta.para.tutics.tut.ac.jp (8.12.9/3.7W-01012107) with ESMTP id h97BTo7m007200
+</PRE><PRE>	for &lt;ipsj-acs-editors@m.aist.go.jp&gt;; Tue, 7 Oct 2003 20:29:50 +0900 (JST)
+</PRE><PRE>Date: Tue, 07 Oct 2003 20:29:50 +0900
+</PRE><PRE>From: Hiroshi NAKASHIMA &lt;nakasima@para.tutics.tut.ac.jp&gt;
+</PRE><PRE>Reply-To: nakasima@tutics.tut.ac.jp
+</PRE><PRE>Subject: [ipsj-acs-editors:00595] deadline: for SACSIS/ACS7 and general rule
+</PRE><PRE>Sender: nakasima@vegeta.para.tutics.tut.ac.jp
+</PRE><PRE>To: ipsj-acs-editors@m.aist.go.jp
+</PRE><PRE>Message-Id: &lt;200310071129.h97BTo7m007200@vegeta.para.tutics.tut.ac.jp&gt;
+</PRE><PRE>X-ML-Name: ipsj-acs-editors
+</PRE><PRE>X-Mail-Count: 00595
+</PRE><PRE>X-MLServer: fml [fml 4.0 STABLE (20030202/4.0.4_ALPHA)]; post only (anyone can post)
+</PRE><PRE>X-ML-Info: If you have a question, send e-mail with the body
+</PRE><PRE>	&quot;help&quot; (without quotes) to the address ipsj-acs-editors-ctl@m.aist.go.jp;
+</PRE><PRE>	help=&lt;mailto:ipsj-acs-editors-ctl@m.aist.go.jp?body=help&gt;
+</PRE><PRE>Precedence: bulk
+</PRE><PRE>List-Id: ipsj-acs-editors.m.aist.go.jp
+</PRE><PRE>List-Software: fml [fml 4.0 STABLE (20030202/4.0.4_ALPHA)]
+</PRE><PRE>List-Post: &lt;mailto:ipsj-acs-editors@m.aist.go.jp&gt;
+</PRE><PRE>List-Owner: &lt;mailto:ipsj-acs-editors-admin@m.aist.go.jp&gt;
+</PRE><PRE>List-Help: &lt;mailto:ipsj-acs-editors-ctl@m.aist.go.jp?body=help&gt;
+</PRE><PRE>List-Unsubscribe: &lt;mailto:ipsj-acs-editors-ctl@m.aist.go.jp?body=unsubscribe&gt;
+</PRE><PRE>MIME-Version: 1.0
+</PRE><PRE>
+</PRE><PRE>ＡＣＳ編集委員会の皆様
+</PRE><PRE>
+</PRE><PRE>中島＠豊橋技科大＃編集委員長より，締切問題に関する審議依頼で
+</PRE><PRE>す。少し長めですが，最後までお読みください。
+</PRE><PRE>
+</PRE><PRE>６号（ＨＰＣＳ連携）の締切でドタバタした際に；
+</PRE><PRE>
+</PRE><PRE>&gt; なお締切延長や really hard deadline については，これまでも色々
+</PRE><PRE>&gt; とありましたので，７号／SACSIS 2004 の募集開始（１２月末頃）
+</PRE><PRE>&gt; までには，ＡＣＳの「締切原則」を確立したいと考えています。ま
+</PRE><PRE>&gt; ずは 10/16 の編集委員会＠ＨＰＣ研究会＠原研＠上野で議論した
+</PRE><PRE>&gt; いと思います。
+</PRE><PRE>
+</PRE><PRE>とお知らせしましたが，SACSIS 2004 PC chair（＆ＡＣＳ副編集委
+</PRE><PRE>員長）の中村先生＠東大から，以下のように締切を定めたい旨のご
+</PRE><PRE>提案がありました。
+</PRE><PRE>
+</PRE><PRE>(1) 登録締切と論文アップロード締切を別個に設け，それぞれを 
+</PRE><PRE>    really hard deadline としてＣＦＰに明記し投稿予定者に周
+</PRE><PRE>    知する。したがって締切延長は投稿状況に関わらず一切行わな
+</PRE><PRE>    い。
+</PRE><PRE>
+</PRE><PRE>(2) 具体的な締切日は，投稿 1/19(月)，論文 1/23(金) を予定。
+</PRE><PRE>    ただしもう１週間程度遅くすることも検討中(i.e 1/26 &amp; 30)。
+</PRE><PRE>
+</PRE><PRE>(3) 今月末頃にアナウンス予定の first CFP から上記を明記した
+</PRE><PRE>    いので，10/25(金) をメドに検討して欲しい。
+</PRE><PRE>
+</PRE><PRE>確かに really hard deadline を予告・周知するには早くからその
+</PRE><PRE>旨を明らかにすべきですので，少なくとも SACSIS/ACS7 に関して
+</PRE><PRE>は SACSIS 側のご希望に沿ってＡＣＳの will を fix する必要が
+</PRE><PRE>あろうかと思います。
+</PRE><PRE>
+</PRE><PRE>また締切設定問題については；
+</PRE><PRE>
+</PRE><PRE>(a) あらゆる投稿予定者にとって真の締切が予測可能であること
+</PRE><PRE>    （i.e. 過去の経験，システムの運用実態などに関わらず，真
+</PRE><PRE>    の締切を事前に知ることができる）。
+</PRE><PRE>
+</PRE><PRE>(b) on-line upload に伴う不慮の事態（サーバ／ネットワークの
+</PRE><PRE>    トラブル，過負荷など）に対応できる設定であること
+</PRE><PRE>    （i.e. 著者の責任外の要因での締切落ちを防止できる）。
+</PRE><PRE>
+</PRE><PRE>の２点が重要だと思っていまして，SACSIS 提案のような２段階方
+</PRE><PRE>式＆really hard deadline 予告は条件に fit していると思います。
+</PRE><PRE>なお HPCS/ACS6 も結果的には同じ形態でしたが，真の締切を十分
+</PRE><PRE>に前もって予告しておくことが投稿者に大きなメリットを与えると
+</PRE><PRE>思います。
+</PRE><PRE>
+</PRE><PRE>一方，受け付ける側としては，投稿件数がなかなか読めないとか，
+</PRE><PRE>締切前後での論文掘り起こしができないとかいう問題はあります。
+</PRE><PRE>しかし，以下に示す著者の投稿行動に示すように，どうせ（真の）
+</PRE><PRE>締切日にならないと投稿しないので，結局安心する方法はないよう
+</PRE><PRE>です。
+</PRE><PRE>−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+</PRE><PRE>　　　締切２　中間　　締切１　前日　　前々日　それ以前　合計
+</PRE><PRE>−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+</PRE><PRE>２号　　３　　　　　　　７　　　９　　　２　　　３　　　２４
+</PRE><PRE>３号　４１　　１３　　１９　　１０　　　２　　　１　　　８６
+</PRE><PRE>４号　　４　　　　　　１１　　　１　　　１　　　２　　　２０
+</PRE><PRE>５号　　　　　　２　　２４　　　４　　　２　　　３　　　３５
+</PRE><PRE>６号　　　　　　　　　４０　　　２　　　１　　　５　　　４８
+</PRE><PRE>−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+</PRE><PRE>（締切２＝延長締切，締切１＝最初の締切）
+</PRE><PRE>
+</PRE><PRE>というわけで前置きが長くなりましたが，締切問題について以下を
+</PRE><PRE>提案しますので，ご審議ください。
+</PRE><PRE>
+</PRE><PRE>(1) SACSIS/ACS7 については，ＣＦＰ早期アナウンスと締切方針明
+</PRE><PRE>    記の都合上，10/16 の編集委員会での議論を経た上で，10/25 
+</PRE><PRE>    までに結論を出したいと思います。編集委員会に欠席される方
+</PRE><PRE>    は特にＭＬまでご意見をお寄せください。
+</PRE><PRE>
+</PRE><PRE>(2) ８号以降の締切設定については，SACSIS/ACS7 案をベースとし
+</PRE><PRE>    て年内に結論を得たいと思います。10/16 の委員会で一般ルー
+</PRE><PRE>    ルについても議論しますが，その後もＭＬ継続審議とした上で，
+</PRE><PRE>    場合によっては１２月あたりに off-line も開催したいと思い
+</PRE><PRE>    ます。特に連携シンポジウムに関係されている方々は，ご関係
+</PRE><PRE>    のシンポジウム運営の立場からもご議論ください。
+</PRE><PRE>
+</PRE><PRE>中島＠豊橋技科大
+</PRE><PRE>
+</PRE><PRE>
+</PRE>

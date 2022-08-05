@@ -1,0 +1,45 @@
+#############################################################################
+# Cell Speed Challenge 2007, Sample ToolKit Version 2007-01-08
+
+#############################################################################
+### Please edit this part!
+DIR         = $(HOME)/speed/
+IDIR        = /export/home/cell2007/
+EXE_FILE    = ~/speed/main
+TIMEOUT_SEC = 15
+
+#############################################################################
+SPERE   = -I/usr/local/tsb/tool/spere/include
+
+PPE_GCC = /usr/local/tsb/tool/bin/ppu-gcc
+PPE_OPT = -O3 -Wall -m32
+PPE_I   = -I$(IDIR)include/ppe -I$(IDIR)include/common $(SPERE) -I..
+PPE_L   = -L$(IDIR)lib -L/usr/local/tsb/tool/spere/lib
+PPE_LIB = -lspe_stdio_srv -lspe_rpc_srv -lspere_lib -lspere -lpthread 
+
+SPE_GCC = /usr/local/tsb/tool/bin/spu-gcc
+SPE_OPT = -O3 -Wall -Wno-main
+SPE_I   = -I$(IDIR)include/spe -I$(IDIR)include/common $(SPERE) -I..
+SPE_L   = -L$(IDIR)lib -L/usr/local/tsb/tool/spere/lib
+SPE_LIB = -lspe_stdio -lspe_rpc 
+
+#############################################################################
+all:
+	make main spe1
+
+#############################################################################
+main: main.c lib.c define.h Makefile
+	$(PPE_GCC) $(PPE_OPT) $(PPE_I) $(PPE_L) main.c lib.c -o main $(PPE_LIB)
+
+spe1: spe1.c define.h Makefile
+	$(SPE_GCC) $(SPE_OPT) $(SPE_I) $(SPE_L) spe1.c -o spe1 $(SPE_LIB) 
+
+#############################################################################
+run:
+	cellexec -t $(TIMEOUT_SEC) $(EXE_FILE)
+
+#############################################################################
+clean:
+	rm -f *~ *.o main spe1 spe2 spe3 spe4 spe5 spe6 spe7 
+
+#############################################################################

@@ -1,0 +1,5 @@
+@import url(navbar.css);  /* CSS for navigation menu. ((c)W3C) */
+@import url(hideme.css);  /* CSS for hideme. (for CSS2 incompatible browsers) */
+
+@import url(color.css); /* CSS for header */
+@import url(base.css);

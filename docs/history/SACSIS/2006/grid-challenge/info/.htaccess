@@ -1,0 +1,7 @@
+AuthUserFile /usr/local/PHASE/WWW/data/sacsis/2006/grid-challenge/info/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Authentification required"
+AuthType Basic
+
+require valid-user
+

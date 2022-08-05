@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for h in nimbus gk xcmp001 dennis-serv suidobashi00 endo@istbs000 shepherd poole bluecore 
+do
+	echo $h
+	ssh $h mkdir -p "~/yosen-tools-inst"
+	scp make-pic1 $h:yosen-tools-inst/
+done
+

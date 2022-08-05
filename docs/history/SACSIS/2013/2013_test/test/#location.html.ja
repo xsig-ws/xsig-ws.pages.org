@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      <h4>
+	シンポジウムの会場案内
+      </h4>
+
+      <ul>
+	<li><a href="http://kobe-cc.jp/kaigi/">神戸国際会議場</a>
+	  <p>
+	    〒650-0046 神戸市中央区港島中町6-9-1<br />
+	    TEL：078-302-5200 / FAX：078-302-6485
+	  </p>
+	</li>
+	<li> 交通アクセス
+	  <ul>
+	    <li>市営モノレール「ポートライナー」で市民広場駅下車すぐ</li>
+	  </ul>
+	</li>
+	<li>
+	  参考：<a href="http://kobe-cc.jp/access/index.html">会場Webページの交通案内</a>
+	</li>
+	<li>地図
+	  <p>
+<!--
+	    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?q=%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%AF%E5%B3%B6%E4%B8%AD%E7%94%BA6-9-1&amp;ie=UTF8&amp;hl=ja&amp;hq=&amp;hnear=%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%AF%E5%B3%B6%E4%B8%AD%E7%94%BA%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91&amp;t=m&amp;vpsrc=0&amp;brcurrent=3,0x60008e1a83eb2101:0x5eb74e76d58d5b98,0,0x60008e1a83eb2101:0xa305392683ac7325&amp;ll=34.666252,135.213032&amp;spn=0.024708,0.036564&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br />
+-->
+	    <object type="text/html" style="border:none; width:425px; height:350px; margin-top:0px; overflow:hidden;" data="http://maps.google.co.jp/maps?q=%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%AF%E5%B3%B6%E4%B8%AD%E7%94%BA6-9-1&amp;ie=UTF8&amp;hl=ja&amp;hq=&amp;hnear=%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%AF%E5%B3%B6%E4%B8%AD%E7%94%BA%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91&amp;t=m&amp;vpsrc=0&amp;brcurrent=3,0x60008e1a83eb2101:0x5eb74e76d58d5b98,0,0x60008e1a83eb2101:0xa305392683ac7325&amp;ll=34.666252,135.213032&amp;spn=0.024708,0.036564&amp;z=14&amp;iwloc=A&amp;output=embed"></object><br />
+<small><a href="http://maps.google.co.jp/maps?q=%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%AF%E5%B3%B6%E4%B8%AD%E7%94%BA6-9-1&amp;ie=UTF8&amp;hl=ja&amp;hq=&amp;hnear=%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%AF%E5%B3%B6%E4%B8%AD%E7%94%BA%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91&amp;t=m&amp;vpsrc=0&amp;brcurrent=3,0x60008e1a83eb2101:0x5eb74e76d58d5b98,0,0x60008e1a83eb2101:0xa305392683ac7325&amp;ll=34.666252,135.213032&amp;spn=0.024708,0.036564&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>
+	  </p>
+	</li>
+      </ul>
+      <h4>
+	  懇親会会場
+      </h4>
+      <ul>
+	<li>
+	  <a href="http://www.kobe-cci.or.jp/contact/access/">神戸商工会議所 2F</a><br/>
+	  シンポジウム開催場所から道を一本挟んだ隣になります．
+	</li>
+      </ul>
+      <h4>
+	  神戸観光案内
+      </h4>
+      <ul>
+	<li><a href="http://feel-kobe.jp/">神戸公式観光サイト FeelKOBE</a></li>
+      </ul>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>
+  

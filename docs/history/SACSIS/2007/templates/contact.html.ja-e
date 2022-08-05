@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2007.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2007 問い合わせ先</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@NAVIGATION@@-->
+<div class="main">
+<h4>問い合わせ先</h4>
+
+<dl>
+<dt> シンポジウム関係：</dt>
+<dd>
+    総務担当 片桐孝洋 (katagiri at kata-lab itc u-tokyo ac jp)
+</dd>
+
+<dt> 本Webページに関して：</dt>
+<dd>
+    広報担当 品川高廣 (shina at osss cs tsukuba ac jp)
+</dd>
+</dl>
+
+<p>
+SACSIS 2007 の組織委員会については<a href="committee.html.ja">こちら</a>へ
+</p>
+
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

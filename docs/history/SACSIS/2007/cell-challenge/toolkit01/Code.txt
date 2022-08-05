@@ -1,0 +1,263 @@
+
+file name: define.h
+   1  /*-------------------------------------------------------------------*/
+   2  /* Cell Speed Challenge 2007, Sample ToolKit Version 2007-01-08      */
+   3  /*-------------------------------------------------------------------*/
+   4  #define N 1024*32   /* the number of items, please modify this */
+   5  
+   6  #define NUMBER_OF_SPES 1
+   7  #define EXE_SPE1 "speed/spe1"
+   8  #define EXE_SPE2 "speed/spe1"
+   9  #define EXE_SPE3 "speed/spe1"
+  10  #define EXE_SPE4 "speed/spe1"
+  11  #define EXE_SPE5 "speed/spe1"
+  12  #define EXE_SPE6 "speed/spe1"
+  13  #define EXE_SPE7 "speed/spe1"
+  14  
+  15  #define SPE_BUF_SIZE (128*1024) /* allocate a 128KB buffer */
+  16  
+  17  /*-------------------------------------------------------------------*/
+  18  #define DMA_TAG 0
+  19  #define SPE_STDIO_BUF_SIZE 256
+  20  #define DMA_MAX_SIZE 16384
+  21  /*-------------------------------------------------------------------*/
+  22  struct argument
+  23  {
+  24      int id;
+  25      int n;
+  26      float *buf_in;
+  27      float *buf_out;
+  28      long long adr_in;
+  29      long long adr_out;
+  30  };
+  31  /*-------------------------------------------------------------------*/
+
+file name: lib.c
+   1  /*-------------------------------------------------------------------*/
+   2  /* Cell Speed Challenge 2007, Sample ToolKit Version 2007-01-08      */
+   3  
+   4  #include <stdio.h>
+   5  #include <stdlib.h>
+   6  #include <sys/time.h>
+   7  #include <spe/sys/spelib_types.h>
+   8  #include <spe_stdio_srv.h>
+   9  #include "define.h"
+  10  /*-------------------------------------------------------------------*/
+  11  double my_clock()
+  12  {
+  13      struct timeval tv;
+  14      gettimeofday(&tv, NULL);
+  15      return tv.tv_sec + (double)tv.tv_usec*1e-6;
+  16  };
+  17  
+  18  /*-------------------------------------------------------------------*/
+  19  int generate_list(float* buf_in, float* buf_out)
+  20  {
+  21      int i;
+  22      srand(0);
+  23      for(i=0; i<N; i++){
+  24          buf_in[i]  = (1000.0*rand()/(RAND_MAX+1.0));
+  25          buf_out[i] = 0.0;
+  26      }
+  27      return N;
+  28  }
+  29  
+  30  /*-------------------------------------------------------------------*/
+  31  void check_list(float* buf_in, float* buf_out, int n)
+  32  {
+  33      int i, error=0;
+  34      double sum_in=0.0, sum_out=0.0;
+  35      printf("[ppe_] print the first ten items.\n");
+  36      for(i=0; i<10 && i<n; i++){
+  37          printf("[ppe_] item %3d: %9.3f %9.3f\n", 
+  38                 i, buf_in[i], buf_out[i]);
+  39      }
+  40      for(i=0; i<n; i++){
+  41          sum_in  += buf_in[i];
+  42          sum_out += buf_out[i];
+  43          if((i+i)<n && buf_out[i+1]<buf_out[i]) error=1;
+  44      }
+  45      if(sum_in==sum_out && error==0) 
+  46          printf("[ppe_] * Result Good! *\n");
+  47      else printf("[ppe_] * Result Wrong! *\n");
+  48  }
+  49  /*-------------------------------------------------------------------*/
+
+file name: main.c
+   1  /*-------------------------------------------------------------------*/
+   2  /* Cell Speed Challenge 2007, Sample ToolKit Version 2007-01-08      */
+   3  
+   4  #include <stdio.h>
+   5  #include <spe/sys/spelib_types.h>
+   6  #include <spe_stdio_srv.h>
+   7  #include "spe_wrap.h"
+   8  #include "ppe_util.h"
+   9  #include "define.h"
+  10  /*-------------------------------------------------------------------*/
+  11  double my_clock();
+  12  int generate_list(float*, float*);
+  13  void check_list(float*, float*, int);
+  14  
+  15  /*-------------------------------------------------------------------*/
+  16  float buf_in[N]  _ALIGN;
+  17  float buf_out[N] _ALIGN;
+  18  
+  19  /*-------------------------------------------------------------------*/
+  20  int main(int argc, char *argv[])
+  21  {
+  22      int i,n;
+  23      double time_start, time_end;
+  24      swt_handle *h[NUMBER_OF_SPES];
+  25      struct argument spe_arg[NUMBER_OF_SPES];
+  26      _spe_stdio_init(SPE_STDIO_BUF_SIZE);
+  27      _spe_stdio_start();
+  28      
+  29      n = generate_list(buf_in, buf_out);
+  30      
+  31      for(i=0; i<NUMBER_OF_SPES; i++){
+  32          spe_arg[i].id = i;
+  33          spe_arg[i].n  = n;
+  34          spe_arg[i].adr_in  = (unsigned long long)&buf_in;
+  35          spe_arg[i].adr_out = (unsigned long long)&buf_out;
+  36          h[i] = spe_wrap_create_dedicated_thread(EXE_SPE1, 
+  37                                                  (void*)&spe_arg[i],
+  38                                                  SIGNOTIFY_INIT_MODE);
+  39      }
+  40      
+  41      time_start = my_clock();
+  42      for(i=0; i<NUMBER_OF_SPES; i++) spe_wrap_resume_thread(h[i]->id);
+  43      for(i=0; i<NUMBER_OF_SPES; i++) spe_wrap_wait_thread(h[i]->id);
+  44      time_end = my_clock();
+  45      
+  46      for(i=0; i<NUMBER_OF_SPES; i++) spe_wrap_release_thread(h[i]);
+  47      
+  48      check_list(buf_in, buf_out, N);
+  49      printf("[ppe_] elapsed time(sec): %10.6f\n", time_end-time_start);
+  50      
+  51      return 0;
+  52  }
+  53  /*-------------------------------------------------------------------*/
+
+file name: spe1.c
+   1  /*-------------------------------------------------------------------*/
+   2  /* Cell Speed Challenge 2007, Sample ToolKit Version 2007-01-08      */
+   3  
+   4  #include <stdlib.h>
+   5  #include <spe_stdio.h>
+   6  #include <spu_mfcio.h>
+   7  #include "spe_util.h"
+   8  #include "define.h"
+   9  
+  10  #define SPE_BUF_ENTRY (SPE_BUF_SIZE/sizeof(float))
+  11  
+  12  struct argument arg _GALIGN;
+  13  float buf[SPE_BUF_SIZE/sizeof(float)] _GALIGN;
+  14  /*-------------------------------------------------------------------*/
+  15  void dma_get(char *src, unsigned long long dst, int size)
+  16  {
+  17      while(size>0){
+  18          int dma_size = (size>DMA_MAX_SIZE) ? DMA_MAX_SIZE : size;
+  19          mfc_get(src, dst, dma_size, DMA_TAG, 0, 0);
+  20          mfc_write_tag_mask(DMA_TAG_MASK(DMA_TAG));
+  21          mfc_write_tag_update_all();
+  22          mfc_read_tag_status();
+  23          
+  24          size = size - dma_size;
+  25          src = src + dma_size;
+  26          dst = dst + dma_size;
+  27      } 
+  28  }
+  29  /*-------------------------------------------------------------------*/
+  30  void dma_put(char *src, unsigned long long dst, int size)
+  31  {
+  32      while(size>0){
+  33          int dma_size = (size>DMA_MAX_SIZE) ? DMA_MAX_SIZE : size;
+  34          mfc_put(src, dst, dma_size, DMA_TAG, 0, 0);
+  35          mfc_write_tag_mask(DMA_TAG_MASK(DMA_TAG));
+  36          mfc_write_tag_update_all();
+  37          mfc_read_tag_status(); 
+  38          
+  39          size = size - dma_size;
+  40          src = src + dma_size;
+  41          dst = dst + dma_size;
+  42      } 
+  43  }
+  44  /*-------------------------------------------------------------------*/
+  45  int main(int speid, unsigned long long argv)
+  46  {
+  47      dma_get((char *)&arg, argv, sizeof(struct argument));
+  48      spe_printf("[spe%d] let's sort %d items\n", arg.id, arg.n);
+  49      
+  50      if(arg.n<=SPE_BUF_ENTRY && arg.id==0){ /*** only spe0 works ***/
+  51          dma_get((char *)&buf, arg.adr_in, sizeof(float)*arg.n);
+  52          
+  53          { /***** insertion sort, this is very slow sorting! *****/
+  54              int i,j;
+  55              float temp;
+  56              for(i=1; i<arg.n; i++){
+  57                  temp =buf[i]; 
+  58                  j=i;
+  59                  while(j>0 && buf[j-1]>temp){
+  60                      buf[j] = buf[j-1];
+  61                      j=j-1;
+  62                  }
+  63                  buf[j] = temp;
+  64              }
+  65          }
+  66          
+  67          dma_put((char *)&buf, arg.adr_out, sizeof(float)*arg.n);
+  68      }
+  69      return 0;
+  70  }
+  71  /*-------------------------------------------------------------------*/
+
+file name: Makefile
+   1  #######################################################################
+   2  # Cell Speed Challenge 2007, Sample ToolKit Version 2007-01-08
+   3  
+   4  #######################################################################
+   5  ### Please edit this part!
+   6  DIR         = $(HOME)/speed/
+   7  IDIR        = /export/home/cell2007/
+   8  EXE_FILE    = ~/speed/main
+   9  TIMEOUT_SEC = 15
+  10  
+  11  #######################################################################
+  12  SPERE   = -I/usr/local/tsb/tool/spere/include
+  13  
+  14  PPE_OPT = -O3 -Wall -m32
+  15  PPE_I   = -I$(IDIR)include/ppe -I$(IDIR)include/common $(SPERE) -I..
+  16  PPE_L   = -L$(IDIR)lib -L/usr/local/tsb/tool/spere/lib
+  17  PPE_LIB = -lspe_stdio_srv -lspe_rpc_srv -lspere_lib -lspere -lpthread 
+  18  PPE_CC  = /usr/local/tsb/tool/bin/ppu-gcc
+  19  PPE_ADD = $(PPE_OPT) $(PPE_I) $(PPE_L)
+  20  
+  21  SPE_OPT = -O3 -Wall -Wno-main
+  22  SPE_I   = -I$(IDIR)include/spe -I$(IDIR)include/common $(SPERE) -I..
+  23  SPE_L   = -L$(IDIR)lib -L/usr/local/tsb/tool/spere/lib
+  24  SPE_LIB = -lspe_stdio -lspe_rpc 
+  25  SPE_CC  = /usr/local/tsb/tool/bin/spu-gcc
+  26  SPE_ADD = $(SPE_OPT) $(SPE_I) $(SPE_L)
+  27  
+  28  #######################################################################
+  29  all:
+  30  	make main spe1
+  31  
+  32  #######################################################################
+  33  main: main.c lib.c define.h Makefile
+  34  	$(PPE_CC) $(PPE_ADD) main.c lib.c -o main $(PPE_LIB)
+  35  
+  36  spe1: spe1.c define.h Makefile
+  37  	$(SPE_CC) $(SPE_ADD) spe1.c -o spe1 $(SPE_LIB) 
+  38  
+  39  #######################################################################
+  40  run:
+  41  	cellexec -t $(TIMEOUT_SEC) $(EXE_FILE)
+  42  
+  43  #######################################################################
+  44  clean:
+  45  	rm -f *~ *.o main spe1 spe2 spe3 spe4 spe5 spe6 spe7 
+  46  
+  47  text:
+  48  	kcat define.h lib.c main.c spe1.c Makefile > Code.txt
+  49  #######################################################################

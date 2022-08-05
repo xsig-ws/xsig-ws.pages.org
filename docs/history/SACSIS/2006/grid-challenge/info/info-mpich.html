@@ -1,0 +1,138 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<title>Grid Challenge 2006 MPICHのページ</title>
+</head>
+
+<body>
+
+<center>
+<p>
+<img src="../grch6.png">
+</p>
+<p>
+<b><font face="sans serif" size="+2">
+Grid Challenge 2006 MPICHのページ
+</font></b>
+</p>
+</center>
+
+<hr>
+<b>はじめに：</b>
+<p>
+Grid Challengeで提供される環境(GCF)では、
+各クラスタ上でメッセージパッシングライブラリ
+MPICHがインストールされています．MPICHについて詳しくは
+<a href=http://www.mcs.anl.gov/mpi/mpich/>こちら</a>を
+ご覧ください．その他のツールについては、参加者用の
+<a href=info.html>トップページ</a>を御覧下さい。
+</p>
+
+<hr>
+<b>注：</b>
+<p>MPICHを用いたプロセスの起動はF32クラスタ，SAKURAクラスタでは
+禁止されているので以下の情報はそれらのクラスタには当てはまりません．</p>
+
+<hr>
+<b>設定方法：</b>
+
+<ul>
+<li>まずsshを使って，クラスタのゲートウェイノードから，クラスタ内のノー
+ドへログインできる確認・設定を行います．このやり方については，<a
+href=info-gxp.html>Grid Challenge 2006 GXPのページ</a>を参照してくださ
+い．
+
+<li>MPICH関連のコマンドは各クラスタ上の/home/tau/grch06/bin内にインス
+トールされています．GXPのために同様の設定が必要となっていますが，もし
+行っていない場合，各クラスタの.bashrc, .bash_profile内で以下の設定をし
+てください．
+
+<pre>
+export PATH=/home/tau/grch06/bin:$PATH
+</pre>
+
+<li>参考までに，各クラスタのMPICHは以下のようにconfigureされました．
+
+<pre>
+export RSHCOMMAND=ssh_no_stricthostkeychecking
+./configure --prefix=/home/tau/grch06 --with-device=ch_p4 --without-mpe --without-romio
+</pre>
+
+<p>ssh_no_stricthostkeycheckingは/home/tau/grch06/binにインストールしてあ
+るコマンドで，以下のようなシェルスクリプト(sshのラッパ)です．</p>
+<pre>
+#!/bin/bash
+exec ssh -o 'StrictHostKeyChecking no' "$@"
+</pre>
+<p>ノードへログインするのにrshではなくsshを使うように設定されている
+ことに注意してください．これはrshに比べて遅いですが，一部の謎なシグナル
+関連の挙動を避けるために必要だった措置です．</p>
+
+<p>
+-o 'StrictHostKeyChecking no'オプションは，sshが初めてのノードへログイ
+ンするたびにユーザからの確認を求めないようにするためのオプションです．
+</p>
+
+</ul>
+
+<hr>
+<b>machineファイル</b> 
+
+<p>MPIを起動するのに必要なmachineファイルは，各クラスタの 
+/home/tau/grch06/conf/machine.XXX として転がっていますので適宜コピー・
+修正して用いてください．XXXにはクラスタの名前(tau, chik, ono, xenia,
+matsuなど) が入ります．いずれも，開始直前時点での生きているノード情報
+を元に作られています．</p>
+
+<hr>
+<b>テスト</b>
+<p>簡単なテストをしたければPATHが正しく設定されているかを確認したうえで，
+/home/tau/grch06/src/mpich-1.2.7p1/examples/basic/の下にあるサンプルプログラム
+などを走らせて見てください．たとえば以下のようにしてみてください．
+</p>
+<pre>
+istbs000.i.u-tokyo.ac.jp:taue% type --path mpicc
+/home/tau/grch06/bin/mpicc
+istbs000.i.u-tokyo.ac.jp:taue% mpicc /home/tau/grch06/src/mpich-1.2.7p1/examples/basic/cpi.c -o cpi
+istbs000.i.u-tokyo.ac.jp:taue% mpirun -machinefile /home/tau/grch06/conf/machinefile.tau -np 4 ./cpi
+Process 0 of 4 on istbs000.i.u-tokyo.ac.jp
+pi is approximately 3.1415926544231239, Error is 0.0000000008333307
+wall clock time = 0.002003
+Process 2 of 4 on istbs002.i.u-tokyo.ac.jp
+Process 3 of 4 on istbs003.i.u-tokyo.ac.jp
+Process 1 of 4 on istbs001.i.u-tokyo.ac.jp
+istbs000.i.u-tokyo.ac.jp:taue% mpirun -machinefile /home/tau/grch06/conf/machinefile.tau -np 16 ./cpi
+Process 0 of 16 on istbs000.i.u-tokyo.ac.jp
+pi is approximately 3.1415926544231274, Error is 0.0000000008333343
+wall clock time = 0.004589
+Process 6 of 16 on istbs006.i.u-tokyo.ac.jp
+Process 14 of 16 on istbs014.i.u-tokyo.ac.jp
+Process 7 of 16 on istbs007.i.u-tokyo.ac.jp
+Process 15 of 16 on istbs015.i.u-tokyo.ac.jp
+Process 3 of 16 on istbs003.i.u-tokyo.ac.jp
+Process 11 of 16 on istbs011.i.u-tokyo.ac.jp
+Process 9 of 16 on istbs009.i.u-tokyo.ac.jp
+Process 1 of 16 on istbs001.i.u-tokyo.ac.jp
+Process 5 of 16 on istbs005.i.u-tokyo.ac.jp
+Process 13 of 16 on istbs013.i.u-tokyo.ac.jp
+Process 12 of 16 on istbs012.i.u-tokyo.ac.jp
+Process 4 of 16 on istbs004.i.u-tokyo.ac.jp
+Process 8 of 16 on istbs008.i.u-tokyo.ac.jp
+Process 10 of 16 on istbs010.i.u-tokyo.ac.jp
+Process 2 of 16 on istbs002.i.u-tokyo.ac.jp
+istbs000.i.u-tokyo.ac.jp:taue% 
+</pre>
+
+<hr>
+<b>トラブル?</b>
+
+<p>mpiccまではできるがmpirunがうまくいかない場合，多くはsshの認証ミス
+ではないかと思われます．上記の例であれば，istbs000から使うノード(istbs001など)
+へsshでログインできるかどうかを確かめてみてください．</p>
+
+<hr>
+updated: 2006/2/15<br>
+グリッドチャレンジ2006実行委員会
+<hr>
+</body>
+</html>

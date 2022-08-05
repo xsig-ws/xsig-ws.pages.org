@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbarp-ja.html");?>
+	    <div class="main">
+
+<div>
+<h3>ACSIS2016 企業・団体展示</h3>
+<p class="url">
+(2016年1月18日(月))<br />
+(2016年1月19日(火))</p>
+
+
+<img class="logo" alt="logo" width="200" src="images/AWS_Logo_PoweredBy_300px.png">
+      <h4>アマゾン ウェブ サービス ジャパン株式会社</h4>
+      <p class="url">
+	<a href="https://aws.amazon.com/jp/">https://aws.amazon.com/jp/</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title">Amazon Web Services (AWS)</p>
+      <p class="abs">
+2006年にスタートしたアマゾンウェブ サービス（AWS）は、企業に対して不可欠なインフラをウェブサービスという方法で提供し始めました。これが今日、「クラウドコンピューティング」という名前で広く知られているものです。クラウドコンピューティング、そしてAWSがもたらすメリットとは、究極的には新しいビジネスモデルによって設備投資費を変動費に転換させる能力です。企業はもはや、何週間も何カ月も前からサーバなどのITリソースの購買計画を準備する必要はありません。AWSを利用することにより、アマゾンの優れた専門能力と規模の経済効果を生かし、企業は必要なときにリソースを入手し、いち早く、かつ低コストで結果を出すことができます。今日、アマゾン ウェブ サービスは、信頼性と拡張性に富み低コストのインフラプラットフォームをクラウド上に構築し、世界190カ国以上の100万社に及ぶ企業、政府・官公庁、スタートアップ企業のビジネスを支えています。AWSはAmazon Elastic Compute Cloud （Amazon EC2）、Amazon Simple Storage Service （Amazon S3）、Amazon Relational Database Service （Amazon RDS）など、50以上の様々なサービスを提供しています。AWSのクラウドサービスは、米国、ブラジル、欧州、日本、シンガポール、オーストラリアおよび中国のデータセンター拠点を通じて利用可能です。
+
+</p>
+
+<br /><br />
+
+
+<img class="logo" alt="logo" width="200" src="images/DDN-Storage.jpg">
+      <h4>株式会社データダイレクト・ネットワークス・ジャパン</h4>
+      <p class="url">
+	<a href="http://www.ddn.com/">http://www.ddn.com/</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title">HPC・ビッグデータを加速するDDN SFA ストレージ</p>
+      <p class="abs">
+
+SC15 にて正式発表しました、以下の新製品を中心にご紹介致します。<br />
+<br />
+●  SFA14K&trade;　高性能ブロックストレージ<br />
+●  SFA14KE&trade;　高速並列ファイルシステム・ストレージアプライアンス<br />
+●  IME&reg;ソフトウェア/IME14K&trade;アプライアンス<br />
+<br />
+SFA14K&trade;/SFA14KE&trade;は、4Uタイプに600万IOPS 以上、60GB/秒、さらに1ラックでほぼ7PBの性能とスケーラビリティを備えた、世界最速で最も高密度なストレージです。<br />
+<br />
+IME&reg; は、ライトを加速するバーストバッファとして機能し、ファイルシステムを加速し、計算機からストレージに至るまでのリード・ライトにおけるI/Oパスを最適化し加速します。<br />
+<br />
+IME14K&trade;アプライアンスは、少数のNVMeデバイスから始めることができ、4Uのアプライアンス毎に、最大で48のNVMe 接続のSSDが搭載できます。エントリー性能で10GB/秒のスループットを想定しており、アプライアンス毎に最大50GB/秒までスケールでき、クラスタ化によってアプライアンスを追加し、性能を向上させることができます。<br />
+
+</p>
+
+<br /><br />
+
+<img class="logo" alt="logo" width="200" src="images/Allinea_cmyk_Logo.png">
+      <h4>Allinea Software株式会社</h4>
+      <p class="url">
+	<a href="http://www.allinea.com/">http://www.allinea.com/</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title">Providing High Efficiency Computing to Scientific communities</p>
+      <p class="abs">
+Allineaがご提供する直感的な使い方、使い易さに拘った新タイプのHPCアプリケーション向けのデバッガ、プロファイラ、性能分析ツールにより、HPCシステムの効率と性能を高め、アプリケーションの開発期間を短縮し、システムの投資効果を高めることが可能です。
+      </p>
+
+<br /><br />
+
+<img class="logo" alt="logo" width="200" src="images/RGB_PNG_statement_color_type2_s.png">
+      <h4>日本電気株式会社</h4>
+      <p class="url">
+	<a href="http://jpn.nec.com/hpc/">http://jpn.nec.com/hpc/</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title">HPC クラスタソリューション「LX シリーズ」</p>
+      <p class="abs">
+HPC クラスタソリューション「LX シリーズ」を展示致します。LX シリーズでは、最新テクノロジをタイムリーに採用していると共に、 HPC クラスタシステムで必要とされる様々なコンポーネント を組み合わせて、お客様の利用環境やアプリケーションに合わせた最適なシステム/ソリューション をご提供しております。
+      </p>
+
+<br /><br />
+
+<img class="logo" alt="logo" width="200" src="images/hitachi-logo.png">
+      <h4>株式会社 日立製作所</h4>
+      <p class="url">
+	<a href="http://www.hitachi.co.jp/">http://www.hitachi.co.jp/</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title">組み合わせ最適化問題向け新パラダイム計算機</p>
+      <p class="abs">
+社会インフラにおける交通網や電力網などの制御において必要となる「評価指標を最大化・最小化するための組合せの探索」において、「実用解」を高速かつ低消費電力で得ることが必要になると考えます。<br />
+そこで弊社はムーアの法則終焉後を見据えて、高い電力性能比を得られる非ノイマン型の動作原理に立脚したコンピューティングの研究を推進しております。その一例として、組合せ最適化問題向けのアクセラレータとして、イジングモデルの構造を模した半導体集積回路「イジングチップ」を試作しました。このコンピューティング技術を IoT システムに適用し、エッジノードへの組込みから、多数チップの並列動作によるデータセンタにおける大規模処理までをターゲットとしております。
+      </p>
+
+<br /><br />
+
+      <h4>富士通株式会社</h4>
+      <p class="url">
+	<a href="http://jp.fujitsu.com/platform/server/primergy/pccluster/?pgy_pcc_acsi2016">http://jp.fujitsu.com/platform/server/primergy/pccluster/?pgy_pcc_acsi2016</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title">「Intel&reg; Xeon&reg; Phi&trade; Knights Landing」 搭載の 富士通製 HPC 向け次期 PC サーバを参考出展!!</p>
+      <p class="abs">
+・「Intel&reg; Xeon&reg; Phi&trade; Knights Landing」をサーバに 1 基搭載 <br />
+・理論ピーク性能:3TFlops を実現(1 サーバあたり)<br />
+・2U のシャーシに、「最大 8 サーバ」搭載可能(前面 4node、背面 4node) <br />
+・冷却システムは、空冷及び水冷をサポート 
+   </p>
+
+</div>
+</body>
+</html>

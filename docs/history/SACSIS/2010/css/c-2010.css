@@ -1,0 +1,43 @@
+/*
+ * for SACSIS2010
+ */
+a:link    { color: #f65; }
+a:visited { color: #d10; }
+a:hover   { color: white; background-color: #f87; }
+a:active  { color: #f00; }
+
+b  { color: #f54; font-weight: bold; }
+em { color: #d32; font-weight: bold; font-style: normal; }
+tt { color: #f54; font-weight: bold; font-style: normal; }
+address { border-color: #c10; color: #f54; }
+#title {
+  /*color: white;*/
+  /* background-color: #363;*/
+  color: #f65;
+  background-image: url(../images/suzaku.jpg);
+/*  height: 208px;
+  width: 1110px;*/
+}
+h1 { border-color: black; }
+h2 { border-color: #c10; color: #d54; }
+h3, h4 { color: #c10; border-color: #c10; border-style: dotted; }
+body { background-color: white; }
+div.main { background-color: white; } 
+
+.noticelink a:link    { color: #f65; }
+.noticelink a:visited { color: #d10; }
+.doublebar  { border-top: 2.5pt #009 dashed; }
+.singlebar  { border-top: 1pt #009 solid; }
+
+/* overwrite */
+div.navbar {
+  line-height:140%;
+  background-color: #e32;
+  border-left: 2.5px solid white;
+  padding: 0px;
+}
+div.navbar p { color: white; border-color: white; border-width: 2px; }
+div.navbar p.title { color: white; }
+div.navbar p a:link    { color: white; }
+div.navbar p a:visited { color: #eee; }
+div.navbar p a:hover   { color: #e32; background-color: white; }

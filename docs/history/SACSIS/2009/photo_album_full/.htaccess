@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "SACSIS2009"
+AuthUserFile /usr/local/PHASE/WWW/data/sacsis/2009/photo_album_full/.htpasswd
+AuthGroupFile /dev/null
+Require user sacsis2009oc

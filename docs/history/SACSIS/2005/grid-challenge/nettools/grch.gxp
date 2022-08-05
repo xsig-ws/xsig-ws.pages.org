@@ -1,0 +1,110 @@
+#
+# GXP Configuration File for Grid-Challenge Federation Environment
+#
+# Usage:
+#   Option 1: gxp <thisfile>
+#   Option 2: After you invoke gxp, "r <thisfile>"
+#   Option 3: save this file as ~/.gxprc  Then gxp automatically reads 
+#             this when invoked.
+#
+# When you have done any of the above, you are ready to type `explore',
+# to login all gateways of the GCF environment. After that, type explore again,
+# to login all internal nodes of the GCF environment (up to 500 nodes!).
+#
+# Configuration file specifies node names and login path to them, using a pattern 
+# matching syntax.
+#
+
+pythons python python2 /home/tau/local/Linux/bin/python /home/taue/local/Linux/bin/python
+
+#user endocccc istbs**
+
+# ----------------- Matsuken Cluster (100 nodes) -----------------
+#  gateway : nimbus.titech.hpcc.jp
+#  compile : nimbus.titech.hpcc.jp
+#  nodes   : pad000 - pad020, pad031 - pad115 (minus dead nodes)
+edges -> nimbus.titech.hpcc.jp
+cluster nimbus.titech.hpcc.jp pad???
+dup 1 nimbus.titech.hpcc.jp
+
+# Jan 27
+des pad04? pad05? pad06? pad07?
+
+# ----------------- Alab (Aida Lab) Cluster (30 nodes) -----------------
+#  gateway : gk.alab.ip.titech.ac.jp
+#  compile : blade00
+#  nodes :   blade01 - blade30 (minus dead nodes)
+edges -> gk.alab.ip.titech.ac.jp
+cluster gk.alab.ip.titech.ac.jp blade??
+dup 1 gk.alab.ip.titech.ac.jp
+
+# ----------------- Onoken Cluster (50 nodes) -----------------
+#  gateway : poole.is.tokushima-u.ac.jp
+#  compile : poole.is.tokushima-u.ac.jp
+#  nodes   : mp20_001 - mp20_052 (minus dead nodes)
+edges -> poole.is.tokushima-u.ac.jp
+cluster poole.is.tokushima-u.ac.jp mp20_???
+dup 1 poole.is.tokushima-u.ac.jp
+
+# ----------------- AIST Cluster (40 nodes) -----------------
+#  gateway : xcmp001.asc.hpcc.jp
+#  compile : xcmp001.asc.hpcc.jp
+#  nodes : xcmp002 - xcmp043 (minus dead nodes)
+edges -> xcmp001.asc.hpcc.jp
+cluster xcmp0??
+dup 1 xcmp001.asc.hpcc.jp
+
+# ----------------- HPCS Cluster (20 nodes) -----------------
+#  gateway : dennis-serv.omni.hpcc.jp
+#  compile : dennis-serv.omni.hpcc.jp
+#  nodes   : dennis01-15, alice01-05 (minus dead nodes)
+edges -> dennis-serv.omni.hpcc.jp
+cluster dennis** alice**
+dup 1 dennis-serv.omni.hpcc.jp
+
+# ----------------- YubaHonda Cluster (50 nodes) -----------------
+#  gateway : bluecore.is.uec.ac.jp
+#  compile : bluecore.is.uec.ac.jp
+#  nodes   : comp01 - 126 (minus dead nodes)
+edges -> bluecore.is.uec.ac.jp
+cluster bluecore.is.uec.ac.jp comp**
+dup 1 bluecore.is.uec.ac.jp
+
+# ----------------- Hirakiken Cluster (40 nodes) -----------------
+#  gateway : suidobashi00.logos.ic.i.u-tokyo.ac.jp
+#  compile : suidobashi00.logos.ic.i.u-tokyo.ac.jp
+#  nodes   : suidobashi01 - 41 (minus dead nodes)
+edges -> suidobashi00.logos.ic.i.u-tokyo.ac.jp
+cluster suidobashi**
+dup 1 suidobashi**
+
+# ----------------- istbs Cluster (107 nodes) -----------------
+#  gateway : istbs000.i.u-tokyo.ac.jp
+#  compile : istbs000.i.u-tokyo.ac.jp
+#  nodes   : istbs001 - istbs109 (minus dead nodes)
+edges -> istbs000.i.u-tokyo.ac.jp
+cluster istbs???
+dup 1 istbs000.i.u-tokyo.ac.jp
+
+# ----------------- sheep Cluster (63 nodes) -----------------
+#  gateway : shepherd.logos.k.u-tokyo.ac.jp
+#  compile : sheep65
+#  nodes   : sheep01 - sheep63 (minus dead nodes)
+edges -> shepherd.logos.k.u-tokyo.ac.jp 
+cluster shepherd.logos.k.u-tokyo.ac.jp sheep??
+dup 1 shepherd.logos.k.u-tokyo.ac.jp 
+
+#
+# NEVER REMOVE THIS LINE.
+# The following line removes nodes that are dead or are not allowed to use.
+# 
+
+r ~tau/remove.gxp
+
+# always out
+des alice06 alice07 alice08 alice09 alice1? alice2?
+des comp127 comp128 comp129 comp13?
+des istbs11? istbs12? istbs13? istbs14? istbs15? istbs16? istbs17? istbs18? istbs19?
+
+# dead
+des suidobashi037

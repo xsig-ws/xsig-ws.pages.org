@@ -1,0 +1,88 @@
+body { 
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+p { 
+    text-indent: 1em;
+    line-height: 20px;
+}
+
+a { 
+    color: #200000;
+/*  color: #930; */
+}
+
+h2 {
+    background-color: #ffc0a0;
+}
+
+h3 {
+    background-color: #fff0e0;
+}
+
+/* body.sponser */
+body.contents table.sponsor a { 
+    text-decoration: none;
+    color: #000000;
+}
+
+/* body.menu */
+body.menu ul {
+    line-height: 24px;
+    list-style: none;
+    vertical-align: middle;
+    letter-spacing: 0.2em;
+    margin-left: 0pt;
+    margin-top: 0pt;
+    padding-left: 0pt;
+}
+
+/*
+body.menu ul li {
+    margin-left: 0px;
+    padding-left: 0px;
+    display: block;
+}
+
+body.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    width: 120px;
+    font-weight: bold;
+    background-color: #ffc0e0;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 5px;
+    margin: 5px;
+    display: block;
+}
+*/
+
+body.menu ul li {
+    text-decoration: none;
+    color: #808080;
+    width: 100px;
+    font-weight: bold;
+    background-color: #ffc0e0;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 5px;
+    margin: 5px;
+    display: block;
+}
+
+body.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    width: 120px;
+    font-weight: bold;
+    background-color: #ffc0e0;
+    background-repeat: no-repeat;
+    background-position: center left;
+/*    padding-left: 5px;
+    margin: 5px;
+    display: block;
+*/
+}

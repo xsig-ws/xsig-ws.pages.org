@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+
+      <h4>
+	SACSIS2013 ポスター投稿方法
+      </h4>
+
+<p>
+SACSIS2013では，論文投稿システムとしてEasyChairを利用します．EasyChairを利用したことがある場合には，<string>1. EasyChairのアカウント作成手順</string>を読み飛ばして，<string>2. SACSIS2013への論文投稿手順</string>を御覧ください．EasyChairを利用したことがない場合には，以下の手順をご覧ください．
+</p>
+
+<p><strong>1. EasyChairのアカウント作成手順</strong></p>
+<ol>
+<li><a href="https://www.easychair.org/conferences/?conf=sacsis2013">
+SACSIS2013 EasyChairサイト</a>へアクセスしてください．</li>
+<li>"sign up for an account"をクリックしてください．</li>
+<li>"Step 1"で表示されている2つの単語を入力し，"continue"をクリックしてください．</li>
+<li>"Step 2"でFirst name, Last name, Emailアドレスを入力し，"continue"をクリックしてください．</li>
+<li>"Account Application Received"と出力され，仮手続が完了します．</li>
+<li>Step 2で登録したEmailアドレスにEasyChairシステムから"EasyChair account confirmation"という件名のメールが送られてきます．本文中のURLをクリックしてください．</li>
+<li>"Signing Up for EasyChair: Last Step"と出力された画面で，User name 
+(EasyChairシステムにログインする際に利用する)，所属，パスワード等の情報を入力し，"create my 
+account"をクリックしてください．</li>
+</ol>
+以上で，EasyChairのアカウント作成手続きが終了します．
+<p></p>
+
+<p><strong>2. SACSIS2013へのポスター投稿手順</strong></p>
+<ol>
+<li>SACSIS2013 EasyChairサイト: <br>
+<a href="https://www.easychair.org/conferences/?conf=sacsis2013">
+https://www.easychair.org/conferences/?conf=sacsis2013</a><br>
+へアクセスしてください．</li>
+
+<li>User name，Passwordを入力して，"Sign in"をクリックしてください．<br>
+<blockquote>
+<img src="images/login.png" alt="Valid XHTML 1.1" border="1" width="450">
+</blockquote>
+</li>
+
+<li>上部メニューの"New Submission"をクリックしてください．</li>
+<li>連絡先を入力してください．このページでは，論文が日本語で書かれている場合は日本語で，英語の場合は英語で入力してください．<br>
+<blockquote>
+<img src="images/poster_submission1.jpg" alt="Valid XHTML 1.1" border="1" width="450">
+</blockquote>
+</li>
+<li>著者全員の情報を入力してください．代表者には，"Corresponding 
+author"にチェックを入れてください．なお，論文が日本語で書かれている場合は日本語で，英語の場合は英語で入力してください． 
+入力欄が足りない場合は，"Click here to add more authors"をクリックしてください．<br>
+<blockquote>
+<img src="images/poster_submission2.jpg" alt="Valid XHTML 1.1" border="1" width="450">
+</blockquote>
+</li>
+<li>論文タイトルを入力してください．論文が日本語で書かれている場合は日本語で，英語の場合は英語で入力してください．<br>
+
+    概要は，100文字程度の短いものでかまいません．<br>
+
+    カテゴリーについては，投稿する論文に最も合致するものを1つ選んで下さい．<br>
+	
+    キーワードは，3つ以上入力してください．<br>
+
+    概要，カテゴリー，キーワードは，査読者の割り当てと賞審査員の割り当てに利用されます．
+<blockquote>
+<img src="images/poster_submission3.jpg" alt="Valid XHTML 1.1" border="1" width="450">
+</blockquote>
+</li>
+<li><font color="red">学生ポスターとして投稿する場合は，"Submit this poster paper as a student poster / このポスター論文を学生ポスターとして投稿する"に忘れずにチェックを入れてください．学生ポスターとして投稿する場合には，どの著者が学生かも指定してください．</font><br>
+<blockquote>
+<img src="images/poster_submission4.jpg" alt="Valid XHTML 1.1" border="1" width="450">
+<blockquote>
+</blockquote></blockquote></li>
+<li>
+ポスター論文として，PDF形式のファイルをアップロードしてください．
+<blockquote>
+<img src="images/poster_submission5.jpg" alt="Valid XHTML 1.1" border="1" width="450">
+</blockquote>
+</li>
+<li>入力内容を確認した後，"Submit"をクリックしてください．</li>
+<li>論文アップロード〆切まで，論文のアップロード，投稿した論文の差し替えが可能です．
+再度EasyChairシステムにログインし，上部メニューの"Paper &lt;論文番号&gt;"をクリックし，"Submit a new version"で論文のアップロード，差し替え手続きをしてください．
+</li>
+</ol>
+以上で，論文登録およびアップロードは完了します．
+<p></p>
+
+
+
+
+
+<br><br>	
+<h4>問い合わせ先</h4> 
+<table> 
+<colgroup><col width="150"> <col width="180"></colgroup>
+<tbody><tr><td>シンポジウム関係: </td><td>総務委員長</td><td>大嶋 裕子</td></tr>
+<tr><td>論文投稿関係: </td><td>プログラム副委員長（ポスター）</td><td>大山 恵弘</td></tr>
+<tr><td>広報関係: </td><td>広報委員長</td><td>江川隆輔</td></tr>
+<tr><td colspan="3"><a href="http://sacsis.hpcc.jp/2013/contact.html">http://sacsis.hpcc.jp/2013/contact.html</a></td></tr>
+</tbody></table>
+</div>
+　  <?php include("include/footer.html");?>
+  </body>
+</html>
+  
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+<h4>ACSI について</h4>
+
+<?php include("include/aboutacsi-ja.html");?>
+
+<h4>ACSI2015 　開催期間・会場</h4>
+
+<h2><p style="text-align:center">
+Annual Meeting on Advanced Computing System and Infrastructure (ACSI) 2015</p></h2>
+<p></p>
+
+<table>
+  <tr><td>日時: </td><td>2015年1月26日(月)&sim;1月28日(水)</td></tr>
+  <tr><td>会場: </td><td><a href="http://www.epochal.or.jp/">つくば国際会議場</a></td></tr>
+</table>
+
+
+<p></p>
+<h4>お知らせ</h4>
+<p> <span class="notice">
+<table>
+<tr><td>2014.5.20</td><td>本ページを作成しました．</td></tr>
+<tr><td>2014.6.6</td><td>Preliminary_CFPを追加しました．</td></tr>
+<!-- <tr><td>2014.7.1</td><td>プログラム委員会を追加しました．</td></tr> -->
+<tr><td>2014.7.23</td><td>論文募集要項を追加しました．</td></tr>
+<tr><td>2014.8.29</td><td>論文投稿ページを追加しました．</td></tr>
+<tr><td>2014.11.13</td><td>ポスタ募集、企業・団体展示募集ページを追加しました．</td></tr>
+<tr><td>2014.12.15</td><td>プログラムを追加しました．</td></tr>
+<tr><td>2014.12.19</td><td>参加案内・申込を追加しました．</td></tr>
+<tr><td>2015.1.13</td><td>ポスターをプログラムに追加しました．早期申込期限を1/16(木)12:00 に延長しました．</td></tr>
+<tr><td>2015.1.19</td><td>企業展示のページを追加しました．</td></tr>
+<tr><td>2015.1.30</td><td>チュートリアル資料、invited session資料をdownloadページに追加しました．（要パスワード）</td></tr>
+<tr><td></td><td>基調講演資料をdownloadページに追加しました．（要パスワード、チュートリアル資料とともに3月下旬に一般公開の予定）</td></tr>
+<tr><td>2015.4.6</td><td>基調講演資料およびチュートリアル資料を公開し、プログラムからリンクを張りました．</td></tr>
+</table>
+</span></p>
+
+
+<p></p>
+<h4>重要日程</h4>
+<?php include("include/important-dates-ja.html");?>
+
+<p></p>
+<h4>主催（順不同）</h4>
+<ul>
+<li> <a href="http://www.ipsj.or.jp/">（社）情報処理学会</a>・<a href="http://sigarc.ipsj.or.jp/">計算機アーキテクチャ研究会</a> (ARC)</li>
+<li> 同・<a href="http://www.ipsj.or.jp/sig/os/">システムソフトウェアとオペレーティングシステム研究会</a> (OS)</li>
+<li> 同・<a href="http://www.hpcc.jp/sighpc/">ハイパフォーマンスコンピューティング研究会</a> (HPC)</li>
+<li> 同・<a href="http://www.ipsj.or.jp/sig/pro/">プログラミング研究会</a> (PRO)</li>
+</ul>
+
+<h4>協賛</h2>
+<ul>
+<li> <a href="http://www.jhpcn-kyoten.itc.u-tokyo.ac.jp/ja/">JHPCN</a>（学際大規模情報基盤共同利用・共同研究拠点）
+</ul>
+</div>
+
+    <?php include("include/footer.html");?>
+<div>
+  <p class="validation">
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://www.w3.org/Icons/valid-xhtml11-blue"
+	   alt="Valid XHTML 1.1" /></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+	   alt="Valid CSS" /></a>
+  </p>
+</div>
+</body>
+</html>

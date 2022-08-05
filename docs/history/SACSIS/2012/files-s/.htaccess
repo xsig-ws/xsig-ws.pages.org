@@ -1,0 +1,4 @@
+AuthType	Basic
+AuthName	"SACSIS 2012 Tutorial Slide."
+AuthUserFile	/home/sacsis/html/sac12-tutorial.dat
+require valid-user

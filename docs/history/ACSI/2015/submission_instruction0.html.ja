@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="ACSI2015" />
+ <link href="css/2015.css" rel="stylesheet" type="text/css" />
+ <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+ <link rel="icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+ <title>ACSI2015</title>
+ <meta name="description" content="ACSI (Anual Meeting on Advanced Computing System and Infrastructure)" />
+ <style type="text/css">
+   <!--
+       img.ec {
+       padding: 12px 0px;
+       }
+     -->
+ </style>
+</head>
+
+  <body>
+    <div id="title">
+<br/>
+<div style="font-size:42px;text-align:left;font-family: Verdana, Helvetica, sans-serif;font-weight: bold;">ACSI</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<div style="font-size:20px;text-align:right;font-family: Verdana, Helvetica, sans-serif;font-weight: bold;">Jan 26-28, 2015<br />Tsukuba, JAPAN</div>
+<br/>
+</div>
+    <div class="navbar" style="line-height:140%">
+  <p class="title">Index / Links</p>
+  <span class="hideme">|</span>
+  <a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+  <span class="hideme">|</span>
+
+  <p class="main">
+    <span class="hideme">|</span><a href="./index.html.ja" title="ACSI2015">ACSI2015&nbsp;Top</a>
+    <!-- <span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a> -->
+    <!-- <span class="hideme">|</span> -->
+	<!--<a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span> -->
+	<!--<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span> -->
+	<a href="CFP.html.ja">論文募集要項</a> <span class="hideme">|</span>
+	<a href="submission_instruction.html.ja">論文投稿ページ</a> <span class="hideme">|</span>
+	<!--<a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span> -->
+	<!--<a href="cfsponsor.html.ja">企業・団体展示募集</a> <span class="hideme">|</span> -->
+	<!--<a href="program.html.ja">プログラム()<br/></a><span class="hideme">|</span> -->
+	<!--<a href="program.html.ja">プログラム</a><span class="hideme">|</span> -->
+    <!--     <span>プログラム (4月)<span> <span class="hideme">|</span><br /> -->
+    <!-- <a href="cfpart.html.ja">参加募集</a><span class="hideme">|</span> -->
+    <!--     <span><a href="cfpart.html.ja">参加募集<span> <span class="hideme">|</span><br /> -->
+	<!--<a href="http://www.ipsj.or.jp/kenkyukai/event/sacsis2013.html">参加案内・申込<br/></a><span class="hideme">|</span> -->
+	<!--<a href="exhibit.html.ja">企業・団体展示</a><span class="hideme">|</span> -->
+	<!-- <a href="location.html.ja">会場案内</a> <span class="hideme">|</span> -->
+	<a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+	<a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+		
+  </p>
+</div>
+<hr class="hideme" />
+    <div class="main" style="font-size: large;">
+
+<h4> EasyChairによるACSI2015論文投稿方法 </h4> 
+
+<p>
+ACSI2015では，論文投稿システムとしてEasyChairを利用します．
+このチュートリアルでは，EasyChairを用いて論文投稿を行う手順を説明します．
+<br>
+EasyChairを利用したことがある場合には，<string>1. EasyChairのアカウント作成手順</string>を飛ばして，<string><a href="#submission">2. ACSI2015への論文投稿手順</a></string>を御覧下さい．EasyChairを利用したことがない場合には，以下の1.からの手順をご覧下さい．
+</p>
+
+
+<p><strong>1. EasyChairのアカウント作成手順</strong></p>
+
+<ol>
+<li>ACSI2015 EasyChairサイト <br>
+<a href="https://www.easychair.org/conferences/?conf=acsi2015">
+https://www.easychair.org/conferences/?conf=acsi2015</a><br>
+へアクセスして下さい．</li>
+
+<li>ログイン画面が表示されますので，"sign up for an account"のリンクをクリックして下さい．<br>
+<img class="ec" src="./submission_figs/ec_login.png" width="1024" height="314" alt="Login" border="1"/></img>
+</li>
+
+<li>"Step 1"で表示されている2つの単語を入力し，"Continue"をクリックして下さい．<br>
+<img class="ec" src="./submission_figs/ec_step1.png" width="1024" height="432" alt="Step1" border="1"/></img>
+</li>
+
+<li>"Step 2"でFirst name, Last name, Emailアドレスを入力し，"Continue"をクリックして下さい．<br>
+<img class="ec" src="./submission_figs/ec_step2.png" width="1024" height="398" alt="Step2" border="1"/></img>
+</li>
+
+<li>"Account Application Received"と出力され，仮手続が完了します．<br>
+<img class="ec" src="./submission_figs/ec_step3.png" width="1024" height="151" alt="Application Finished" border="1"/></img>
+</li>
+
+<li>Step 2で登録したEmailアドレスにEasyChairシステムから"EasyChair account confirmation"という件名のメールが送られてきます．手続きを進めるために，本文中のURLをクリックして下さい．</li>
+
+<li>"Last Step"として，User name (EasyChairシステムにログインする際に利用)，所属，パスワード等の情報を入力し，"Create my account"をクリックして下さい．<br>
+<img class="ec" src="./submission_figs/ec_step4.png" width="1024" height="564" alt="Last Step" border="1"/></img>
+</li>
+
+</ol>
+
+<p>
+以上で，EasyChairのアカウント作成手続きが終了します．
+</p>
+
+
+
+<p><strong><a name="submission">2. ACSI2015への論文投稿手順</a></strong></p>
+
+<ol>
+<li>ACSI2015 EasyChairサイト <br>
+<a href="https://www.easychair.org/conferences/?conf=acsi2015">
+https://www.easychair.org/conferences/?conf=acsi2015</a><br>
+へアクセスして下さい．</li>
+
+<li>User name，Passwordを入力して，"Log in"をクリックして下さい．<br>
+<img class="ec" src="./submission_figs/ec_login.png" width="1024" height="314" alt="Login" border="1"/></img>
+</li>
+
+<li>上部メニューの"New Submission"をクリックして下さい．</li>
+
+<li>投稿するトラック名にチェックを入れて，"Continue"をクリックして下さい．なお，ポスター論文投稿期間になれば，ポスター論文の選択肢も追加されます．<br>
+<img class="ec" src="./submission_figs/ec_submit1.png" width="1024" height="361" alt="Choose track" border="1"/></img>
+</li>
+
+<li>連絡先を入力して下さい．入力は英語と日本語どちらでもかまいません．<br>
+<img class="ec" src="./submission_figs/ec_submit2a.png" width="1024" height="308" alt="Fill contact information" border="1"/></img>
+</li>
+
+<li>著者全員の情報を入力して下さい．投稿担当者(複数人可)には，"Corresponding author"にチェックを入れて下さい．EasyChairからのメールは投稿担当者にのみ送られます．入力欄が足りない場合は，"Click here to add more authors"をクリックして下さい．<br>
+<img class="ec" src="./submission_figs/ec_submit2b.png" width="1024" height="422" alt="Fill authors1" border="1"/></img>
+<img class="ec" src="./submission_figs/ec_submit2c.png" width="1024" height="132" alt="Fill authors2" border="1"/></img>
+</li>
+
+<li>論文タイトル，概要，キーワードを入力して下さい．キーワードは各行に1個ずつ，最低3個入力して下さい．<br>
+<img class="ec" src="./submission_figs/ec_submit2d.png" width="1024" height="552" alt="Fill Title" border="1"/></img>
+</li>
+
+<li><font color="red">"Topics"にある追加の確認事項をチェックして下さい．</font><br>
+筆頭著者が学生の場合は，"The first author is a student. / 筆頭著者は学生である．"にチェックを入れて下さい．<br>
+また，英語で査読結果を希望する場合，"Want to receive review result in English. / 英語での査読結果を希望する．"にチェックを入れて下さい．なお，日本語の査読結果を指定することはできません．未チェックの場合，査読結果は日本語または英語により記述されます．<br>
+<img class="ec" src="./submission_figs/ec_submit2e.png" width="1024" height="112" alt="Fill Topics" border="1"/></img>
+</li>
+
+<li>
+論文登録のみを行う場合は，"Abstract Only"にチェックを入れて下さい．
+論文も同時にアップロードする場合は，PDF形式のファイルをアップロードして下さい．<br>
+<img class="ec" src="./submission_figs/ec_submit2f.png" width="1024" height="240" alt="Attach paper" border="1"/></img>
+</li>
+
+<li>入力内容を確認した後，"Submit"をクリックして下さい．</li>
+
+<li>論文アップロード〆切まで，論文のアップロード/差し替え，投稿情報の修正が可能です．
+再度EasyChairシステムにログインし，上部メニューの"Paper &lt;論文番号&gt;"を
+クリックして下さい．右上にある"Upload a new version"で
+論文のアップロード/差し替え，"Update information / authors"で
+投稿情報の修正手続きが可能です．<br>
+<img class="ec" src="./submission_figs/ec_submit3.png" width="1024" height="273" alt="Update" border="1"/></img>
+</li>
+
+</ol>
+
+<p>
+以上で，論文登録およびアップロードは完了します．
+</p>
+
+
+
+
+
+<br><br>	
+<h4>問い合わせ先</h4> 
+<table> 
+  <colgroup>
+    <col width="250">
+  </colgroup>
+
+  <tbody>
+    <tr><td>
+	ACSI2015組織委員会: 
+      </td><td>
+	acsi2015 .at. ccs.tsukuba.ac.jp
+    </td></tr>
+
+    <tr><td>
+	論文投稿関係: 
+      </td><td>
+	プログラム副委員長(一般論文) 嶋田 創(EasyChairのAddress for inquiries参照)
+    </td></tr>
+  </tbody>
+</table>
+
+</div>
+
+</body>
+</html>

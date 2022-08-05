@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      
+      <h4>お問い合わせ</h4>
+      <dl>
+	<dt>シンポジウム問合わせ先:</dt>
+	<dd>総務担当&nbsp;&nbsp;村井 均&nbsp;(h-murai <span> "at" </span> riken "dot" jp)
+	</dd>
+	<dt>投稿関連問合わせ先:</dt>
+	<dd>
+	プログラム委員長&nbsp;&nbsp;中田 秀基&nbsp;(hide-nakada <span> "at" </span> aist "dot" go "dot" jp)<br/>
+	プログラム副委員長(論文)&nbsp;&nbsp;入江 英嗣&nbsp;(irie <span> "at" </span> is "dot" uec "dot" ac "dot" jp)<br/>
+	プログラム副委員長(ポスター)&nbsp;&nbsp;遠藤 敏夫&nbsp;(endo <span> "at" </span> is "dot" titech "dot" ac "dot" jp)
+	</dd>
+	<dt>企画展示問合わせ先:</dt>
+	<dd>企画展示担当&nbsp;&nbsp;登内 敏夫&nbsp;(tonouchi <span> "at" </span> cw "dot" jp "dot" nec "dot" com)
+	</dd>
+	<dt>本Webページに関する問合わせ先:</dt>
+	<dd>広報担当&nbsp;&nbsp;市川 昊平&nbsp; (ichikawa <span> "at" </span> cmc "dot" osaka-u "dot" ac "dot" jp)
+	</dd>
+      </dl>
+
+      <p>
+	SACSIS2012 の組織委員会は<a href="committee.html.ja">こちら</a>
+      </p>
+
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2008.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2008 Theme and Topics</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<div class="main">
+<!--@@2008_NAVIGATION@@-->
+
+<h4>
+シンポジウムの会場案内
+</h4>
+
+<ul>
+  <li> <a href="http://www.epochal.or.jp/">つくば国際会議場</a> <br />
+    (懇親会はつくば国際会議場内で行われます)<br />
+    〒305-0032　茨城県つくば市竹園2-20-3 / TEL：029-861-0001 / FAX：029-861-1209 </li>
+  <li> <a href="http://www.epochal.or.jp/access/index.html">交通アクセス</a> (<a href="http://www.epochal.or.jp/access/map_shuhen.html">周辺地図</a>)</li>
+
+  <li><a href="http://www.epochal.or.jp/hotels/index.html">宿泊施設のご案内</a><br />（<a href="http://www.epochal.or.jp/hotels/hotel_list.html">周辺ホテル一覧</a>）</li>
+</ul>
+
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

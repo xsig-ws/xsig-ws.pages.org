@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+
+      <h4>
+	Call for Papers: The Eleventh Symposium on Advanced Computing Systems and Infrastructures (SACSIS 2013)
+      </h4>
+      <?php include("include/date-place-en.html");?>
+
+	  <h4>Important Dates</h4>
+      <?php include("include/schedule-cfp-en.html");?>
+
+      <h4>Overview</h4> 
+    SACSIS (Symposium on Advanced Computing Systems and Infrastructures) is a forum that started at year 2003.  The eleventh event of this series happens in Sendai, from May 22 (Wed) thru 24 (Fri), 2013.  The general interests include but are not limited to:
+
+<ul>
+
+<li>Advanced Computing Technologies<br>
+
+    SACSIS aims to be a forum in which interested people discusses
+    recent advances and future directions of computing technologies
+    from various view points.  It has a broad interest in systems,
+    infrastructures, and key components that advance computing
+    systems.
+
+<li>Systems and Infrastructures<br>
+
+    SACSIS is broadly interested in systems and infrastructures at
+    work focusing on practicality, usability, and applicability; the
+    interest is not limited to novel cutting-edge technologies.
+
+</ul>
+
+      <p>
+
+	We widely solicit papers that describe novel ideas,
+	experiences useful to others including implementation and case
+	studies, systems and infrastructures of practical importance
+	from the following fields.
+
+      </p>
+<!--      <?php include("include/theme-en.html");?> -->
+      
+<ul>
+<li>    Computational science applications
+<li>    Numerical algorithms and libraries
+<li>    Large scale data analysis
+<li>    High performance computing environments (supercomputers, clusters, and clouds)
+<li>    Programming languages and libraries
+<li>    Operating systems
+<li>    High performance networking
+<li>    Computer architecture
+
+</ul>
+
+      <h4>Submission Categories</h4>
+
+      <p><strong>[Regular Papers]</strong></p>
+      <ol>
+	<li>
+	  High quality papers that established significant results and
+	  ideas are solicited in this category.  Papers must be
+	  written in Japanese or English, and must be within eight A4
+	  pages.  They must be original work that have not appeared in
+	  or are under review for other peer-reviewed conferences or
+	  journals, domestic or international, of all categories
+	  including regular papers, letters, technical notes, and
+	  post-deadline papers (the rule is different from ACS
+	  transaction).  Papers that appeared in journals or
+	  conferences whose publications (e.g. proceedings) do not
+	  have ISBN or ISSN can be submitted.
+	</li>
+	
+	<li>
+	  SACSIS gives a <b>best paper award</b> to the best paper in
+	  this category.  It is selected based on significance and
+	  quality of the research as well as its presentation in the
+	  paper.
+	</li>
+	<br>
+	<li>
+	  SACSIS gives <b>young researcher award</b> to up to three
+	  papers written by young researchers.  To be eligible, the
+	  primary author of the paper must be approximately thirty or
+	  younger.  The awards aim at honoring promising young
+	  researchers and appreciate researches that offer interesting
+	  view points and hopes in their further developments.
+	</li>
+	</ol>
+	
+	<p id="notice"><strong>[*** Transaction on ACS: Special issue on SACSIS ***]</strong></p>
+	<ol>
+	  <li>
+	    From the last year, there are no calls for SACSIS/ACS
+	    combined (simultaneous) submissions, which SACSIS/ACS used
+	    to solicit in past years.  There will instead be a special
+	    issue on SACSIS in the ACS transaction, which will be
+	    announced about three weeks after the notification of
+	    SACSIS review results.  In this issue, submissions based
+	    on a paper that appeared in SACSIS is refereed by the same
+	    referees who reviewed the SACSIS paper, and thus will be
+	    reviewed faster than regular submissions.  SACSIS
+	    committee encourages authors to submit papers based on
+	    their SACSIS papers to this special issue.  Please note,
+	    however, that the special issue is judged according to the
+	    criterion of ACS transaction, which are not identical to those of
+	    SACSIS.
+	  </li><br>
+	   
+	   <li>
+	     Remarks: there will be call for papers to ACS transaction
+	     in mid December before SACSIS; papers submitted to this
+	     issue of ACS transaction cannot be submitted to SACSIS.
+	   </li>
+	</ol>
+
+	   <p><strong>[Exploratory short papers]</strong></p>
+	   <ol>
+	   <li>
+	     Papers that explore promising directions with useful
+	     results and ideas are solicited in this category.  Papers
+	     must be written in Japanese or English, and must be
+	     within four A4 pages.  We not only welcome papers that
+	     have established results but also appreciate research in
+	     progress of which the community looks forward to further
+	     development.  They must be original work that have not
+	     appeared in or are under review for other peer-reviewed
+	     conferences or journals, domestic or international, of
+	     all categories including regular papers, letters,
+	     technical notes, and post-deadline papers (the rule is
+	     different from ACS transaction).  Papers that appeared in
+	     journals or conferences whose publications
+	     (e.g. proceedings) do not have ISBN or ISSN can be
+	     submitted.
+	   </li><br>
+	   
+	   <li> Remarks: similarly to regular papers, papers submitted
+	     to the issue of ACS transaction due in December cannot be
+	     submitted to SACSIS.
+	   </li>
+	   </ol>
+	</p>
+
+	     <p><strong>[Poster papers]</strong></p>
+      <ol>
+	<li>
+	  There will be call for poster papers after the notification
+	  of regular/exploratory papers.  Submissions will be open in 
+	  mid March.
+	</li>
+	<br>
+	<li>
+	  Poster papers are also reviewed, but we actively accept
+	  early-stage researches, problem-raising researches, etc.
+	  and provide a place to discuss them with symposium
+	  participants.
+	</li><br>
+	<li>
+	  SACSIS gives excellent poster award and excellent student
+	  poster award.  The former will be given to the best poster 
+	  among all accepted posters.  The latter will be selected
+	  from posters presented by students.
+	</li>
+      </ol>
+
+	<p>[Type setting instructions and author kit]</p>
+      <ul>
+	<li>
+	  The authors should follow the guidelines below.
+	</li>
+	<li>Style files and templates:
+	  <ul>
+	    <li>LaTeX: <a href="latexform.html">http://sacsis.hpcc.jp/2013/latexform.html</a></li>
+	    <li>Word: <a href="sacsis-form12.doc">http://sacsis.hpcc.jp/2013/sacsis-form12.doc</a></li>
+	  </ul>
+	</li>
+	<li>File format: PDF</li>
+      </ul>	
+
+      The authors should choose one of the following tracks that most
+      closely match your work.  In case the work does not clearly fit
+      any particular track or it is difficult to choose one with other
+      reasons, it may be left unspecified.  The program committee will
+      then decide an appropriate track.  When appropriate, the
+      committee may also move your submission to a track different from
+      the one specified.
+      <dl>
+	<dt>Track A: Applications and algorithms (chair : Takeshi Iwashita)</dt>
+	<dd>
+	  Computational science, simulations, high performance computing,
+	  numerical algorithm and libraries, auto tuning, large-scale data
+	  processing algorithms, power-saving algorithms, algorithmic 
+	  fault tolerance
+	</dd>
+	<dt>Track B: Programming and systems software (chair: Hiroshi Inoue)</dt>
+	<dd>
+	  Operating systems, programming language design and implementation,
+	  virtualization technology, data intensive computing systems 
+	  (MapReduce, KVS), file systems, databases, cloud computing,
+	  cyber-physical systems, grid computing, security, communication
+	  libraries, wide area networking, large scale system management
+	  and evaluation
+	</dd>
+	<dt>Track C: System architecture (chair: Kenji Kise)</dt>
+	<dd>
+	  system architecture, network architecture, memory architecture,
+	  processor architecture, heterogeneous architecture (GPU, many cores),
+	  reconfigurable systems, embedded systems, application-specific
+	  architecture, dependable systems, low power design
+	</dd>
+	
+	<br><br>	
+<h4>Paper Submission</h4>
+Please submit your paper from <b><a href="instruction.html.en">Paper Submission Page</a><b> .
+
+	
+<br><br>	
+<h4>Contact</h4> 
+<table> 
+<colgroup><col width="150" /> <col width="180" /></colgroup>
+<tr><td>Symposium:</td><td>General management committee chair</td>
+  <td>Yuko Oshima</td></tr>
+<tr><td>Paper submission:
+  </td><td>Program vice chair (papers)</td><td>Atsuko Takefusa</td></tr>
+<tr><td>Public relation: </td><td>Publicity chair</td><td>Ryusuke Egawa</td></tr>
+<tr><td colspan="3"><a href="contact.html">http://sacsis.hpcc.jp/2013/contact.html</a></td></tr>
+</table>
+</div>
+<?php include("include/footer.html");?>¡¡
+ 
+  </body>
+</html>

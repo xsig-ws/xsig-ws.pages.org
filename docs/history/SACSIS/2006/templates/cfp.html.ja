@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2006.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2006 Call for Papers </title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2006_NAVIGATION@@-->
+<div class="main">
+
+<p style="margin-top:15pt">
+<a href="include/cfp.txt">テキスト版CFP</a><br />
+<!--##LAST_MODIFIED:include/cfp.txt##-->
+</p>
+
+<h4>
+Call For Papers 
+</h4>
+
+<div class="noticelink">
+<!--@@cfp.txt@@-->
+</div>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

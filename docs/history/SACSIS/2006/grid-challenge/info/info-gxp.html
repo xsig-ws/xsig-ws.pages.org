@@ -1,0 +1,451 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<title>Grid Challenge 2006 GXPのページ</title>
+</head>
+
+<body>
+
+<center>
+<p>
+<img src="../grch6.png">
+</p>
+<p>
+<b><font face="sans serif" size="+2">
+Grid Challenge 2006 GXPのページ
+</font></b>
+</p>
+</center>
+
+<hr>
+<b>はじめに：</b>
+<p>
+Grid Challengeで提供される環境(GCF)では、日常利用および並列プログラミ
+ングのためのツールとしてGXPが提供、設定されます。その他のツールについ
+ては、参加者用の<a href=info.html>トップページ</a>を御覧下さい。
+</p>
+
+
+<hr>
+<b>GXPとはなんなんでしょうか?：</b>
+<p>
+<ul>
+
+<li>Primaryには、多数のマシンをsshで同時にログインしてインタラクティブ
+に使うためのツールです。コマンドをタイプすると、それが一斉に多数のノー
+ドで起動する、というのが最もベーシックな機能です。GXPはsshでログインで
+きるノードであればほとんど直ちに使えるツールです(自分のホストにインス
+トールしてそこからGCF環境へGXPを使ってログインすることも容易です)．
+
+<li>分散環境における日常作業を効率化するのに使えるほか，単純なタスクで
+あれば，ほとんど並列プログラミングやネットワークプログラミングをするこ
+となしに，並列処理が簡単に行えます．
+
+<li>デモ、マニュアル、などの情報は
+<a href=http://www.logos.ic.i.u-tokyo.ac.jp/phoenix/gxp_quick_man_ja.shtml>
+こちら</a>。
+
+<li>GCF環境を使っているデモは<a href=gxp-grch-demo.wmv>こちら</a>。
+</ul>
+</p>
+
+<hr>
+<b>今回の環境でどう使ったらいいのか手っ取り早く教えてくれませんか? ：</b>
+
+<p>GCFの各マシンにはすでにGXPが使えるようにインストールされています
+ので，もっとも手っ取り早くは以下のようにします．設定の確認をかねて
+以下のステップをたどってみてください．
+</p>
+
+<hr>
+<b>SSH設定の確認・設定</b>
+<p>まずsshを使って普通にログインできる確認・設定を行います．これはGXP
+以外でも，たとえばmpichを使う場合でも必要です．sshをよく知っている人には，
+「sshでクラスタ内のノード間でパスフレーズを打ち込むことなくログイン
+できるように設定してください」とだけ言っておきます．
+</p>
+
+<ul>
+<li>確認1: <p>アカウントができたという知らせを受けたら，参加者用の<a
+href=info.html>トップページ</a>をみて，自分のホストから，GCFのゲー
+トウェイノードのどれかにsshでログインできることを確認します．どれか好
+きな入り口ホストを決めて，以下の手順でログインしてください．以下では
+istbs000.i.u-tokyo.ac.jpとします．</p>
+
+<pre>
+your_host$ ssh grch123@istbs000.i.u-tokyo.ac.jp
+istbs000$ 
+</pre>
+
+もちろんgrch123の部分は自分に割り当てられたユーザ名に置き換えます．
+
+<li>確認2: 
+<p>この時点では自分のホストからゲートウェイへのログインはできますが，
+ゲートウェイから他のノードへのsshを用いたログインは出来ません．
+たとえば以下のようなログインは失敗します．</p>
+
+<pre>
+istbs000$ ssh istbs001.i.u-tokyo.ac.jp
+</pre>
+
+<p>こうなる理由は，各ノードはyour_hostに対する公開鍵を持っている(その
+ように管理者によって設定されている)が，istbs000の秘密鍵(まだ存在して
+いない)に対する公開鍵は持っていないからです．公開鍵は
+~grch123/.ssh/authorized_keysというファイルに設定されています．</p>
+
+<p>ゲートウェイ以外へもログインできるようにするには，二つの方
+法があります．方法1はsshのエージェント転送機能を使う方法，方法2は各入
+り口ノードで公開鍵を設定する方法です．</p>
+
+<ul>
+<li>方法1: sshのエージェント転送機能を使う．
+<p>
+この方法は新たに鍵を生成する必要がなく手軽ですが，多数のノードへログイ
+ンしようとすると，認証のために自分のホストがボトルネック・高負荷(不安
+定要因)になる可能性があります．設定の容易さから，まずはこちらを試して
+みるとよいと思います．</p>
+
+<p>
+一度GCFのゲートウェイからログアウトして自分のホストへ戻ってください．
+そこで以下の手順でゲートウェイへログインします．</p>
+<pre>
+your_host$ eval `ssh-agent`
+your_host$ ssh-add
+your_host$ ssh -A grch123@istbs000.i.u-tokyo.ac.jp
+istbs000$ 
+</pre>
+
+<p>最初の2行のおまじないの後，sshで実際にログインする際に-Aオプション
+をつけてください．このようにしておくと，istbs000から他のノードへもログ
+インできるようになります．たとえば，</p>
+
+<pre>
+istbs000$ ssh istbs001.i.u-tokyo.ac.jp
+istbs001$ 
+</pre>
+
+入り口ノード間でログインをすることも可能です．
+<pre>
+istbs000$ ssh shepherd.logos.k.u-tokyo.ac.jp
+shepherd$ 
+</pre>
+
+<p>これが成功するための前提条件はistbs001やshepherdがyour_hostの公開鍵
+を持っている，ということであり，これはグリチャレ委員会によって設定され
+ています(はず)．実際の認証は，your_hostがistbs000に代わって
+行っていると理解してください．したがってGXPやmpichを利用した場合のよう
+に，多数のノードへ同時にログインが行われる場合，your_hostの負荷が一時
+的に高くなる可能性があります．この機能をsshのエージェント転送(Agent
+Forwarding)と呼びます．
+</p>
+
+<li>方法2: 入り口ノードでも公開鍵・秘密鍵ペアを生成し，前
+入り口ホストへコピーする．
+
+<p>sshのエージェント転送を使う代わりに，各クラスタのゲートウェイで公開
+鍵・秘密鍵ペアを生成し，登録することも出来ます．これを一度しておけば，
+上記のssh-agentやssh-addが不要になり，-Aオプションも不要になりますが，
+多少作業が必要です．やり方は，<b>各ゲートウェイで</b>以下を行います．
+以下はistbs000での作業例を示します．
+<pre>
+istbs000$ ssh-keygen -t dsa
+Generating public/private dsa key pair.
+Enter file in which to save the key (/home/grch123/.ssh/id_dsa): [リターン]
+</pre>
+
+<p>[リターン]を入力すると，秘密鍵を読み出す際に必要なパスフレーズを聞
+かれますが，GXPのためにはパスフレーズを空(そのままリターンを押す)にし
+てください．</p>
+
+<p>この結果， /home/grch123/.ssh/id_dsa というファイル(秘密鍵)と，
+/home/grch123/.ssh/id_dsa.pub というファイル(公開鍵)が生成されます．
+次に公開鍵を適切な場所に設定します．具体的には，
+/home/grch123/.ssh/authorized_keysというファイルの中に，id_dsa.pubの
+内容(ファイル名ではありません)を加えます．エディタを用いても良いですが，
+たとえば以下のようにしてもできます．
+</p>
+
+<pre>
+istbs000$ cd /home/grch123/.ssh
+istbs000$ cp authorized_keys authorized_keys.bak  # 不要だが念のため
+istbs000$ cat id_dsa.pub >> authorized_keys       # 注意! &gt;ではなく，&gt;&gt;を使う
+</pre>
+
+<p>一般にsshでは，「秘密鍵をもつホスト」から，「対応する公開鍵を
+authorized_keys中に登録してあるホスト」へのログインが可能です．今の場
+合上記の設定をおこなうと，クラスタ内のホストは/home 以下のディレクトリ
+を共有しているために，結果としてクラスタ内の任意のホスト間でログインが
+出来るようになります．この作業を各ゲートウェイで行う必要があります．</p>
+
+<p>上記の設定が終わったら，以下で確認してみてください．</p>
+<pre>
+istbs000$ ssh istbs001
+istbs001$
+</pre>
+
+<p>クラスタをまたがって/home 以下のディレクトリは共有されていないため，
+上記の設定で，istbs000から他のクラスタのゲートウェイへログインすることは出来
+ません．そうするためには，id_dsa.pubを目標ノードへコピーし，
+authorized_keysに書き足す必要があります．現時点では目標ノードへscpでき
+る(sshログインできるのと同じことです)ホストはyour_hostだけでしょうから，
+結局以下のようにすることになります．以下では，istbs000で生成した.
+ssh/id_dsa.pubをshepherdの.ssh/authorized_keys に書き足す手順の例です．
+</p>
+
+<pre>
+istbs000$ logout   # いったんyour_hostへ戻る
+your_host$ scp grch123@istbs000.i.u-tokyo.ac.jp:.ssh/id_dsa.pub bs.pub  
+                       # istbs000 -> your_host へ id_dsa.pub をコピー
+your_host$ scp bs.pub grch123@shepherd.logos.k.u-tokyo.ac.jp:.ssh/bs.pub
+your_host$ ssh grch123@shepherd.logos.k.u-tokyo.ac.jp
+shepherd$ cd .ssh
+shepherd$ cp authorized_keys authorized_keys.bak   # 用心
+shepherd$ cat bs.pub >> authorized_keys
+</pre>
+
+<p>上記の設定が終わったら，以下で確認してみてください．</p>
+<pre>
+your_host$ ssh grch123@istbs000.i.u-tokyo.ac.jp
+istbs000$ ssh shepherd.logos.k.u-tokyo.ac.jp
+shepherd$
+</pre>
+</ul>
+</ul>
+
+<hr>
+<b>GXP</b>
+<p>無事sshでログインできることが確認できたら，
+いよいよgxpを使ってログインしてみます．gxpは、GCF全ノードにおいて、
+/home/tau/grch06/bin にインストールされているので、gxpを最初に
+起動したいどこかの入り口ホスト(例: istbs000)で 
+~/.bashrc および ~/.bash_profile に以下を追加しておいて下さい。</p>
+<pre>
+export PATH=/home/tau/grch06/bin:$PATH
+</pre>
+その上でもう一度ログインし直すか、
+<pre>
+. ~/.bashrc
+</pre>
+として下さい。
+<p>
+注: /home/tau/grch06/binにはこのほかにpythonとmpichのコマンド(mpicc,
+mpirun)もインストールされています．gxpはpythonを用いています．
+</p>
+
+<p>以下ではyour_hostからistbs000へsshログインし，そこで
+gxpを起動すると仮定します．また，入り口ホストでの鍵生成は行わず，
+前述した方法1: エージェント転送機能を用いると仮定します．
+</p>
+<pre>
+your_host$ eval `ssh-agent`
+your_host$ ssh-add
+your_host$ ssh -A grch123@istbs000.i.u-tokyo.ac.jp
+istbs000$ gxp
+GXP[1/1/1] % 
+</pre>
+<p>などと表示されればOKです．</p>
+
+<p>たとえばこの状態でクラスタ内のほかの10程のノードへログインした
+ければ次のようにしてみます．</p>
+<pre>
+GXP[1/1/1] % cluster istbs00?
+GXP[1/1/1] % show plan
+explore/duplore will reach 10 nodes. 9 are new
+istbs000.i.u-tokyo.ac.jp
+ --> istbs001.i.u-tokyo.ac.jp
+  --> istbs006.i.u-tokyo.ac.jp
+  --> istbs007.i.u-tokyo.ac.jp
+  --> istbs008.i.u-tokyo.ac.jp
+  --> istbs009.i.u-tokyo.ac.jp
+ --> istbs002.i.u-tokyo.ac.jp
+ --> istbs003.i.u-tokyo.ac.jp
+ --> istbs004.i.u-tokyo.ac.jp
+ --> istbs005.i.u-tokyo.ac.jp
+GXP[1/1/1] % explore
+istbs000.i.u-tokyo.ac.jp : reached
+istbs005.i.u-tokyo.ac.jp : reached
+istbs002.i.u-tokyo.ac.jp : reached
+istbs001.i.u-tokyo.ac.jp : reached
+istbs004.i.u-tokyo.ac.jp : reached
+istbs003.i.u-tokyo.ac.jp : reached
+istbs007.i.u-tokyo.ac.jp : reached
+istbs009.i.u-tokyo.ac.jp : reached
+istbs008.i.u-tokyo.ac.jp : reached
+istbs006.i.u-tokyo.ac.jp : reached
+6.996 sec
+GXP[10/10/10] %
+</pre>
+<p>ここでCtrl-Dを打てば終了します．</p>
+
+<p>次は他のゲートウェイへログインする例です．
+<pre>
+GXP[1/1/1] % edges -> shepherd.logos.k.u-tokyo.ac.jp
+0.002 sec
+GXP[1/1/1] % show plan
+explore/duplore will reach 2 nodes. 1 are new
+istbs000.i.u-tokyo.ac.jp
+ --> shepherd.logos.k.u-tokyo.ac.jp
+0.010 sec
+GXP[1/1/1] % explore
+istbs000.i.u-tokyo.ac.jp : reached
+shepherd.logos.k.u-tokyo.ac.jp : reached
+2.941 sec
+GXP[2/2/2] %
+</pre>
+
+<hr>
+<b>GXP設定ファイル</b>
+
+<p>
+各クラスタの/home/tau/grch06/conf/grch.gxpに，GCF環境を使う上で便利な設定がし
+てあります．各クラスタのゲートウェイ・全ノード・少数のノードへログイン
+するためのエイリアス，全クラスタのゲートウェイ・全ノード・少数のノード
+へログインするためのエイリアス，CPUをバカ食いしているプロセスを全て列
+挙するエイリアス(hogs)，ホストの負荷(load average)を小さい順に表示する
+エイリアス(load)などが設定されています．同ファイルのコメントとマニュア
+ルをあわせて読んでみてください．この設定ファイルを利用するには，
+</p>
+
+<pre>
+istbs000$ gxp /home/tau/grch06/conf/grch.gxp
+</pre>
+
+<p>とするか，または ~/.gxprc というファイルを上のファイルのコピーやシンボ
+リックリンクにしておけば，gxpが起動時にそれを自動的に読み込みます．</p>
+
+<hr>
+<b>GXP用途・利用法</b>
+
+<ul> 
+
+<li>GXPの基本的な用途は全ノードで同じ(似た)コマンドラインを一斉に起動
+することです．並列プログラムの起動に用いることも出来ますし，全クラスタ
+でコンパイルを一斉に行ったりするのに使えます．(以下，各コマンドについ
+ては<a href=http://www.logos.ic.i.u-tokyo.ac.jp/phoenix/gxpmanj.html> 
+マニュアル</a>3章「コマンドリファレンス」参照)．
+
+<li>mwコマンドは，多数のプロセスの標準入出力を結合して起動します．これ
+は簡単な並列タスクであれば，ほとんど並列プログラミングらしいことをせず
+に実行する枠組みを提供します．それ以上に複雑なことをする場合でも，ネッ
+トワークプログラムを最初に起動して，動的に割り当てられたポート番号など
+を交換するのに使えます．
+
+<li>exploreで多数のノードにログインした後、実際にコマンドを実行するノー
+ドは、別の手段(smaskコマンド)で簡単に選択することができます。コンパイ
+ルホストのみを選択する、入口ホストのみを選択する、一部のクラスタのみを
+選択する、空いているノードを選択する、などの処理が対話的に、Unixコマン
+ドを用いて可能です。
+
+<li>Ctrl-Cで現在実行中のプロセスをすべてのノードでkillできます．
+
+<li>間違えて暴走プロセスなどをあちこちに残してしまった場合の最終兵器と
+して，"皆殺しコマンド"bombがあります．クラスタを使う際の一種の精神安定
+剤です．
+
+<li>その他，cdや環境変数の設定などの通常のシェル的な作業ができます
+(多数ノードで一斉に)．
+
+</ul>
+
+
+<hr>
+<b><font color=red>GXPで暴走/残骸プロセスを始末する方法</font></b>
+<div>
+<p>GXPを用いて始末したいホストすべてにログインした上で、
+bombコマンドを発行して下さい。すると、
+(起動ホストを除く)すべてのホストで、以下を満たすプロセスが始末されます。</p>
+<ul>
+<li>ユーザ名が自分である
+<li>bombを発行したGXPプロセス(およびそれに必要なサブプロセス)ではない
+</ul>
+<p>
+<font color=red>起動ホストでは何も殺されません。</font>
+これは、無関係なエディタや関係のないターミナルなどを殺してしまうのを
+防ぐためです。起動ホストでも構わず始末したい場合、rbombコマンドを使って下さい。
+この場合もGXPの祖先となるプロセスは残されます。
+</p>
+
+<p>早い話が現在のGXPセッションを構成するプロセスを残して、残りすべてを
+削除します。始末されたプロセスが表示されます。数秒して何も表示されずに
+帰ってくれば何も残骸はなかったということになります。</p>
+
+<p>これは、間違えてプロセスを暴走させてしまったり、デッドロックに陥っ
+たプロセスを一気に処分する手軽な方法です。一般論として、プロセスを何ら
+かの理由で一部強制的に終了などした場合、他のホストでは走り続けたり、デッ
+ドロックしたまま残っている可能性が高いですから、ときどき、習慣として行
+なうことを進めます(GXPを使っていて途中でフリーズしてしまった場合も、残
+骸プロセスが残っている場合があります)。</p>
+
+<p>原理はpsコマンドを用いて関係ないプロセスを見つけ、killコマンドで
+killしているだけですので、そのプロセスがGXPを用いて作られた物であるか
+どうかは関係なく、始末の対象となります。</p>
+
+<p>グリチャレ特有の事情として、同じログイン名で複数の人が同時に作業を
+している時は、他人のプロセスを殺してしまうかも知れないので気をつけて下
+さい。</p>
+
+<p>例えば、GCF環境すべてのノードでプロセスを始末する場合、手順は以下の通
+りです。入口としてistbs000を利用するとします。</p>
+
+<pre>
+yourhost$ eval `ssh-agent`
+yourhost$ ssh-add
+...
+yourhost$ ssh -A grch123@istbs000.i.u-tokyo.ac.jp
+istbs000% gxp 
+	...
+	...
+GXP[1/1/1] % explore
+	...
+	...
+GXP[181/181/181] % explore
+	...
+	...
+GXP[447/447/447] % bomb
+sheep10.logos.k.u-tokyo.ac.jp : tau      26090 26083 26090  0    1 Feb13 ?        00:00:00 [a.out] <defunct>
+sheep05.logos.k.u-tokyo.ac.jp : tau      16232 16225 16232  0    1 Feb13 ?        00:00:00 [a.out] <defunct>
+sheep10.logos.k.u-tokyo.ac.jp : tau      26083     1 26083  0    1 Feb13 ?        00:00:00 /home/tau/grch06/conf/./a.out shepherd 56640   4amslave -p4yourname sheep10 -p4rmrank 10
+sheep05.logos.k.u-tokyo.ac.jp : tau      16225     1 16225  0    1 Feb13 ?        00:00:00 /home/tau/grch06/conf/./a.out shepherd 56059   4amslave -p4yourname sheep05 -p4rmrank 5
+</pre>
+
+<p>暴走プロセスは自分の知らないうちに生じていることが多くあります．
+ときどきこまめにチェックすることをお勧めします．
+</p>
+
+<hr>
+<b>いくつかの必要な知恵</b>
+<ul>
+
+<li>不幸にして，時々GXPが固まることがあります．そうなってしまったら，
+もう一度別の端末から同じホスト群にログインし，bombコマンド使って残骸プ
+ロセスをクリーンアップしましょう。基本的には現在のGXPセッション以外の
+すべてのプロセス(もちろん自分のユーザIDのもののみ)をkill -9します(詳細
+はマニュアル参照)。グリチャレ環境では同じアカウントを複数の人が共有し
+ているので、同時に使っている場合は気をつけて下さい。
+
+<li>exploreで，あるノードへのログインが失敗した場合，それは故障による
+ものの場合もあれば，設定ミスの場合もあります．explore中のメッセージを
+読むことである程度その原因を探ることができます．
+
+設定ミスであれば、直してもう一度exploreします。
+
+本当の故障であればそれらへのログインを試みないようにします。
+<pre>
+GXP[..] % des <故障ホスト名>
+</pre>
+とするとそれらのホストへはもうログインを試みません。失敗したノード
+すべてをdesしたい場合、
+<pre>
+GXP[..] % desf
+</pre>
+としてください。
+
+</ul>
+
+
+<hr>
+updated: 2006/2/15<br>
+グリッドチャレンジ2006実行委員会
+<hr>
+</body>
+</html>

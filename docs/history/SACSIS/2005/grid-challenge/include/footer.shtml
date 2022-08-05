@@ -1,0 +1,33 @@
+</td>
+
+
+<td class="menu" valign="top">
+
+<h3 class="menu">menu</h3>
+<div class="menu">
+<!--#include file="menu.shtml" -->
+</div>
+<h3 class="menu">what's new</h3>
+<div class="menu">
+
+<ul class="small">
+<li> 2004/12/15 <a href=http://nikkeibp.jp/wcs/leaf/CID/onair/jp/sangaku/349589>nikkeibp.jp</a>に掲載されました</li>
+<li> 2004/12/7 サイト開設</li>
+<li> 2004/12/7 参加者募集開始! </li>
+</ul>
+</div>
+</td>
+
+</tr>
+
+
+
+<tr>
+<td colspan="2" class="footer">
+<hr />
+Last update:<!--#echo var="LAST_MODIFIED"--><br />
+</td>
+</table>
+
+</body>
+</html>

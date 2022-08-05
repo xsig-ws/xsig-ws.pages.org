@@ -1,0 +1,151 @@
+
+<h2>規定課題出題API(Java用)</h2>
+
+<div><p>
+参加プログラムは、出題APIを用いて問題の取得と解答の正解判定をする必要がある。
+出題APIを用いるためには、コンパイル時および
+実行時にgrch.jarが利用できるようclasspathを
+設定すること。
+<br>
+参加プログラムは、Jarファイルに含まれる以下のクラスを利用すること。
+<ul>
+<li> <a href="#api">GridChallengeApiクラス</a> </li>
+<li> <a href="#problem">GridChallengeApi.Problemクラス</a> </li>
+</ul>
+参加者の環境で以下のAPIを使ってプログラムを開発するための
+パッケージ<a href=reg_trial.html>お試しパック</a>が用意されている。
+</p>
+</div>
+
+<a name="#api"></a>
+<h3>public class GridChallengeApi</h3>
+
+<div>
+<b>
+public static GridChallangeApi.Problem get_problem(
+ int problem_number, String config_dir)
+</b><br>
+プログラムは開始時にget_problem()を呼ぶことにより、データ復号化鍵などを
+取得する必要がある。全ノードを通して<b>一つのプロセスのみがget_problem()を
+呼ぶこと</b>。<br>
+<br>
+problem_number: 問題番号を指定する。 <br>
+config_dir: お試しパックにおいては、正答ファイル
+(例えば01.ansという名前のファイル)の置いてあるディレクトリ
+(例えば/some/where/data01)を
+指定する。予選・決勝においてはnullとすること。<br>
+<br>
+return value: 正常の場合はデータ復号鍵などの問題データが返される。
+詳細はGridChallangeApi.Problemクラスの記述を参照のこと。
+異常の場合はnullが返される。<br>
+</div>
+
+<div>
+<b>
+public static String get_problem_files(int problem_number,
+ String key_string, String problem_dir)
+</b><br>
+プログラムは、各クラスタ内の少なくとも1つのプロセスで、
+get_problem_files()を呼ぶことにより入力ファイル名を取得する必要がある。
+get_problem()から得られた
+鍵文字列が必要なので、前もって通信などを行なっておくこと。<br>
+<br>
+problem_number: 問題番号を指定する。 <br>
+key_string: get_problem()から得られた、鍵文字列を指定する。<br>
+problem_dir: お試しパックにおいては、問題ファイルの置いてあるディレクトリ
+(例えば/some/where/data01)を
+指定する。予選・決勝においてはnullとすること。<br>
+<br>
+return value: 正常の場合は、呼び出したノードの属するクラスタにおいてアクセス可能な
+全画像ファイル(マスター、レプリカすべて)のフルパス名を
+連結した文字列が返される。
+各ファイル名の直後には全て : (コロン)が置かれている。
+異常の場合はnullが返される。
+<br>
+このAPIを呼び出したマシンによって、
+返されるファイルの集合は一般には異なっている。具体的には、
+マシンA, Bでの呼出しで返される二つの集合は、
+(1) 全く同一であるか、(2) それらのファイル集合中に含まれるマスターファ
+イルに全く重なりがない、のどちらかが満たされている。
+<br>
+実際には、二つのマシンが同一クラスタ内のマシンである場合、それらは同一
+の共有ディレクトリ(ファイルサーバ)をアクセスしており、この場合は(1)に
+なり、そうでない場合は(2) になる。プログラム作成にあたっては、
+この事実を用いても良いし用いなくても良い。
+</div>
+
+<div>
+<b>
+public static int answer_problem(int problem_number, String key_string,
+ int result, String file_coordinates, String config_dir)
+</b><br>
+プログラムは計算が終了したら、その解答をanswer_problem()を用いて
+報告する必要がある。解答に対する判定が返される。
+<b>get_problem()を呼び出したプロセスのみが、answer_problem()を
+呼ばなければならない。</b><br>
+<br>
+problem_number: 問題番号を指定する。 <br>
+key_string: get_problem()から得られた、鍵文字列を指定する。<br>
+result: 解答である、物体の総数を指定する。<br>
+file_coordinates: 解答に使った画像ファイル群を示す文字列を
+指定する(詳細は後述)。
+<br>
+config_dir: お試しパックにおいては、正答ファイルの置いてあるディレクトリ
+(例えば/some/where/data01. get_problemに渡したのと同じディレクトリ名)を
+指定する。予選・決勝においてはNULLとすること。<br>
+<br>
+return value: Resultに対する判定が返される。返される値は以下のうちの
+どれかである。<br>
+<ul>
+<li> GridChallengeApi.GRCH_CORRECT: 正解であり、全ての画像ファイルを使用した。
+<li> GridChallengeApi.GRCH_OK: 一部の画像ファイルが使われていないが、
+使用されたファイル群については正解である。
+<li> GridChallengeApi.GRCH_WRONG: 不正解である。
+<li> GridChallengeApi.GRCH_NG: 不正な呼び出しである。引数が不正である、
+get_problemを呼んでいないプロセスが呼んでいるなど。
+</ul>
+
+標準エラー出力に解答時間を可読形式にしたものと、正解証明の鍵が出力される。
+正解証明の鍵はGRCH_CORRECTの場合にのみ付加される。
+<br>
+File_coordinatesは、
+WとHをそれぞれ元画像のX方向の分割数とY方向の分割数とすると、
+W*H個の'0'または'1'が並んだ文字列である
+((char)0や(char)1ではなく、(char)'0'と(char)'1'であることに注意)。
+各文字は1つの画像ファイルに対応し、'1'は対応する画像ファイルが
+解答のために使用されていることを、'0'は使用されていないことを表す。
+画像ファイルは左上の画像ファイルを起点として行優先で並べる。
+つまり、i行j列の画像ファイルが使われていれば、
+上記文字列の(i + W * j)文字目を'1'に、使われていなければ'0'にする
+(行、列、文字のいずれも0を起点として数える)。
+なお、決勝において有効な判定(後述のGRCH_CORRECT)を得るためには、
+全ての画像ファイルを使用したことを示すために、W*H個の文字の全てが'1'で
+ある文字列を与える必要がある。
+</div>
+
+<a name="#problem"></a>
+<h3>public class GridChallengeApi.Problem</h3>
+
+GridChallengeApi.Problemクラスのオブジェクトには、問題に関する情報が
+格納される。GridChallengeApi.get_problem()メソッドの返り値として
+用いられる。
+<br>
+本クラスには以下のフィールドが含まれる。
+<br>
+<ul>
+<li>String key_string:  鍵文字列を表す。鍵文字列は、
+データ復号化鍵を含む文字列である(詳細は後述)。<br>
+<li>int width: 元画像の、X方向の分割数を表す。<br>
+<li>int height: 元画像の、Y方向の分割数を表す。<br>
+</ul>
+
+<br>
+鍵文字列は"XXXX-YYYYYY"という形式の文字列である。`-'(ハイフン)
+以前のXXXXという部分は、16進ASCII表現による復号化鍵である。
+復号化鍵の長さは固定ではないため、`-'の位置によって判断すること。
+また、復号化鍵の長さをL bytesとすると、Lは4以上256以下で4の倍数であることが
+保証される。
+復号化鍵の各byteは左にゼロ詰めされた2桁16進で表される。そのため、
+XXXXの部分の長さは2*L文字である。
+プログラムはYYYYYYの部分について気にする必要はないが、
+文字列全体をそのままget_problem_files()とanswer_problem()に渡す必要がある。

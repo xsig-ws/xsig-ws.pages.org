@@ -1,0 +1,39 @@
+/*
+ * green & orange
+ */
+a:link    { color: #550; }
+a:visited { color: #552; }
+a:hover   { color: #black; background-color: #dca; }
+a:active  { color: #f00; }
+
+b  { color: #550; font-weight: bold; }
+em { color: #fb0; font-weight: bold; font-style: normal; }
+tt { color: #5a5; font-weight: bold; font-style: normal; }
+address { border-color: #aaf; color: #33c; }
+#title {
+  color: white;
+  background-color: #559;
+  background-image: url(../images/sky1.jpg);
+}
+h1 { border-color: black; }
+h2, h3, h4 { color: #663; border-color: #883; border-style: dotted; }
+div.main { background-color: white; }
+body { background-color: #eec; }
+
+.noticelink a:link    { color: #630; font-weight: bold; }
+.noticelink a:visited { color: #960; font-weight: bold; }
+.doublebar  { border-top: 2.5pt #ba4 dotted; }
+.singlebar  { border-top: 1pt #ba4 solid; }
+
+/* overwrite */
+div.navbar {
+  line-height:140%;
+  background-color: #fea;
+  border-left: none;
+  padding: 0px;
+}
+div.navbar p { color: #330; border-color: white; border-width: 2px; }
+div.navbar p.title { color: #330; }
+div.navbar p a:link    { color: #330; }
+div.navbar p a:visited { color: #550; }
+div.navbar p a:hover   { color: white; background-color: #883; }

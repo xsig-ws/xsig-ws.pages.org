@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+      <h4>SACSIS2013 概要</h4>
+
+      <p style="text-align:center">
+	<acronym title="Symposium on Advanced Computing Systems and Infrastructures">SACSIS</acronym>2013 - 先進的計算基盤システムシンポジウム - <br />
+      </p>
+	<?php include("include/date-place-ja.html");?>
+      <p>
+	　SACSIS (Symposium on Advanced Computing Systems and Infrastructures) は，先進的な計算システムや基盤技術，それらの要素技術を広く様々な角度から議論することを目的としたシンポジウムです．性能などの有効性が重視される「システム」に関する技術だけではなく，幅広い利用を目指して実用性を重視した「基盤」に関する技術も対象とします．11回目を迎える本シンポジウムを，杜の都"仙台"にて2013年5月22日(水)〜24日(金)に開催いたします．
+      </p>
+      <!-- INSERTED LINES END () -->
+
+      <h4>【重要なお知らせ】</h4>
+      <p>
+	<span class="notice">
+          <b>ACS論文誌との同時投稿募集はありません．
+		  <!-- </b>詳しくは<a href="./cfp.html.ja#notice">論文募集要項の[投稿に関する注意]</a>を参照下さい．<br/> -->
+        </span>
+      </p>
+      <h4>更新情報</h4>
+      <p>
+	<span class="notice">
+	<b>2013.5.25</b> 「SACSISの今後について」の<a href = "./files/upcoming_sacsis.pdf">資料</a>を掲載しました. <br />
+	<b>2013.5.24</b> SACSIS2013は盛況のうちに終了しました．ご参加ありがとうございました．<br />
+	<b>2013.4.5</b>　<a href="http://www.ipsj.or.jp/kenkyukai/event/sacsis2013.html">参加申し込み</a>を開始しました. <br />
+	<b>2013.4.3</b>　プログラムを公開しました. <br />
+	<b>2013.4.2</b>　ポスター論文の募集を締め切りました．<br />
+	<b>2013.1.25</b>　一般・萌芽論文の募集を締め切りました．<br />
+	<b>2012.12.21</b>　<a href="cfp.html.ja#pc">プログラム委員</a>を公開しました．<br />
+	<b>2012.12.18</b>　<a href="instruction.html.ja">論文投稿ページ</a>を公開しました．<br />
+	<b>2012.11.7</b> 　論文募集要項，運営・組織委員を公開しました．<br />
+	  <b>2012.9.12</b>  本ページを公開しました．<br />
+
+	</span>
+      </p>
+	   <h4>重要日程</h4>
+      <?php include("include/schedule-cfp-ja.html");?>
+
+      <h4>主催（順不同）</h4>
+      <?php include("include/host-ja.html");?>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

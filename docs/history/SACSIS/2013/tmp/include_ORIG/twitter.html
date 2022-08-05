@@ -1,0 +1,76 @@
+<div style="float:right; margin-left: 10px;"> 
+<script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script type="text/javascript">
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '(#SACSIS OR from:SACSIS OR @SACSIS) -@Linnewho -from:Linnewho -#racism -from:mzivelapi',
+  interval: 6000,
+  title: 'ハッシュタグ#SACSISがついたツイート',
+  subject: '',
+  width: 200,
+  height: 400,
+  theme: {
+    shell: {
+      background: '#B41E28',
+      color: '#FFFFFF'
+    },
+    tweets: {
+      background: '#B41E28',
+      color: '#FFE0E0',
+      links: '#FFFFFF'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+</div>
+
+<!-- <div style="float:right; margin-left: 10px;"> -->
+<!--   <script src="http://widgets.twimg.com/j/2/widget.js"></script> -->
+<!--   <script> -->
+<!-- new TWTR.Widget({ -->
+<!--   version: 2, -->
+<!--   type: 'profile', -->
+<!--   rpp: 4, -->
+<!--   interval: 6000, -->
+<!--   width: 150, -->
+<!--   height: 300, -->
+<!--   theme: { -->
+<!--     shell: { -->
+<!--       background: '#339c97', -->
+<!--       background: '#ccffcc', -->
+<!--       color: '#ffffff', -->
+<!--       color: '#339c97' -->
+<!--     }, -->
+<!--     tweets: { -->
+<!--       background: '#154345', -->
+<!--       background: '#ddffff', -->
+<!--       background: '#eaf4fc', -->
+<!--       color: '#ffffff', -->
+<!--       color: '#000', -->
+<!--       links: '#07eb17', -->
+<!--       links: '#69b076' -->
+<!--     } -->
+<!--   }, -->
+<!--   features: { -->
+<!--     scrollbar: true, -->
+<!--     loop: false, -->
+<!--     live: true, -->
+<!--     hashtags: true, -->
+<!--     timestamp: true, -->
+<!--     avatars: false, -->
+<!--     behavior: 'all' -->
+<!--   } -->
+<!-- }).render().setUser('SACSIS').start(); -->
+<!--   </script> -->
+<!-- </div> -->

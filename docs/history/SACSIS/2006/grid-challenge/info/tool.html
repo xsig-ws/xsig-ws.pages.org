@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<title>Tools</title>
+</head>
+
+<hr>
+<a name="gwlogn">
+●すべての入口ホストに一度ずつログインするシェルスクリプト</a>
+<pre>
+#!/bin/bash
+
+#
+# replace xxx with your name
+# 
+user=xxx
+
+m=$user@poole.dis.titech.ac.jp		# Titech Ono Lab.
+a=$user@fsvc003.asc.hpcc.jp		# AIST F32
+o=$user@sakura.hpcc.jp			# AIST Sakura
+x=$user@nimbus.titech.hpcc.jp		# Titech PrestoIII
+h=$user@istbs000.i.u-tokyo.ac.jp	# U. Tokyo Tau
+y=$user@shepherd.logos.k.u-tokyo.ac.jp	# U. Tokyo Chikayamaken
+s=$user@xenia.doshisha.ac.jp		# Doshisha Xenia
+
+eval `ssh-agent`
+if ! ssh-add ; then echo failed; exit 1; fi
+
+for x in $m $a $o $x $h $y $s ; do
+	echo ssh -o 'ForwardAgent yes' $x 'hostname ; echo OK'
+	ssh -o 'ForwardAgent yes' $x 'hostname ; echo OK'
+done
+
+</pre>
+
+
+<hr>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<h3>JHPCN Organized Session "Very large-scale numerical computation"</h3>
+
+
+<h4>Program</h4>
+<p class="date"><a id="DAY2">2015/1/19 (Tue)</a></p>
+<ul>
+<p class="time">14:45&sim;16:15</p>
+<li> (Chair: Kengo Nakajima (The University of Tokyo))
+    <ul class="program">
+
+    <li> 
+    (K6) High-resolution Weather Prediction Code based on High-productivity Framework for Multi-GPU computation<br />
+    Takashi Shimokawabe (Tokyo Institute of Technology)<br />
+    <a href="#abstK6"> abstract </a>
+	</li>
+    <li> 
+    (K7) Development of numerical optimization tool for polycrystalline metallic microstructure control by using multi-phase-field method<br />
+    Akinori Yamanaka (Tokyo University of Agriculture and Technology)<br />
+    <a href="#abstK7"> abstract </a>
+	</li>
+    <li> 
+    (K8) Interaction between a huge number of micro particles with internal degrees of freedom and turbulent mixing<br />
+    Toshiyuki Gotoh (Nagoya Institute of Technology)<br />
+    <a href="#abstK8"> abstract </a>
+	</li>
+
+    </ul>
+</ul>
+
+<h4>Abstracts</h4>
+
+<ul class="program">
+
+<li> <a id="abstK6">(14:45-15:15)</a>
+    (K6) High-resolution Weather Prediction Code based on High-productivity Framework for Multi-GPU computation<br />
+    Takashi Shimokawabe (Tokyo Institute of Technology)<br />
+Abstract:<br />
+
+Numerical weather prediction is one of the major applications in high-performance computing and on GPU supercomputers. Obtaining good parallel efficiency using more than thousand GPUs often requires skillful programming, for example, both MPI for the inter-node communication and NVIDIA GPUDirect for the intra-node communication. Our framework-based weather prediction code ASUCA has achieved good scalability with hiding complicated implementation and optimizations required for distributed GPUs, contributing to increasing the maintainability; ASUCA is a high-resolution meso-scale atmospheric model developed by the Japan Meteorological Agency. Our framework automatically translates user-written functions that update a grid point and generates both GPU and CPU codes. The framework provides C++ classes to describe stencil access pattern, loop calculation and GPU-GPU communication easily and effectively. User-written codes are parallelized by MPI with intra-node GPU peer-to-peer direct access and overlapping techniques to hide communication overhead by computation. The programmers write user's code just in the C++ language and can develop program code optimized for GPU supercomputers without introducing complicated optimizations for GPU computation and GPU-GPU communication. We will show the implementation and programming model of the proposed framework, and the performance evaluation of framework-based ASUCA on the TSUBAME2.5 supercomputer at Tokyo Institute of Technology.
+
+</li>
+<li> <a id="abstK7">(15:15-15:45)</a>
+    (K7) Development of numerical optimization tool for polycrystalline metallic microstructure control by using multi-phase-field method<br />
+    Akinori Yamanaka (Tokyo University of Agriculture and Technology)<br />
+Abstract:<br />
+
+Strength and ductility of metallic materials are strongly influenced by size and distribution of their underlying polycrystalline microstructures. Therefore, understanding and prediction of microstructure formation in materials are very important for practical materials development. Recently, the multi-phase-field (MPF) method has attracted much attention as a powerful numerical tool for simulating three-dimensional (3D) microstructure formations on the basis of total free energy theory. However, for simulating realistic formation process ofmicrostructures, 3D MPF simulation requires huge computational cost. Therefore, we have developed multiple-GPU computing technique and overlapping method for accelerating large-scale 3D MPF simulation. Using our technique, large-scale 3D MPF simulation of polycrystalline grain growth in a material containing finely dispersed particles was performed on the TSUBAME2.5 supercomputer at Tokyo Institute of Technology. The results demonstrated our multiple-GPU computation technique achieved very good performance scalability in the large-scale 3D MPF simulations.
+
+</li>
+<li> <a id="abstK8">(15:45-16:15)</a>
+    (K8) Interaction between a huge number of micro particles with internal degrees of freedom and turbulent mixing<br />
+    Toshiyuki Gotoh (Nagoya Institute of Technology)<br />
+Abstract:<br />
+
+Clouds are ubiquitous and key to the accurate numerical prediction of the weather and future climate, but have resisted to be unveiled because of difficulty of measurement and observation. Cloud droplets (about 10 &micro;m radius) grow up into the rain drops (larger than 100 &micro;m) by the condensation and collision-coalescence, and modify the flow itself through the buoyancy force due to the latent heat release. In order to answer many questions such as how fast the cloud droplets evolve into the rain drops, we have been developing the cloud microphysics simulator which can simulate the whole process of the cloud drop evolution. Highly parallelized three dimensional FFT for the turbulent flow computation and the various acceleration techniques for the droplet collision process are the core in the present study. Equations of a large number of cloud droplets which are convected and mixed with the water vapor by the turbulent flow are numerically integrated and the various data of cloud droplets are gathered. The numerical method developed in this study is also applicable to other problems in the engineering. Simulation of the line polymers in fluid is a typical example. Recent progresses on these topics will be delivered.  
+
+</li>
+
+
+
+</ul>

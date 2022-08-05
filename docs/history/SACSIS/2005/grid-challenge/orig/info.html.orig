@@ -1,0 +1,303 @@
+
+<h2 class="top">Grid Challenge in SACSIS2005 参加者のためのページ</h2>
+
+<h3>質問の宛先</h3>
+<div>
+質問はすべて、grid-challenge-admins@logos.t.u-tokyo.ac.jpへメールして下さい。
+</div>
+
+<h3>注意</h3>
+
+<div>
+
+本ページにはセキュリティに関係する情報が含まれていますので、参加者に限
+定されて公開されています。本ページの情報を、第3者に公開することはご遠
+慮下さい。
+
+</div>
+
+<h3>ホスト</h3>
+
+<div>
+
+<p>GCF環境の情報を表にします。</p>
+
+<table border=1>
+
+<tr>
+<th class="host">通称</th>	
+<th class="host">提供者(所在地)</th>	
+<th class="host">入口ホスト /<br> コンパイルetc.用ホスト</th>
+<th class="host">計算ノード名</th>
+<th class="host">計算ノード数/CPU数</th>
+<th class="host">計算ノードのIP</th>
+</tr>
+
+<td class="host">Matsuken "Prest III"</td><td class="host">東工大松岡研</td>
+<td class="host">nimbus.titech.hpcc.jp /<br> nimbus.titech.hpcc.jp</td>
+<td class="host">pad000-012,<br>pad014-020,<br>pad031-046,<br>
+pad048-057,<br>pad059-112</td>
+<td class="host">100/200</td>
+<td class="host">Global</td>
+</tr>
+
+<tr>
+<td class="host">Alab</td><td class="host">東工大合田研</td>
+<td class="host">gk.alab.ip.titech.ac.jp /<br> 
+		blade00.alab.ip.titech.ac.jp</td>
+<td class="host">blade01-30</td>
+<td class="host">30/60</td>
+<td class="host">Private</td>
+</tr>
+
+<tr>
+<td class="host">Tok</td><td class="host">徳島大小野研</td>
+<td class="host">poole.is.tokushima-u.ac.jp /<br>
+		poole.is.tokushima-u.ac.jp</td>
+<td class="host">mp20_001-014,<br>mp20_016-033,<br>mp20_035-052</td>
+<td class="host">50/100</td>
+<td class="host">Private</td>
+</tr>
+
+<tr>
+<td class="host">X Cluster</td><td class="host">産総研グリッド研究センター</td>
+<td class="host">xcmp001.asc.hpcc.jp /<br>
+		xcmp001.asc.hpcc.jp</td>
+<td class="host">xcmp002-033,<br>xcmp035-042</td>
+<td class="host">40/80</td>
+<td class="host">Global</td>
+</tr>
+
+<tr>
+<td class="host">HPCS</td><td class="host">筑波大HPCS研</td>
+<td class="host">dennis-serv.omni.hpcc.jp /<br>
+		dennis-serv.omni.hpcc.jp</td>
+<td class="host">dennis01-15,<br>alice01-05</td>
+<td class="host">20/40</td>
+<td class="host">Global</td>
+</tr>
+
+<tr>
+<td class="host">YubaHonda</td><td class="host">電通大弓場/本多研</td>
+<td class="host">bluecore.is.uec.ac.jp /<br>
+		bluecore.is.uec.ac.jp</td>
+<td class="host">comp11-16,<br>comp21-26,<br>comp31-36,<br>
+comp41-46,<br>comp101-126</td>
+<td class="host">50/100</td>
+<td class="host">Private</td>
+</tr>
+
+<tr>
+<td class="host">Hirakken</td><td class="host">東大平木研</td>
+<td class="host">suidobashi00.logos.ic.i.u-tokyo.ac.jp /<br> 
+		suidobashi00.logos.ic.i.u-tokyo.ac.jp</td>
+<td class="host">suidobashi01-36,<br>suidobashi38-41</td>
+<td class="host">40/40</td>
+<td class="host">Global</td>
+</tr>
+
+<tr>
+<td class="host">Chikayama</td><td class="host">東大近山研</td>
+<td class="host">shepherd.logos.k.u-tokyo.ac.jp /<br> 
+		sheep01</td>
+<td class="host">sheep02-64</td>
+<td class="host">63/126</td>
+<td class="host">Private</td>
+</tr>
+
+<tr>
+<td class="host">Tau</td><td class="host">東大田浦研</td>
+<td class="host">istbs000.i.u-tokyo.ac.jp /<br>
+		 istbs000.i.u-tokyo.ac.jp</td>
+<td class="host">istbs001-042,<br>istbs044-082,<br>istbs084-109</td>
+<td class="host">107/214</td>
+<td class="host">Global</td>
+</tr>
+
+<tr>
+<td class="host">TOTAL</td><td class="host">合計</td>
+<td class="host">-</td>
+<td class="host">-</td>
+<td class="host">500/960</td>
+<td class="host">-</td>
+</tr>
+
+</table>
+
+
+<ul>
+<li>各ホストは、Suidobashiクラスタ(single)を除き、
+dual CPUです。2CPU x 460ノード + 1CPU x 40ノード = 960CPUです。
+
+<li>各クラスタへログインする場合はまず、
+「入口」と書かれているホストへ(ssh)ログインしてください。
+入口以外の各ノードがPrivate IPアドレスしか持っておらず、
+クラスタ外から直接ログインできない場合があります。
+
+<li>クラスタ内で各ノードへログインする場合も、sshを用います。
+
+<li>各クラスタごとにコンパイルなどが必要な場合は、
+「コンパイルetc.ホスト」と書かれているホストで行なって下さい。
+入口ノードでコンパイルしたバイナリが、ノードでそのまま動かない場合があるので
+ご注意下さい。
+
+<li>各クラスタのホストでは、ホームディレクトリが共有されています。
+
+<li><p>
+
+<font color=red>注:</font>
+クラスタ内のノード名に書かれているノードが、このコンテストの計算ノードと
+して提供される物のすべてです。1/30の時点で動作していることを確認していますが、
+それ以降ノードの故障にともなって減ることもあります。再起動などで、一度
+落ちたノードが生き返ることはありますが、ここにないホストが後から追加されることは
+(非常に多数のノードが事故などで失われない限り)ありません。
+</p>
+
+<p>自身でどのノードでプロセスを立ち上げるかを決める場合は、ここにあるホストだけ
+を用いるようにプログラミングして下さい。
+どんな場合も、本ページで「ノード名」に列挙されているホ
+ストと、入口ホスト以外の場所でコンテストのための計算をしてはなりません。
+また、入口ホストは「主たる計算」(定義が曖昧ですが、規定課題における
+データファイルの読み込みや処理)を行なってはいけません。
+これは入口ホストにあまり高い負荷を書けないための協定です。
+</p>
+
+<p>故障ノードは適当なタイミングで更新し、故障情報として提供します。
+また、<a href=http://www.apgrid.org/ganglia>
+Gangliaモニタリングシステムの情報</a>なども参照して下さい。</p>
+
+<p>Ninf-Gのようなバッチキューイングシステムによる資源割当を用いている
+プログラミング環境では、利用可能なノードの集合を意識する必要はありませ
+ん。GXPでは故障ノードを使わないように明示的に設定した方が、利用が快適
+になります。その設定ファイルは、各サイトにあらかじめ提供されます。
+</p>
+
+</ul>
+
+<p>
+参加者にはどうでもいい情報ですが、ノードの半分以上は「21世紀COE情
+報理工科学技術戦略コア」の予算で購入されています。「田浦研」は所在地情
+報です(参加者にはどうでもいい情報おわり)。
+</p>
+</div>
+
+<h3>ネットワーク構成</h3>
+<div>
+ネットワークの設定は以下の通りです(図を参照)。
+
+<ul>
+<li>
+「任意ホスト -> Global IPアドレスを持つ任意ホスト」へのconnectionが許
+されています。
+
+<li>
+「任意ホスト -> 同一クラスタ内の任意ホスト」へのconnectionが許されて
+います。
+
+<li>いいかえれば、「Private IPアドレスホストへ、クラスタ外からは直接connetで
+きない」という当然の制限を除けば、すべてが許可されています。
+
+</ul>
+
+<table>
+<tr><td><img src="misc/grch-network.png"></td></tr>
+<caption align="bottom">
+<b>図: </b>ネットワークの接続性。矢印は、
+矢印元クラスタの任意のノードから、矢印先クラスタの任意のノードへ、
+TCP Connectionをinitiateできることを示す。各クラスタの入口
+ホストへは、任意のノードからTCP Connectionをinitiateできる。
+</caption>
+</table>
+
+</div>
+
+<h3>提供されるプログラミング環境</h3>
+
+<div>
+
+以下は、GCF環境で、各参加者にあらかじめ使えるよう設定されているプログ
+ラミング環境、道具です。これらを使うことを強制するものではありません。
+
+<ul>
+
+<li>Ninf-G : マスタ-ワーカスタイルのプログラムを分散環境上で簡便に記述
+できるプログラミングモデルです。ノードがシステムによって割り当てられる
+ため、故障情報などを意識する必要がありません。Ninf-Gの手引については<a
+href=Ninf-G2-manual.tar.gz>解説とサンプルプログラム集</a>をダウンロードし
+て下さい。同パッケージ中のガイドラインは<a href=info-ninf.txt>こちら</a>
+をごらんください。
+
+<li>GXP : sshを用いて多数のノードへ同時ログインし、利用できるツールで
+す。対話的な利用の他、単純な並列処理を容易に記述できる機能も備えていま
+す。詳しい手引については<a href=info-gxp.html>こちら</a>をごらんください。
+
+<li>MPI : 各クラスタ上でMPIジョブが起動可能です。ただし、クラスタを跨っ
+て、一つのMPIジョブを起動することはできません。必要であれば各クラスタ上で
+別途MPIを起動し、それらを連係させて下さい。
+
+<p>MPIを利用するには、各クラスタのコンパイルホスト上で、 ~tau/local/Linux
+にPATHを張ると、mpicc, mpirun などが利用可能になります。
+~tau/grch/mpi_machines/ 以下に各クラスタ用machinesファイルのサンプルを
+おきました。</p>
+
+<p>mpich-1.2.6
+を以下のconfigurationでbuildしています。</p>
+<pre>
+./configure --prefix=`echo ~tau/local/Linux` --with-device=ch_p4 
+       --without-mpe --without-romio
+</pre>
+
+</ul>
+
+<li>また、全ホストでC/C++, Java, Python, Perlなどが利用可能です。
+
+</div>
+
+<h3>アカウントができたら</h3>
+
+<div>
+無事アカウントが到着したら、設定を確認するために、以下を行なって下さい。
+
+<ul>
+<li>自分のホストから、「入口」ホストへログインできること。
+普段使っているログイン名と、おそらくログイン名が違うので、間違えないようにして下さい。
+
+例:
+<pre>
+your_host$ ssh grch001@istbs000.i.u-tokyo.ac.jp
+passphrase for ...: (パスフレーズが空でなければ聞かれる)
+</pre>
+うまくいかなければ、
+<pre>
+your_host$ ssh -v grch001@istbs000.i.u-tokyo.ac.jp
+</pre>
+として起動して下さい。メッセージを見て原因がわかれば直し、わからなけれ
+ばメッセージのログとともに、
+grid-challenge-admins@logos.ic.i.u-tokyo.ac.jp へメールをして下さい。
+
+<li>ssh-agent/ssh-addを使うと一度パスフレーズを入力するだけで、いろい
+ろなホストへsshすることができるはずです。また、エージェントの転送機能
+(-Aオプションまたは -o 'ForwardAgent yes')を使うと、自分のホストからだけではなく、入口ホスト間もいったり来たり
+することができるはずです。例:
+<pre>
+# sshエージェント
+your_host$ eval `ssh-agent`
+your_host$ ssh-add
+passphrase for ...: (パスフレーズが空でなければ聞かれる)
+your_host$ ssh grch123@istbs000.i.u-tokyo.ac.jp	
+	(もう聞かれないはず)
+istbs000$ logout
+# エージェント転送機能
+your_host$ ssh -A grch123@shepherd.logos.k.u-tokyo.ac.jp
+shepherd$ ssh grch123@istbs000.i.u-tokyo.ac.jp	
+	(ホスト間を渡り歩けるはず)
+istbs000$ 
+</pre>
+
+<li>すべての入口ホストに一度ずつログインする<a href=nettools/login_gw> 
+シェルスクリプト</a>を用意しましたので、アカウントが到着次第、必要なら
+ば使って下さい。スクリプト中のログイン名は手で置き換えて下さい。
+
+</ul>
+
+</div>

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2008.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2008 Call for Posters</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<div class="main">
+<!--@@2008_NAVIGATION@@-->
+
+<p style="margin-top:15pt">
+<a href="include/cfposters.txt">Call for Posters (text version, in Japanese)</a><br />
+<!--##LAST_MODIFIED:include/cfposters.txt##-->
+</p>
+
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

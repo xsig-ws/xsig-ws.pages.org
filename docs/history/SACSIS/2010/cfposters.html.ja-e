@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="SACSIS10,SACSIS2010,SACSIS" />
+ <link href="css/2010.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2010</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 27-28, 2010<br />Nara, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+
+<div class="main">
+
+<!-- INSERTED LINES BEGIN (2010_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.ja" title="SACSIS 2010">SACSIS2010&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2010_LINKS) -->
+<a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+<a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+<a href="cfcompany.html.ja">企業・団体展示募集</a> <span class="hideme">|</span>
+<a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+<a href="cfpart.html.ja">参加募集</a><span class="hideme">|</span>
+<!-- <a href="http://www.ipsj.or.jp/02moshikomi/event/event-sacsis2010.html">参加申込</a><span class="hideme">|</span> -->
+<a href="http://www.ipsj.or.jp/09sig/kaikoku/2010/SACSIS2010.html">参加申込</a><span class="hideme">|</span>
+<!-- <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span> -->
+<a href="http://www.hpcc.jp/sacsis/2010/gpu/">GPUチャレンジ2010</a> <span class="hideme">|</span>
+<!-- <a href="">Clusterコンテスト</a> <span class="hideme">|</span> -->
+<a href="exhibit.html.ja">企業・団体展示</a> <span class="hideme">|</span>
+<a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+<a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+<a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2009_LINK) --> <a href="http://www.hpcc.jp/sacsis/2009/" title="SACSIS 2009">SACSIS&nbsp;2009</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2008_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+
+<h4>
+ポスター発表募集 第８回先進的計算基盤システムシンポジウムSACSIS2010
+</h4>
+
+<!-- INSERTED LINES BEGIN (CFP) -->
+<table>
+<tr><td>日時: </td><td>2010年5月27日(木) - 28日(金)</td></tr>
+<tr><td>会場: </td><td><a href="http://www.shinkokaido.jp/">奈良県新公会堂</a> (奈良市春日野町101)</td></tr>
+</table>
+
+<h4>重要日程</h4>
+<!-- INSERTED LINES BEGIN (DATES) -->
+<table>
+<colgroup><col width="200" /></colgroup>
+<tr><td><span class="del"><b>2010/3/中旬</b></span></td><td><span class="del">ポスター論文受付開始</span></td></tr>
+<tr><td><span class="del"><b>2010/3/30(火) 17:00</b></span></td><td><span class="del">ポスター論文〆切</span></td></tr>
+<tr><td><span class="del"><b>2010/4/6(火)</b></span></td><td><span class="del">ポスター論文採否通知</span></td></tr>
+<tr><td><b>2010/5/27(木) 〜 28(金)</b></td><td>SACSIS2010</td></tr>
+</table>
+<!-- INSERTED LINES END () -->
+
+<h4>概要</h4>
+SACSIS (Symposium on Advanced Computing Systems and Infrastructures) は，先進的な計算システムや基盤技術，それらの要素技術を広く様々な角度から議論することを目的としたシンポジウムです．性能などの有効性が重視される「システム」に関する技術だけではなく，幅広い利用を目指して実用性を重視した「基盤」に関する技術も対象とします．
+
+<p>
+下記テーマに関連した work-in-progress的発表をポスター発表として募集します．
+</p>
+<!-- INSERTED LINES BEGIN (TOPICS) --><ol>
+<li>先進的計算システム<br />
+グリッド，クラウド，クラスタ，Peer-to-Peer，オーバーレイネットワーク，高性能計算，HPC 向けコンパイラ，モバイル計算，ユビキタスシステム，組み込みシステム，ディペンダブルシステム，アプリケーション専用システムなど
+</li>
+<li>先進的計算システムを支える基盤技術<br />
+プロセッサアーキテクチャ，リコンフィギャラブルシステム，システムアーキテクチャ，ネットワークオンチップ，通信機構，通信ライブラリ，広帯域ネットワーク，入出力機構，ストレージシステム，資源管理技術，仮想化技術，省電力技術，認可・認証・課金技術，省スペース技術，OS／ミドルウェア，コンパイラ，プログラミング言語処理系，並列アルゴリズム，マルチコア最適化，GPGPU，オンラインアルゴリズム，性能評価／性能チューニング技術，数値シミュレーション，ペタフロップスコンピューティング適用など
+</li>
+<li>実用的基盤システム<br />
+データベース，Web サービス，検索エンジン，データマイニング，トランザクションシステム，分散計算環境，サーバシステム構築技術，ネットワークセキュリティ，E-サイエンスなど
+</li>
+</ol>
+<!-- INSERTED LINES END () -->
+
+<h4>募集内容</h4>
+<!-- INSERTED LINES BEGIN (CONTENTS) --><ol>
+<li>ポスター発表の一環として，A4用紙1ページ（ただし2ページまで可）の日本語または英語のポスター論文を募集します．他の場所で既発表の研究についての発表も受け入れます．投稿された論文原稿はそのままカメラレディ原稿となります．
+</li>
+<li>伝統的な並列処理（並列アーキテクチャや科学技術応用）にとどまらず，広域分散処理，大規模ストレージシステム，バイオインフォマティクスなど，幅広い分野の研究を積極的に募集します．構想段階の研究，問題提起などを含めた様々な研究を積極的に採用し，参加者間の議論の場を提供します．
+</li>
+<li>投稿されたポスター論文の査読によりポスター発表の採否を決定します．査読にあたっては，以下の点に配慮します．
+  <ul>
+  <li>SACSIS 2010の主旨ならびに扱う技術分野に適合するか</li>
+  <li>文章としての一定レベルの品質があるか（誤字等が多い場合は不採択）</li>
+  </ul>
+また，幅広い技術分野についての議論を可能にするため，ポスター発表が特定の技術分野へ極端に偏らないように配慮します．
+</li>
+<li>ポスターは原則的に以下の時間，掲示をお願いします．
+  <ul>
+  <li>5/27（木）14:30 - 20:30 (懇親会 18:15-20:30)</li>
+  <li>5/28（金）10:00 - 16:30</li>
+  </ul>
+また，(i) 懇親会の時間，(ii) 27日(木) 14:30-15:00，(iii) 27日(木) 16:00-16:30にポスターの前にて説明を行ってください．なお，その他の時間（他の休憩時間など）にも，ポスターの前で説明や議論をすることは可能です．発表後には必ずポスターをはがして持ち帰ってください．
+</li>
+<li>SACSIS 2010では，上記の査読で採択されたポスター発表に加え，併設企画のGPUチャレンジの上位入賞者によるポスター発表も行われます．上位入賞者によるポスター発表の論文原稿締切は個別に通知します．
+</li>
+<li>チャレンジ上位入賞者以外の発表者によるポスター発表から，優秀ポスター賞を3件程度選び表彰します．本賞の主旨は構想段階の研究，問題提起などを含めた様々な優れた研究を積極的に表彰することで，ポスター発表者を奨励し，ポスター発表の質の向上を目指すことにあり，独創的なアイデアに基づく研究を高く評価します．プログラム正副委員長，トラックチェアの計8名によるポスター論文と上記時間(ii)(iii)のポスター発表に関する審査で選出されます．表彰は閉会式にて行うため，受賞者(著者の中から最低1名)は閉会式に参加いただきます．
+</li>
+<li>ポスター発表の発表者は必ずSACSIS 2010への早期参加申込をして下さい．
+</li>
+</ol>
+
+<p>●ポスター論文のスタイル</p>
+<ul>
+<li>A4 1ページ（2ページまで可），日本語または英語でお願いします．</li>
+<li>スタイルは一般論文に準拠します．ただし，概要は必要ありません．またタイトルと著者名は本文の使用言語と同じものだけで結構です．</li>
+<li>一般論文のスタイルは，以下のURLを参照ください．</li>
+<li>規定スタイル（一般論文）：
+  <ul>
+    <li>LaTeX用 <a href="http://www.hpcc.jp/sacsis/2010/latexform.html">http://www.hpcc.jp/sacsis/2010/latexform.html</a></li>
+    <li>Word用 <a href="http://www.hpcc.jp/sacsis/2010/sacsis-form.doc">http://www.hpcc.jp/sacsis/2010/sacsis-form.doc</a></li>
+  </ul>
+（注意1）上記のWord用スタイルは8ページの一般論文用であり，スタイル内部にページ数は8ページ以内との記載がありますが，ポスター論文は1ページもしくは2ページとなっています．ご注意願います．<br />
+（注意2）一般論文のスタイルを使用すると，英文タイトル等を抜いた場合に余分な空白が生じます．latexでは上記の一般論文用のスタイルファイルに，下記のスタイルファイルを追加してご使用ください．
+  <ul>
+    <li><a href="http://www.hpcc.jp/sacsis/2010/sacsis-poster.sty">http://www.hpcc.jp/sacsis/2010/sacsis-poster.sty</a></li>
+  </ul>
+  LaTeX 2εでは <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\documentclass{ipsjpapers} <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\usepackage{sacsis-poster} <br />
+  LaTeX（2.09互換モード）では <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\documentstyle[sacsis-poster]{ipsjpapers} <br />
+  として使用します．
+</li>
+<li>投稿ファイル形式：PDFフォーマット</li>
+</ul>
+
+<p>●ポスター発表のスタイル</p>
+<ul>
+<li>1件あたり幅90cm×縦210cmのパネルが展示スペースとして提供されます．</li>
+<li>パネルに画鋲または両面テープでポスターを貼ってください．</li>
+<li>補足資料としてデモなどを行うことができます．ただし，電源，机については限りがありますので，これらを希望される場合は，ポスター論文締切期限までに koibuchi at nii.ac.jp にメールにてご相談ください．</li>
+</ul>
+<!-- INSERTED LINES END () -->
+
+<h4>投稿のしかた</h4>
+<!-- INSERTED LINES BEGIN (SUBMISSION) --><ol>
+<li>投稿は，以下のURLよりWebからのuploadにてお願いします．
+  <ul>
+  <li><a href="http://www.hpcc.jp/acs/31/submit/" target="_blank">http://www.hpcc.jp/acs/31/submit/</a></li>
+  </ul>
+</li>
+<li>所定のスタイルにて作成されたポスター論文のuploadと，投稿ページへの記入をお願いします．</li>
+<li>著作権については，シンポジウム論文集は情報処理学会からの出版になるため，情報処理学会著作権規程を御了承の上の投稿をお願いします．
+  <ul>
+    <li><a href="http://www.ipsj.or.jp/01kyotsu/chosakuken/">http://www.ipsj.or.jp/01kyotsu/chosakuken/</a></li>
+  </ul>
+</li>
+</ol>
+<!-- INSERTED LINES END () -->
+
+<h4>問い合わせ先</h4>
+<!-- INSERTED LINES BEGIN (INQUIRY) --><table>
+<colgroup><col width="400" /> <col width="100" /></colgroup>
+<tr><td>SACSIS2010 プログラム副委員長（ポスター）</td><td>鯉渕 道紘</td></tr>
+</table>
+<!-- INSERTED LINES END () -->
+
+<!-- INSERTED LINES END () --></div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2010, SACSIS 2010 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11-blue"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

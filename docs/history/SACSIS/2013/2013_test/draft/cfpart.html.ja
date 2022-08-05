@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <div class="main">
+      <?php include("include/navbar-ja.html");?>
+      <h4>参加募集 第９回先進的計算基盤システムシンポジウムSACSIS2011</h4>
+
+      <?php include("include/date-place-ja.html");?>
+
+      <h4>概要</h4>
+      SACSIS (Symposium on Advanced Computing Systems and Infrastructures)は2003年に誕生したシンポジウムです．その第9回は，東京秋葉原にて2011年5月25日(水)〜27日(金)に開催します．会議のスコープは SACSIS2003からの流れを引き継ぎ，以下のとおりです．
+      <?php include("include/intent-ja.html");?>
+
+      <p>
+	SACSIS2011では，「先進的計算システム」「先進的計算システムを支える基盤技術」「実用的基盤システム」に関連するオリジナリティ溢れる発表や，実装・開発事例等を含め有用性の高い発表，実用性を重視した基盤に関する発表が行われます．
+      </p>
+
+      <p>
+	一般講演39件およびポスター発表の他，以下の企画を設けております．
+      </p>
+      <ul>
+	<li>基調講演（1日目）<br />
+	  5月25日(水) 10:45-11:45<br />
+	  米澤 明憲 氏（計算科学研究機構／理化学研究所） <br />
+	  「計算機科学と計算科学の協業によるポストペタスケールHPCに向けて」<br />&nbsp;
+	</li>
+	<li>招待講演（2日目）<br />
+	  5月26日(木) 11:00-12:30<br />
+	  古村 孝志 氏（東京大学大学院情報学環総合防災情報研究センター／地震研究所） <br />
+	  「地震津波シミュレーションの現状と課題：東北地方太平洋沖地震発生を受けて」<br />&nbsp;
+	</li>
+	<li>チュートリアル3件
+	  <ul>
+	    <li>チュートリアル1<br />
+	      5/26(木) 14:00-15:30<br />
+	      黒田 忠広 氏 (慶應大学)<br />
+	      「近接ワイヤレス接続が創る３次元集積計算システム」<br />
+	    </li>
+	    <li>チュートリアル2<br />
+	      5/27(金) 10:50-12:20<br />
+	      田浦 健次朗 氏 (東京大学)<br />
+	      「HPC用の高生産並列プログラミング言語」
+	    </li>
+	    <li>チュートリアル3<br />
+	      5/27(金) 13:30-15:00<br />
+	      菅原 智義 氏 (NECシステムプラットフォーム研究所)<br />
+	      「新ネットワーク制御技術 OpenFlow とその利用方法」
+	    </li>
+	  </ul>
+	  &nbsp;</li>
+	<li>団体・企業展示：<br />
+	  <p>SACSISに関連する技術を持つ組織・企業の方々による，技術や商品の展示を企画しております．</p>
+	  <?php include("include/exhibit-list.html");?>
+	</li>
+	
+	<li>1日目に最優秀論文賞，優秀若手研究賞の表彰を行います．</li>
+	<li>ポスター発表を対象に，優秀ポスター賞，学生優秀ポスター賞を各1&sim;2件程度選び，3日目のクロージングにおいて表彰を行います．</li>
+      </ul>
+      
+      <h4>申込方法</h4>
+      
+      <ul>
+	<li>情報処理学会Webページの参加申込書よりお申込みください．<br />
+	  <a href="https://www.ipsj.or.jp/02moshikomi/event/event-sacsis2011.html">https://www.ipsj.or.jp/02moshikomi/event/event-sacsis2011.html</a>
+	</li>
+	<li>お支払方法で郵便振替を選択された場合は郵便振替用紙を，請求書を希望された場合は請求書をお送りします．お手元に届きましたらお手続きください(振込期限6月末)．
+	</li>
+	<li>参加費の当日現金払いも受け付けますが，なるべく振込でのお支払いにご協力ください．
+	</li>
+	<li>当日受付もいたしますが，論文集が不足した場合は事前申し込み優先とさせていただきますのでご了承ください．
+	</li>
+	<li>参加申込後，やむを得ず参加を取り消される場合は，5月6日(金)までにご連絡ください．取り消しの連絡のない場合は，準備の都合上，参加費を徴収させていただきます．
+	</li>
+	<li>論文，ポスター発表の方も参加登録が必要です．
+	</li>
+      </ul>
+
+      <dl>
+	<dt>早期Web申込締切</dt>
+	<dd>2011年5月6日(金)まで<br />&nbsp;</dd>
+	<dt>申込/照会先</dt>
+	<dd>一般社団法人 情報処理学会 調査研究 研究部門<br />
+	  E-mail: sig "at" ipsj.or.jp, TEL：(03)3518-8372 / FAX:(03)3518-8375<br />
+	  〒101-0062  東京都千代田区神田駿河台1-5  化学会館4F<br />&nbsp;
+	</dd>
+	<dt>参加費(税込／論文集代込み、懇親会へは無料でご参加いただけます)</dt>
+	<p><em>
+	    今回からIEEEが主催学会から外れていますのでご注意ください（当初のWeb等の記載では含まれたままになっておりました．申し訳ありません）
+	</em></p>
+	<dd>
+	  <table border="1" cellpadding="3">
+	    <tr><td width="150"></td><td width="150">5月6日(金)までに申込</td><td width="150">当日受付にて申込</td></tr>
+	    <tr><td>主催研究会会員</td><td>30,000 円</td><td>40,000 円</td></tr>
+	    <tr><td>一般会員</td><td>40,000 円</td><td>50,000 円</td></tr>
+	    <tr><td>学生会員</td><td>5,000 円</td><td>10,000 円</td></tr>
+	    <tr><td>非会員</td><td>50,000 円</td><td>60,000 円</td></tr>
+	  </table>
+<!-- 	  &nbsp;<br />論文集のみ：5,000円(消費税／送料込)<br />&nbsp;<br /> -->
+	  <p>
+	  ※非会員の学生の方は，非会員として参加いただくことになります．<br />
+	  ※入会手続き中の方も会員料金で参加できます．Web申込時の会員番号欄に「○○学会に入会手続き中」とご記入ください．各学会への入会手続きは，以下のURLから参照可能です．
+	  </p>
+	  <p style="padding-left:1.5em">
+	    情報処理学会: <a href="http://www.ipsj.or.jp/06mem/nyukai/nyukai.html">http://www.ipsj.or.jp/06mem/nyukai/nyukai.html</a><br />
+	    電子情報通信学会: <a href="http://www.ieice.org/jpn/nyukai/">http://www.ieice.org/jpn/nyukai/</a><br />
+	    <!-- 	IEEE CS: <a href="http://www.computer.org/portal/web/membership/join">http://www.computer.org/portal/web/membership/join</a> -->
+	  </p>
+	  <p>
+	    ※SACSISの当日参加受付においても，情報処理学会への同時入会手続きが可能となっています．手続していただければ当日会員料金で参加できます．
+	  </p>
+	</dd>
+      </dl>
+
+
+      <h4>SACSIS2011 プログラム</h4>
+
+      <ul>
+	<li>一般講演は1件30分(質疑応答含む)です．<br />&nbsp;</li>
+	<li>企業・団体展示は 5/25（水）11:45&sim;17:30 と 5/26(木) 9:30&sim;20:00（18:00&sim;20:00の懇親会の時間を含む） の間，常時展示されております．</li>
+	<li>ポスターセッションは 5/26(木) 16:00&sim;18:00 です．ポスター自体は13:00&sim;18:00の間は展示されております．</li>
+      </ul>
+
+      <?php include("include/program.html");?>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

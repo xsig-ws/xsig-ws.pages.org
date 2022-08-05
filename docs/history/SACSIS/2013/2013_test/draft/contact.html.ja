@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <div class="main">
+      <?php include("include/navbar-ja.html");?>
+      
+      <h4>お問い合わせ</h4>
+
+      <dl>
+	<dt>シンポジウム連絡先:</dt>
+	<dd>総務担当&nbsp;&nbsp;笹田 耕一&nbsp;(sasada <span> "at" </span> ci "dot" i "dot" u-tokyo "dot" ac "dot" jp)
+	</dd>
+	<dt>ポスター問合わせ先:</dt>
+	<dd>プログラム副委員長(ポスター)&nbsp;&nbsp;緑川 博子&nbsp;(midori <span> "at" </span> st "dot" seikei "dot" ac "dot" jp)
+	</dd>
+	<dt>企画展示連絡先:</dt>
+	<dd>企画展示担当&nbsp;&nbsp;櫻井 隆雄&nbsp;(takao "dot" sakurai "dot" ju <span> "at" </span> hitachi "dot" com)
+	</dd>
+	<dt>本Webページに関する連絡先:</dt>
+	<dd>広報担当&nbsp;&nbsp;平石 拓&nbsp; (tasuku <span> "at" </span>media "dot" kyoto-u "dot" ac "dot" jp)
+	</dd>
+      </dl>
+
+      <p>
+	SACSIS2011 の組織委員会は<a href="committee.html.ja">こちら</a>
+      </p>
+
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

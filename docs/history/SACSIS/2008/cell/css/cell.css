@@ -1,0 +1,643 @@
+/* --------------------------------------------------
+	Cell Speed Challenge 2008 web style
+	Copyright 2007,2008 TSUMURA,Tomoaki
+-------------------------------------------------- */
+
+
+
+/* --------------------------------------------------
+	contents frame 
+-------------------------------------------------- */
+
+body { 
+    font-family: Meiryo, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+p { 
+    text-indent: 1em;
+}
+
+a { 
+    color: #366;
+}
+
+
+body.contents {
+    background-color: #fff;
+    background-image: url(../img/bg.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20pt;
+}
+
+body.contents a:hover {
+    color: #930;
+    background-color: #ffc;
+}
+
+body.contents h1 {
+    letter-spacing: 0.5em;
+    background-color: #c5e9e1;
+    font-size: x-large;
+    color: #366;
+    padding-left: 1em;
+}
+
+body.contents h2 {
+    margin: 10pt;
+    margin-top: 20pt;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #fc9;
+    padding-left: 0.5em;
+    padding-bottom: 0px;
+}
+
+body.contents h3 {
+    font-size: normal;
+    margin: 14pt;
+    border-width: 0px 0px 0px 10px;
+    border-style: solid;
+    border-color: #ff9;
+    padding-left: 0.5em;
+}
+
+body.contents img { 
+    margin: 15pt;
+    border-style: none;
+}
+
+body.contents table.sponsor { 
+    width: 80%;
+    font-size: small;
+}
+
+body.contents table.sponsor th { 
+    font-size: large;
+    text-align: center;
+    color: #366;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    margin: 10px;
+}
+
+body.contents table.sponsor td { 
+    padding: 0px 10pt 0px 10pt;
+    vertical-align: top;
+}
+
+body.contents table.sponsor td ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+body.contents table.sponsor td ul li {
+    padding-left: 0px;
+}
+
+/* --------------------------------------------------
+	banner frame 
+-------------------------------------------------- */
+
+body.banner {
+/*  background-color: #6ac3a9; */
+    background-color: #66cccc;
+/*  background-image: url(../img/bannerbg.png); */
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    color: #000;
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+body.banner h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: arial;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+body.banner h2 {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0.2em;
+}
+
+/* --------------------------------------------------
+	menu frame 
+-------------------------------------------------- */
+
+body.menu {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c5e9e1;
+    color: #000;
+}
+
+body.menu ul {
+    line-height: 28px;
+    list-style: none;
+    vertical-align: middle;
+    letter-spacing: 0.2em;
+    margin-left: 10pt;
+    padding-left: 0pt;
+}
+
+body.menu ul li {
+    margin-left: 0px;
+    padding-left: 0px;
+    display: block;
+}
+
+body.menu ul li a {
+    text-decoration: none;
+    color: #033;
+    width: 120px;
+    background-image: url(../img/menu.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 10px;
+    margin: 0px;
+    display: block;
+}
+
+body.menu ul li a:hover {
+    color: #930;
+    background-image: url(../img/menu_active.png);
+}
+
+body.menu ul li a.notyet {
+    color: #666;
+    background-image: url(../img/menu_ny.png);
+    text-decoration: line-through;
+}
+
+body.menu hr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+/* --------------------------------------------------
+	date list 
+-------------------------------------------------- */
+
+dl.date dt {
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    display: inline;
+    background-color: #cff;
+    color: #066;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #cff;
+    margin-left: 10pt;
+    padding: 0px;
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+dl.date dd {
+    background-color: #eeffff;
+    color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cff;
+    margin-left: 5em;
+    margin-right: 10pt;
+    margin-top: -10pt;
+    margin-bottom: 10pt;
+    padding: 5pt;
+    padding-top: 5pt;
+    padding-left: 5em;
+}
+
+dl.date dt.done {
+    border-color: #ddd;
+    background-color: #eee;
+    color: #666;
+}
+
+dl.date dd.done { 
+    border-color: #ddd;
+    background-color: #eee;
+    color: #666;
+}
+
+dl.date dt.important {
+    border-color: #ddd;
+    background-color: #f6bfbc;
+    color: #c53d43;
+}
+
+dl.date dd.important { 
+    border-color: #ddd;
+    background-color: #fef4f4;
+    color: #000;
+}
+
+dl.date dd.important a { 
+    color: #8f2e14;
+}
+
+
+/* --------------------------------------------------
+	committee table
+-------------------------------------------------- */
+
+table.committee { 
+    background-color: #ddd;
+    margin-left: 20pt;
+    width: 40em;
+    border-collapse: collapse;
+}
+
+table.committee tr { 
+    background-color: #fcfcfc;
+}
+
+table.committee tr.even { 
+    background-color: #f0f3f3;
+}
+
+table.committee th { 
+    background-color: #666;
+    color: #fff;
+    text-align: left;
+    padding-left: 0.5em;
+}
+
+table.committee th.title { 
+    width: 8em;
+}
+
+table.committee th.name { 
+    width: 6em;
+}
+
+table.committee th.office { 
+    width: 25em;
+}
+
+table.committee td { 
+    padding-left: 0.5em;
+}
+
+
+/* --------------------------------------------------
+	link list
+-------------------------------------------------- */
+
+ul.link { 
+/*    font: bold 1.2em/1; */
+    font-size: 16px;
+    line-height: 200%;
+}
+
+ul.link li { 
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    list-style: none;
+}
+
+ul.link li a { 
+    padding-left: 24px;
+    text-decoration: none;
+    background-image: url(../img/ball_blue.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+ul.link li a:hover { 
+/*    text-decoration: underline; */
+    color: #930;
+    background-color: #ffc;
+    background-image: url(../img/ball_yellow.png);
+}
+
+
+/* --------------------------------------------------
+	command shell box
+-------------------------------------------------- */
+
+pre.command {
+    color: #fff;
+    background-color: #333;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccf;
+    margin-left: 20pt;
+    padding: 5pt;
+    width: 40em;
+}
+
+pre.command span.command { 
+    color: #9ff;
+    font-weight: bold;
+}
+
+pre.command span.info { 
+    color: #fd9;
+    font-weight: bold;
+}
+
+/* --------------------------------------------------
+	toolkit manifest
+-------------------------------------------------- */
+
+a.download:hover { 
+    color: #fff;
+    background-color: #fa0;
+}
+
+a.download { 
+    border-style: solid;
+    border-color: #fa0;
+    border-width: 2px;
+    background-color: #ffc;
+    display: inline-block;
+    color: #900;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+dl.manifest { 
+    margin-left: 20pt;
+}
+
+dl.manifest dt { 
+    color: #009;
+    margin-top: 5pt;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #99f;
+}
+
+/* --------------------------------------------------
+	problem
+-------------------------------------------------- */
+
+table.matrix {
+    margin-left: 20pt;
+    padding: 10pt;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #ccf;
+    line-height: 100%;
+}
+
+table.matrix td {
+    text-align: right;
+}
+
+p.equation {
+    margin-left: 20pt;
+    padding: 5pt;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #ccf;
+    display: inline;
+}
+
+pre.mailformat {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #99c;
+    margin-left: 20pt;
+    padding: 5pt;
+    padding-top: 0px;
+    width: 40em;
+    line-height: 20px;
+    background-image: url(../img/notebg20.png);
+    background-repeat: repeat;
+    font-size: 12px;
+}
+
+/* --------------------------------------------------
+	link w/ icon
+-------------------------------------------------- */
+
+a.pdf {
+    background-image: url(../img/pdf.png);
+    background-position: 4px center;
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    text-decoration: none;
+}
+
+a.feed {
+    background-image: url(../img/feed-icon-14x14.png);
+    background-position: 4px center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #c63;
+    font-weight: bold;
+}
+
+
+
+
+hr.footer {
+    border-width: 6px;
+    border-style: solid;
+    border-color: #c5e9e1;
+}
+
+/* --------------------------------------------------
+	faq list 
+-------------------------------------------------- */
+
+dl.faq dt {
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    display: inline;
+    background-color: #cff;
+    color: #066;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #cff;
+    margin-left: 10pt;
+    padding: 0px;
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+dl.faq dd {
+    background-color: #eeffff;
+    color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cff;
+    margin-left: 2em;
+    margin-right: 10pt;
+    margin-top: -10pt;
+    margin-bottom: 10pt;
+    padding: 5pt;
+    padding-top: 15pt;
+}
+
+/* --------------------------------------------------
+	attention box
+-------------------------------------------------- */
+
+div.attention {
+    font-weight: bold;
+}
+
+div.attention a { 
+    text-decoration: none;
+    text-align: center;
+    color: #633;
+    display: block;
+    border-style: solid;
+    border-color: #fa0;
+    border-width: 2px;
+    background-color: #ffc;
+    padding: 3pt;
+    font-size: large;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+
+div.attention a:hover {
+    color: #fff;
+    background-color: #fa0;
+}
+
+dl.attention dt {
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    display: inline;
+    background-color: #ffc;
+    color: #600;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #cff;
+    margin-left: 10pt;
+    padding: 0px;
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+dl.attention dd {
+    background-color: #ffffee;
+    color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fcc;
+    margin-left: 3em;
+    margin-right: 10pt;
+    margin-top: -10pt;
+    margin-bottom: 10pt;
+    padding: 5pt;
+    padding-top: 5pt;
+    padding-left: 3em;
+}
+
+dl.attention strong { 
+    color: #600;
+}
+
+
+strong {
+    color: #900;
+}
+
+
+/* 
+   prize
+*/
+
+dl.prize { 
+    font-size: 120%;
+    line-height: 200%;
+}
+
+dl.prize dt {
+    position: relative;
+    z-index: 2;
+    border-color: #fff;
+    border-style: outset;
+    font-weight: bold;
+    margin-right: 20%;
+    padding-left: 0.5em;
+}
+
+dl.prize dt.gold {
+    background-color: #ffd700;
+}
+
+dl.prize dt.silver {
+    background-color: #c0c0c0;
+}
+
+dl.prize dt.bronze {
+/*    background-color: #88592a; */
+    background-color: #b8860b;
+}
+
+dl.prize dd { 
+    position: relative;
+    z-index: 0;
+    font-weight: bold;
+    margin-bottom: 1em;
+    border: solid 1px #ccf;
+    margin-top: -10pt;
+    padding-top: 10pt;
+}
+
+/* --------------------------------------------------
+	outputs table
+-------------------------------------------------- */
+
+table.outputs{ 
+    border-width: 1px;
+    border-style: none;
+    width: 100%;
+}
+
+table.outputs td { 
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c5e9e1;
+    border-color: #ffd700;
+    background-color: #fffbde;
+    padding: 2pt;
+}
+
+table.outputs th { 
+    background-color: #c5e9e1;
+    padding: 2pt;
+}
+
+table.outputs th.prize {
+    width: 6em;
+}
+
+table.outputs th.team {
+    width: 13em;
+}
+
+table.outputs th.source {
+    width: 7em;
+}
+
+table.outputs td.document {
+    text-align: left;
+}
+

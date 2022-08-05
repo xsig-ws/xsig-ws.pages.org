@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>SACSIS 2004: Program</TITLE>
+ <META http-equiv=Content-Type content="text/html; charset=EUC-JP">
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+<STYLE type=text/css>BODY {
+	MARGIN-TOP: 0.1em; MARGIN-BOTTOM: 0.3em; TEXT-INDENT: 0em; BACKGROUND-COLOR: #fffff0
+}
+TH {	COLOR: black; BACKGROUND-COLOR: #cce }
+TD { }
+.ti {	COLOR: #000; BACKGROUND-COLOR: #cec }
+.na {	COLOR: #000; BACKGROUND-COLOR: #ecc }
+b { color: #035; }
+li { font-size: 14px; }
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR></HEAD>
+<BODY>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2004_NAVIGATION@@-->
+<div class="main">
+
+<!--
+<CENTER>
+<H1><A href="http://www.hpcc.jp/sacsis/2004/">SACSIS 2004</A>: プログラム（暫定） </H1>
+<HR>
+-->
+
+<div style="text-align:right">
+<!--##LAST_MODIFIED##-->
+</div>
+
+<h3 style="text-align:left">SACSIS2004 Program (tentative)</h3>
+
+<TABLE align="center" cellSpacing=0 cellPadding=3 border=1>
+  <THEAD>
+  <TR>
+    <TH>Time
+    <TH>Room A
+    <TH>Room B
+    <TH>Room C
+  </TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD class=ti align=middle colSpan=4><A href="#day26">
+     May 26 (Wed)</A></TD>
+  </TR>
+  <TR>
+    <TD>13:00 <DIV align=center>〜</DIV>13:20</TD>
+    <TD align=middle colSpan=3>
+       <A href="#opening">Opening Remarks (Room A)</A></TD> 
+  </TR>
+  <TR>
+    <TD>13:20 <DIV align=center>-</DIV>15:00</TD> 
+    <TD align=middle colSpan=3>
+       <A href="#keynote">Keynote Speech (Room A)</A></TD> 
+  </TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD class=na align=middle colSpan=3>Break</TD>
+  </TR>
+  <TR>
+    <TD>15:30 <DIV align=center>-</DIV>17:30 </TD>
+    <TD align=middle><A href="#session11">Energy Aware System and<BR>Networking</A> </TD>
+    <TD align=middle><A href="#session12">Language Processing</A> </TD>
+    <TD align=middle><A href="#session13">Grid I</A> </TD>
+  </TR>
+  <TR>
+    <TD class=ti align=middle colSpan=4><A href="#day27">
+    May 27 (Thu)</A></TD>
+  </TR>
+  <TR>
+    <TD>9:30 <DIV align=center>〜</DIV>11:00 </TD>
+    <TD class=na>&nbsp; </TD>
+    <TD align=middle><A href="#tutorial1">Tutorial 1</A> </TD>
+    <TD align=middle><A href="#tutorial2">Tutorial 2</A> </TD>
+  </TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD class=na align=middle colSpan=3>Lunch Time</TD>
+  </TR>
+ <TR>
+    <TD>13:00 <DIV align=center>-</DIV>14:30 </TD>
+    <TD align=middle colSpan=3>
+        <A href="#wakate">Youth Session (Room A)</A> </TD>
+  </TR>
+  <TR>
+    <TD>14:30 <DIV align=center>-</DIV>16:00 </TD>
+    <TD align=middle colSpan=3>
+        <A href="#poster">Poster Session</A> </TD>
+  </TR>
+  <TR> 
+    <TD>16:00 <DIV align=center>-</DIV>17:30 </TD>
+    <TD align=middle><A href="#session21">Instruction<br />Scheduling</A> </TD>
+    <TD align=middle><A href="#session22">Discrete Algorithms</A> </TD>
+    <TD align=middle><A href="#session23">Grid II</A> </TD>
+  </TR>
+  <TR>
+    <TD>18:00 <DIV align=center>-</DIV></TD>
+    <TD align=middle colSpan=3>Banquet (<a href="http://www.hotelokura.co.jp/sapporo">Hotel Ohkura Sapporo</a>) </TD>
+  </TR>
+  <TR>
+    <TD class=ti align=middle colSpan=4>
+       <A href="#day28">May 28(Fri)</A></TD>
+  </TR>
+  <TR>
+    <TD>9:30 <DIV align=center>-</DIV>11:30 </TD>
+    <TD align=middle><A href="#session31">Speculation</A> </TD>
+    <TD align=middle><A href="#session32">Performance Optimization</A> </TD>
+    <TD align=middle><A href="#session33">Operating<BR>System</A> </TD>
+  </TR>
+ <TR>
+    <TD>&nbsp;</TD>
+    <TD class=na align=middle colSpan=3>Lunch Time</TD>
+  </TR>
+  <TR>
+    <TD>13:00 <DIV align=center>-</DIV>14:40 </TD>
+    <TD align=middle colSpan=3>
+        <A href="#invited">Invited Talk (Room A)</A> </TD>
+  </TR>
+  <TR>
+   <TD>&nbsp;</TD>
+   <TD class=na align=middle colSpan=3>Break</TD>
+  </TR>
+ <TR>
+    <TD>15:00 <DIV align=center>-</DIV>17:00 
+    <TD align=middle><A href="#session41">Cluster System</A> </TD> 
+    <TD align=middle><A href="#session42">Applied Concurrent Processing</A> </TD>
+    <TD align=middle><A href="#session43">Network</A> </TD>
+  </TR>
+  <TR>
+    <TD>17:00 <DIV align=center>-</DIV></TD>
+    <TD align=middle colSpan=3>
+        <A href="#closing">Closing Speech (Room A)</A></TD></TR>
+</TBODY>
+</TABLE>
+</CENTER>
+
+</div>
+
+</BODY>
+</HTML>

@@ -1,0 +1,514 @@
+<PRE>Return-Path: &lt;swopp-announce-admin@hpcc.jp&gt;
+</PRE><PRE>Received: from kiko.proc.flab.fujitsu.co.jp (kiko [10.25.135.1])
+</PRE><PRE>	by titi.proc.flab.fujitsu.co.jp (8.8.8+Sun/proc-nomx-16) with SMTP id RAA09610
+</PRE><PRE>	for &lt;matz@titi.proc.flab.fujitsu.co.jp&gt;; Wed, 16 Apr 2003 17:01:31 +0900 (JST)
+</PRE><PRE>Received: from flabmail.flab.fujitsu.co.jp (flab.flab [10.25.192.4])
+</PRE><PRE>	by kiko.proc.flab.fujitsu.co.jp (SMI-8.6/proc-nomx-16) with SMTP id RAA12280
+</PRE><PRE>	for &lt;matz@proc.flab.fujitsu.co.jp&gt;; Wed, 16 Apr 2003 17:01:31 +0900
+</PRE><PRE>Received: from flabmail.flab.fujitsu.co.jp by flabmail.flab.fujitsu.co.jp (8.9.3p2/3.7W-020624-Fujitsu Labs. Domain Mail Master (NAVGW))
+</PRE><PRE>	id RAA27378; Wed, 16 Apr 2003 17:01:30 +0900 (JST)
+</PRE><PRE>Received: from m1.gw.fujitsu.co.jp ([10.0.50.71])
+</PRE><PRE> by flabmail.flab.fujitsu.co.jp (NAVGW 2.5.2.9) with SMTP id M2003041617013019605
+</PRE><PRE> for &lt;matz@flab.fujitsu.co.jp&gt;; Wed, 16 Apr 2003 17:01:30 +0900
+</PRE><PRE>Received: from s0.gw.fujitsu.co.jp by m1.gw.fujitsu.co.jp (8.12.9/Fujitsu Domain Master)
+</PRE><PRE>	id h3G81UxA010690 for &lt;matz@flab.fujitsu.co.jp&gt;; Wed, 16 Apr 2003 17:01:30 +0900
+</PRE><PRE>	(envelope-from swopp-announce-admin@hpcc.jp)
+</PRE><PRE>Received: from fgwmail2.fujitsu.co.jp (vs1.gw.fujitsu.co.jp [10.0.50.61]) by s0.gw.fujitsu.co.jp (8.12.9)
+</PRE><PRE>	id h3G81Tm4028536 for &lt;matz@flab.fujitsu.co.jp&gt;; Wed, 16 Apr 2003 17:01:29 +0900
+</PRE><PRE>	(envelope-from swopp-announce-admin@hpcc.jp)
+</PRE><PRE>Received: from mx1.aist.go.jp (mx1.aist.go.jp [150.29.246.133]) by fgwmail2.fujitsu.co.jp (8.12.9/Fujitsu Gateway)
+</PRE><PRE>	id h3G81TGh023471 for &lt;matz@flab.fujitsu.co.jp&gt;; Wed, 16 Apr 2003 17:01:29 +0900 (JST)
+</PRE><PRE>	(envelope-from swopp-announce-admin@hpcc.jp)
+</PRE><PRE>Received: from rpsmtp1.aist.go.jp
+</PRE><PRE>	by mx1.aist.go.jp  with ESMTP id h3G80KLW004426;
+</PRE><PRE>	Wed, 16 Apr 2003 17:00:20 +0900 (JST)
+</PRE><PRE>	env-from (swopp-announce-admin@hpcc.jp)
+</PRE><PRE>Received: from b1k-1.a02.aist.go.jp
+</PRE><PRE>	by rpsmtp1.aist.go.jp  with ESMTP id h3G7xm9E021132;
+</PRE><PRE>	Wed, 16 Apr 2003 17:00:13 +0900 (JST)
+</PRE><PRE>	env-from (swopp-announce-admin@hpcc.jp)
+</PRE><PRE>Received: (from daemon@localhost)
+</PRE><PRE>	by b1k-1.a02.aist.go.jp (8.11.6+Sun/8.11.6) id h3G7vj112370
+</PRE><PRE>	for swopp-members@eldora.a02.aist.go.jp; Wed, 16 Apr 2003 16:57:45 +0900 (JST)
+</PRE><PRE>X-ML-Name: swopp-announce
+</PRE><PRE>X-Mail-Count: 00557
+</PRE><PRE>Reply-To: swopp-announce-admin@hpcc.jp
+</PRE><PRE>X-URL: <A HREF="http://www.hpcc.jp/swopp/">http://www.hpcc.jp/swopp/</A>
+</PRE><PRE>X-ML-Info: If you have a question, visit <A HREF="http://www.hpcc.jp/swopp/">http://www.hpcc.jp/swopp/</A>
+</PRE><PRE>Date: Wed, 16 Apr 2003 16:57:38 +0900
+</PRE><PRE>From: Hayato YAMANA &lt;yamana@waseda.jp&gt;
+</PRE><PRE>To: swopp-announce@hpcc.jp
+</PRE><PRE>Subject: [swopp-announce:00557] SACSIS2003 Call for Participation
+</PRE><PRE>X-Reply-To: yamana@acm.org
+</PRE><PRE>Message-Id: &lt;20030416165136.D90E.YAMANA@waseda.jp&gt;
+</PRE><PRE>MIME-Version: 1.0
+</PRE><PRE>Content-Type: text/plain; charset=&quot;ISO-2022-JP&quot;
+</PRE><PRE>Content-Transfer-Encoding: 7bit
+</PRE><PRE>X-Mailer: Becky! ver. 2.05.10
+</PRE><PRE>Content-Length: 24997
+</PRE><PRE>
+</PRE><PRE>SWoPP MLの皆様：
+</PRE><PRE>
+</PRE><PRE>メーリングリストをお借りして，SACSIS2003の「参加募集」をさせていただき
+</PRE><PRE>ます．
+</PRE><PRE>
+</PRE><PRE>一般セッション，基調講演，招待講演，チュートリアル，ポスター，すべてが
+</PRE><PRE>充実しているSACSIS2003に是非ご参加ください．
+</PRE><PRE>
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　山名早人＠早大（SACSIS2003広報)
+</PRE><PRE>
+</PRE><PRE>------------------------------------------------------------------------
+</PRE><PRE>
+</PRE><PRE>　　　　　　　　　　　　　■参加申込み受付中■
+</PRE><PRE>　　　　　　　　　　　　事前申込締切：５月１４日
+</PRE><PRE>
+</PRE><PRE>　　　　　　先進的計算基盤システムシンポジウム SACSIS 2003
+</PRE><PRE>　　　Symposium on Advanced Computing Systems and Infrastructures 
+</PRE><PRE>　　　　　　　　　　<A HREF="http://www.hpcc.jp/sacsis/">http://www.hpcc.jp/sacsis/</A>
+</PRE><PRE>　　　　　　　２００３年５月２８日（水）〜３０日（金）
+</PRE><PRE>　　　　　学術総合センター会議場（東京都千代田区一ツ橋）
+</PRE><PRE>------------------------------------------------------------------------
+</PRE><PRE>
+</PRE><PRE>　2003年から新しいシンポジウム SACSIS (Symposium on Advanced Computing
+</PRE><PRE>Systems and Infrastructures) が設立されることとなりました．このシンポジ
+</PRE><PRE>ウムは，これまで皆様に親しまれてきた JSPP に代わるものですが，名前が示す
+</PRE><PRE>通り JSPP とは一味違ったシンポジウムに育てて行こうとしています．つまり；
+</PRE><PRE>
+</PRE><PRE>Advanced Computing .. 
+</PRE><PRE>
+</PRE><PRE>　SACSIS は今後の計算技術の発展を，さまざまな角度から議論することを目的
+</PRE><PRE>としています．そこで並列分散に限らず，広い意味で先進的な計算のためのシス
+</PRE><PRE>テムや基盤とそれらの要素技術を対象とします． 
+</PRE><PRE>
+</PRE><PRE>... Systems and Infrastructures 
+</PRE><PRE>
+</PRE><PRE>　性能などの「有効性」が重視される「システム」に関する技術だけではなく，
+</PRE><PRE>幅広い利用を目指して「実用性」を重視した「基盤」に関する技術も対象としま
+</PRE><PRE>す． 
+</PRE><PRE>
+</PRE><PRE>　SACSIS2003では，グリッド技術，クラスタ技術，組込みシステム等の「先進的
+</PRE><PRE>計算システム」，プロセッサアーキテクチャ等の「先進的計算システムを支える
+</PRE><PRE>基盤技術」，データベース，Webサービス等の「実用的基盤システム」に関連す
+</PRE><PRE>るオリジナリティ溢れる発表や，実装・開発事例等を含め有用性の高い発表，実
+</PRE><PRE>用性を重視した基盤に関する発表が行われます．
+</PRE><PRE>　一般発表43件およびポスター発表29件の他，今回は，以下の企画を設けており
+</PRE><PRE>ます．
+</PRE><PRE>
+</PRE><PRE>−　基調講演として，東京大学　萩谷昌巳先生による「分子コンピューティング
+</PRE><PRE>　　─計算機科学者から見たナノテクノロジーと分子エレクトロニクス─」に
+</PRE><PRE>　　関する講演を企画しました．
+</PRE><PRE>−　招待講演としては，CooltownプログラムのNomadic Computing Systemの作者
+</PRE><PRE>　　であるHP Lab.のTimKindberg氏をお招きし「The next 700 million smart
+</PRE><PRE>　　physical objects」に関する講演を企画しました．
+</PRE><PRE>−　チュートリアルとしては，豊橋技科大の高田氏による「組込みシステム開発
+</PRE><PRE>　　の現状と課題」，日本IBM　丸山氏による「XMLとWebサービスにおけるセキュ
+</PRE><PRE>　　リティの最新動向」を企画しました．
+</PRE><PRE>
+</PRE><PRE>研究者，技術者，SE，そしてユーザの皆様の御参加をお待ちしております．
+</PRE><PRE>
+</PRE><PRE>------------------------------------------------------------------------
+</PRE><PRE>◆申込方法：SACSIS ホームページ <A HREF="http://www.hpcc.jp/sacsis/">http://www.hpcc.jp/sacsis/</A> 
+</PRE><PRE>　より，&lt;参加申し込み&gt;リンクをたどり，オンラインでお申込みください ． 
+</PRE><PRE>　※当日受付もいたしますが，論文集が不足した場合は事前申し込み優先とさ
+</PRE><PRE>　　せていただきますのでご了承ください．
+</PRE><PRE>
+</PRE><PRE>◆照会先： (社)情報処理学会シンポジウム(SACSIS2003)係
+</PRE><PRE>　E-mail:sig@ipsj.or.jp,Tel (03)5484-3535,Fax (03)5484-3534
+</PRE><PRE>　〒108-0023 東京都港区芝浦3-16-20 芝浦前川ビル７F
+</PRE><PRE>
+</PRE><PRE>◆参加費：(論文集代/消費税込．懇親会へは無料でご参加いただけます)
+</PRE><PRE>                      主催研究会会員 主催学会員   非会員    学生
+</PRE><PRE>5月14日までに申込     25,000 円      30,000 円    35,000 円 10,000 円
+</PRE><PRE>5月15日以降に申込     30,000 円      35,000 円    40,000 円 13,000 円
+</PRE><PRE>論文集のみ：5,000円（消費税／送料込）
+</PRE><PRE>
+</PRE><PRE>------------------------------------------------------------------------
+</PRE><PRE>                         SACSIS2003 プログラム
+</PRE><PRE>
+</PRE><PRE>注:
+</PRE><PRE>    * 通常講演は1件30分(質疑応答含む)，short paper (論文名の後に
+</PRE><PRE>      short paperと表示)は1件20分です．
+</PRE><PRE>
+</PRE><PRE>    * ポスターはポスター会場にて，5月29日の午後常時展示されております．
+</PRE><PRE>      5月29日の14:30-16:00はポスターおよびデモ専用のセッションです．
+</PRE><PRE>      ポスターの著者は同時間帯にはポスター会場にてポスター発表・デモ
+</PRE><PRE>      などをしてください．
+</PRE><PRE>
+</PRE><PRE>........................................................................
+</PRE><PRE>
+</PRE><PRE>　　　　　　　　　　　　　　　プログラム
+</PRE><PRE>
+</PRE><PRE>　　　　　　　　　　───────────────
+</PRE><PRE>　　　　　　　　　　── 第1日目 5月28日（水）──
+</PRE><PRE>　　　　　　　　　　───────────────
+</PRE><PRE>
+</PRE><PRE>■開会の辞，優秀学生論文賞表彰 （13:00〜13:20, 一橋記念講堂） 
+</PRE><PRE>
+</PRE><PRE>■基調講演 （13:20〜15:00, 一橋記念講堂） 
+</PRE><PRE>
+</PRE><PRE>　＊分子コンピューティング　 
+</PRE><PRE>　　─計算機科学者から見たナノテクノロジーと分子エレクトロニクス─ 
+</PRE><PRE>　　　　　　　萩谷 昌巳（東大）
+</PRE><PRE>
+</PRE><PRE>■ネットワーク・セキュリティとOSカーネル （15:30〜17:30, 一橋記念講堂）
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　座長: 河野 健二（電通大）
+</PRE><PRE>
+</PRE><PRE>　＊仮想ネットワークアーキテクチャによるネットワークワイドな保護機構 
+</PRE><PRE>　　　　　　　廣津 登志夫, 福田 健介, 光来 健一, 明石 修, 
+</PRE><PRE>　　　　　　　佐藤 孝治, 菅原 俊治（NTT 未来ねっと研究所）
+</PRE><PRE>
+</PRE><PRE>　＊【優秀学生論文賞】マルチスレッドアーキテクチャにおける
+</PRE><PRE>　　スレッドライブラリの実装と評価
+</PRE><PRE>　　　　　　　笹田 耕一, 佐藤 未来子, 河原 章二, 加藤 義人, 大和 仁典,
+</PRE><PRE>　　　　　　　中條 拓伯, 並木 美太郎（東京農工大）
+</PRE><PRE>
+</PRE><PRE>　＊アドレス空間を共有するプロセスの集約を行う定数オーダー
+</PRE><PRE>　　スケジューリング (short paper) 
+</PRE><PRE>　　　　　　　近藤 拓也, 日下部 茂（九大）
+</PRE><PRE>
+</PRE><PRE>　＊高信頼 OS 向けカーネル拡張モジュール機能を用いた OS デバッグの実現
+</PRE><PRE>　　(short paper) 
+</PRE><PRE>　　　　　　　中村 哲人, 畑崎 恵介, 芹沢 一（日立）
+</PRE><PRE>
+</PRE><PRE>■ネットワーク （15:30〜17:30, 中会議場 3, 4） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　　座長: 朴 泰祐（筑波大）
+</PRE><PRE>
+</PRE><PRE>　＊Speculative Selection in Adaptive Routing on Interconnection
+</PRE><PRE>　　Networks 
+</PRE><PRE>　　　　　　　Tran Cong So, Shigeru Oyanagi, Katsuhiro Yamazaki
+</PRE><PRE>　　　　　　　(Ritsumeikan Univ.)
+</PRE><PRE>
+</PRE><PRE>　＊2次元Turnモデルに基づくイレギュラーネットワーク向けルーティング
+</PRE><PRE>　　アルゴリズムの設計と評価 
+</PRE><PRE>　　　　　　　上樂 明也, 鯉渕 道紘, 天野 英晴（慶大）
+</PRE><PRE>
+</PRE><PRE>　＊分散並列処理用ネットワーク RHiNET-2 の性能評価 
+</PRE><PRE>　　　　　　　大塚 智宏, 渡邊 幸之介（慶大）, 土屋 潤一郎（NEC）,
+</PRE><PRE>　　　　　　　原田 浩（HP）, 山本 淳二, 西 宏章（日立）, 
+</PRE><PRE>　　　　　　　工藤 知宏（産総研）, 天野 英晴（慶大）
+</PRE><PRE>
+</PRE><PRE>　＊耐故障性を備えた完全適応ルータの設計 (short paper) 
+</PRE><PRE>　　　　　　　細越 洋行, 水戸部 理, 吉永 努, 曽和 将容（電通大）
+</PRE><PRE>
+</PRE><PRE>■プログラム言語システム （15:30〜17:30, 中会議場 1, 2） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　座長: 田浦 健次朗（東大）
+</PRE><PRE>
+</PRE><PRE>　＊並列計算機におけるキャッシュを意識した自動メモリ管理機構 
+</PRE><PRE>　　　　　　　松田 聡, 鎌田 十三郎（神戸大）
+</PRE><PRE>
+</PRE><PRE>　＊巻き戻し実行をサポートする並列プログラムデバッガ 
+</PRE><PRE>　　　　　　　丸山 真佐夫（木更津高専）, 山本 繁弘, 大野 和彦, 
+</PRE><PRE>　　　　　　　中島 浩（豊橋技科大）
+</PRE><PRE>
+</PRE><PRE>　＊タスク並列スクリプト言語 MegaScript の構想 (short paper) 
+</PRE><PRE>　　　　　　　大塚 保紀, 深野 佑公, 西里 一史, 大野 和彦, 
+</PRE><PRE>　　　　　　　中島 浩（豊橋技科大）
+</PRE><PRE>
+</PRE><PRE>　＊バイトコードレベルの高い並列性を持つ QJava の提案 (short paper) 
+</PRE><PRE>　　　　　　　繁田 聡一, 王 立強, Abderazek Ben A., 吉永 努, 
+</PRE><PRE>　　　　　　　曽和 将容（電通大）
+</PRE><PRE>
+</PRE><PRE>
+</PRE><PRE>　　　　　　　　　　───────────────
+</PRE><PRE>　　　　　　　　　　── 第2日目 5月29日（木）──
+</PRE><PRE>　　　　　　　　　　───────────────
+</PRE><PRE>
+</PRE><PRE>■チュートリアル 1 （10:00〜11:30, 中会議場 3, 4） 
+</PRE><PRE>
+</PRE><PRE>　＊組込みシステム開発の現状と課題 
+</PRE><PRE>　　　　　　　高田 広章（豊橋技科大）
+</PRE><PRE>
+</PRE><PRE>■チュートリアル 2 （10:00〜11:30, 中会議場 1, 2） 
+</PRE><PRE>
+</PRE><PRE>　＊XMLとWebサービスにおけるセキュリティの最新動向 
+</PRE><PRE>　　　　　　　丸山 宏（日本IBM）
+</PRE><PRE>
+</PRE><PRE>■設計技術と再利用 （13:00〜14:30, 一橋記念講堂） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　　　座長: 中村 宏（東大）
+</PRE><PRE>
+</PRE><PRE>　＊SpecCによるソフトウェア記述の実装記述への変換 
+</PRE><PRE>　　　　　　　本田 晋也, 高田 広章, 中島 浩（豊橋技科大）
+</PRE><PRE>
+</PRE><PRE>　＊高性能マイクロプロセッサの高速シミュレーション 
+</PRE><PRE>　　　　　　　中田 尚, 大野 和彦, 中島 浩（豊橋技科大）
+</PRE><PRE>
+</PRE><PRE>　＊ステレオ画像処理を用いた曖昧再利用の評価 
+</PRE><PRE>　　　　　　　津邑 公暁, 清水 雄歩（京大）, 
+</PRE><PRE>　　　　　　　中島 康彦（京都大学/科技団さきがけ21）, 
+</PRE><PRE>　　　　　　　五島 正裕, 森 眞一郎, 北村 俊明, 富田 眞治（京大）
+</PRE><PRE>
+</PRE><PRE>■グリッド 1 （13:00〜14:30, 中会議場 3, 4） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　座長: 田中 良夫（産術研）
+</PRE><PRE>
+</PRE><PRE>　＊OmniRPC: グリッド環境での並列プログラミングのための Grid RPC 
+</PRE><PRE>　　システム 
+</PRE><PRE>　　　　　　　　佐藤 三久, 朴 泰祐, 高橋 大介（筑波大）
+</PRE><PRE>
+</PRE><PRE>　＊Java による階層型グリッド環境 Jojo の設計と実装 
+</PRE><PRE>　　　　　　　　中田 秀基（産総研/東工大）, 松岡 聡（東工大/NII）,
+</PRE><PRE>　　　　　　　　関口 智嗣（産総研）
+</PRE><PRE>
+</PRE><PRE>　＊Grid Datafarm におけるスケジューリング・複製手法の性能評価 
+</PRE><PRE>　　　　　　　　竹房 あつ子（お茶大）, 建部 修見（産総研）, 
+</PRE><PRE>　　　　　　　　松岡 聡（東工大/NII）, 
+</PRE><PRE>　　　　　　　　森田 洋平（高エネルギー加速器研究機構）
+</PRE><PRE>
+</PRE><PRE>■数値計算 （13:00〜14:30, 中会議場 1, 2） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　座長: 片桐 孝洋（電通大）
+</PRE><PRE>
+</PRE><PRE>　＊Pentium III, Pentium 4 における LINPACK ベンチマークチューニング手法 
+</PRE><PRE>　　　　　　　　西村 祥治, 荒木 拓也, 蒲池 恒彦（NEC）
+</PRE><PRE>
+</PRE><PRE>　＊Smoothed Aggregation MG法の異方性問題への対応と評価 
+</PRE><PRE>　　　　　　　　藤井 昭宏, 西田 晃, 小柳 義夫（東大）
+</PRE><PRE>
+</PRE><PRE>　＊性能安定化を目指した自動チューニング型固有値ソルバーについて 
+</PRE><PRE>　　　　　　　　今村 俊幸（原研）, 直野 健（日立）
+</PRE><PRE>
+</PRE><PRE>■ポスター発表 （14:30〜16:00, ポスター会場） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　（★）: デモンストレーション有り 
+</PRE><PRE>
+</PRE><PRE>　１．メガスケールシミュレータ Anastasia の設計と実装 
+</PRE><PRE>　　　　　　　　柴田 俊介, 鈴木 雄大, 大野 和彦, 中島 浩（豊橋技科大）
+</PRE><PRE>
+</PRE><PRE>　２．省エネルギー応用におけるプログラムの最長パス特定方法に関する考察 
+</PRE><PRE>　　　　　　　　千代延 昭宏（九工大）, 佐藤 寿倫（九工大）, 
+</PRE><PRE>　　　　　　　　有田 五次郎（九州産業大）
+</PRE><PRE>
+</PRE><PRE>　３．仮想一元化 NAS システム X-NAS における容量拡張・縮退機能の
+</PRE><PRE>　　　実現 （★） 
+</PRE><PRE>　　　　　　　　川本 真一, 保田 淑子, 江端 淳, 沖津 潤, 樋口 達雄, 
+</PRE><PRE>　　　　　　　　濱中 直樹（日立）
+</PRE><PRE>
+</PRE><PRE>　４．実行起動前最適化層を有する自動チューニングソフトウエア構成方式の
+</PRE><PRE>　　　提案 （★） 
+</PRE><PRE>　　　　　　　　片桐 孝洋, 吉瀬 謙二（電通大/科技団）, 本多 弘樹,
+</PRE><PRE>　　　　　　　　弓場 敏嗣（電通大）
+</PRE><PRE>
+</PRE><PRE>　５．POWER4 プロセッサ向けのストア高速化 
+</PRE><PRE>　　　　　　　　青木 秀貴, 中村 友洋, 助川 直伸, 本川 敬子（日立）
+</PRE><PRE>
+</PRE><PRE>　６．Sun ONE Grid EngineとKNOPPIXによる簡易グリッド環境の構築 （★） 
+</PRE><PRE>　　　　　　　　林 憲一, 山方 和昭, 澁谷 寿夫（サン）
+</PRE><PRE>
+</PRE><PRE>　７．大規模ボリュームデータの並列可視化環境の構築 
+</PRE><PRE>　　　─ 専用ハードウェアを用いた実装 ─ 
+</PRE><PRE>　　　　　　　　森 眞一郎, 高山 征大, 丸山 悠樹, 生雲 公啓, 津邑 公暁, 
+</PRE><PRE>　　　　　　　　五島 正裕, 中島 康彦, 富田 眞治（京大）
+</PRE><PRE>
+</PRE><PRE>　８．不均一クラスタ上での実行時間予測モデルとその評価 
+</PRE><PRE>　　　　　　　　岸本 芳典, 市川 周一（豊橋技科大）
+</PRE><PRE>
+</PRE><PRE>　９．地球シミュレータによる蛋白質の高速シミュレーション 
+</PRE><PRE>　　　　　　　　斎藤稔（弘前大）, 佐谷野健二（産総研）
+</PRE><PRE>
+</PRE><PRE>　10．SMP クラスタにおける効率的な MPI 集団通信関数の実装 
+</PRE><PRE>　　　　　　　　稲垣 良一, 上田 和紀（早大）
+</PRE><PRE>
+</PRE><PRE>　11．ソフトウェア制御オンチップメモリ向け自動最適化コンパイラの検討 
+</PRE><PRE>　　　　　　　　藤田 元信, 近藤 正章（東大/科技団）, 中村 宏（東大）
+</PRE><PRE>
+</PRE><PRE>　12．Combine the Jini and JXTA with Grid Services 
+</PRE><PRE>　　　　　　　　Weifeng Tao, DongSheng Cai (Tsukuba U.)
+</PRE><PRE>
+</PRE><PRE>　13．Aerie: WWWのための完全分散型匿名プロキシ （★） 
+</PRE><PRE>　　　　　　　　阿部 洋丈（筑波大）, 加藤和彦（筑波大/科技団）
+</PRE><PRE>
+</PRE><PRE>　14．術中支援のための可動域計算の並列化 
+</PRE><PRE>　　　　　　　　川崎 康博, 水谷 泰治, 伊野 文彦, 藤本 典幸, 笹間 俊彦,
+</PRE><PRE>　　　　　　　　佐藤 嘉伸, 田村 進一, 萩原 兼一（阪大）
+</PRE><PRE>
+</PRE><PRE>　15．部分グラフ同型判定のためのデータ依存回路の実装と評価 
+</PRE><PRE>　　　　　　　　山本 昌治, 市川 周一, 山本 浩司（豊橋技科大）
+</PRE><PRE>
+</PRE><PRE>　16．ゲノムアプリケーション InterProScan のファイル管理機能 
+</PRE><PRE>　　　　　　　　井上 悠佑, 小板 隆浩（大阪産業大）, 福田晃（九大）,
+</PRE><PRE>　　　　　　　　服部 晃和, 横田 隆史, 大津 金光, 古川 文人, 
+</PRE><PRE>　　　　　　　　馬場 敬信（宇都宮大）
+</PRE><PRE>
+</PRE><PRE>　17．大規模グリッド向けフォールトトレラントシステム Eagle の提案 
+</PRE><PRE>　　　　　　　　服部 晃和, 横田 隆史, 大津 金光, 古川 文人, 
+</PRE><PRE>　　　　　　　　馬場敬信（宇都宮大）
+</PRE><PRE>
+</PRE><PRE>　18．高バンド幅/耐故障性をもつクラスタ向け結合ネットワーク RI2N 
+</PRE><PRE>　　　　　　　　三浦 信一, 朴 泰祐, 佐藤 三久, 高橋 大介（筑波大）
+</PRE><PRE>
+</PRE><PRE>　19．ギガビットネットワークを利用した広域分散環境での 3次元仮想空間
+</PRE><PRE>　　　システム CAVE による可視化 
+</PRE><PRE>　　　　　　　　林 亮子, 堀井 洋, 堀口 進（北陸先端）
+</PRE><PRE>
+</PRE><PRE>　20．リザベーション・ステーションと物理レジスタ・ファイルを併用する
+</PRE><PRE>　　　スーパースカラ・プロセッサの構成方式 
+</PRE><PRE>　　　　　　　　小西 将人, 五島 正裕（京大）
+</PRE><PRE>
+</PRE><PRE>　21．性能へテロクラスタにおけるタスク並列処理フレームワークの提案 
+</PRE><PRE>　　　　　　　　立川 純, 福田 健一郎, 平 孝則, 大西 淑雅, 
+</PRE><PRE>　　　　　　　　佐藤 寿倫（九工大）, 有田 五次郎（九州産業大）
+</PRE><PRE>
+</PRE><PRE>　22．アプリケーションのインストール，データの配布，更新をサポートする
+</PRE><PRE>　　　グリッドポータル構築ツールキット (PCT4G) の開発 
+</PRE><PRE>　　　　　　　　白砂 哲, 鈴村 豊太郎（東工大）, 中田秀基（産総研/東工大）,
+</PRE><PRE>　　　　　　　　松岡聡（東工大/NII）
+</PRE><PRE>
+</PRE><PRE>　23．専用計算機 MDGRAPE-2 を用いた分子動力学シミュレーションの並列化 
+</PRE><PRE>　　（★） 
+</PRE><PRE>　　　　　　　　高田 直樹, 二木 紀行, 末永 敦, 沖本 憲明, 平野 秀典, 
+</PRE><PRE>　　　　　　　　成見 哲（理研）, 川井 敦（埼玉工大）, 泰岡 顕治（慶大）
+</PRE><PRE>
+</PRE><PRE>　24．自律的な通信回復を行う Fault Tolerant MPI の実装と評価 
+</PRE><PRE>　　　　　　　　實本 英之, 高宮 安仁（東工大）, 松岡聡（東工大/NII）
+</PRE><PRE>
+</PRE><PRE>　25．メタプロセスモデル −計算機クラスタ向きの分散共有メモリ
+</PRE><PRE>　　　プログラミングモデル− 
+</PRE><PRE>　　　　　　　　緑川 博子, 片野 真吾, 飯塚 肇（成蹊大）
+</PRE><PRE>
+</PRE><PRE>　26．次世代グリッド基盤 OGSA における C 言語動作環境提供システムの
+</PRE><PRE>　　　試作と評価 
+</PRE><PRE>　　　　　　　　濱野 智行（東工大）, 中田 秀基（産総研）, 
+</PRE><PRE>　　　　　　　　鈴村 豊太郎（東工大）, 松岡 聡（東工大/NII）
+</PRE><PRE>
+</PRE><PRE>　27．グリッドコンピューティングにおけるモニタリングシステムの自律的構成 
+</PRE><PRE>　　　　　　　　白勢 健一郎（東工大）, 小川 宏高, 中田 秀基（産総研）, 
+</PRE><PRE>　　　　　　　　松岡 聡（東工大/NII）
+</PRE><PRE>
+</PRE><PRE>　28．グリッド環境におけるレプリカ交換法を用いた分子シミュレーション
+</PRE><PRE>　　　プログラムの性能評価 
+</PRE><PRE>　　　　　　　　佐藤 仁（東工大）, 伊藤 正勝（産総研）, 
+</PRE><PRE>　　　　　　　　中田 秀基（産総研）, 松岡 聡（東工大/NII）
+</PRE><PRE>
+</PRE><PRE>　29．Linux Super Page とページカラーリングによるメモリ性能の評価 
+</PRE><PRE>　　　　　　　　早坂 晴康, 清水 尚彦（東海大）
+</PRE><PRE>
+</PRE><PRE>■キャッシュ・アーキテクチャ （16:00〜17:30, 一橋記念講堂） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　　　座長: 森 眞一朗（京大）
+</PRE><PRE>
+</PRE><PRE>　＊再帰的データ構造のためのキャッシュ内でのフィールド配列圧縮 
+</PRE><PRE>　　　　　　　　高木 将通, 平木 敬（東大）
+</PRE><PRE>
+</PRE><PRE>　＊SPARC64 V のキャッシュアーキテクチャ 
+</PRE><PRE>　　　　　　　　山下 英男, 土手口 正裕, 山崎 巌, 鵜飼 昌樹, 海野 秀之,
+</PRE><PRE>　　　　　　　　吉田 利雄, 瀬野尾 晃弘（富士通）
+</PRE><PRE>
+</PRE><PRE>　＊ライン・バッファ・ヒット/ミス予測を利用した動的命令スケジューリング
+</PRE><PRE>　　の高精度化手法 
+</PRE><PRE>　　　　　　　　福田 祥貴, 片山 清和, 島田 俊夫（名大）
+</PRE><PRE>
+</PRE><PRE>■グリッド 2 （16:00〜17:30, 中会議場 3, 4） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　　　座長: 今村 俊幸（原研）
+</PRE><PRE>
+</PRE><PRE>　＊HMCS-G: グリッド環境における計算宇宙物理のためのハイブリッド
+</PRE><PRE>　　計算システム 
+</PRE><PRE>　　　　　　　　朴 泰祐, 佐藤 三久, 小沼 賢治（筑波大）, 
+</PRE><PRE>　　　　　　　　牧野 淳一郎（東大）, 須佐 元（立教大）, 
+</PRE><PRE>　　　　　　　　高橋 大介, 梅村 雅之（筑波大）
+</PRE><PRE>
+</PRE><PRE>　＊Grid: 広域分散並列処理環境での高精度分子シミュレーション 
+</PRE><PRE>　　― C20 分子のレプリカ交換モンテカルロ 
+</PRE><PRE>　　　　　　　　池上 努, 武宮 博, 長嶋 雲兵, 田中 良夫, 
+</PRE><PRE>　　　　　　　　関口 智嗣（産総研）
+</PRE><PRE>
+</PRE><PRE>　＊Grid 環境上における気象予報シミュレーションシステムの構築 
+</PRE><PRE>　　　　　　　　武宮 博, 首藤 一幸, 田中 良夫, 関口 智嗣（産総研）
+</PRE><PRE>
+</PRE><PRE>■データ管理 （16:00〜17:30, 中会議場 1, 2） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　座長: 宮崎 純（北陸先端）
+</PRE><PRE>
+</PRE><PRE>　＊Scalability of X-NAS: a Clustered NAS System 
+</PRE><PRE>　　　　　　　　Yoshiko Yasuda, Shinichi Kawamoto, Atsushi Ebata, 
+</PRE><PRE>　　　　　　　　Jun Okitsu, Tatsuo Higuchi, Naoki Hamanaka
+</PRE><PRE>　　　　　　　　(Hitachi, Ltd.)
+</PRE><PRE>
+</PRE><PRE>　＊ディペンダブルなインターネット・サーバを実現するクラスタ用
+</PRE><PRE>　　ミドルウェアの基本設計 
+</PRE><PRE>　　　　　　　　杉木 章義, 河野 健二, 岩崎 英哉, 益田 隆司（電通大）
+</PRE><PRE>
+</PRE><PRE>
+</PRE><PRE>　　　　　　　　　　───────────────
+</PRE><PRE>　　　　　　　　　　── 第3日目 5月30日（金）──
+</PRE><PRE>　　　　　　　　　　───────────────
+</PRE><PRE>
+</PRE><PRE>■プロセッサ・アーキテクチャ （10:00〜11:30, 一橋記念講堂） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　　　　座長: 西 直樹（NEC）
+</PRE><PRE>
+</PRE><PRE>　＊A Register Communication Mechanism for Speculative Multithreading
+</PRE><PRE>　　Chip Multiprocessors 
+</PRE><PRE>　　　　　　　　Barli Niko Demus, Tashiro Daisuke, Iwama Chitaka, 
+</PRE><PRE>　　　　　　　　Sakai Shuichi, Tanaka Hidehiko (U. Tokyo)
+</PRE><PRE>
+</PRE><PRE>　＊パイプラインステージ統合： 将来のモバイルプロセッサのための
+</PRE><PRE>　　消費エネルギー削減技術 【優秀学生論文賞】 
+</PRE><PRE>　　　　　　　　嶋田 創, 安藤 秀樹, 島田 俊夫（名大）
+</PRE><PRE>
+</PRE><PRE>　＊頻出値を利用した物理レジスタの静的共有化手法 
+</PRE><PRE>　　　　　　　　大熊 穣, 片山 清和, 小林 良太郎, 安藤 秀樹, 
+</PRE><PRE>　　　　　　　　島田 俊夫（名大）
+</PRE><PRE>
+</PRE><PRE>■クラスタ・コンピューティング （10:00〜11:30, 中会議場 3, 4） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　　座長: 合田 憲人（東工大）
+</PRE><PRE>
+</PRE><PRE>　＊Hybrid MPI-OpenMP Solution for a Linear System, a High Performance
+</PRE><PRE>　　Parallel Benchmark for SMP Clusters 
+</PRE><PRE>　　　　　　　　Ta Quoc Viet, Tsutomu Yoshinaga, Ben A. Abderazek,
+</PRE><PRE>　　　　　　　　Masahiro Sowa (U. Electro-Communications)
+</PRE><PRE>
+</PRE><PRE>　＊Omni/SCASH のループ再分割を用いた動的負荷分散拡張の実装と評価 
+</PRE><PRE>　　　　　　　　栄 純明, 松岡 聡（東工大）, 佐藤 三久（筑波大）, 
+</PRE><PRE>　　　　　　　　原田 浩（HP）
+</PRE><PRE>
+</PRE><PRE>　＊マルチホーム方式を用いたマルチクラスタ向けソフトウェア分散共有メモリ 
+</PRE><PRE>　　　　　　　　城田 祐介, 吉川 克哉, 本多 弘樹, 弓場 敏嗣（電通大）
+</PRE><PRE>
+</PRE><PRE>■招待講演 （13:00〜14:40, 一橋記念講堂） 
+</PRE><PRE>
+</PRE><PRE>　＊The next 700 million smart physical objects 
+</PRE><PRE>　　　　　　　　Tim Kindberg (Hewlett-Packard Laboratories)
+</PRE><PRE>
+</PRE><PRE>■アプリケーション （15:00〜16:30, 一橋記念講堂） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　　座長: 井口 寧（北陸先端）
+</PRE><PRE>
+</PRE><PRE>　＊並列災害救助シミュレーションにおける精度と計算時間に関する評価 
+</PRE><PRE>　　　　　　　　菅 真樹, 合田 憲人（東工大）
+</PRE><PRE>
+</PRE><PRE>　＊【優秀学生論文賞】参照の空間局所性を最大化するボリューム・
+</PRE><PRE>　　レンダリング・アルゴリズム 
+</PRE><PRE>　　　　　　　　額田 匡則, 小西 将人, 五島 正裕（京大）, 
+</PRE><PRE>　　　　　　　　中島 康彦（京大/科技団）, 富田 眞治（京大）
+</PRE><PRE>
+</PRE><PRE>　＊遺伝的交叉を用いた並列 SA によるタンパク質立体構造のエネルギー最小化 
+</PRE><PRE>　　　　　　　　廣安 知之, 三木 光範, 小椋 信弥, 青井 桂子, 
+</PRE><PRE>　　　　　　　　吉田 武史（同志社大）, 岡本 祐幸（岡崎国立共同研究機関）
+</PRE><PRE>
+</PRE><PRE>■システムとツール （15:00〜16:30, 中会議場 3, 4） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　座長: 住元 真司（富士通研）
+</PRE><PRE>
+</PRE><PRE>　＊自律コンピューティングに向けた HPC 向け動的負荷分散機構 
+</PRE><PRE>　　　　　　　　松原 正純, 鈴木 和宏, 勝野 昭（富士通）
+</PRE><PRE>
+</PRE><PRE>　＊メッセージ通信プログラムの改善可能性を評価するための性能予測ツール 
+</PRE><PRE>　　　　　　　　神戸 友樹, 置田 真生, 伊野 文彦, 萩原 兼一（阪大）
+</PRE><PRE>
+</PRE><PRE>　＊Lucie: 大規模クラスタに適した高速セットアップ・管理ツール 
+</PRE><PRE>　　　　　　　　高宮 安仁（東工大）, 真鍋 篤（KEE）, 松岡 聡（東工大）
+</PRE><PRE>
+</PRE><PRE>■データ処理 （15:00〜16:30, 中会議場 1, 2） 
+</PRE><PRE>　　　　　　　　　　　　　　　　　　　　　　　　　　座長: 佐藤 一郎（NII） 
+</PRE><PRE>
+</PRE><PRE>　＊要求駆動による遠隔 XML データ処理の効率化 
+</PRE><PRE>　　　　　　　　鎌田 十三郎, 新村 健治, 田中 敬一（神戸大）
+</PRE><PRE>
+</PRE><PRE>　＊インクリメンタルな更新機構を備えた全文検索インデックスの
+</PRE><PRE>　　分散並列処理方式 
+</PRE><PRE>　　　　　　　　高橋 慎, 加藤 和彦（筑波大）
+</PRE><PRE>
+</PRE><PRE>■閉会の辞 （16:30〜, 一橋記念講堂） 
+</PRE><PRE>
+</PRE><PRE>------------------------------------------------------------------------
+</PRE><PRE>
+</PRE><PRE>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+</PRE><PRE>Hayato YAMANA        Associate Prof.  Waseda Univ. 
+</PRE><PRE>3-4-1 Okubo, Shinjuku-ku, Tokyo 169-8555 JAPAN
+</PRE><PRE>E-mail: yamana@acm.org    TEL/FAX:03-5286-3503
+</PRE><PRE>URL: <A HREF="http://www.yama.info.waseda.ac.jp/">http://www.yama.info.waseda.ac.jp/</A>
+</PRE><PRE>
+</PRE><PRE>
+</PRE>

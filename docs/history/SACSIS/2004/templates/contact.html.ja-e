@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2004 Contact</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2004_NAVIGATION@@-->
+<div class="main">
+<h4>お問い合わせ</h4>
+
+<dl>
+<dt> シンポジウム連絡先：</dt>
+<dd>
+    庶務担当 松原正純 (<a href="matz@labs.fujitsu.com">matz@labs.fujitsu.com</a>)
+</dd>
+
+<dt> 本Webページに関する連絡先：</dt>
+<dd>
+    広報担当 安田絹子 (<a href="mailto:kinuko@spa.is.uec.ac.jp">kinuko@spa.is.uec.ac.jp</a>)
+</dd>
+</dl>
+
+<p>
+SACSIS 2004 の組織委員会については<a href="committee.html.ja">こちら</a>へ
+</p>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

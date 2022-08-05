@@ -1,0 +1,48 @@
+body {
+  color: black;
+  background: white;
+}
+
+a         { text-decoration: none; }
+a:link    { color: #00c; }
+a:active  { color: #aaa; }
+a:visited { color: #228; }
+a:hover   { color: black; background: #ffa; }
+
+div.title {
+  color: white;
+  background: url(../images/odaiba2.jpg) black;
+}
+
+h1 { border-color: black; }
+
+h2, h3, h4 {
+    color: #555;
+    border-color: #666;
+    border-style: solid;
+}
+
+div.main {
+   color: black;
+   background: white;
+}
+
+div.navbar {
+  line-height:140%;
+  background-color: #eee;
+  border-left: 2.5px solid white;
+  padding: 0px;
+}
+
+/*
+div.navbar p { color: white; border-color: white; border-width: 2px; }
+div.navbar p.title { color: white; }
+div.navbar p a:link    { color: white; }
+div.navbar p a:visited { color: #efefef; }
+div.navbar p a:hover   { color: #333; background-color: #ffc; }
+*/
+
+
+address {
+  background: #ccc;
+}

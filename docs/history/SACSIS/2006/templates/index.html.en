@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2006.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2006</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2006_NAVIGATION@@-->
+<div class="main">
+
+<center>
+<span class="notice"> SACSIS 2006 Ended.<br />
+Thank you.
+We look forward to seeing you again at SACSIS 2007.
+</span>
+<br />
+(<a href="include/enquete.pdf">enquete results</a>)
+</center>
+
+<!-- News -->
+<p>
+<b>2006.10.11</b> released <a href="program.html.en">tutorial resources</a> in Program page <br />
+<b>2006.5.27</b> released <a href="include/enquete.pdf">enquete results</a> <br />
+<b>2006.5.1</b> updated <a href="exhibit.html.en">the page for exhibits</a><br />
+<b>2006.4.13</b> released <a href="program.html.en">a Program (Preliminary)</a><br />
+<b>2006.4.12</b> added a link to <a href="http://www.ipsj.or.jp/09sig/kaikoku/2006/SACSIS2006.html">registration</a> page, <a href="cfpart.html.en">Call for Participation</a>, and <a href="exhibit.html.en">a page for exhibits</a><br />
+<b>2006.3.14</b> released Call for Posters<br />
+<b>2005.11.24</b> released Call for Papers <br />
+<b>2005.11.6</b> added IPSJ SIGMPS, SIGEMB and IEICE RECONF to Supporter <br />
+<b>2005.10.26</b> opened Call for Exhibits <br />
+<b>2005.9.29</b> opened SACSIS 2006 website <br />
+</p>
+
+<h4>SACSIS2006</h4>
+
+<!--@@SACSIS2006@@-->
+<!--@@SACSIS@@-->
+
+<h4>Important Dates </h4>
+
+<!--@@DATES@@-->
+
+<h4>Sponsors and Supporter</h4>
+
+<ul>
+<li> Sponsors 
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hpcc.jp/sigarc/">SIGARC</a> (Architecture) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a> (Operating Systems) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hpcc.jp/sighpc/">SIGHPC</a> (High Performance Computing) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/pro/">SIGPRO</a> (Programming) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hirata.nuee.nagoya-u.ac.jp/sigal/">SIGAL</a> (Algorithm) </li>
+ <li> <a href="http://www.ieice.org/">IEICE</a> 
+ <a href="http://www.ieice.org/iss/cpsy/jpn/">CPSY</a> (Computer System) </li>
+<li> <a href="http://homepage1.nifty.com/ieeetokyo/"> IEEE Computer Society Japan Chapter</a> <!--(requesting)--> </li>
+ </ul>
+</li>
+<li> Supporter
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/mps/">SIGMPS</a> (Mathematical Modeling and Problem Solving) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ertl.jp/SIGEMB/">SIGEMB</a> (Embedded Systems)</li>
+ <li> <a href="http://www.ieice.org/">IEICE</a> 
+     <a href="http://www.ieice.org/iss/dc/jpn/">DC</a> (Dependable Computing) </li>
+<li> <a href="http://www.ieice.org/">IEICE</a> 
+     <a href="http://www.am.ics.keio.ac.jp/reconf/">RECONF</a> (Reconfigurable Systems)</li>
+ </ul>
+</li>
+</ul>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

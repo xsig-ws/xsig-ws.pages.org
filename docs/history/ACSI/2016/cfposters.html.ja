@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+<head>
+ <style type="text/css">
+       tr.cf_paper {
+       display: none;
+       }
+       tr.cf_etc {
+       display: none;
+       }
+       tr.cf_poster {
+       display: table-row;
+       }
+ </style>
+</head>
+
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+<p></p>
+<h1>ACSI2016 ポスター発表募集</h1>
+<p></p>
+<p>
+
+ACSI2016 (2nd Annual Meeting on Advanced Computing System and Infrastructure)
+ でのポスター発表を募集します．構想段階の内容や問題提起など将来の展
+開を見据えた萌芽的内容から既発表の研究紹介まで，幅広い内容で募集します．
+優秀ポスター発表の表彰も予定していますので，是非，ご投稿ください．なお，
+ACSI2015では1〜2ページのポスター論文を募集しましたが，ACSI2016では「英
+語ポスターそのもの(A4サイズ縮小版)」をご投稿頂きますのでご注意下さい．
+</p>
+
+<h4>【重要日程】</h4>
+
+    <?php include("include/important-dates-ja.html");?>
+
+<h4>【ポスター投稿】</h4>
+
+<ul>
+<li>ポスターのA4サイズ縮小版1ページをPDF形式にてご提出下さい(フォーマットは自由)．</li>
+<li>ポスターで使用できる言語は「英語のみ」です．</li>
+<li>日本語または英語の補足説明資料1〜2ページ程度をご提出頂けます(必須ではありません)．ポスター採否審査にのみ使用します．</li>
+<li>デモのために机や電源を希望される場合は，採否決定後にご相談下さい．なお，希望者多数の場合はご要望に応じられないことがありますのでご了承ください．</li>
+<li>ACSI2016「<a href="./submission_instruction.html.ja">論文投稿ページ</a>」よりご投稿下さい．</li>
+
+</ul>
+
+<h4>【採択ポスターについて】</h4>
+
+<ul>
+<li>パネル展示サイズは 幅122cm × 高さ180cm です．</li>
+<li>画鋲はACSI2016組織委員会で用意します．</li>
+<li>ポスター・展示インデキシングにて1分程度の紹介発表をして頂きます．</li>
+<li>発表者は必ずACSI2016へ参加申込して頂きます．</li>
+<li>ポスターA4縮小版は会議参加者に配布されますが，一般公開はされません．</li>
+</ul>
+
+<h4>【優秀ポスター発表の表彰】</h4>
+<ul>
+<li>プログラム正副委員長および審査を担当するプログラム委員により，ポスター発表時の審査に基づき最大1件選出します．</li>
+</ul>
+
+<h4>【お問い合わせ】</h4>
+<ul>
+<li>ACSI2016組織委員会:acsi2016 "at" acsi "dot" hpcc "dot" jp</li>
+</ul>
+</div>
+    <?php include("include/footer.html");?>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/cell.css">
+<!-- meta name="author"      content="" -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rev="made" href="mailto:tsumura@nitech.ac.jp">
+<meta name="date" content="2007-11-15T14:41:44+09:00">
+</head>
+
+<body class="contents">
+
+<h1>規定課題概要</h1>
+
+<p>Cellスピードチャレンジ2008
+の規定課題は「<strong>連立一次方程式の求解</strong>」です．</p>
+<p>たとえば、以下の3変数による連立一次方程式の解は、
+消去法により求めることができます。</p>
+
+<table class="matrix">
+ <tr>
+  <td>3x<td>+<td> y<td>+<td>4z<td>=<td>17
+ </tr>
+ <tr>
+  <td>x <td>+<td>5y<td>+<td>9z<td>=<td>38
+ </tr>
+ <tr>
+  <td>2x<td>+<td>6y<td>+<td>5z<td>=<td>29
+ </tr>
+</table>
+
+<p style="margin-left: 50pt;">↓</p>
+
+<table class="matrix">
+ <tr>
+  <td>3x<td>+<td>y<td>+<td>4z<td>=<td>17
+ </tr>
+ <tr>
+  <td>  <td> <td>(14/3)y<td>+<td>(23/3)z<td>=<td> 97/3
+ </tr>
+ <tr>
+  <td>  <td> <td>(16/3)y<td>+<td>(7/3)z<td>=<td> 53/3
+ </tr>
+</table>
+
+<p style="margin-left: 50pt;">↓</p>
+
+<table class="matrix">
+ <tr>
+  <td>3x<td>+<td>y<td>+<td>4z<td>=<td>17<td>...(1)
+ </tr>
+ <tr>
+  <td>  <td> <td>(14/3)y<td>+<td>(23/3)z<td>=<td>97/3<td>...(2)
+ </tr>
+ <tr>
+  <td>  <td> <td>       <td> <td>(-135/21)z<td>=<td>-405/21<td> ...(3)
+ </tr>
+</table>
+    
+  
+<p>以上の消去を、<strong>前進消去</strong>と呼びます。</p>
+
+<p>解は、以下のように求めることができます。</p>
+
+<ul>
+ <li>式(3)より、 z = 3                 ...(4)
+ <li>式(2)に、式(4)を代入して、y = 2   ...(5)
+ <li>式(1)に、式(4)と式(5)を代入して、x = 1。
+</ul>
+
+<p>以上の操作を、<strong>後退代入</strong>と呼びます。</p>
+
+<p>前進消去と後退代入などを利用して、与えられた連立一次方程式を解くことを、
+<strong>連立一次方程式の解法</strong>と呼びます。</p>
+
+<p>左辺の係数を行列表記、右辺の値と解の変数をベクトル表記します。すなわち、</p>
+
+<table class="matrix">
+ <tr>
+  <td> <td> <td rowspan="3" style="font-size: 300%;">(<td>3<td>1<td>4<td rowspan="3" style="font-size: 300%; width=2em;">)
+  <td>
+  <td> <td> <td rowspan="3" style="font-size: 300%;">(<td>x<td rowspan="3" style="font-size: 300%;">)
+  <td>
+  <td> <td> <td rowspan="3" style="font-size: 300%;">(<td>17<td rowspan="3" style="font-size: 300%;">)
+ </tr>
+ <tr>
+  <td><i>A</i><td>=                 <td>1<td>5<td>9
+  <td>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <td><i>x</i><td>=                 <td>y
+  <td>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <td><i>b</i><td>=                 <td>38
+ </tr>
+ <tr>
+  <td> <td>                         <td>2<td>6<td>5
+  <td>
+  <td> <td>                         <td>z
+  <td>
+  <td> <td>                         <td>29</tr>
+</table>  
+
+
+<p>とし、連立一次方程式</p>
+
+<p class="equation"><i>A</i> <i>x</i> = <i>b</i></p>
+
+<p>の解ベクトル <i>x</i> を求めるのが問題です。</p>
+
+<p>ここで、今回の規定課題では、解ベクトル <i>x</i> が1本である保証はありません。
+すなわち、<i>m</i> 本の解ベクトルをまとめた行列 <i>X</i> を</p>
+
+<p class="equation"><i>X</i> = (<i>x</i><sub>1</sub> <i>x</i><sub>2</sub> ... <i>x<sub>m</sub></i>) </p>
+
+<p>とし、<i>m</i> 本の右辺ベクトル <i>b</i> をまとめた行列 <i>B</i> を</p>
+
+<p class="equation"><i>B</i> = (<i>b</i><sub>1</sub> <i>b</i><sub>2</sub> ... <i>b<sub>m</sub></i>) </p>
+
+<p>とすると、</p>
+
+<p class="equation"><i>A</i> <i>X</i> = <i>B</i></p>
+
+<p>の解ベクトル行列 <i>X</i> を解く問題と定義できます。</p>
+
+<dl>
+ <dt>参考図書：</dt>
+ <dd>奥村晴彦著「Ｃ言語による最新アルゴリズム辞典」技術評論社</dd>
+ <dd>小国力編著「行列計算ソフトウエアーＷＳ、スーパーコン、並列計算機」丸善株式会社</dd>
+</dl>
+
+<hr class="footer">
+
+</body>
+
+</html>

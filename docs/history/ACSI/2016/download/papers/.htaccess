@@ -1,0 +1,11 @@
+AuthUserFile /home/acsi/www/acsi-html/.htpasswd
+AuthGroupFile /dev/null
+AuthName "ACSI2016 Participants Only (the service finished)"
+AuthType Basic
+
+require valid-user
+
+<Files ~ "^.(htpasswd|htaccess)$">
+    deny from all
+</Files>
+

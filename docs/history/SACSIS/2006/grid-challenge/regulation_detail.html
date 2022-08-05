@@ -1,0 +1,198 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<title>Grid Challenge 2006: Details of regulation</title>
+</head>
+
+<body>
+
+<center>
+<p>
+<img src="grch6.png">
+</p>
+<p>
+<b><font face="sans serif" size="+2">
+規定課題詳細
+</font></b>
+</p>
+</center>
+
+<hr>
+<b>問題：</b>
+<p>
+問題として与えられる無向グラフG(V,E)中のノード（偶数個）を2つのノード集合LおよびRに等分する分割方法を求めてください．分割後のノード集合LおよびRに属するノードの情報を解として提出してもらいます．
+ただし，
+<ul>
+<li>分割後に生成されるノード集合LおよびRに属するノード数は同じでなければなりません．
+<li>異なるノード集合にまたがるエッジ数がより少ない分割方法を良い解と定義します．（異なるノード集合にまたがる枝数が最小の分割が最適解となります．）
+</ul>
+与えられる問題は，常に現実的な時間内に最適解が求まるとは限りません．
+競技では，参加者の作成したプログラムが与えられた時間内にどれだけよい解（最適に近い分割）を求めることができるかを競います．
+</p>
+
+<hr>
+<b>入力ファイル：</b>
+<p>
+問題として与えられるグラフの情報は，入力ファイルとして
+GCF上の一台のホスト（public IP addressを持つホスト）上に置かれます．ファイルはテキストファイルで，D. S. Johnsonの形式[1]により問題のグラフの情報が記述されています．本形式では，1ノード分の情報が以下の順序でファイル中の1行に記述されます．
+<pre>
+  ノードID （X座標,Y座標）隣接するノード数 隣接するノードID...
+</pre>
+<dl>
+<dt><font color="#000099">ノードID</font>: ノードの識別子で，データファイル内では1から始まり，1ずつ増えていきます。
+<dt><font color="#000099">(X座標, Y座標)</font>: 2次元空間内におけるノードの位置を表します．
+<dt><font color="#000099">隣接するノード数</font>: ノードからエッジによって結ばれているノードの個数です．どのノードとも結ばれていない場合、0となります。
+<dt><font color="#000099">隣接するノードID</font>: 隣接する各ノードのノードIDです．隣接するノード数に依存するため，可変個となります．
+</dl>
+
+例えば
+<pre>
+   1 (0.502987,0.528829)   8  28 102 162 233 360 393 460 500
+</pre>
+はノードID 1 (座標(0.502987,0.528829)) のノードが8個のノードと結ばれていることを表し，
+それらのノードIDは 28, 102, 162, 233, 360, 393, 460, 500 であることを表しています．
+</p>
+
+<p>
+[1] Optimization by Simulated Annealing: An Experimental Evaluation; Part I, Graph Partitioning, D. S. Johnson, C. R. Aragon, L. A. McGeoch and C. Shevon, Operations Research, 37:6 (1989), 865-892. 
+</p>
+
+<hr>
+<a name="api">
+<b>出題API：</b></a>
+<p>
+◎<font color="red"><u>赤字下線部</u></font>の部分が修正されています．（2006/2/14）<br>
+◎<font color="red">赤字</font>の部分が修正されています．（2006/01/27）<br>
+◎<font color="red">赤字</font>の部分が修正されています．（2006/01/18）
+</p>
+
+<p>
+規定課題部門の参加プログラムは，以下の出題APIを用いて問題の取得，解答の判定，実行時間の計測を行う必要があります．出題APIを用いるためには，実行委員会が用意する grid_challenge_api.h によってヘッダファイルをインクルードし、またリンク時には libgrch.a をリンクする必要があります．参加者の環境で以下のAPIを使ってプログラムを開発するための<a href="#trialkit">お試しキット</a>が用意されます．
+</p>
+
+<p>
+<b>●問題取得用API GetProblem()</b>
+
+<dl>
+<dt>書式
+<dd>int GetProblem(const int problem_number, <font color="red">
+char **filename</font>, char *key);
+
+<dt>概要
+<dd>プログラムは開始時にGetProblem()を呼ぶことにより，データファイルの場所とキー文字列を取得する必要がある．
+全プロセスを通して一つのプロセスのみがGetProblem()を呼ぶこと．
+
+<dt>引数と戻り値
+<dd><font color="#000099">problem_number</font>: 問題番号を指定する．
+<dd><font color="#000099">filename</font>: <font color="red">データファイルの場所を示す文字列へのポインタが*filenameに返される．</font>
+<!--<dd><font color="#000099">key</font>: キー文字列へのポインタが返される．-->
+<dd><font color="#000099">key</font>: <font color="red">キー文字列がkeyから始まる領域に返される．</font>
+<dd><font color="#000099">return value</font>: 正常に終了した場合は0，そうでない場合は1が返される．
+
+<dt>注意
+<dd>GetProblem()はプログラム開始時に1回のみ呼び出すこと(2回以上呼び出すと異常終了し，keyには空文字列へのポインタが返される)．
+GetProblem()を呼び出す前に予め保存したデータを用いる等して求解に関する処理を行ってはならない．
+<font color="red">
+お試しパックでは，*filenameには「./01.dat」等のカレントディレクトリ内のファイルを示す文字列へのポインタが返される．
+予選，決勝ではクラスタの特定のファイルを示す文字列へのポインタが返される．
+</font>
+予選，決勝のデータファイルは<font color="red"><u>GCF上の全てのクラスタに保存される．参加者は1台のクラスタ上でプログラムを実行してGetProblem()を呼び出す必要がある．</u></font>
+キー文字列は「問題番号＋開始時刻に関する情報＋正当性チェック用文字列」という形式で，45文字固定である．
+<dd><font color="red">keyには終端文字(\0)を含めた46バイト以上の領域を用意すること．</font>
+</dl>
+</p>
+
+<p>
+<b>●解答用API AnswerProblem()</b>
+
+<dl>
+<dt>書式
+<dd>int AnswerProblem(const int problem_number, const char *key,
+ const int *belong_to, int *out_edge_cnt,
+ double *elapsed_time, char *check_string);
+
+<dt>概要
+<dd>プログラムは計算結果を引数としてAnswerProblem()に渡し，解答に関する情報(<font color="red"><u>集合間の枝の本数，経過時間，終了時刻，解答チェック用文字列</font></u>)を取得する．
+GetProblem()を呼び出したプロセスのみがAnswerProblem()を呼び出すことができる．
+
+<dt>引数と戻り値
+<dd><font color="#000099">problem_number</font>: 問題番号を指定する．
+<dd><font color="#000099">key</font>: キー文字列へのポインタを指定する．
+<dd><font color="#000099">belong_to</font>: グラフ内のノードの所属情報を指定する．例えばノード数が500の場合，配列 belong_to[1]～[500] に所属する集合(1または2)を格納する．インデックスが1から始まることに注意．
+<dd><font color="#000099">out_edge_cnt</font>: 引数として渡された配列 belong_to を用いてAnswerProblem()が計算した集合間の枝の本数へのポインタが返される．
+<dd><font color="#000099">elapsed_time:</font> GetProblem() 呼び出し以降の経過時間(ミリ秒単位)へのポインタが返される．
+<!--
+<dd><font color="#000099">check_string</font>: 解答チェック用文字列へのポインタが返される．-->
+<dd><font color="#000099">check_string</font>: <font color="red">解答チェック用文字列がcheck_stringから始まる領域に返される．</font>
+<dd><font color="#000099">return value</font>: 正常に終了した場合は0，そうでない場合は1が返される．
+
+<dt>注意
+<dd>ノードの所属情報として1,2のいずれでもない値を設定した場合，<font color="red"><u>ノードが等分割されていない場合</u></font>，GetProblem()を呼び出していないプロセスが呼び出した場合は異常終了する(集合間の枝の本数と経過時間は0，解答チェック用文字列として空文字列のポインタが返される)．
+解答チェック用文字列は「<font color="red"><u>問題番号＋集合間の枝の本数＋経過時間＋終了時刻＋正当性チェック用文字列</u></font>」という形式で，<font color="red"><u>61</u></font>文字固定である．<font color="red">check_stringには終端文字(\0)を含めた<u>62</u>バイト以上の領域を用意すること．</font>
+参加者は最良の解から得られた解答チェック用文字列を提出する．
+プログラム内で複数回呼び出しても構わない．
+</dl>
+</p>
+
+<p>
+<b>●経過時間取得用API GetElapsedTime()</b>
+
+<dl>
+<dt>書式
+<dd>int GetElapsedTime(const int problem_number, const char *key,
+ double *elapsed_time);
+
+<dt>概要
+<dd>GetProblem()呼び出しからの経過時間を取得する．
+
+<dt>引数と戻り値
+<dd><font color="#000099">problem_number</font>: 問題番号を指定する．
+<dd><font color="#000099">key</font>: キー文字列へのポインタを指定する．
+<dd><font color="#000099">elapsed_time</font>: GetProblem()呼び出し以降の経過時間(ミリ秒単位)へのポインタが返される．
+<dd><font color="#000099">return value</font>: 正常に終了した場合は0，そうでない場合は1が返される．
+
+<dt>注意
+<dd>お試しパック，予選では制限時間が設けられないため，このAPIを呼び出す必要は無い．
+また，決勝においても経過時間を取得する際にこのAPIを利用しなくてもよい．
+なお，GetProblem()を呼び出したマシン以外でこのAPIを呼び出した場合，異なるマシンのシステム時計を用いて経過時間を測定することになるため，ミリ秒単位の正確な経過時間は得られない．
+</dl>
+</p>
+
+<hr>
+<a name="trialkit">
+<b>お試しキット：</b></a>
+<p>
+参加者が事前に各自の環境でプログラム開発ができるようにするため，以下のお試しキットを用意しました．お試しキットには，出題API，グラフ分割問題を解くサンプルプログラム（文献[2]を参考にして作成した逐次版プログラム），サンプル問題ファイル等が含まれています．サンプルプログラムはプログラムの一例です．参加者が開発するプログラムは，出題APIを用いて時間計測，解の出力等を正しく行えばよく，必ずしもサンプルプログラムを元に作成する必要はありません．対応プラットフォームはx86 Linuxです．
+</p>
+
+<p>
+更新履歴：<br>
+AnswerProblem()の出力を変更（上記AnswerProblem()の説明文の<font><u>赤字下線部</u></font>）しました．（2006/2/13）<br>
+時間計測機能の不具合を修正しました．（2006/1/27）
+</p>
+
+<p>
+<a href="release/grch06trial-060213.tar.gz">
+お試しキットダウンロード</a>（2006/2/13版）
+</p>
+
+<p>
+<a href="http://rnc.r.dendai.ac.jp/~fujisawa/gpptabu.pdf">
+[2]K. Fujisawa, M. Kubo and S. Morito, ``Experimental Analyses of the
+Tabu Search for the Graph Partitioning Problem(in Japanese),'' The
+Institute of Electrical Engineers of Japan, Vol 114-C(4), 1994,
+430--437.</a>
+</p>
+
+<p>
+お試しキットに関する問い合わせは，
+grid-challenge-sec [at] alab.ip.titech.ac.jp 
+（" [at] "を"@"に置き換えてください．）まで．
+</p>
+
+<hr>
+updated: 2006/2/14<br>
+グリッドチャレンジ2006実行委員会
+<hr>
+</body>
+</html>

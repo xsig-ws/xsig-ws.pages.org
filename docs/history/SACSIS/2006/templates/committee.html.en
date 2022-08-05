@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2006.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2006 Committee</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2006_NAVIGATION@@-->
+<div class="main">
+
+<h4>Steering Committee</h4>
+
+<table>
+<colgroup>
+ <col span="1" style="font-weight:bold" />
+ <col span="1" />
+</colgroup>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/acs/">Transactions on ACS</a>, Chair</td>
+  <td>Hiroshi NAKASHIMA (Toyohashi University of Technology)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/sigarc/">SIGARC</a> </td>
+  <td>Hideharu AMANO (Keio University)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a></td>
+  <td>Kazuhiko KATO (University of Tsukuba)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/sighpc/">SIGHPC</a></td>
+  <td>Satoshi SEKIGUCHI (AIST)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.ipsj.or.jp/sig/pro/">SIGPRO</a> </td>
+  <td>Masahiro YASUGI (Kyoto University)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ieice.org/">IEICE</a>
+	<a href="http://www.ieice.org/iss/cpsy/jpn/">CPSY</a> </td>
+  <td>Yasunori KIMURA (Fujitsu Laboratories)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/acs/">Transactions on ACS</a> </td>
+  <td>Yutaka ISHIKAWA (The University of Tokyo)</td>
+  </tr> <tr>
+  <td></td><td>Hiroshi NAKAMURA (The University of Tokyo)</td>
+  </tr><tr>
+  <td></td><td>Taisuke BOKU (University of Tsukuba)</td></tr>
+</table>
+
+<h4>Organizing Committee</h4>
+
+<table>
+<colgroup span="2">
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+
+<tr><td>Conference Chair</td><td>Atsuhiro GOTO (NTT)</td></tr>
+
+<tr><td>Conference Vice-Chair</td><td>Yutaka ISHIKAWA (The University of Tokyo)</td></tr>
+
+<tr><td>General Chair</td><td> Toshikazu ICHIKAWA (NTT)</td></tr>
+
+<tr><td>Program Chair</td><td>Taisuke BOKU (University of Tsukuba)</td></tr>
+
+<tr><td>Program Vice-Chair (full papers)</td><td>Osamu TATEBE (University of Tsukuba)</td></tr>
+
+<tr><td>Program Vice-Chair (poster papers)</td><td>Takashi YOKOTA (Utsunomiya University)</td></tr>
+
+<tr><td>Grid Challenge 2006 Chair</td><td>Kento AIDA (Tokyo Institute of Technology)</td></tr>
+
+<tr><td>Tutorial Chair</td><td>Toshio HIROTSU (Toyohashi University of Technology) </td></tr>
+
+<tr><td>Local Arrangement Chair</td><td>Noriyuki FUJIMOTO (Osaka University)</td></tr>
+
+<tr><td>Local Arrangement Vice-Chair</td><td>Shoji ITO (University of Tsukuba)</td></tr>
+
+<tr><td>Local Arrangement Vice-Chair</td><td>Fumihiko INO (Osaka University)</td></tr>
+
+<tr><td>Treasurer Chair</td><td>Hiroyuki SATO (The University of Tokyo)</td></tr>
+
+<tr><td>Publicity Chair</td><td>Michihiro KOIBUCHI (National Institute of Informatics)</td></tr>
+
+<tr><td>Industry Liaison Chair</td><td>Tomoyuki HIROYASU (Doshisha University)</td></tr>
+
+
+</table>
+
+<h4>Program Committee</h4>
+
+See the Japanese page.
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

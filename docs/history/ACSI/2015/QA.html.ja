@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+<h4> ACSIへの論文投稿に関してよくある質問 </h4> 
+
+<dl>
+<dt> Q. ACSIで投稿可能な論文（研究成果）はどのようなものでしょうか？
+
+<dd> A. ACSI2015の論文登録の時点で未発表の論文や，他の会議・雑誌に投稿中で
+も採否が未決定の論文については，これらの論文に含まれる研究成果の投稿が
+可能です．ACSI登録後，開催日までに別会議・雑誌に採録された場合でも，
+ACSIにおいて発表することができます．詳細は末尾のCFPをご確認ください．<br>
+
+<dt> Q.　ACSIで発表するメリットはなんでしょうか？ 研究会との違いはどこにあ
+りますか？
+
+<dd> A.　ACSIに投稿することによって，査読者から論文や研究に関するコメントを
+もらうことができます．ACSIのHP
+（http://acsi.hpcc.jp/2015/committee.html.ja） に記載の通り，ACSI2015
+のPCは 関連分野における当代のエキスパートにより構成されています．こう
+した専門家に自身の論文を読んでもらい，客観的なコメントをもらえることは
+研究会では得られないメリットです．また，査読のない研究会とは異なり，PC
+によって良質な研究であると認定を受けた上で発表できることは，将来の国際
+会議・学術雑誌への投稿に向けて著者らの自信を深めるものとなりますし，よ
+り幅広い聴衆に興味を持って聞いてもらえる可能性もでてきます．<br>
+
+<dt> Q.　ACSIでの発表論文は引用可能でしょうか？
+
+<dd> A.　ACSIでは会議録を発行しませんが，会議参加者に論文のコピーが配布され
+ます．会議録が発行されていない会議における発表を引用している論文は公に
+見られるものであり，同様の引用形態は可能と考えます．具体的には，XXX,
+YYY, ZZZ, "Performance.......", ACSI2015, (2015). のような形で引用する
+ことができると考えています．<br>
+</dl>
+
+</div>
+
+    <?php include("include/footer.html");?>
+<div>
+  <p class="validation">
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://www.w3.org/Icons/valid-xhtml11-blue"
+	   alt="Valid XHTML 1.1" /></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+	   alt="Valid CSS" /></a>
+  </p>
+</div>
+</body>
+</html>

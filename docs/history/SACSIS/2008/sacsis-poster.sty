@@ -1,0 +1,60 @@
+\def\@maketitle{\setbox\mkt@titlebox\vbox{
+	\ifDS@english \ifDS@preface
+		\hbox{}\vskip60\@Q \vskip-\headsep \vskip-\baselineskip
+	\else
+		\hbox{}\vskip26\@Q \vskip-\headsep \vskip-\baselineskip
+		\leftline{\fs@type\it
+			\ifDS@technote Technical Note
+                        \else\ifDS@invited Invited Paper        % 2.06(1)
+			\else\ifDS@sigrecommended		% 2.04(1)
+				Recommended Paper		% 2.04(1)
+			\else\ifDS@abstract			% 2.07(7)
+				Abstract			% 2.07(7)
+			\else\ifDS@techrep\else			% 2.02(1)
+				Regular Paper\fi\fi\fi\fi\fi}	% 2.06(1)
+%								% 2.04(1)
+		\vskip32\@Q \vskip-\baselineskip \fi
+	\else							% 2.04(1) >>
+	\@tempswafalse	\ifDS@technote\@tempswatrue\fi
+			\ifDS@sigrecommended\@tempswatrue\fi
+                        \ifDS@invited\@tempswatrue\fi           % 2.06(1)
+			\ifDS@abstract\@tempswatrue\fi		% 2.07(7)
+	\if@tempswa
+		\vskip18\@Q \vskip-\headsep
+		\leftline{\vbox to28\@Q{\hrule height.8pt\vss
+			\hbox{\hskip7\@Q \fs@type
+				\ifDS@technote	テクニカルノート%
+                                \else\ifDS@invited 招待論文%    % 2.06(1)
+				\else\ifDS@sigrecommended
+					研究会推薦論文		% 2.06(1)
+				\else 発表概要\fi\fi\fi		% 2.07(7)
+				\hskip7\@Q}\vss\hrule height.8pt}}
+%								% 2.04(1) <<
+		\vskip40\@Q \vskip-\baselineskip
+	\else
+		\hbox{}\vskip60\@Q \vskip-\headsep \vskip-\baselineskip
+	\fi\fi
+	\@tempswafalse \ifDS@english\else\ifDS@preface\@tempswatrue\fi\fi
+	\mkt@maketitle{\fs@title\bf}\@title\title
+% 1.04(1a) >>
+	\ifnum\c@affi@footnote>\thr@@
+		\let\theaffi@footnote\theaffi@footnotemany \fi
+	\c@affi@footnote\z@
+% 1.04(1a) <<
+	\affi@labels
+	\ifDS@english\else
+	\vskip-\mkt@prevdepth \nointerlineskip\vskip32\@Q
+	\centerline{\vbox{\centering\hsize\@titlewidth\fs@author
+		\mkt@makeauthor}}
+	\ifDS@preface\else
+	\vskip-\prevdepth \nointerlineskip\vskip32\@Q
+	\centerline{\@abstract\box\@abstractbox}
+	\fi\fi
+	\vskip-\prevdepth \nointerlineskip\vskip25\@Q}
+	\@tempdimb\ht\mkt@titlebox \advance\@tempdimb\dp\mkt@titlebox
+	\@tempcnta\@tempdimb \@tempcntb\baselineskip
+	\divide\@tempcnta\@tempcntb \@tempdima\@tempcnta\baselineskip
+	\advance\@tempdima-\@tempdimb
+	\box\mkt@titlebox
+	\ifdim\@tempdima=\z@\else\advance\@tempdima\baselineskip
+		\vskip\@tempdima\fi}

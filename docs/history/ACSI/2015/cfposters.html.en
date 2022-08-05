@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+<h4>Call for Posters</h4>
+
+<table>
+  <tr><td>Date: </td><td>January 26-28, 2015</td></tr>
+  <tr><td>Venue: </td><td><a href="http://www.epochal.or.jp/eng/index.html">International Congress Center EPOCHAL TSUKUABA</a></td></tr>
+  <tr><td>Poster Session: </td><td>PM January 27, 2015</td></tr>
+</table>
+
+<h4>Important Dates</h4>
+<table>
+<tr><td><S>ACSI2015 Poster paper submission due: </S></td><td><S>17:00 JST
+December 19, 2014</S></td></tr>
+<tr><td>ACSI2015 Poster paper submission due: </td><td>17:00 JST
+January 7, 2015 (Extended)</td></tr>
+<tr><td>ACSI2015 author notification for posters: </td><td>January 13, 2015</td></tr>
+</table>
+
+<p></p>
+Please refer to <a href="./cfposters.html.ja"> the Japanese page </a> of call for posters in detail.
+
+</div>
+</body>
+</html>

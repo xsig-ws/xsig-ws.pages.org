@@ -1,0 +1,151 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>GPU Challenge 2010</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/gpu.css">
+<!-- meta name="author"      content="" -->
+</head>
+
+<body>
+<h2>自由課題部門・結果発表</h2>
+
+<p>
+自由課題部門におきましては，提出されたレポートにつきまして
+GPUチャレンジ実行委員会で
+厳正なる審査を行いました結果，以下のチームが入賞しました．
+おめでとうございます．
+</p>
+
+<font size="+2">
+<table border=1>
+<tr>
+<td>第1位</td>
+<td>チーム 秋山研</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<a href="./rep-f1.pdf">GPUによるDNA断片配列の高速マッピング</a></td>
+</tr>
+</table>
+</font>
+
+<br>
+審査員コメント:
+<ul>
+<li>
+DNA断片配列処理という、単純な数値計算でない応用について、
+GPUの並列利用での高速化及びスケーラビリティを示している。分野として
+今後重要性の高いものであるため、将来性と有用性は高いと思われる。
+<li>
+マッピング候補探索のGPU化では処理を２段階に分割し
+マッピング候補が Global memory から溢れるのを解決し、
+アラインメントによるスコア計算のGPU化では、スコア
+行列を texture メモリ上において cache を使っている。 
+<li>
+アルゴリズム面でも工夫することにより、業界標準のBLASTと比較して50倍もの
+高速化および複数GPUによるスケーラブルな並列化を達成している。
+<li>
+ゲノム解析の実用性のあるアプリケーションで即有効な結果と
+性能を出しており完成度が高い。
+</ul>
+
+<font size="+2">
+<table border=1>
+<tr>
+<td>第2位</td>
+<td>チーム Nokodai</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<a href="./rep-f2.pdf">
+Hilbert-Huang変換の並列化およびGPUによる高速化</a>
+</td>
+</tr>
+</table>
+</font>
+
+<br>
+審査員コメント:
+<ul>
+<li>
+信号解析の分野で実用性があり、GPUでの高速化に対して
+細かい努力がある。
+<li>
+高コストな問題をGPUによって安価に実現。
+prefix scan や連立方程式の求解など既知ではあるが種々の
+計算を組み合わせたものである。
+<li>
+アプリとして新しさがあり，GPU の特性が表れ
+ており，性能が出ていて，レポートの完成度が高い．
+<li>
+極値決定、エンベロープ計算の工夫を評価しました。
+</ul>
+
+<font size="+2">
+<table border=1>
+<tr>
+<td>第3位</td>
+<td>チーム GPUによる地震波伝播計算</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<a href="./rep-f3.pdf">
+GPUによる地震波伝播シミュレーション</a></td>
+</tr>
+</table>
+</font>
+
+<br>
+審査員コメント:
+<ul>
+<li>
+メモリ律速の差分法による地震波伝播の計算を複数で計算し、
+領域分割と MPI 通信を行い、十分高いレベルにある。 
+<li>
+単体GPUへの実装だけでなく、大規模化のための3次元分割の検討も行い、その考
+察も妥当である。
+<li>
+GPU内やGPU外についての考察、絶対性能、資料の読みやすさなど全体に優れる。
+</ul>
+
+</body>
+
+<h2>自由課題部門・グリッド協議会金融分科会特別賞</h2>
+
+<p>
+特別賞につきましては，グリッド協議会金融分科会による厳正なる
+審査の結果，下記のチームの受賞が決定しました．
+おめでとうございます．
+</p>
+
+<font size="+2">
+<table border=1>
+<tr>
+<td>特別賞</td>
+<td>チーム KLab</td></tr>
+<tr><td></td>
+<td><a href="./rep-spe.pdf">特別賞応募レポート</a></td>
+</tr>
+</table>
+</font>
+
+<br>
+金融分科会コメント:
+<ul>
+<li>
+倍精度の精度を保った中で、様々な高速化の工夫を行い、最も実行時間の短い
+結果を導いたチームを特別賞受賞者と判定した。
+相関の低い乱数列を複数生成することによる並列乱数生成を実現している。
+また、対数関数を21次近似式で計算したり、除算を逆数との積に置き換えつつ逆
+数を単精度の解を初期値にして倍精度の3次ニュートン法を用いた、といった
+工夫が施されている点を評価した。
+</ul>
+
+</html>
+

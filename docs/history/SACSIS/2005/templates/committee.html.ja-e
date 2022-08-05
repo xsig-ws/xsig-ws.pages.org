@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2005.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2005 Committee</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2005_NAVIGATION@@-->
+<div class="main">
+
+<h4 id="sc">SACSIS 運営委員会</h4>
+
+<dl  style="font-size:14px">
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.hpcc.jp/acs/">論文誌：コンピューティングシステム 編集委員会</a>, 
+運営委員長
+</dt>
+
+<dd>
+中島 浩 （豊橋技術科学大学）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.hpcc.jp/sigarc/">アーキテクチャ研究会</a>
+</dt>
+
+<dd>
+笠原  博徳 （早稲田大学）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.ipsj.or.jp/sig/os/">システムソフトウェアとオペレーティング・システム研究会</a>
+</dt>
+<dd>
+加藤  和彦 （筑波大学）<br />
+石川  裕 （東京大学）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.hpcc.jp/sighpc/">ハイパフォーマンスコンピューティング研究会</a>
+</dt>
+<dd>
+関口  智嗣 （産業技術総合研究所）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.ipsj.or.jp/sig/pro/">プログラミング研究会</a>
+</dt>
+<dd>
+柴山  悦哉 （東京工業大学）
+</dd>
+
+<dt>
+<a href="http://www.ieice.org/">(社)電子情報通信学会</a>
+<a href="http://www.ieice.org/iss/cpsy/jpn/">コンピュータシステム研究専門委員会</a>
+</dt>
+<dd>
+木村  康則  （富士通研究所）
+</dd>
+
+<dt>
+<a href="http://www.ipsj.or.jp/">(社)情報処理学会</a>
+<a href="http://www.hpcc.jp/acs/">論文誌：コンピューティングシステム 編集委員会</a>
+</dt>
+<dd>
+佐藤  三久 （筑波大学）<br />
+中村  宏 （東京大学）
+</dd>
+
+</dl>
+
+<h4 id="oc">SACSIS 2005 組織委員会</h4>
+
+<table style="margin-top: 5pt; margin-bottom: 15pt">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+<tr><td>組織委員長 </td><td> 佐藤三久 （筑波大学）
+     </td></tr>
+<tr><td>組織副委員長 </td><td> 後藤厚宏 （NTT）
+     </td></tr>
+<tr><td>総務委員長 </td><td> 高橋大介 （筑波大学）
+     </td></tr>
+<tr><td>プログラム委員長 </td><td> 八杉 昌宏 （京都大学）
+     </td></tr>
+<tr><td>プログラム副委員長（論文査読） </td><td> 河野健二 （慶應大学）
+     </td></tr>
+<tr><td>プログラム副委員長（ポスター） </td><td> 中田秀基 （産業技術総合研究所/東京工業大学）
+</td></tr>
+<tr><td>Grid Challenge 2005実行委員長 </td><td> 田浦健次朗 （東京大学）
+</td></tr>
+<tr><td>チュートリアル委員長 </td><td> 市川俊一 （NTT）
+     </td></tr>
+<tr><td>ローカルアレンジメント委員長 </td><td> 伊藤祥司 （筑波大学）
+     </td></tr>
+<tr><td>ローカルアレンジメント副委員長 </td><td> 中條拓伯 （東京農工大学）
+     </td></tr>
+<tr><td>会計委員長 </td><td> 吉瀬謙二 （電気通信大学）
+     </td></tr>
+<tr><td>広報委員長（WEB管理） </td><td> 大山恵弘 （東京大学）
+     </td></tr>
+</table>
+
+<h4 id="pc">SACSIS 2005 プログラム委員会</h4>
+
+<dl>
+<dt>プログラム委員長</dt>
+<dd><p>八杉 昌宏 (京大)</p></dd>
+
+<dt>プログラム副委員長</dt>
+<dd>
+<p>
+河野 健二 (慶大)
+</p>
+<p>
+中田 秀基 (産総研/東工大)
+</p>
+</dd>
+
+<dt>プログラム委員</dt>
+<dd>
+<table border="0" cellspacing="5">
+  <tr>
+  <td>合田 憲人 (東工大)</td>
+  <td>天海 良治 (NTT)</td>
+  <td>天野 英晴 (慶大)</td>
+  </tr>
+  <tr>
+  <td>安崎 篤郎 (日立)</td>
+  <td>伊藤 智   (産総研)</td>
+  <td>追川 修一 (筑波大)</td>
+  </tr>
+  <tr>
+  <td>太田 高志 (東京工科大)</td>
+  <td>大山 恵弘 (東大)</td>
+  <td>小口 正人 (お茶の水女子大)</td>
+  </tr>
+  <tr>
+  <td>片桐 孝洋 (電通大)</td>
+  <td>加藤 和彦 (筑波大)</td>
+  <td>金子 敬一 (農工大)</td>
+  </tr>
+  <tr>
+  <td>河口 信夫 (名古屋大)</td>
+  <td>吉瀬 謙二 (電通大)</td>
+  <td>工藤 知宏 (産総研)</td>
+  </tr>
+  <tr>
+  <td>古賀 久志 (電通大)</td>
+  <td>児玉 祐悦 (産総研)</td>
+  <td>佐藤 寿倫 (九工大)</td>
+  </tr>
+  <tr>
+  <td>佐藤 周行 (東大)</td>
+  <td>佐藤 真琴 (日立)</td>
+  <td>首藤 一幸 (産総研)</td>
+  </tr>
+  <tr>
+  <td>鈴木 貢   (電通大)</td>
+  <td>須田 礼仁 (東大)</td>
+  <td>住元 真司 (富士通研)</td>
+  </tr>
+  <tr>
+  <td>高田 広章 (名古屋大)</td>
+  <td>高橋 大介 (筑波大)</td>
+  <td>建部 修見 (産総研)</td>
+  </tr>
+  <tr>
+  <td>西   直樹 (日本電気)</td>
+  <td>濱中 直樹 (日立)</td>
+  <td>廣津 登志夫 (豊橋技科大)</td>
+  </tr>
+  <tr>
+  <td>藤本 典幸 (大阪大)</td>
+  <td>本多 弘樹 (電通大)</td>
+  <td>松岡 聡   (東工大)</td>
+  </tr>
+  <tr>
+  <td>森 眞一郎 (京大)</td>
+  <td>山名 早人 (早稲田大)</td>
+  <td>横川 三津夫 (産総研)</td>
+  </tr>
+  <tr>
+  <td>吉永 努   (電通大)</td>
+  <td>米田 友洋 (NII)</td>
+  <td>渡邊 誠也 (岡山大)</td>
+  </tr>
+</table>
+<p></p>
+</dd>
+
+<dt>査読協力者</dt>
+<dd>
+<table border="0" cellspacing="5">
+  <tr>
+  <td>秋岡 明香 (Penn. State Univ.)</td>
+  <td>阿部 洋丈 (JST)</td>
+  <td>安藤 秀樹 (名古屋大)</td>
+  </tr>
+
+  <tr>
+  <td>石川 裕 (東大)</td>
+  <td>板倉 憲一 (海洋研究開発機構)</td>
+  <td>市川 周一 (豊橋技科大)</td>
+  </tr>
+
+  <tr>
+  <td>井上 弘士 (九大)</td>
+  <td>井口 寧 (北陸先端大)</td>
+  <td>今村 俊幸 (電通大)</td>
+  </tr>
+
+  <tr>
+  <td>入江 英嗣 (東大)</td>
+  <td>遠藤 敏夫 (東大)</td>
+  <td>大河原 英喜 (富士通研)</td>
+  </tr>
+
+  <tr>
+  <td>大下 福仁 (大阪大)</td>
+  <td>大津 金光 (宇都宮大)</td>
+  <td>大森 匡 (電通大)</td>
+  </tr>
+
+  <tr>
+  <td>小野 功 (東工大)</td>
+  <td>小幡 元樹 (日立)</td>
+  <td>加藤 大志 (NEC)</td>
+  </tr>
+
+  <tr>
+  <td>金川 信康 (日立)</td>
+  <td>鎌田 十三郎 (神戸大)</td>
+  <td>河合 栄治 (奈良先端大)</td>
+  </tr>
+
+  <tr>
+  <td>川本 真一 (日立)</td>
+  <td>木原 誠司 (NTT)</td>
+  <td>木村 啓二 (早稲田大)</td>
+  </tr>
+
+  <tr>
+  <td>久我 守弘 (熊本大)</td>
+  <td>久保 類 (NTT)</td>
+  <td>熊副 和美 (情報通信研究機構)</td>
+  </tr>
+
+  <tr>
+  <td>黒川 原佳 (理化学研)</td>
+  <td>黒田 久泰 (東大)</td>
+  <td>鯉渕 道紘 (NII)</td>
+  </tr>
+
+  <tr>
+  <td>幸谷 智紀 (静岡理工科大)</td>
+  <td>光来 健一 (東工大)</td>
+  <td>小宮 常康 (豊橋技科大)</td>
+  </tr>
+
+  <tr>
+  <td>五島 正裕 (東大)</td>
+  <td>斎藤 彰一 (和歌山大)</td>
+  <td>坂根 広史 (産総研)</td>
+  </tr>
+
+  <tr>
+  <td>笹倉 万里子 (岡山大)</td>
+  <td>佐藤 充 (富士通研)</td>
+  <td>寒川 光 (日本IBM)</td>
+  </tr>
+
+  <tr>
+  <td>品川 高廣 (農工大)</td>
+  <td>品野 勇治 (農工大)</td>
+  <td>清水 奨 (NTT)</td>
+  </tr>
+
+  <tr>
+  <td>高久 雅生 (NII)</td>
+  <td>高汐 一紀 (慶大)</td>
+  <td>高畠 志泰 (日立)</td>
+  </tr>
+
+  <tr>
+  <td>高山 恒一 (日立)</td>
+  <td>竹房 あつ子 (産総研)</td>
+  <td>田邊 昇 (東芝)</td>
+  </tr>
+
+  <tr>
+  <td>谷村 勇輔 (産総研)</td>
+  <td>田端 利宏 (九大)</td>
+  <td>伊達 進 (大阪大)</td>
+  </tr>
+
+  <tr>
+  <td>寺岡 文男 (慶大)</td>
+  <td>直野 健 (日立)</td>
+  <td>中島 浩 (豊橋技科大)</td>
+  </tr>
+
+  <tr>
+  <td>中島 康彦 (京大)</td>
+  <td>中島 研吾 (東大)</td>
+  <td>中條 拓拍 (農工大)</td>
+  </tr>
+
+  <tr>
+  <td>中村 実 (富士通研)</td>
+  <td>中山 泰一 (電通大)</td>
+  <td>長井 歩 (群馬大)</td>
+  </tr>
+
+  <tr>
+  <td>永松 礼夫 (神奈川大)</td>
+  <td>並木 美太郎 (農工大)</td>
+  <td>成瀬 彰 (富士通研)</td>
+  </tr>
+
+  <tr>
+  <td>南里 豪志 (九大)</td>
+  <td>西尾 信彦 (立命館大)</td>
+  <td>西村 祥治 (NEC)</td>
+  </tr>
+
+  <tr>
+  <td>西山 博泰 (日立)</td>
+  <td>丹羽 純平 (JST)</td>
+  <td>長谷川 秀彦 (筑波大)</td>
+  </tr>
+
+  <tr>
+  <td>早川 潔 (九工大)</td>
+  <td>林 亮子 (金沢工大)</td>
+  <td>日高 宗一郎 (NII)</td>
+  </tr>
+
+  <tr>
+  <td>弘中 哲夫 (広島市大)</td>
+  <td>廣安 知之 (同志社大)</td>
+  <td>福田 健介 (NTT)</td>
+  </tr>
+
+  <tr>
+  <td>福本 聡 (都立大)</td>
+  <td>藤田 聡 (広島大)</td>
+  <td>藤波 順久 (SCEI)</td>
+  </tr>
+
+  <tr>
+  <td>細見 岳生 (NEC)</td>
+  <td>朴 泰祐 (筑波大)</td>
+  <td>前川 仁孝 (千葉工大)</td>
+  </tr>
+
+  <tr>
+  <td>前田 敦司 (筑波大)</td>
+  <td>松崎 隆哲 (九大)</td>
+  <td>松田 元彦 (産総研)</td>
+  </tr>
+
+  <tr>
+  <td>松前 進 (鳥取環境大)</td>
+  <td>丸山 勉 (筑波大)</td>
+  <td>緑川 博子 (成蹊大)</td>
+  </tr>
+
+  <tr>
+  <td>南 正輝 (芝浦工大)</td>
+  <td>室田 一雄 (東大)</td>
+  <td>盛合 敏 (NTT)</td>
+  </tr>
+
+  <tr>
+  <td>諸星 穂積 (政研大)</td>
+  <td>安永 守利 (筑波大)</td>
+  <td>柳井 啓司 (電通大)</td>
+  </tr>
+
+  <tr>
+  <td>山口 実靖 (東大)</td>
+  <td>大和 純一 (NEC)</td>
+  <td>山村 周史 (富士通研)</td>
+  </tr>
+
+  <tr>
+  <td>山本 有作 (名古屋大)</td>
+  <td>横田 隆史 (宇都宮大)</td>
+  <td></td>
+  </tr>
+</table>
+<p></p>
+</dd>
+</dl>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>Cell Challenge 2009 : Toolkit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/cell.css">
+<!-- meta name="author"      content="" -->
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="date" content="2009-03-04T16:45:08+09:00">
+</head>
+
+<body class="contents">
+
+<h1>ツールキット</h1>
+
+<ul>
+ <li><a href="#update"   >更新情報</a></li>
+ <li><a href="#document" >ドキュメント</a></li>
+ <li><a href="#howto"    >使用方法</a></li>
+ <li><a href="#manifest" >ファイル構成</a></li>
+</ul>
+
+<h2><a name="update">更新情報</a></h2>
+
+<dl class="date">
+<dt>2008/03/04</dt>
+<dd>バグ修正をした Version 1.0.5 を公開しました。<a class="download" href="download/toolkit105.tar.gz">ダウンロード</a><br>Cell Open Cafe 上にもあります。下記使用方法をご覧ください。</dd>
+<dt>2008/02/23</dt>
+<dd>バグ修正をした Version 1.0.4 を公開しました。<!-- a class="download" href="download/toolkit104.tar.gz">ダウンロード</a><br>Cell Open Cafe 上にもあります。下記使用方法をご覧ください。--></dd>
+<dt>2008/01/30</dt>
+<dd>バグ修正をした Version 1.0.3 を公開しました。<!-- a class="download" href="download/toolkit103.tar.gz">ダウンロード</a><br>Cell Open Cafe 上にもあります。下記使用方法をご覧ください。--></dd>
+<dt>2008/01/28</dt>
+<dd>バグ修正をした Version 1.0.2 を公開しました。<!-- a class="download" href="download/toolkit102.tar.gz">ダウンロード</a><br>Cell Open Cafe 上にもあります。下記使用方法をご覧ください。--></dd>
+<dt>2008/01/07</dt>
+<dd>バグ修正をした Version 1.0.1 を公開しました。<!-- a class="download" href="download/toolkit101.tar.gz">ダウンロード</a><br>Cell Open Cafe 上にもあります。下記使用方法をご覧ください。--></dd>
+<dt>2008/01/05</dt>
+<dd>Version 1.0 を公開しました。<!-- a class="download" href="download/toolkit10.tar.gz">ダウンロード</a><br>Cell Open Cafe 上にもあります。下記使用方法をご覧ください。--></dd>
+<dt>2008/12/15</dt>
+<dd>試用版 Version 0.5 を公開しました。<!-- a class="download" href="download/toolkit05.tgz">ダウンロード</a><br>Cell Open Cafe 上にもあります。下記使用方法をご覧ください。--></dd>
+<dt>2008/12/01</dt>
+<dd>試用版 Version 0.1 を公開しました。<!-- a class="download" href="download/toolkit01.tgz">ダウンロード</a --></dd>
+</dl>
+
+<h2><a name="document">ドキュメント</a></h2>
+
+<!-- p>以下のドキュメントはツールキットにも同梱されています。</p -->
+<ul>
+ <li><a href="download/toolkit10.ppt">toolkit10.ppt</a></li>
+ <li><a href="download/toolkit10.pdf">toolkit10.pdf</a> (PDF 版)</li>
+</ul>
+
+<h2><a name="howto">使用方法</a></h2>
+
+<p>まず実行してみましょう。Cell Open Cafe にログインし，
+ツールキットをホームディレクトリに展開します。</p>
+
+<pre class="command">
+[foobar@dev ~]$ <span class="command">cd</span>
+[foobar@dev ~]$ <span class="command">gtar xvzf ../contest_toolkit/toolkit104.tar.gz</span>
+</pre>
+
+<p>展開してできたディレクトリ toolkit1.0.5 を，<strong>toolkit1.0 に
+名前変更</strong>します。</p>
+
+<pre class="command">
+[foobar@dev ~]$ <span class="command">mv toolkit1.0.5 toolkit1.0</span>
+</pre>
+
+<p>ディレクトリ toolkit1.0 に移動し，
+Makefile 内の USERNAME を Cell Open Cafe の
+ログイン名に書き換え，makeします。</p>
+
+<pre class="command">
+[foobar@dev ~]$ <span class="command">cd toolkit1.0</span>
+<span style="color: #ff0;">★ここで Makefile の書き換えが必要</span>
+[foobar@dev toolkit1.0]$ <span class="command">make</span>
+</pre>
+
+<p>問題は5問あり，それぞれ run1, run2, run3, run4, run5 を
+make のターゲットとして指定することで実行できます。
+全てを実行する場合は runall を指定します。</p>
+
+<pre class="command">
+[foobar@dev toolkit1.0]$ <span class="command">make run1</span>
+cellexec -t 30 /export/home/foobar/toolkit1.0/main \
+	/export/home/foobar/toolkit1.0/file3 \
+	/export/home/foobar/toolkit1.0/file4 4800
+execute command: /export/home/foobar/toolkit1.0/main \
+	/export/home/foobar/toolkit1.0/file3 \
+	/export/home/foobar/toolkit1.0/file4 4800 timeout 30
+answer = 4800
+strnum(a)= 5120
+strnum(b)= 5120
+[SPE_] : 4800
+[PPE_] : 4800
+eclock  : 0.28735113
+SUCCESSFUL.
+
+execute time:      3164457 usec
+<span style="color: #ff0;">※ここで，eclockの値が測定結果として用いられます。</span>
+</pre>
+
+<p>ふたつの入力ファイルの文字列に対して処理が行われます。
+実行すると，この例のように
+第1ファイル，第2ファイルの文字列長，
+各文字列のブロック数，
+SPE,PPE それぞれの計算結果
+などが表示されます。
+<!--
+コンテストにおける
+解精度の許容範囲は配布ツールキットの 3倍 までとします。
+解精度が許容範囲内の場合は「SUCCESSFUL.」，そうでない場合は
+「***** FAILED ! *****」と表示されます。
+-->
+</p>
+
+<!-- dl class="attention">
+<dt>ご注意</dt>
+<dd>予選用ツールキットの解精度検証ルーチンは練習問題 1〜5 に
+特化されており，任意の N，M の値を設定した場合には対応しておりません。</dd>
+</dl -->
+
+<h2><a name="manifest">ファイル構成</a></h2>
+<dl class="manifest">
+<dt class="nomodify">define.h (変更不可)</dt>
+<dd>ユーザメモリ（USER_MEM），ユーザ関数（ppe_user）の宣言が記述されたファイルです。</dd>
+<dt class="nomodify">main_ppe.c (変更不可)</dt>
+<dd>問題取得，時間計測，検証用の関数が記述されたファイルです。</dd>
+<dt>ppe.c</dt>
+<dd>PPE が実行するプログラムです。SPEプログラムの 起動〜終了 までを担います。
+それ以外の記述をしてもかまいません。
+利用する SPE の数 (1〜7)はここで指定します。デフォルトでは 7 が設定されています。 </dd>
+<dt>spe.h</dt>
+<dd>それぞれの SPE が実行するプログラムのファイル名を指定します。ファイル名
+はユーザのディレクトリからのパスを指定します。ここでは，すべての SPE が 
+spe1 という名前のプログラムを利用する設定となっています。それぞれの SPE 
+が異なるプログラムを実行してもかまいません。</dd>
+<dt>spe1.c</dt>
+<dd>SPE が実行するプログラムです。</dd>
+<dt>Makefile</dt>
+<dd>ソースコードから実行ファイルを生成するための規則を記述した
+ファイルです。make コマンドが参照します。
+ファイル構成やコンパイルの最適化オプションなどを変更しない場合には，
+この Makefile を変更する必要はありません。</dd>
+</dl>
+
+<p>詳細は<!--ツールキット中の--> <a href="./download/toolkit10.ppt">toolkit10.ppt</a> を参照してください。
+質問やバグ情報などは
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#57;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;">&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#57;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;</a>
+までお願いします。なお頂いた質問等は，お名前を伏せた上で
+<a href="qanda.html">Q&amp;Aのページ</a>等で
+公開・共有させていただくことがあります。
+予めご了承ください。</p>
+
+<hr class="footer">
+
+</body>
+
+</html>
+

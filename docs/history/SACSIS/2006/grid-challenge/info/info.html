@@ -1,0 +1,417 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<title>Grid Challenge 2006: Info for participants</title>
+</head>
+
+<body>
+
+<center>
+<p>
+<img src="../grch6.png">
+</p>
+<p>
+<b><font face="sans serif" size="+2">
+グリッドチャレンジ2006 参加者のための情報
+</font></b>
+</p>
+</center>
+
+<hr>
+<p>
+<b><font color="#cc0099">注意！</font><br>
+本ページに書かれている情報にはセキュリティに関わる内容も含まれているため，本ページの内容はグリチャレ参加者以外には公表しないでください．</b>
+</p>
+
+<p>
+<b>目次：</b>
+<ul>
+<li><a href="#gcf">実験環境</a>
+<li><a href="#network">ネットワーク環境</a>
+<li><a href="#programming">プログラミング環境</a>
+<li><a href="participants.html">アカウント一覧</a>
+<li><a href="#preparation">アカウントができたら</a>
+<li><a href="#certificate">グリチャレ用Globus証明書の取得</a>
+<li><a href="#contact">問い合わせ</a>
+</ul>
+</p>
+
+<p>
+<a name="information">
+<b>お知らせ：</b></a>
+<ul>
+<!--
+<li>Gangliaによる全クラスタのモニタリング情報が見られるようになりました．（2006/2/23）
+<li>PrestoIIIのバッチキューイングシステムが利用可能になりました．（2006/2/17）
+<li>Xeniaのバッチキューイングシステムが利用可能になりました．Xeniaの利用マニュアルを追加しました．(2006/2/16）
+-->
+</ul>
+<b>障害・メンテナンス情報：</b>
+<ul>
+<li>3/27(月)10時から12時頃まで，Tauクラスタが使用できなくなります．（2006/03/24）
+<li>事情によりPrestoIIIのモニタリング情報（ganglia）の表示が正しく行われていませんが，PrestoIIIは通常通り利用可能です．（2006/03/20）
+<li>PrestoIIIがログインできない状態になっています．復旧次第おしらせします．（2006/03/19）→ 復旧しました．（2006/03/20）
+<!--
+<li>下記の通り，一部のクラスタ使用できなくなります．停止期間中はログイン，ジョブ実行等を行わないでください．停止期間中に実行されるジョブは停止されますのでご注意ください．（2006/2/18）
+  <ul>
+  <li>2/26(日) 12:00-13:00: Chikayama 
+  <li>2/28(火)終日: PrestoIII
+  </ul>
+-->
+
+</ul>
+</p>
+
+<p>
+<a href="http://www.hpcc.jp/sacsis/2006/grid-challenge/">
+グリッドチャレンジ2006 Home</a>
+</p>
+
+<hr>
+<a name="gcf"><b>実験環境（GCF）：</b></a>
+
+<p>
+GCFは以下の計算資源（クラスタ）から構成されます．GCF上の計算資源に障害が発生している場合は，<a href="#information">障害情報</a>に記載します．
+</p>
+<p>
+<a href="http://g7.alab.ip.titech.ac.jp/ganglia/" target="_blank">Gangliaモニタリングシステム</a>：各クラスタの負荷情報を見ることができます．（注：Ganglia上で表示される情報には，GCFで利用できるノード以外の情報が含まれる場合がありますので注意してください．GCFで利用可能なノードは以下の表に記載されているノードに限ります．）
+</p>
+
+<p>
+<table border>
+<tr>
+<td>クラスタ名</td>
+<td>サイト名</td>
+<td>ゲートウェイノード／コンパイル用ノード</td>
+<td>計算ノード</td>
+<td>計算ノード数／CPU数</td>
+<td>計算ノードIPアドレス</td>
+<td>ジョブ実行方法</td>
+<td>その他</td>
+</tr>
+
+<tr>
+<td>F32</td>
+<td>産総研</td>
+<td><b>fsvc003.asc.hpcc.jp</b><br>
+    CPU:Xeon 3.0GHz dual<br>
+    Memory:4GB<br>
+    Network:Gigabit Ethernet<br>
+    OS:Linux RedHat 8.0
+</td>
+<td><b>利用マニュアル参照</b><br>
+    CPU:Xeon 3.0GHz dual<br>
+    Memory:4GB<br>
+    Network:Gigabit Ethernet<br>
+    OS:Linux RedHat 8.0
+</td>
+<td>128/256</td>
+<td>global</td>
+<td>SGE（ただし決勝期間はonline/ SGE）</td>
+<td><a href="AIST-users-guide.html">利用マニュアル</a></td>
+</tr>
+
+<tr>
+<td>SAKURA</td>
+<td>産総研</td>
+<td><b>sakura.hpcc.jp</b><br>
+    CPU:Opteron 2.2GHz dual<br>
+    Memory:2GB<br>
+    Network:Gigabit Ethernet<br>
+    OS:SUSE Linux Enterprise Server 8
+</td>
+<td><b>sakura[00-0f].hpcc.jp</b><br>
+    CPU:Opteron 1.8GHz dual<br>
+    Memory:3GB<br>
+    Network:Gigabit Ethernet<br>
+    OS:SUSE Linux Enterprise Server 8
+</td>
+<td>16/32</td>
+<td>global</td>
+<td>SGE （ただし決勝期間はonline/ SGE）</td>
+<td><a href="AIST-users-guide.html">利用マニュアル</a></td>
+</tr>
+
+<tr>
+<td>DIS</td>
+<td>東工大小野研</td>
+<td><b>poole.dis.titech.ac.jp</b><br>
+    CPU:Athlon MP 2000+ 1.6GHz dual<br>
+    Memory:512MB<br>
+    OS:
+</td>
+<td><b>mp20_[001-054]（mp20_{15, 20, 24, 34}を除く）</b><br>
+    CPU:Athlon MP 2000+ 1.6GHz dual<br>
+    Memory:512MB<br>
+    OS:
+</td>
+<td>50/100</td>
+<td>private</td>
+<td>online/ SGE</td>
+</tr>
+
+<tr>
+<td>PrestoIII</td>
+<td>東工大松岡研</td>
+<td><b>nimbus.titech.hpcc.jp</b><br>
+    CPU: Athlon MP 1900+ 1.6GHz dual<br>
+    Memory:  768 [MB]<br>
+    OS: Debian Sarge (Linux Kernel: 2.4.30) 32bit環境</td>
+<td><b>pad[037-170].titech.hpcc.jp（pad{041, 058-062, 066, 067, 069, 070, 076, 088, 089, 092, 098, 103, 120, 121, 123, 125, 129-132, 142, 144, 161, 163, 165, 168, 169}を除く）</b><br>
+    CPU: Opteron 246 2.0GHz dual(pad037), Opteron 242 1.6GHz dual (pad[038-170])<br>
+    Memory:  4GB(pad[037-038]), 3GB(pad039), 2GB(pad[040-170])<br>
+    Network: Gigabit Ethernet<br>
+    OS: Debian Sarge (Linux Kernel: 2.4.31) 32bit環境</td>
+<td>103/206</td>
+<td>global</td>
+<td>online/ PBS</td>
+</tr>
+
+<tr>
+<td>Tau</td>
+<td>東大田浦研</td>
+<td><b>istbs000.i.u-tokyo.ac.jp</b><br>
+    CPU:    Xeon 2.4GHz dual<br>
+    Memory: 2048 [MB]<br>
+    OS:     Reahat Linux 7.3 (kernel 2.4.20)※変更の可能性あり</td>
+<td><b>istbs[001-175].i.u-tokyo.ac.jp</b><br>
+    CPU:    Xeon 2.4GHz dual(istbs[001-069]), 
+            Xeon 2.8GHz dual(istbs[070-111]),
+            Xeon EM64T 2.8GHz dual(istbs[112-175])<br>
+    Memory: 2048 [MB]<br>
+    OS:     Reahat Linux 7.3 (kernel 2.4.20)(istbs[001-111]),
+            Fedora Core Linux 3 (2.6.9)(istbs[112-175])※変更の可能性あり
+</td>
+<td>175/350</td>
+<td>global</td>
+<td>online/ SGE</td>
+</tr>
+
+<tr>
+<td>Chikayama</td>
+<td>東大近山研</td>
+<td><b>shepherd.logos.k.u-tokyo.ac.jp</b><br>
+    CPU: Xeon 2.4GHz dual<br>
+    Memory: 1024 [MB]<br>
+    OS: Debian GNU/Linux</td>
+<td><b>sheep[01-64].logos.k.u-tokyo.ac.jp</b><br>
+    CPU: Xeon 2.4GHz dual<br>
+    Memory: 2048 [MB]<br>
+    OS: Debian GNU/Linux</td>
+<td>64/128</td>
+<td>global</td>
+<td>online/ SGE</td>
+</tr>
+
+<tr>
+<td>Xenia</td>
+<td>同志社</td>
+<td><b>xenia.doshisha.ac.jp(プライベート側の名前 xen1)</b><br>
+    CPU: Xeon 2.4GHz dual<br>
+    Memory:  1GB (1024MB)<br>
+    OS: Debian GNU/Linux 3.1 (Sarge)</td>
+<td><b>xen[2-64]</b><br>
+    CPU: Dual xeon 2.4GHz<br>
+    Memory:  1GB (1024MB)<br>
+    OS: Debian GNU/Linux 3.1 (Sarge)</td>
+<td>63/126</td>
+<td>private</td>
+<td>online/ PBS</td>
+<td><a href="http://xenia.doshisha.ac.jp/">利用マニュアル</a>
+</tr>
+
+</table>
+</p>
+
+<p>
+●注意事項：
+<ul>
+<li>
+利用マニュアルが用意されているクラスタを利用する場合は，マニュアルの内容に従ってください．
+<li>
+各クラスタへログインする場合はまず，「ゲートウェイノード」と書かれているホストへ(ssh)ログインしてください．ゲートウェイノード以外の各ノードがプライベートIPアドレスしか持っておらず，クラスタ外から直接ログインできない場合があります． 各計算ノードのIPアドレスがプライベート（private）かグローバル（global）かは「計算ノードIPアドレス」の欄を見てください．
+<li>
+クラスタ内で各ノードへログインする場合も，sshを用います． 
+<li>
+各クラスタごとにコンパイルなどが必要な場合は，「コンパイル用ノード」と書かれているホストで行なって下さい． 
+
+<li>ジョブの実行方法はクラスタ毎に異なります．「ジョブ実行方法」の欄にonlineと表示されているクラスタについては，各計算ノード上で直接ジョブを実行する（プロセスを立ち上げる）ことが可能です．PBS (Portable Batch System)，SGE (Sun Grid Engine)等のバッチキューイングシステムのみが表示されているクラスタでは，これらのバッチキューイングシステムを経由してジョブを実行することしかできません．即ち計算ノード上で直接ジョブを実行することはできません．onlineとバッチキューイングシステムの両方の表示（online／PBS等）があるクラスタでは，どちらの方法でもジョブを実行することができます．
+<li>
+計算ノード上で直接ジョブを実行（プロセスを立ち上げる）場合は，ここにあるホストだけを用いるようにプログラミングして下さい．<font color="#cc0099"><u>どんな場合も，本ページで「計算ノード」に列挙されているノードと，ゲートウェイノード以外の場所でコンテストのための計算をしてはなりません．</u></font>また，ゲートウェイノード上で負荷の重い計算を行なってはいけません．これはゲートウェイノードにあまり高い負荷を書けないための協定です．
+<li>
+各クラスタのホストでは，ホームディレクトリが共有されています． 
+<li>
+<font color="#cc0099">注</font>: クラスタ内のノード名に書かれているノードが，このコンテストの計算ノードとして提供される物のすべてです．2/15の時点で動作していることを確認していますが，それ以降ノードの故障にともなって減ることもあります．再起動などで，一度落ちたノードが生き返ることはありますが，ここにないホストが後から追加されることは (非常に多数のノードが事故などで失われない限り)ありません．  
+<li>
+故障ノードは適当なタイミングで更新し，<a href="#information">障害情報</a>として提供します．また， <a href="http://g7.alab.ip.titech.ac.jp/ganglia/" target="_blank">Gangliaモニタリングシステム</a>の情報なども参照して下さい．
+<li>
+Ninf-Gのようなバッチキューイングシステムによる資源割当を用いているプログラミング環境では，利用可能なノードの集合を意識する必要はありません．GXPでは故障ノードを使わないように明示的に設定した方が，利用が快適になります．その設定ファイルは，各サイトにあらかじめ提供されます． 
+</ul>
+</p>
+
+<hr>
+<a name="network"><b>ネットワーク環境：</b></a>
+<p>
+GCF上のクラスタのゲートウェイノードおよび計算ノードでは，原則として以下のように通信が可能となっています．
+
+<ul>
+<li>
+外部からクラスタ上のノードへの通信は，プライベートIPアドレスを持つノードへの通信を除いて，sshによる通信，1024番以上のポートへの通信が可能です．
+<li>
+クラスタ上のノードから外部への通信は，sshによる通信，1024番以上ポートへの通信が可能です．
+</ul>
+
+ただし，PCクラスタによっては，計算ノード上で直接プロセスを起動すること（ログインも含む）を禁止している場合がありますので注意してください．詳しくは各クラスタの利用マニュアルを参照してください．
+</p>
+
+
+
+<hr>
+<a name="programming"><b>プログラミング環境：</b></a>
+<p>
+GCFでは，以下のプログラミング環境が予め提供されます．ただしこれらの環境を利用することを強制するわけではありません．またユーザの権限内であれば，参加者が選んだプログラミング環境をインストールして利用することも可能です．
+</p>
+
+<dl>
+<dt>Ninf-G
+<dd>マスタ-ワーカスタイルのプログラムを分散環境上で簡便に記述できるプログラミングモデルです．ノードがシステムによって割り当てられるため，故障情報などを意識する必要がありません．Ninf-Gの手引については解説とサンプルプログラム集を<a href="Ninf-G2-manual.tgz">こちら</a>からダウンロードして下さい．同パッケージ中のガイドラインは<a href="Ninf-G2-manual-2006.html">こちら</a>をごらんください． 
+<dt>
+GXP 
+<dd>sshを用いて多数のノードへ同時ログインし，利用できるツールです．対話的な利用の他，単純な並列処理を容易に記述できる機能も備えています．詳しい手引については<a href="info-gxp.html">こちら</a>をごらんください． 
+<dt>MPI
+<dd>各クラスタ上でMPIジョブが起動可能です．ただし，クラスタを跨って，一つのMPIジョブを起動することはできません．必要であれば各クラスタ上で別途MPIを起動し，それらを連係させて下さい．
+パス名など利用に必要な情報については<a href="info-mpich.html">こちら</a>をご覧ください．
+
+</dl>
+
+<p>
+また，全ホストでC/C++, Python, Perlなどが利用可能です．
+</p>
+
+<hr>
+<a name="preparation"><b>アカウントができたら：</b></a>
+<p>
+無事アカウントが到着したら，設定を確認するために，以下を行なって下さい． 
+自分のホストから，「入口」ホストへログインできること．普段使っているログイン名と，おそらくログイン名が違うので，間違えないようにして下さい．<br>
+例: 
+<pre>
+your_host$ ssh grch001@istbs000.i.u-tokyo.ac.jp
+passphrase for ...: (パスフレーズが空でなければ聞かれる)
+</pre>
+うまくいかなければ， 
+<pre>
+your_host$ ssh -v grch001@istbs000.i.u-tokyo.ac.jp
+</pre>
+として起動して下さい．メッセージを見て原因がわかれば直し，わからなければメッセージのログとともに， 下記問い合わせ先へメールをして下さい． 
+ssh-agent/ssh-addを使うと一度パスフレーズを入力するだけで，いろいろなホストへsshすることができるはずです．また，エージェントの転送機能 (-Aオプションまたは -o 'ForwardAgent yes')を使うと，自分のホストからだけではなく，入口ホスト間もいったり来たりすることができるはずです．<br>
+例: 
+<pre>
+# sshエージェント
+your_host$ eval `ssh-agent`
+your_host$ ssh-add
+passphrase for ...: (パスフレーズが空でなければ聞かれる)
+your_host$ ssh grch123@istbs000.i.u-tokyo.ac.jp	
+	(もう聞かれないはず)
+istbs000$ logout
+# エージェント転送機能
+your_host$ ssh -A grch123@shepherd.logos.k.u-tokyo.ac.jp
+shepherd$ ssh grch123@istbs000.i.u-tokyo.ac.jp	
+	(ホスト間を渡り歩けるはず)
+istbs000$ 
+</pre>
+すべての入口ホストに一度ずつログインする<a href="tool.html#gwlogin">シェルスクリプト</a>を用意しましたので，アカウントが到着次第，必要ならば使って下さい．スクリプト中のログイン名は手で置き換えて下さい． 
+</p>
+
+<p>
+GlobusやNinf-Gを用いてプログラミングを行う場合は，Globusユーザ証明書が必要になります．<a href="#certificate">グリチャレ用ユーザ証明書の取得</a>にある手続きを行ってください．
+</p>
+
+<hr>
+<a name="certificate"><b>グリチャレ用ユーザ証明書の取得：</b></a>
+<p>
+以下の手順にしたがって，CAの証明書を取得して下さい．
+
+<p>
+1.'g7.alab.ip.titech.ac.jp'にログイン<br>
+参加者のアカウントが作成されています．
+ただしこのホストで計算を行うことは禁止します．
+</p>
+
+<p>
+2.証明書発行要求コマンドを入力<br>
+以下のコマンドを実行してください．
+<pre>
+$ grid-cert-request
+</pre>
+この際，ユーザ名，パスフレーズが聞かれますので，入力してください．ユーザ名には代表者の氏名を英文で入力してください．
+　'~/.globus'ディレクトリに以下の3つのファイルができていることを確認してください．
+<pre>
+　usercert.pem(空のファイル)
+  usercert_request.pem(証明書要求ファイル)
+  userkey.pem(秘密鍵ファイル)
+</pre>
+</p>
+
+<p>
+3.証明書発行要求ファイルをCA管理者にメールで送信<br>
+先ほどできた3つのファイルのうち，
+usercert_request.pem
+のみを添付して，以下のメールアドレスに送信してください．<br>
+グリチャレCAメールアドレス:grid-challenge-sec [at] alab.ip.titech.ac.jp（"[at]"を"@"に変更して下さい．）また送信するメールの本文には，以下の例のようにアカウント名，チーム名（規定課題部門参加者のみ），代表者氏名，代表者メールアドレスを記入してください．
+</p>
+
+証明書発行要求メール本文の例
+<table border>
+<tr><td><pre>
+To: grid-challenge-sec@......
+Suject: グリチャレ用ユーザ証明書発行依頼
+------
+
+グリチャレ用ユーザ証明書の発行を依頼します．
+アカウント名：grch000
+チーム名：グリチャレ
+代表者氏名：合田 憲人
+代表者メールアドレス：aida@.....
+</pre></td></tr>
+</table>
+
+<p>
+4.証明書の送付<br>
+3日以内にCA管理者より証明書（usercert.pem）がメールにて返信されます．
+証明書の内容を確認して下さい．
+</p>
+
+<p>
+5.各クライアントのPCに証明書を置く．<br>
+利用するクライアントホスト（GCF上のホスト）の '~/.globus' にCA管理者から送付された証明書（usercert.pem）を置いてください．既にあるファイル（0 byte）を上書きして構いません．'~/.globus'に以下のファイルがあることを確認してください．
+<pre>
+　usercert.pem(証明書)
+  userkey.pem(秘密鍵ファイル)
+</pre>  
+</p>
+
+<p>
+6. grid-mapfile へのエントリの追加<br>
+Globusの認証では，アクセスするサーバ計算機にユーザの情報が登録され
+ている必要があります．具体的には，ユーザ証明書に書かれている Subject 名と，そのユーザのジョブを実行すべき UNIX アカウントとの対応表(grid-mapfile)
+にエントリを登録する必要があります．ユーザ証明書を取得したら，グリッドチャレンジ管理者用メーリングリスト <br>
+grid-challenge-admin [at] alab.ip.titech.ac.jp
+（" [at] "を"@"に置き換えてください．）<br>
+宛に，ユーザ証明書および各サイトでのアカウント名を送付して，
+grid-mapfile へのエントリ登録を依頼してください．各サイトの管理者からgrid-mapfile登録の返事が届けば，登録完了です．
+</p>	
+
+<hr>
+<a name="contact"><b>問い合わせ：</b></a>
+<p>
+問い合わせは，
+grid-challenge-admin [at] alab.ip.titech.ac.jp
+（" [at] "を"@"に置き換えてください．）まで．
+</p>
+
+<hr>
+updated: 2006/3/24 <br>
+グリッドチャレンジ2006実行委員会
+<hr>
+</body>
+</html>

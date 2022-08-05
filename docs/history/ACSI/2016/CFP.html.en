@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+<head>
+ <style type="text/css">
+       tr.cf_paper {
+       display: table-row;
+       }
+       tr.cf_etc {
+       display: none;
+       }
+       tr.cf_poster {
+       display: table-row;
+       }
+ </style>
+</head>
+
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+<h4> Call for Papers and Presentations </h4> 
+
+<h2 style="text-align:center">
+2nd Annual Meeting on Advanced Computing System and Infrastructure <br />
+(<a href="http://acsi.hpcc.jp/2016/">ACSI2016</a>)
+</h2>
+<table>
+  <tr><td>Date: </td><td>January 18-20, 2016</td></tr>
+  <tr><td>Venue: </td><td><a href="http://www.med.kyushu-u.ac.jp/100ko-do/english/">Centennial Hall, Kyushu University School of Medicine</a></td></tr>
+</table>
+
+<p>Sponsors</p>
+<ul>
+<li> <a href="http://www.ipsj.or.jp/english/index.html"> IPSJ</a> <a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a></li>
+<li> <a href="http://www.ipsj.or.jp/english/index.html"> IPSJ</a> <a href="http://sighpc.ipsj.or.jp/">SIGHPC</a></li>
+<li> <a href="http://www.ipsj.or.jp/english/index.html"> IPSJ</a> <a href="http://sigpro.ipsj.or.jp/">SIGPRO</a></li>
+</ul>
+
+<h4> [Important Dates] </h4>
+<?php include("include/important-dates-en.html");?>
+
+<h4> [Overview] </h4>
+
+<?php include("include/aboutacsi-en.html");?>
+
+<h4>[Topics and Submission Styles]</h4>
+
+<?php include("include/aboutacsi2-en.html");?>
+
+<p>
+ACSI2016 will accept the following styles of submissions: regular papers (long/short), presentations of overseas publication, and posters.
+</p>
+
+<dl>
+<dt>(1) Regular papers (long papers)</dt>
+<dd> 
+<p>
+High quality papers (at most 10 pages) that establish significant
+results and ideas are solicited in this category.  Papers must be
+written in English.
+
+All submitted papers will be reviewed by the program committee for
+sustaining the quality of presentations in the meeting, selection of
+accepted papers and award selection. The program committee expects
+that the review reports will help the author(s) submit the revised
+papers to international conferences/journals in the near future.
+Review reports will be sent to the author(s) in English or
+Japanese. The author(s) may ask reviewers to write reports in English
+at the submission.
+</p>
+<p>
+The author(s) of each accepted paper must
+register for the meeting to give an oral presentation, either in
+English or in Japanese. 
+Presentation slides should be written either in English or in Japanese, too.
+</p>
+</dd>
+<dt>(2) Regular papers (short papers) </dt>
+<dd>
+<p>
+High quality papers (4-6 pages) that establish significant results
+and ideas are solicited in this category.  Papers must be written in
+English.  All submitted papers will be reviewed as long papers. Papers
+with promising results or those bringing fruitful discussion in the
+meeting will be also accepted.
+</p>
+<p>
+The author(s) of each accepted paper must
+register for the meeting to give an oral presentation, either in
+English or in Japanese. Presentation slides
+should be written either in English or in Japanese, too.
+</p>
+</dd>
+
+<dt>(3) Presentations of overseas publication</dt>
+<dd><p> Presentations of high quality work that has been published in
+(or accepted to) peer-reviewed international conferences or journals
+but not in domestic ones are solicited in this category.
+Acceptance/rejection of all submitted presentation proposals will be
+judged by the program committee based on their relevance to ACSI and
+the availability of presentation slots.  The original papers are used
+only for the proposal selection process.
+</p>
+<p>
+For each accepted proposal, the author(s) of the original paper must
+register for the meeting to give an oral presentation, either in
+English or in Japanese. Presentation slides should be written either
+in English or in Japanese, too.
+</p>
+</dd>
+<dt>(4) Posters</dt>
+<dd><p> 
+ACSI2016 will call for poster submissions, following
+ACSI2015. <span class="del">The detailed submission information will be announced soon.</span>
+The detailed submission information is available at <a href="./cfposters.html.en">"Call for Posters"</a>.
+
+</p></dd>
+</dl>
+
+
+<h4> [Limited Access to Accepted Papers] </h4>
+
+<p>
+ACSI does not publish any proceedings. The papers accepted for ACSI
+are not opened to the public. Copies of the accepted papers will be
+distributed only to attendees of the ACSI2016, during the meeting
+dates and one week after the meeting.
+</p>
+
+<h4> [Submission Regulations for Regular Papers] </h4>
+<p>
+The IEEE conference style (US letter or A4 size) should
+be used for the regular papers submission. The page limit for long papers is 10
+pages, and 6 pages for short papers. It must be an original work,
+which has not appeared in and has not been accepted for other
+peer-reviewed conferences or journals, domestic or international, of
+all categories including regular papers, letters, and technical
+notes. Papers that are included in or accepted for journals or conferences
+but the publications (e.g. proceedings) are not assigned either ISBN or ISSN
+number can be submitted.
+</p>
+
+<p>
+The template of the IEEE conference style is available at
+<a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">http://www.ieee.org/conferences_events/conferences/publishing/templates.html</a>. Please submit a PDF file of your manuscript following this style. A submission not following the page limit and the style would be rejected.
+</p>
+
+<h4> [Award for Regular Papers] </h4> 
+
+<p> ACSI2016 program committee selects at most one "ACSI2016 Outstanding
+Research Award" in each track. 
+</p>
+<p>
+Moreover,
+ACSI2016 gives "ACSI2016 Outstanding Student Research Award" for the best paper
+written by a student. To be qualified the student award, the first
+author should be a student and she/he must present the work in the
+meeting. A student working for a company is entitled to the award only when he/she has done the work as a student.
+</p>
+
+<p>
+Above two awards are mainly selected from the view point of
+quality of the research, its practicality and potential. Additionally,
+the presentation quality is taken into account for the evaluation of
+the paper. No paper may receive both awards.
+</p>
+
+<h4> [IPSJ Transactions on ACS: Special issue on ACSI] </h4>
+<p>
+There is a special issue on ACSI in the ACS transactions, which will
+be announced about three weeks after the notification of ACSI review
+results. ACSI program committee cooperates with ACS editors to aim
+quicker review response than the regular issue of ACS. Please note,
+however, that the special issue is judged according to the criterion
+of ACS transactions, which is not identical to that for ACSI.
+</p>
+
+<h4> [Submissions] </h4>
+<p> All papers should be submitted through EasyChair.  The opening of
+the submission site is to be announced in ACSI2016 web page
+(http://acsi.hpcc.jp/2016/). The author(s) is (are) requested to
+choose one of the following three tracks that most closely matches the
+submitted paper when submitting. Note that the author(s) may submit a
+paper without choosing a track if it is difficult. In this case, the
+program committee will determine a suitable track for the submitted
+paper. In addition, even though the author(s) chose a track for the
+submission, the program committee would move the paper to another
+track when necessary.
+</p>
+<dl>
+<dt>Track A: Applications and Algorithms [chair: ENDO, Toshio (Tokyo Institute of Technology)]</dt>
+<dd>
+<p></p>
+<ul>
+<li>Computational Science/Simulations</li>
+<li>Numerical Algorithms</li>
+<li>Numerical Libraries</li>
+<li>Auto Tuning</li>
+<li>Large-scale Data Processing Algorithms</li>
+<li>Power-saving Algorithms</li>
+<li>Algorithmic Fault Tolerance</li>
+<li>Scalable Algorithms</li>
+</ul>
+</dd> 
+<dt>Track B: Programming and Systems Software [chair: TATEBE, Osamu (University of Tsukuba)]</dt>
+<dd>
+<p></p>
+<ul>
+<li>Operating Systems</li>
+<li>Programming Language Design and Implementation</li>
+<li>Virtualization Technology</li>
+<li>Data-intensive Computing Systems (MapReduce, KVS)</li>
+<li>File Systems</li>
+<li>Databases</li>
+<li>Cloud Computing Systems</li>
+<li>Cyber-physical Systems</li>
+<li>Grid Computing Systems</li>
+<li>High-performance Computing Systems</li>
+<li>Security</li>
+<li>Communication Libraries</li>
+<li>Wide Area Networking</li>
+<li>Large Scale System Management and Evaluation</li>
+</ul>
+</dd> 
+<dt>Track C: System Architecture [chair: KIMURA, Keiji (Waseda University)]</dt>
+<dd>
+<p></p>
+<ul>
+<li>Processor Architecture</li>
+<li>Memory Architecture</li>
+<li>Network Architecture</li>
+<li>Heterogeneous Architecture (GPU, Many Cores)</li>
+<li>Reconfigurable Systems</li>
+<li>Low Power Design</li>
+<li>Dependable Systems</li>
+<li>Application-specific Architecture</li>
+<li>Embedded Systems</li>
+</ul>
+</dd>
+</dl>
+
+<h4> [Organization] </h4>
+
+     <?php include("include/committee-oc-en.html");?>
+
+<table style="margin-top: 5pt; width: 900px">
+  <colgroup>
+    <col width="250" style="font-weight:bold" />
+    <col width="180" />
+    <col width="500" />
+  </colgroup>
+  <tr><td>Program Committee Member</td><td></td><td></td></tr>
+</table>
+
+     <?php include("include/committee-pc-members-en.html");?>
+
+<h4> [Contact] </h4>
+
+ACSI2016 organizing committee: acsi2016 <span> "at" </span> acsi "dot" hpcc "dot" jp
+
+</div>
+
+    <?php include("include/footer.html");?>
+<div>
+  <p class="validation">
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://www.w3.org/Icons/valid-xhtml11"
+	   alt="Valid XHTML 1.1" /></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://jigsaw.w3.org/css-validator/images/vcss"
+	   alt="Valid CSS" /></a>
+  </p>
+</div>
+</body>
+</html>

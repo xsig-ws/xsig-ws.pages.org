@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+      <h4>
+	SACSIS2013 論文投稿方法
+      </h4>
+
+<p>
+SACSIS2013では，論文投稿システムとしてEasyChairを利用します．EasyChairを利用したことがある場合には，<string>1. EasyChairのアカウント作成手順</string>を読み飛ばして，<string>2. SACSIS2013への論文投稿手順</string>を御覧ください．EasyChairを利用したことがない場合には，以下の手順をご覧ください．
+</p>
+
+<p><strong>1. EasyChairのアカウント作成手順</strong></p>
+<ol>
+<li><a href="https://www.easychair.org/conferences/?conf=sacsis2013">
+SACSIS2013 EasyChairサイト</a>へアクセスしてください．</li>
+<li>"sign up for an account"をクリックしてください．</li>
+<li>"Step 1"で表示されている2つの単語を入力し，"continue"をクリックしてください．</li>
+<li>"Step 2"でFirst name, Last name, Emailアドレスを入力し，"continue"をクリックしてください．</li>
+<li>"Account Application Received"と出力され，仮手続が完了します．</li>
+<li>Step 2で登録したEmailアドレスにEasyChairシステムから"EasyChair account confirmation"という件名のメールが送られてきます．本文中のURLをクリックしてください．</li>
+<li>"Signing Up for EasyChair: Last Step"と出力された画面で，User name (EasyChairシステムにログインする際に利用する)，所属，パスワード等の情報を入力し，"create my account"をクリックしてください．</li>
+</ol>
+以上で，EasyChairのアカウント作成手続きが終了します．
+</p>
+
+<p><strong>2. SACSIS2013への論文投稿手順</strong></p>
+<ol>
+<li>SACSIS2013 EasyChairサイト: <br>
+<a href="https://www.easychair.org/conferences/?conf=sacsis2013">
+https://www.easychair.org/conferences/?conf=sacsis2013</a><br>
+へアクセスしてください．</li>
+
+<li>User name，Passwordを入力して，"Sign in"をクリックしてください．<br>
+<blockquote>
+<img src="SACSIS2013_files/login.png"  width="450"  alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+
+<li>上部メニューの"New Submission"をクリックしてください．</li>
+<li>投稿するトラック名にチェックを入れて，"Continue"をクリックしてください．一般論文，萌芽論文は別のトラックになります．トラック名をよく確認してください．<br>
+<blockquote>
+<img src="SACSIS2013_files/select_a_track.png"  width="450" alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+<li>連絡先を入力してください．このページでは，論文が日本語で書かれている場合は日本語で，英語の場合は英語で入力してください．<br>
+<blockquote>
+<img src="SACSIS2013_files/contact_info.png"  width="450" alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+<li>著者全員の情報を入力してください．代表者には，"Corresponding author"にチェックを入れてください．なお，論文が日本語で書かれている場合は日本語で，英語の場合は英語で入力してください． 入力欄が足りない場合は，"Click here to add more authors"をクリックしてください．<br>
+<blockquote>
+<img src="SACSIS2013_files/authors_info.png"  width="450"  alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+<li>論文タイトル、概要、キーワードを入力してください．論文が日本語で書かれている場合は日本語で，英語の場合は英語で入力してください．<br>
+<blockquote>
+<img src="SACSIS2013_files/title_abst_keywords.png"  width="450"  alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+<li><font color="red">学生論文の場合は，"Student Paper / 学生論文"に忘れずにチェックを入れてください．</font><br>
+<blockquote>
+<img src="SACSIS2013_files/check_and_submit.png" width="450"   alt="Valid XHTML 1.1" border="1"/>
+<blockquote>
+</li>
+<li>
+論文登録のみを行う場合は，"Abstract Only"にチェックを入れてください．
+論文も同時にアップロードする場合は，PDF形式のファイルをアップロードしてください．</li>
+<li>入力内容を確認した後，"Submit"をクリックしてください．</li>
+<li>論文アップロード〆切まで，論文のアップロード，投稿した論文の差し替えが可能です．
+再度EasyChairシステムにログインし，上部メニューの"Paper <論文番号>"をクリックし，"Submit a new version"で論文のアップロード，差し替え手続きをしてください．
+</li>
+</ol>
+以上で，論文登録およびアップロードは完了します．
+</p>
+
+
+
+
+
+<br><br>	
+<h4>問い合わせ先</h4> 
+<table> 
+<colgroup><col width="150"> <col width="180"></colgroup>
+<tbody><tr><td>シンポジウム関係: </td><td>総務委員長</td><td>大嶋 裕子</td></tr>
+<tr><td>論文投稿関係: </td><td>プログラム副委員長（論文）</td><td>竹房あつ子</td></tr>
+<tr><td>広報関係: </td><td>広報委員長</td><td>江川隆輔</td></tr>
+<tr><td colspan="3"><a href="http://sacsis.hpcc.jp/2013/contact.html">http://sacsis.hpcc.jp/2013/contact.html</a></td></tr>
+</tbody></table>
+</dl></div>
+<address>
+  Copyright 2007-2013, SACSIS 2013 Organizing Committee
+</address>
+<div>
+  <p class="validation">
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img style="border:0;width:88px;height:31px" src="./SACSIS2013_files/valid-xhtml11-blue" alt="Valid XHTML 1.1"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+      <img style="border:0;width:88px;height:31px" src="./SACSIS2013_files/vcss-blue" alt="Valid CSS"></a>
+  </p>
+</div>
+　
+ 
+  
+
+</body></html>

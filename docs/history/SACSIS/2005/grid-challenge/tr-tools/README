@@ -1,0 +1,41 @@
+include/grid_challenge_api.h	C用出題APIヘッダファイル
+libgrch.a			C用出題API
+libcrypto.a			libgrch.aが用いる暗号化ライブラリ
+				(OpenSSLに付属のもの)
+grch.jar			java用出題API
+make-trial.sh			データ生成用プログラム
+make-tr-pic			make-trial.shから呼ばれるプログラム
+make-tr-ans			make-trial.shから呼ばれるプログラム
+README				このファイルです
+
+バイナリファイルはいずれもi386-linux用です。
+
+[1]出題APIの使い方
+C/C++言語用:
+* include/grid_challenge_api.hをインクルードして下さい。
+* libgrch.aとlibcrypto.aをリンクして下さい。
+  libcrypto.aはOpenSSLに付属のものであるため、すでにインストール
+  されている可能性があります(/usr/lib/libcrypto.aなど)。
+  どちらを利用しても構いません。
+
+Java用:
+* grch.jarをCLASSPATHに含めて下さい(コンパイル時、実行時とも)。
+
+他言語について:
+* 専用のAPIは用意していませんが、言語間インタフェースなどの利用により
+CまたはJava用のAPIを利用可能でしょう。
+
+その他の詳細についてはWebページを参照して下さい。
+
+[2]データの生成方法
+好きなディレクトリに移動して、このディレクトリ中のmake-trial.shを
+実行して下さい。50MB程度のデータがカレントディレクトリに作成されます。
+
+データは6問分作成されます。data01, data02, ..., data06の各サブディレク
+トリが、それぞれ問題番号1, 2, ..., 6に対応します。APIを呼び出す際は、
+例えば問題番号2であれば、problem_numberには2, problem_dirおよび
+config_dir には、作成されたdata02ディレクトリのパス名を指定して下さい。
+
+6問中, 1, 2, 3は初級、4, 5, 6は上級用のデータです。
+
+以上

@@ -1,0 +1,110 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/cell.css">
+<!-- meta name="author"      content="" -->
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="date" content="2009-01-28T19:18:19+09:00">
+</head>
+
+<body class="contents">
+
+<h1>規定課題</h1>
+
+<p>Cell Challenge 2009
+の規定課題は「<strong>文字列の編集距離計算</strong>」です．</p>
+
+<ul>
+ <!-- li><a href="#faq"     >Q &amp; A</a></li -->
+ <!-- li><a href="#ref"     >参考資料</a></li -->
+ <li><a href="#abstract">概要</a></li>
+ <li><a href="#detail"  >予選課題詳細</a></li>
+</ul>
+
+<!-- h2><a name="faq">Q &amp; A</a></h2>
+
+<p>→「<a href="qanda.html">Q&amp;Aのページ</a>」に移動しました。</p -->
+
+<!-- h2><a name="ref">参考資料</a></h2 -->
+
+<!-- ul>
+ <li>問題作成WG 作成「規定課題参考資料」
+   (<a href="download/reference.ppt">ppt</a> / <a href="download/reference.pdf">pdf</a>)</li>
+</ul -->
+
+<h2><a name="abstract">概要</a></h2>
+<p>2つの文字列の近さを計るために片方に次の操作を繰り返し適用して，
+もう一方の文字列を得るための操作回数の最小値が，その2つの文字列の
+<strong>編集距離</strong>です。使用可能な操作は以下の3種類です。</p>
+
+<ol>
+ <li>削除：1つの文字を取り除く</li>
+ <li>挿入：1つの文字を新たに付け加える</li>
+ <li>置換：1つの文字を別の文字で置き換える</li>
+</ol>
+
+<p>例えば「weight」と「write」の編集距離を考えるとき，次のように操作を
+繰り返し適用すると，この2つの編集距離が 4以下 であることが分かります。</p>
+
+<img style="float: right;" src="img/wrighte.png">
+
+<ul>
+ <li>weight</li>
+ <li>weight<strong>e</strong> (挿入：e)</li>
+ <li>w<strong>r</strong>ighte (置換：e → r)</li>
+ <li>wrihte (削除：g)</li>
+ <li>write (削除：h)</li>
+</ul>
+
+<p style="clear: both;">また，3回以下の操作の適用では「weight」を「write」にすることが
+実はできないので，「weight」と「write」の編集距離は 4 になります。
+削除，挿入，置換は文字列の中のどの位置で行ってもよいです。</p>
+
+<h2><a name="detail">予選課題詳細</a></h2>
+
+<!-- p>現在作成中です。</p -->
+
+<!-- dl class="attention">
+<dt>ご注意</dt>
+<dd>決勝問題は，事前に公開いたしません。また，予選問題と
+  類似の性質の問題が出る保証はありません。</dd>
+</dl -->
+
+<p>具体的に解いて頂くのは以下形式で出題される問題です。</p>
+
+<dl class="problem">
+<dt>ユーザの実装する関数</dt>
+<dd style="background-color: #000; color: #fff; padding: 2pt;">
+<span style="color: #98fb98;">void</span> <span style="color: #87cefa;">ppe_user</span>(<span style="color: #98fb98;">unsigned int</span> *<span style="color: #eedd82;">str1</span>, <span style="color: #98fb98;">unsigned int</span> *<span style="color: #eedd82;">str2</span>, <span style="color: #98fb98;">unsigned int</span> *<span style="color: #eedd82;">ans</span>, <span style="color: #98fb98;">int</span> <span style="color: #eedd82;">num1</span>, <span style="color: #98fb98;">int</span> <span style="color: #eedd82;">num2</span>);
+</dd>
+<dd>各ポインタの値は128バイト境界にアライメントされていることが保証されます。
+ppe.cに実装されている例を参考に高速化してください。</dd>
+ <dt>文字列</dt>
+ <dd>1文字は1バイトで1〜255の値を持つ。NULL('\0')が終端。<br>
+   文字列はstr1, str2の指す領域に保存される。<br>
+   それぞれの長さはnum1, num2。ただし num1 * num2 は 17179869184 (2<sup>34</sup>) 以下とする。<br>
+   文字列の長さは128の倍数。<br>
+   文字列の最大長はそれぞれ1048448文字（1M-128）。</dd>
+ <dt>編集距離</dt>
+ <dd>1回の挿入、削除、置換の編集距離はすべて1。</dd>
+ <dt>回答</dt>
+ <dd>指定された位置(ans[0])に保存。</dd>
+ <dt>実行時間の測定</dt>
+ <dd>ppe_userの実行時間を測定</dd>
+</dl>
+
+<!-- dl>
+ <dt>参考図書：</dt>
+ <dd>奥村晴彦著「Ｃ言語による最新アルゴリズム辞典」技術評論社</dd>
+ <dd>小国力編著「行列計算ソフトウエアーＷＳ、スーパーコン、並列計算機」丸善株式会社</dd>
+</dl -->
+
+<hr class="footer">
+
+</body>
+
+</html>

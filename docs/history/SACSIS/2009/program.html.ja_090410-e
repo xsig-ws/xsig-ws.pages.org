@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="SACSIS09,SACSIS2009,SACSIS" />
+ <link href="css/2009.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2009</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 28-29, 2009<br />Hiroshima, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+
+<div class="main">
+
+<!-- INSERTED LINES BEGIN (2009_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.ja" title="SACSIS 2009">SACSIS2009&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2009_LINKS) -->
+<a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+<a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+<!-- <a href="exhibit.html.ja">企画展示</a> <span class="hideme">|</span> -->
+<a href="http://www.hpcc.jp/sacsis/2009/cell/">Cellチャレンジ2009</a> <span class="hideme">|</span>
+<a href="https://www2.cc.u-tokyo.ac.jp/procon/">Clusterコンテスト</a> <span class="hideme">|</span>
+<a href="cfpart.html.ja">参加募集</a><span class="hideme">|</span>
+<a href="http://www.ipsj.or.jp/09sig/kaikoku/2009/SACSIS2009.html">参加申込</a><span class="hideme">|</span>
+<a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+<!-- <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span> -->
+<a href="cfcompany.html.ja">企業・団体展示募集</a> <span class="hideme">|</span>
+<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+<a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+<a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+<a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2008_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<h3>SACSIS 2009 プログラム</h3><br />
+
+<h4>招待講演・チュートリアル情報</h4>
+<div>
+<ul>
+<li> <a id="I1-1">招待講演</a>
+<ul>
+<li>5/28(木) 09:30-11:00：<br />
+<img src="images/2009_GD_thumb.jpg" style="float:left" width="81" alt="image"/>
+Distinguished Engineer,<br />Technical Executive for IBM eServer HPC development.<br />
+Don Grice 氏<br />
+「The Roadrunner Project and the Importance of Energy Efficiency<br />&nbsp;&nbsp;on the Road to Exascale Computing.」<br />
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div>
+<ul>
+<li> チュートリアル:
+<ul>
+<li><a id="B1-2">チュートリアル１</a><br />
+5/28(木) 14:00-15:30：<br />
+インテル株式会社 ソフトウェア &amp; サービス統括部 ソフトウェア技術部 シニア・ソフトウェア・エンジニア<br />
+菅原 清文 氏<br />
+「並列コンピューティングを支える開発ツール群とテクノロジー」 <br /></li>
+<li><a id="B2-3">チュートリアル２</a><br />
+5/29(金) 14:00-15:30：<br />
+産総研 情報技術研究部門 インフラウェア研究グループ 研究員<br />
+高野 了成 氏<br />
+「HPCユーザが知っておきたいTCP/IPの話<br />〜クラスタ・グリッド環境の落とし穴〜」 <br /></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h4><a id="exhibit">企業・団体展示</a></h4>
+<ul>
+<li>企業・団体展示日程：<br />
+5月28日(木) 11:00-18:00 / 18:15-20:30(懇親会)<br />
+5月29日(金) 09:30-16:00</li>
+</ul>
+
+<h4>企業・団体展示参加組織および協賛企業一覧(順不同，敬称略)</h4>
+<ul>
+<li>株式会社インタフェース</li>
+<li>住商情報システム株式会社</li>
+<li>株式会社ベストシステムズ</li>
+<li>株式会社エルザジャパン</li>
+<li>株式会社マックスサーブ</li>
+<li>プラットフォームコンピューティング株式会社</li>
+<li>富士通株式会社</li>
+<li>国立情報学研究所</li>
+<li>マイクロソフト株式会社</li>
+</ul>
+
+<h4>セッション構成</h4>
+<table border="1">
+<tr><td class="daycolum" align="center" colspan="4"><a href="#day1"><b>5/28(木)</b></a></td></tr>
+<tr>
+<th style="width:10%">時間</th>
+<th style="width:30%">A会場(ヒマワリ)</th>
+<th style="width:30%">B会場(コスモス)</th>
+<th style="width:30%">展示会場(ダリア)</th>
+</tr>
+<tr>
+<th>09:15-09:30</th>
+<td><a href="#ABC1-0">開会の辞</a><br />
+最優秀論文賞，優秀若手論文賞表彰<br />
+(IEEE CS Japan Chapter 優秀若手研究賞)<br />
+<span style="font-size: 80%">(司会：未定)</span></td>
+<td class="ready" rowspan="2" colspan="2"> </td>
+</tr>
+
+<tr><th>09:30-11:00</th>
+<td>
+<a href="#I1-1">招待講演</a><br />
+Don Grice<br />
+「The Roadrunner Project and the Importance of Energy Efficiency on the Road to Exascale Computing.」<br />
+<span style="font-size: 80%">(座長: 佐藤真琴((株)日立製作所))</span>
+</td>
+</tr>
+
+<tr>
+<th class="rest">11:00-11:30</th>
+<td class="rest" align="center" colspan="2">休憩</td>
+<td rowspan="6"><a href="#exhibit">企業・団体展示</a>，<a href="#poster">ポスター展示</a></td>
+</tr>
+
+<tr><th>11:30-12:30</th>
+<td><a href="#A1-1">省電力コンパイラ</a> <br />[A1-1] 一般講演(2件)</td>
+<td><a href="#B1-1">ネットワークオンチップ</a> <br />[B1-1] 一般講演(2件)</td>
+</tr>
+
+<tr><th class="rest">12:30-14:00</th><td class="rest" align="center" colspan="2">昼食</td></tr>
+
+<tr><th>14:00-15:30</th>
+<td><a href="#A1-2">分散計算プラットホーム</a> <br />[A1-2] 一般講演(3件)</td>
+<td><a href="#B1-2">「並列コンピューティングを支える開発ツール群とテクノロジー」</a><br />菅原 清文(インテル(株))<br />
+<span style="font-size: 80%">(座長: 佐藤三久(筑波大))</span><br />[B1-2]チュートリアル 1</td>
+</tr>
+
+<tr><th class="rest">15:30-16:00</th><td class="rest" align="center" colspan="2">休憩</td></tr>
+
+<tr><th>16:00-18:00</th>
+<td><a href="#A1-3">Cell Challenge 2009</a> <br />[A1-3] 企画</td>
+<td><a href="#B1-3">大規模ネットワーク</a> <br />[B1-3] 一般講演(4件)</td>
+</tr>
+
+<tr>
+<th class="rest">18:15-20:30</th>
+<td class="ready" align="center" colspan="2"> </td>
+<td class="rest"><a href="#banquet">懇親会</a><br />
+<a href="#exhibit">企業・団体展示</a>，<a href="#poster">ポスター発表</a><br />
+Cell Challenge 2009，Clusterコンテスト表彰<br /></td>
+</tr>
+</table><br />
+
+<table border="1">
+<tr><td class="daycolum" align="center" colspan="5"><a href="#day2"><b>5/29(金)</b></a></td></tr>
+
+<tr>
+<th style="width:8%">時間</th>
+<th style="width:23%">A会場(ヒマワリ)</th>
+<th style="width:23%">B会場(コスモス)</th>
+<th style="width:23%">C会場(ラン)</th>
+<th style="width:23%">展示会場(ダリア)</th>
+</tr>
+
+<tr><th>9:30-10:30</th>
+<td><a href="#A2-1">セキュリティ基盤</a><br />[A2-1] 一般講演(2件)</td>
+<td><a href="#B2-1">メニーコア技術</a><br />[B2-1] 一般講演(2件)</td>
+<td><a href="#C2-1">シミュレーション</a><br />[C2-1] 一般講演(2件)</td>
+<td rowspan="6"><a href="#exhibit">企業・団体展示</a>，<a href="#poster">ポスター展示</a></td></tr>
+
+<tr><th class="rest">10:30-11:00</th><td class="rest" align="center" colspan="3">休憩</td></tr>
+
+<tr><th>11:00-12:30</th>
+<td><a href="#A2-2">ストレージ</a> <br />[A2-2] 一般講演(3件)</td>
+<td><a href="#B2-2">並列システム評価</a> <br />[B2-2] 一般講演(3件)</td>
+<td><a href="#C2-2">専用アーキテクチャ</a> <br />[C2-2] 一般講演(3件)</td></tr>
+
+<tr><th class="rest">12:30-14:00</th><td class="rest" align="center" colspan="3">昼食</td></tr>
+
+<tr><th>14:00-15:30</th>
+<td><a href="#A2-3">マイクロアーキテクチャ</a> <br />[A2-3] 一般講演(3件)</td>
+<td><a href="#B2-3">「HPCユーザが知っておきたいTCP/IPの話 〜クラスタ・グリッド環境の落とし穴〜」<br />高野 了成(産総研)</a><br />
+<span style="font-size: 80%">(座長: 石川 裕(東大))</span><br />
+[B2-3]チュートリアル 2</td>
+<td class="ready"><a href="#C2-3"> </a> <br /></td></tr>
+<!-- <a href="#C2-3"> </a> <br />[C2-3] 一般講演(3件)</td></tr> -->
+
+<tr><th class="rest">15:30-16:00</th><td class="rest" align="center" colspan="3">休憩</td></tr>
+
+<tr><th>16:00-17:30</th>
+<td><a href="#A2-4">GPGPU</a> <br />[A2-4] 一般講演(3件)</td>
+<td><a href="#B2-4">キャッシュ</a> <br />[B2-4] 一般講演(3件)</td>
+<td><a href="#C2-4">スケジューリング</a> <br />[C2-4] 一般講演(3件)</td>
+<td class="ready"> </td></tr>
+
+<tr><th>17:30-</th><td><a href="#ABC2-9">閉会の辞</a><br />Most Interesting Poster 賞表彰
+<br /><span style="font-size: 80%">(司会：未定)</span>
+</td>
+<td class="ready" colspan="3"> </td></tr>
+</table><br />
+
+<h4>プログラム</h4>
+
+<p class="date"><a id="day1">─── 5/28(木) ───</a></p>
+
+<!-- 開会の辞 -->
+<p class="time">5/28(木) 09:15--09:30</p>
+<ul>
+<li> <a id="ABC1-0">開会の辞，<br />
+　最優秀論文賞・優秀若手研究賞表彰(IEEE CS Japan Chapter 優秀若手研究賞)</a></li>
+</ul>
+
+<p class="time">5/28(木) 11:30--12:30</p>
+<ul>
+<li><a id="A1-1">[A1-1]</a> 省電力コンパイラ (座長： 井上弘士(九大))
+<ul><li>マルチコア上でのOSCAR APIを用いた並列化コンパイラによる低消費電力化手法<br />
+　中川 亮, 間瀬 正啓, 白子 準, 木村 啓二, 笠原 博徳(早稲田大)</li>
+<li>リーク電力削減のためのコンパイラによる細粒度スリープ制御<br />
+　薦田 登志矢, 佐々木 広(東大), 近藤 正章(電通大), 中村 宏(東大)</li>
+</ul></li>
+
+<li><a id="B1-1">[B1-1]</a> ネットワークオンチップ (座長： 塙敏博(筑波大))
+<ul><li>パイプラインステージ統合による省電力・可変パイプラインルータに関する研究<br />
+　枚田 優人, 松谷 宏紀(慶大), 鯉渕 道紘(国立情報学研究所), 天野 英晴(慶大)</li>
+<li>メニーコアプロセッサのオンチップネットワーク性能を向上させるSmartCoreシステム<br />
+　佐藤 真平, 植原 昂, 吉瀬 謙二(東工大)</li>
+</ul></li>
+</ul>
+
+<p class="time">5/28(木) 14:00--15:30</p>
+<ul>
+<li><a id="A1-2">[A1-2]</a> 分散計算プラットホーム (座長： 首藤一幸(東工大))
+<ul><li>発音解析のための大規模可視化情報プラットフォーム<br />
+　野崎 一徳, 伊達 進, 中川 真志, 馬場 健一(阪大), 下條 真司(情報通信研究機構)</li>
+<li>Tsukuba-GAMA: e-サイエンス基盤のためのユーザ管理システムの設計と実装<br />
+　山本 直孝, 田中 良夫, 小島 功, 関口 智嗣(産総研)</li>
+<li>仮想マシンと連携したWebブラウザによるプログラム実行環境<br />
+　荒木 拓也(NEC)</li>
+</ul></li>
+</ul>
+
+<p class="time">5/28(木) 16:00--18:00</p>
+<ul>
+<li><a id="B1-3">[B1-3]</a>大規模ネットワーク (座長： 丸山直也(東工大))
+<ul><li>トポロジ情報を用いた効率的かつ漸近安定な大容量ブロードキャスト<br />
+　柴田 剛志, 田浦 健次朗(東大)</li>
+<li>メッセージ衝突を防止する適応的な収集操作アルゴリズム<br />
+　吉富 翔太, 弘中 健, 田浦 健次朗(東大)</li>
+<li>構造化オーバレイでの一括フォワーディング<br />
+　首藤 一幸(東工大)</li>
+<li>A Quantitative Evaluation Methodology of Interconnection Networks<br />
+　横田 隆史, 大津 金光, 馬場 敬信(宇都宮大)</li>
+</ul></li>
+</ul>
+
+<p class="date"><a id="day2">─── 5/29(金) ───</a></p>
+
+<p class="time">5/29(金) 9:30--10:30</p>
+<ul>
+<li><a id="A2-1">[A2-1]</a> セキュリティ基盤 (座長： 清水正明((株)日立製作所))
+<ul><li>HyperShield: 動作中のOSを安全な仮想マシン上に移行するための仮想マシンモニタ<br />
+　野元 励, 大山 恵弘(電通大)</li>
+<li>アプリケーションデータを保護するためのVMMに基づくアーキテクチャ<br />
+　尾上 浩一(東大), 大山 恵弘(電通大), 米澤 明憲(東大)</li>
+</ul></li>
+
+<li><a id="B2-1">[B2-1]</a> メニィコア技術 (座長： 中條拓伯(農工大))
+<ul><li>メニーコアプロセッサのHW/SW研究開発を加速する実用的な基盤環境<br />
+　植原 昂, 佐藤 真平, 高前田 伸也, 渡邉 伸平, 吉瀬 謙二(東工大)</li>
+<li>低遅延オンチップネットワークのための予測ルータの評価<br />
+　松谷 宏紀(慶大), 鯉渕 道紘(国立情報学研究所), 天野 英晴(慶大), 吉永 努(電通大)</li>
+</ul></li>
+
+<li><a id="C2-1">[C2-1]</a> シミュレーション (座長： 林亮子(金沢工業大))
+<ul><li>シミュレーションキャッシングと遠隔インタラクティブ流体シミュレーションへの応用<br />
+　橋本 健介, 手塚 俊作, 森 眞一郎(福井大), 富田 眞治(京大)</li>
+<li>操作の連続性を考慮した投機計算を利用するインタラクティブシミュレータ<br />
+　依藤 逸(京大), 野田 裕介(東京海上日動(株)), 粂 直人(京大), 中尾 恵(奈良先端大),嶋田 創(京大), 森 眞一郎(福井大), 中島 浩, 富田眞治(京大)</li>
+</ul></li>
+</ul>
+
+<p class="time">5/29(金) 11:00--12:30</p>
+<ul>
+<li><a id="A2-2">[A2-2]</a> ストレージ (座長： 盛合敏(日本電信電話(株))
+<ul><li>高性能クラスタのための高速汎用ステージングソフトウェア<br />
+　松葉 浩也, 堀 敦史, 石川 裕(東大)</li>
+<li>LoopBack Content Addressable Storageによる仮想ディスクの性能評価<br />
+　須崎 有康, 八木 豊志樹, 飯島 賢吾(産総研), 渡辺 義人(アルファシステムズ)</li>
+<li>テラスケールコンピューティングのための遠隔スワップシステムTeramem<br />
+　山本 和典, 石川 裕(東大)</li>
+</ul></li>
+
+<li><a id="B2-2">[B2-2]</a> 並列システム評価 (座長： 額田彰(東工大))
+<ul><li>大規模SMPクラスタにおけるOpenMP/MPIハイブリッドプログラムの性能評価<br />
+　辻 美和子(東大), 佐藤 三久(筑波大)</li>
+<li>マルチコアCPU及び小規模マルチコアSMPシステム上での OpenMP並列化によるハウスホルダ三重対角化の性能実験<br />
+　村上 弘(首都大学東京)</li>
+<li>PCクラスタにおけるVLANイーサネットのトポロジの評価<br />
+　廣安 知之(同志社大), 渡辺 崇文, 中尾 昌広(同志社大), 大塚 智宏(慶応大), 鯉渕 道紘(国立情報学研究所)</li>
+</ul></li>
+
+<li><a id="C2-2">[C2-2]</a> 専用アーキテクチャ (座長： 横田隆史(宇都宮大))
+<ul><li>画像処理向け線形アレイVLIWプロセッサ<br />
+　中田 尚, 上利 宗久, 中島 康彦(奈良先端大)</li>
+<li>DIMMnetとDMAで主記憶をアクセスするCPUを併用した可視化装置のアーキテクチャ<br />
+　田邊 昇(東芝), 佐々木 愛美(奈良女子大), 中條 拓伯(農工大), 高田雅美, 城 和貴(奈良女子大)</li>
+<li>辞書圧縮の概念を用いたNIDS向けパターンマッチングアーキテクチャ<br />
+　飯星 貴裕, 山口 喜教, 前田 敦司(筑波大)</li>
+</ul></li>
+</ul>
+
+<p class="time">5/29(金) 14:00--15:30</p>
+<ul>
+<li><a id="A2-3">[A2-3]</a> マイクロアーキテクチャ (座長： 三輪忍(農工大))
+<ul><li>命令発行キューの深いパイプライン化のための投機発行<br />
+　加藤 伸幸, 安藤 秀樹(名大)</li>
+<li>パーセプトロン分岐予測器を用いた予測信頼性の動的判定に基づく電力削減<br />
+　二ノ宮 康之(NEC/電通大), 阿部 公輝(電通大)</li>
+<li>値予測を用いた命令先行実行によるレジスタ・ファイルの縮小<br />
+　田中 雄介, 安藤 秀樹(名大)</li>
+</ul></li>
+</ul>
+
+<p class="time">5/29(金) 16:00--17:30</p>
+<ul>
+<li><a id="A2-4">[A2-4]</a> GPGPU (座長： 建部修見(筑波大))
+<ul><li>CUDA GPU向けの自動最適化FFTライブラリ<br />
+　額田 彰(東工大 / JST), 松岡 聡(東工大 / 国立情報学研究所 / JST)</li>
+<li>An Efficient Conjugate Gradient Solver on Double Precision Multi-GPUSystems<br />
+Ali Cevahir, Akira Nukada(Tokyo Institute of Technology), Satoshi Matsuoka(Tokyo Institute of Technology, 国立情報学研究所)</li>
+<li>ストリーム処理記述言語のGPU向け自動最適化の検討<br />
+　佐藤 功人, 滝沢 寛之, 小林 広明(東北大)</li>
+</ul></li>
+
+<li><a id="B2-4">[B2-4]</a> キャッシュ (座長： 豊島隆志(富士通(株))
+<ul><li>部分的試行に基づく動的共有キャッシュ分割方式<br />
+　小川 周吾, 入江 英嗣, 平木 敬(東大)</li>
+<li>SMTプロセッサにおけるL1/L2キャッシュアクセス動的切替方式<br />
+　小笠原 嘉泰, 三輪 忍, 中條 拓伯(農工大)</li>
+<li>マルチコアプロセッサの高速化を目指したキャッシュコアの最適化<br />
+　森 洋介, 森谷 章, 吉瀬 謙二(東工大)</li>
+</ul></li>
+
+<li><a id="C2-4">[C2-4]</a> スケジューリング (座長： 光来健一(九州工業大学))
+<ul><li>再始動アルゴリズム：最適性と統計的推定<br />
+　岡村 寛之, 土肥 正(広島大)</li>
+<li>固定優先度スケジューリング向け動的電圧周波数制御<br />
+　池田 雄児, 加藤 真平, 山崎 信行(慶応大)</li>
+<li>性能予測に基づくLinuxスケジューラをノードとするクラスタシステムの省電力化の実現<br />
+　金井 遵, 並木 美太郎(農工大)</li>
+</ul></li>
+</ul>
+
+<!-- 閉会の辞 -->
+<p class="time">5/29(木) 17:30--</p>
+<ul>
+<li><a id="ABC2-9">閉会の辞</a><br />
+　Most Interesting Poster 賞表彰</li>
+</ul>
+
+<h4><a id="poster">ポスターセッション</a></h4>
+<ul>
+<li>ポスター発表日程
+<ul>
+<li>18:15-20:30 (懇親会)</li>
+</ul>
+</li>
+<li>ポスター展示日程
+<ul>
+<li>5月28日(木) 11:00-20:30</li>
+<li>5月29日(金) 09:30-16:00</li>
+</ul>
+</li>
+</ul>
+
+</div>
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2009, SACSIS 2009 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11-blue"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

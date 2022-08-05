@@ -1,0 +1,42 @@
+/*
+ * green
+ */
+a:link    { color: #363; }
+a:visited { color: #393; }
+a:hover   { color: #black; background-color: #dfd; }
+a:active  { color: #f00; }
+
+b  { color: #595; font-weight: bold; }
+em { color: #fb0; font-weight: bold; font-style: normal; }
+tt { color: #5a5; font-weight: bold; font-style: normal; }
+address { border-color: #aaf; color: #33c; }
+#title {
+  /*color: #282;*/
+  background-color: #faeec0;
+  color: white;
+  background-image: url(../images/grass2.jpg);
+  /*background-image: url(../images/grass3.jpg);*/
+}
+h1 { border-color: black; }
+h2 { border-color: #363; color: #363; }
+h3, h4 { color: #363; border-color: #8c6; border-style: dashed; }
+body { background-color: white; }
+div.main { background-color: white; } 
+
+.noticelink a:link    { color: #a00; }
+.noticelink a:visited { color: #c00; }
+.doublebar  { border-top: 2.5pt #363 dashed; }
+.singlebar  { border-top: 1pt #363 solid; }
+
+/* overwrite */
+div.navbar {
+  line-height:140%;
+  background-color: #363;
+  border-left: 2.5px solid white;
+  padding: 0px;
+}
+div.navbar p { color: white; border-color: white; border-width: 2px; }
+div.navbar p.title { color: white; }
+div.navbar p a:link    { color: white; }
+div.navbar p a:visited { color: #eee; }
+div.navbar p a:hover   { color: #363; background-color: white; }

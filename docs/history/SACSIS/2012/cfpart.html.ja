@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      <h4>参加募集 第10回先進的計算基盤システムシンポジウムSACSIS2012</h4>
+
+      <?php include("include/date-place-ja.html");?>
+
+      <h4>概要</h4>
+      SACSIS (Symposium on Advanced Computing Systems and Infrastructures)は2003年に誕生したシンポジウムです．その第10回は，神戸にて2012年5月16日(水)〜18日(金)に開催します．会議のスコープは SACSIS2003からの流れを引き継ぎ，以下のとおりです．
+      <?php include("include/intent-ja.html");?>
+
+      <p>
+	SACSIS2012では，「先進的計算システム」「先進的計算システムを支える基盤技術」「実用的基盤システム」に関連するオリジナリティ溢れる発表や，実装・開発事例等を含め有用性の高い発表，実用性を重視した基盤に関する発表が行われます．
+      </p>
+
+      <p>
+	一般講演およびポスター発表の他，以下の企画を設けております．
+      </p>
+      <ul>
+	<li>基調講演（1日目）<br />
+	  5月16日(水) 11:15-12:45<br />
+	  妹尾 義樹 氏（NECシステムプラットフォーム研究所 技術主幹）<br />
+	  「サイバーフィジカルシステムとこれからのコンピューティングについて」<br />&nbsp;
+	</li>
+	<li>招待講演（2日目）<br />
+	  5月17日(木) 11:00-12:30<br />
+	  Rajeeb Harza 氏（General Manager of Intel Technical Computing Group）<br />
+	  「Next-generation high performance computing platform (仮)」<br />&nbsp;
+	</li>
+	<li>チュートリアル2件
+	  <ul>
+	    <li>チュートリアル1<br />
+	      5/16(木) 14:00-15:30<br />
+	      南 一生 氏 (理化学研究所 次世代スーパコンピュータ開発実施本部 開発グループ アプリケーション開発チーム)<br />
+	      「スーパーコンピュータ「京」におけるアプリケーションの高並列化と高性能化」<br />
+	    </li>
+	    <li>チュートリアル2<br />
+	      5/17(金) 16:00-17:30<br />
+	      安藤 功兒 氏 (産業技術総合研究所 フェロー)<br />
+	      「次世代不揮発性メモリ　−ノーマリーオフコンピュータはできるか？−」
+	    </li>
+	  </ul>
+	  &nbsp;</li>
+	<li>団体・企業展示：<br />
+	  <p>SACSISに関連する技術を持つ組織・企業の方々による，技術や商品の展示を企画しております．</p>
+	  <?php include("include/exhibit-list.html");?>
+	</li>
+
+	<li>タウンミーティング<br />
+	  5/17(木) 12:30-14:00<br />
+	  <p>SACSISの開催も今年で10年を迎えます．SACSIS 2012は10年目の区切りとして，国際会議化などSACSISの次のステップを検討する時期として良い機会と考えられます．そこで，2日目のランチタイムにタウンミーティングの枠を設け，参加者の皆様のご意見やアイデアを募りたいと考えておりますので，是非ともご参集下さい．</p>
+	</li>
+
+	<li>スーパーコンピュータ「京」見学会<br />
+	  5/16(水) 18:00-19:00<br />
+	  <p>今年のSACSIS2012の会場は世界一のスーパーコンピュータ「京」の近くにて開催されます。SACSIS2012参加者の皆様のために，シンポジウム1日目の18:00-19:00の間，「京」の見学会を企画致しました．この時間帯は自由に見学出来ますので，是非ともご参加下さい。</p>
+	</li>
+
+
+	<li>1日目に最優秀論文賞，優秀若手研究賞の表彰を行います．</li>
+	<li>ポスター発表を対象に，優秀ポスター賞，学生優秀ポスター賞を各1&sim;2件程度選び，3日目のクロージングにおいて表彰を行います．</li>
+      </ul>
+      
+      <h4>申込方法</h4>
+      
+      <ul>
+	<li>情報処理学会Webページの参加申込書よりお申込みください．<br />
+	  <a href="http://www.ipsj.or.jp/kenkyukai/event/sacsis2012-test.html#title">http://www.ipsj.or.jp/kenkyukai/event/sacsis2012-test.html</a>
+	</li>
+	<li>お支払方法で郵便振替を選択された場合は郵便振替用紙を，請求書を希望された場合は請求書をお送りします．お手元に届きましたらお手続きください(振込期限6月末)．
+	</li>
+	<li>参加費の当日現金払いも受け付けますが，なるべく振込でのお支払いにご協力ください．
+	</li>
+	<li>当日受付もいたしますが，論文集が不足した場合は事前申し込み優先とさせていただきますのでご了承ください．
+	</li>
+	<li>参加申込後，やむを得ず参加を取り消される場合は，5月6日(金)までにご連絡ください．取り消しの連絡のない場合は，準備の都合上，参加費を徴収させていただきます．
+	</li>
+	<li>論文，ポスター発表の方も参加登録が必要です．
+	</li>
+      </ul>
+
+      <dl>
+	<dt>早期Web申込締切</dt>
+	<dd>2011年5月6日(金)まで<br />&nbsp;</dd>
+	<dt>申込/照会先</dt>
+	<dd>一般社団法人 情報処理学会 調査研究 研究部門<br />
+	  E-mail: sig "at" ipsj.or.jp, TEL：(03)3518-8372 / FAX:(03)3518-8375<br />
+	  〒101-0062  東京都千代田区神田駿河台1-5  化学会館4F<br />&nbsp;
+	</dd>
+	<dt>参加費(税込／論文集代込み、懇親会へは無料でご参加いただけます)</dt>
+	<p><em>
+	    今回からIEEEが主催学会から外れていますのでご注意ください（当初のWeb等の記載では含まれたままになっておりました．申し訳ありません）
+	</em></p>
+	<dd>
+	  <table border="1" cellpadding="3">
+	    <tr><td width="150"></td><td width="150">5月6日(金)までに申込</td><td width="150">当日受付にて申込</td></tr>
+	    <tr><td>主催研究会会員</td><td>30,000 円</td><td>40,000 円</td></tr>
+	    <tr><td>一般会員</td><td>40,000 円</td><td>50,000 円</td></tr>
+	    <tr><td>学生会員</td><td>5,000 円</td><td>10,000 円</td></tr>
+	    <tr><td>非会員</td><td>50,000 円</td><td>60,000 円</td></tr>
+	  </table>
+<!-- 	  &nbsp;<br />論文集のみ：5,000円(消費税／送料込)<br />&nbsp;<br /> -->
+	  <p>
+	  ※非会員の学生の方は，非会員として参加いただくことになります．<br />
+	  ※入会手続き中の方も会員料金で参加できます．Web申込時の会員番号欄に「○○学会に入会手続き中」とご記入ください．各学会への入会手続きは，以下のURLから参照可能です．
+	  </p>
+	  <p style="padding-left:1.5em">
+	    情報処理学会: <a href="http://www.ipsj.or.jp/06mem/nyukai/nyukai.html">http://www.ipsj.or.jp/06mem/nyukai/nyukai.html</a><br />
+	    電子情報通信学会: <a href="http://www.ieice.org/jpn/nyukai/">http://www.ieice.org/jpn/nyukai/</a><br />
+	    <!-- 	IEEE CS: <a href="http://www.computer.org/portal/web/membership/join">http://www.computer.org/portal/web/membership/join</a> -->
+	  </p>
+	  <p>
+	    ※SACSISの当日参加受付においても，情報処理学会への同時入会手続きが可能となっています．手続していただければ当日会員料金で参加できます．
+	  </p>
+	</dd>
+      </dl>
+
+
+      <h4>SACSIS2011 プログラム</h4>
+
+      <ul>
+	<li>一般講演は1件30分(質疑応答含む)です．<br />&nbsp;</li>
+	<li>企業・団体展示は 5/25（水）11:45&sim;17:30 と 5/26(木) 9:30&sim;20:00（18:00&sim;20:00の懇親会の時間を含む） の間，常時展示されております．</li>
+	<li>ポスターセッションは 5/26(木) 16:00&sim;18:00 です．ポスター自体は13:00&sim;18:00の間は展示されております．</li>
+      </ul>
+
+      <?php include("include/program.html");?>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

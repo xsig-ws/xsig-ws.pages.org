@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="SACSIS09,SACSIS2009,SACSIS" />
+ <link href="css/2009.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2009</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 28-29, 2009<br />Hiroshima, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+
+<div class="main">
+
+<!-- INSERTED LINES BEGIN (2009_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.ja" title="SACSIS 2009">SACSIS2009&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2009_LINKS) -->
+<a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+<a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+<a href="exhibit.html.ja">企業・団体展示</a> <span class="hideme">|</span>
+<a href="http://www.hpcc.jp/sacsis/2009/cell/">Cellチャレンジ2009</a> <span class="hideme">|</span>
+<a href="https://www2.cc.u-tokyo.ac.jp/procon/">Clusterコンテスト</a> <span class="hideme">|</span>
+<a href="cfpart.html.ja">参加募集</a><span class="hideme">|</span>
+<a href="http://www.ipsj.or.jp/09sig/kaikoku/2009/SACSIS2009.html">参加申込</a><span class="hideme">|</span>
+<a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+<!-- <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span> -->
+<a href="cfcompany.html.ja">企業・団体展示募集</a> <span class="hideme">|</span>
+<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+<a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+<a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+<a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2008_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<h4 id="sc">SACSIS 運営委員会</h4>
+
+<table style="margin-top: 5pt; margin-bottom: 15pt;  width: 660px">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+<tr>
+  <td>運営委員長</td>
+  <td>石川 裕     (東京大学)</td>
+</tr>
+<tr>
+  <td>運営副委員長</td>
+  <td>関口 智嗣   (産業技術総合研究所)</td>
+</tr>
+<tr>
+  <td>運営委員</td>
+  <td>天野 英晴   (慶應義塾大学)</td>
+</tr>
+<tr>
+  <td></td>
+  <td>中村 宏     (東京大学)</td>
+</tr>
+<tr>
+  <td></td>
+  <td>並木 美太郎 (東京農工大学)</td>
+</tr>
+<tr>
+  <td></td>
+  <td>馬場 敬信   (宇都宮大学)</td>
+</tr>
+<tr>
+  <td></td>
+  <td>朴 泰祐     (筑波大学)</td>
+</tr>
+<tr>
+  <td></td>
+  <td>八杉 昌宏   (京都大学)</td>
+</tr>
+</table>
+
+<h4 id="oc">SACSIS 2009 組織委員会</h4>
+
+<table style="margin-top: 5pt; margin-bottom: 15pt; width: 660px">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+<tr><td>組織委員長</td><td>中村 宏　(東京大学)</td></tr>
+<tr><td>組織副委員長 </td><td>佐藤 真琴　((株)日立製作所)</td></tr>
+<tr><td>総務委員長 </td><td> 佐々木 広　(東京大学)</td></tr>
+<tr><td>プログラム委員長 </td><td>工藤 知宏　(産業技術総合研究所)</td></tr>
+<tr><td>プログラム副委員長（論文査読）</td><td>高橋 大介 (筑波大学)</td></tr>
+<tr><td>プログラム副委員長（ポスター）</td><td>大山 恵弘 (電気通信大学)</td></tr>
+<tr><td>チュートリアル委員長 </td><td> 安里 彰　(富士通(株))</td></tr>
+<tr><td>ローカルアレンジメント委員長 </td><td>窪田 昌史　(広島市立大学)</td></tr>
+<tr><td>ローカルアレンジメント副委員長</td><td>川島 英之　(筑波大学)</td></tr>
+<tr><td>会計委員長 </td><td>松崎 公紀　(東京大学)</td></tr>
+<tr><td>会計副委員長 </td><td>田中 光雄　((株)日立製作所)</td></tr>
+<tr><td>広報委員長（WEB管理）</td><td>山口 佳樹　(筑波大学)</td></tr>
+<tr><td>企画展示委員長 </td><td>市川 俊一　(日本電信電話(株))</td></tr>
+<tr><td>企画展示副委員長 </td><td>林 憲一　(マイクロソフト(株))</td></tr>
+</table>
+
+<h4 id="pc">SACSIS 2009 プログラム委員会</h4>
+<table style="margin-top: 5pt; margin-bottom: 15pt; width: 660px">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+<tr><td>プログラム委員長</td>
+    <td>工藤 知宏　(産業技術総合研究所)</td>
+</tr>
+<tr><td>プログラム副委員長</td>
+    <td>高橋 大介　(筑波大学)</td>
+</tr>
+<tr><td></td>
+    <td>大山 恵弘　(電気通信大学)</td>
+</tr>
+<tr><td>トラックチェア</td><td></td></tr>
+<tr><td>　トラックA </td><td>建部 修見　(筑波大学)</td></tr>
+<tr><td>　トラックB </td><td>田浦 健次朗　(東京大学)</td></tr>
+<tr><td>　トラックC </td><td>廣津 登志夫　(豊橋技術科学大学)</td></tr>
+<tr><td>　トラックD </td><td>中條 拓伯　(東京農工大学)</td></tr>
+<tr><td>　トラックE </td><td>五島 正裕　(東京大学)</td></tr>
+</table> 
+<br />
+
+<table style="margin-top: 5pt; margin-bottom: 0pt; width: 800px">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+</colgroup>
+<tr><td>プログラム委員（順不同）</td></tr>
+</table>
+<table style="margin-top: 0pt; margin-bottom: 15pt; width: 800px">
+<tr style="vertical-align: top">
+<td>
+　トラックA：トラックチェア 建部 修見　(筑波大学)<br />
+　　今村 俊幸　(電気通信大学)<br />
+　　遠藤 敏夫　(東京工業大学)<br />
+　　木村 欣司　(京都大学)<br />
+　　須田 礼仁　(東京大学)<br />
+　　住元 真司　((株)富士通研究所)<br />
+　　千代 英一郎　((株)日立製作所)<br />
+　　林 亮子　(金沢工業大学)<br />
+　　朴 泰祐　(筑波大学)<br />
+　　松田 元彦　(東京大学)<br />
+　　村井 均　(日本電気(株))<br />
+　　山本 有作　(名古屋大学)<br />
+</td>
+<td>
+　トラックB：トラックチェア 田浦 健次朗　(東京大学)<br />
+　　合田 憲人　(国立情報学研究所)<br />
+　　阿部 洋丈　(豊橋技術科学大学)<br />
+　　大山 恵弘　(電気通信大学)<br />
+　　伊達 進　(大阪大学)<br />
+　　首藤 一幸　(東京工業大学)<br />
+　　丸山 直也　(東京工業大学)<br />
+　　福田 健介　(国立情報学研究所)<br />
+　　中田 秀基　(産業技術総合研究所)<br />
+　　市川 俊一　(日本電信電話(株))<br />
+</td>
+</tr>
+<tr><td><br /></td><td></td></tr>
+<tr style="vertical-align: top">
+<td>
+　トラックC：トラックチェア 廣津 登志夫　(豊橋技術科学大学)<br />
+　　河野 健二　(慶應義塾大学)<br />
+　　光来 健一　(九州工業大学)<br />
+　　盛合 敏　(日本電信電話(株))<br />
+　　河合 栄治　(情報通信研究機構)<br />
+　　川島 英之　(筑波大学)<br />
+　　追川 修一　(筑波大学)<br />
+　　藤波 香織　(東京農工大学)<br />
+　　小口 正人　(お茶の水女子大学)<br />
+　　八杉 昌宏　(京都大学)<br />
+　　清水 正明　((株)日立製作所)<br />
+</td>
+<td>
+　トラックD：トラックチェア 中條 拓伯　(東京農工大学)<br />
+　　枝廣 正人　(日本電気(株))<br />
+　　久我 守弘　(熊本大学)<br />
+　　鯉渕 道紘　(国立情報学研究所)<br />
+　　児玉 祐悦　(産業技術総合研究所)<br />
+　　佐藤 充　((株）富士通研究所)<br />
+　　田中 清史　(北陸先端科学技術大学院大学)<br />
+　　西 宏章　(慶應義塾大学)<br />
+　　塙 敏博　(筑波大学)<br />
+　　平澤 将一　(電気通信大学)<br />
+　　緑川 博子　(成蹊大学)<br />
+　　横田 隆史　(宇都宮大学)<br />
+</td>
+</tr>
+<tr><td><br /></td><td></td></tr>
+<tr style="vertical-align: top">
+<td>
+　トラックE：トラックチェア 五島 正裕　(東京大学)<br />
+　　青木 秀貴　((株)日立製作所)<br />
+　　井上 弘士　(九州大学)<br />
+　　入江 英嗣　(東京大学)<br />
+　　佐々木 広　(東京大学)<br />
+　　吉瀬 謙二　(東京工業大学)<br />
+　　木村 啓二　(早稲田大学)<br />
+　　小林 良太郎　(豊橋技術科学大学)<br />
+　　近藤 正章　(電気通信大学)<br />
+　　嶋田 創　(京都大学)<br />
+　　鳥居 淳　(日本電気(株))<br />
+　　豊島 隆志　(富士通(株))<br />
+　　中島 康彦　(奈良先端科学技術大学院大学)<br />
+　　三輪 忍　(東京農工大学)<br />
+</td><td></td>
+</tr>
+</table>
+
+<!--
+<table style="margin-top: 5pt; margin-bottom: 0pt; width: 800px">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+</colgroup>
+<tr><td>査読協力者（順不同）</td></tr>
+</table>
+<table style="margin-top: 0pt; margin-bottom: 5pt; width: 800px">
+<tr style="vertical-align: top">
+<td>
+　　秋岡 明香       (電気通信大学)<br />
+　　秋山 豊和       (大阪大学)<br />
+　　安里 彰         (富士通株式会社)<br />
+　　阿部 公輝       (電気通信大学)<br />
+　　阿部 洋丈       (豊橋技術科学大学)<br />
+　　尼崎 太樹       (熊本大学)<br />
+　　荒川 文男       ((株)ルネサステクノロジ)<br />
+　　安藤 壽茂       (富士通株式会社)<br />
+　　安藤 秀樹       (名古屋大学)<br />
+　　飯田 全広       (熊本大学)<br />
+　　石川 誠         ((株)日立製作所)<br />
+　　石坂 一久       (日本電気(株))<br />
+　　石原 亨         (九州大学)<br />
+　　泉 知論         (立命館大学)<br />
+　　板倉 憲一       (海洋研究開発機構)<br />
+　　伊藤 祥司       (理化学研究所)<br />
+　　井上 弘士       (九州大学)<br />
+　　井上 浩明       (日本電気(株))<br />
+　　井上 拓         (日本アイ・ビー・エム(株))<br />
+　　井口 寧         (北陸先端科学技術大学院大学)<br />
+　　今井 雅         (東京大学)<br />
+　　入江 英嗣       (東京大学)<br />
+　　鵜飼 敏之       ((株)日立製作所)<br />
+　　大津 金光       (宇都宮大学)<br />
+　　大塚 真吾       (東京大学)<br />
+　　奥野 通貴       ((株)日立製作所)<br />
+　　尾崎 亮太       (情報通信研究機構)<br />
+　　長名 保範       (慶應義塾大学)<br />
+　　小幡 元樹       ((株)日立製作所)<br />
+　　門林 雄基       (奈良先端科学技術大学院大学)<br />
+　　亀田 義男       (日本電気(株))<br />
+　　北村 俊明       (広島市立大学)<br />
+　　黒田 久泰       (東京大学)<br />
+　　小板 隆浩       (同志社大学)<br />
+　　合田 和生       (東京大学)<br />
+　　後藤 正徳       (グーグル株式会社)<br />
+　　小畑 正貴       (岡山理科大学)<br />
+　　小林 真輔       (東京大学)<br />
+　　佐藤 孝治       (日本電信電話株式会社)<br />
+　　佐藤 幸紀       (北陸先端科学技術大学院大学)<br />
+　　柴村 英智       ((財)九州先端科学技術研究所)<br />
+　　清水 剛         (富士通研究所)<br />
+　　清水 正明       ((株)日立製作所)<br />
+　　首藤 一幸       (ウタゴエ株式会社)<br />
+　　菅原 豊         (東京大学)<br />
+　　</td><td>	
+　　鈴木 貢         (島根大学)<br />
+　　曽我部 知広     (名古屋大学)<br />
+　　高汐 一紀       (慶應義塾大学)<br />
+　　高野 裕之       (株式会社東芝)<br />
+　　滝沢 寛之       (東北大学)<br />
+　　滝本 宗宏       (東京理科大学)<br />
+　　多田野 寛人     (筑波大学)<br />
+　　田辺 淳         (株式会社東芝)<br />
+　　谷川 一哉       (広島市立大学)<br />
+　　田端 利宏       (岡山大学)<br />
+　　千代延 昭宏     (富士通株式会社)<br />
+　　津邑 公暁       (名古屋工業大学)<br />
+　　豊島 隆志       (富士通株式会社)<br />
+　　鳥居 淳         (日本電気(株))<br />
+　　中島 耕太       ((株)富士通研究所)<br />
+　　中島 浩         (京都大学)<br />
+　　中田 尚         (奈良先端科学技術大学院大学)<br />
+　　中村 豊         (九州工業大学)<br />
+　　並木 美太郎     (東京農工大学)<br />
+　　西川 武志       (東京工業大学)<br />
+　　根岸 康         (日本アイ・ビー・エム(株))<br />
+　　橋本 隆         (松下電器産業株式会社)<br />
+　　林 正和         (富士通株式会社)<br />
+　　平田 博章       (京都工芸繊維大学)<br />
+　　広渕 崇宏       (産業技術総合研究所)<br />
+　　藤井 昭宏       (工学院大学)<br />
+　　藤川 和利       (奈良先端科学技術大学院大学)<br />
+　　堀 洋平         (産業技術総合研究所)<br />
+　　本田 晋也       (名古屋大学)<br />
+　　丸山 一貴       (東京大学)<br />
+　　三廻部 大       (日本アイ・ビー・エム(株))<br />
+　　美舩 健         (京都大学)<br />
+　　三輪 忍         (東京農工大学)<br />
+　　村瀬 正名       (日本アイ・ビー・エム(株))<br />
+　　村田 浩樹       (日本アイ・ビー・エム(株))<br />
+　　森 敦司         (富士通株式会社)<br />
+　　盛合 敏         (日本電信電話)<br />
+　　八杉 昌宏       (京都大学)<br />
+　　山口 実靖       (工学院大学)<br />
+　　山口 佳樹       (筑波大学)<br />
+　　山本 淳二       ((株)日立製作所)<br />
+　　山本 有作       (名古屋大学)<br />
+　　吉永 努         (電気通信大学)<br />
+　　渡邊 幸之介     (株式会社東芝)
+</td>
+</tr>
+</table>
+
+<p></p>
+-->
+
+</div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2009, SACSIS 2009 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11-blue"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

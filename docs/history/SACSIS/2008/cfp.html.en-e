@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2008.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2008 Call for Papers </title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+June 11-13, 2008<br />
+Tsukuba, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<div class="main">
+<!-- INSERTED LINES BEGIN (2008_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.en" title="SACSIS 2008">SACSIS2008&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="cfp.html.ja" title="Japanese Page"> <img src="images/en2jp.gif" alt="japanese" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2008_LINKS) -->  <a href="topics.html.en">Topics</a> <span class="hideme">|</span>
+  <a href="program.html.en">Program</a> <span class="hideme">|</span>
+  <a href="exhibit.html.en">Exhibits</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/2008/cell/">Cell Speed Challenge 2008</a> <span class="hideme">|</span>
+  <a href="cfpart.html.en">Call&nbsp;for&nbsp;Participation</a><span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/09sig/kaikoku/2008/SACSIS2008.html">
+  Registration (in Japanese)</a><span class="hideme">|</span>
+ <a href="location.html.en">Location</a> <span class="hideme">|</span>
+ <a href="breakdown.html.en">Certificate of Details of Registration Fee</a> <span class="hideme">|</span>
+
+  <a href="cfp.html.en">Call&nbsp;for&nbsp;Papers</a> <span class="hideme">|</span>
+
+  <a href="cfposters.html.en">Call&nbsp;for&nbsp;Posters</a> <span class="hideme">|</span> 
+
+  <a href="committee.html.en">Committee</a> <span class="hideme">|</span>
+  <a href="contact.html.en">Contact</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/welcome-e.html" title="Transactions on ACS">ACS&nbsp;Journal</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/english/" title="Information Processing Society of Japan">IPSJ</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/eng/" title="The Institute of Electronics, Information and Communication Engineers">IEICE</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+
+<p style="margin-top:15pt">
+<a href="include/cfp.txt">Call for Papers (in Japanese)</a><br />
+Last Modified: Tue Dec 18 11:11:12 2007</p>
+
+<h4>
+Call For Papers 
+</h4>
+
+<!-- INSERTED LINES BEGIN (SACSIS2008) --> <p style="text-align:center">
+ <acronym title="Symposium on Advanced Computing Systems and Infrastructures">
+ SACSIS
+ </acronym>
+ 2008 <br />
+ Date: June 11(Wed) - 13(Fri), 2008, <br />
+ Venue: <a href="http://www.epochal.or.jp/">
+ Tsukuba International Congress Center (Epochal Tsukuba)</a>, Tsukuba, Japan<br />
+ </p>
+
+<!-- INSERTED LINES END () -->
+<h5>About SACSIS:</h5>
+<!-- INSERTED LINES BEGIN (SACSIS) -->  <p>
+  <acronym title="Symposium on Advanced Computing Systems and Infrastructures">
+  SACSIS</acronym>, 
+  <b>the Annual Symposium on Advanced Computing Systems and Infrastructures</b>,
+  is a symposium for discussing advanced computing systems,
+  infrastructures, and technologies for enabling them from wide and
+  various viewpoints.  It covers both technologies on "systems" and
+  technologies on "infrastructures."  The 6th symposium will be held
+  in Tsukuba from June 11th, 2008 through June 13th, 2008.
+  </p>
+<!-- INSERTED LINES END () -->
+<h5>Areas of interest:</h5>
+<p>
+We solicit full papers and poster papers (abstracts) for the SACSIS 2008
+on a wide range of topics related to:
+</p>
+<!-- INSERTED LINES BEGIN (TOPICS) --><ul>
+<li> <b>Advanced Computing Systems</b><br />
+  Grid computing, cluster computing, peer-to-peer computing, high-performance computing,
+  mobile computing, ubiquitous systems, embedded systems, 
+  dependable computing, application-specific systems, overlay networks, and so on.
+  </li>
+<li> <b>Infrastructural Technologies</b><br />
+  processor architecture, system architecture, communication system, 
+  large-scale storage systems, energy-saving/space-saving technology,
+  operating systems, middleware, compilers, programming languages,
+  parallel algorithms, online algorithms, performance evaluation/tuning technology, reconfigurable system, broadband networks, and so on.
+  </li>
+<li> <b>Practical Infrastructures</b><br />
+  database, Web service, search engine, data mining,
+  transaction systems, distributed computing environment, server system development technology,
+  network security, E-Science, and so on.
+  </li>
+</ul>
+<!-- INSERTED LINES END () -->
+<h5>Paper Types: </h5>
+
+<ol>
+<li> <b>Full Papers</b>
+  <ul>
+  <li> Full-length papers.
+       All papers will be refereed by the program committee.
+       Papers must be unpublished in refereed journals or refereed
+       conferences.
+       Papers can be submitted simultaneously to the
+       <a href="http://www.hpcc.jp/acs/">ACS Journal</a>.</li>
+  <li> Page limit: No longer than 8 pages (2 extra pages can be purchased
+       for camera-ready).</li>
+  <li> Format: should be uploaded as a single PDF file.</li>
+  <li> Language: English or Japanese.</li>
+  </ul>
+</li>
+<li> <b>Poster Papers (abstracts)</b>
+  <ul>
+  <li> Work-in-progress papers.</li>
+  <li> Page limit: No longer than 2 pages.</li>
+  <li> Format: should be uploaded as a single PDF file.</li>
+  <li> Language: English or Japanese.</li>
+
+  </ul>
+</li>
+</ol>
+
+<h5>Awards</h5>
+
+<ul>
+<li><b>Best Young Researcher Award</b>: up to three papers are selected
+    out of papers the first author of which is younger than about thirty.</li>
+<li><b>Best Paper Award</b>: one paper is selected out of all full papers.</li>
+<!--<li><b>Most Creative Research Idea Award (Poster Presentation)</b>:
+    one poster presentation is selected.
+    Works with high originality are highly evaluated.</li>-->
+</ul>
+
+<h5>Style Files</h5>
+
+<ul>
+<li><b>LaTeX</b>    <a href="http://www.hpcc.jp/acs/latexform.html">http://www.hpcc.jp/acs/latexform.html</a> </li>
+<li><b>MS-Word</b>  <a href="http://www.hpcc.jp/sacsis/2008/sacsis-form.doc">http://www.hpcc.jp/sacsis/2008/sacsis-form.doc</a> </li>
+</ul>
+
+<h5>
+Important Dates 
+</h5>
+
+<!-- INSERTED LINES BEGIN (DATES) -->
+<table>
+<colgroup>
+ <col width="200" />
+</colgroup>
+<tr>
+<td><span class="del"><b>Jan 22 (Tue), 2008 17:00</b></span></td><td><span class="del">Full papers registration due (no extension)</span></td>
+</tr>
+<tr>
+<td><span class="del"><b>Jan 29 (Tue), 2008 17:00</b></span></td><td><span class="del">Full papers upload due (no extension)</span></td>
+</tr>
+<tr>
+<td><span class="del"><b>Mar 11 (Tue), 2008 - </b></span></td><td><span class="del">Notification of acceptance to authors of full papers</span></td>
+</tr>
+<tr>
+<td><span class="del"><b>Apr 8 (Tue), 2008 17:00</b></span></td><td><span class="del">Poster abstracts upload due (no extension)</span></td>
+</tr>
+<tr>
+<td><span class="del"><b>Jun 11-13 (Wed-Fri), 2008</b></span></td><td><span class="del">SACSIS 2008</span></td>
+</tr>
+</table>
+
+
+<!-- INSERTED LINES END () -->
+<!--
+<h5>Submission:</h5>
+
+<div class="noticelink">
+Papers will be able to be submitted via: 
+<a href="http://www.hpcc.jp/acs/">http://www.hpcc.jp/acs/</a>
+</div>
+-->
+
+</div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2008, SACSIS 2008 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

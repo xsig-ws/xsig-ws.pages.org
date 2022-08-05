@@ -1,0 +1,14 @@
+  <ul>
+  <li> <em>Advanced Computing --</em> <br />
+  <acronym title="Symposium on Advanced Computing Systems and Infrastructures">
+  SACSIS
+  </acronym>
+は今後の計算機技術の発展を， さまざまな角度から議論することを目的としています．
+そこで並列分散 に限らず，広い意味で先進的な計算のためのシステムや基盤とそれらの要素技術を対象とします．
+   </li>
+
+  <li> <em>-- Systems and Infrastructures</em> <br />
+性能などの「有効性」が重視される「システム」に関する技術だけではなく，
+幅広い利用を目指して「実用性」を重視 した「基盤」に関する技術も対象とします．
+   </li>
+  </ul>

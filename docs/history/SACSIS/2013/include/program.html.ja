@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      <h3>SACSIS 2013 プログラム</h3>
+
+
+      <h4>基調講演・招待講演・チュートリアル情報</h4>
+      <ul>
+	<li> <a id="F1">基調講演</a>
+	  <ul>
+	    <li>5/22(水) 13:30-15:00：<br />
+		 <table>
+		<tr><td><img src="images/kitsunegawa.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>大学共同利用機関法人 情報・システム研究機構　国立情報学研究所長<br />
+		    喜連川 優 氏 <br />
+		    「ビッグデータが作り出す新たな世界」<br />
+		    <p>
+		     ２０１２年３月末のホワイトハウスからのビッグデータ施策に関する発表以来、ビッグデータというキーワードは広く取り上げられるに至っている。その底流について述べるとともに米国の研究動向について報告する。加えて、ビッグデータなるアンブレラの下で生み出されつつある興味深い応用について時間の許す限り紹介したい。又、講演者が中心研究者を務める内閣府最先端研究開発支援プログラム（ＦＩＲＳＴ）についても紹介する。
+		    </p>
+		  </td>
+		</tr>
+		
+	      </table>
+	    </li>
+	  </ul>
+	</li>
+
+	<li> <a id="F5">招待講演</a>
+	  <ul>
+	    <li>5/23(木) 13:30-15:30：<br />
+	      <table>
+		<tr><td><img src="images/pete.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>Argonne National Laboratory<br />
+		    Pete Beckman 氏 <br />
+		    「The New Supercomputer Revolution」<br />
+		    <p>
+		     Forty years ago only a handful of scientists were using supercomputers for advanced calculations.Today, large scientific computing clusters are everywhere -- from small colleges to large universities, global businesses, and research laboratories. Two main factors explain why
+supercomputers have become so widespread: a stable message-passing programming model and a largely open source software stack that effectively leverages community development. The stable programming model and the constantly improving software stack have allowed for sustained investments in complex simulation codes. Code teams have devised new algorithms and increased the performance and scalability of their applications, leading to realistic modeling and prediction of complex phenomena. As we look forward into the next 20 years, we see dramatic changes on the horizon. The basic technology for computing systems is changing. CPU clock frequencies are no longer increasing. Instead, parallelism within a CPU is multiplying every year.  Today's CPUs designed for high-performance computing have 50 or more parallel threads of control, and we expect tomorrow's CPUs to support thousands of such threads. Furthermore, architectures seem to be diverging, dividing the once cohesive software stack.  Power efficiency is now a key concern. All these changes mean that we will need to develop new programming models, new architectures, and a new software stack that can respond dynamically to system power.
+		    </p>
+		  </td>
+		</tr>
+		
+	      </table>
+	    </li>
+	  </ul>
+	</li>
+	<li id="tutorial"> チュートリアル:
+
+<ul>
+	    <li><a id="B8">チュートリアル1</a><br />
+	      5/23(木) 10:45-12:15：<br />
+	      <table>
+		<tr><td><img src="images/okanohara.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>株式会社Preferred Infrastructure<br />
+		    岡野原 大輔 氏<br />
+		    「機械学習の理論と実践」<br />
+		  
+		    <p>
+		      データからルールや知識を自動的に獲得できる機械学習は、大規模データが入手可能となったあらゆる分野で使われる協力な道具となってきた。本講演では初めに現在の機械学習を俯瞰し、基本的な概念や問題設定、代表的な手法、使用時のベストプラクティスについて解説する。次に機械学習の中でも現在、重要となっているオンライン機械学習、並列分散機械学習を紹介し、それらを実現しているリアルタイム解析基盤であるJubatusについて解説する。最後に最近驚異的な性能を示しているDeep Learningなど、これからの機械学習の展望を述べ、どのような研究の可能性があるのかについて述べる。
+		    </p>
+		</td></tr>
+	      </table>
+	    </li>
+	  </ul>
+	  
+	  
+	  <ul>
+	    <li><a id="F6">チュートリアル2</a><br />
+	     5/24(金) 10:45-12:15：<br />
+	      <table>
+		<tr><td><img src="images/Ishihara.jpg" style="float:left" width="100" alt="顔写真"/></td>
+		  <td>京都大学 <br />
+		    石原 亨 准教授<br />
+		    「コンピュータシステムのためのエナジーハーベスティング技術」<br />
+		    <p>
+		       太陽光や振動あるいは熱などの自然エネルギーを電気エネルギーとして取り込む“エナジーハーベスティング” 技術が注目を集めている。化石燃料の消費を減らすことが期待できるだけでなく、電源がないところでも電気を利用できることが大きな理由である。特にコンピュータシステムの観点では、いつでもどこでも電気が利用できるという性質は、サイバーフィジカルシステムを構築する上で非常に大きな意味を持つ。自然エネルギーによる発電量は、環境に大きく左右されるため、エネルギーの貯蔵庫となる“エナジーストレージ”が必須である。エナジーストレージにはリチウムイオンバッテリなどの２次電池やスーパーキャパシタなどの大容量キャパシタがある。これらのストレージは、種類に
+よって容量単価や出力電流密度およびリーク電流や充電効率などに違いがあるため、コンピュータシステムのメモリ階層と類似した階層構造でエナジーストレージシステムを構築する技術が提案されている。エナジーハーベスティングの過程では、環境から取り入れたエネルギーを、効率良くエナジーストレージに蓄え、そこから効率良く取り出して利用する技術が重要である。本チュートリアルでは、コンピュータシステムにおけるメモリ階層とエナジーストレージの階層構造を対比しながら、コンピュータシステムのための高効率エナジーハーベスティング技術と自然エネルギーの高効率利用技術を概説する。
+		    </p>
+		</td></tr>
+	      </table>
+	    </li>
+	  </ul>
+	  
+	</li>
+      </ul>
+
+
+	  
+
+<!--	  
+	     <h4><a id="EXHIBIT">企業・団体展示</a></h4>
+      <p>5/22（水）13:00&sim;18:00，5/23(木) 9:00&sim;20:00の間，常時展示．</p>
+      <p>展示紹介のためのライトニングトークを2日目午後に予定しております．</p>
+      <p>参加組織および協賛企業一覧（順不同，敬称略）</p>
+      <?php include("include/exhibit-list.html");?>
+--> 
+    <h4>セッション構成</h4>
+ <table border="1" cellpadding="3">
+
+	<tr><th class="daycolum" align="center" colspan="4"><a href="#DAY1">2013年5月22日(水)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:44%">第一会場（橘）</th>
+	  <th style="width:30%">第二会場（萩）</th>
+	  <th style="width:20%">第三会場（桜）</th>
+	</tr>
+
+	<tr>
+	  <th>13:15-13:30</th>
+	  <td><a href="#OPENING">開会の辞</a>
+	  最優秀論文賞、優秀若手研究賞表彰</a> </td>
+	  <td class="ready" rowspan="2"></td>
+	   <td align="center" colspan="1" rowspan="5">13:00-18:00<br />企業・団体展示</td>
+	</tr>
+
+	<tr>
+	  <th>13:30-15:00</th>
+	  <td><a href="#F1">基調講演</a><br />
+	      喜連川 優 （国立情報学研究所）<br />
+	    「ビッグデータが作り出す新たな世界」<br />
+	   <span style="font-size: 80%">(座長: 工藤 知宏	(産業技術総合研究所))</span>
+	   </td>
+	</tr>
+
+	<tr>
+	  <th>15:15-16:45</th>
+	  <td><a href="#1-A">[1-A] マイクロアーキテクチャ</a><br />
+	    <!-- 一般論文(3件)<br /> -->
+	    	  </td>
+	  <td ><a href="#1-B">[1-B] アルゴリズム</a><br />
+	  　<!-- 一般論文(1件) , 萌芽論文(2件)<br /> -->
+	  </td>
+	</tr>
+
+	<tr>
+	  <th>17:00-18:00</th>
+	  <td><a href="#2-A">[2-A] セキュリティ</a><br />
+           <!--  萌芽論文(2件)<br /> -->
+	  </td>
+	 <td ><a href="#2-B">[2-B] キャッシュとメモリ</a><br />
+	  　<!-- 一般論文(1件) , 萌芽論文(1件)<br /> -->
+	  </td>
+	</tr>
+
+	<!-- *************  DAY2  ****************  -->
+
+	<tr><th class="daycolum" align="center" colspan="6"><a href="#DAY2">2013年5月23日(木)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:44%">第一会場（橘）</th>
+	  <th style="width:30%">第二会場（萩）</th>
+	  <th style="width:20%">第三会場（桜）</th>
+	</tr>
+	
+	<tr>
+	  <th>9:30-10:30</th>
+	  <td><a href="#3-A"> [3-A] マルチコア・メニーコアＩ</a><br />
+            <!-- 一般論文(1件) , 萌芽論文(1件)<br /> -->
+	  </td>
+	 <td ><a href="#3-B"> [3-B] 並列分散処理</a><br />
+	  　<!-- 一般論文(1件) , 萌芽論文(1件)<br /> -->
+	  </td>
+	  <td align="center" colspan="1" rowspan="4">9:30-16:30<br /><br /><a href="#EXHIBIT">企業・団体展示</a></td>
+	</tr>
+	
+	  <tr>
+	  <th>10:45-12:15</th>
+	  <td><a href="#B8">チュートリアル1</a><br />
+	  岡野原 大輔 （株式会社Preferred Infrastructure）<br />
+	    「機械学習の理論と実践」<br />
+	   <span style="font-size: 80%">(座長: 近藤正章(電気通信大学))</span></td>
+		<td class="ready" rowspan="5"></td>
+	</tr>
+	
+	<tr>
+	  <th>13:30-15:00</th>
+	  <td><a href="#F5">招待講演</a><br />
+	      Pete Beckman (Argonne National Laboratory)<br />
+	    「The New Supercomputer Revolution」<br />
+	    <span style="font-size: 80%">(座長: 朴 泰祐	(筑波大学))</span></td> 
+	</tr>
+
+<tr>
+	  <th>15:15-16:30</th>
+	  <td>ポスターインデキシング</td><br />
+
+	</tr>
+	
+	<tr>
+	  <th>16:30-18:00</th>
+	  <td class="ready" rowspan="2"></td>
+	  <td align="center" >ポスターセッション・企業展示<br />
+		
+	</tr>
+	<tr>
+	  <th>18:00-20:00</th>
+	  <td align="center" >懇親会<br />(ポスター・企業展示)<br />
+		
+	</tr>
+
+	<!-- *************  DAY3  ****************  -->
+
+	<tr><th class="daycolum" align="center" colspan="6"><a href="#DAY3">2013年5月24日(金)</a></th></tr>
+
+	<tr>
+	  <th style="width:6%">時間</th>
+	  <th style="width:44%">第一会場（橘）</th>
+	  <th style="width:30%">第二会場（萩）</th>
+	  <th style="width:20%">第三会場（桜）</th>
+	</tr>
+
+
+      <tr>
+	  <th>9:30-10:30</th>
+	 <td ><a href="#4-A">[4-A] HPCシステムと性能評価</a><br />
+	  　<!-- 一般論文(1件) , 萌芽論文(1件)<br /> -->
+	  </td> 
+	   <td><a href="#4-B">[4-B] マルチコア・メニーコアＩＩ</a><br />
+           <!-- 一般論文(2件)  -->
+	  </td>
+	   <td class="ready" rowspan="6"></td>
+	  </tr>
+	  
+		<tr>
+	  <th>10:45-12:15</th>
+	  <td><a href="#F6">チュートリアル2</a><br />
+	      石原 亨 (京都大学)<br />
+	    「コンピュータシステムのためのエナジーハーベスティング技術」<br />
+	    <span style="font-size: 80%">(座長:  冨山宏之(立命館大学))</span></td> 
+		<td class="ready" ></td>
+	</tr>
+	  
+	  <tr>
+	  <th>13:30-15:00</th>
+	 <td ><a href="#5-A">[5-A] リコンフィギャラブルコンピューティング</a><br />
+	  　<!-- 一般論文(3件)<br /> -->
+	  </td>
+	   <td><a href="#5-B">[5-B] システムの運用，管理</a><br />
+           <!-- 一般論文(2件) , 萌芽論文(1件)<br /> -->
+ 	 </td>
+		  </tr>
+	  
+	  <tr>
+	  <th>15:00-15:30</th>
+	  <td><a href="#sacsis">SACSISの今後について</a><br /></td>
+	    <td class="ready" rowspan="2"></td>
+	</tr>
+	  
+	  
+	<tr>
+	  <th>15:30-15:40</th>
+	  <td><a href="#CLOSING">優秀ポスター賞表彰</a><br />閉会の辞</td>
+	</tr>
+      </table>
+	  
+	   <h4>プログラム</h4>
+
+      <?php include("include/program.html");?>
+
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

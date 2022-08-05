@@ -1,0 +1,44 @@
+<h3>JHPCN Organized Session "Very large-scale information systems"</h3>
+
+<h4>Program</h4>
+<p class="date"><a id="DAY2">2015/1/19 (Tue)</a></p>
+<ul>
+<p class="time">11:00&sim;12:00</p>
+<li> (Chair: Yoshiki Sato (The University of Tokyo)) 
+    <ul class="program">
+    <li> 
+    (K4) Verifying effectiveness of packet pacing on large-scale parallel programs by simulation<br />
+    Hidetomo Shibamura (Institute of Systems, Information Technologies and Nanotechnologies)<br />
+    <a href="#abstK4"> abstract </a>
+	</li>
+    <li> 
+    (K5) A Framework for Jointing Computation Center with User-Level Management System<br />
+    Hideyuki Jitsumoto (Tokyo Institute of Technology)<br />
+    <a href="#abstK5"> abstract </a>
+	</li>
+
+    </ul>
+</ul>
+
+<h4>Abstracts</h4>
+
+<ul class="program">
+
+<li> <a id="abstK4">(11:00-11:30)</a>
+    (K4) Verifying effectiveness of packet pacing on large-scale parallel programs by simulation<br />
+    Hidetomo Shibamura (Institute of Systems, Information Technologies and Nanotechnologies)<br />
+
+Abstract:<br />
+This study aims to show the effectiveness of packet pacing on practical application by interconnect simulation.  Packet pacing is one of congestion avoidance techniques where communication packets are sent intermittently while adjusting inter-packet gap to reduce communication time.  The gap value is pre-calculated for each communication according to the communication hop, and the value is explicitly passed to a sending function.  A large effect of packet pacing on some collective communications had been confirmed in a previous study.  In this study, we applied packet pacing to the main communication part of Nonhydrostatic ICosahedral Atmospheric Model (NICAM). NICAM communication was simulated by an interconnect simulator NSIM based on MGEN program which generates communication message.  An MGEN program for NICAM communication was created and two node-mapping methods for 3D-Torus were designed.  Communication times for each message size were examined while changing the inter-packet gap.  In addition, similar examinations considering imbalance of the communication start time were performed.  The estimated time of NICAM communication without packet pacing was about 2.2 times slower than a theoretical value because of network congestion.  Then, the estimated time with packet pacing was about 2.0 times faster than without one and very closer to the theoretical value.
+</li>
+
+<li> <a id="abstK5">(11:30-12:00)</a>
+    (K5) A Framework for Jointing Computation Center with User-Level Management System<br />
+    Hideyuki Jitsumoto (Tokyo Institute of Technology)<br />
+
+Abstract:<br />
+Coupled method become important execution scenario for advanced scientific application. It achieve more accurate and large-scale simulation because it can use many calculation resources with jointing supercomputer centers loosely. For jointing centers, the collaboration with management system for supercomputer such as scheduler are indispensable. However, the collaboration takes a hell of a time owing to these management system operates with individual policy for each center. In order to solve this problem, we make application coupling framework with user-level management. Therefore, many coupled scientific application can execute promptly without solving policy problem between multiple supercomputing centers. The framework fill the gap of operation policy on each center with configuration which is described by user. This framework is constructed with 1) Point-of-Presence server which coordinates management system on jointed center and manages messages between coupled application, and 2) communication API used from user application. In addition, the communication between PoP servers connected with SSH tunneling. Application user can got jointed environment flexibly with minimal efforts. We will introduce the design and implementation of this framework and its execution scenario.
+
+</li>
+
+</ul>

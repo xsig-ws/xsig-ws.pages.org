@@ -1,0 +1,89 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>GPU Challenge 2010</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/gpu.css">
+<!-- meta name="author"      content="" -->
+</head>
+
+<body>
+
+<h2>自由課題部門・グリッド協議会金融分科会特別賞</h2>
+<p>
+自由課題の中で、グリッド協議会金融分科会特別賞への応募を募集します。
+本課題は、自由課題の枠ではありますが、下記の課題に取り組んだものを本賞の
+対象と致しますので、ご注意ください。
+</p>
+<h3>課題</h3>
+モンテカルロによるオプション価格シミュレーションをGPUを用いて高速化して
+いただきます。
+
+<h3>課題詳細</h3>
+<p>
+参加チームに配布するファイルmontecalro.zip は、擬似乱数を
+メルセンヌ・ツイスタ法
+により生成し、モロー近似を使って正規分布化し、モンテカルロ法によるオプショ
+ン価格付けを倍精度で計算するC言語のサンプルプログラムです。
+10億回の正規乱数を生成して期待値と標準誤差を出力しています。
+なお、乱数生成には、Takuji Nishimura、 Makoto Matsumoto両氏により
+開発されたソースコードを使用しています。
+</p>
+<p>
+このプログラムをベースとし（ゼロから作り替えるのも可）、同じ計算を
+GPUを使って高速化していただきます。もちろん、GPUを使っても、倍精度を
+保持してください。
+</p>
+<p>利用できるGPU数は1つです．</p>
+<p>
+計算の内容については、以下のドキュメントなどが参考になります。
+</p>
+<a href="http://developer.download.nvidia.com/compute/cuda/1_1/Website/projects/MonteCarlo/doc/MonteCarlo.pdf">Monte Carlo Option Pricing</a>
+<br>
+<a href="http://www.nvidia.co.jp/docs/IO/59373/VolumeII.pdf">CUDAテクニカルトレーニング・CUDAケーススタディ</a>
+<p>
+注）Web上に公開されている他者が開発したGPU用ソースをそのまま使用するこ
+とは不可とします。
+</p>
+
+<h3>参加方法</h3>
+
+<p>
+<a href="invitation.html">参加申し込み</a>ページの，「参加資格」
+をご参照ください．特別賞については，さらに以下の条件があります．
+<ul>
+<li>ソースコード公開・ＢＳＤライセンス可能なもの．
+mt19937arを改変して残す場合は、そのライセンス条項に従うこと
+<li>社会人・学生の別を問わず
+</ul>
+</p>
+
+<p>
+指定期日
+までに，レポートおよびプログラムを
+<a href="mailto:gpu2010@matsulab.is.titech.ac.jp">
+gpu2010@matsulab.is.titech.ac.jp</a>
+あてに送付してください．
+レポートはPDF形式を推奨しますが，MS-Word形式も可能です．
+プログラムについては，zipもしくはtar.gz形式のものを添付してください．
+困難な場合はご相談ください．
+</p>
+<p><font color="blue">
+送付〆切は2010年3月15日23時59分とします．
+</font></p>
+<p>
+グリッド協議会金融分科会が，特別賞1チームを選定します．
+審査にあたっては金融分科会で用意した評価用マシンを使用します．
+評価用マシンはCPUホスト1にGPU（Tesla C1060 4GBメモリ）を１枚搭載。
+なおOSはCentOS 5.3 (64bit)であり，実行委員会準備の計算機と
+同じです．
+</p>
+<p>
+なお，本特別賞は自由課題部門の(通常の)賞とは独立です．
+</p>
+</body>
+
+</html>
+

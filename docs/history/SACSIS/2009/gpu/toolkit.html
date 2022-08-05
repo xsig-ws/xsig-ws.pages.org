@@ -1,0 +1,110 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>GPU Challenge 2009</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/gpu.css">
+<!--
+<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.hpcc.jp/sacsis/2009/cell/cgi-bin/rss.cgi">
+-->
+<!-- meta name="author"      content="" -->
+</head>
+
+<body>
+
+<h2>ツールキット</h2>
+
+<h3>更新情報</h3>
+<ul>
+<li>
+2008/02/04 Version 1.0を公開しました．
+</li>
+</ul>
+
+<h3>ダウンロード</h3>
+<ul>
+<li><a href="./toolkit-1.0.tgz">toolkit-1.0.tgz</a></li>
+</ul>
+コンテスト用マシン上にも置いてあります．
+
+<h3>ドキュメント</h3>
+<ul>
+<li><a href="./gtoolkit10.ppt">gtoolkit10.ppt</a></li>
+</ul>
+
+<h3>使用方法</h3>
+<p>
+コンテスト用マシンにログインし，以下のように自分のホームディレクトリ
+のどこかへ展開します．
+
+<table border=1><tr><td>
+<pre>
+gt901@gpuc1:~> tar xvfz /home/pub/toolkit-1.0.tgz
+</pre>
+</td></tr></table>
+
+<p>
+ディレクトリtoolkit-1.0に移動し，makeします．
+
+<table border=1><tr><td>
+<pre>
+gt901@gpuc1:~> cd toolkit-1.0
+gt901@gpuc1:~/toolkit-1.0> make
+</pre>
+</td></tr></table>
+
+<p>
+練習問題を実行するスクリプト，run1.sh -- run9.shが用意
+されています．以下のように実行します．
+
+<table border=1><tr><td>
+<pre>
+gt901@gpuc1:~/toolkit-1.0> ./run3.sh
+answer = 19168
+strnum(a)= 20480
+strnum(b)= 20480
+Initializing CUDA: 3.99773002 seconds
+GPU eclock  : 0.41924906 seconds
+[CPU] : 19168
+[GPU] : 19168
+SUCCESSFUL.
+</pre>
+</td></tr></table>
+<p>
+ふたつの入力ファイルの文字列に対して処理が行われます．
+GPU eclockはGPU上での実行時間を表します．この実行時間で競います．
+
+<h3>ファイル構成</h3>
+<dl>
+<dt><strong>main_host.cpp (変更不可)</strong></dt>
+<dd>
+問題取得，時間計測，検証用の関数などが記述されたファイルです．
+</dd>
+<dt><strong>device.cu</strong></dt>
+<dd>
+GPU上でのプログラムです．まずdevice_userという関数がホスト(CPU)上で
+呼ばれますので，その中でホストメモリとGPUメモリ間の通信や，
+GPU上のカーネル関数呼び出しなどを行う必要があります．
+</dd>
+<dt><strong>Makefile</strong></dt>
+<dd>
+ソースコードから実行ファイルを生成するための規則を記述したファイルです。
+make コマンドが参照します。ファイル構成やコンパイルの最適化オプション
+などを変更しない場合には，この Makefile を変更する必要はありません。 
+</dd>
+</dl>
+
+詳細は<a href="./gtoolkit10.ppt">gtoolkit10.ppt</a>を参照
+してください．質問やバグ情報は
+<a href="mailto:gpu2009@matsulab.is.titech.ac.jp">
+gpu2009@matsulab.is.titech.ac.jp</a>までお願いします．
+なお頂いた質問等は，お名前を伏せた上でQ&amp;Aのページなどで
+公開させていただくことがあります．
+あらかじめご了承ください．
+
+</body>
+</html>
+

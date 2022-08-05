@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <meta name="keywords" content="SACSIS09,SACSIS2009,SACSIS" />
+ <link href="css/2009.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2009</title>
+</head>
+<body>
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 28-29, 2009<br />Hiroshima, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+<div class="main">
+<!-- INSERTED LINES BEGIN (2009_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.en" title="SACSIS 2009">SACSIS2009&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.ja" title="Japanese Page"><img src="images/en2jp.gif" alt="japanese" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2008_LINKS) -->
+<a href="topics.html.en">Topics</a> <span class="hideme">|</span>
+<a href="program.html.en">Program</a> <span class="hideme">|</span>
+<!-- <a href="exhibit.html.en">Exhibits</a> <span class="hideme">|</span> -->
+<a href="http://www.hpcc.jp/sacsis/2009/cell/">Cell Challenge 2009</a> <span class="hideme">|</span>
+<a href="https://www2.cc.u-tokyo.ac.jp/procon/">Cluster Contest</a> <span class="hideme">|</span>
+<!-- <a href="cfpart.html.en">Call&nbsp;for&nbsp;Participation</a><span class="hideme">|</span> -->
+<!-- <a href="http://www.ipsj.or.jp/09sig/kaikoku/2008/SACSIS2008.html">Registration (in Japanese)</a><span class="hideme">|</span> -->
+<a href="location.html.en">Location</a> <span class="hideme">|</span>
+<!-- <a href="breakdown.html.en">Certificate of Details of Registration Fee</a> <span class="hideme">|</span> -->
+<!-- <a href="cfcompany.html.en">Call for Sponsors and Exhibitors</a> <span class="hideme">|</span> -->
+<a href="cfp.html.en">Call&nbsp;for&nbsp;Papers</a> <span class="hideme">|</span>
+<a href="cfposters.html.en">Call&nbsp;for&nbsp;Posters</a> <span class="hideme">|</span>
+<a href="committee.html.en">Committee</a> <span class="hideme">|</span>
+<a href="contact.html.en">Contact</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->
+</p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/index.html.en" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2008_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/index.html.en" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/index.html.en" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/index.html.en" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/index.html.en" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/index.html.en" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/welcome-e.html" title="Transactions on ACS">ACS&nbsp;Journal</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/english/" title="Information Processing Society of Japan">IPSJ</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/eng/" title="The Institute of Electronics, Information and Communication Engineers">IEICE</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () --></p></div>
+
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<!-- ========================================================================================================================================================================= -->
+<h3>SACSIS 2009 Program</h3><br />
+
+<h4><a href="#A1-4">Keynote and tutorials</a></h4>
+<div>
+<ul>
+<li> <a href="#A1-1">Keynote</a>
+<ul>
+<li>09:30-11:00, May 28: <br />
+<img src="images/2009_GD_thumb.jpg" style="float:left" width="81" alt="image"/>
+Distinguished Engineer,<br />Technical Executive for IBM eServer HPC development.<br />
+Don Grice<br />
+"The Roadrunner Project and the Importance of Energy Efficiency<br />&nbsp;&nbsp;on the Road to Exascale Computing."<br />
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div>
+<ul>
+<li>Tutorial:
+<ul>
+<li><a href="#B1-2">Tutorial 1</a><br />
+14:00-15:30, May 28: <br />
+Senior software engineer,<br />
+Software &amp; Solutions group, Intel corporation<br />
+Kiyofumi Sugawara<br />
+"Software development environment and technology to support parallel computing"<br /></li>
+<li><a href="#B2-3">Tutorial 2</a><br />
+14:00-15:30, May 29: <br />
+
+Researcher,<br />
+Grid Infraware Research group, Information Technology Research institute, AIST<br />
+<!-- National Institute of Advanced Industrial Science and Technology<br /> -->
+Ryousei Takano<br />
+"The HPC users should be aware of TCP/IP issues --Cluster and grid computing pitfalls--"<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h4><a href="#A1-4">Poster Session</a></h4>
+<ul>
+<li>May 28
+<ul><li>18:15-20:30 (banquet)</li></ul>
+</li>
+<li>May 29
+<ul><li>10:30-11:00</li>
+    <li>12:30-14:00</li>
+    <li>15:30-16:00</li>
+</ul>
+</li>
+</ul>
+
+
+<h4>Sponsors</h4>
+<ul>
+<li>Interface Corporation</li>
+<li>Sumisho Computer Systems Corporation</li>
+<li>BESTSYSTEMS, Inc.</li>
+<li>ELSA Japan, Inc.</li>
+<li>MAXSERVE Corporation</li>
+<li>Platform Computing Japan Company Limited</li>
+<li>FUJITSU Limited</li>
+<li>National Institute of Informatics </li>
+<li>Microsoft Corporation</li>
+</ul>
+
+<h4>Sponsors Session</h4>
+<ul>
+<li>May 28
+<ul><li>11:00-18:00</li>
+    <li>18:15-20:30 (banquet)</li></ul>
+</li>
+<li>May 29
+<ul><li>09:30-16:00</li></ul>
+</li>
+</ul>
+
+</div>
+<!-- ========================================================================================================================================================================= -->
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2009, SACSIS 2009 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer"> <img style="border:0;width:88px;height:31px" src="http://www.w3.org/Icons/valid-xhtml11-blue" alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer"> <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

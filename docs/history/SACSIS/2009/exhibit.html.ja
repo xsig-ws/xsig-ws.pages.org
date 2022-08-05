@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="SACSIS09,SACSIS2009,SACSIS" />
+ <link href="css/2009.css" rel="stylesheet" type="text/css" />
+ <style type="text/css">
+  p.url { text-align: right; margin-right: 11em; margin-bottom: 0em; margin-top: 0em; }
+  p.title { font-family: sans-serif; font-weight: bold; font-size: 120%; margin-top: 0em; margin-left: 1em;}
+  p.abs { border: solid 1px; padding: 0.5em; margin-left: 2em; margin-right: 11em; }
+ </style>
+ <title>SACSIS 2009</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 28-29, 2009<br />Hiroshima, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+
+<div class="main">
+
+<!-- INSERTED LINES BEGIN (2009_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.ja" title="SACSIS 2009">SACSIS2009&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2009_LINKS) -->
+<a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+<a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+<a href="exhibit.html.ja">企業・団体展示</a> <span class="hideme">|</span>
+<a href="http://www.hpcc.jp/sacsis/2009/cell/">Cellチャレンジ2009</a> <span class="hideme">|</span>
+<a href="https://www2.cc.u-tokyo.ac.jp/procon/">Clusterコンテスト</a> <span class="hideme">|</span>
+<a href="cfpart.html.ja">参加募集</a><span class="hideme">|</span>
+<a href="http://www.ipsj.or.jp/09sig/kaikoku/2009/SACSIS2009.html">参加申込</a><span class="hideme">|</span>
+<a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+<!-- <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span> -->
+<a href="cfcompany.html.ja">企業・団体展示募集</a> <span class="hideme">|</span>
+<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+<a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+<a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+<a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2008_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<h3 id="lunch">SACSIS 2009 ランチセッション</h3>
+<p class="url">(2009年5月28日(木)13:00-13:30, A会場)</p>
+<h4>日本AMD株式会社</h4>
+<p class="url"><a href="http://www.amd.co.jp">http://www.amd.co.jp</a></p>
+<p class="title"><a href="http://www.hpcc.jp/sacsis/2009/program.html.ja#L1">HPCユーザーのためのAMD最新テクノロジーアップデート</a><br />
+講演者：　山野 洋幸，　エンタープライズプロダクトマーケティング部 部長</p>
+<p class="abs">
+AMDの最新テクノロジー（CPUおよびGPU）の動向についてご紹介いたします。
+まもなく出荷される６コア AMD Opteron（TM） プロセッサ（コードネーム： Istanbul）と来年出荷されるG34 Maranelloプラットフォームの特長を中心に、AMDの今後のテクノロジーロードマップを解説します。
+またATI Stream（TM）によるGPGPU関連の最新情報についても合わせてご紹介いたします。
+</p><br />
+
+<h3>SACSIS 2009 企業・団体展示</h3>
+<p class="url">(2009年5月28日(木)11:00-20:30, 展示会場)<br />(2009年5月29日(金)09:30-16:00, 展示会場)</p>
+<h4>株式会社インタフェース</h4>
+<p class="url"><a href="http://www.interface.co.jp/">http://www.interface.co.jp/</a></p>
+<p class="title">PCクラスタ構築に適した省エネFAコンピュータ</p>
+<p class="abs">
+産業用途で培われた信頼性、少ないスペースで設置可能、そして省電力な 「省エネFAコンピュータ」
+１CPUあたり7W（TYP)と、非常に省エネです。
+この「省エネFAコンピュータ」の技術を用いた新製品をご紹介いたします。
+PCクラスタ構築に適した製品となっております。
+実機を展示しております。ぜひご覧下さい。
+</p>
+
+<h4>住商情報システム株式会社</h4>
+<p class="url"><a href="http://www.scs.co.jp/">http://www.scs.co.jp/</a>, <a href="http://www.voltaire.com">http://www.voltaire.com</a></p>
+<p class="title">Cray CX1 のご紹介</p>
+<p class="abs">
+Cray CX1は高性能クラスタのパワーに加え、ワークステーションの使い勝手を統合し、多機能でコンパクトなパッケージにしたパーソナル仕様のHPCシステムです。Cray としては初めてIntel 社のプロセッサをWindows HPC Server 2008 を採用した製品で、最大8つのノードと16基の最新Intel Xeon 5500シリーズプロセッサ（クアッドコア）を搭載することが可能で、DDR3 メモリの採用とともに従来の製品に比べて飛躍的に性能が向上しています。 
+標準のオフイス環境で動作し、優れた静音設計が施されているため、デスクサイドでも気軽に利用することができます。
+</p>
+
+<h4>株式会社ベストシステムズ</h4>
+<p class="url"><a href="http://www.bestsystems.co.jp">http://www.bestsystems.co.jp</a></p>
+<p class="title">GPGPU用コンパイラ</p>
+<p class="abs">
+PGIコンパイラがCUDAをサポート致しました。ディレクティブを挿入するだけでx86コードとCUDAコードの両方を包含したバイナリを生成します。これまでGPGPUを使いたいけれどCUDAが障壁だったユーザがCUDAを勉強することなくGPGPUを利用可能となりました。
+</p>
+
+<h4>株式会社 エルザ ジャパン</h4>
+<p class="url"><a href="http://www.elsa-jp.co.jp">http://www.elsa-jp.co.jp</a></p>
+<p class="title">GPUコンピューティングを実現するNVIDIA TESLAのご紹介</p>
+<p class="abs">
+発売以来、HPC分野において、革新的な計算能力を提供してきているNVIDIA TESLA製品の実機展示とそれを支えているGPU向けのC言語開発総合環境「CUDA」の最新情報をご紹介致します。<br />
+
+NVIDIA TESLA C1060<br />
+カードタイプのTESLA製品。TESLA T10 GPUを1つ搭載し、240個のストリーミングプロセッサを内蔵。最大で933GFLOPSを実現。<br />
+
+NVIDIA TESLA S1070<br />
+1UラックマウントタイプのTESLA製品。TESLA T10 GPUを4つ搭載し、960個のストリーミングプロセッサを内蔵。最大で4TFLOPSを実現。
+</p>
+
+<h4>株式会社マックスサーブ</h4>
+<p class="url"><a href=" http://www.maxserve.co.jp"> http://www.maxserve.co.jp</a></p>
+<p class="title">コストパフォーマンスに優れた大容量・超高速ストレージシステム</p>
+<p class="abs">
+今回は大容量・超高速をローコストで構築出来るストレージシステムと、10GbEのスイッチングハブ、ネットワークカードをご紹介致します。
+マルチレーンを使ったストレージシステムはRAIDコントローラをエンクロージャから解放し、機器のコストを劇的に下げる他、ホスト&harr;エンクロージャ間を高速なマルチレーンケーブルで接続する為大幅なパフォーマンスを得る事が可能になりました。
+またSAS Expanderを使用したシステムはエンクロージャ間をデイジーチェーン接続が出来る為、ケーブル1本で容量を次々と増加させることが可能です。
+当日は同製品の展示とデモ機のパフォーマンスをご確認頂けます。
+</p>
+
+<h4>プラットフォームコンピューティング株式会社</h4>
+<p class="url"><a href="http://www.platform.co.jp">http://www.platform.co.jp</a></p>
+<p class="title">Platform HPC 統合管理ソリューション</p>
+<p class="abs">
+プラットフォームコンピューティングは、IT稼働率を最大に高めるハイパフォーマンスコンピューティング（HPC）マネジメントソフトウェアの業界リーダーです。
+プラットフォームのソリューションは、設計、シミュレーション、テストなどのアプリケーションの計算処理をITリソースの稼働率を最大に高めることで高速化します。これにより、開発期間の短縮、生産性の向上、運用管理コストの削減を実現します。
+展示ブースでは、ワークロード管理、プロビジョニング、モニタリング、グリーンデータセンターなど、HPC環境における様々な課題解決を支援するPlatform HPC管理ソリューションをご紹介します。
+</p>
+
+<h4>HPCシステムズ株式会社</h4>
+<p class="url"><a href="http://www.hpc.co.jp">http://www.hpc.co.jp</a></p>
+<p class="title">LSFで最適化されたパーソナルクラスター</p>
+<p class="abs">
+弊社製品BoxClusterは、電源や空調を整備したサーバールームを用意しなくても、オフィスや研究室にそのまま設置して運用できる、ハイパフォーマンスコンピューティング（HPC）向けの4ノード搭載クラスタシステムです。HPC向けにチューニングしたRed Hat Enterprise Linuxを搭載し、ネットワーク設定やファイル共有、ユーザー認証、開発環境、並列ライブラリのセットアップなどを行った上で出荷いたします。更にこの度はジョブ管理ソフトLSFを搭載しより最適化されたクラスターシステムのご紹介をさせていただきます。
+</p>
+
+<h4>富士通株式会社</h4>
+<p class="url"><a href="http://jp.fujitsu.com">http://jp.fujitsu.com</a></p>
+<p class="title">富士通のペタスケールスーパーコンピュータ用プロセッサ: SPARC64&#8482; VIIIfx</p>
+<p class="abs">
+開発中の新プロセッサSPARC64&#8482; VIIIfxのウエハを展示します。合わせて富士通プロセッサの開発の歴史、及びSPARC64&#8482; VIIIfxの概要をご紹介します。
+</p>
+
+<h4>国立情報学研究所</h4>
+<p class="url"><a href="http://www.sinet.ad.jp/">http://www.sinet.ad.jp/</a></p>
+<p class="title">グリッド・クラウドコンピューティングを支援するSINET3の紹介</p>
+<p class="abs">
+SINET3(Science Information Network 3: サイネット・スリー)は、国立情報学研究所が推進する最先端学術情報基盤(CSI:Cyber Science Infrastructure)構想の中核として位置付けられている学術情報ネットワークです。
+2007年度から日本全国の大学、研究機関等に先端研究のための超高速接続、研究及び教育活動のための情報ライフライン、及び国際連携のための国際接続を提供しており、各種コミュニティ形成の支援、学術情報の流通促進を図っております。
+また、SINET3は、マルチレイヤ、VPN、QoS、帯域オンデマンドという観点で高度なネットワークサービスを提供しております。最新の技術を用いることにより、L3〜L1接続に対して需要の変動に影響されることなく柔軟にネットワークリソースを割り当て可能としており、グリッド・クラスタ・クラウドコンピューティングを強力に支援しています。
+</p>
+
+<h4>マイクロソフト株式会社</h4>
+<p class="url"><a href="http://www.microsoft.com/japan/hpc">http://www.microsoft.com/japan/hpc </a></p>
+<p class="title">マイクロソフトのTechnical Computing</p>
+<p class="abs">
+マイクロソフトはマルチコア、メニーコア搭載のワークステーションから、PCクラスタシステム、さらにクラウドに至るまで、Windowsの一貫した使いやすく、親しみやすい環境において、シームレスなTechnical Computing を実現します。
+</p>
+
+<h4>日本AMD株式会社</h4>
+<p class="url"><a href="http://www.amd.co.jp">http://www.amd.co.jp</a></p>
+<p class="title">HPCに最適な最新AMDプラットフォームのご紹介</p>
+<p class="abs">
+HPCに最適な最新のCPU、GPUによって構成されたAMDプラットフォームをご紹介いたします。<br />
+CPU： 最新の45nm 6コア AMD Opteron プロセッサ<br />
+GPU： 最新のStream SDK 環境、など
+</p>
+
+</div>
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2009, SACSIS 2009 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11-blue"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

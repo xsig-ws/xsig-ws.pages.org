@@ -1,0 +1,19 @@
+<ul>
+<li> <b>Advanced Computing Systems</b><br />
+    Grid computing, clustering technology, embedded systems, 
+    ubiquitous systems, peer-to-peer technology, 
+    mobile technology, dependable computing, 
+    application-specific systems and so on.
+  </li>
+<li> <b>Infrastructural Technologies</b><br />
+  processor architecture, system architecture, 
+  large-scale storage systems, energy-saving/space-saving technology,
+  network security, operating systems, middleware, compiler, 
+  programming language processing, parallel algorithms, 
+  performance evaluation/tuning technology and so on.
+  </li>
+<li> <b>Practical Systems</b><br />
+  database, Web service, search engine, transaction systems, 
+  online algorithms, distributed computing environment, 
+  server technology, data mining technology and so on.
+</ul>

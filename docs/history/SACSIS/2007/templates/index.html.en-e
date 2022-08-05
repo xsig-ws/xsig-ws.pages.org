@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2007.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2007</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@NAVIGATION@@-->
+
+<div class="main">
+
+<h4>About SACSIS</h4>
+<!--@@SACSIS@@-->
+
+<h4>News</h4>
+<table class="date">
+<tr><th>2007/ 4/ 6</th><td><a href="cfpart.html">Call for participation page</a> is opened.</td></tr>
+<tr><th>2007/ 3/12</th><td><a href="http://www.hpcc.jp/acs/19/submit/">The poster submission page</a> is opened.</td></tr>
+<tr><th>2007/ 3/11</th><td><a href="cfposters.html">Call for posters</a> is released.</td></tr>
+<tr><th>2006/12/15</th><td><a href="submit.html">The paper submission page</a> is opened.</td></tr>
+<tr><th>2006/12/14</th><td><a href="cfp.html">Official call for papers</a> is released.</td></tr>
+<tr><th>2006/11/21</th><td><a href="cell-challenge/">The homepage of Cell Speed Challenge</a> is opened.</td></tr>
+<tr><th>2006/10/23</th><td>Preliminary call for papers is released.</td></tr>
+<tr><th>2006/10/23</th><td>This web site is opened</td></tr>
+</table>
+
+<h4>Important Dates</h4>
+<table class="date">
+<tr><th>May 23 - 25, 2007</th><td>Symposium date</td></tr>
+<tr class="passed"><th>17:00 (JST), Mar 23, 2007</th><td>Poster submission deadline</td></tr>
+<tr class="passed"><th>Mar 12, 2007 - </th><td>Author Notification</td></tr>
+<tr class="passed"><th>8:00 (JST), Jan 22, 2007</th><td>Paper submission deadline (hard)</td></tr>
+<tr class="passed"><th>8:00 (JST), Jan 15, 2007</th><td>Paper registration deadline (hard)</td></tr>
+</table>
+
+<h4>Sponsors and Supporter</h4>
+
+<ul>
+  <li>Sponsors
+    <ul>
+      <li> <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/sigarc/">SIGARC</a></li>
+      <li> <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a></li>
+      <li> <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/sighpc/">SIGHPC</a></li>
+      <li> <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.ipsj.or.jp/sig/pro/">SIGPRO</a></li>
+      <li><a href="http://www.ieice.org/">IEICE</a>
+	<a href="http://www.ieice.org/iss/cpsy/jpn/">CPSY</a></li>
+      <li><a href="http://www.ieice.org/">IEICE</a>
+	<a href="http://www.ieice.org/iss/dc/jpn/">DC</a></li>
+      <li><a href="http://www.ieice.org/">IEICE</a>
+	<a href="http://www.am.ics.keio.ac.jp/reconf/">RECONF</a></li>
+      <li> <a href="http://www.ieee-jp.org/japancouncil/chapter/C-16/">
+	  IEEE Computer Society Japan Chapter</a></li>
+    </ul>
+  </li>
+  <li>Support
+    <ul>
+      <li> <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.ertl.jp/SIGEMB/">SIGEMB</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

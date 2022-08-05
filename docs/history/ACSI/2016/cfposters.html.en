@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <?php include("include/header.html");?>
+<head>
+ <style type="text/css">
+       tr.cf_paper {
+       display: none;
+       }
+       tr.cf_etc {
+       display: none;
+       }
+       tr.cf_poster {
+       display: table-row;
+       }
+ </style>
+</head>
+
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+<p></p>
+<h1>ACSI2016 Call for Posters</h1>
+<p></p>
+<p>
+We invite the submission of proposals for poster presentations at ACSI2016. 
+Our scope includes all areas of advanced computing systems and
+infrastructure. Posters may describe concepts of your research,
+results of work-in-progress, problems to be solved, etc. 
+</p>
+
+<h4>[Important Dates]</h4>
+
+    <?php include("include/important-dates-en.html");?>
+
+<h4>[Submission]</h4>
+<ul>
+<li>The poster submissions must be A4-size PDF format.</li>
+<li>Acceptable language is only "English".</li>
+<li>It is allowed to submit a Japanese or English 1 - 2 pages support document (NOT MANDATORY) .<br />
+    This is used in poster review as a reference.</li>
+<li>If you require a special environment such as a desk and power supply, 
+    please contact to the organizing committee. </li>
+<li>Visit <a href="./submission_instruction.html.en">"Submission page"</a> and follow the instruction.</li>
+
+</ul>
+
+<h4>[Accepted Posters]</h4>
+
+<ul>
+<li>Panel size is 122cm(W) x 180cm(H).</li>
+<li>Thumbtacks will be prepared.</li>
+<li>Required to give an one-min. presentation for indexing. </li>
+<li>Full registration is required for at least one presenter.</li>
+<li>Posters (A4-size PDF version) are distributed only to attendees 
+    and not opened to the public. </li>
+</ul>
+
+<h4>[Award]</h4>
+<ul>
+<li>ACSI2016 program committee selects at most one "ACSI2016 Outstanding Poster Award"
+</li>
+</ul>
+
+<h4>[Contact]</h4>
+<ul>
+<li>ACSI2016 organizing committee: acsi2016 "at" acsi "dot" hpcc "dot" jp</li>
+</ul>
+
+
+</div>
+    <?php include("include/footer.html");?>
+</body>
+</html>

@@ -1,0 +1,7 @@
+RedirectMatch 404 /\.git
+RedirectMatch 404 ^/sacsis-html/
+
+AddHandler myphp-script .html
+Action myphp-script /php-HH8dfu8kl-213p.cgi
+
+DirectoryIndex index.html .ht

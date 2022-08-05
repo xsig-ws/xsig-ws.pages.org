@@ -1,0 +1,33 @@
+/*
+ * green & orange
+ */
+a:link    { color: #050; }
+a:visited { color: #393; }
+a:hover   { color: #0a0; background-color: #ddd; }
+a:active  { color: #f00; }
+
+b  { color: #6a6; font-weight: bold; }
+em { color: #fb0; font-weight: bold; font-style: normal; }
+tt { color: #5a5; font-weight: bold; font-style: normal; }
+address { border-color: #33c; color: #33c; }
+#title {
+  background-color: #f93;
+  color: white;
+}
+h1 { border-color: black; }
+h2, h3, h4 { color: #f93; border-color: #f93; }
+address { border-top: 2px solid #f93; color: black; }
+
+/* overwrite */
+div.navbar {
+  line-height:140%;
+  /*background-color: #fef6e0;*/
+  background-color: #efc;
+  border-left: 2.5px solid white;
+  padding: 0px;
+}
+div.navbar p { color: #666; border-color: white; border-width: 2px; }
+div.navbar p.title { color: #666; }
+div.navbar p a:link    { color: #666; }
+div.navbar p a:visited { color: #999; }
+div.navbar p a:hover   { background-color: white; }

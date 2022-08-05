@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      <hr class="hideme" />
+
+      <h4>開催趣旨</h4> 
+      2003年から新しいシンポジウム 
+      <acronym title="Symposium on Advanced Computing Systems and
+		      Infrastructures">SACSIS</acronym>
+      が設立されることとなりました．このシンポジウムは，
+      <?php include("include/intent-ja.html");?>
+      <p>
+	第10回となる SACSIS2012 を 2012年5月16日(水)&sim;18日(金) に開催致します．下記テーマに関連したオリジナリティ溢れる論文，実装・開発事例等も含め有用性の高い論文，実用性を重視した基盤に関する論文を広く募集致します．
+      </p>
+      <h4>テーマ</h4>
+      <?php include("include/theme-ja.html");?>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

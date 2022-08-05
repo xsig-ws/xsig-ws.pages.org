@@ -1,0 +1,18 @@
+<div class="navbar">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./" title="SACSIS Top">SACSIS&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <!--##LANGUAGE_LINK##-->
+  <a href="./2004" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+  <!--@@2003_LINK@@-->
+  </p><p class="history">
+  <!--@@HISTORY_LINKS@@-->
+  </p><p class="others">
+  <!--@@OTHER_LINKS@@-->
+  </p>
+</div>
+<hr class="hideme" />

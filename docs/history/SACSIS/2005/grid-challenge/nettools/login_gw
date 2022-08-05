@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#
+# replace xxx with your name
+# 
+user=xxx
+
+m=$user@nimbus.titech.hpcc.jp		# Matsuken
+a=$user@gk.alab.ip.titech.ac.jp	        # Alab
+o=$user@poole.is.tokushima-u.ac.jp	# Onoken
+x=$user@xcmp001.asc.hpcc.jp		# Sansoken
+h=$user@dennis-serv.omni.hpcc.jp        # HPCS
+y=$user@bluecore.is.uec.ac.jp	        # Yubahonda
+s=$user@suidobashi00.logos.ic.i.u-tokyo.ac.jp # Suidobashi
+c=$user@shepherd.logos.k.u-tokyo.ac.jp	# Chikayamaken
+t=$user@istbs000.i.u-tokyo.ac.jp        # Tauken
+
+eval `ssh-agent`
+if ! ssh-add ; then echo failed; exit 1; fi
+
+for x in $m $a $o $x $h $y $s $c $t; do
+	echo ssh -o 'ForwardAgent yes' $x 'hostname ; echo OK'
+	ssh -o 'ForwardAgent yes' $x 'hostname ; echo OK'
+done

@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 62em;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3", "Hiragino Kaku Gothic Pro",
+   Osaka, "£Í£Ó £Ð¥´¥·¥Ã¥¯", Arial, Helvetica, sans-serif;
+  line-height: 130%;
+}
+
+/* overall styles */
+img { border-style: none; }
+abbrev:hover, acronym:hover { cursor: help }
+/* abbrev, acronym { border-bottom: 1px solid black; } */
+table { font-size: 14px; }
+table.date th { text-align: left; font-family: monospace; }
+table.date td { padding-left: 1em; }
+
+/* header styles */
+div.title {
+  margin: 0px;
+  padding: 8px;
+
+  font-weight: bold;
+}
+
+div.title p.name {
+  margin: 0px;
+
+  font-size: 20px;
+  line-height: 110%;
+}
+div.title p.place {
+  margin: 10px 5px 0px 10px;
+
+  font-size: 16px;
+  text-align: right;
+  line-height: 120%;
+}
+
+/* navbar styles */
+div.navbar {
+  margin: 0px;
+  padding: 0.1em;
+  width: 11.5em;
+
+  float: left;
+  border: solid 1px;
+  text-align: left;
+}
+
+div.navbar p.title {
+  border-style: none;
+  font-weight: bold;
+}
+
+/* button space */
+
+div.bspace a:link, div.bspace a:visited {
+    color: white;
+    background: transparent;
+}
+
+
+/* main styles */
+div.main {
+    margin: 0px;
+    padding: 0em 0.5em 0.5em 12.5em;
+    min-height: 100ex;
+    border: solid 1px;
+}
+
+p.button {
+  text-align: center;
+} 
+
+h1 {
+  margin: 10pt 0pt;
+  padding: 15pt;
+
+  text-align: center;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  font-size: 24pt;
+}
+
+h3, h4 { 
+  margin: 4pt 2pt;
+  border-width: 0 0 2px 0;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  /*text-align: right;*/
+}
+
+h4 {
+  margin-top: 1em;
+  font-size: 16px;
+}
+
+ul ul li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+tr.passed th, tr.passed td {
+  text-decoration: line-through;
+}
+
+
+/* deprecated */
+.new {
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+}
+.notice {
+  font-weight: bold;
+  color: red;
+}
+.del {
+  text-decoration: line-through;
+}
+.lang { text-align: left; }
+.singlebar  { border-top: 1pt #363 solid; }
+
+/* footer */
+address {
+    text-align: center;
+}
+
+p.validation {
+    text-align: right;
+    margin: 0px; padding: 0px;
+    border: 0px;
+}
+
+p.validation img {
+    border: 0px;
+    width:88px; height:31px;
+}

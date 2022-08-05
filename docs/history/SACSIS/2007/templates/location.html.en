@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2007.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2007 Registration</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@NAVIGATION@@-->
+
+<div class="main">
+
+<h4>Location</h4>
+
+<ul>
+  <li>National Center of Sciences, 2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo 101-0003</li>
+  <ul>
+    <li><a href="http://www.nii.ac.jp/introduce/access1.shtml">Access</a>
+      (<a href="http://www.nii.ac.jp/index.shtml.en">National Institute of Infomatics</a>)
+    </li>
+    <li><a href="http://www.zam.go.jp/e00/e0000800.htm">Center map (in japanese)</a>
+      (<a href="http://www.zam.go.jp/">Center of National University Finance and Management</a>)
+    </li>
+    <li><a href="http://maps.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E4%B8%80%E3%83%84%E6%A9%8B2-1-2">Google map</a>
+    </li>
+  </ul>
+</ul>
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

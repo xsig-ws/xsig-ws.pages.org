@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbarp-ja.html");?>
+	    <div class="main">
+
+<h3>JHPCN special session</h4>
+
+<h4>Program</h3>
+<p class="date"><a id="DAY3">─── 1/28(水) ───</a></p>
+<ul>
+<p class="time">13:30&sim;15:00</p>
+<li> <a id="O1">Session-1</a> (Chair: Takeshi Nanri (Kyushu University))
+    <ul>
+    <li> 超並列宇宙プラズマ粒子シミュレーションの研究<br>
+Development of Scalable Plasma Particle Simulator with OhHelp Dynamic
+Load Balancer<br>
+Yohei Miyake（三宅 洋平）(Kobe University)<br>
+<a href="#abst1"> abstract </a>
+	<br>
+
+    <li> GPGPUによる地震ハザード評価<br>
+Application of GPGPU to Seismic Hazard Assessment<br>
+Shin Aoi（青井 真）(National Research Institute for Earth Science and Disaster Prevention)<br>
+<a href="#abst2"> abstract </a>
+	<br>
+
+    <li> 大規模データ系のVR可視化解析を効率化する多階層精度圧縮数値記録
+(JHPCN-DF)の実用化研究<br>
+Study of Efficient Data Compression by JHPCN-DF<br>
+Katsumi Hagita（萩田 克美）(National Defense Academy of Japan)<br>
+<a href="#abst3"> abstract </a>
+
+    </ul>
+
+<p class="time">15:15&sim;16:15</p>
+<li> <a id="O2">Session-2</a> (Chair: Yoshiki Sato (Univ. of Tokyo))
+    <ul>
+    <li> スパコンとインタークラウドの連携による大規模分散設計探査フレー
+ムワークの構築<br>
+Building Large-Scale Distributed Design Exploration Framework by Collaborating Supercomputers and Inter-Cloud Systems<br>
+Masaharu Munetomo（棟朝 雅晴）(Hokkaido University)<br>
+<a href="#abst4"> abstract </a>
+	<br>
+
+    <li> 次世代スーパーコンピュータ向けの軽量な仮想計算機環境の実現に
+向けた研究開発<br>
+Toward Lightweight Virtual Machine Environments for Next-generation
+Super Computers<br>
+Takahiro Shinagawa（品川高廣）(Univ. of Tokyo)<br>
+<a href="#abst5"> abstract </a>
+
+    </ul>
+</ul>
+
+<h4>Abstracts</h3>
+
+<ul>
+<li> <a id="abst1">(1-1)</a>
+Development of Scalable Plasma Particle Simulator with OhHelp Dynamic
+Load Balancer<br>
+Yohei Miyake, Kobe University<br>
+
+The particle-in-cell (PIC) simulation is widely used to study micro-
+and meso-scale plasma processes. Because the simulation must process a
+huge number of plasma particles, the computation should be
+parallelized for efficient execution as well as for feasible
+implementation on distributed memory systems. We proposed a scalable
+load balancing method named OhHelp for the simulation. Although the
+code parallelization is based on simple block domain decomposition,
+OhHelp accomplishes load balancing and thus the scalability in terms
+of the number of particles by making each computation node help
+another heavily loaded node. We applied OhHelp to various kinds of
+production-level PIC simulators and evaluated their performances on
+modern distributed-memory supercomputers. Consequently, we confirmed
+good scalability of the “OhHelp’ed” simulators for thousand-scale
+parallelism both in cases of uniform and congested particle
+distributions. We review our recent-year challenges in HPC programming
+of the PIC simulation and its applications to large-scale practical
+problems in the space plasma physics/engineering. We also discuss
+prospects of our further HPC challenge toward post-Peta and Exa-scale
+era such as optimizations for emerging manycore architectures.
+<br>
+<br>
+
+<li> <a id="abst2">(1-2)</a>
+Application of GPGPU to Seismic Hazard Assessment<br>
+Shin Aoi, National Research Institute for Earth Science and Disaster Prevention<br>
+
+A high-accurate and large-scale ground motion simulation is required
+for the seismic hazard assessment. 3-D FDM is one of the key
+techniques for the ground motion simulation. We have developed the
+simulation code for GPGPU using CUDA based on the solver of GMS
+(Ground Motion Simulator) which is a total system for seismic wave
+propagation simulation based on 3-D FDM using a discontinuous
+grid. The computational model is decomposed in two horizontal
+directions and each decomposed model is allocated to a different
+GPU. For a high performance GPU calculation, we have proposed a new
+efficient concealing technique that successfully avoids the
+discontinuous memory accesses. The performance test for the multi GPU
+calculation showed almost perfect linearity for the weak scaling test
+up to the simulation with 1024 GPUs; the model size for the 1024 GPUs
+case was about 22 billion grids. Lastly, we performed the long-period
+ground motion simulation for the Nankai Trough earthquake using the
+multi GPU code.
+<br>
+<br>
+
+
+<li> <a id="abst3">(1-3)</a>
+Study of Efficient Data Compression by JHPCN-DF<br>
+Katsumi Hagita, National Defense Academy of Japan<br>
+
+In the area of HPC (high performance computing), transferring data and
+storage are a significant problem. Thus, we have proposed JHPCN-DF
+(Jointed Hierarchical Precision Compression Number - Data Format), an
+efficient data compression method, which uses bit segmentation and
+Huffman coding. When we use common application programming interfaces
+(APIs), such as HDF5, supporting data compression, changes of these
+APIs are not required for use of JHPCN-DF. For visualizations and
+analyses, the lower bits of the IEEE 754 format are considered to be
+unnecessary. The data size after data compression is thus reduced by
+setting these lower bits to 0. The required bits can be determined by
+direct numerical computations and their corresponding resultant
+visualizations and analyses. In this paper, we evaluated the data size
+of HDF5 files in the JPHCN-DF framework for various types of
+simulation such as those using the plasma PIC (electromagnetic
+particle-in- cell) model, simulation of electromagnetic field based on
+the finite difference time domain (FDTD) technique, the finite element
+method (FEM), and for phase separated polymer materials. We confirmed
+that visualization software works well with HDF5 files coordinated by
+the JPHCN-DF framework. In visualization, the data size of the HDF5
+file appears to be reduced to 1/5 of the original HDF5 file
+size. JPHCN-DF is useful for a wide range of applications in data
+science and simulation.
+<br>
+<br>
+
+
+<li> <a id="abst4">(2-1)</a>
+Building Large-Scale Distributed Design Exploration Framework by Collaborating Supercomputers and Inter-Cloud Systems<br>
+Masaharu Munetomo, Hokkaido University<br>
+
+The Large-Scale Distributed Design Exploration Framework (LDDEF)
+project seeks for building a nation-wide inter-cloud infrastructure
+collaborating supercomputers and academic cloud systems for
+extreme-scale design explorations. The design exploration process
+tries to find an optimal configuration of input parameters that
+maximize or minimize objective functions, which needs to perform a
+number of large-scale simulations.<br>
+
+In our framework, simulations are performed in parallel employing
+multiple supercomputers of the nation-wide high-performance
+infrastructure (HPCI), and virtual/real machines in the academic cloud
+systems are employed for parameter surveys and/or optimizations. For
+extreme-scale collaborations of supercomputers and cloud systems, we
+employ scalable distributed databases and objective storages to store
+the input parameters and resulting information by the simulation.<br>
+
+The proposed system consists of the following components: (1)
+simulators performed in supercomputers, (2) optimization engines
+deployed in cloud systems, (3) distributed databases to store solution
+candidates as input parameters and resulting evaluations by the
+simulations, (4) object storages to store information on simulations
+results except evaluations, and (5) controllers including user
+interfaces. By employing NoSQL distributed databases, the proposed
+system not only extends to virtually infinite scale but also can
+manage a number of target problems in a unified manner with
+multi-tenant databases.
+<br>
+<br>
+
+
+<li> <a id="abst5">(2-2)</a>
+Toward Lightweight Virtual Machine Environments for Next-generation
+Super Computers<br>
+Takahiro Shinagawa, The University of Tokyo<br>
+
+We are developing our original hypervisor called BitVisor for research
+and practical use. We apply this hypervisor to construct a virtual
+computing environment for next-generation super computers. The purpose
+of our research and development is to offer the maximum performance of
+hardware resources by allowing users to use their own operating
+systems (OSs) specifically configured and customized for their high
+performance computing usages, while preserving the security of the
+computer systems required by the organization that manages the super
+computers. We exploit BitVisor to protect the computer hardware from
+user's OSs and perform management operations such as OS deployment to
+support the users to easily select their own OSs, while allowing
+pass-through access to the hardware resources from the OSs to avoid
+incurring virtualization overhead. We studied the performance of
+BitVisor on real super computers, e.g. a number of Fujitsu PRIMERGY
+RX200 with InfiniBand network, and identified the remaining
+overhead. We also developed a transparent OS deployment system and
+measured the performance of the guest OS on that system.  
+
+</ul>
+
+</div>
+</body>
+</html>

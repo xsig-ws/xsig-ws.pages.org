@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2004</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+May 26-28, 2004<br />
+Sapporo, Hokkaido, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (2004_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.ja" title="SACSIS 2004">SACSIS2004&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="index.html.en" title="English Page"> <img src="images/jp2en.gif" alt="English" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2004_LINKS) -->  <a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+  <a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+  <a href="poster_cfp.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+  <a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+  <a href="registration.html.ja">参加申込</a> <span class="hideme">|</span>
+  <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+  <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+  <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/wiki/wiki.cgi?SACSIS2004%B0%D1%B0%F7%C0%EC%CD%D1%A5%DA%A1%BC%A5%B8" title="PC/OC Members Only">委員専用ページ</a> <span class="hideme">|</span>
+  
+
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> 
+ <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<div class="main">
+
+
+
+<p>
+<span class="noticelink">
+<b>2004.06.30</b>
+<a href="program.html.ja">プログラムのページ</a>に企業・プロジェクト展示企画に参加頂いた企業リストを公開しました。<span class="new">New!</span>
+<br />
+<b>2004.05.31</b>
+<a href="program.html.ja">プログラムのページ</a>にチュートリアルの資料を公開しました。<span class="new">New!</span>
+<br />
+</span>
+<b>2004.05.19</b> 
+<a href="location.html.ja">会場案内</a>ページをオープンしました。
+<br />
+<b>2004.05.19</b> 
+<a href="https://www.ipsj.or.jp/cgi-bin/event.cgi?code=SACSIS2004">Webからの申込受付</a>の締切りが21日(金)17:00に延長されました。
+<br />
+<b>2004.04.27</b> ポスターセッションのプログラムが決定しました。
+<a href="program.html.ja">プログラム</a>を更新しました。
+<br />
+<!--
+<b>2004.04.24</b> 招待講演の講演者とタイトルが決まりました。
+<a href="program.html.ja">プログラム</a>を更新しました。
+<br />
+<b>2004.04.21</b> メンテナンスのため5月6〜7日および23日にサーバが停止します。ご注意下さい。
+<br />
+<b>2004.04.08</b> <a href="registration.html.ja">参加申込ページ</a>をオープンしました。登録は<a href="https://www.ipsj.or.jp/cgi-bin/event.cgi?code=SACSIS2004">こちら</a>から。
+<br />
+<b>2004.04.07</b> <a href="program.html.ja">暫定的なプログラム</a>を公開しました。
+<br />
+<b>2004.04.07</b> ポスター論文の受付を締め切りました。
+<br />
+<b>2004.03.26</b> ポスター論文の受付開始が遅れたため、
+ポスター論文の申し込み締切日を4/6(火)の17:00に変更しました。
+<br />
+<b>2004.03.10</b> <a href="poster_cfp.html.ja">ポスター論文募集要項</a>を公開しました。<br />
+<b>2004.01.30</b> 論文アップロードを締め切りました <br />
+<b>2004.01.26</b> 論文投稿登録を締め切りました。論文のアップロードは1/30(金)までです <br />
+<b>2003.12.16</b> 正式な<a href="cfp.html.ja">論文募集要項</a>を更新・公開しました。<br />
+<b>2003.12.16</b> <a href="http://www.hpcc.jp/acs/7/submit/">論文投稿の受付</a>を開始しました。<br />
+<b>2003.12.15</b> <a href="committee.html#pc">プログラム委員一覧</a>を公開しました。<br />
+<b>2003.10.31</b> 暫定的な<a href="cfp.html.ja">論文募集要項</a>を公開しました。<br />
+<b>2003.09.13</b> SACSIS2004のページ公開開始。 <br />
+<b>2003.09.03</b> SACSIS2004のページを作成しました。 <br />-->
+</p>
+
+<p style="text-align:center">
+<span class="notice">
+SACSIS2004は無事終了致しました。<br />
+ご発表・ご参加・ご協力頂いた皆様に感謝致します。
+</span>
+</p>
+
+
+<h4>SACSIS2004 概要</h4>
+
+<!-- INSERTED LINES BEGIN (SACSIS2004) --> <p style="text-align:center">
+<acronym title="Symposium on Advanced Computing Systems and Infrastructures">
+SACSIS
+</acronym>
+2004 - 
+先進的計算基盤システムシンポジウム 
+<br />
+ 日時：2004年5月26日(水) - 5月28日(金) <br />
+ 会場：<a href="http://www.plaza-sapporo.or.jp/scc/">札幌コンベンションセンター</a>
+ </p>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (SACSIS) --><p>
+　SACSIS (Symposium on Advanced Computing Systems and Infrastructures) 
+は2003年に誕生したシンポジウムです．その第２回を，今年は舞台を北の大地
+北海道に移して，2004年5月26日(水)〜28日(金)に開催いたします．
+</p>
+<!-- INSERTED LINES END () -->
+<h4>重要日程</h4>
+
+
+
+<p>
+<span class="del"><b>2004/1/26(月)</b>	投稿論文登録締切（延長なし）</span><br />
+<span class="del"><b>2004/1/30(金)</b>	論文アップロード締切（延長なし）</span><br />
+<span class="del"><b>2004/3/16(火)頃</b> 論文 採否通知 </span><br />
+<span class="del"><b>2004/3/19(金)</b>	ポスター論文受付開始 </span><br />
+<span class="del"><b>2004/4/02(金) 17:00</b>	ポスター論文 締切 （延長なし）</span><br />
+<span class="del"><b class="notice">2004/4/06(火) 17:00</b>	ポスター論文 締切 （延長なし）</span>
+<br />
+<!--
+（ポスター論文の受付開始が遅れたため、変更しました）<br />
+-->
+<span class="del"><b>2004/4/16(金)頃</b> ポスター論文採否通知，および採択論文camera ready締切 </span>
+<br />
+<span class="del"><b>2004/5/12(水)</b> Web事前参加申込み(early registration)期日 </span>
+<br />
+<span class="del"><b>2004/5/26(水)〜5/28(金)</b> SACSIS2004開催 </span>
+ <br />
+</p>
+
+<h4>主催・協賛</h4>
+
+<ul>
+<li> 主催 (順不同)
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">情報処理学会</a>・
+      <a href="http://www.hpcc.jp/sigarc/">計算機アーキテクチャ研究会</a> </li>
+ <li> 同・<a href="http://www.ipsj.or.jp/sig/os/">システムソフトウェアとオペレーティングシステム研究会</a> </li>
+ <li> 同・<a href="http://www.hpcc.jp/sighpc/">ハイパフォーマンスコンピューティング研究会</a> </li>
+ <li> 同・<a href="http://www.ipsj.or.jp/sig/pro/">プログラミング研究会</a> </li>
+ <li> 同・<a href="http://research.nii.ac.jp/~uno/sigal/">アルゴリズム研究会</a>  </li>
+ <li> <a href="http://www.ieice.org/">電子情報通信学会</a>・
+ <a href="http://www.ieice.org/iss/cpsy/jpn/">コンピュータシステム研究専門委員会</a> </li>
+ <li> <a href="http://homepage1.nifty.com/ieeetokyo/">
+	IEEE Computer Society Japan Chapter</a>  </li>
+ </ul>
+</li>
+<li> 協賛
+ <ul>
+ <li> <a href="http://www.ieice.org/">電子情報通信学会</a>・
+     <a href="http://www.ieice.org/iss/dc/jpn/">ディペンダブルコンピューティング研究専門委員会</a> </li>
+ </ul>
+</li>
+</ul>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

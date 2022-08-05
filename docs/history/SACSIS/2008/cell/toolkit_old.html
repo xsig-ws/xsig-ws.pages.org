@@ -1,0 +1,135 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>Cell Speed Challenge 2008 : Toolkit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/cell.css">
+<!-- meta name="author"      content="" -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rev="made" href="mailto:tsumura@nitech.ac.jp">
+<meta name="date" content="2007-12-07T20:41:53+09:00">
+</head>
+
+<body class="contents">
+
+<h1>ツールキット</h1>
+
+<ul>
+ <li><a href="#update"   >更新情報</a></li>
+ <li><a href="#document" >ドキュメント</a></li>
+ <li><a href="#howto"    >使用方法</a></li>
+ <li><a href="#manifest" >ファイル構成</a></li>
+</ul>
+
+<h2><a name="update">更新情報</a></h2>
+
+<dl class="date">
+<dt>2007/12/07</dt>
+<dd>試用版 Version 0.1 を公開しました。<a class="download" href="download/toolkit01.tar.gz">ダウンロード</a><br>Cell Online 上にもあります。下記使用方法をご覧ください。</dd>
+</dl>
+
+<h2><a name="document">ドキュメント</a></h2>
+
+<p>以下のドキュメントはツールキットにも同梱されています。</p>
+<ul>
+ <li><a href="download/toolkit01.txt">toolkit01.txt</a></li>
+ <li><a href="download/toolkit01.ppt">toolkit01.ppt</a></li>
+</ul>
+
+<h2><a name="howto">使用方法</a></h2>
+
+<p>まず実行してみましょう。
+ツールキットをホームディレクトリにコピーし展開します。</p>
+
+<pre class="command">
+[foobar@dev ~]$ <span class="command">cd</span>
+[foobar@dev ~]$ <span class="command">cp ../contest_toolkit/toolkit01.tar.gz .</span>
+[foobar@dev ~]$ <span class="command">gtar xvzf toolkit01.tar.gz</span>
+</pre>
+
+<p>展開してできたフォルダ toolkit01 に移動し，
+Makefile および spe.h 内の USERNAME を Cell Open Cafe の
+ログイン名に書き換え，makeします。</p>
+
+<pre class="command">
+[foobar@dev ~]$ <span class="command">cd toolkit01</span>
+<span style="color: #ff0;">★ここで Makefile, spe.h の書き換えが必要</span>
+[foobar@dev toolkit01]$ <span class="command">make</span>
+</pre>
+
+<!-- p>実行用フォルダを作成し，実行ファイルをコピーします。</p>
+
+<pre class="command">
+$ mkdir ~/speed
+$ cp main spe1 ~/speed
+</pre -->
+
+<p>make runで実行します。
+正常に実行が完了すると以下のような出力になります。</p>
+
+<pre class="command">
+[foobar@dev toolkit01]$ <span class="command">make run</span>
+cellexec -t 30 /export/home/foobar/toolkit01/main 128 8 2
+execute command: /export/home/foobar/toolkit01/main 128 8 2 timeout
+30
+[ppe_] User Area allocated : 144.00000[KByte].
+[ppe_] Memory for matrix   : 72.00000[KByte].
+
+[ppe_] 1002BC80
+check : 0.11379 (3DE90BE6)
+[spe_] elapsed time(sec) 0.006721
+Performance : 251.16 [MFlops]
+
+execute time:       391308 usec
+</pre>
+
+<h2><a name="manifest">ファイル構成</a></h2>
+<dl class="manifest">
+<dt>define.h</dt>
+<dd>利用する SPE の数 (1〜7)を指定します。デフォルトでは
+  1 が設定されています。</dd>
+<dt>main_spe.c</dt>
+<dd>SPE が実行するプログラムです。
+コンテスト参加者はこのファイル中の
+spe_soleqs 関数内を書き換えることになります。</dd>
+<dt>main_ppe.c</dt>
+<dd>PPE が実行するプログラムです。
+SPEプログラムの 起動〜終了 までを担います。
+実際のコンテストでは，PPE による計算処理を禁止する可能性がありますので，
+できるかぎり SPE で処理を行うようにしてください。
+
+現在のツールキットでは，問題行列 n ，解ベクトルの本数 m，問題
+のタイプは，標準入力から受け取ります。</dd>
+<dt>spe.h</dt>
+<dd>それぞれの SPE が実行するプログラムのファイル名を指定します。ファイル名は
+ユーザのディレクトリからのパスを指定します。
+ここでは，すべての SPE が spe1 という名前のプログラムを利用する設定と
+なっています。それぞれの SPE が異なるプログラムを実行してもかまいません。</dd>
+<dt>spe1.c</dt>
+<dd>時間計測，データ転送用の関数が記述されたファイルです。</dd>
+<dt>lib.c</dt>
+<dd>通常は，lib.c の内容を変更する必要はありません。
+lib.c では問題行列の生成や解答のチェックを行いますが，
+コンテストで現在の lib.c の各ルーチンを使用するとは限りません。</dd>
+<dt>Makefile</dt>
+<dd>ソースコードから実行ファイルを生成するための規則を記述した
+ファイルです。make コマンドが参照します。
+ファイル構成やコンパイルの最適化オプションなどを変更しない場合には，
+この Makefile を変更する必要はありません。</dd>
+</dl>
+
+<p>詳細はツールキット中の <a href="./download/toolkit01.txt">doc/toolkit01.txt</a> を参照してください。
+質問やバグ情報などは
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#56;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;">&#99;&#101;&#108;&#108;&#50;&#48;&#48;&#56;&#105;&#110;&#102;&#111;&#64;&#109;&#97;&#116;&#108;&#97;&#98;&#46;&#110;&#105;&#116;&#101;&#99;&#104;&#46;&#97;&#99;&#46;&#106;&#112;</a>
+までお願いします。なお頂いた質問等は，お名前を伏せた上で
+コミュニティボード等で公開・共有させていただくことがあります。
+予めご了承ください。</p>
+
+<hr class="footer">
+
+</body>
+
+</html>
+

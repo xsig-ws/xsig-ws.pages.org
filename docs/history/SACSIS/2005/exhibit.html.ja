@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2005.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2005 Exhibits</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+May 22-24, 2006<br />
+Osaka, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (2005_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.ja" title="SACSIS 2005">SACSIS2005&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="exhibit.html.en" title="English Page"> <img src="images/jp2en.gif" alt="English" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2005_LINKS) -->  <a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+  <a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+  <a href="exhibit.html.ja">企業展示</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/2005/grid-challenge/">Grid Challenge</a> <span class="hideme">|</span>
+  <a href="cfpart.html.ja">参加募集 (text)</a> <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/09sig/kaikoku/2005/SACSIS2005.html">参加募集・参加申込 (HTML)</a> <span class="hideme">|</span>
+  <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+  <a href="accommodation.html.ja">宿泊案内</a> <span class="hideme">|</span>
+  <a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/11/submit/">論文投稿受付</a> <span class="hideme">|</span>
+  <a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+  <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+  <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<div class="main">
+
+<h1>SACSIS 2005 企業展示 (アイウエオ順) </h1>
+
+<hr />
+
+<h3><u><a href="http://www.astecinc.co.jp/jp/">アステック 株式会社</a></u></h3>
+<h4>大規模FPGA搭載プロトタイピングボード「IPSP」</h4>
+
+「IPSP」は、IPの動作検証やCG製作、検査装置、画像処理装置等の
+プロトタイプ製作に利用できる大規模FPGAを搭載した汎用プラット
+フォーム基板です。DDR-SDRAM（DIMM）、 NTSC/PALとHDTVに対応
+したビデオDAC、MICTORコネクタ、独立した2系統のPCI（64bit） 
+スロット等が配置されております。
+
+<hr />
+
+<h3><u><a href="http://www.altairjp.co.jp/">アルテアエンジニアリング株式会社</a></u></h3>
+<h4>アルテアグリッドコンピューティングソリューション PBS Professional &amp; e-Compute</h4>
+
+弊社がご提供するグリッドコンピューティングソリューションPBS Professional
+およびグリッドWebポータルe-Computeにより、計算リソースの効率的な
+ワークロード管理が、お客様サイトにおいてどのように実現するのか、
+デモを交えご紹介いたします。
+
+<hr />
+
+<h3><u><a href="http://altimanet.com/">株式会社アルティマ</a>/<a href="http://www.mms.co.jp/">三菱電機マイコン機器ソフトウエア（株）</a></u></h3>
+<h4>ALTERA社FPGA/CPLDおよび開発環境 Rapid Prototyping Kit PowerMedusaのご紹介</h4>
+ ALTERA社最新FPGA/CPLD StratixII CycloneII MAXIIおよび開発環境QuartusIIをご紹介致します。デジタル回路実験に最適なトレーニングボード MU200-EC、VDEC LSI評価用FPGAボード MU200-SX をご紹介します。
+
+<hr />
+
+<h3><u><a href="http://www.cray.com/global_pages/japan01.html">クレイ・ジャパン・インク</a></u></h3>
+<h4>Cray Purpose Build Super computer</h4>
+Crayはスーパーコンピューターシステム専業メーカーで、現在の弊社の製品は
+HPCマーケットにおいてローエンドからミッドレンジ向け専用スーパーコンピュー
+ターシステムからハイエンド向け超並列コンピュータシステム、及びベクトル
+型スーパーコンピューターシステムまでHPC業界においてすべてのレンジをカ
+バーできるHPCに特化した設計の製品ラインがそろっています。
+
+<hr />
+
+<h3><u><a href="http://www.sd.com/japan/">サミット・デザイン・ジャパン株式会社</a></u></h3>
+<h4>SystemCベース統合型開発環境のご紹介</h4>
+大規模なソフトウェアを搭載する現在のSoC設計に対して、
+サミットデザインではハードウェア／ソフトウェア分割以前の
+アーキテクチャ性能評価およびSystemCベースの
+HW/SW協調設計・検証環境を提供する。
+
+<hr />
+
+<h3><u><a href="http://www.sse.co.jp/">住商エレクトロニクス（株）</a></u></h3>
+<h4>弊社がお届けするHPCソリューション </h4>
+数多くの納入実績を持つUnited DevicesのGrid ミドルウェア、クラスタのイン
+ターコネクトやコンパイラなどをご紹介いたします。
+
+<hr />
+
+<h3><u><a href="http://www.dnp.co.jp/">大日本印刷</a></u></h3>
+<h4> PCグリッドソフト「AD-POWERs」の紹介と寄付金付き公募</h4>
+大日本印刷の製造販売するグリッド構築ソフト「AD-POWERs」の紹介と、
+Excel対応、MATLAB対応のデモを展示する。
+またグリッドビジネスの発展を狙った、寄付金付き研究公募の募集を行う。
+
+<hr />
+
+<h3><u><a href="http://www.teldevice.co.jp/">東京エレクトロンデバイス株式会社</a></u></h3>
+<h4>超高速並列演算ボードとデザインサービス</h4>
+<ol>
+<li> 超高速並列演算ボード『Bioler3』<br />
+世界最大級のFPGAゲートを搭載し、アルゴリズムのFPGAハード化により、
+一桁上位の超高速演算を可能とします。</li>
+
+<li> デザインサービス（設計受託業務）<br />
+高付加価値な設計・開発と、XILINX社最先端FPGAを駆使した技術力を、
+ご提供致します。</li>
+</ol>
+
+<hr />
+
+<h3><u><a href="http://www.narasaki.co.jp/">ナラサキ産業株式会社</a></u></h3>
+<h4>株式会社　エイチ・アイ・ティー社の並列計算機の展示 <br />
+GE Fanuc社　ボードコンピュータの展示</h4>
+研究室に設置できるエッチ・アイ・ティー社製静音パーソナルPCクラスタ計算機のご紹介です。静音PCクラスタのトップブランドであるSilent SCCをご覧下さい。
+<br>
+GE Fanuc社製（旧VMIC、Ramix）マルチバス・マルチOS対応、様々なシステムのデータを高速共有する”リフレクティブ・メモリ”をご覧下さい。
+
+<hr />
+
+<h3><u><a href="http://www.hitachi.co.jp/">株式会社日立製作所</a></u></h3>
+<h4>Hitachi BladeSymphonyのご紹介</h4>
+スケールアウトによる処理性能向上に加え、スケールアップによる処理性能向上が可能など、
+柔軟かつ高い性能スケーラビリティを備えたPCクラスタシステムとして「BladeSymphony」を
+ご紹介いたします。
+
+<hr />
+
+<h3><u><a href="http://www.plum-syst.com/">プラムシステム有限会社</a></u></h3>
+<h4>FPGA and DSP Hardware modular real-time systems</h4>
+<ol>
+<li> FPGA 3,200万ゲート以上の大規模なマルチFPGA実現する組合せ自由な
+リアルタイムデジタル信号処理モジュールシステム。</li>
+
+<li> マルチDSP＆FPGA協調システムを実現する高速デジタル信号処理ボードシステム。 </li>
+</ol>
+<hr />
+
+<h3><u><a href="http://www.bestsystems.co.jp/">ベストシステムズ株式会社</a></u></h3>
+<h4> InfiniBandクラスタシステム</h4>
+近年PCクラスタの主流となりつつあるInfiniBandを使用したAPPRO社XtremeBladeと
+クレイ社Cray XD1システムの２機種をご紹介します。
+<hr />
+
+<h3><u><a href="http://www.lnxi.com/">リナックスネットワークス株式会社</a></u></h3>
+<h4>EvolocityIIクラスターシステム及びXiloストレージシステム</h4>
+EvolocityIIクラスターシステムをご紹介いたします。特許技術である垂直実装
+ノードと包括的なクラスター管理ツールから構成される高性能クラスターソリュー
+ションは、高速で正確な技術計算を実現します。スケーラブルクラスターストレー
+ジ、Xiloもあわせて展示致します。
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

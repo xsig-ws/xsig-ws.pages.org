@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbarp-ja.html");?>
+	    <div class="main">
+<h3>ACSI2016 プログラム</h3>
+
+<h4>基調講演・招待講演・チュートリアル情報</h4>
+<ul>
+ <li> <a id="F1">基調講演</a>
+ <ul>
+    <li>1/18(月) 14:00-15:30：<br />
+    <table><tr>
+    <td><img src="./images/yasuura.jpg" style="float:left" height="150" alt="顔写真" /></td>
+    <td>九州大学<br />
+    安浦 寛人 先生<br />
+   「<a href="./download/ACSI2016-KeynoteAddress.pdf">都市OSの構築に向けて<a>」</a><br />
+    <p>
+情報通信技術は、計算／通信速度やデータ量を飛躍的に増大させ、人類が築いてきた文化や文明を本質的に変化させようとしている。我々が生活する都市の基盤も情報通信技術に益々依存し、新しい都市計画のあり方が模索されている。環境問題や人口問題等あらゆる都市の問題の解決のために、都市OSを構築する必要がある。都市OSの基本的な構造と必要となる技術を研究している「九州大学共進化社会システム拠点」の活動も紹介する。
+    </p>
+    </td>
+    </tr></table>
+    </li>
+ </ul>
+ </li>
+ <li> <a id="I1">招待講演</a>
+ <ul>
+    <li>1/19(火) 13:00-14:30：<br />
+    <table><tr>
+    <td><img src="./images/Dr.Heroux.jpg" style="float:left" height="150" alt="顔写真" /></td>
+    <td>米国サンディア国立研究所<br />
+    Michael Heroux 氏<br />
+    <a href="./download/ACSI2016-InvitedTalk.pdf">"Strategies for Next Generation HPC Applications and Systems"</a><br />
+    <p>
+The extreme-scale computing community is several years into a highly disruptive period of change.  New commodity performance curves must be incorporated into application designs, and the orders of magnitude in performance potential will increase the demand to couple physics and scales into a single integrated execution environment.<br />
+
+In this talk we discuss several aspects of next-generation scientific and engineering applications that will be particularly challenging and easy as we prepared for new systems.  We touch on application design, parallel programming strategies, software distribution and resiliency, and introduce how a productivity focus can provide new approaches to better applications.
+    </p>
+    </td>
+    </tr></table>
+    </li>
+ </ul>
+ </li>
+<li> チュートリアル
+<ul>
+
+ <li> <a id="T1">チュートリアル1</a>
+ <br />1/19(火) 9:15-10:45：<br />
+    <table><tr>
+    <td><img src="./images/fujisawa.jpg" style="float:left" height="150" alt="顔写真" /></td>
+    <td>九州大学<br />
+    藤澤 克樹 先生<br />
+   「<a href="./download/ACSI2016-tutorial1.pdf">高速かつ省電力なグラフ解析とその実応用</a>」 <br />
+<p>
+新しいスーパーコンピュータの応用として大規模なグラフ解析が注目を集めている. グラフ解析の応用分野としては大規模災害等での避難誘導計画，社会公共政策や企業経営等のためソーシャル・ネットワーク等の大規模データの有効活用等が想定されているが, 非常に計算量やデータ量さらに電力使用量などの規模が大きく従来の手法では処理が困難である. そのためハイパフォーマンスコンピューティング分野の技術を用いて大規模なグラフ解析を行う研究がさかんに行われており, その中からGraph500 ベンチマークを題材に高速かつ省電力なグラフ解析ソフトウェアの開発方法について解説を行う. 現在、サイバーフィジカルシステムにおいて、ヒト・モノのモビリティに関する数理モデル及び最適化手法としてもグラフ解析の利用が開始されている。このような最先端理論（Algorithm Theory）+ 大規模実データ（BigData）+ 最新計算技術（Computation）の有機的な組合せによる最新のグラフ解析の応用についても紹介を行う．
+</p>
+    </td>
+    </tr></table>
+</li>
+ <li> <a id="T2">チュートリアル2</a>
+    <br />1/20(水) 13:45-15:15：<br />
+    <table><tr>
+    <td><img src="./images/okatani.png" style="float:left" height="150" alt="顔写真"/></td>
+    <td>
+    東北大学<br />
+    岡谷 貴之 先生<br />
+「<a href="./download/ACSI2016-tutorial2.pdf">深層学習とその画像認識への応用に関する最近の研究動向</a>」<br />
+    <p>
+画像認識は深層学習がこれまで最も成功した問題であると言える．画像に写る物体の種類を認識する問題を筆頭に，画像認識の数々のタスクにおいて，従来法に比べ圧倒的に高い認識性能を実現している．これまで難しかった画素単位での物の認識（セグメンテーション）や，画像のコンテンツを文章で記述する問題も，今や現実的になりつつある．この他にも深層学習を使った画像の生成のように，応用の拡大も早いペースで進んでいる．本チュートリアルでは，深層学習の基礎から始め，応用を中心とした最近の研究の進展を解説する．
+</p>
+    </td>
+    </tr></table>
+ </li>
+ </ul>
+ </li>
+</ul>
+
+<h4><a id="E1"><a id="E2">企業・団体展示（中ホール１）</a></a></h4>
+<p>
+1/18(月) 13:30--18:00，1/19(火) 9:15--20:00の間，常時展示．<br />
+展示紹介のためのインデキシング を2日目午後に予定しております．
+</p>
+<p>
+参加企業・団体一覧（敬称略）<br />
+詳細は<a href="./exhibit.html.ja">ACSIS2016 企業・団体展示</a>参照．
+<ul>
+<li>アマゾン ウェブ サービス ジャパン株式会社</li>
+<li>株式会社データダイレクト・ネットワークス・ジャパン</li>
+<li>Allinea Software株式会社</li>
+<li>日本電気株式会社</li>
+<li>株式会社 日立製作所</li>
+<li>富士通株式会社</li>
+</ul>
+</p>
+
+<h4><a id="L1">スポンサード・ランチ・セッション</a></h4>
+<p>
+1/19(火) 12:00--13:00．<br />
+2日目の昼に，アマゾン ウェブ サービス ジャパン株式会社によるスポンサード・ランチ・セッションを予定しております．
+</p>
+
+<h4><a id="session">セッション構成</a></h4>
+<table border="1" cellpadding="3">
+
+<!-- program_table_start -->
+<tr><th class="programday" align="center" colspan="6"><a href="#DAY1">─── 1/18(月) ───</a></th></tr>
+<tr><th style="width:10%;">時間</th><th style="width:30%;">大ホール</th><th style="width:30%;">中ホール２</th><th style="width:30%;">中ホール１</th></tr> 
+
+<tr><td>13:30-14:00</td> <td><a href="#O1">オープニング </a></td> <td rowspan="3" class="notused"></td> <td rowspan="2"><a href="./exhibit.html.ja">企業・団体展示</a></td></tr>
+<tr><td>14:00-15:30</td> <td><a href="#F1">基調講演 <br />「都市OSの構築に向けて」<br />安浦 寛人 (九州大学) </a></td> </tr>
+<tr><td>15:30-16:00</td> <td class="notused"></td> <td class="breaktime">コーヒーブレイク・<a href="./exhibit.html.ja">企業・団体展示</a></td></td></tr>
+<tr><td>16:00-18:00</td> <td><a href="#S4">[1A] numerical analysis and performance tuning </a></td> <td><a href="./program_GHPC.html.ja">[1B]Organized Session "Green HPC"</a> (--17:30) </td> <td><a href="./exhibit.html.ja">企業・団体展示</a></td></tr>
+<tr><th class="programday" align="center" colspan="6"><a href="#DAY2">─── 1/19(火) ───</a></th></tr>
+<tr><th style="width:10%;">時間</th><th style="width:30%;">大ホール</th><th style="width:30%;">中ホール２</th><th style="width:30%;">中ホール１</th></tr> 
+
+<tr><td>9:15-10:45</td> <td><a href="#T1">チュートリアル1 <br />「高速かつ省電力なグラフ解析とその実応用」<br />藤澤 克樹 (九州大学) </a></td> <td rowspan="2" class="notused"></td> <td><a href="./exhibit.html.ja">企業・団体展示</a></td></tr>
+<tr><td>10:45-11:00</td> <td class="notused"></td> <td class="breaktime">コーヒーブレイク・<a href="./exhibit.html.ja">企業・団体展示</a></td></td></tr>
+<tr><td>11:00-12:00</td> <td><a href="./program_VLIS.html.ja">[2A]JHPCN Organized Session "Very large-scale information systems"</a> </td> <td><a href="#S3">[2B] task scheduling </a></td> <td rowspan="3"><a href="./exhibit.html.ja">企業・団体展示</a></td></tr>
+<tr><td>12:00-13:00</td> <td colspan="2" style="text-align:center;" class="breaktime"><a href="#L1">スポンサード・ランチ・セッション</a>／昼休み</td></td> </tr>
+<tr><td>13:00-14:30</td> <td><a href="#I1">招待講演 <br />Strategies for Next Generation HPC Applications and Systems<br />Michael Heroux (米国サンディア国立研究所) </a></td> <td rowspan="2" class="notused"></td> </tr>
+<tr><td>14:30-14:45</td> <td class="notused"></td> <td class="breaktime">コーヒーブレイク・<a href="./exhibit.html.ja">企業・団体展示</a></td></td></tr>
+<tr><td>14:45-16:15</td> <td><a href="./program_VLNC.html.ja">[3A]JHPCN Organized Session "Very large-scale numerical computation"</a> </td> <td><a href="#S10">[3B] computer system design (--15:45) </a></td> <td><a href="./exhibit.html.ja">企業・団体展示</a></td></tr>
+<tr><td>16:15-16:45</td> <td><a href="#X1">ポスター・展示インデキシング </a></td> <td rowspan="3" class="notused"></td> <td class="notused"></td></tr>
+<tr><td>16:45-18:10</td> <td rowspan="2" class="notused"></td> <td><a href="./program.html.ja#P1">ポスター</a>・<a href="./exhibit.html.ja">企業・団体展示</a> </td></tr>
+<tr><td>18:10-20:00</td> <td><a href="#D1">懇親会・<a href="./program.html.ja#P1">ポスター</a>・<a href="./exhibit.html.ja">企業・団体展示</a></a></td></tr>
+<tr><th class="programday" align="center" colspan="6"><a href="#DAY3">─── 1/20(水) ───</a></th></tr>
+<tr><th style="width:10%;">時間</th><th style="width:30%;">大ホール</th><th style="width:30%;">中ホール２</th><th style="width:30%;">中ホール１</th></tr> 
+<tr><td>9:15-10:35</td> <td><a href="#S6">[4A] parallelism </a></td> <td><a href="#S9">[4B] cloud and storage </a></td> <td rowspan="2" class="breaktime">コーヒーブレーク会場</td></td></tr>
+<tr><td>10:35-10:50</td> <td colspan="2" style="text-align:center;" class="notused"></td> </tr>
+<tr><td>10:50-12:20</td> <td><a href="#S1">[5A] performance evaluation and testing </a></td> <td><a href="#S8">[5B] storage and cloud (--12:10) </a></td> <td rowspan="6" class="notused"></td></tr>
+<tr><td>12:20-13:45</td> <td colspan="2" style="text-align:center;" class="breaktime">昼休み</td></td> </tr>
+<tr><td>13:45-15:15</td> <td><a href="#T2">チュートリアル2 <br />「深層学習とその画像認識への応用に関する最近の研究動向」<br />岡谷 貴之 (東北大学) </a></td> <td class="notused"></td> </tr>
+<tr><td>15:15-15:25</td> <td colspan="2" style="text-align:center;">ブレイク</td> </tr>
+<tr><td>15:25-16:45</td> <td><a href="#S7">[6A] communication library </a></td> <td><a href="#S2">[6B] graph analysis (--16:25) </a></td> </tr>
+<tr><td>16:45-17:00</td> <td><a href="#C1">クロージング </a></td> <td class="notused"></td> </tr>
+
+</table>
+
+<p></p>
+<h4><a id="program">プログラム</a></h4>
+<p>発表時間・・・<span class="presentation_type_long">[long]</span>: 30min, <span class="presentation_type_short">[short]</span>: 20min, <span class="presentation_type_oversea">[oversea]</span>: 30min</p>
+
+
+<!-- program_body_start -->
+<p class="date"><a id="DAY1">─── 1/18(月) ───</a></p>
+<p>13:30&sim;14:00</p>
+<ul class="program"><li><a id="O1">オープニング (Chair: Susumu Date (Osaka University))</a>
+<ul>
+<li>開会の辞<br /></li>
+<li>一般論文表彰<br /></li>
+</ul></li>
+</ul>
+<p>14:00&sim;15:30</p>
+<ul class="program"><li>基調講演  (Chair: Masahiro Yasugi (Kyushu Institute of Technology))
+<ul>
+<li>「都市OSの構築に向けて」<br />
+安浦 寛人 (九州大学)<br />
+</li>
+</ul></li>
+</ul>
+<p>16:00&sim;18:00</p>
+<ul class="program"><li><a id="S4">[1A] numerical analysis and performance tuning (Chair: Maho Nakata (RIKEN))		</a>
+<ul>
+<li><span class="papernumber">(1)</span> Variable Preconditioning of Krylov Subspace Methods for Hierarchical Matrices with Adaptive Cross Approximation <span class="presentation_type_oversea">[oversea]</span><br />
+Akihiro Ida (Kyoto University), Takeshi Iwashita (Hokkaido University), Takeshi Mifune (Kyoto University) and Yasuhito Takahashi (Doshisha University)<br />	<span class="published_">出典<span class="published">20th International Conference on the Computation of Electromagnetic Fields (Compumag 2015)</span></span><br />
+</li>
+<li><span class="papernumber">(2)</span> Parallel Iterative Solvers based on Domain Decomposition with Robust Preconditioners for Ill-conditioned Problems <span class="presentation_type_long">[long]</span><br />
+Kengo Nakajima (The University of Tokyo)<br />		</li>
+<li><span class="papernumber">(3)</span> Towards Code Selection by Auto-tuning with ppOpen-AT: An Example of Computation Kernels from FDM <span class="presentation_type_long">[long]</span><br />
+ Takahiro Katagiri, Masaharu Matsumoto and Satoshi Ohshima (The University of Tokyo/JST CREST)<br />		</li>
+<li>	<span class="award">ACSI2016 Outstanding Research Award</span>
+<br />	[28] Accelerating Tomographic Reconstruction With Efficient Interpolation <span class="presentation_type_long">[long]</span><br />
+Hiroshi Inoue (IBM Research - Tokyo/The University of Tokyo)<br /></li>
+</ul></li>
+<li><a id="K1">[1B] <a href="./program_GHPC.html.ja">Organized Session "Green HPC"</a> (--17:30) (Chair: Keiji Kimura (Waseda University))</a>
+<ul>
+<li>(K1) Approaches to the power consumption problem on the K computer<br />
+Atsuya Uno (RIKEN AICS)</li>
+<li>(K2) The Green Supercomputer, "Shoubu" and "Suiren" MIMD Manycore Processor based, Immersion Liquid Cooled HPC System - Now and Feature -<br />
+Sunao Torii (ExaScaler)</li>
+<li>(K3) Challenges in Power Constrained High Performance Computing<br />
+Koji Inoue, Yuichi Inadomi and Takatsugu Ono (Kyushu University)</li>
+</ul></li>
+</ul>
+<p class="date"><a id="DAY2">─── 1/19(火) ───</a></p>
+<p>9:15&sim;10:45</p>
+<ul class="program"><li>チュートリアル1  (Chair: Toshihiro Hanawa (The University of Tokyo))
+<ul>
+<li>「高速かつ省電力なグラフ解析とその実応用」<br />
+藤澤 克樹 (九州大学)<br />
+</li>
+</ul></li>
+</ul>
+<p>11:00&sim;12:00</p>
+<ul class="program"><li><a id="J1">[2A] <a href="./program_VLIS.html.ja">JHPCN Organized Session "Very large-scale information systems"</a> (Chair: Yoshiki Sato (The University of Tokyo))</a>
+<ul>
+<li>(K4) Verifying effectiveness of packet pacing on large-scale parallel programs by simulation<br />
+Hidetomo Shibamura (Institute of Systems, Information Technologies and Nanotechnologies)</li>
+<li>(K5) A Framework for Jointing Computation Center with User-Level Management System<br />
+Hideyuki Jitsumoto (Tokyo Institute of Technology)</li>
+</ul></li>
+<li><a id="S3">[2B] task scheduling (Chair: Koji Inoue (Kyushu University)) 		</a>
+<ul>
+<li><span class="papernumber">(4)</span> The Scalable Petascale Data-Driven Approach for the Cholesky Factorization with multiple GPUs <span class="presentation_type_oversea">[oversea]</span><br />
+Yuki Tsujita, Toshio Endo (Tokyo Institute of Technology/JST CREST) and Katsuki Fujisawa (Kyushu University/JST CREST)<br />	<span class="published_">出典<span class="published">First International Workshop on Extreme Scale Programming Models and Middleware (ESPM2 2015)</span></span><br />
+</li>
+<li><span class="papernumber">(5)</span> Energy-Efficient Continuous Task Scheduling for Near Real-time Periodic Tasks <span class="presentation_type_oversea">[oversea]</span><br />
+Takashi Nakada, Hiroyuki Yanagihashi (The University of Tokyo), Hiroshi Ueki, Takashi Tsuchiya, Masanori Hayashikoshi (Renesas Electronics Corporation), and Hiroshi Nakamura (The University of Tokyo)<br />	<span class="published_">出典<span class="published">IEEE International Conference on Internet of Things</span></span><br />
+</li>
+</ul></li>
+</ul>
+<p>13:00&sim;14:30</p>
+<ul class="program"><li>招待講演  (Chair: Takeshi Iwashita (Hokkaido University))
+<ul>
+<li>Strategies for Next Generation HPC Applications and Systems<br />
+Michael Heroux (米国サンディア国立研究所)<br />
+</li>
+</ul></li>
+</ul>
+<p>14:45&sim;16:15</p>
+<ul class="program"><li><a id="J2">[3A] <a href="./program_VLNC.html.ja">JHPCN Organized Session "Very large-scale numerical computation"</a> (Chair: Kengo Nakajima (The University of Tokyo))</a>
+<ul>
+<li>(K6) High-resolution Weather Prediction Code based on High-productivity Framework for Multi-GPU computation<br />
+Takashi Shimokawabe (Tokyo Institute of Technology)</li>
+<li>(K7) Development of numerical optimization tool for polycrystalline metallic microstructure control by using multi-phase-field method<br />
+Akinori Yamanaka (Tokyo University of Agriculture and Technology)</li>
+<li>(K8) Interaction between a huge number of micro particles with internal degrees of freedom and turbulent mixing<br />
+Toshiyuki Gotoh (Nagoya Institute of Technology)</li>
+</ul></li>
+<li><a id="S10">[3B] computer system design (--15:45) (Chair: Takashi Nakada (The University of Tokyo))		</a>
+<ul>
+<li><span class="papernumber">(6)</span> Compact and Accurate Stochastic Circuits with Shared Random Number Sources <span class="presentation_type_oversea">[oversea]</span><br />
+Hideyuki Ichihara, Shota Ishi, Daiki Sunamori, Tsuyoshi Iwagaki and Tomoo Inoue (Hiroshima City University)<br />	<span class="published_">出典<span class="published">The 32nd IEEE International conference on computer design (ICCD)</span></span><br />
+</li>
+<li><span class="papernumber">(7)</span> Skywalk: a Topology for HPC Networks with Low-delay Switches <span class="presentation_type_oversea">[oversea]</span><br />
+Ikki Fujiwara, Michihiro Koibuchi (National Institute of Informatics), Hiroki Matsutani (Keio University) and Henri Casanova (University of Hawai`i at Manoa)<br />	<span class="published_">出典<span class="published">The 28th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2014)</span></span><br />
+</li>
+</ul></li>
+</ul>
+<p>16:15&sim;16:45</p>
+<ul class="program"><li><a id="X1">ポスター・展示インデキシング (Chair: Koji Inoue (Kyushu University))</a>
+<ul>
+</ul></li>
+</ul>
+<p>16:45&sim;18:10</p>
+<ul class="program"><li><a id="P1"><a href="./program.html.ja#P1">ポスター</a>・<a href="./exhibit.html.ja">企業・団体展示</a> (Chair: Koji Inoue (Kyushu University))</a>
+<ul>
+<li><span class="posternumber">(P01)</span> Designing a superdense ground-based camera network for airglow imaging<br />Shin Suzuki (Aichi University)<br /></li>
+<li><span class="posternumber">(P02)</span> Flexible Virtual Computing Platform on Clouds for Scientific Workflows<br />Kai Liu, Kento Aida, Shigetoshi Yokoyama and Yoshinobu Masatani (National Institute of Informatics)<br /></li>
+<li><span class="posternumber">(P03)</span> Comprehensive Comparison of Power-Performance Efficiency on Accelerators<br />Keitaro Oka, Yuichi Inadomi, Takatsugu Ono and Koji Inoue (Kyushu University)<br /></li>
+<li><span class="posternumber">(P04)</span> Literate Computing for Reproducible Infrastructure<br />Yoshinobu Masatani, Shigetoshi Yokoyama, Nobukazu Yoshioka and Kento Aida (National Institute of informatics)<br /></li>
+<li><span class="posternumber">(P05)</span> Preliminary Estimation on Automating Multi-dimensional Data Decomposition for Multi-GPU Systems<br />Ryotaro Sakai, Fumihiko Ino and Kenichi Hagihara (Osaka University)<br /></li>
+<li><span class="posternumber">(P06)</span> Large-scale TSUNAMI simulation on New Earth Simulator<br />Yoshiyuki Imato, Masanobu Ishibashi (JAMSTEC), Toshitaka Baba (The University of Tokushima), Kazuto Ando, Hitoshi Uehara (JAMSTEC) and Toshihiro Kato (NEC corporation)<br /></li>
+<li><span class="posternumber">(P07)</span> Filter diagonalization method for a real symmetric definite GEVP whose filter is a polynomial of a resolvent<br />Hiroshi Murakami (Tokyo Metropolitan University)<br /></li>
+<li><span class="posternumber">(P08)</span> NSIM-ACE: A Simulator for Evaluating RDMA on Interconnection Networks<br />Ryutaro Susukita, Yoshiyuki Morie, Takeshi Nanri (Kyushu University) and Hidetomo Shibamura (ISIT)<br /></li>
+<li><span class="posternumber">(P09)</span> Memory Control Technique of the Point‐to‐Point Communication<br />Takeshi Soga (ISIT) and Takeshi Nanri (Kyushu University)<br /></li>
+<li><span class="posternumber">(P10)</span> Utilization and Expansion of ppOpen-AT for OpenACC<br />Satoshi Ohshima, Takahiro Katagiri and Masaharu Matsumoto (The University of Tokyo)<br /></li>
+<li><span class="posternumber">(P11)</span> Performance Evaluation of Verified Computation for Linear Systems on Parallel Computers<br />Yusuke Morikura (Waseda University), Daichi Mukunoki (RIKEN), Takeshi Fukaya (Hokkaido University), Naoya Yamanaka (Teikyo Heisei University) and Shin'ichi Oishi (Waseda University)<br /></li>
+<li><span class="posternumber">(P12)</span> Development of GPU-accelerated Fragment Molecular Orbital Program<br />Hiroaki Umeda (University of Tsukuba), Toshihiro Hanawa (The University of Tokyo), Mitsuo Shoji, Taisuke Boku and Yasuteru Shigeta (University of Tsukuba)<br /></li>
+<li><span class="posternumber">(P13)</span> Consolidating memory locality information obtained from static and dynamic analysis of code for performance tuning in source code<br />Yukinori Sato and Toshio Endo (Tokyo Institute of Technology)<br /></li>
+<li><span class="posternumber">(P14)</span> Low-latency Data Flow Management for Heterogeneous Systems<br />Yusuke Fujii, Shunsuke Kurumatani, Hiroyuki Takahashi and Toshio Hitaka (NTT Software Innovation Center)<br /></li>
+<li><span class="posternumber">(P15)</span> Towards Parallel Graph Mining in Distributed Memory Environments using Task-Parallel Language Tascell<br />Shingo Okuno, Tasuku Hiraishi, Hiroshi Nakashima (Kyoto University), Masahiro Yasugi (Kyushu Institute of Technology) and Jun Sese (National Institute of Advanced Industrial Science and Technology)<br /></li>
+<li><span class="posternumber">(P16)</span> Architecture of Controlling Network and Virtualized Computational Resources on SDN-enhanced Job Management System Framework<br />Yasuhiro Watashiba (Nara Institute of Science and Technology), Masaharu Shimizu, Susumu Date (Osaka University), Hirotake Abe (University of Tsukuba), Yoshiyuki Kido (Osaka University), Kohei Ichikawa (Nara Institute of Science and Technology), Hiroaki Yamanaka, Eiji Kawai (National Institute of Information and Communications Technology) and Shinji Shimojo (Osaka University)<br /></li>
+</ul></li></ul>
+<p>18:10&sim;20:00</p>
+<ul class="program"><li><a id="D1">懇親会・<a href="./program.html.ja#P1">ポスター</a>・<a href="./exhibit.html.ja">企業・団体展示</a></a>
+<ul>
+</ul></li></ul>
+<p class="date"><a id="DAY3">─── 1/20(水) ───</a></p>
+<p>9:15&sim;10:35</p>
+<ul class="program"><li><a id="S6">[4A] parallelism (Chair: Osamu Tatebe (University of Tsukuba))		</a>
+<ul>
+<li>	<span class="award">ACSI2016 Outstanding Student Research Award</span>
+<br />	[27] Autotuning for Task Parallel Programs <span class="presentation_type_long">[long]</span><br />
+Shintaro Iwasaki and Kenjiro Taura (The University of Tokyo)<br /></li>
+<li><span class="papernumber">(8)</span> An MPI-based Implementation of the Tascell Task-Parallel Programming Language <span class="presentation_type_short">[short]</span><br />
+Daisuke Muraoka, Masahiro Yasugi (Kyushu Institute of Technology),  Tasuku Hiraishi and Seiji Umatani (Kyoto University)<br />		</li>
+<li><span class="papernumber">(9)</span> Preliminary Evaluations of Probabilistic Guards for a Work-Stealing Framework <span class="presentation_type_long">[long]</span><br />
+Hiroshi Yoritaka (Kyushu Institute of Technology), Ken Matsui (Kyoto University), Masahiro Yasugi (Kyushu Institute of Technology), Tasuku Hiraishi and Seiji Umatani (Kyoto University)<br />		</li>
+</ul></li>
+<li><a id="S9">[4B] cloud and storage (Chair: Kenichi Kourai (Kyushu Institute of Technology)) 		</a>
+<ul>
+<li><span class="papernumber">(10)</span> Middleware for Building Virtual Resources on Inter-Cloud <span class="presentation_type_short">[short]</span><br />
+Shigetoshi Yokoyama, Yoshinobu Masatani (National Institute of Informatics), Tazro Ohta (Database Center for Life Science), Osamu Ogasawara (National Institute of Genetics), Nobukazu Yoshioka and Kento Aida (National Institute of Informatics)<br />		</li>
+<li><span class="papernumber">(11)</span> Characterizing Storage Traffic of Virtual Desktop Infrastructure on Enterprise Network <span class="presentation_type_long">[long]</span><br />
+Chunghan Lee, Naoto Fukumoto, Hiroshi Endo, Mariko Sugawara, Tatsuma Matsuki and Tatsuo Kumano (Fujitsu Laboratories Ltd. )<br />		</li>
+<li><span class="papernumber">(12)</span> RDMA-based Direct Transfer of File Data to Remote Page Cache <span class="presentation_type_oversea">[oversea]</span><br />
+Shin Sasaki, Kazushi Takahashi, Yoshihiro Oyama (The University of Electro-Communications) and Osamu Tatebe (University of Tsukuba)<br />	<span class="published_">出典<span class="published">2015 IEEE International Conference on Cluster Computing (IEEE Cluster 2015)</span></span><br />
+</li>
+</ul></li>
+</ul>
+<p>10:50&sim;12:20</p>
+<ul class="program"><li><a id="S1">[5A] performance evaluation and testing (Chair: Kenjiro Taura (The University of Tokyo)) 		</a>
+<ul>
+<li><span class="papernumber">(13)</span> Metrics for evaluation of parallel efficiency toward highly parallel processing <span class="presentation_type_oversea">[oversea]</span><br />
+ Shigeo Orii (Tokai University)<br />	<span class="published_">出典<span class="published">Parallel Computing, 36(1), January, 2010.</span></span><br />
+</li>
+<li><span class="papernumber">(14)</span> A Proper Performance Evaluation System That Summarizes Code Placement Effects <span class="presentation_type_oversea">[oversea]</span><br />
+Masahiro Yasugi (Kyushu Institute of Technology), Yuki Matsuda (Kyoto University) and Tomoharu Ugawa (Kochi University of Technology)<br />	<span class="published_">出典<span class="published">The 11th ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering (PASTE '13)</span></span><br />
+</li>
+<li><span class="papernumber">(15)</span> Calculation Coverage Testing in Scientific Applications <span class="presentation_type_oversea">[oversea]</span><br />
+Yoshiki Sato, Shumpei Hozumi and Shigeru Chiba (The University of Tokyo)<br />	<span class="published_">出典<span class="published">The 2015 International Symposium on Software Testing and Analysis (ISSTA 2015)</span></span><br />
+</li>
+</ul></li>
+<li><a id="S8">[5B] storage and cloud (--12:10) (Chair: Yusuke Tanimura (National Institute of Advanced Industrial Science and Technology))		</a>
+<ul>
+<li><span class="papernumber">(16)</span> Design of object storage using OpenNVM for high-performance distributed file system <span class="presentation_type_long">[long]</span><br />
+Fuyumasa Takatsu, Kohei Hiraga and Osamu Tatebe (University of Tsukuba)<br />		</li>
+<li><span class="papernumber">(17)</span> VIMM: a New Instance Management Method for Supporting OpenStack on Hitachi Server Virtualization <span class="presentation_type_long">[long]</span><br />
+ Cheng Luo, Toshiomi Moriki and Takayuki Imada (Hitachi, Ltd.)<br />		</li>
+<li><span class="papernumber">(18)</span> Efficient Write Ahead Logging with Parallel Write <span class="presentation_type_short">[short]</span><br />
+Komei Kamiya, Hideyuki Kawashima and Osamu Tatebe (University of Tsukuba)<br />		</li>
+</ul></li>
+</ul>
+<p>13:45&sim;15:15</p>
+<ul class="program"><li>チュートリアル2  (Chair: Yoshihiro Oyama (The University of Electro-Communications))
+<ul>
+<li>「深層学習とその画像認識への応用に関する最近の研究動向」<br />
+岡谷 貴之 (東北大学)<br /><br />
+</li>
+</ul></li>
+</ul>
+<p>15:25&sim;16:45</p>
+<ul class="program"><li><a id="S7">[6A] communication library (Chair: Ryousei Takano (National Institute of Advanced Industrial Science and Technology)) 		</a>
+<ul>
+<li><span class="papernumber">(19)</span> Evaluation of On-Demand Message-Passing Module over RDMA Network <span class="presentation_type_short">[short]</span><br />
+Takeshi Nanri (Kyushu University) and Takeshi Soga (ISIT Kyushu)<br />		</li>
+<li>	<span class="award">ACSI2016 Outstanding Research Award</span>
+<br />	[24] A proposal of GMPI: GPU self MPI for GPU clusters <span class="presentation_type_long">[long]</span><br />
+Yuta Kuwahara (University of Tsukuba), Toshihiro Hanawa (The University of Tokyo) and Taisuke Boku (University of Tsukuba)<br /></li>
+<li><span class="papernumber">(20)</span> ACPdl: Data-Structure and Global Memory Allocator Library over a Thin PGAS-Layer <span class="presentation_type_oversea">[oversea]</span><br />
+Yuichiro Ajima, Takafumi Nose, Kazushige Saga, Naoyuki Shida and Shinji Sumimoto (Fujitsu Limited)<br />	<span class="published_">出典<span class="published">First International Workshop on Extreme Scale Programming Models and Middleware (ESPM2 2015)</span></span><br />
+</li>
+</ul></li>
+<li><a id="S2">[6B] graph analysis (--16:25) (Chair: Daisuke Takahashi (University of Tsukuba))		</a>
+<ul>
+<li><span class="papernumber">(21)</span> Efficient Use of Hardware Transactional Memory for Parallel Mesh Generation <span class="presentation_type_oversea">[oversea]</span><br />
+Tetsu Kobayashi, Shigeyuki Sato and Hideya Iwasaki (The University of Electro-Communications)<br />	<span class="published_">出典<span class="published">The 44th International Conference on Parallel Processing (ICPP 2015)</span></span><br />
+</li>
+<li><span class="papernumber">(22)</span> Interactive high-dimensional visualization of social graphs <span class="presentation_type_oversea">[oversea]</span><br />
+Ken Wakita  (Tokyo Institute of Technology/ JST CREST), Masanori Takami (Tokyo Institute of Technology) and Hiroshi Hosobe (Hosei University)<br />	<span class="published_">出典<span class="published">The 8th IEEE Pacific Visualization Symposium (PacificVis 2015)</span></span><br />
+</li>
+</ul></li>
+</ul>
+<p>16:45&sim;17:00</p>
+<ul class="program"><li><a id="C1">クロージング (Chair: Takeshi Nanri (Kyushu University))</a>
+<ul>
+<li>ポスター表彰<br /></li>
+<li>閉会の辞<br /><br /></li>
+</ul></li>
+</ul>
+
+<h4>NOTICE</h4>
+ACSI2016 does not publish any proceedings. ACSI2016 gives researchers
+an opportunity to get feedback from the attendees of ACSI2016 without
+precluding publication of their work elsewhere. ACSI2016 also gives
+the opportunity as presentations of oversea publication.
+</div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2006.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2006 Exhibits</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2006_NAVIGATION@@-->
+
+<div class="main">
+
+<h1>SACSIS 2006 企業展示 (50音順) </h1>
+
+<hr />
+<h3>株式会社アイダックス</h3>
+<h4>HPCへのFPGAの応用</h4>
+
+信号処理、流体力学、バイオ等の応用例
+
+<hr />
+<h3>EMCジャパン株式会社</h3>
+<h4>EMCジャパン株式会社の紹介</h4>
+EMCジャパン株式会社の紹介
+
+
+<hr />
+<h3>住商情報システム株式会社</h3>
+<h4>InfiniBand（OpenIB）とグリッド・メタスケジュラーのソリューション</h4>
+OpenIB(OpenFabric)に対応した InfiniBand Fabricの通信性能をマキシマイズす
+る「InfiniPath」 インターコネクトの展示ご紹介。また、LSF、PBSpro、SGE等
+の複数のローカルスケジュラーに対応したヘテロジニアスなグリッド環境を実現
+するメタスケジュラー 「HPC Synergy」をご紹介いたします。
+
+
+<hr />
+<h3>大日本印刷株式会社</h3>
+<h4>PCグリッドコンピューティング「AD-POWERs」</h4>
+C言語、VB言語、Excelマクロ、MATLAB言語による開発が可能なPCグリッドコンピューティング用ソフト「AD-POWERs」のデモ展示を行う。また複数ディスプレイを仮想連結した「DisplayGrid」を参考出展する。
+
+
+<hr />
+<h3>東京エレクトロンデバイス株式会社</h3>
+<h4>ザイリンクス社FPGAをコアとしたアカデミックソリューションとデザインサービスおよび開発事例</h4>
+FPGAトップメーカーザイリンクス社のトップ代理店として、最新のデバイス、開発ツール、評価ボードをご提供します。また、デザインサービスメニューとして、高速シリアル通信ボード開発、大規模FPGA設計などを最新FPGA技術を駆使した形でご提供します。
+
+<hr />
+<h3>西日本電信電話株式会社</h3>
+<h4>NTT西日本のグリッドサービス『ひかりグリッド』</h4>
+グリッドシステムや計算リソースを自ら保有すること無く、ネットワーク経由で、必要な期間、必要な計算能力を低コストで利用可能なグリッドサービス『ひかりグリッド』を平成17年12月より提供しております。NTT西日本のフレッツ光ユーザのパソコンのCPU,HDD等の余剰能力を集約する事でスーパーコンピュータ並の計算処理能力を実現し、ご提供いたします。本サービスのご利用により、計算処理時間を大幅に短縮させる事が可能となります
+
+<hr />
+<h3>日商エレクトロニクス</h3>
+<h4>InfiniBand「TOPSPIN」およびClearSpeed Advance アクセラレータボード</h4>
+InfiniBand「TOPSPIN」およびClearSpeed　Advance　アクセラレータボードのご紹介
+
+<hr />
+<h3>日本アイ・ビー・エム株式会社</h3>
+<h4>CELL　Blade Engine & Blue Gene</h4>
+革新的なアーキテクチャーをもつCell Broadband Engine は、256GFlopsにも達する驚異的な高速並列処理によりリアルタイムメディア処理をはじめとする様々な分野においてイノベーションの実現に貢献します。Blue Geneはスーパーコンピューターリストで1位にランクされるIBMスーパーコンピューティングの最高峰で圧倒的なパフォーマンスのウルトラスケーラブルコンピューティングを実現します。
+
+<hr />
+<h3>日本電気株式会社</h3>
+<h4>日本電気株式会社の紹介</h4>
+日本電気株式会社の紹介
+
+
+<hr />
+<h3>日本ビジュアルニューメリックス株式会社</h3>
+<h4>数値計算・統計解析用ソフトIMSLライブラリご紹介</h4>
+Fortran, C, Java(TM)言語、および.NET Frameworkに対応したIMSLライブラリ製品の特長や利点、様々な分野における使用事例、およびニューラルネットワークや線形計画法（LP）を含む最新版で追加された機能などを紹介いたします
+
+<hr />
+<h3>日本ヒューレット・パッカード株式会社</h3>
+<h4>HP　XCクラスタとHP SFS(HP StorageWorks Scalable File Share)</h4>
+HP XCクラスタは、シングルシステムをスケーラブルにシンプルに結合し、Linuxベースのハイパフォーマンスコンピューティングのための使い勝手と生産性の向上を、前例のないレベルで提供します。 HP StorageWorks Scalable File Share(SFS)は、Lustre(tm)技術に基づいたクラスタシステム用高性能ファイルシステム。Linuxクラスタのために強力な高帯域幅を実現できるスケーラブルなストレージソリューションを提供します。
+
+<hr />
+<h3>ビジュアルテクノロジー株式会社</h3>
+<h4>快適でユーザーフレンドリーなHPCプラットフォーム</h4>
+新たにシステムの使用方法やコマンドを覚えることは最小限におさえ、真にユーザーフレンドリーでユーザーにとってより利用しやすいHPCプラットフォームをご提供すべく、ビジ ュアルテクノロジーでは、日頃使い慣れたWindowsベースで新規リリースされるWindows CCSプラットホーム製品をいち早くユーザーフレンドリーなエントリークラスタモデルとしてご紹介をさせて頂きます。
+
+<hr />
+<h3>株式会社日立製作所</h3>
+<h4>SR1100及びBladeSymphonyのご紹介</h4>
+弊社でのHPC分野向け製品であるSR11000及び、大規模スケールアウト環境に対応したBladeSymphonyをご紹介いたします。
+
+<hr />
+<h3>ファウンドリーネットワークスジャパン株式会社</h3>
+<h4>ファウンドリーネットワークスのプロダクツ紹介</h4>
+ファウンドリーネットワークスのプロダクツ紹介
+
+<hr />
+<h3>富士通株式会社</h3>
+<h4>超高速PCクラスタプラットフォーム　Fujitsu High Performance Linux Cluster</h4>
+富士通のPCクラスタに関する取り組みをご紹介いたします。
+
+<hr />
+<h3>株式会社ベストシステムズ</h3>
+<h4>Hyper Blade / Xtreme Blade</h4>
+HyperBlade:クラスタ管理ソフトウェアを標準搭載したクラスタ専用に設計したノード縦置型システムです。 XtremeBlade:最新CPU、大容量Memory/HDD、高速Inter connect　および、省スペースの全てのニーズに対応したブレード型PCクラスタシステムです。
+
+<hr />
+<h3>マイクロソフト株式会社</h3>
+<h4>国内HPC市場への取り組みとWindows Compute Cluster Server 2003紹介</h4>
+全ての科学者、技術者、あらゆる企業にHPCを提供することを目指した日本での活動内容をご紹介します。また、今年夏にリリース予定の製品概要についてご紹介致します。
+
+
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

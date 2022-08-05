@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "SACSIS2009 Award Winners"
+AuthUserFile /usr/local/PHASE/WWW/data/sacsis/2009/photo_album/award_winner/.htpasswd
+AuthGroupFile /dev/null
+Require user hyosyo2009

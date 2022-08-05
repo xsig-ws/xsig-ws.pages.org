@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      
+
+      <h4>お問い合わせ</h4>
+
+      acsi2016 <span> "at" </span> acsi "dot" hpcc "dot" jp
+
+      <p>
+	ACSI2016 の組織委員会は<a href="committee.html.ja">こちら</a>
+      </p>
+
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

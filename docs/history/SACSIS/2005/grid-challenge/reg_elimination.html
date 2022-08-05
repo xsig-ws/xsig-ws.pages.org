@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+<link rel="STYLESHEET" href="misc/grichal.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<title>Grid Challenge in SACSIS 2005</title>
+</head>
+
+<body>
+<table class="main" >
+<tr>
+<td colspan="2" class="title">
+
+<center>
+<img src="misc/title.png" />
+</center>
+<h1>Grid Challenge in SACSIS 2005</h1>
+</td>
+</tr>
+
+<tr>
+<td class="main">
+<h2>GCF環境でのプログラムのコンパイルとリンク方法</h2>
+<div>
+<p>
+予選の出題APIは、予選開始時刻に、各クラスタのコンパイルノードの
+</p>
+<dl>
+<dt>C言語版
+<dd>
+<ul>
+<li>~tau/local/Linux/include/grid_challenge_api.h (ヘッダ)
+<li>~tau/local/Linux/lib/libgrch.a (ライブラリ)
+<li>~tau/local/Linux/lib/libcrypto.a (暗号化ライブラリ)
+</ul>
+<dt>Java版
+<dd>
+<ul><li>~tau/local/Linux/lib/grch.jar</ul>
+</dl>
+<p>
+に置かれる。参加者はこのAPIをリンク(C言語版)、
+もしくはclasspassを設定(Java版)して用いること。
+</p>
+<p>
+C言語版におけるlibcrypto.aはOpenSSLに付属のものであるため、
+標準的なパス(/usr/libや/usr/local/ssl/libなど)にもすでにインストール
+されている可能性がある。その場合はどちらを利用しても構わない。
+</p>
+</div>
+<h2>解答の提出先と方法</h2>
+<div>
+<p>
+規定課題予選は初級部門と上級部門の2つがある。
+初級部門の問題番号は11〜15、上級部門は11〜20である。
+</p>
+<p>
+参加者は、それぞれの問題の正解時にライブラリが出力する証明文、
+</p>
+<blockquote>
+[Grid Challenge] &lt&lt Correct, prob 11, 3.0sec, at Sun Jan 30 21:13:55 2005. / key = jjbmanchhejjhkjgbeplgehkpnenljba &gt&gt
+</blockquote>
+<p>
+のように"&lt&lt "と"&gt&gt "でくくられた出力行を、
+解答すべき全ての問題(初級は5問、上級は10問)について集め、
+grid-challenge-secretary@logos.ic.i.u-tokyo.ac.jpまで
+メールで提出しなければならない。
+提出の際は、各証明文に余分な改行や編集が入らないよう、
+添付テキストファイルとしてメールすること。
+メールの例は以下の通り。
+</p>
+<pre>
+To: grid-challenge-secretary@logos.ic.i.u-tokyo.ac.jp
+Subject: grch000 初級 解答提出
+---
+チーム名: grch000
+初級部門の解答です。
+
+<以下はインラインではなく添付文書とする>
+[Grid Challenge] << Correct, prob 11, 3.0sec, at Sun Jan 30 21:13:55 2005. / key = bmjjanchhejjhkjgbeplgehkpnenljba >>
+[Grid Challenge] << Correct, prob 12, 3.2sec, at Sun Jan 30 21:19:57 2005. / key = jjbmaneplgehkpnenlchhejjhkjgbjba >>
+…
+[Grid Challenge] << Correct, prob 15, 3.8sec, at Sun Jan 30 22:07:37 2005. / key = neenjjbmalchplgehkpnhejjhkjgbjba >>
+</pre>
+<p>
+なお、結果提出はなるべく速やかに、
+最後の結果が出てから遅くとも一日以内に行なうこと(結果を順次確定していくため)。
+上級部門の10問を正解した参加者は、
+10問分の正解証明文を集めたメールと、初級用の5問の正解証明文を集めたメールの
+つごう2通を別々に提出すること。
+</p>
+<p>
+初級部門への挑戦と上級部門への挑戦は任意の順序で行なって良く、
+両方の部門へ挑戦しても良い。挑戦する部門に関して事前の申請は必要ない。
+両部門に挑戦する場合、問題番号11〜15は同じ問題を解答することになるが、
+提出する実行結果は初級と上級で同じものでよい。
+</p>
+</div>
+<h2>順位決定方法と本選への流れ</h2>
+<div>
+<p>
+初級、上級それぞれの部門において、より早く最後の問題を解き終えた参加者を
+上位として順位づけを行なう。
+</p>
+<p>
+ただし、解き終えた時刻の差が1分未満である場合は同時刻とみなす。
+同時刻判定は以下のように行なう。
+</p>
+<ul>
+<li> 最も早い解答記録から1分未満の解答を同時刻であると決定する。
+<li> 同時刻判定されなかった記録の中で、
+最も早い記録から1分未満の解答を同時刻とする。
+<li> 以下同様に繰返し。
+</ul>
+<p>
+例えば、A:"0:00:00",B:"0:00:45",C:"0:00:59",D:"0:01:00"という4者の解答記録があった時、
+A,B,Cは同時刻、DはA,B,Cより遅い時刻となる。
+</p>
+<p>
+最後の問題を解いた時刻が同時刻となった場合、
+最後から2番目の問題について同様に比較して順位を決める。
+それでも同着なら同様に、順々に全ての問題について比較を繰返す。
+もし最後まで順位がつかない場合、申し込み順により順位を決定する。
+</p>
+<p>
+この順位は、本選期間中のクラスタ占有利用時間帯を参加者の希望に沿って選ぶときの
+優先度になる。
+具体的には、
+予選上級部門で一位になったチーム、予選初級部門の一位、
+予選上級二位、予選初級二位、…のように、上級部門と初級部門で交互に上位から
+希望する時間帯を選ぶことができる。
+両方の部門に参加している場合は、どちらか上位の順位で選択する。
+</p>
+<p>
+なお、予選での初級、上級部門の選択と本選での参加部門の選択は無関係である。
+予選で初級のみ解答していた参加者も、本選で上級部門を解答して良い。
+</p>
+</div>
+</td>
+
+
+<td class="menu" valign="top">
+
+<h3 class="menu">menu</h3>
+<div class="menu">
+<ul class="menu">
+<li><a href="index.html" class="menu_d">Top</a></li>
+<li><a href="regulation.html" class="menu_d">規定課題</a></li>
+<li><a href="reg_detail.html" class="menu_d_sub">規定課題詳細</a></li>
+<li><a href="reg_api_c.html" class="menu_d_sub">出題API(C言語用)</a></li>
+<li><a href="reg_api_java.html" class="menu_d_sub">出題API(Java用)</a></li>
+<li><a href="reg_trial.html" class="menu_d_sub">お試しパック</a></li>
+<li><span class="menu_h_sub">予選詳細</span></li>
+<li><a href="reg_el_result.html" class="menu_d_sub">予選結果</a></li>
+<li><a href="reg_final.html" class="menu_d_sub">本選詳細</a></li>
+<li><a href="reg_fin_result.html" class="menu_d_sub">本選結果</a></li>
+<li><a href="reg_fin_data.html" class="menu_d_sub">本選出題内容</a></li>
+<li><a href="free_regulation.html" class="menu_d">自由課題</a></li>
+<hr />
+<li><a href="http://www.hpcc.jp/sacsis/2005/" class="menu_d">SACSIS 2005</a></li>
+</ul>
+</div>
+<h3 class="menu">what's new</h3>
+<div class="menu">
+
+<ul class="small">
+<li>2005/3/22 決勝終了。集計結果は<a href=reg_fin_result.html>こちら</a>。出題データに関する資料は<a href=reg_fin_data.html>こちら。</a>
+<li>2005/3/11 決勝で用いたプログラムソースの提出方法について<a href=reg_final.html>追加</a>しました。
+<li>2005/3/10 決勝の実行を収めた動画キャプチャの提出方法について<a href=reg_final.html>更新</a>しました。
+<li>2005/3/02 予選中間結果を<a href=reg_el_result.html>更新</a>しました。
+<li>2005/2/09 予選中間結果を<a href=reg_el_result.html>公開</a>しました。
+<li>2005/2/02 予選問題に関する詳細情報を<a href=reg_elimination.html>公開</a>しました。
+<li>2005/1/30 ホスト情報の最終版を参加者へ通知しました。
+<li>2005/1/30 参加チーム情報を<a href=grch_meibo.html>公開</a>しました。
+
+<li>
+<font color=red>2005/1/27 
+予選スケジュールを延期しました。詳しくは<a href=regulation.html#schedule>こちら</a>
+</font>
+<li>2005/1/27 
+<a href=awards.html>賞に関する情報</a>を掲載するページを作成しました。
+<li>
+2005/1/19 参加チームにホスト情報の提供を開始しました
+<li><a href=http://www.atmarkit.co.jp/index.html>
+2005/1/7 @IT</a>に掲載されました
+(<a href=http://www.atmarkit.co.jp/news/200501/08/grid.html>
+1000CPUでグリッドを体感、「Grid Challenge」開催へ</a>)</li>
+<li> 2005/1/7 Grid協議会「グリッドショーケース」にて講演を行ないました
+<li> 2005/1/1 規定問題詳細とお試しパック公開!</li>
+<li> 2004/12/15 <a href=http://nikkeibp.jp/wcs/leaf/CID/onair/jp/sangaku/349589>nikkeibp.jp</a>に掲載されました</li>
+<li> 2004/12/7 サイト開設</li>
+<li> 2004/12/7 参加者募集開始! </li>
+</ul>
+</div>
+</td>
+
+</tr>
+
+
+
+<tr>
+<td colspan="2" class="footer">
+<hr />
+Grid Challenge in SACSIS 2005
+</td>
+</table>
+
+</body>
+</html>

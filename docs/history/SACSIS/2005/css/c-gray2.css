@@ -1,0 +1,32 @@
+a:link    { color: #333; }
+a:visited { color: #555; }
+a:hover   { color: #black; background-color: #ffa; }
+a:active  { color: #aaa; }
+
+b  { color: #666; font-weight: bold; }
+em { color: #333; font-weight: bold; font-style: normal; }
+tt { color: #5a5; font-weight: bold; font-style: normal; }
+address { border-color: #aaf; color: #33c; }
+#title {
+  background-color: #555;
+  color: white;
+  /*background-image: url(../images/grass2.jpg);*/
+}
+h1 { border-color: black; }
+h2, h3, h4 { color: #555; border-color: #666; }
+div.main { background-color: white; }
+body { background-color: #eee; }
+
+/* overwrite */
+div.navbar {
+  line-height:140%;
+  background-color: #888;
+  border-left: 2.5px solid white;
+  padding: 0px;
+}
+div.navbar p { color: white; border-color: white; border-width: 2px; }
+div.navbar p.title { color: white; }
+div.navbar p a:link    { color: white; }
+div.navbar p a:visited { color: #efefef; }
+div.navbar p a:hover   { color: #333; background-color: #ffc; }
+

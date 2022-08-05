@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="SACSIS10,SACSIS2010,SACSIS" />
+ <link href="css/2010.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2010</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div><div style="font-size:16px;text-align:right">May 27-28, 2010<br />Nara, JAPAN</div></div>
+<!-- INSERTED LINES END () -->
+
+<div class="main">
+
+<!-- INSERTED LINES BEGIN (2010_NAVIGATION) --><div class="navbar" style="line-height:140%">
+<p class="title">Index / Links</p>
+
+<p class="main">
+<span class="hideme">|</span><a href="./index.html.ja" title="SACSIS 2010">SACSIS2010&nbsp;Top</a>
+<span class="hideme">|</span><a href="index.html.en" title="English Page"><img src="images/jp2en.gif" alt="English" /></a>
+<span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2010_LINKS) -->
+<a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+<a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span>
+<a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span>
+<a href="cfcompany.html.ja">企業・団体展示募集</a> <span class="hideme">|</span>
+<a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+<a href="cfpart.html.ja">参加募集</a><span class="hideme">|</span>
+<!-- <a href="http://www.ipsj.or.jp/02moshikomi/event/event-sacsis2010.html">参加申込</a><span class="hideme">|</span> -->
+<a href="http://www.ipsj.or.jp/09sig/kaikoku/2010/SACSIS2010.html">参加申込</a><span class="hideme">|</span>
+<!-- <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span> -->
+<a href="http://www.hpcc.jp/sacsis/2010/gpu/">GPUチャレンジ2010</a> <span class="hideme">|</span>
+<!-- <a href="">Clusterコンテスト</a> <span class="hideme">|</span> -->
+<a href="exhibit.html.ja">企業・団体展示</a> <span class="hideme">|</span>
+<a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+<a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+<a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+
+<p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2009_LINK) --> <a href="http://www.hpcc.jp/sacsis/2009/" title="SACSIS 2009">SACSIS&nbsp;2009</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2008_LINK) --> <a href="http://www.hpcc.jp/sacsis/2008/" title="SACSIS 2008">SACSIS&nbsp;2008</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2007_LINK) --> <a href="http://www.hpcc.jp/sacsis/2007/" title="SACSIS 2007">SACSIS&nbsp;2007</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+
+<p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+
+<h4>開催趣旨</h4>
+2003年から新しいシンポジウム <acronym title="Symposium on Advanced Computing Systems and Infrastructures">SACSIS</acronym> が設立されることとなりました．
+このシンポジウムは，
+<p>
+Advanced Computing ...<br />
+SACSIS は今後の計算技術の発展を，さまざまな角度から議論することを目的としています．
+そこで並列分散に限らず，広い意味で先進的な計算のためのシステムや基盤とそれらの要素技術を対象とします．<br />
+</p>
+<p>
+... Systems and Infrastructures<br />
+性能などの「有効性」が重視される「システム」に関する技術だけではなく，
+幅広い利用を目指して「実用性」を重視した「基盤」に関する技術も対象とします．
+</p>
+
+<p>
+第8回となる SACSIS2010 を 2010年5月27日(木)〜28日(金) に開催致します．下記テーマに関連したオリジナリティ溢れる論文，
+実装・開発事例等も含め有用性の高い論文，実用性を重視した基盤に関する論文を広く募集致します．
+</p>
+
+<h4>テーマ</h4>
+
+<!-- INSERTED LINES BEGIN (TOPICS) --><ol>
+<li> <b>先進的計算システム</b> <br />
+  グリッド，クラウド，クラスタ，Peer-to-Peer，オーバーレイネットワーク，
+  高性能計算，HPC向けコンパイラ，モバイル計算，ユビキタスシステム，
+  組み込みシステム，ディペンダブルシステム，
+  アプリケーション専用システムなど
+</li>
+<li> <b>先進的計算システムを支える基盤技術</b> <br />
+  プロセッサアーキテクチャ，リコンフィギャラブルシステム，
+  システムアーキテクチャ，ネットワークオンチップ，通信機構，
+  通信ライブラリ，広帯域ネットワーク，入出力機構，ストレージシステム，
+  資源管理技術，仮想化技術，省電力技術，認可・認証・課金技術，
+  省スペース技術，OS/ミドルウェア，コンパイラ，
+  プログラミング言語処理系，並列アルゴリズム，マルチコア最適化，GPGPU，
+  オンラインアルゴリズム，性能評価／性能チューニング技術，
+  数値シミュレーション，ペタフロップスコンピューティング適用など
+</li>
+<li> <b>実用的基盤システム</b> <br />
+  データベース，Webサービス，検索エンジン，データマイニング，
+  トランザクションシステム，分散計算環境，サーバシステム構築技術，
+  ネットワークセキュリティ，E-サイエンスなど
+
+</li>
+</ol>
+<!-- INSERTED LINES END () -->
+</div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2007-2010, SACSIS 2010 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11-blue"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

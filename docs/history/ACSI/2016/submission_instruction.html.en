@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <meta name="keywords" content="ACSI2016" />
+ <link href="css/2016.css" rel="stylesheet" type="text/css" />
+ <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+ <link rel="icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+ <title>ACSI2016</title>
+ <meta name="description" content="ACSI (Anual Meeting on Advanced Computing System and Infrastructure)" />
+ <style type="text/css">
+   <!--
+       img.ec {
+       padding: 12px 0px;
+       }
+     -->
+ </style>
+</head>
+
+  <body>
+    <div id="title">
+<br/>
+<div style="font-size:42px;text-align:left;font-family: Verdana, Helvetica, sans-serif;font-weight: bold;">ACSI</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<div style="font-size:20px;text-align:right;font-family: Verdana, Helvetica, sans-serif;font-weight: bold;">Jan 18-20, 2016<br />Fukuoka, JAPAN</div>
+<br/>
+</div>
+    <div class="navbar" style="line-height:140%">
+  <p class="title">Index / Links</p>
+  <span class="hideme">|</span>
+  <a href="index.html.ja" title="Japanese Page"><img src="images/en2jp.gif" alt="Japanese" /></a>
+  <span class="hideme">|</span>
+
+  <p class="main">
+    <span class="hideme">|</span><a href="./index.html.en" title="ACSI2016">ACSI2016&nbsp;Top</a>
+<!-- <span class="hideme">|</span> -->
+	<a href="CFP.html.en">Call for Papers</a> <span class="hideme">|</span>
+        <a href="submission_instruction.html.en">Paper Submission</a> <span class="hideme">|</span>
+    <a href="committee.html.en">Committee</a> <span class="hideme">|</span>
+    <a href="contact.html.en">Contact</a> <span class="hideme">|</span>
+  </p>
+
+</div>
+<hr class="hideme" />
+    <div class="main" style="font-size: large;">
+
+<h4>Submitting paper to the ACSI2016 with EasyChair system</h4>
+
+<p>
+ACSI2016 utilizes EasyChair system as a paper submission system.
+This tutorial will show you how to submit your paper to the ACSI2016
+with EasyChair.<br>
+If you have already used EasyChair, skip to the section
+named <string><a href="#submission">"2. Submission to ACSI2016 (regular paper)"</a></string>, <string><a href="#submission2">"3. Submission to ACSI2016 (presentation of overseas publication)"</a></string>, or  <string><a href="#submission3">"4. Submission to ACSI2016 (poster)"</a></string>..
+If you have never used EasyChair, starts from below section 1.
+</p>
+
+<p><strong>1. Creation of your EasyChair account</strong></p>
+<ol>
+<li>Visit to the ACSI2016 EasyChair system at <br>
+<a href="https://www.easychair.org/conferences/?conf=acsi2016">
+https://www.easychair.org/conferences/?conf=acsi2016</a>.</li>
+
+<li>Click "sign up for an account" link on the login page below.<br>
+<img class="ec" src="./submission_figs/ec_login.png" width="1024" height="314" alt="Login" border="1"/></img>
+</li>
+
+<li>In "Step 1", type two skewed letters into the text box and click "Continue".<br>
+<img class="ec" src="./submission_figs/ec_step1.png" width="1024" height="432" alt="Step1" border="1"/></img>
+</li>
+
+<li>In "Step 2", fill out your "First name", "Last name", and "Email"
+  address and click "Continue".<br>
+<img class="ec" src="./submission_figs/ec_step2.png" width="1024" height="398" alt="Step2" border="1"/></img>
+</li>
+
+<li>The pre-registration process is completed if the message "Account Application Received” is shown as below:
+<br>
+<img class="ec" src="./submission_figs/ec_step3.png" width="1024" height="151" alt="Application Finished" border="1"/></img>
+</li>
+
+<li> You will receive a confirmation email with the subject "EasyChair account confirmation”. Click the link in the email to continue your registration. </li>
+
+<li> Complete your registration process by filing out all required information in the “Last Step” page below. The "User name" and "Password" are used to login to EasyChair. Then, click "Create my account”.
+
+<br>
+<img class="ec" src="./submission_figs/ec_step4.png" width="1024" height="564" alt="Last Step" border="1"/></img>
+</li>
+
+</ol>
+
+<p>
+After above procedure, your account is created.
+</p>
+
+<p clss="large"><strong><a name="submission">2. Submission to ACSI2016 (regular paper)</a></strong></p>
+
+<ol>
+<li>Visit to the ACSI2016 EasyChair system at <br>
+<a href="https://www.easychair.org/conferences/?conf=acsi2016">
+https://www.easychair.org/conferences/?conf=acsi2016</a>.</li>
+
+<li>Login EasyChair by using your user name and password.<br>
+<img class="ec" src="./submission_figs/ec_login.png" width="1024" height="314" alt="Login" border="1"/></img>
+</li>
+
+<li>Click "New Submission" of the upper menu.</li>
+
+<li> Select the track name that is most suitable for your submission, and click "Continue”. Note that the candidate "Poster paper" will be appeared after poster paper submission will be started.
+
+<br>
+<img class="ec" src="./submission_figs/ec_submit1.png" width="1024" height="361" alt="Choose track" border="1"/></img>
+</li>
+
+<li>Fill out contact information. We accept both English and Japanese inputs.<br>
+<img class="ec" src="./submission_figs/ec_submit2a.png" width="1024" height="308" alt="Fill contact information" border="1"/></img>
+</li>
+
+<li>Fill out the form to authors' information. 
+
+Mark "Corresponding author" check box for the corresponding author.
+Email from EasyChair will be sent only to corresponding author(s). If you need more than 3 authors, click 
+"Click here to add more authors".<br>
+<img class="ec" src="./submission_figs/ec_submit2b.png" width="1024" height="422" alt="Fill authors1" border="1"/></img><br>
+<img class="ec" src="./submission_figs/ec_submit2c.png" width="1024" height="132" alt="Fill authors2" border="1"/></img>
+</li>
+
+<li>Fill out the paper title, abstract, and keyword. You have to write at least 3 keywords (one per line).<br>
+<img class="ec" src="./submission_figs/ec_submit2d.png" width="1024" height="552" alt="Fill Title" border="1"/></img>
+</li>
+
+<li><font color="red">Mark additional confirmation in "Topics".</font><br>
+If you want to receive the review result in English,
+mark "I request review reports written in English." check box.
+If you do not mark this check box, the review result is 
+given either in English or in Japanese.<br>
+<img class="ec" src="./submission_figs/ec_submit2e.png" width="1024" height="112" alt="Fill Topics" border="1"/></img><br>
+</li>
+
+<li><font color="red">Mark additional confirmation in "Other Information and Uploads".</font><br>
+<ul>
+<li>Choose Paper Category: Please choose the category of the regular paper for your submission. <br>
+<li>Qualification for ACSI2016 Outstanding Student Research Award: Please answer whether or not the first author has qualification for the award. As to the qualification, See <a href="CFP.html.en">Call for Papers</a>.
+</ul>
+<img class="ec" src="./submission_figs/ec_submit2f.png" width="1024" height="457" alt="Attach paper" border="1"/></img>
+</li>
+
+<li> In the case that you want to submit not only the abstract but the full paper, upload your full paper in PDF format.<br> Proceed to the next step in the case that you want to register your abstract only. </li>
+
+<li>Confirm the entries and click "Submit".</li>
+
+<li>Once you have submitted, you can upload / update the full paper and update the submission information. 
+
+In this procedure, you have to login EasyChair again and
+click "Paper &lt;paper number&gt;" from the upper menu.
+"Add file"/"Update file" link shown in the upper right part
+enables you to upload or update the full paper,
+and "Update information / authors" link enables you to
+update the submission information.<br>
+<img class="ec" src="./submission_figs/ec_submit3.png" width="1024" height="273" alt="Update" border="1"/></img>
+</li>
+</ol>
+
+<p>
+After above procedure, registration and upload of the paper is finished.
+</p>
+
+<p clss="large"><strong><a name="submission2">3. Submission to ACSI2016 (presentation of overseas publication)</a></strong></p>
+
+<ol>
+<li> Complete the procedure 1.~6. of "Submission to ACSI2016 (regular paper)".</li>
+<li> Type the paper title, and keywords. You have to write at least 3 keywords (one per line).
+
+<br>
+<img class="ec" src="./submission_figs/ec_submit4a.png" width="1024" height="337" alt="Fill Title" border="1"/></img>
+</li>
+<li><font color="red">Describe your oversea paper.</font><br> Please detail your publication information so that reviewers clearly learn what kind of oversea journal or international conference(with review) your paper has been published.
+<img class="ec" src="./submission_figs/ec_submit4b.png" width="1024" height="349" alt="Oversea Paper Information" border="1"/></img>
+</li>
+</ol>
+
+<p>
+After above procedure, application of the presentation is
+finished. (Please respond to the request of the original paper if it is
+necessary for the proposal selection process.)
+</p>
+
+<p clss="large"><strong><a name="submission3">3. Submission to ACSI2016 (poster)</a></strong></p>
+
+<ol>
+<li> Complete the procedure 1.~6. of "Submission to ACSI2016 (regular paper)".</li>
+<li> Type the poster title, and keywords. You have to write at least 3 keywords (one per line).
+
+<br>
+<img class="ec" src="./submission_figs/ec_submit4a.png" width="1024" height="337" alt="Fill Title" border="1"/></img>
+</li>
+<li><font color="red">Upload your poster.</font><br />
+Upload your supporting document (optional).
+<img class="ec" src="./submission_figs/ec_submit5b.png" width="1024" height="387" alt="Poster Information" border="1"/></img>
+</li>
+</ol>
+
+<p>
+After above procedure, registration and upload of the poster is finished.
+</p>
+
+<br><br>	
+<h4>Contact</h4> 
+<table> 
+  <colgroup>
+    <col width="250">
+  </colgroup>
+
+  <tbody>
+  <tr><td>
+      ACSI2016 organizing committee:
+    </td><td>
+     acsi2016 "at" acsi "dot" hpcc "dot" jp 
+  </td></tr>
+
+  <tr><td>
+    Paper submission:
+  </td><td>
+    Program Vice-Chair (full papers) Susumu Date (see Address for inquiries of EasyChair)
+  </td></tr>
+  </tbody>
+</table>
+</div>
+ 
+  </body>
+</html>

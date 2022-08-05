@@ -1,0 +1,24 @@
+
+<div class="navbar">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <!--##LANGUAGE_LINK##-->
+
+  <!--@@HOME@@-->
+
+  <!--@@LINKS@@-->
+ </p>
+ <p class="history">
+  <!--@@TOP_LINK@@-->
+  <!--@@2006_LINK@@-->
+  <!--@@2005_LINK@@-->
+  <!--@@2004_LINK@@-->
+  <!--@@2003_LINK@@-->
+ </p>
+ <p class="others">
+  <!--@@OTHER_LINKS@@-->
+ </p>
+</div>
+<hr class="hideme" />

@@ -1,0 +1,778 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>SACSIS 2006: Program</TITLE>
+ <META http-equiv=Content-Type content="text/html; charset=EUC-JP">
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2006.css" rel="stylesheet" type="text/css" />
+<STYLE type=text/css>BODY {
+	MARGIN-TOP: 0.1em; MARGIN-BOTTOM: 0.3em; TEXT-INDENT: 0em; BACKGROUND-COLOR: #fffff0
+}
+TH {	COLOR: black; BACKGROUND-COLOR: #cce }
+TD { }
+.ti {	COLOR: #000; BACKGROUND-COLOR: #cec }
+.na {	COLOR: #000; BACKGROUND-COLOR: #ecc }
+b { color: #035; }
+li { font-size: 14px; }
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR></HEAD>
+<BODY>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+May 22-24, 2006<br />
+Osaka, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (2006_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.ja" title="SACSIS 2006">SACSIS2006&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="program.html.en" title="English Page"> <img src="images/jp2en.gif" alt="English" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2006_LINKS) -->  <a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+  <a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+  <a href="exhibit.html.ja">企業展示</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/2006/grid-challenge/">Grid Challenge</a> <span class="hideme">|</span> 
+  <a href="cfpart.html.ja">参加募集 (text) </a><span class="hideme">|</span> 
+   <a href="http://www.ipsj.or.jp/09sig/kaikoku/2006/SACSIS2006.html">
+  参加募集・参加申込 (HTML) </a><span class="hideme">|</span> 
+  <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+  <a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span> 
+  論文投稿受付<span class="hideme">|</span> <br />
+  <a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span> 
+  ポスター投稿受付<span class="hideme">|</span> <br />
+  <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+  <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+  <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () --><div class="main">
+
+<!--
+<CENTER>
+<H1><A href="http://www.hpcc.jp/sacsis/2006/">SACSIS 2006</A>: プログラム（暫定） </H1>
+<HR>
+-->
+
+<div style="text-align:right">
+Last Modified: Wed Dec 13 18:23:00 2006</div>
+
+<h3 style="text-align:left">SACSIS2006 プログラム</h3>
+
+<ul>
+
+<li> チュートリアル：
+  <ul>
+
+<li> <a href="include/sacsis2006-web-tutorial-iscsi.pdf">
+「iSCSI (Internet SCSI)」</a>
+    <br>
+    日本電信電話株式会社(NTT) 藤田 智成
+<li> 「アスペクト指向は hype か本物か？」
+    <br>
+    東京工業大学 千葉 滋
+<li> <a href="include/sacsis2006-web-tutorial-cell.pdf">
+「Cellプロセッサ向け実行環境（SPU Centric Execution Model）」</a>
+    <br>
+    株式会社ソニー・コンピュータエンタテインメント(SCEI) 井上 敬介
+</ul>
+
+<p />
+
+<li> 企業展示参加企業一覧：
+  <ul>
+<li> 株式会社アイダックス
+<li> EMCジャパン株式会社
+<li> 住商情報システム株式会社
+<li> 大日本印刷株式会社
+<li> 東京エレクトロンデバイス株式会社
+<li> 西日本電信電話株式会社
+<li> 日商エレクトロニクス株式会社
+<li> 日本アイ・ビー・エム株式会社
+<li> 日本電気株式会社
+<li> 日本ビジュアルニューメリックス株式会社
+<li> 日本ヒューレット・パッカード株式会社
+<li> ビジュアルテクノロジー株式会社
+<li> 株式会社日立製作所
+<li> ファウンドリーネットワークスジャパン株式会社
+<li> 富士通株式会社
+<li> 株式会社ベストシステムズ
+<li> マイクロソフト株式会社
+</ul>
+
+<li>
+<a href="http://www.ipsj.or.jp/09sig/kaikoku/2006/SACSIS2006.html">
+参加申し込み案内のページへ</a> / 
+<a href="include/cfpart.txt">テキスト版CFP(参加募集)へ</a>
+</ul>
+
+
+
+<H4>セッション構成</H4>
+<TABLE align="center" cellSpacing=0 cellPadding=3 border=1>
+  <THEAD>
+  <TR>
+    <TH>時間 
+    <TH>A会場<BR>
+    <TH>B会場<BR>
+    <TH>C会場<BR>
+  </TR></THEAD>
+  <TBODY>
+  <TR>��
+    <TD class=ti align=middle colSpan=4><A href="#day22">
+     5/22(月)</A></TD>
+  </TR>
+  <TR>
+    <TD>13:15 <DIV align=center>〜</DIV>13:30</TD>
+    <TD align=middle colSpan=3>
+       <br><A href="#opening">開会の辞，最優秀論文賞・優秀若手研究賞表彰</A><br>(A会場)</TD> 
+  </TR>
+  <TR>
+    <TD>13:30 <DIV align=center>〜</DIV>15:00</TD> 
+    <TD align=middle colSpan=3>
+       基調講演 (A会場)
+       <A href="#keynote"><br>
+	   「Opportunities and Challenges for Future Generation Grid Research」<br>
+       Dennis Gannon (Indiana University)</A></TD> 
+  </TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD class=na align=middle colSpan=3>休憩</TD>
+  </TR>
+  <TR>
+    <TD>15:15 <DIV align=center>〜</DIV>17:15 </TD>
+    <TD align=middle><A href="#session11">レジスタファイル<br>とキャッシュ</A><br>(4件) </TD>
+    <TD align=middle><A href="#session12"><br>コード最適化</A><br>(4件) </TD>
+    <TD align=middle><A href="#session13">グリッド<br>ミドルウェア</A><br>(4件) </TD>
+  </TR>
+  <TR>
+    <TD class=ti align=middle colSpan=4>
+    <A href="#day23">5/23(火)</A>
+    </TD>
+  </TR>
+  <TR>
+    <TD>9:00 <DIV align=center>〜</DIV>10:30 </TD>
+    <TD align=middle><A href="#tutorial1"><br>チュートリアル1<br>(iSCSI)</A> </TD>
+    <TD align=middle><A href="#session22">高性能<br>ネットワーク</A><br>(3件) </TD>
+    <TD align=middle><A href="#session23">リコンフィギュラ<br>ブルシステムと性<br>能予測</A>(3件)</TD>
+  </TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD class=na align=middle colSpan=3>休憩</TD>
+  </TR>
+  <TR>
+    <TD>10:45 <DIV align=center>〜</DIV>12:15 </TD>
+    <TD align=middle><A href="#tutorial2">チュートリアル2<br>(アスペクト指向<br>プログラミング)</A><br></TD>
+    <TD align=middle><A href="#session32"><br>数値計算</A><br>(3件) </TD>
+    <TD align=middle><A href="#session33">インターネット<br>システム</A><br>(3件) </TD>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD class=na align=middle colSpan=3>昼休み</TD>
+  </TR>
+ <TR>
+    <TD>13:30 <DIV align=center>〜</DIV>15:00 </TD>
+    <TD align=middle colSpan=3>
+        <br><A href="#poster">ポスターセッション</A><br>
+    </TD>
+  </TR>
+  <TR>
+    <TD>15:15 <DIV align=center>〜</DIV>16:45 </TD>
+    <TD align=middle colSpan=3>
+        招待講演 (A会場)<br>
+        <A href="#invited">
+        「品質向上から機能安全へパラダイムシフトする組込み<br>
+        ソフトウェア」 田丸 喜一郎 (IPA/SEC) </A>
+    </TD>
+  </TR>
+  <TR>
+    <TD>16:45 <DIV align=center>〜</DIV>17:00 </TD>
+    <TD align=middle colSpan=3>
+        <br>
+        <A href="#gc-award">Grid Challenge表彰/講評</A> (A会場)
+        <br>
+        <a href="http://www.hpcc.jp/sacsis/2006/grid-challenge/">Grid Challenge 2006</a> 実行委員会
+    </TD>
+  </TR>
+  <TR>��
+    <TD>&nbsp;</TD>
+    <TD align=middle colSpan=3>
+         <a href="http://www.hpcc.jp/sacsis/2006/location.html.ja">懇親会</a>，ポスター表彰
+    </TD>
+  </TR>
+  <TR>
+    <TD class=ti align=middle colSpan=4>
+       <A href="#day24">5/24(水)</A></TD>
+  </TR>
+  <TR>
+    <TD>9:00 <DIV align=center>〜</DIV>10:30 </TD>
+    <TD align=middle><br><A href="#gc-talks">Grid Challenge</A><br></TD>
+    <TD align=middle><br><A href="#session42">システム実装</A><br>(3件) </TD>
+    <TD align=middle><br><A href="#session43">分岐予測</A><br>(3件) </TD>
+  </TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD class=na align=middle colSpan=3>休憩</TD>
+  </TR>
+  <TR>
+    <TD>10:45 <DIV align=center>〜</DIV>12:15 </TD>
+    <TD align=middle><br><A href="#tutorial3">チュートリアル3<br>(Cell)</A> </TD>
+    <TD align=middle><A href="#session52">グリッド<br>アプリケーション<br>開発</A>(3件) </TD>
+    <TD align=middle><br><A href="#session53">相互結合網</A><br>(3件)</TD>
+  </TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD class=na align=middle colSpan=3>昼休み</TD>
+  </TR>
+  <TR>
+    <TD>13:30 <DIV align=center>〜</DIV>15:00 
+    <TD align=middle><A href="#session61">命令<br>スケジューリング</A><br>(3件) </TD> 
+    <TD align=middle><br><A href="#session62">ストレージ</A><br>(3件) </TD>
+    <TD align=middle><A href="#session63">分散コンピュー<br>ティング</A><br>(3件) </TD>
+  </TR>
+  <TR>
+    <TD>15:15 <DIV align=center>〜</DIV>16:45
+    <TD align=middle><br><A href="#session71">省電力手法</A><br>(3件) </TD> 
+    <TD align=middle><br><A href="#session72">セキュリティ</A><br>(3件) </TD>
+    <TD align=middle><br><A href="#session73">資源仮想化技術</A><br>(3件) </TD>
+  </TR>
+  <TR>
+    <TD>16:45 <DIV align=center>〜</DIV></TD>
+    <TD align=middle colSpan=3>
+        <A href="#closing">閉会の辞</A> (A会場) </TD></TR>
+</TBODY>
+</TABLE>
+</CENTER>
+
+<p>&nbsp;</p>
+
+<h4>プログラム</h4>
+
+<CENTER><H5>
+<A NAME="day22">── 第1日目 5月22日（月）──</A>
+</H5></CENTER>
+
+<UL>
+
+  <LI><B><A NAME="opening">開会の辞，最優秀論文賞・優秀若手研究賞表彰</A></B> （13:15〜13:30, A会場）
+  <div align=right>組織委員長        後藤 厚宏 （NTT）</div>
+  <div align=right>プログラム委員長  朴 泰祐（筑波大）
+ </div>
+
+  <LI><B><A NAME="keynote">基調講演</A></B> （13:30〜15:00, A会場）
+      <div align=right>座長:  後藤 厚宏 （NTT）</div>
+      <UL>
+          <li>Opportunities and Challenges for Future Generation Grid Research
+              <div align=right>Dennis Gannon（Indiana University）</div>
+      </UL>
+
+  <LI><B><A NAME="session11">レジスタファイルとキャッシュ</A></B> （15:15〜17:15, A会場）
+      <div align=right>座長: 吉瀬 謙二（東工大）</div>
+      <ul>
+         <li>待機ラインへの参照密度に基づく低リーク・キャッシュの高性能化
+         <div align="right"> 
+         小宮 礼子（福岡大）, 井上 弘士, 村上 和彰（九州大）
+         </div>
+         <li>物理レジスタ番号の割当順に着目したレジスタ・キャッシュの高精度化手法
+         <div align="right"> 
+         小林 良太郎， 堀部 大介， 島田 俊夫（名古屋大）
+         </div>
+         <li>マルチコア・プロセッサの不均質共有キャッシュにおける LRU 大域置き換えアルゴリズム
+         <div align="right"> 
+         塩谷 亮太, ルォン ディン フォン（東京大）, 入江 英嗣（JST/東京大）, 五島 正裕, 坂井 修一（東京大）
+         </div>
+         <li>クリティカル・パスに着目した階層型レジスタ・ファイル
+         <div align="right">
+         小林 良太郎, 梶山 太郎, 島田 俊夫（名古屋大）
+         </div>
+      </ul>
+
+  <LI><B><A NAME="session12">コード最適化</A></B> （15:15〜17:15, B会場）
+      <div align=right>座長: 渡邊 誠也（岡山大）</div>
+      <ul>
+         <li> CPUとGPUを用いた並列GEMM演算の提案と実装
+         <div align="right">
+         大島 聡史, 吉瀬 謙二, 片桐 孝洋, 弓場 敏嗣（電通大）
+         </div>
+         <li> GPU内命令移動のための性能指標の実験的評価
+         <div align="right">
+         池田 孝利， 伊野 文彦， 萩原 兼一（大阪大）
+         </div>
+         <li> アセンブリプログラムの構造を利用したキャッシュヒント自動付加
+         <div align="right"> 
+         稲垣 良一， 上田 和紀（早稲田大）
+		</div>
+         <li> 統計情報に基づくコンパイラ協調型実行時最適化手法
+         <div align="right">
+         佐々木 広， 浅井 雅司， 池田 佳路， 近藤 正章， 中村 宏（東京大）
+ 		</div>
+      </ul>
+
+  <LI><B><A NAME="session13">グリッドミドルウェア</A></B>（15:15〜17:15, C会場）
+      <div align=right>座長: 繁田 聡一（富士通研）</div>
+      <ul>
+         <li> GridRPCにおける複数ノードにまたがるTask Sequencingの実現
+         <div align="right"> 
+         谷村 勇輔, 中田 秀基, 田中 良夫, 関口 智嗣（産総研）
+		</div>
+         <li> グリッドRPCにおける広域データ管理レイヤの利用
+         <div align="right"> 
+		相田 祥昭， 中島 佳宏， 佐藤 三久， 櫻井 鉄也， 高橋 大介， 朴 泰祐（筑波大）
+		</div>
+         <li>計算資源とネットワーク資源を同時確保する予約ベースグリッドスケジューリングシステム
+         <div align="right">
+		竹房 あつ子, 中田 秀基, 工藤 知宏, 田中 良夫, 関口 智嗣（産総研）
+		</div>
+         <li>動的なノード群構成機構を備えた階層型グリッド環境 Jojo2
+         <div align="right">
+		青木 仁志（東工大）, 中田 秀基（産総研/東工大）, 田中 康司（早大）,松岡 聡（東工大/国情研）
+		</div>
+      </ul>
+</ul>
+
+<CENTER><H5>
+<A NAME="day23">── 第2日目 5月23日（火）──</A>
+</H5></CENTER>
+<ul>
+
+  <LI><B><A NAME="tutorial1">チュートリアル1:iSCSI</A></B> （9:00〜10:30, A会場）
+	<div align=right>
+	座長: 建部 修見（筑波大）
+	</div>
+    <ul>
+       <li> iSCSI (Internet SCSI) 〜 基礎と実際 〜 <div align=right>
+		藤田 智成 (NTT)	
+	</div>
+    </ul>
+
+  <LI><B><A NAME="session22">高性能ネットワーク</A></B> （9:00〜10:30, B会場）
+      <div align=right>座長: 古賀 久志（電通大）</div>
+      <ul>
+         <li>複数Gigabit Ethernetを用いたPACS-CSのための高性能通信機構の設計と評価
+         <div align="right">
+		住元 真司, 大江 和一, 久門 耕一（富士通研）, 朴 泰祐, 佐藤 三久, 宇川 彰（筑波大)
+		</div>
+         <li>VFREC-Net: ドライバ制御によるtagged-VLANを用いたPCクラスタ向けマルチパスネットワーク
+         <div align="right"> 
+		三浦 信一， 岡本 高幸， 朴 泰祐， 佐藤 三久， 高橋 大介（筑波大）
+		</div>
+         <li>配列転置データ転送を高速化する10Gb Ethernetインタフェースカードの設計
+        <div align="right"> 中島 耕太, 佐藤 充, 後藤 正徳, 住元 真司, 久門 耕一（富士通研）, 石川 裕（東大）
+		</div>
+      </ul>
+
+  <LI><B><A NAME="session23">リコンフィギャラブルシステムと性能予測</A></B> （9:00〜10:30, C会場）
+      <div align=right>座長: 久我 守弘（熊本大）</div>
+      <ul>
+         <li>動的リコンフィギャラブルプロセッサにおける時分割多重実行の評価
+         <div align="right">
+		長谷川 揚平<font color="red">【優秀若手研究賞】</font>， 阿部 昌平， 黒瀧 俊輔， ヴ　マン トウアン， 天野 英晴（慶應大）
+		</div>
+         <li>重複実行省略を用いた割り込みによるマイクロプロセッサの最悪性能予測
+         <div align="right"> 
+		小西 昌裕， 中田 尚， 津邑 公暁， 中島 浩（豊橋技科大）
+		</div>
+         <li>FPGAを用いた確率モデル生化学シミュレータ
+        <div align="right"> 
+		吉見 真聡, 長名 保範, 岩岡 洋, 西川 由理, 小嶋 利紀（慶應大）, 柴田 裕一郎, 岩永 直樹（長崎大）, 舟橋 啓（JST）
+		</div>
+      </ul>
+
+   <LI><B><A NAME="tutorial2">チュートリアル2: アスペクト指向プログラミング </A></B> （10:45〜12:15, A会場）
+    <ul>
+	<div align=right>
+	座長: 廣津 登志夫（豊橋技科大）
+	</div>
+       <li>アスペクト指向は hype か本物か？<div align=right>千葉 滋（東工大）
+	</div>
+    </ul>
+
+  <LI><B><A NAME="session32">数値計算</a></b> （10:45〜12:15, B会場）
+      <div align=right>座長: 高橋 大介（筑波大）</div>
+    <ul>
+      <li>ソフトウェア自動チューニングにおけるd-Splineを用いた性能パラメタ推定法
+      <div align="right"> 
+		田中 輝雄， 片桐 孝洋， 弓場 敏嗣（電通大）
+		</div>
+      <li>キャッシュを考慮した疎行列格納形式CJDSの提案と評価
+      <div align="right">
+		小武守 恒（JST/東京大）, 西田 晃（東京大）
+		</div>
+      <li>Improving Linpack Performance on SMP Clusters with Asynchronous MPI Programming
+      <div align="right">
+		Quoc Viet Ta, Tsutomu Yoshinaga（University of Electro Communications）
+		</div>
+    </ul>
+
+  <LI><B><A NAME="session33">インターネットシステム</A></B> （10:45〜12:15, C会場）
+      <div align=right>座長: 門林 雄基（奈良先端大）</div>
+    <ul>
+      <li>オーバレイ構築ツールキットOverlay Weaver<font color="red">【最優秀論文賞】</font>
+      <div align="right">
+		首藤 一幸, 田中 良夫, 関口 智嗣（産総研）
+		</div>
+      <li>アクセスログを利用したWebアプリケーションの障害予測方式の提案
+      <div align="right"> 
+		中村 友洋（日立中研）
+		</div>
+      <li>サステーナブルサービスを実現する基盤ソフトウェアの設計		
+      <div align="right"> 
+		小磯 知之（筑波大）, 阿部 洋丈（JST）, 鈴木 与範（筑波大）, Richard Potter（JST）, 池嶋 俊（筑波大）, 加藤 和彦（筑波大/JST）
+		</div>
+    </ul>
+
+
+  <LI><B><A NAME="poster">ポスターセッション</A></B>（13:30〜15:00）<br>
+	<ul>
+ <li> 耐故障・適応ルーティングの自動チューニングに関する研究<div align="right">
+　　　　　　　　西村 康彦，鎌倉 正司郎，吉永 努（電通大），鯉渕 道紘（NII）
+		</div>
+ <li> 仮想計算機と仮想ネットワークを用いた仮想クラスタの構築<div align="right">
+　　　　　　　　　　　　　西村 豪生（東工大），中田 秀基（産総研/東工大），松岡 聡（東工大/NII）
+		</div>
+ <li> 生物的な自己修復能力を持つ分散制御システム<div align="right">
+　　　　　　　　　　　　　藤ヶ谷 隆介，幸谷 智紀，大椙 弘順（静岡理工科大）
+		</div>
+ <li> Preliminary Evaluation of a Simulator for Evaluating a Global Job Scheduling Algorithm<div align="right">
+         Hiromasa Watanabe, Hiroki Honda (Univ. of Electro-Communications), Massimiliano Rak (Second Univ. of Naples), Umberto Villano (Univ. of Sannio)
+		</div>
+ <li> 省エネルギーな投機的マルチスレッド・マルチコアプロセッサの評価<div align="right">
+　　　　　　　　　　舟木 敏正，千代延 昭宏（九工大），佐藤 寿倫（九大）
+		</div>
+ <li> Object-Oriented Group Communication for Java Grid Middleware<div align="right">
+           Laurent Baduel (Tokyo Institute of Technology), Francoise Baude , Denis Caromel (INRIA - University of Nice Sophia-Antipolis)
+		</div>
+ <li> 擬似グリッド実験環境の構築<div align="right">
+　　　　　　　　　　　　　　　　　笠井 武史，大角 知孝，合田 憲人（東工大）
+		</div>
+ <li> グリッド上の資源予約スケジューリングアルゴリズムの性能評価<div align="right">
+　　　　　　　　　　　　　　　　　　　　　安藤 誠士郎，合田 憲人（東工大）
+		</div>
+ <li> 企業内イントラグリッドでのグリッドアプリケーション実用評価<div align="right">
+　　　　薄田 昌広（関西電力），朝野 郁郎（トランス・ニュー・テクノロジー），藤本 典幸，萩原 兼一（大阪大）
+		</div>
+ <li> VGXP: 多数の計算機をリアルタイムに監視・操作するソフト<div align="right">
+　　　　　　　　　　　　　　　　　鴨志田 良和，田浦 健次朗，近山 隆（東大）
+		</div>
+ <li> 言語中立な分散共有オブジェクトシステムの設計<div align="right">
+　　　　　　　　　　　　後藤 裕輔，馬谷 誠二，八杉 昌宏，湯淺 太一（京大）
+		</div>
+ <li> Modified PrefixSpan法のためのPCクラスタ間の効率的な動的負荷分散方式にむけて<div align="right">
+　　　　　　　　　　　　　　　　　　高木 允，田村 慶一，北上 始（広島市大）
+		</div>
+ <li> グリッドにおける計算資源と光パスネットワーク資源のコアロケーション実験<div align="right">
+　　　　　　　竹房 あつ子（産総研），林 通秋（KDDI研），長津 尚英（NTT），中田 秀基，工藤 知宏（産総研），宮本 崇弘，大谷 朋広（KDDI研），田中 英明，鮫島 康則，今宿 亙，神野 正彦，滝川 好比郎（NTT），岡本 修一（NICT），田中 良夫，関口 智嗣（産総研）
+
+		</div>
+ <li> 線形方程式求解アルゴリズムに対する性能情報検索システムの開発<div align="right">
+　　　　　　　　　　　　　　　　　　　　　伊藤 祥司，長谷川 秀彦（筑波大）
+		</div>
+ <li> 大規模グリッド環境におけるJojo2の稼動実験<div align="right">
+　　　　　　　　　　　　　青木 仁志（東工大），中田 秀基（産総研/東工大），田中 康司（早大），松岡 聡（東工大/NII）
+		</div>
+ <li> Data-Intensiveアプリケーションを想定したDesktop Grid Computingのための計算資源管理システム<div align="right">
+　　　　　　　　　　　　　　　　遠山 敏章，山田 慈人，小西 克巳（工学院大）
+		</div>
+ <li> ボランティアベース分散コンピューティング環境構築のためのフレームワーク TOFU-Gの実装と性能評価<div align="right">
+　　　　　　　　　　　　　　　　　　神林 亮，中島 佳宏，佐藤 三久（筑波大）
+		</div>
+ <li> Performance of the Particle-In-Cell Simulation Parallel Benchmarks on Grid Enabled Clusters<div align="right">
+                             Weifeng Tao, Dongsheng Cai (Univ. of Tsukuba)
+		</div>
+ <li> GridRPCアプリケーションポータルの構築・運用を支援するポートレット<div align="right">
+　　　　　　　　　　　　　　　　　佐々木 耕，渡邊 啓正，本多 弘樹（電通大）
+		</div>
+ <li> SIMDプログラミングのための共通インタフェースの提案及び実装<div align="right">
+　　　　　　　　　　　　　　　　　　中西 悠，渡邊 啓正，本多 弘樹（電通大）
+		</div>
+ <li> ループ内条件分岐排除に関する新方式の提案と評価<div align="right">
+　　　　　　　　　　　　　　　　　塩足 拓也，木山 真人，梅野 英典（熊本大）
+		</div>
+ <li> iSCSIインタフェースを持つ分散ファイルシステムの検討<div align="right">
+　　　　　　　　　　　　　　　　大西 祥代，廣安 知之，三木 光範（同志社大）
+		</div>
+ <li> CPUとGPUを複数用いた並列数値計算環境の検討<div align="right">
+　　　　　　大島 聡史，吉瀬 謙二，片桐 孝洋，本多 弘樹，弓場 敏嗣（電通大）
+		</div>
+ <li> 光ネットワーク環境におけるMPI集団通信<div align="right">
+　　　　　　　　　　　　　　　滝澤 真一朗（東工大），松岡 聡（東工大/NII），中田 秀基（産総研/東工大）
+		</div>
+ <li> VLIWシミュレーション環境CHA-MENにおける拡張性を重視した広域命令スケジューラの実装<div align="right">
+　　　　　　　　　　　　岡 大輔（宇都宮大），古川 文人（帝京大），月川 淳，大津 金光，横田 隆史，馬場 敬信（宇都宮大）
+		</div>
+ <li> Ninf-Gを用いたディーゼルエンジン燃料噴射スケジューリング問題の最適化システム<div align="right">
+　　　　　　　　　　　　　　　　千野 晋平，廣安 知之，三木 光範（同志社大）
+		</div>
+ <li> グリッド環境におけるMPI集団通信に適した動的なネットワークトポロジ<div align="right">
+　　　　　　　　　　　　　千葉 立寛（東工大），中田 秀基（産総研/東工大），松岡 聡（東工大/NII）
+		</div>
+ <li> Root Cause Analysis of Failures in Large-Scale Computing Environments<div align="right">
+                           Naoya Maruyama (Tokyo Institute of Technology), Alexander Mirgorodskiy, Barton Miller (Univ. of Wisconsin-Madison), Satoshi Matsuoka (Tokyo Institute of Technology / NII)
+		</div>
+ <li> クリティカルパスを特定するためのヒューリスティックスの改善<div align="right">
+　　　　　　　　　　　　　　　　　千代延 昭宏（九工大），佐藤 寿倫（九大）
+		</div>
+ <li> Grid環境における構造物の位相最適化の検討<div align="right">
+　　　　　　　　　　　　　　　　梶原 広輝，廣安 知之，三木 光範（同志社大）
+		</div>
+ <li> RTTを用いたネットワークトポロジの推定<div align="right">
+　　　　　　　　　　　　　　　　　　白井 達也，田浦 健次朗，近山 隆（東大）
+		</div>
+ <li> Javaで実装したプロセッサシミュレータ<div align="right">
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　渡邊 誠也（岡山大）
+		</div>
+ <li> EthernetマルチリンクによるPCクラスタ向け耐故障ネットワー
+クRI2N/UDP<div align="right">
+　　　　　　　岡本 高幸，三浦 信一，朴 泰祐，佐藤 三久，高橋 大介（筑波大）
+		</div>
+ <li> グリッドRPCワーカーのためのWindows上でのLinuxプログラムの実行環境<font color="red">【独創的ポスター賞】</font><div align="right">
+　　　　　　　上村 佳史，中島 佳宏，佐藤 三久（筑波大）
+		</div>
+ <li> MPI/GXP：広域環境用の適応的なメッセージパッシングシステム<div align="right">
+　　　　　　　　　　　　　　　　　　斎藤 秀雄，田浦 健次朗，近山 隆（東大）
+ </ul>
+
+  <LI><B><A NAME="invited">招待講演</A></B>（15:15〜16:45, A会場）
+      <div align=right>座長: 石川 裕（東京大）</div>
+    <ul>
+      <li>品質向上から機能安全へパラダイムシフトする組込みソフトウェア
+      <div align=right>
+		田丸 喜一郎（IPAソフトウェア・エンジニアリング・センター）
+	</div>
+    </ul>
+
+  <LI><B><A NAME="gc-award">Grid Challenge 表彰/講評</A></B> （16:45〜17:00, A会場）
+      <div align=right>Grid Challenge 2006実行委員会</div>
+</UL>
+
+<CENTER><H5>
+<A NAME="day24">── 第3日目 5月24日（水）──</A>
+</H5></CENTER>
+
+<ul>
+  <LI><B><A NAME="gc-talks">Grid Challenge 特別セッション</A></B> （9:00〜10:30, A会場）
+      <div align=right>座長: 合田 憲人（東工大）</div>
+    <ul>
+   <li>概要報告：      <div align="right"> 合田 憲人（東工大）</div>
+    <li>規定課題報告1： <div align="right"> 頓 楠（東京大）</div>
+	<li>規定課題報告2： <div align="right">鴨志田 良和（東京大）</div> 
+	<li>規定課題報告3： <div align="right">中西 悠（電通大）</div>
+  	<li>自由課題報告1： Ninf-Gを用いたディーゼルエンジン燃料噴射スケジューリング問題の最適化システム<div align="right">
+                                千野 晋平，廣安 知之，三木 光範（同志社大）
+		</div>
+	<li>自由課題報告2：VGXP: 多数の計算機をリアルタイムに監視・操作するソフト<div align="right">
+         鴨志田 良和，田浦 健次朗，近山 隆（東京大）
+		</div>
+    </ul>
+
+  <LI><B><A NAME="session42">システム実装</A></B> （9:00〜10:30, B会場）
+      <div align=right>座長: 河野 健二（慶応大）</div>
+    <ul>
+      <li> 抽象状態同期のカーネルレベル実装
+      <div align="right"> 
+		大木 敦雄， 久野 靖（筑波大）
+		</div>
+      <li>クラスタ環境におけるシングルシステム機能の実現
+      <div align="right"> 
+		清水 正明（日立中研）, 戸部 和政, 人見 洋一（日立ソフトウェア事業部）, 鵜飼 敏之（日立中研）, 三瓶 英智, 飯田 恒雄, 藤田 不二男（日立ソフトウェア事業部）
+		</div>
+      <li>似たモノ同士をグループ化するためのセンサー用分散ミドルウェア
+      <div align="right">
+		永田 智大, 小熊 寿, 山崎 憲一（NTTドコモ）
+		</div>
+    </ul>
+  <LI><B><A NAME="session43">分岐予測</A></B> （9:00〜10:30, C会場）
+      <div align=right>座長: 安藤 秀樹（名古屋大）</div>
+    <ul>
+      <li>パーセプトロン分岐予測器への冗長入力付加の効果とその最適化
+      <div align="right"> 
+		澁川 誠, 二ノ宮 康之, 阿部 公輝, 小林 聡（電通大）
+		</div>
+      <li>パス情報を利用した分岐フィルタ機構
+      <div align="right"> 
+		三輪 忍, 福山 智久, 嶋田 創（京都大）, 五島 正裕（東京大）, 中島 康彦, 森 眞一郎, 富田 眞司（京都大）
+		</div>
+      <li>レジスタ間接分岐ターゲット・フォワーディング
+      <div align="right"> 豊島 隆志, 入江 英嗣, 五島 正裕, 坂井 修一（東京大）
+    </ul>
+
+  <LI><B><A NAME="tutorial3">チュートリアル3: Cellにおけるプログラミングとシステムソフトウェア</A></B> （10:45〜12:15, A会場）
+	<div align="right">座長: 朴 泰祐（筑波大）</div>
+    <ul>
+      <li>  Cellプロセッサ向け実行環境（SPU Centric Execution Model）
+          <div align=right>
+			井上 敬介（SCEI）
+			</div>
+    </ul>
+
+  <LI><B><A NAME="session52">グリッドアプリケーション開発</A></B> （10:45〜12:15, B会場）
+      <div align=right>座長: 合田 憲人（東工大）</div>
+    <ul>
+      <li> 高性能GridRPCアプリケーションの開発環境
+      <div align="right"> 小林 孝嗣， 渡邊 啓正， 本多 弘樹（電通大）
+		</div>
+      <li> グリッド上のアプリケーション連携システムの提案と実装
+      <div align="right"> 下坂 久司, 廣安 知之, 三木 光範（同志社大）
+		</div>
+      <li>大規模長時間実行Gridアプリケーションの実装と評価
+      <div align="right"> 
+		武宮 博, 田中 良夫, 中田 秀基, 関口 智嗣（産総研）
+		</div>
+    </ul>
+
+  <LI><B><A NAME="session53">相互結合網</A></B> （10:45〜12:15, C会場）
+      <div align=right>座長: 西 宏章（慶応大）</div>
+    <ul>
+      <li> メッセージパッシングモデルを支援するパケット受信機構のDIMMnet-2 への実装と評価
+      <div align="right"> 
+		北村 聡, 宮部 保雄（慶應大）, 中條 拓伯（東京農工大）, 田邊 昇（東芝）, 天野 英晴（慶應大）
+		</div>
+      <li> エントロピー・スロットリング：相互結合網のパケット移動度に着目した輻輳制御手法
+      <div align="right"> 
+		横田 隆史, 大津 金光（宇都宮大）, 古川 文人（帝京大）, 馬場 敬信（宇都宮大）
+		</div>
+      <li> オンチップトーラス網における仮想チャネルフリールーティング
+      <div align="right"> 
+		松谷 宏紀（慶應大）, 鯉渕 道紘（国情研）, 天野 英晴（慶應大）
+		</div>
+    </ul>
+
+  <LI><B><A NAME="session61">命令スケジューリング</A></B> （13:30〜15:00, A会場）
+      <div align=right>座長: 鳥居 淳（NEC）</div>
+    <ul>
+      <li> 発見的手法に基づくローカルスラック予測機構
+      <div align="right"> 
+		小林 良太郎, 林 久紘, 島田 俊夫（名古屋大）
+		</div>
+      <li> SMTプロセッサにおける命令発行時間に基づくフェッチポリシ
+      <div align="right"> 
+		長江 忠直, 植原 陽平, 渡邊 誠也（岡山大）
+		</div>
+      <li> 先行実行を利用したロード命令のレイテンシ削減および正確なスケジューリング手法
+      <div align="right"> 
+		山本 哲弘, 安藤 秀樹, 島田 俊夫（名古屋大）
+		</div>
+    </ul>
+
+  <LI><B><A NAME="session62">ストレージ</A></B> （13:30〜15:00, B会場）
+      <div align=right>座長: 大山 恵弘（電通大）</div>
+    <ul>
+      <li> Linuxにおけるストレージシステムフレームワークの実現
+      <div align="right"> 
+		藤田 智成（NTT）
+		</div>
+      <li> コモディティOSとメモリマップによるクラスタシステムの実装
+      <div align="right"> 
+		金井 遵, 森 拓郎, 荒木 健志（東京農工大）, 田邊 昇（東芝）, 中條 拓伯, 並木 美太郎（東京農工大）
+		</div>
+      <li> iSCSIを活用したシンクライアントPCシステムSTRAGEX
+      <div align="right"> 市川 俊一， 岡 順一， 鷲坂 光一（NTT)
+		</div>
+    </ul>
+
+  <LI><B><A NAME="session63">分散コンピューティング</A></B> （13:30〜15:00, C会場）
+      <div align=right>座長: 八杉 昌宏（京都大）</div>
+    <ul>
+      <li> 時系列データの統計解析によるPCクラスタシステム解析手法の提案
+      <div align="right"> 
+		山村 周史, 平井 聡, 小野 美由紀, 松本 和宏, 住元 真司, 久門 耕一（富士通研）
+		</div>
+      <li> タスク並列スクリプト言語処理系におけるユーザレベル機能拡張機構
+      <div align="right"> 
+		阪口 裕輔, 大野 和彦, 佐々木 敬泰, 近藤 利夫（三重大）, 中島 浩（豊橋技科大）
+		</div>
+      <li> HPFトランスレータfhpfにおける分散種別を一般化したコード生成手法
+      <div align="right"> 岩下 英俊, 青木 正樹（富士通）
+    </ul>
+
+  <LI><B><A NAME="session71">省電力化手法</A></B> （15:15〜16:45, A会場）
+      <div align=right>座長: 井上 弘士（九州大）</div>
+    <ul>
+      <li> マルチコアプロセッサにおけるコンパイラ制御低消費電力化手法
+      <div align="right"> 
+		白子 準<font color="red">【優秀若手研究賞】</font>, 吉田 宗広, 押山 直人, 和田 康孝, 中野 啓史（早稲田大）, 鹿野 裕明（アドバンストチップマルチプロセッサ研究所）, 木村 啓二, 笠原 博徳（早稲田大/アドバンストチップマルチプロセッサ研究所）
+		</div>
+      <li> DVS制御による負荷不均衡のある並列プログラムの電力量削減手法
+      <div align="right"> 
+		木村 英明, 佐藤 三久, 堀田 義彦, 朴 泰祐, 高橋 大介（筑波大）
+		</div>
+      <li> 実効電力制御による高性能計算機クラスタ構成手法の提案
+      <div align="right"> 
+		池田 佳路， 近藤 正章， 中村 宏（東京大）
+		</div>
+    </ul>
+
+  <LI><B><A NAME="session72">セキュリティ</A></B> （15:15〜16:45, B会場）
+      <div align=right>座長: 廣津 登志夫（豊橋技科大）</div>
+    <ul>
+      <li> 実行時のフェーズを考慮したセキュリティポリシー記述の簡略化
+      <div align="right"> 
+		品川 高廣<font color="red">【優秀若手研究賞】</font>（東京農工大）， 河野 健二（慶應大）
+		</div>
+      <li> System Service 監視による Windows 向け異常検知システム機構
+      <div align="right"> 
+		島本 大輔, 大山 恵弘, 米澤 明憲（東京大）
+		</div>
+      <li> アドレスオフセットに着目したデータフロー追跡による注入攻撃の検出
+      <div align="right"> 
+		勝沼 聡， 栗田 弘之， 塩谷 亮太， 清水 一人（東京大），入江 英嗣（JST/東京大）, 五島 正裕, 坂井 修一（東京大）
+		</div>
+    </ul>
+
+  <LI><B><A NAME="session73">資源仮想化技術</A></B> （15:15〜16:45, C会場）
+      <div align=right>座長: 首藤 一幸（ウタゴエ）</div>
+    <ul>
+      <li> 仮想計算機を用いたグリッド上でのMPI実行環境
+      <div align="right"> 
+		立薗 真樹（東工大）, 中田 秀基（産総研/東工大）, 松岡 聡（東工大/国情研）
+		</div>
+      <li> 冗長性を用いた低遅延並列実時間動作認識システム
+      <div align="right"> 
+       鴨志田 良和, 田浦 健次朗, 白井 達也, 斎藤 秀雄, 白木 孝義, 石黒 勝彦, 深野 亮, 大武 美保子, 佐藤 知正（東京大）, 大津 展之（東京大、産総研）
+		</div>
+      <li> ORE Grid: 仮想計算機を用いたグリッド実行環境の高速な配置ツール
+      <div align="right"> 
+		高宮 安仁, 山形 育平, 青木 孝文（東工大）, 中田 秀基（産総研/東工大）, 松岡 聡（東工大/国情研）
+		</div>
+    </ul>
+
+  <LI><B><A NAME="closing">閉会の辞（16:45〜, A会場）
+</UL>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</BODY>
+</HTML>

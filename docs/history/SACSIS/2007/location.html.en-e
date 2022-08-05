@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2007.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2007 Registration</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) -->
+<div class="title">
+<p class="name">
+5th Symposium on Advanced Computing Systems and Infrastructures<br />
+(SACSIS 2007)
+</p>
+
+<p class="place">
+National Center of Sciences, Tokyo, Japan<br />
+May 23 - 25, 2007
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (NAVIGATION) -->
+<div class="navbar">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+<a href="location.html.ja" title="Japanese Page"> <img src="images/en2jp.gif" alt="japanese" /></a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES BEGIN (HOME) -->  <a href="http://www.hpcc.jp/sacsis/2007/">Home</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (LINKS) -->  <a href="topics.html.en">Topics</a> <span class="hideme">|</span>
+  <a href="cfp.html.en">Call for Papers</a> <span class="hideme">|</span> 
+  <a href="cfposters.html.en">Call for Posters</a> <span class="hideme">|</span> 
+  Call for Participation <span class="hideme">|</span>  <br />
+  Program <span class="hideme">|</span> <br />
+  Exhibits <span class="hideme">|</span> <br />
+  <a href="location.html.en">Location</a> <span class="hideme">|</span>
+  <a href="cell-challenge/">Cell Speed Challenge</a> <span class="hideme">|</span>
+  <a href="committee.html.en">Committee</a> <span class="hideme">|</span>
+  <a href="contact.html.en">Contact</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+ <p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+ <p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS&nbsp;Journal</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">IPSJ</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<div class="main">
+
+<h4>Location</h4>
+
+<ul>
+  <li>National Center of Sciences, 2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo 101-0003</li>
+  <ul>
+    <li><a href="http://www.nii.ac.jp/introduce/access1.shtml">Access</a>
+      (<a href="http://www.nii.ac.jp/index.shtml.en">National Institute of Infomatics</a>)
+    </li>
+    <li><a href="http://www.zam.go.jp/e00/e0000800.htm">Center map (in japanese)</a>
+      (<a href="http://www.zam.go.jp/">Center of National University Finance and Management</a>)
+    </li>
+    <li><a href="http://maps.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E4%B8%80%E3%83%84%E6%A9%8B2-1-2">Google map</a>
+    </li>
+  </ul>
+</ul>
+</div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2006-2007, SACSIS 2007 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

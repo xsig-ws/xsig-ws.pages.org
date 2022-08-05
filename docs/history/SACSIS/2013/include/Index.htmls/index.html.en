@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-en.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+      <h4>SACSIS2013 </h4>
+
+      <p style="text-align:center">
+		  <acronym title="Symposium on Advanced Computing Systems and Infrastructures">SACSIS</acronym>2013 <br />
+		  May 22 - 24, 2013 at <a href="http://www.sira.or.jp/icenter/english/access_transportation.html">Sendai International Center</a>, Sendai, Japan¡¡
+      </p>
+	  
+	  
+      <p>
+		  ¡¡SACSIS (Symposium on Advanced Computing Systems and Infrastructures) , the Annual Symposium on Advanced Computing Systems and Infrastructures, is a symposium for discussing advanced computing systems, infrastructures, and technologies for enabling them from wide and various viewpoints. It covers both technologies on "systems" and technologies on "infrastructures." The 11th symposium will be held in Sendai city from May 22th through May 24th, 2013.
+
+
+      </p>
+      <!-- INSERTED LINES END () -->
+
+      <h4>Updates</h4>
+      <p>
+	<span class="notice">
+	<b>2012.12.18</b> The <a href="instruction.html.en">Paper Submission Page</a> is opened <br />
+	  <b>2012.9.12</b> The website for SACSIS 2013 is up <br />
+
+      <h4>Sponsors</h4>
+      <?php include("include/host-en.html");?>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

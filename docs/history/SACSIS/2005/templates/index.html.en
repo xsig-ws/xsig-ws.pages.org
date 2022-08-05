@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2005.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2005</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2005_NAVIGATION@@-->
+<div class="main">
+
+<center>
+SACSIS 2005 Ended.<br />
+Thank you.
+<br />
+(<a href="include/enquete.pdf">enquete results</a>)
+</center>
+
+<!-- News -->
+<p>
+<b>2005.7.1</b> released <a href="include/enquete.pdf">enquete results</a> <br />
+<b>2005.6.8</b> released tutorial resources in <a href="program.html.ja">Program</a> page <br />
+<b>2005.4.15</b> released a <a href="program.html.ja">Program</a> <br />
+<b>2005.4.13</b> added <a href="cfpart.html">Call for Participation</a> and a link to <a href="http://www.ipsj.or.jp/09sig/kaikoku/2005/SACSIS2005.html">registration</a> page <br />
+<b>2005.4.11</b> released <a href="exhibit.html">a page for exhibits</a> <br />
+<b>2005.3.8</b> revised Call for Posters <br />
+<b>2005.3.8</b> released accomodation information <br />
+<b>2005.3.4</b> released Call for Posters <br />
+<b>2004.12.22</b> created a link to paper submission web page <br />
+<b>2004.12.7</b> created a link to Grid Challenge web page <br />
+<b>2004.11.22</b> released Call for Papers <br />
+<b>2004.10.28</b> opened SACSIS 2005 website <br />
+</p>
+
+<h4>SACSIS2005</h4>
+
+<!--@@SACSIS2005@@-->
+<!--@@SACSIS@@-->
+
+<h4>Important Dates</h4>
+
+<!--@@DATES@@-->
+
+<h4>Sponsors and Supporter</h4>
+
+<ul>
+<li> Sponsors
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hpcc.jp/sigarc/">SIGARC</a> (Architecture) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a> (Operating Systems) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hpcc.jp/sighpc/">SIGHPC</a> (High Performance Computing) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/pro/">SIGPRO</a> (Programming) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.org/">IPSJ</a> <a href="http://research.nii.ac.jp/~uno/sigal/">SIGAL</a> (Algorithm) </li>
+ <li> <a href="http://www.ieice.org/">IEICE</a> 
+ <a href="http://www.ieice.org/iss/cpsy/jpn/">CPSY</a> (Computer System) </li>
+<li> <a href="http://homepage1.nifty.com/ieeetokyo/"> IEEE Computer Society Japan Chapter</a> <!--(requesting)--> </li>
+ </ul>
+</li>
+<li> Supporter
+ <ul>
+ <li> <a href="http://www.ieice.org/">IEICE</a> 
+     <a href="http://www.ieice.org/iss/dc/jpn/">DC</a> (Dependable Computing) </li>
+ </ul>
+</li>
+</ul>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

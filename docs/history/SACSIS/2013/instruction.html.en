@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <?php include("include/header-en.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-en.html");?>
+    <div class="main">
+
+      <h4>Submitting to the SACSIS2013 EasyChair System</h4>
+
+<p>
+This tutorial will show you how to upload your paper to the SACSIS2013
+EasyChair system.
+If you have used EasyChair before, skip to the next section.
+If you have never used EasyChair before, follow the next section.
+</p>
+
+<p><strong>1. Creation of your EasyChair account</strong></p>
+<ol>
+<li>Navigate to 
+<a href="https://www.easychair.org/conferences/?conf=sacsis2013">
+the SACSIS2013 EasyChair system</a>.</li>
+<li>Click "sign up for an account".</li>
+<li>In "Step 1", copy the skewed letters into the text box and click "continue".</li>
+<li>In "Step 2", fill out your "First name", "Last name", and "Email"
+  address and click "continue".</li>
+<li>"Account Application Received" will be shown on your browser and
+  pre-registration process has been completed.</li>
+<li>You will receive a confirmation email, whose subject is "EasyChair
+  account confirmation", containing a link to continue your
+  registration. Click the link.
+<li>You can see "Signing Up for EasyChair: Last Step" in your browser.
+Complete your registration by providing all the required information
+  and picking a "User name" and "Password". This "User name" and
+  "Password" are used to sign in to EasyChair. Then, click "create my account".</li>
+</ol>
+</p>
+
+<p><strong>2. Submission to SACSIS2013</strong></p>
+<ol>
+<li>Navigate to the SACSIS2013 EasyChair system at <br>
+<a href="https://www.easychair.org/conferences/?conf=sacsis2013">
+https://www.easychair.org/conferences/?conf=sacsis2013</a>.</li>
+
+<li>Sign in using your new or existing user name and password.<br>
+<blockquote>
+<img src="./SACSIS2013_files/login.png" width="450" alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+
+<li>Click "New Submission".</li>
+<li>Tick the track name you will submit, and click "Continue".<br>
+<blockquote>
+<img src="./SACSIS2013_files/select_a_track.png" width="450" alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+<li>Fill out contact information. <br>
+<blockquote>
+<img src="./SACSIS2013_files/contact_info.png" width="450" alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+<li>Fill out the form to provide authors' information. 
+If the person is the corresponding author, tick its box for "Corresponding
+  author". If you need more than the standard 3 authors, click on
+  the "Click here to add more authors".<br>
+  <blockquote>
+<img src="./SACSIS2013_files/authors_info.png" width="450" alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+<li>Fill out the paper title, abstract, and keyword. <br>
+<blockquote>
+<img src="./SACSIS2013_files/title_abst_keywords.png" width="450" alt="Valid XHTML 1.1" border="1"/>
+</blockquote>
+</li>
+<li><font color="red">If the corresponding author is a student, tick
+    the box for "Student Paper / 学生論文". </font><br>
+<blockquote>
+<img src="./SACSIS2013_files/check_and_submit.png"  width="450" alt="Valid XHTML 1.1" border="1"/></li>
+</blockquote>
+<li>If you submit abstract at first, tick the box for "Abstract Only".
+Otherwise, upload your full submission file in PDF format by clicking
+    the "Browse" button. </li>
+<li>Confirm the entries and click the "Submit".</li>
+<li>Once you have submitted, you will be taken to the information
+  page for your paper. You may update various information about your
+  paper here, or submit a whole new version till the paper submission
+  deadline.</li>
+</ol>
+</p>
+
+	
+<br><br>	
+<h4>Contact</h4> 
+<table> 
+<colgroup><col width="150" /> <col width="180" /></colgroup>
+<tr><td>Symposium:</td><td>General management committee chair</td>
+  <td>Yuko Oshima</td></tr>
+<tr><td>Paper submission:
+  </td><td>Program vice chair (papers)</td><td>Atsuko Takefusa</td></tr>
+<tr><td>Public relation: </td><td>Publicity chair</td><td>Ryusuke Egawa</td></tr>
+<tr><td colspan="3"><a href="contact.html">http://sacsis.hpcc.jp/2013/contact.html</a></td></tr>
+</table>
+</div>
+<?php include("include/footer.html");?>　
+ 
+  </body>
+</html>

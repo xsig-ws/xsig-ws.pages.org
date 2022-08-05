@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <div class="main">
+      <?php include("include/navbar-ja.html");?>
+      <h4>SACSIS 2011 プログラム更新履歴</h4>
+      <ul>
+	<li>2011.07.01 講演者のご厚意により，チュートリアル資料を<a href="program.html.ja#tutorial">一般公開</a>（およびupdate）しました．</li>
+	<li>2011.06.01 優秀ポスター賞，学生優秀ポスター賞の情報を<a href="program.html.ja#AWARDP">追加</a>しました．</li>
+	<li>2011.06.01 最優秀論文賞，優秀若手研究賞の受賞理由を<a href="program.html.ja#AWARD">追加</a>しました．</li>
+	<li>2011.05.25 最優秀論文賞，優秀若手研究賞の情報を<a href="program.html.ja#AWARD">追加</a>しました．</li>
+	<li>2011.05.25 チュートリアルの資料を<a href="program.html.ja#tutorial">公開</a>しました．</li>
+	<li>2011.05.24 「<a href="notice-online.html.ja">オンライン論文集について</a>」のページに論文PDFのindex用HTMLファイルを公開しました．</li>
+	<li>2011.05.23 「<a href="cfposters.html.ja#schedule">ポスター発表のスケジュール</a>」の注意書きへのリンクをはりました．</li>
+	<li>2011.05.18 <a href="exhibit.html.ja">企業・団体展示ページ</a>へのリンクをはりました．</li>
+	<li>2011.04.27 会場準備の都合により，ポスター展示時間を14:00&sim;に変更しました．「ポスターセッション」の時間は変更ありません．</li>
+	<li>2011.04.27 ポスター論文のタイトルに一件誤りがありましたので修正しました．</li>
+	<li>2011.04.25 セッションA8の一般論文のタイトルを一件変更しました．</li>
+	<li>2011.04.24 ポスター論文の一覧を掲載しました．これにより全プログラムが決定しました．</li>
+	<li>2011.04.21 協賛企業一覧に一社追加しました．</li>
+	<li>2011.04.12 チュートリアル3（菅原氏）のタイトルを更新し，顔写真を掲載しました．</li>
+	<li>2011.04.12 未確定であったセッションの座長を確定いたしました．</li>
+	<li>2011.04.08 チュートリアル2（田浦先生）の正式タイトルおよび顔写真を掲載しました．</li>
+	<li>2011.04.08 論文の著者名に一部誤りがありましたので修正しました．</li>
+	<li>2011.04.06 チュートリアル1（黒田先生）の正式タイトルおよび顔写真を掲載しました．</li>
+	<li>2011.04.06 セッションA9（5/27（金）13:30-15:30）内の発表順序を入れ換えました．</li>
+	<li>2011.04.05 公開</li>
+      </ul>
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

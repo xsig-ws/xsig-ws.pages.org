@@ -1,0 +1,126 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>GPU Challenge 2009</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/gpu.css">
+<!--
+<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.hpcc.jp/sacsis/2009/cell/cgi-bin/rss.cgi">
+-->
+<!-- meta name="author"      content="" -->
+</head>
+
+<body>
+
+<h2>規定課題</h2>
+
+<p>
+GPU Challenge 2009の規定課題は<a href="http://www.hpcc.jp/sacsis/2009/cell/" target="top">
+Cell Challenge</a>と同様，
+「<strong>文字列の編集距離計算</strong>」です．
+</p>
+<p>
+GPU Challenge 2009実行委員会が用意する，NVIDIA社GPU(Tesla S1070-500)
+を搭載した計算機で，CUDAプログラミング環境を用いてプログラムを
+作成していただきます．
+</p>
+
+<p>
+<font color="blue">
+※Cell Challenge 2009の課題webページの内容を引用・一部改変し
+掲示させていただいておりますが，本ページについてのお問い合わせは
+GPU Challenge実行委員会あてにお願いいたします．
+</font>
+</p>
+
+<h3>概要</h3>
+
+2つの文字列の近さを計るために片方に次の操作を繰り返し適用して，
+もう一方の文字列を得るための操作回数の最小値が，その2つの文字列の
+編集距離です。使用可能な操作は以下の3種類です。
+
+<ol>
+<li>削除：1つの文字を取り除く</li>
+<li>挿入：1つの文字を新たに付け加える </li>
+<li>置換：1つの文字を別の文字で置き換える</li>
+</ol>
+
+例えば「weight」と「write」の編集距離を考えるとき，次のように
+操作を繰り返し適用すると，この2つの編集距離が 4以下 であることが分かります。
+
+<ul>
+<li>weight </li>
+<li>weight<strong>e</strong> (挿入：e) </li>
+<li>w<strong>r</strong>ighte (置換：e → r)</li>
+<li>wrihte (削除：g)</li>
+<li>write (削除：h) </li>
+</ul>
+
+また，3回以下の操作の適用では「weight」を「write」にすることが
+実はできないので，「weight」と「write」の編集距離は 4 になります。
+削除，挿入，置換は文字列の中のどの位置で行ってもよいです。
+
+<h3>予選課題詳細</h3>
+
+具体的に解いていただくのは以下形式で出題される問題です．
+
+<dl>
+<dt><strong>ユーザの実装する関数</strong></dt>
+<dd>
+<table border=1><tr><td>
+<pre>
+unsigned int device_user(char *str1, int lenStr1, char *str2, int lenStr2);
+</pre>
+</td></tr></table>
+引数として与えられるポインタはすべてホスト(CPU)上のメモリを指すもので
+あるため，
+ホストとGPUの間のデータ転送(cudaMemcpyなど)は，device_user関数内
+で行う必要があります．
+</dd>
+<dt><strong>文字列</strong></dt>
+<dd>
+1文字は1バイトで1〜255の値を持つ．(char)0が終端．<br>
+2つの文字列はstr1, str2の指す領域に保存される．<br>
+それぞれの長さはlenStr1, lenStr2．<br>
+文字列の長さは128の倍数．<br>
+文字列の最大長はそれぞれ1048448文字(1M-128)．<br>
+2つの文字列長の積(lenStr1*lenStr2)は最大で2の34乗(=17,179,869,184)．
+</dd>
+<dt><strong>編集距離</strong></dt>
+<dd>
+1回の挿入，削除，置換の編集距離はすべて1．
+</dd>
+<dt><strong>回答</strong></dt>
+<dd>
+2つの文字列の編集距離を，device_user関数の返り値として返すこと．
+</dd>
+<dt><strong>実行時間の測定</strong></dt>
+<dd>
+device_user関数の実行時間が測定され，順位決定に用いられます．
+</dd>
+</dl>
+
+<h3>プログラム作成ルール</h3>
+
+<ul>
+<li>参加者のプログラムは1つのGPUのみを用いること．
+device_user関数の中でcudaSetDevice関数などを呼んではいけない．
+(委員会の準備する計算機には2つずつGPUが搭載されていますが，
+各チームはそのうちの1つだけを使うことになります)
+</li>
+<li>
+参加者のプログラムはCPUコアを高々1つだけ用いること．
+ホストとGPUの間の通信やGPUカーネル関数の終了待ちなどにも
+CPUコアが使われるので注意のこと．
+</li>
+<li>
+その他のルールについてはツールキットのページを参照のこと．
+</li>
+</ul>
+
+</body>
+</html>
+

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+<div>
+      <h3>SACSIS 2013 企業・団体展示</h3>
+      <p class="url">(2013年5月22日(水)13:00-18:00　第三会場 桜)<br />(2013年5月23日(木)09:30-20:00　第三会場 桜)</p>
+
+
+<img class="logo" alt="logo" src="files/exhibits/nec_logo.png" />
+      <h4>日本電気株式会社</h4>
+      <p class="url">
+	<a href="http://www.nec.co.jp/hpc/">http://www.nec.co.jp/hpc/</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/nec.pdf">ＨＰＣクラスタソリューション「ＬＸシリーズ」</a></p>
+      <p class="abs">
+LXシリーズは、大規模から小規模までのシミュレーションでコストパフォーマンスや拡張性を重視するお客様へ提供するソリューションです。NECが永年、ＨＰＣ分野で培ったシステム構築に関する幅広い経験やアプリケーションノウハウを基に、HPCクラスタシステムで必要とされる様々なコンポーネントを組み合わせて、お客様の利用環境やアプリケーションに合わせた最適なシステム/ソリューションをご提供いたします。
+   </p>
+
+<br /><br />
+
+<img class="logo" alt="logo" src="files/exhibits/rogue_logo.jpg" />
+      <h4>ローグウェーブ ソフトウェア ジャパン株式会社</h4>
+      <p class="url">
+	<a href="http://www.roguewave.jp/">http://www.roguewave.jp/</a><br />
+	<a href="http://www.roguewave.jp/products/TotalView/overview.html">http://www.roguewave.jp/products/TotalView/overview.html</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/rogue.pdf">大規模並列アプリケーション開発向けFortran, C/C++ 対応デバッガ『TotalView』のご紹介</a></p>
+      <p class="abs">
+TotalView は、世界の大手研究所、教育機関などで幅広く採用されている高性能デバッガです。NVIDIA CUDA を搭載した環境では、TotalView デバッガ上でホスト側・パフォーマンスアクセラレータ／コプロセッサ側両方のコードのシームレスなデバッグが可能です。また最新の Intel Xeon Phi コプロセッサ にも対応しています。更に Cray 環境ではディレクティブベースのOpenACC もサポートします。SACSIS2013では、新たに追加された便利な２つのセンス体系をご案内するカタログを配布いたします。
+      </p>
+
+<br /><br />
+  <img class="logo" alt="logo" src="files/exhibits/hitachi_logo.png" />
+      <h4>株式会社 日立製作所</h4>
+      <p class="url">
+	<a href="http://www.hitachi.co.jp">http://www.hitachi.co.jp</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/hitachi.pdf">日立高密度ファイルサーバ（仮称）</a></p>
+      <p class="abs">
+日立高密度ファイルサーバ（仮称）は2Uサイズのコンパクトな筐体に2プロセッサーノードを2台とHDDトレイ(3.5インチ12台又は2.5インチ24台)を搭載した高密度ファイルサーバです。HSFS(※)を組み合わせる事で小規模な共有ファイルシステムを構築することが可能となります。またサーバ台数を増やすことでスケーラブルな増強が可能となります。<br />
+※：HSFS(Hitachi Striping File System)はPOSIXに準拠した高性能・高信頼な分散共有ファイルシステムです。また、Hadoopのファイルシステムとしても利用可能であり、POSIXインターフェースによるアクセスも可能なHadoopシステムを構築できます。
+      </p>
+
+<br /><br />
+
+      <h4>一般財団法人高度情報科学技術研究機構</h4>
+      <p class="url">
+	<a href="https://www.hpci-office.jp/">https://www.hpci-office.jp/</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/RIST.pdf">「京」を中核としたHPCI共用計算資源の一般利用課題募集について</a></p>
+      <p class="abs">
+「京」を中核としたHPCI共用計算資源の一般利用課題を９月から募集します。また、産業利用におけるトライアルユースは随時募集しております。無償で使える制度であり、お気軽にご相談ください。
+      </p>
+
+<br /><br />
+
+ <img class="logo" alt="logo" src="files/exhibits/HPCTECH_logo.jpg" />
+      <h4>株式会社ＨＰＣテック </h4>
+      <p class="url">
+	<a href="http://www.hpctech.co.jp/productindex">http://www.hpctech.co.jp/productindex</a><br />
+	<a href="http://www.hpctech.co.jp/hardware_category/gpu_computing">http://www.hpctech.co.jp/hardware_category/gpu_computing</a><br />
+	<a href="http://www.hpctech.co.jp/hardware_category/rackmount_computer">http://www.hpctech.co.jp/hardware_category/rackmount_computer</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/HPCTECH.pdf">HPCを加速する最新テクノロジーと製品の紹介</a></p>
+      <p class="abs">
+GPGPUとは別の切り口でメニーコア技術を利用したコプロセッサがIntelより発売されました。弊社では、いち早くこのXeon Phi5110Pを利用した計算機を製品化致しましたので、それを展示いたします。
+またnVIDIA Kepler Core のQuadro K 5000を搭載した日本で一番高速なポータブルGPU計算機も展示致します。これはCPUにはデスクトップ用を採用し、メモリも大容量32GBを搭載しました。普通の“ノートブック”とは次元が違いますので、ぜひ直接ご覧ください。
+
+      </p>
+
+<br /><br />
+
+<img class="logo" alt="logo" src="files/exhibits/titech_logo.png" />
+      <h4>東京工業大学 学術国際情報センター</h4>
+      <p class="url">
+	<a href="http://www.gsic.titech.ac.jp/kyoyo">http://www.gsic.titech.ac.jp/kyoyo</a><br />
+	<a href="http://www.gsic.titech.ac.jp/kyodou">http://www.gsic.titech.ac.jp/kyodou</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/titech.pdf">東工大『みんなのスパコン』TSUBAME</a></p>
+      <p class="abs">
+世界トップレベルの性能を持つ東工大のスパコンTSUBAMEを、学外の皆さまにご利用頂くサービスを紹介いたします。無償で使える制度もあり、ブースではこれまでの利用実績等紹介いたします。お気軽にご相談ください。
+      </p>
+
+<br /><br />
+
+    <img class="logo" alt="logo" src="files/exhibits/G-DEP_logo.jpg" />
+<h4>Ｇ−ＤＥＰ　エルザジャパン</h4>
+      <p class="url">
+	<a href="http://www.nvidia.co.jp/home.html">http://www.nvidia.co.jp/home.html</a><br />
+	<a href="http://www.elsa-jp.co.jp/index.html">http://www.elsa-jp.co.jp/index.html</a><br />
+	<a href="http://www.gdep.jp/">http://www.gdep.jp/</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/G-DEP.pdf">NVIDIA　ELSA　G-DEPによるGPUソリューション</a></p>
+      <p class="abs">
+最新のNVIDIA Tesla K20を搭載したG-DEP社製GPUコンピューティングマシンによる実機デモを行います。G-DEPの水冷ユニット搭載マシンの静音性をご体感ください。
+      </p>
+
+<br /><br />
+<img class="logo" alt="logo" src="files/exhibits/cray.png" />
+      <h4>Cray Japan Inc.</h4>
+      <p class="url">
+	<a href="http://www.cray.com/japan/">http://www.cray.com/japan/</a><br />
+	     <br />
+	      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/cray-japan.pdf">Cray Adaptive Supercomputing Solution</a></p>
+      <p class="abs">
+Cray Adaptive Supercomputing の中核製品となる最新鋭のスーパーコンピューター XC30 と世界中で多数の導入実績を誇る、先進的な冷却技術を搭載したクラスタ型スーパーコンピューター CS300 のコンポーネントを展示いたします。さらにHPC向け並列ファイルシステムやBigData向けアプライアンスについてもご紹介いたします。
+      </p>
+
+<br /><br />
+
+   <img class="logo" alt="logo" src="files/exhibits/scsk.png" />
+      <h4>SCSK株式会社</h4>
+      <p class="url">
+	<a href="http://www.scsk.jp/product/common/v-memory/">http://www.scsk.jp/product/common/v-memory/</a><br />
+	<a href="http://www.scsk.jp/product/common/sandisk/">http://www.scsk.jp/product/common/sandisk/</a><br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/scsk.pdf">アプリケーションを高速化するフラッシュストレージソリューション</a></p>
+      <p class="abs">
+超高速ディスクＩＯ、低レイテンシーを実現するＶｉｏｌｉｎ Ｍｅｍｏｒｙ社製フラッシュアレイ Ｖ−６０００シリーズと既存ストレージのパフォーマンス問題を解決するキャッシュソフトウェアソリューション ＳａｎＤｉｓｋ社製ＦｌａｓｈＳｏｆｔの２点をご紹介します。
+      </p>
+
+<br /><br />
+
+
+   <img class="logo" alt="logo" src="files/exhibits/tohoku_logo.png" />
+      <h4>東北大学 サイバーサイエンスセンター</h4>
+      <p class="url">
+	<a href="http://www.isc.tohoku.ac.jp/">http://www.isc.tohoku.ac.jp/</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/tohoku.pdf">サイバーサイエンスセンターにおける大規模計算システムと最新の研究活動の紹介</a></p>
+      <p class="abs">
+東北大学サイバーサイエンスセンターでは，全国共同利用施設として全国の研究者の大規模科学技術計算を支えるスーパーコンピュータなど先端学術情報基盤の整備・運用とこれら先端学術情報基盤を支える研究を行っております．展示ブースでは，サイバーサイエンスセンターの取り組みやスーパーコンピューティング研究部の最新の研究活動・研究成果をご紹介いたします．
+      </p>
+	  
+	  <br /><br />
+
+      <img class="logo" alt="logo" src="files/exhibits/toa_logo.png" />
+      <h4>東亜電気工業株式会社</h4>
+      <p class="url">
+	<a href="http://www.toadenki.co.jp/product/prs-22.html">http://www.toadenki.co.jp/product/prs-22.html</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/toa.pdf">HPC向け冷却・省エネソリューション</a></p>
+      <p class="abs">
+HPCの演算能力向上とあわせ、熱対策および電力消費の問題は無視することが出来ません。弊社は、汎用のサーバサック向けの冷却装置からCPU単位での冷却まで、様々なアプローチによりHPCの為の「熱対策」「省エネ」のお手伝いをさせて頂きます。本展示では、ラック冷却・CPU冷却の実機をご用意しておりますので、是非ご覧下さい。
+      </p>
+
+
+<br /><br />
+      <img class="logo" alt="logo" src="files/exhibits/ddn_logo.jpg" />
+      <h4>株式会社データダイレクト・ネットワークス・ジャパン</h4>
+      <p class="url">
+	<a href="http://www.ddn.com">http://www.ddn.com</a><br />
+	     <br />
+      </p>
+      <br />
+      <p class="title"><a href="files/exhibits/ddn.pdf">DDN 新世代ハイパフォーマンスストレージ</a></p>
+      <p class="abs">
+DDNのハイパフォーマンスストレージは、最新のTOP500ランキングにおいて、2/3以上のスーパーコンピューター、HPCクラスターで採用されています。またオークリッジ国立研究所（ORNL）は、新型TITANスーパーコンピューターのストレージ SPIDER IIとして40PBのDDN SFA-40Kシステムを採用したことを発表しました。（2013年4月16日：http://prtimes.jp/main/html/rd/p/000000008.000005769.html）
+      </p>
+
+<br /><br />
+
+    
+
+      
+
+     
+
+
+
+</div>
+
+    </div>
+    <?php include("include/footer.html");?>
+  </body>
+</html>

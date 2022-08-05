@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+<head>
+ <style type="text/css">
+       tr.cf_paper {
+       display: table-row;
+       }
+       tr.cf_etc {
+       display: none;
+       }
+       tr.cf_poster {
+       display: table-row;
+       }
+ </style>
+</head>
+
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+
+<h4> Call for Papers and Presentations </h4> 
+
+<h2 style="text-align:center">
+2nd Annual Meeting on Advanced Computing System and Infrastructure <br />
+(<a href="http://acsi.hpcc.jp/2016/">ACSI2016</a>)
+</h2>
+
+<table>
+  <tr><td>日時: </td><td>2016年1月18日(月)〜20日(水)</td></tr>
+  <tr><td>会場: </td><td><a href="http://www.med.kyushu-u.ac.jp/100ko-do/">九州大学医学部百年講堂</a></td></tr>
+</table>
+
+<p>主催（順不同）</p>
+<ul>
+<li> <a href="http://www.ipsj.or.jp/">（社）情報処理学会</a>・<a href="http://www.ipsj.or.jp/sig/os/">システムソフトウェアとオペレーティング・システム研究会</a> (OS)</li>
+<li> <a href="http://www.ipsj.or.jp/">（社）情報処理学会</a>・<a href="http://sighpc.ipsj.or.jp/">ハイパフォーマンスコンピューティング研究会</a> (HPC)</li>
+<li> <a href="http://www.ipsj.or.jp/">（社）情報処理学会</a>・<a href="http://sigpro.ipsj.or.jp/">プログラミング研究会</a> (PRO)</li>
+</ul>
+
+<h4> 重要日程 </h4>
+<?php include("include/important-dates-ja.html");?>
+
+<h4>【概要】</h4>
+
+<?php include("include/aboutacsi-ja.html");?>
+
+<h4>【論文の募集内容】</h4>
+
+<?php include("include/aboutacsi2-ja.html");?>
+
+<!-- TODO from here -->
+
+<p>
+ACSI2016では，一般論文，国外既発表論文紹介，ポスターの発表枠を設けます．一般論文についてはさらにlong paperとshort paperを受け付けます．
+</p>
+
+<dl>
+<dt>(1) 一般論文（long paper）</dt>
+<dd> 
+<p>
+ACSIの対象分野における最先端の研究成果を国内で発表することに加え，これらの良質な研究成果を国際的に発信することを視野に入れた完成度の高い論文（最長10ページ）を募集します．投稿された論文に対してプログラム委員会による査読が行われます．査読の主たる目的は，ACSIにおける発表の質を一定水準以上に保つこと，限られた発表枠に対する発表の選定，受賞論文の選出となります．これらに加え，査読者による客観的な評価やコメントを投稿者が自身の研究において活用し，将来の国際会議・学術論文誌投稿へ活かすことも目的とします．なお，査読結果報告に使用する言語は日本語または英語としますが，英語による報告を投稿時に希望することを可能とします．
+</p>
+<p>
+採択された論文については，本会議中に口頭発表を行っていただきます．口頭発表に使用する言語は日本語，英語のいずれでも構いません．また，スライドについても同様とします．聴衆への配慮，国際会議への投稿予定等を総合的に勘案し，発表者各自で適宜使用する言語を選択してください.
+</p>
+</dd>
+
+<dt>(2) 一般論文（short paper）</dt>
+<dd>
+<p>
+ACSIの対象分野における最先端の研究成果を国内で発表することに加え，これらの良質な研究成果を国際的に発信することを視野に入れた論文（4〜6ページ）を募集します．投稿された論文に対してプログラム委員会による査読が行われますが，発表により活発な議論が期待できる論文や今後の発展が期待できる萌芽的な研究を発表する論文も積極的に採択します．
+</p>
+<p>
+採択された論文については，本会議中に口頭発表を行っていただきます．発表やスライドに使用する言語はlong paperと同様です．
+</p>
+</dd>
+
+<dt>(3) 国外既発表論文紹介</dt>
+<dd><p>
+ACSIの対象分野における最先端の研究成果のうち，査読付きの国際会議または海外学術雑誌等で既に発表されている（または採択が決定している）が国内では未発表の研究成果を紹介する発表を募集します．申し込みのあった発表に対してプログラム委員会が採否を決定します．採否はACSIへの関連性により決定しますが，申し込み多数の場合はプログラム委員会の判断で発表を遠慮いただく可能性もありますので，その旨をご了承の上お申し込みください．なお，原論文は採否の決定のためだけに参考にします．
+</p>
+<p>
+採択された発表については，本会議中に口頭発表を行っていただきます．発表やスライドに使用する言語は一般論文と同様です．
+</p> </dd>
+<dt>(4) ポスター</dt>
+<dd><p>
+ACSI2015に引き続きポスター発表を募集します．<span class="del">詳細は後日アナウンスします．</span>詳細は<a href="./cfposters.html.ja">ポスター募集要項</a>を参照．
+</p></dd>
+</dl>
+
+<h4>【採択論文の配布】</h4>
+<p>
+ACSI2016では，採択された論文を一般には公開しません．ただし，各採択論文は，会議参加者のみに対して一定期間（会議期間と会議後一週間程度），アクセス可能とします．
+</p>
+
+<h4>【一般論文の投稿規定・規定スタイル】</h4>
+<p>
+IEEEのフォーマット（IEEE conference style，用紙サイズは US letter または A4）を用いた英文により書かれた研究論文を募集します．投稿論文のページ数は，long paper が最長10ページ，short paper は最長6ページとします．募集対象は，国内外の査読付き雑誌・査読付き会議に既発表/採択決定済みでない論文とします．レターやテクニカルノートなどの，通常の論文とは異なる基準で査読されるカテゴリの発表/投稿も同様の基準で取り扱います．なお，雑誌・会議で既発表/採択決定済みであっても予稿集等がISBN番号あるいはISSN番号を有しない配布物の場合には未発表とみなします．
+</p>
+
+<p>
+原稿のテンプレートはIEEE template (<a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">http://www.ieee.org/conferences_events/conferences/publishing/templates.html</a>) より取得可能です．こちらのフォーマットをご利用ください．投稿にはこれらのフォーマットに従って作成したPDFファイルをご使用ください．
+ 使用言語が異なっている，ページ数が超過している等，規定のフォーマットに従っていない場合にはプログラム委員長の判断で不採択となることがありますのでご注意ください．
+</p>
+<h4>【一般論文における表彰】 </h4>
+<p>
+一般論文では，トラック毎に最大一件のACSI2016 Outstanding Research Awardの受賞論文を選出し，著者を受賞者として表彰します．
+</p>
+<p>
+また，第一著者が学生（論文投稿時）である論文の中からACSI2016 Outstanding Student Research Awardの受賞論文一件を選出し，第一著者を受賞者として表彰します．学生には社会人学生も含まれますが，この場合は論文内容が学生として実施した研究である場合に限ります．なお，会議における発表者が第一著者でなかった場合，理由を問わず表彰対象とならないことを付記します．
+</p>
+<p>
+両賞の受賞論文はいずれも研究内容の質の高さに加え，研究の将来性，実用性を総合的に評価して選出します．論文の完成度よりも研究内容の評価をより重視しますが，論文における論旨の確かさ等，研究内容を他者に的確に伝えているかどうかは評価の対象となります．なお，同一の論文が両方の賞を受賞することはないとします．
+</p>
+
+<h4>【ACS論文誌における連携号】</h4>
+<p>
+ACSI2016採択通知3週間後頃を目途に投稿を募集するACS論文誌（ACSI連携号）を企画します．本連携号では，ACSIへの投稿論文を元にした一般論文の審査をACSIのプログラム委員会がACS編集委員会に協力して行い，通常の投稿論文よりもさらに迅速な審査を目指します．ACSIで発表される研究成果に関する論文投稿先の一つとしてご検討ください．なお，同連携号ではACS論文誌としての基準で審査が行われ，ACSIの論文採録基準と同一ではないことにご留意ください．
+</p>
+
+<h4>【論文の投稿方法】</h4>
+<p>
+ACSI2016ではEasyChairによる論文投稿を予定しています．投稿窓口は後日，ACSI2016ホームページ（<a href="http://acsi.hpcc.jp/2016/">http://acsi.hpcc.jp/2016/</a>）上でお知らせいたします．なお，投稿時には，論文の内容に応じて以下の3つの査読トラックのうちの1つを選択していただきます．ただし，列挙されているテーマに属さないなど，トラックの選択が難しい場合には指定しなくてもかまいません．この場合，プログラム委員会で適切なトラックを選択します．また，投稿時にトラックが指定された場合でも，査読に際してプログラム委員会の判断で異なるトラックに移動することもあります．
+</p>
+
+<dl>
+<dt>トラックA: アプリケーション, アルゴリズム（トラックチェア：遠藤 敏夫，東京工業大学）</dt>
+<dd>
+<p></p>
+<ul>
+<li>計算科学・シミュレーション</li>
+<li>数値計算アルゴリズム</li>
+<li>数値計算ライブラリ</li>
+<li>自動チューニング</li>
+<li>大規模データ処理アルゴリズム</li>
+<li>省電力アルゴリズム</li>
+<li>アルゴリズムベース耐故障</li>
+<li>スケーラブルアルゴリズム</li>
+</ul>
+</dd> 
+<dt>トラックB: プログラミング・システムソフトウェア（トラックチェア：建部 修見，筑波大学）</dt>
+<dd>
+<p></p>
+<ul>
+<li>オペレーティングシステム</li>
+<li>プログラミング言語設計・実装</li>
+<li>仮想化技術</li>
+<li>データ集約的計算基盤（MapReduce, KVS）</li>
+<li>ファイルシステム</li>
+<li>データベース</li>
+<li>クラウドコンピューティングシステム</li>
+<li>サイバーフィジカルシステム</li>
+<li>グリッドコンピューティングシステム</li>
+<li>ハイパフォーマンスコンピューティングシステム</li>
+<li>セキュリティ</li>
+<li>通信ライブラリ</li>
+<li>広域ネットワーキング</li>
+<li>大規模システム運用・評価</li>
+</ul>
+</dd> 
+<dt>トラックC: システムアーキテクチャ（トラックチェア：木村 啓二，早稲田大学 ）</dt>
+<dd>
+<p></p>
+<ul>
+<li>プロセッサアーキテクチャ</li>
+<li>メモリアーキテクチャ</li>
+<li>ネットワークアーキテクチャ</li>
+<li>ヘテロジニアスアーキテクチャ（GPU, メニーコア）</li>
+<li>リコンフィギャラブルシステム</li>
+<li>省電力設計</li>
+<li>ディペンダブルシステム</li>
+<li>アプリケーション専用アーキテクチャ</li>
+<li>組込みシステム</li>
+</ul>
+</dd>
+</dl>
+
+<!-- TODO done here -->
+
+<h4> 【組織委員】</h4>
+
+      <?php include("include/committee-oc-ja.html");?>
+
+<h4> 【プログラム委員】</h4>
+
+      <?php include("include/committee-pc-members-ja.html");?>
+
+<h4> 【お問い合わせ】</h4>
+
+ACSI2016 組織委員会： acsi2016 <span> "at" </span> acsi "dot" hpcc "dot" jp
+
+</div>
+
+    <?php include("include/footer.html");?>
+<div>
+  <p class="validation">
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://www.w3.org/Icons/valid-xhtml11"
+	   alt="Valid XHTML 1.1" /></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+      <img style="border:0;width:88px;height:31px"
+	   src="http://jigsaw.w3.org/css-validator/images/vcss"
+	   alt="Valid CSS" /></a>
+  </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>GPU Challenge 2010</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/gpu.css">
+<!-- meta name="author"      content="" -->
+</head>
+
+<body>
+
+<h2>ツールキット</h2>
+
+ツールキットは、規定課題「直交格子法による流体の移流計算」の
+サンプルプログラムおよび出題APIから成ります。
+参加チームは必ず入手してください。
+サンプルプログラムを改良する形で、提出プログラムの作成を
+行うことができます。
+
+<h3>更新情報</h3>
+<ul>
+<li>
+2010/01/xx Version 0.5を公開しました．
+</li>
+</ul>
+
+<h3>ダウンロード</h3>
+<ul>
+<li><a href="./toolkit-0.50.tgz">toolkit-0.50.tgz</a></li>
+</ul>
+コンテスト用マシンの/home/pubディレクトリにも置いてあります．
+
+<h3>ドキュメント</h3>
+近日公開
+<!--
+<ul>
+<li><a href="./gtoolkit10.ppt">gtoolkit10.ppt</a></li>
+</ul>
+-->
+
+<h3>使用方法</h3>
+<p>
+コンテスト用マシンにログインし，以下のように自分のホームディレクトリ
+のどこかへ展開します．
+
+<table border=1><tr><td>
+<pre>
+[gt901@gpuc01 ~]$ tar xvfz /home/pub/toolkit-0.5.tgz
+</pre>
+</td></tr></table>
+
+<p>
+ディレクトリtoolkitに移動し，makeします．
+
+<table border=1><tr><td>
+<pre>
+[gt901@gpuc01 ~]$ cd toolkit
+[gt901@gpuc01 toolkit]$ make
+</pre>
+</td></tr></table>
+
+実行プログラム"main"が作成されるはずです。
+
+<p>
+mainプログラムを使って、以下のように練習問題をGPU上で実行できます。
+
+<table border=1><tr><td>
+<pre>
+[gt901@gpuc01 toolkit]$ ./main 1
+tk_init: toolkit version 0.500000 is initialized. problem no is 1
+time step 0/1280 finished
+time step 10/1280 finished
+time step 20/1280 finished
+time step 30/1280 finished
+   :
+  (略)
+   :
+time step 1260/1280 finished
+time step 1270/1280 finished
+*****************************************************
+tk_answer: toolkit version 0.50
+tk_answer: PROBLEM NO: 1
+tk_answer: CLOCK: 1.576 seconds
+tk_answer: Speed is 51.577 x 10^6 updates per second
+*****************************************************
+</pre>
+</td></tr></table>
+<p>
+実行時の引数には問題番号を指定します(バージョン0.50では1から3)。
+最後の出力のうち、CLOCKは実行時間を表します．この実行時間で競います．
+</p>
+<p>
+プログラミングの便宜を図るため、下記のような実行オプションが
+用意されています。
+<ul>
+<li>-cpuオプション：GPUの代わりにCPU上で実行します。
+<br>[実行例] ./main -cpu 1
+<li>-bmpオプション：計算の途中結果をBMPファイルとして出力します。
+このとき、fXXXXXX.bmp(XXXXXXはタイムステップ番号)というファイルが
+複数作られます。必要に応じて手元のコンピュータにコピー(scpなど)
+して、実行結果を視覚的に確認できます。<br>[実行例] ./main -bmp 1
+</ul>
+両方の同時指定も可能です。なお、サイズの大きい問題番号3については、
+実行時間がかかりすぎる(-cpu)、
+作成される合計ファイルサイズが大きい(-bmp)という理由により、
+これらのオプションの使用はおすすめしません。
+</p>
+
+<!--
+<h3>ファイル構成</h3>
+<dl>
+<dt><strong>main.cc (必要に応じて変更可能)</strong></dt>
+<dd>
+問題取得，時間計測，検証用の関数などが記述されたファイルです．
+</dd>
+<dt><strong>device.cu</strong></dt>
+<dd>
+GPU上でのプログラムです．まずdevice_userという関数がホスト(CPU)上で
+呼ばれますので，その中でホストメモリとGPUメモリ間の通信や，
+GPU上のカーネル関数呼び出しなどを行う必要があります．
+</dd>
+<dt><strong>Makefile</strong></dt>
+<dd>
+ソースコードから実行ファイルを生成するための規則を記述したファイルです。
+make コマンドが参照します。ファイル構成やコンパイルの最適化オプション
+などを変更しない場合には，この Makefile を変更する必要はありません。 
+</dd>
+</dl>
+-->
+
+<h3>問い合わせ</h3>
+
+質問やバグ情報は
+<a href="mailto:gpu2010@matsulab.is.titech.ac.jp">
+gpu2010@matsulab.is.titech.ac.jp</a>までお願いします．
+なお頂いた質問等は，お名前を伏せた上でQ&amp;Aのページなどで
+公開させていただくことがあります．
+あらかじめご了承ください．
+
+</body>
+</html>
+

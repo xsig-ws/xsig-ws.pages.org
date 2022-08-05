@@ -1,0 +1,32 @@
+<!-- Don't edit this file!
+If you want to add some menu, edit "menu.list" and run "perl gen_menu.pl" on this directory. -->  
+<ul class="menu">
+<li>
+<!--#if expr="$DOCUMENT_NAME = http://www.hpcc.jp/sacsis/2005/" -->
+<span class="menu_h">SACSIS</span>
+<!--#else -->
+<a href="http://www.hpcc.jp/sacsis/2005/" class="menu_d">SACSIS</a>
+<!--#endif -->
+</li>
+<li>
+<!--#if expr="$DOCUMENT_NAME = index.shtml" -->
+<span class="menu_h">Top</span>
+<!--#else -->
+<a href="index.html" class="menu_d">Top</a>
+<!--#endif -->
+</li>
+<li>
+<!--#if expr="$DOCUMENT_NAME = regulation.shtml" -->
+<span class="menu_h">惮年草玛</span>
+<!--#else -->
+<a href="regulation.html" class="menu_d">惮年草玛</a>
+<!--#endif -->
+</li>
+<li>
+<!--#if expr="$DOCUMENT_NAME = free_regulation.shtml" -->
+<span class="menu_h">极统草玛</span>
+<!--#else -->
+<a href="free_regulation.html" class="menu_d">极统草玛</a>
+<!--#endif -->
+</li>
+</ul>

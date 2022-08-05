@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2006.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2006 Call for Papers </title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) --><div id="title">
+<div style="font-size:28px;text-align:left">SACSIS</div>
+<div style="font-size:16px;text-align:right">
+May 22-24, 2006<br />
+Osaka, JAPAN
+</div>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (2006_NAVIGATION) --><div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html.ja" title="SACSIS 2006">SACSIS2006&nbsp;Top</a>
+  <span class="hideme">|</span>
+<a href="cfp.html.en" title="English Page"> <img src="images/jp2en.gif" alt="English" /></a> <span class="hideme">|</span>
+<!-- INSERTED LINES BEGIN (2006_LINKS) -->  <a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+  <a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+  <a href="exhibit.html.ja">企業展示</a> <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/sacsis/2006/grid-challenge/">Grid Challenge</a> <span class="hideme">|</span> 
+  <a href="cfpart.html.ja">参加募集 (text) </a><span class="hideme">|</span> 
+   <a href="http://www.ipsj.or.jp/09sig/kaikoku/2006/SACSIS2006.html">
+  参加募集・参加申込 (HTML) </a><span class="hideme">|</span> 
+  <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+  <a href="cfp.html.ja">論文募集要項</a> <span class="hideme">|</span> 
+  論文投稿受付<span class="hideme">|</span> <br />
+  <a href="cfposters.html.ja">ポスター募集要項</a> <span class="hideme">|</span> 
+  ポスター投稿受付<span class="hideme">|</span> <br />
+  <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+  <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+  <a href="breakdown.html.ja">参加費の内訳証明書</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p><p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->  </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () --><div class="main">
+
+<p style="margin-top:15pt">
+<a href="include/cfp.txt">テキスト版CFP</a><br />
+Last Modified: Tue May  9 05:17:00 2006</p>
+
+<h4>
+Call For Papers 
+</h4>
+
+<div class="noticelink">
+<!-- INSERTED LINES BEGIN (cfp.txt) --><pre>
+			       論文募集
+			   CALL FOR PAPERS
+
+            先進的計算基盤システムシンポジウム SACSIS 2006
+     Symposium on Advanced Computing Systems and Infrastructures
+                   <a href="http://www.hpcc.jp/sacsis/2006/">http://www.hpcc.jp/sacsis/2006/</a>
+
+               ２００６年５月２２日（月）〜２４日（水）
+          グランキューブ大阪（大阪市北区中之島５−３−５１）
+                  <a href="http://www.gco.co.jp/japanese.html">http://www.gco.co.jp/japanese.html</a>
+
+主催 (順不同)
+   情報処理学会・計算機アーキテクチャ研究会 (ARC)
+   同・システムソフトウェアとオペレーティングシステム研究会 (OS)
+   同・ハイパフォーマンスコンピューティング研究会 (HPC)
+   同・プログラミング研究会 (PRO)
+   同・アルゴリズム研究会 (AL)
+   電子情報通信学会・コンピュータシステム研究専門委員会 (CPSY)
+   IEEE Computer Society Japan Chapter
+協賛 (順不同)
+    情報処理学会・数理モデル化と問題解決研究会 (MPS)(予定)
+    同・組込みシステム研究会 (EMB)(予定)
+    電子情報通信学会・ディペンダブルコンピューティング研究専門委員会 (DC)
+    同・リコンフィギュラブルシステム研究専門委員会 (RECONF)(予定)
+
+  SACSIS (Symposium on Advanced Computing Systems and Infrastructures)
+は 2003 年に誕生したシンポジウムです．その第４回は大阪にて 2006 年 5 月
+22 日(月)〜 24 日(水)に開催いたします．スコープは SACSIS2003 からの流れ
+を引き続き，以下のように考えています．
+
+Advanced Computing ..
+  SACSIS は今後の計算技術の発展を，さまざまな角度から議論することを目的
+としています．単体・並列・分散等の処理形態に囚われず，広い意味で先進的
+な計算のためのシステムや基盤とそれらの要素技術を対象とします．
+
+... Systems and Infrastructures
+  性能などの「有効性」が重視される「システム」に関する技術だけではなく，
+幅広い利用を目指して「実用性」を重視した「基盤」に関する技術も対象とし
+ます．
+
+下記テーマに関連したオリジナリティ溢れる論文，実装・開発事例等も含め有
+用性の高い論文，実用性を重視した基盤に関する論文を広く募集致します．
+
+１．先進的計算システム
+  グリッド計算，クラスタ計算，Peer-to-Peer 計算，高性能計算，
+  モバイル計算，ユビキタスシステム，組み込みシステム，
+  ディペンダブルコンピューティング，アプリケーション専用システムなど
+
+２．先進的計算システムを支える基盤技術
+  プロセッサアーキテクチャ，システムアーキテクチャ，
+  大規模ストレージシステム，省電力・省スペース技術，OS／ミドルウェア，
+  コンパイラ，プログラミング言語処理系，並列アルゴリズム，
+  オンラインアルゴリズム，性能評価／性能チューニング技術など
+
+３．実用的基盤システム
+  データベース，Web サービス，検索エンジン，データマイニング，
+  トランザクションシステム，分散計算環境，サーバシステム構築技術，
+  ネットワークセキュリティなど
+
+</pre><h4>募集内容</h4><pre>
+
+(1) A4 用紙 8 頁以内の日本語または英語の論文を募集します．募集対象は，
+    国内外の査読付き雑誌あるいは査読付き会議で未発表の研究論文とします．
+    ただし，既発表であっても予稿集等がISBN番号あるいはISSN番号を有しない
+    配布物の場合には未発表と見なします．
+    また，一般論文の他にポスター論文も募集します
+
+(2) 有用な結果や考え方を伴った，完成度の高い論文を募集します．一般論文
+    は，情報処理学会論文誌：コンピューティングシステム(ACS 論文誌)への
+    同時投稿が可能で，これにより質の高い論文を短い査読期間で論文誌上に
+    掲載することを可能にします．
+
+(3) 一般論文全てを対象に最優秀論文賞を１件選び表彰します．本賞は，研究
+    内容の質の高さ・研究論文としての完成度を重視して総合的に評価し選出
+    します．
+
+(4) 若手研究者の論文から優秀若手研究賞を３件程度選びます．応募資格は，
+    登壇発表者である筆頭著者の年齢が３０歳前後以下であることです．本賞
+    の趣旨は有望な若手を表彰することにあり，着眼点の面白さや今後の展開
+    が期待される研究を高く評価します．
+
+(5) ポスター発表でも査読を行いますが，構想段階の研究，問題提起などを含
+    めた様々な研究を積極的に採用し，参加者間の議論の場を提供します．
+
+(6) ポスター発表を対象に独創的ポスター賞を１件選び表彰します．
+    本賞は独創的なアイデアに基づく研究を高く評価し，ポスター発表会場で
+    の聴講者による投票で選出されます．
+
+
+●一般論文
+ - A4 8ページ以内
+ - 規定スタイル： LaTeX 用 <a href="http://www.hpcc.jp/acs/latexform.html">http://www.hpcc.jp/acs/latexform.html</a>
+                  Word 用  <a href="http://www.hpcc.jp/sacsis/2006/sacsis-form.doc">http://www.hpcc.jp/sacsis/2006/sacsis-form.doc</a>
+ - ファイル形式：PDF フォーマット
+
+[投稿に関する注意]：
+
+  SACSIS2006 は ACS 論文誌第 15 号(予定)と連携して論文募集を行います．
+このため，１件の論文を双方に同時投稿し，並行して査読を受けることができ
+ます．またどちらか一方にのみ投稿することも，もちろん可能です．具体的に
+は以下の投稿方法がありますので，適切なものを選択してください．
+<b>※ACS 論文誌: <a href="http://www.hpcc.jp/acs/">http://www.hpcc.jp/acs/</a></b>
+
+1. SACSIS2006 単独投稿
+  SACSIS2006 のみを対象とする８ページ以内の論文投稿です．投稿時点での枚
+数超過は認められません．なお，論文採録後の SACSIS2006 カメラレディ原稿
+にも，標準 8 ページ（超過料金を支払えば 10 ページまで可）の枚数制限があ
+ります．
+
+2. SACSIS2006／ACS 同時投稿
+ * 投稿された論文は，ACS 論文誌編集委員会と SACSIS2006 プログラム委員会
+   の双方で査読されます．投稿時点での論文ページ数は 8 ページ以内に制限
+   されます．投稿時点での枚数超過は認められません．
+
+ * SACSIS2006 と ACS との査読は独立して行われ，採否も独立です．したがっ
+   て一方で採録／採択され，他方で不採録／不採択となることもあります．ま
+   た ACS の第１回査読では条件付採録となる可能性もあります．
+
+ * ACS の第１回査読結果通知と SACSIS2006 の採否通知は，ほぼ同時期に行わ
+   れる予定ですが，若干前後する可能性がありますので，あらかじめご承知お
+   き下さい．
+
+ * SACSIS2006 で採択され，ACS で条件付採録となった場合，ACS への修正稿
+   投稿締切は SACSIS2006 のカメラレディ締切とほぼ同時期になる予定です．
+   したがって ACS 修正稿と SACSIS2006 カメラレディ原稿を同一のものとし
+   ても構いませんが，同一でなくても構いません．SACSIS2006 カメラレディ
+   原稿には標準 8 ページ（超過料金を支払えば 10 ページまで可）の枚数制
+   限があるのに対し，ACS 修正稿にはページ数制限はありません
+
+ * ACS 論文誌に採録された場合，ACS 論文誌への投稿は LaTeX によるスタイ
+   ルのみの受付となりますのでご注意下さい．
+
+3. ACS 単独投稿
+  ACS 論文誌のみを対象とする投稿で，査読手続きなどは通常の ACS 論文誌へ
+の投稿と同様です．
+
+●ポスター発表
+ - 会場でのポスター発表以外に，A4 2ページ以内のポスター論文が必要です．
+ - ポスター論文のスタイルは一般論文に準拠します．
+ - 採択されたポスター論文は，そのままカメラレディ原稿となります．
+
+</pre><h4>重要日程</h4><pre>
+
+  2006/1/20(金)17:00        一般論文 登録締切（延長なし）
+  2006/1/27(金)17:00        一般論文 アップロード締切（延長なし）
+  2006/3/24(金)17:00        ポスター論文 締切
+  2006/5/22(月)〜24(水)     SACSIS2006 開催
+
+</pre><h4>委員会</h4><pre>
+
+●SACSIS 運営委員会
+  運営委員長/ACS 論文誌            中島浩     (豊橋技術科学大学)
+  ARC                              天野英晴   (慶應義塾大学)
+  OS                               加藤和彦   (筑波大学)
+  HPC                              関口智嗣   (産業技術総合研究所)
+  PRO                              八杉昌宏   (京都大学)
+  CPSY                             木村康則   (富士通研究所)
+  ACS 論文誌                       石川裕     (東京大学)
+                                   中村宏     (東京大学)
+                                   朴泰祐     (筑波大学)
+
+●SACSIS 2006 組織委員会
+  組織委員長                       後藤厚宏   (NTT)
+  組織副委員長                     石川裕     (東京大学)
+  総務委員長                       市川俊一   (NTT)
+  プログラム委員長                 朴泰祐     (筑波大学)
+  プログラム副委員長(論文査読)     建部修見   (産業技術総合研究所)
+  プログラム副委員長(ポスター)     横田隆史   (宇都宮大学)
+  チュートリアル委員長             廣津登志夫 (豊橋技術科学大学)
+  ローカルアレンジメント委員長     藤本典幸   (大阪大学)
+  ローカルアレンジメント副委員長   伊藤祥司   (筑波大学)
+  ローカルアレンジメント副委員長   伊野文彦   (大阪大学)
+  会計委員長                       佐藤周行   (東京大学)
+  広報委員長                       鯉渕道紘   (国立情報学研究所)
+  企画委員長                       廣安友之   (同志社大学)
+  グリッドチャレンジ委員長         合田憲人   (東京工業大学)
+
+●SACSIS 2006 プログラム委員会
+  プログラム委員長                 朴泰祐   (筑波大学)
+  プログラム副委員長               建部修見 (産業技術総合研究所)
+  プログラム副委員長               横田隆史 (宇都宮大学)
+
+  プログラム委員 (五十音順)
+
+  合田憲人 (東工大)      天海良治 (NTT)             安藤秀樹 (名古屋大)
+  伊野文彦 (大阪大)      井上弘士 (九州大)          追川修一 (筑波大)
+  大山恵弘 (東京大)      片桐孝洋 (電通大)          門林雄基 (奈良先端大)
+  金子敬一 (東京農工大)  神原弘之 (京都高度技術研)  吉瀬謙二 (電通大)
+  木村啓二 (早稲田大)    久我守弘 (熊本大)          工藤知宏 (産総研)
+  河野健二 (慶應大)      古賀久志 (電通大)          佐藤周行 (東京大)
+  繁田聡一 (富士通研)    首藤一幸 (産総研)          鈴木貢   (電通大)
+  住元真司 (富士通研)    高橋大介 (筑波大)          千葉滋   (東工大)
+  土屋達弘 (大阪大)      鳥居淳   (NEC)             中村宏   (東京大)
+  中本幸一 (兵庫県立大)  西宏章   (慶應大)          廣津登志夫 (豊橋技科大)
+  廣安知之 (同志社大)    本多弘樹 (電通大)          前川仁孝 (千葉工大)
+  緑川博子 (成蹊大)      森敦司   (富士通研)        八杉昌宏 (京都大)
+  横川三津夫 (産総研)    渡邊誠也 (岡山大)
+
+</pre><h4>問い合わせ先</h4><pre>
+
+  シンポジウムに関しては： 総務委員長 市川俊一
+  広報内容に関しては：     広報委員長 鯉渕道紘
+  <a href="http://www.hpcc.jp/sacsis/2006/contact.html.ja">http://www.hpcc.jp/sacsis/2006/contact.html.ja</a>
+</pre>
+<!-- INSERTED LINES END () --></div>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

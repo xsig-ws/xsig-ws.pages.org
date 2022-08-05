@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2008.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2008</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<div class="main">
+<!--@@2008_NAVIGATION@@-->
+
+ <p style="text-align:center">
+<span class="notice"> 
+SACSIS 2008 Ended.<br/>
+Thank you. We look forward to seeing you again at SACSIS 2009. 
+</span>
+ </p>
+
+<!-- News -->
+<p>
+<b>2008.4.10</b> <a href="cfpart.html">Call for participation page</a>,  <a href="http://www.ipsj.or.jp/09sig/kaikoku/2008/SACSIS2008.html">registration page</a>, and <a href="program.html.en">program page</a> are opened.<br />
+<b>2008.3.12</b> <a href="cfposters.html">Call for posters</a> is released.<br />
+<b>2007.12.25</b> <a href="submit.html">The paper submission page</a> is opened.<br />
+<b>2007.12.18</b> <a href="cfp.html">Official call for papers</a> is released.<br />
+<b>2007.10.29</b> added a link to <a href="http://www.hpcc.jp/sacsis/2008/cell/">Cell Speed Challenge 2008</a> page.<br />
+<b>2007.10.2</b> reliminary call for papers is released.<br />
+<b>2007.7.30</b> opened SACSIS 2008 website <br />
+</p>
+
+<h4>SACSIS2008</h4>
+
+<!--@@SACSIS2008@@-->
+<!--@@SACSIS@@-->
+
+<h4>Important Dates </h4>
+<!--@@DATES@@-->
+
+<h4>Sponsors and Supporter</h4>
+
+<img src="images/tsukuba7.png" style="float:right" alt="image"/>
+<ul>
+<li> Sponsors 
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hpcc.jp/sigarc/">SIGARC</a> (Architecture) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a> (Operating Systems) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.hpcc.jp/sighpc/">SIGHPC</a> (High Performance Computing) </li>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ipsj.or.jp/sig/pro/">SIGPRO</a> (Programming) </li>
+ <li> <a href="http://www.ieice.org/">IEICE</a> 
+ <a href="http://www.ieice.org/iss/cpsy/jpn/">CPSY</a> (Computer System) </li>
+ <li> <a href="http://www.ieice.org/">IEICE</a> 
+     <a href="http://www.ieice.org/iss/dc/jpn/">DC</a> (Dependable Computing) </li>
+<li> <a href="http://www.ieice.org/">IEICE</a> 
+     <a href="http://www.am.ics.keio.ac.jp/reconf/">RECONF</a> (Reconfigurable Systems)</li>
+<li> <a href="http://www.ieee-jp.org/japancouncil/chapter/C-16/"> IEEE Computer Society Japan Chapter</a>  </li>
+ </ul>
+</li>
+<li> Supporter
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">IPSJ</a> <a href="http://www.ertl.jp/SIGEMB/">SIGEMB</a> (Embedded Systems)</li>
+
+ </ul>
+</li>
+</ul>
+
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2007.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2007 Committee</title>
+</head>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) -->
+<div class="title">
+<p class="name">
+5th Symposium on Advanced Computing Systems and Infrastructures<br />
+(SACSIS 2007)
+</p>
+
+<p class="place">
+National Center of Sciences, Tokyo, Japan<br />
+May 23 - 25, 2007
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (NAVIGATION) -->
+<div class="navbar">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+<a href="committee.html.ja" title="Japanese Page"> <img src="images/en2jp.gif" alt="japanese" /></a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES BEGIN (HOME) -->  <a href="http://www.hpcc.jp/sacsis/2007/">Home</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (LINKS) -->  <a href="topics.html.en">Topics</a> <span class="hideme">|</span>
+  <a href="cfp.html.en">Call for Papers</a> <span class="hideme">|</span> 
+  <a href="cfposters.html.en">Call for Posters</a> <span class="hideme">|</span> 
+  Call for Participation <span class="hideme">|</span>  <br />
+  Program <span class="hideme">|</span> <br />
+  Exhibits <span class="hideme">|</span> <br />
+  <a href="location.html.en">Location</a> <span class="hideme">|</span>
+  <a href="cell-challenge/">Cell Speed Challenge</a> <span class="hideme">|</span>
+  <a href="committee.html.en">Committee</a> <span class="hideme">|</span>
+  <a href="contact.html.en">Contact</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+ <p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+ <p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS&nbsp;Journal</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">IPSJ</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<div class="main">
+
+<h4>Steering Committee</h4>
+
+<table>
+<colgroup>
+ <col span="1" style="font-weight:bold" />
+ <col span="1" />
+</colgroup>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/acs/">Transactions on ACS</a>, Chair</td>
+  <td>Hiroshi NAKASHIMA (Toyohashi University of Technology)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/sigarc/">SIGARC</a> </td>
+  <td>Hideharu AMANO (Keio University)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.ipsj.or.jp/sig/os/">SIGOS</a></td>
+  <td>Kazuhiko KATO (University of Tsukuba)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/sighpc/">SIGHPC</a></td>
+  <td>Satoshi SEKIGUCHI (AIST)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.ipsj.or.jp/sig/pro/">SIGPRO</a> </td>
+  <td>Masahiro YASUGI (Kyoto University)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ieice.org/">IEICE</a>
+	<a href="http://www.ieice.org/iss/cpsy/jpn/">CPSY</a> </td>
+  <td>Takanobu BABA (Utsunomiya University)</td>
+  </tr>
+<tr>
+  <td>
+  <a href="http://www.ipsj.or.jp/">IPSJ</a>
+	<a href="http://www.hpcc.jp/acs/">Transactions on ACS</a> </td>
+  <td>Yutaka ISHIKAWA (The University of Tokyo)</td>
+  </tr> <tr>
+  <td></td><td>Hiroshi NAKAMURA (The University of Tokyo)</td>
+  </tr><tr>
+  <td></td><td>Taisuke BOKU (University of Tsukuba)</td></tr>
+</table>
+
+<h4>Organizing Committee</h4>
+
+<table>
+<colgroup span="2">
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+
+<tr><td>Conference Chair</td><td>Yutaka ISHIKAWA (The University of Tokyo)</td></tr>
+<tr><td>Conference Vice-Chair</td><td>Satoshi SEKIGUCHI (AIST)</td></tr>
+<tr><td>General Chair</td><td>Takahiro KATAGIRI (The University of Tokyo)</td></tr>
+<tr><td>Program Chair</td><td>Hiroki HONDA (The University of Electro-Communications)</td></tr>
+<tr><td>Program Vice-Chair (full papers)</td><td>Keiji KIMURA (Waseda University)</td></tr>
+<tr><td>Program Vice-Chair (poster papers)</td><td>Hiroaki NISHI (Keio University)</td></tr>
+<tr><td>Tutorial Chair</td><td>Toshinori SATO (Kyusyu University)</td></tr>
+<tr><td>Local Arrangement Chair</td><td>Michihiro KOIBUCHI (NII)</td></tr>
+<tr><td>Local Arrangement Vice-Chair</td><td>Noriyuki FUJIMOTO (Osaka University)</td></tr>
+<tr><td>Treasurer Chair</td><td>Kenji SUEHIRO (NEC)</td></tr>
+<tr><td>Publicity Chair</td><td>Takahiro SHINAGAWA (University of Tsukuba)</td></tr>
+<tr><td>Industry Liaison Chair</td><td>Hiroko MIDORIKAWA (Seikei University)</td></tr>
+
+</table>
+
+<h4>Program Committee</h4>
+
+<table style="margin-top: 5pt; margin-bottom: 15pt">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+<tr><td>Program Chair</td><td>Hiroki HONDA (The University of Electro-Communications)</td></tr>
+<tr><td>Program Vice-Chair (full papers)</td><td>Keiji KIMURA (Waseda University)</td></tr>
+<tr><td>Program Vice-Chair (poster papers)</td><td>Hiroaki NISHI (Keio University)</td></tr>
+<tr><td>Track Chair</td></tr>
+<tr><td>&nbsp; System Architecture</td><td>Tomohiro KUDOH (AIST)</td></tr>
+<tr><td>&nbsp; Processor Architecture</td><td>Hiroshi NAKAMURA (The University of Tokyo)</td></tr>
+<tr><td>&nbsp; High-performance Computing</td><td>Taisuke BOKU (University of Tsukuba)</td></tr>
+<tr><td>&nbsp; System Software</td><td>Shigeru CHIBA (Tokyo Institute of Technology)</td></tr>
+<tr><td>&nbsp; Grid</td><td>Hayato YAMANA (Waseda University)</td></tr>
+<tr><td>Program Committee</td><td colspan="2">comming soon</td></tr>
+<tr><td>Reviewer</td><td colspan="2">comming soon</td></tr>
+</table>
+
+</div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2006-2007, SACSIS 2007 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=ISO-8859-1" />
+ <link href="css/2008.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2008 Committee</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<div class="main">
+<!--@@2008_NAVIGATION@@-->
+
+
+<h4>Steering Committee</h4>
+
+<table>
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+<tr>
+  <td>Steering Committee Chair</td>
+  <td>Yutaka ISHIKAWA (The University of Tokyo)</td>
+  </tr>
+<tr>
+  <td>Steering Committee Vice-Chair</td>
+  <td>Satoshi SEKIGUCHI (AIST)</td>
+  </tr>
+<tr>
+  <td>Steering Committee Members</td>
+  <td>Hideharu AMANO (Keio University)</td>
+  </tr>
+<tr>
+  <td></td>
+  <td>Hiroshi NAKAMURA (The University of Tokyo)</td>
+  </tr>
+<tr>
+  <td></td>
+  <td>Mitaro NAMIKI (Tokyo University of Agriculture and Technology)</td>
+  </tr>
+<tr>
+  <td></td>
+  <td>Takanobu BABA (Utsunomiya University)</td>
+  </tr>
+<tr>
+  <td></td>
+  <td>Taisuke BOKU (University of Tsukuba)</td></tr>
+<tr>
+  <td></td>
+  <td>Masahiro YASUGI (Kyoto University)</td>
+  </tr>
+</table>
+
+<h4>Organizing Committee</h4>
+
+<table>
+<colgroup span="2">
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+
+<tr><td>Conference Chair</td><td>Satoshi SEKIGUCHI (AIST)</td></tr>
+
+<tr><td>Conference Vice-Chair</td><td>Hiroshi NAKAMURA (The University of Tokyo)</td></tr>
+
+<tr><td>General Chair</td><td>Yusuke TANIMURA (AIST)</td></tr>
+
+<tr><td>Program Chair</td><td>Hayato YAMANA (Waseda University)</td></tr>
+
+<tr><td>Program Vice-Chair (full papers)</td><td>Kenji KISE (Tokyo Institute of Technology)</td></tr>
+
+<tr><td>Program Vice-Chair (poster papers)</td><td>Kenichi KOURAI (Tokyo Institute of Technology)</td></tr>
+
+
+<tr><td>Tutorial Chair</td><td>Nobuki KAJIHARA (NEC)</td></tr>
+
+<tr><td>Local Arrangement Chair</td><td>Hideyuki KAWASHIMA (University of Tsukuba)</td></tr>
+
+<tr><td>Local Arrangement Vice-Chair</td><td>Michihiro KOIBUCHI (National Institute of Informatics)</td></tr>
+
+<tr><td>Treasurer Chair</td><td>Mitsuo TANAKA (HITACHI)</td></tr>
+
+<tr><td>Treasurer Vice-Chair</td><td>Kohei HASHIMOTO (HITACHI)</td></tr>
+
+<tr><td>Treasurer Vice-Chair</td><td>Kenji SUEHIRO (NEC)</td></tr>
+
+<tr><td>Publicity Chair</td><td>Tomio KAMADA (Kobe University)</td></tr>
+
+<tr><td>Industry Liaison Chair</td><td>Kenichi HAYASHI (Microsoft)</td></tr>
+
+<tr><td>Industry Liaison Vice-Chair</td><td>Yuko OSHIMA (AIST)</td></tr>
+
+</table>
+
+<h4>Program Committee</h4>
+
+<table style="margin-top: 5pt; margin-bottom: 15pt">
+<colgroup>
+ <col width="260" style="font-weight:bold" />
+ <col width="400" />
+</colgroup>
+<tr><td>Program Chair</td><td>Hayato YAMANA (Waseda University)</td></tr>
+<tr><td>Program Vice-Chair</td><td>Kenji KISE (Tokyo Institute of Technology)</td></tr>
+<tr><td>Program Vice-Chair</td><td>Kenichi KOURAI (Tokyo Institute of Technology)</td></tr>
+<tr><td>Track Chair</td></tr>
+
+<tr><td>&nbsp; Track A</td><td>Shigeru CHIBA (Tokyo Institute of Technology)</td></tr>
+<tr><td>&nbsp; Track B</td><td>Tomohiro KUDOH (AIST)</td></tr>
+<tr><td>&nbsp; Track C</td><td>Kento AIDA (National Institute of Informatics)</td></tr>
+<tr><td>&nbsp; Track D</td><td>Taisuke BOKU (University of Tsukuba)</td></tr>
+
+
+<tr><td>&nbsp; Track E</td><td>Toshinori SATO (Kyushu University)</td></tr>
+<tr><td><br /></td><td></td></tr>
+<tr><td>Program Committee</td><td colspan="2">See the Japanese page.</td></tr>
+</table>
+
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2007.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2007 企業展示プログラムのご案内</title>
+</head>
+<style type="text/css">
+div.body { width: 38em; }
+</style>
+<body>
+
+<!-- INSERTED LINES BEGIN (RUNNING_HEADER) -->
+<div class="title">
+<p class="name">
+第5回先進的計算基盤システムシンポジウム SACSIS 2007<br />
+(5th Symposium on Advanced Computing Systems and Infrastructures)
+</p>
+
+<p class="place">
+学術総合センター講堂・会議室（東京）<br />
+2007年5月23日（水）〜25日（金）
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (NAVIGATION) -->
+<div class="navbar">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+ <span class="hideme">|</span>
+
+<!-- INSERTED LINES BEGIN (HOME) -->
+  <a href="http://www.hpcc.jp/sacsis/2007/">ホーム</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () -->
+<!-- INSERTED LINES BEGIN (LINKS) -->
+  <a href="topics.html.ja">開催趣旨とテーマ</a> <span class="hideme">|</span>
+  <a href="cfp.html.ja">論文募集（終了）</a> <span class="hideme">|</span> 
+  論文投稿受付 <span class="hideme">|</span> 
+  <a href="cfcompany.html.ja">企業展示募集（終了）</a> <span class="hideme">|</span>
+  <a href="cfposters.html.ja">ポスター発表募集（終了）</a> <span class="hideme">|</span> 
+  ポスター論文投稿受付 <span class="hideme">|</span>
+  ――――――――― <span class="hideme">|</span> <br />
+  <a href="cfpart.html.ja">参加募集</a> <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/09sig/kaikoku/2007/SACSIS2007.html">参加申込受付</a> <span class="hideme">|</span>
+  <a href="SACSIS2007-breakdown.pdf">参加費内訳証明書</a> <span class="hideme">|</span>
+  <a href="program.html.ja">プログラム</a> <span class="hideme">|</span>
+  <a href="exhibit.html.ja">企業展示</a> <span class="hideme">|</span>
+  <a href="location.html.ja">会場案内</a> <span class="hideme">|</span>
+  <a href="cell-challenge/">Cellスピードチャレンジ</a> <span class="hideme">|</span>
+  <a href="committee.html.ja">運営・組織委員</a> <span class="hideme">|</span>
+  <a href="contact.html.ja">お問い合わせ</a> <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+ <p class="history">
+<!-- INSERTED LINES BEGIN (TOP_LINK) -->  <a href="http://www.hpcc.jp/sacsis/" accesskey="t" title="SACSIS">SACSIS&nbsp;Top</a> <span class="hideme">|</span>
+
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2006_LINK) --> <a href="http://www.hpcc.jp/sacsis/2006/" title="SACSIS 2006">SACSIS&nbsp;2006</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2005_LINK) --> <a href="http://www.hpcc.jp/sacsis/2005/" title="SACSIS 2005">SACSIS&nbsp;2005</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2004_LINK) --> <a href="http://www.hpcc.jp/sacsis/2004/" title="SACSIS 2004">SACSIS&nbsp;2004</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --><!-- INSERTED LINES BEGIN (2003_LINK) --> <a href="http://phase.hpcc.jp/phase/sacsis/SACSIS2003/archives/" title="SACSIS 2003">SACSIS&nbsp;2003</a>
+ <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+ <p class="others">
+<!-- INSERTED LINES BEGIN (OTHER_LINKS) -->  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/" title="HPCC Top Page">HPCC&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <a href="http://www.hpcc.jp/acs/" title="Transactions on ACS">ACS論文誌</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ipsj.or.jp/" title="Information Processing Society of Japan">情報処理学会</a>
+  <span class="hideme">|</span>
+  <a href="http://www.ieice.org/" title="The Institute of Electronics, Information and Communication Engineers">電子情報通信学会</a>
+  <span class="hideme">|</span>
+<!-- INSERTED LINES END () --> </p>
+</div>
+<hr class="hideme" />
+<!-- INSERTED LINES END () -->
+<div class="main">
+
+<h4>SACSIS 2007 企業展示プログラムのご案内</h4>
+
+<div class="body">
+
+<p style="font-size: x-large; border: solid 4px red; text-align: center; padding: 0.5em; ">2007年度の企業展示募集は終了いたしました．</p>
+
+<p>　お蔭様でSACSIS (Symposium on Advanced Computing Systems and Infrastructures) は，企業の皆様のご協力を得て，JSPP からSACSIS に名前を改めてから今年で５年目の節目を迎えることができました．これもひとえに，企業の皆様のご協力，ご支持の賜物と存じます．さて，今年の <a href="http://www.hpcc.jp/sacsis/2007/">SACSIS2007</a> は2007 年5 月23 日（水）〜25 日（金）， 学術総合センター（東京）で開催される予定です．</p>
+
+<p>　ご存知のように，SACSIS は1989 年にJSPP としての開催以来19 年目を迎える歴史あるシンポジウムであり，文字通り先進的な計算基盤システムのための最新技術と研究成果が発表される日本で最も重要な会議の一つとして，広く認知されております．例年，300 名ほどの第一線で活躍する企業，大学の研究者が一堂に集まり，新しい技術，情報交換をする場として定着しているこの会議に，是非とも貴社の企業展示，デモをご提供頂けませんでしょうか?</p>
+
+<p>　今年の企業展示コーナーは，ポスターセッション会場と同一フロアで，ポスターパネルや休憩茶菓子場所との混合配置とし，多くの方々に企業展示をじっくり見ていただけるようなレイアウトの工夫を凝らしております．また，単にパネル展示だけでなく，ご希望に応じて，デモ展示，企業・商品の説明パワーポイント自動運転，ビデオ放映，本会議における１企業１分程度の概要説明（インデキシング）なども取り入れ，多くの参加者が直接企業展示会場に足を向けていただける仕組みを取り入れています．</p>
+
+<p>　この機会に，添付の企業展示プログラムをご検討頂き，是非ともご協力頂けたら幸いでございます．企業プログラムの内容詳細や，予算やお支払い時期など，お気軽に以下の企業展示担当まで，ご相談ください．</p>
+
+<h4>SACSIS 2007 企業展示プログラム内容</h4>
+
+<p>企業展示プログラムは下記の４種類がございます．複数展示（複数ブース）を申し込むことも可能です．</p>
+
+<ol>
+  <li>デモ展示，ポスター展示</li>
+    <p>貴社の商品，関連プロジェクトのご紹介をしていただきます．デモ展示とポスター展示の２種類があり，ポスター展示の場合には，説明員を必ずしも配置していただく必要はありません．</p>
+
+    <p>デモ展示では，ノートPC１台分程度の電源使用と無線LAN，机が無料でご利用になれます．それを超える容量の電源やネットワークの利用を希望される場合には事前に申請いただき，ご相談に応じて可能なかぎり実費で提供いたします．割り当てブースの位置は，主催者側で決定させていただきます．</p>
+
+    <p>＊ 出展費用 デモ展示，ポスター展示ともに１ブースあたり 50,000 円</p>
+
+  <li>茶菓子付きデモ展示，ポスター展示</li>
+
+    <p>(1)と内容は同様ですが，シンポジウム期間中の休憩時間，ポスターセッション見学時間帯などに提供する茶菓代のご提供をお願いいたします．内容としては，以下のようなパックでご依頼お願いします．実際の茶菓の発注は，こちらが手配します．茶菓提供ブースに提供企業の看板が掲示され，茶菓提供ブース近くにポスター展示またはデモ展示が可能です．口数が限られていますので，先着順とさせていただきます．</p>
+
+    <p>＊ 出展費用 茶菓子付きポスター展示，デモ展示とも １ブースあたり 60,000 円</p>
+    <ul>
+      <li>パック１：1 日分のおやつ （例 ミスタードーナッツ＆コーヒー）</li>
+      <li>パック２：３日分のコーヒー，緑茶などの 飲み物提供</li>
+    </ul>
+</ol>
+
+<h5>１ブースのサイズなど</h5>
+<ul>
+  <li>ブースサイズには 幅1200mm 奥行き900mm です．</li>
+  <li>パネルのサイズは 幅990mm 高さ2200mm で，１ブースにつき１枚用意します．</li>
+  <li>机のサイズは 幅1200mm, 高さ700mm，奥行き700mm です．（デモ展示）</li>
+</ul>
+
+<h5>展示オプション（以下は無料です） オプションもございますので，ご相談ください．</h5>
+<ol>
+  <li>特設大型テレビにおけるPR ビデオ放映（10 分以下）</li>
+  <li>特設大型テレビにおける商品・企業説明パワーポイント自動運転（10 分以下）</li>
+  <li>１企業１分間の企業展示概要説明（本会議24 日 ポスター発表のインデキシングと同じ時間帯）</li>
+</ol>
+
+<h5>その他</h5>
+<ul>
+  <li>いずれの出展費用にも，24 日夕刻開催される懇親会参加費（１名分）を含みます．懇親会への参加者追加申し込みは，１名につき，5,000 円が必要です．</li>
+  <li>企業名，担当者，連絡先，デモ概要や商品・会社宣伝（300 字程度）をチュートリアル・企業展示資料として配布します．</li>
+  <li>SACSIS07web 上（<a href="http://www.hpcc.jp/sacsis/2007/">http://www.hpcc.jp/sacsis/2007/</a>）に企業展示ページを開設します．</li>
+</ul>
+
+<h5>事前申し込み</h5>
+<p><s>申し込み（ApplyForm.txt）を2007 年 4月20 日（金）までにメールでお願いします．ただし、締め切り日以前に、申し込み数が予定ブース数に達した場合には、勝手ながら、その時点で申し込み受付を終了させて頂きます．
+  申込み受領の確認と詳細は申し込み後に送付いたします．2日以内に返答がない場合には，申し訳ありませんが再度のご連絡をお願いいたします．尚、費用の振り込み期間は，4/2から5/21までを予定しております．支払い時期のご相談には応じますので，その旨，ご連絡ください．</s>
+</p>
+
+</div>
+
+</div>
+
+<!-- INSERTED LINES BEGIN (FOOTER) --><address>
+Copyright 2006-2007, SACSIS 2007 Organizing Committee
+</address>
+<div>
+<p class="validation">
+ <a href="http://validator.w3.org/check?uri=referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS" /></a>
+</p>
+</div>
+<!-- INSERTED LINES END () -->
+</body>
+</html>

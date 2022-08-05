@@ -1,0 +1,27 @@
+user tau **
+user taue istbs**
+
+# Matsuoka Lab
+edges -> nimbus.titech.hpcc.jp
+cluster nimbus.titech.hpcc.jp pad005
+
+# Aida Lab
+edges -> gk.alab.ip.titech.ac.jp
+cluster gk.alab.ip.titech.ac.jp blade01
+
+# Ono Lab @ Tokushima
+edges -> poole.is.tokushima-u.ac.jp
+cluster poole.is.tokushima-u.ac.jp mp20_001
+
+# AIST
+# you need the latest GXP, which reads /etc/hosts
+edges -> xcmp001.asc.hpcc.jp
+cluster xcmp001.asc.hpcc.jp xcmp002
+
+# istbs
+edges -> istbs000.i.u-tokyo.ac.jp
+cluster istbs000.i.u-tokyo.ac.jp istbs001
+
+# sheep
+edges -> shepherd.logos.k.u-tokyo.ac.jp 
+cluster shepherd.logos.k.u-tokyo.ac.jp sheep01

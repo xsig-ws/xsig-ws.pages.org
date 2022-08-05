@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <?php include("include/header-ja.html");?>
+  <body>
+    <?php include("include/running-header.html");?>
+    <?php include("include/navbar-ja.html");?>
+    <div class="main">
+      
+
+      <h4>お問い合わせ</h4>
+<!--
+      <dl>
+	<dt>シンポジウム関連:</dt>
+	<dd>総務担当&nbsp;&nbsp;多田野 寛人&nbsp;(tadano <span> "at" </span> cs "dot" tsukuba "dot" ac "dot" jp)
+	</dd>
+	<dt>投稿関連:</dt>
+	<dd>
+	プログラム委員長&nbsp;&nbsp;岩下 武史&nbsp;(iwashita <span> "at" </span> iic "dot" hokudai "dot" ac "dot" jp)<br/>
+	プログラム副委員長(論文)&nbsp;&nbsp;嶋田 創&nbsp;(shimada <span> "at" </span> itc "dot" nagoya-u "dot" ac "dot" jp )<br/>
+	プログラム副委員長(ポスター)&nbsp;&nbsp;池上 努&nbsp;(t-ikegami <span> "at" </span> aist "dot" go "dot" jp)
+	</dd>
+	<dt>企画展示関連:</dt>
+	<dd>企画展示担当&nbsp;&nbsp;池上 努&nbsp;(t-ikegami <span> "at" </span> aist "dot" go "dot" jp)
+	</dd>
+	<dt>Webページ関連:</dt>
+	<dd>広報担当&nbsp;&nbsp;児玉 祐悦&nbsp; (kodama <span> "at" </span> cs "dot" tsukuba "dot" ac "dot" jp)
+	</dd>
+
+	<dt>その他:</dt>
+	<dd>acsi2015 <span> "at" </span> ccs "dot" tsukuba "dot" ac "dot" jp
+	</dd>
+
+      </dl>
+-->   acsi2015 <span> "at" </span> ccs "dot" tsukuba "dot" ac "dot" jp
+
+      <p>
+	ACSI2015 の組織委員会は<a href="committee.html.ja">こちら</a>
+      </p>
+
+    </div>
+
+    <?php include("include/footer.html");?>
+  </body>
+</html>

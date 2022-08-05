@@ -1,0 +1,48 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="ja">
+<head>
+<title>Cell Speed Challenge 2008 : Toolkit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet"   type="text/css" href="./css/cell.css">
+<!-- meta name="author"      content="" -->
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="date" content="2008-11-27T13:37:12+09:00">
+</head>
+
+<body class="contents">
+
+<h1>Q &amp; A</h1>
+
+<p>このページでは，主に規定課題およびツールキットに対していただいた
+質問とその回答を掲載していきます。</p>
+
+<dl class="faq">
+ <dt>「cellexec: Another job is running on Cell」と出て実行できません。</dt>
+ <dd>cellexec を Ctrl-c で停止させてしまうと起こる場合があります。
+ cellunlock コマンドによりロックが解除できます。</dd>
+ <dt>ログイン先ホストを変更できますか?</dt>
+ <dd>いいえ。Cell Open Cafe 側で，ユーザ毎に自動的にホストを
+   振り分けるようになっています。
+   ユーザ側が明示的に切り替えることはできません。</dd>
+ <dt>使用する SPE の数は可変ですか?</dt>
+ <dd>いいえ。SPE数は7個で固定です。ただし，必ずしも全ての SPE を
+ 使用しなければならないわけではありません。</dd>
+ <!-- dt>予選でタイムアウトした場合，失格になりますか?</dt>
+ <dd>はい，失格となります。ただし打ち切り時間の設定につきましては極めて慎重に行い
+   結果を審議する予定ですので，ご安心ください。</dd -->
+ <dt>Cell Open Cafe にファイル転送はできないのでしょうか?</dt>
+ <dd>ログインの場合と同様に，devl.cell-hibikino.net の 22222 ポートに
+   対して scp 接続が可能です。<br>
+   $ scp -P 22222 foo.txt bar@dev.cell-hibikino.net:
+ </dd>
+   
+</dl>
+
+<hr class="footer">
+
+</body>
+
+</html>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2008.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2008 Contact</title>
+ <style>
+   div.caution { border: inset 1px; padding: 0em 1em 0em 1em; margin: 0em 1em 0em 1em; background: #ffa; font-size: large; }
+   div.caution p.title { text-align: center; color: red; font-size: x-large;}
+   li { line-height: 2em; }
+   div.button { text-align: center; }
+ </style>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<div class="main">
+<!--@@2008_NAVIGATION@@-->
+
+<h4>SACSIS 2008 論文投稿受付</h4>
+
+<div class="caution">
+<p class="title">※投稿時の注意事項※</p>
+<ul>
+<li>投稿前に「<a href="cfp.html.ja">論文募集</a>」の内容を十分に確認してください．</li>
+<li>SACSIS 2008 では，昨年に引き続き「トラック制」が導入されています．
+「<a href="cfp.html.ja">論文募集</a>」に記載されているトラックのキーワードをよく確認した上で，<u>適切なトラックを選択してください</u>．<br />
+トラックの選択が難しい場合は，プログラム委員会にて適切なトラックを選択しますので，
+必ずしも投稿時にトラックを選択する必要はありません．
+</li>
+ <li>２重投稿とならないように，「<a href="cfp.html.ja">論文募集</a>」の募集内容をよく読んで確認してください．</li>
+</ul>
+</div>
+
+<div class="button">
+<p><a href="cfp.html"><img src="images/cfp.gif" alt="[CFP]" /></a></p>
+<p>注意事項をよく確認しましたか？</p>
+
+[<a href="http://www.hpcc.jp/acs/">はい，よく確認したので，論文投稿受付ページを表示します</a>]
+[<a href="http://www.hpcc.jp/sacsis/2008/cfp.html">いいえ，論文募集を再度確認します</a>]
+
+
+</div>
+
+</div>
+
+<!--@@FOOTER@@-->
+
+</body>
+</html>

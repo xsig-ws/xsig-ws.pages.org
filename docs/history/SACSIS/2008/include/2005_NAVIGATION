@@ -1,0 +1,19 @@
+<div class="navbar" style="line-height:140%">
+ <p class="title">
+ Index / Links
+ </p>
+ <p class="main">
+  <span class="hideme">|</span>
+  <a href="./index.html" title="SACSIS 2005">SACSIS2005&nbsp;Top</a>
+  <span class="hideme">|</span>
+  <!--##LANGUAGE_LINK##-->
+  <!--@@2005_LINKS@@-->
+  </p><p class="history">
+  <!--@@TOP_LINK@@-->
+  <!--@@2004_LINK@@-->
+  <!--@@2003_LINK@@-->
+  </p><p class="others">
+  <!--@@OTHER_LINKS@@-->
+  </p>
+</div>
+<hr class="hideme" />

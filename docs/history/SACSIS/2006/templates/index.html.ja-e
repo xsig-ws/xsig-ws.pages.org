@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2006.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2006</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2006_NAVIGATION@@-->
+
+<div class="main">
+
+<center>
+<span class="notice"> SACSIS 2006 は無事終了致しました。
+ご参加・ご協力頂いた皆様に感謝致します。
+<br />
+SACSIS 2007 でまたお会いしましょう。
+</span>
+<br />
+(<a href="include/enquete.pdf">アンケート結果</a>)
+</center>
+
+
+<!-- News -->
+<p>
+<b>2006.10.11</b> <a href="program.html.ja">プログラム</a>のページにチュートリアル資料を公開しました。  <br />
+<b>2006.5.27</b> <a href="include/enquete.pdf">アンケート結果</a>を公開しました。  <br />
+<b>2006.5.1</b> <a href="exhibit.html.ja">企業展示</a>のページを更新しました。  <br />
+<b>2006.4.13</b> <a href="program.html.ja">プログラム(暫定版)</a>を公開しました。  <br />
+<b>2006.4.12</b> <a href="http://www.ipsj.or.jp/09sig/kaikoku/2006/SACSIS2006.html">参加申込</a>へのリンク、<a href="cfpart.html.ja">テキスト版参加募集</a>、<a href="exhibit.html.ja">企業展示</a>のページを公開しました。  <br />
+<b>2006.3.14</b> ポスター発表募集を公開しました。  <br />
+<b>2005.11.24</b> 論文募集（正式版）を公開しました。  <br />
+<b>2005.11.6</b>情報処理学会・数理モデル化と問題解決研究会，
+同・組込みシステム研究会 (EMB)，
+電子情報通信学会・リコンフィギュラブルシステム研究専門委員会
+を協賛に追加しました。 <br />
+<b>2005.10.26</b>企業展示の募集ページを公開しました。 <br />
+<b>2005.9.29</b> SACSIS 2006 のページを公開しました。 <br />
+</p>
+
+<h4>SACSIS2006 概要</h4>
+
+<!--@@SACSIS2006@@-->
+<!--@@SACSIS@@-->
+
+<h4>重要日程 </h4>
+
+<p>
+<table>
+<colgroup>
+ <col width="200" />
+</colgroup>
+<tr>
+<td><span class="del"><b>2006/1/20 (金) 17:00</b></span></td><td><span class="del">一般論文 登録締切（延長なし）</span></td>
+</tr>
+<tr>
+<td><span class="del"><b>2006/1/27 (金) 17:00</b></span></td><td><span class="del">一般論文 アップロード締切（延長なし）</span></td>
+</tr>
+<tr>
+<td><span class="del"><b>2006/3/24 (金) 17:00</b></span></td><td><span class="del">ポスター論文 締切（延長なし）</span></td>
+</tr>
+<tr>
+<td><span class="del"><b>2006/5/22 (月) 〜 24 (水)</b></span></td><td><span class="del">SACSIS2006開催</span></td>
+</tr>
+</table>
+</p>
+
+<h4>主催・協賛</h4>
+
+<ul>
+<li> 主催 (順不同)
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">情報処理学会</a>・
+      <a href="http://www.hpcc.jp/sigarc/">計算機アーキテクチャ研究会</a> (ARC)</li>
+ <li> 同・<a href="http://www.ipsj.or.jp/sig/os/">システムソフトウェアとオペレーティングシステム研究会</a> (OS)</li>
+ <li> 同・<a href="http://www.hpcc.jp/sighpc/">ハイパフォーマンスコンピューティング研究会</a> (HPC)</li>
+ <li> 同・<a href="http://www.ipsj.or.jp/sig/pro/">プログラミング研究会</a> (PRO)</li>
+ <li> 同・<a href="http://www.hirata.nuee.nagoya-u.ac.jp/sigal/">アルゴリズム研究会</a> (AL) </li>
+ <li> <a href="http://www.ieice.org/">電子情報通信学会</a>・
+ <a href="http://www.ieice.org/iss/cpsy/jpn/">コンピュータシステム研究専門委員会</a> (CPSY)</li>
+ <li> <a href="http://homepage1.nifty.com/ieeetokyo/">
+	IEEE Computer Society Japan Chapter</a></li>
+ </ul>
+</li>
+<li> 協賛 (順不同)
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">情報処理学会</a>・
+      <a href="http://www.ipsj.or.jp/sig/mps/">数理モデル化と問題解決研究会</a> (MPS)</li>
+ <li> 同・<a href="http://www.ertl.jp/SIGEMB/">組込みシステム研究会</a> (EMB)</li>
+ <li> <a href="http://www.ieice.org/">電子情報通信学会</a>・
+     <a href="http://www.ieice.org/iss/dc/jpn/">ディペンダブルコンピューティング研究専門委員会</a> (DC) </li>
+<li> 同・<a href="http://www.am.ics.keio.ac.jp/reconf/">リコンフィギュラブルシステム研究専門委員会</a> (RECONF)</li>
+ </ul>
+</li>
+</ul>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>

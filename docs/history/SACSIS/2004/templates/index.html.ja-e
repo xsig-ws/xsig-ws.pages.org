@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+ <meta http-equiv="Content-Style-Type" content="text/css; charset=EUC-JP" />
+ <link href="css/2004.css" rel="stylesheet" type="text/css" />
+ <title>SACSIS 2004</title>
+</head>
+<body>
+
+<!--@@RUNNING_HEADER@@-->
+
+<!--@@2004_NAVIGATION@@-->
+
+<div class="main">
+
+
+<!-- News -->
+<p>
+<span class="noticelink">
+<b>2004.06.30</b>
+<a href="program.html">プログラムのページ</a>に企業・プロジェクト展示企画に参加頂いた企業リストを公開しました。<span class="new">New!</span>
+<br />
+<b>2004.05.31</b>
+<a href="program.html">プログラムのページ</a>にチュートリアルの資料を公開しました。<span class="new">New!</span>
+<br />
+</span>
+<b>2004.05.19</b> 
+<a href="location.html">会場案内</a>ページをオープンしました。
+<br />
+<b>2004.05.19</b> 
+<a href="https://www.ipsj.or.jp/cgi-bin/event.cgi?code=SACSIS2004">Webからの申込受付</a>の締切りが21日(金)17:00に延長されました。
+<br />
+<b>2004.04.27</b> ポスターセッションのプログラムが決定しました。
+<a href="program.html">プログラム</a>を更新しました。
+<br />
+<!--
+<b>2004.04.24</b> 招待講演の講演者とタイトルが決まりました。
+<a href="program.html">プログラム</a>を更新しました。
+<br />
+<b>2004.04.21</b> メンテナンスのため5月6〜7日および23日にサーバが停止します。ご注意下さい。
+<br />
+<b>2004.04.08</b> <a href="registration.html">参加申込ページ</a>をオープンしました。登録は<a href="https://www.ipsj.or.jp/cgi-bin/event.cgi?code=SACSIS2004">こちら</a>から。
+<br />
+<b>2004.04.07</b> <a href="program.html">暫定的なプログラム</a>を公開しました。
+<br />
+<b>2004.04.07</b> ポスター論文の受付を締め切りました。
+<br />
+<b>2004.03.26</b> ポスター論文の受付開始が遅れたため、
+ポスター論文の申し込み締切日を4/6(火)の17:00に変更しました。
+<br />
+<b>2004.03.10</b> <a href="poster_cfp.html">ポスター論文募集要項</a>を公開しました。<br />
+<b>2004.01.30</b> 論文アップロードを締め切りました <br />
+<b>2004.01.26</b> 論文投稿登録を締め切りました。論文のアップロードは1/30(金)までです <br />
+<b>2003.12.16</b> 正式な<a href="cfp.html">論文募集要項</a>を更新・公開しました。<br />
+<b>2003.12.16</b> <a href="http://www.hpcc.jp/acs/7/submit/">論文投稿の受付</a>を開始しました。<br />
+<b>2003.12.15</b> <a href="committee.html#pc">プログラム委員一覧</a>を公開しました。<br />
+<b>2003.10.31</b> 暫定的な<a href="cfp.html">論文募集要項</a>を公開しました。<br />
+<b>2003.09.13</b> SACSIS2004のページ公開開始。 <br />
+<b>2003.09.03</b> SACSIS2004のページを作成しました。 <br />-->
+</p>
+
+<p style="text-align:center">
+<span class="notice">
+SACSIS2004は無事終了致しました。<br />
+ご発表・ご参加・ご協力頂いた皆様に感謝致します。
+</span>
+</p>
+
+
+<h4>SACSIS2004 概要</h4>
+
+<!--@@SACSIS2004@@-->
+<!--@@SACSIS@@-->
+
+<h4>重要日程</h4>
+
+<!-- commented out <!--@@cfp.txt:【重要日程】-END@@-->-->
+
+<p>
+<span class="del"><b>2004/1/26(月)</b>	投稿論文登録締切（延長なし）</span><br />
+<span class="del"><b>2004/1/30(金)</b>	論文アップロード締切（延長なし）</span><br />
+<span class="del"><b>2004/3/16(火)頃</b> 論文 採否通知 </span><br />
+<span class="del"><b>2004/3/19(金)</b>	ポスター論文受付開始 </span><br />
+<span class="del"><b>2004/4/02(金) 17:00</b>	ポスター論文 締切 （延長なし）</span><br />
+<span class="del"><b class="notice">2004/4/06(火) 17:00</b>	ポスター論文 締切 （延長なし）</span>
+<br />
+<!--
+（ポスター論文の受付開始が遅れたため、変更しました）<br />
+-->
+<span class="del"><b>2004/4/16(金)頃</b> ポスター論文採否通知，および採択論文camera ready締切 </span>
+<br />
+<span class="del"><b>2004/5/12(水)</b> Web事前参加申込み(early registration)期日 </span>
+<br />
+<span class="del"><b>2004/5/26(水)〜5/28(金)</b> SACSIS2004開催 </span>
+ <br />
+</p>
+
+<h4>主催・協賛</h4>
+
+<ul>
+<li> 主催 (順不同)
+ <ul>
+ <li> <a href="http://www.ipsj.or.jp/">情報処理学会</a>・
+      <a href="http://www.hpcc.jp/sigarc/">計算機アーキテクチャ研究会</a> </li>
+ <li> 同・<a href="http://www.ipsj.or.jp/sig/os/">システムソフトウェアとオペレーティングシステム研究会</a> </li>
+ <li> 同・<a href="http://www.hpcc.jp/sighpc/">ハイパフォーマンスコンピューティング研究会</a> </li>
+ <li> 同・<a href="http://www.ipsj.or.jp/sig/pro/">プログラミング研究会</a> </li>
+ <li> 同・<a href="http://research.nii.ac.jp/~uno/sigal/">アルゴリズム研究会</a> <!--(依頼中)--> </li>
+ <li> <a href="http://www.ieice.org/">電子情報通信学会</a>・
+ <a href="http://www.ieice.org/iss/cpsy/jpn/">コンピュータシステム研究専門委員会</a> </li>
+ <li> <a href="http://homepage1.nifty.com/ieeetokyo/">
+	IEEE Computer Society Japan Chapter</a> <!--(依頼中)--> </li>
+ </ul>
+</li>
+<li> 協賛
+ <ul>
+ <li> <a href="http://www.ieice.org/">電子情報通信学会</a>・
+     <a href="http://www.ieice.org/iss/dc/jpn/">ディペンダブルコンピューティング研究専門委員会</a> </li>
+ </ul>
+</li>
+</ul>
+
+</div>
+
+<p>
+ <a href="http://validator.w3.org/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://www.w3.org/Icons/valid-xhtml11"
+  alt="Valid XHTML 1.1!" /></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+ <img style="border:0;width:88px;height:31px"
+  src="http://jigsaw.w3.org/css-validator/images/vcss"
+  alt="Valid CSS!" /></a>
+</p>
+
+</body>
+</html>
